@@ -64,9 +64,10 @@ def send_email_resend(html: str, subject: str,
     payload = json.dumps({
         "from": sender, "to": [recipient], "subject": subject, "html": html,
     }).encode("utf-8")
-    req = urllib.request.Request(RESEND_ENDPOINT, data=payload, method="POST")
-    req.add_header("Authorization", f"Bearer {api_key}")
-    req.add_header("Content-Type", "application/json")
+req = urllib.request.Request(RESEND_ENDPOINT, data=payload, method="POST")
+req.add_header("Authorization", f"Bearer {api_key}")
+req.add_header("Content-Type", "application/json")
+req.add_header("User-Agent", "curl/8.5.0")
     try:
         with urllib.request.urlopen(req, timeout=20) as resp:
             body = resp.read().decode("utf-8")
