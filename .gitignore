@@ -1,0 +1,37 @@
+# ── KLUCZE I POŚWIADCZENIA — NIGDY do repo ──
+.env
+.env.local
+*.env
+secrets/
+credentials/
+*.pem
+*.key
+combined_ca.pem            # lokalny artefakt SSL z Windows-only setupu
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# ── IDE / system ──
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Tymczasowe ──
+*.tmp
+*.log
+*.bak
+sweep_*.txt
+/tmp/
+
+# ── ŚWIADOMIE NIE wykluczamy: data/*.json ──
+# portfolio.json, equity_log.json, decision_log.json TRZYMAMY w repo,
+# bo to JEDYNY trwały magazyn stanu między uruchomieniami routine.
+# Repo MUSI być PRYWATNE — to dane finansowe.
