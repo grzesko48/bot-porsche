@@ -107,17 +107,32 @@ class XTBExportParser:
     # XTB zwykle podaje Amount ze znakiem, więc domyślnie sumujemy Amount wprost.
 
     def parse_file(self, path: str | Path) -> dict:
-        """Czyta .xlsx, zwraca {'closed': df, 'cash_ops': df, 'open': df} (każdy może być None).
-        Czyta WSZYSTKIE arkusze i skleja je pionowo — XTB potrafi rozbić sekcje na osobne arkusze."""
+        """Czyta .xlsx, zwraca {'closed': df, 'cash_ops': df, 'open': df}.
+        Próbuje openpyxl → calamine → czytelny komunikat błędu.
+        xStation generuje luźny xlsx który openpyxl czasem odrzuca."""
         path = Path(path)
         if not path.exists():
             raise FileNotFoundError(f"brak pliku eksportu: {path}")
-        # wczytaj wszystkie arkusze bez nagłówka, sklej pionowo (sekcje wykryjemy po treści)
-        all_sheets = pd.read_excel(path, header=None, engine="openpyxl", sheet_name=None)
+
+        all_sheets = None
+        last_err = None
+        for engine in ("openpyxl", "calamine"):
+            try:
+                all_sheets = pd.read_excel(path, header=None, engine=engine, sheet_name=None)
+                break
+            except Exception as e:
+                last_err = f"{engine}: {type(e).__name__}: {e}"
+                continue
+
+        if all_sheets is None:
+            raise ValueError(
+                f"Nie da się odczytać xlsx żadnym z engine'ów. Ostatni błąd: {last_err}. "
+                f"Workaround: otwórz plik w Google Sheets i pobierz jako .xlsx."
+            )
+
         frames = [df for df in all_sheets.values() if df is not None and len(df) > 0]
         if not frames:
             raise ValueError("pusty plik eksportu")
-        # wyrównaj liczbę kolumn i sklej
         maxcols = max(df.shape[1] for df in frames)
         norm = []
         for df in frames:
