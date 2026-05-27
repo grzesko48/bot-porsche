@@ -5,3 +5,5 @@ tenacity>=8.0
 lxml>=5.0
 yfinance>=0.2.40
 python-calamine
+openpyxl
+google-genai
