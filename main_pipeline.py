@@ -58,6 +58,25 @@ from notifications import send_email_resend, fetch_earnings_finnhub, fetch_earni
 from position_manager import (PositionManager, ManagedPosition, PositionMarketData,
                               load_managed_positions, save_managed_positions, append_decision_log)
 
+# ── Soczewki dodatkowe (informacyjne w mailu; NIE wpływają na scoring do czasu re-backtestu) ──
+# Fail-safe: brak modułu/danych -> soczewka nieaktywna, bot leci dalej.
+try:
+    import news_lens
+except Exception:
+    news_lens = None
+try:
+    import pead_lens
+except Exception:
+    pead_lens = None
+try:
+    import smart_money_confluence as sm_conf
+except Exception:
+    sm_conf = None
+try:
+    from email_render import build_email_html
+except Exception:
+    build_email_html = None
+
 logger = logging.getLogger("porsche.main")
 if not logger.handlers:
     _h = logging.StreamHandler(sys.stdout)
@@ -376,58 +395,153 @@ def run_bot(export_path: Optional[str], cfg: Optional[BotConfig] = None,
 # ─────────────────────────────────────────────────────────────────────────────
 # MAIL (po złotówkowemu) — używa render ze starego bota jeśli jest, inaczej prosty HTML
 # ─────────────────────────────────────────────────────────────────────────────
+def _collect_lens_badges(ticker: str, news_signals: dict, sm_data: dict) -> tuple:
+    """Zbiera plakietki + tekst soczewek dla jednego tickera.
+    Zwraca (badges:list, lens_text:str, sources:list|None).
+    BEZPIECZNE: brak modułu/danych -> puste, bez wpływu."""
+    badges = []
+    texts = []
+    sources = None
+    # NEWS / katalizatory
+    if news_lens is not None and news_signals:
+        sig = news_signals.get(ticker)
+        if sig:
+            b = news_lens.news_badge(sig)
+            if b:
+                badges.append(b)
+            t = news_lens.news_text(sig)
+            if t:
+                texts.append(t)
+            sources = news_lens.news_sources(sig)
+    # SMART MONEY confluence (fundusze 13F + politycy + insider)
+    if sm_conf is not None and sm_data and not sm_data.get("_empty"):
+        try:
+            score = sm_conf.score_ticker(ticker, sm_data)
+            b = sm_conf.confluence_badge(score)
+            if b:
+                badges.append(b)
+        except Exception:
+            pass
+    # PEAD — wynik per ticker oczekiwany w news_signals pod kluczem '_pead' (opcjonalnie)
+    if pead_lens is not None and news_signals:
+        sig = news_signals.get(ticker) or {}
+        pead = sig.get("_pead")
+        if pead:
+            b = pead_lens.pead_badge(pead)
+            if b:
+                badges.append(b)
+            t = pead_lens.pead_text(pead)
+            if t:
+                texts.append(t)
+    return badges, " ".join(texts), sources
+
+
 def build_email(res: BotRunResult, cfg: BotConfig, fx: float) -> tuple[str, str]:
     tag = "[DRY-RUN] " if res.dry_run else ""
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     subject = f"{tag}Bot Porsche — {today}"
 
     gen = OrderGenerator()
+
+    # Wczytaj dane soczewek (jeśli agent je wypełnił w tym cyklu). Fail-safe.
+    news_signals = {}
+    sm_data = {}
+    if news_lens is not None:
+        try:
+            news_signals = news_lens.read_news_signals()
+        except Exception:
+            news_signals = {}
+    if sm_conf is not None:
+        try:
+            sm_data = sm_conf.load_smart_money()
+        except Exception:
+            sm_data = {}
+
+    # Zbuduj kontekst dla nowego renderu
+    decisions_ctx = []
+    for d in (res.position_decisions or []):
+        extra = ""
+        if d.action == "SELL_PARTIAL":
+            extra = f" ({d.fraction*100:.0f}% pozycji)"
+        if d.new_stop_usd:
+            extra += f" · podnieś Sell Stop na {d.new_stop_usd:.2f} USD"
+        decisions_ctx.append({"ticker": d.ticker, "action": d.action,
+                              "extra_html": extra, "reason": d.reason})
+
+    picks_ctx = []
+    portfolio_rows = []
+    for i, p in enumerate(res.accepted_picks or [], 1):
+        directives = gen.render_text(p).replace("\n", "<br>")
+        pct = (p.value_pln / res.equity_pln * 100) if res.equity_pln > 0 else 0
+        badges, lens_text, sources = _collect_lens_badges(p.ticker, news_signals, sm_data)
+        picks_ctx.append({
+            "idx": i, "ticker": p.ticker, "value_pln": p.value_pln, "pct": pct,
+            "directives_html": directives, "badges": badges,
+            "lens_text": lens_text, "sources": sources,
+        })
+        # Wiersz tabeli "portfel po transakcjach" — nowe pozycje otwierane dziś.
+        portfolio_rows.append({
+            "ticker": p.ticker, "value_pln": p.value_pln, "pct": pct,
+            "sector": getattr(p, "sector", "") or "—",
+            "stop_usd": getattr(p, "stop_price_usd", None),
+        })
+
+    tracker_html = ""
+    if res.tracker_state is not None:
+        try:
+            tracker_html = format_email_section(res.tracker_state)
+        except Exception:
+            tracker_html = ""
+
+    portfolio_total = sum(r["value_pln"] for r in portfolio_rows)
+    ctx = {
+        "today": today, "tag": tag,
+        "cash_pln": res.cash_pln, "equity_pln": res.equity_pln,
+        "radar_level": res.radar_level, "tracker_section_html": tracker_html,
+        "halted": res.halted, "halt_reason": res.halt_reason,
+        "position_decisions": decisions_ctx, "accepted_picks": picks_ctx,
+        "portfolio_rows": portfolio_rows, "portfolio_total_pln": portfolio_total,
+        "radar_watch": res.radar_watch, "goal_pln": cfg.goal_pln,
+    }
+
+    # Nowy ładny render; fallback do prostego HTML gdyby modułu brakło.
+    if build_email_html is not None:
+        try:
+            return subject, build_email_html(ctx)
+        except Exception as e:
+            logger.warning("email_render padł (%s) — fallback prosty HTML", e)
+
+    # ── FALLBACK: prosty HTML (gdyby email_render niedostępny) ──
     parts = [f"<h2>🏁 Bot Porsche — raport {today} {tag}</h2>"]
     parts.append(f"<p><b>Konto:</b> gotówka {res.cash_pln:,.0f} zł · equity {res.equity_pln:,.0f} zł · "
                  f"radar makro {res.radar_level}/3</p>")
-
-    # Tracker performance vs SPY (jeśli mamy stan)
-    if res.tracker_state is not None:
-        parts.append(format_email_section(res.tracker_state))
-
+    if tracker_html:
+        parts.append(tracker_html)
     if res.halted:
-        parts.append(f"<div style='color:#b91c1c'><b>🛑 BOT ZATRZYMANY:</b> {res.halt_reason}<br>"
-                     f"To jest celowe — bot nie działa na niespójnym stanie.</div>")
+        parts.append(f"<div style='color:#b91c1c'><b>🛑 BOT ZATRZYMANY:</b> {res.halt_reason}</div>")
         return subject, "\n".join(parts)
-
-    if res.position_decisions:
+    if decisions_ctx:
         parts.append("<h3>📋 Twoje pozycje — co zrobić dziś:</h3><ul>")
-        for d in res.position_decisions:
-            extra = ""
-            if d.action == "SELL_PARTIAL":
-                extra = f" ({d.fraction*100:.0f}% pozycji)"
-            if d.new_stop_usd:
-                extra += f" · podnieś Sell Stop na {d.new_stop_usd:.2f} USD"
-            parts.append(f"<li><b>{d.ticker}: {d.action}</b>{extra} — {d.reason}</li>")
+        for d in decisions_ctx:
+            parts.append(f"<li><b>{d['ticker']}: {d['action']}</b>{d['extra_html']} — {d['reason']}</li>")
         parts.append("</ul>")
-
-    if res.accepted_picks:
-        n = len(res.accepted_picks)
-        total = sum(p.value_pln for p in res.accepted_picks)
+    if picks_ctx:
+        n = len(picks_ctx)
+        total = sum(p["value_pln"] for p in picks_ctx)
         parts.append(f"<h3>🎯 PORTFEL DO OTWARCIA — {n} {'pozycja' if n == 1 else 'pozycje' if n < 5 else 'pozycji'} (razem ~{total:,.0f} zł):</h3>")
-        for i, p in enumerate(res.accepted_picks, 1):
-            directives = gen.render_text(p).replace("\n", "<br>")
-            pct = (p.value_pln / res.equity_pln * 100) if res.equity_pln > 0 else 0
+        for p in picks_ctx:
             parts.append(f"<div style='border:2px solid #15803d;padding:12px;border-radius:8px;margin-bottom:10px'>"
-                         f"<b>{i}. {p.ticker}</b> — wartość ~{p.value_pln:,.0f} zł ({pct:.0f}% portfela)<br><br>{directives}</div>")
+                         f"<b>{p['idx']}. {p['ticker']}</b> — wartość ~{p['value_pln']:,.0f} zł "
+                         f"({p['pct']:.0f}% portfela)<br><br>{p['directives_html']}</div>")
     else:
-        parts.append("<h3>Dziś nie kupujemy</h3>"
-                     "<p>Żadna spółka nie przeszła wszystkich filtrów. Trzymaj gotówkę.</p>")
-
+        parts.append("<h3>Dziś nie kupujemy</h3><p>Żadna spółka nie przeszła filtrów. Trzymaj gotówkę.</p>")
     if res.radar_watch:
         parts.append("<h3>📡 Radar obserwacyjny:</h3><ul>")
         for tk, sektor, powod in res.radar_watch:
             parts.append(f"<li><b>{tk}</b> ({sektor}) — {powod}</li>")
         parts.append("</ul>")
-
     parts.append(f"<hr><p style='font-size:9pt;color:#6b7280'>Cel: {cfg.goal_pln:,} zł. "
-                 f"Zautomatyzowana analiza — logika i egzekucja na XTB to Twoja odpowiedzialność. "
-                 f"To nie porada inwestycyjna. Wartości w zł; ceny akcji i Sell Stop wpisujesz w USD.</p>")
+                 f"To nie porada inwestycyjna. Wartości w zł; ceny i Sell Stop w USD.</p>")
     return subject, "\n".join(parts)
 
 
