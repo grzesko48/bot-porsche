@@ -245,6 +245,13 @@ def run_bot(export_path: Optional[str], cfg: Optional[BotConfig] = None,
             if not export_path:
                 res.ok = False; res.halt_reason = "brak --export"; return res
             reconciler = Reconciler()
+            sync = reconciler.sync_or_halt(export_path, cfg.portfolio_json)
+            if sync["halt"]:
+                res.ok = False; res.halted = True; res.halt_reason = sync["reason"]; return res
+            if sync.get("seeded"):
+                res.notes.append(f"auto-sync: nowe pozycje {sync['seeded']} (stop placeholder, PositionManager przeliczy)")
+            if sync.get("dropped"):
+                res.notes.append(f"auto-sync: usunięto sprzedane {sync['dropped']}")
             actual = reconciler.build_actual_state(export_path)
             pj = Path(cfg.portfolio_json)
             expected_json = None
