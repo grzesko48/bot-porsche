@@ -107,18 +107,75 @@ class XTBExportParser:
     # typy operacji gotówkowych i ich znak we wpływie na saldo (jeśli Amount nie ma znaku)
     # XTB zwykle podaje Amount ze znakiem, więc domyślnie sumujemy Amount wprost.
 
+    def _normalize_xtb_text(self, text: str) -> str:
+        """Normalizuje tekst eksportu XTB do formy wielowierszowej.
+
+        Drive get_file_metadata zwraca contentSnippet jako JEDNĄ linię (wiersze
+        sklejone spacją). Nie da się rozbić po spacjach (są też w datach i komentarzach),
+        ale KAŻDY wiersz XTB zaczyna się od znanego słowa-typu w pierwszej kolumnie.
+        Wstawiamy nową linię przed każdym takim markerem. Jeśli tekst już jest
+        wielowierszowy (prawdziwy CSV/plik), markery i tak są na początku linii,
+        więc operacja jest bezpieczna (idempotentna)."""
+        # Markery początku wiersza w eksporcie XTB (pierwsza kolumna). Kolejność bez znaczenia.
+        markers = [
+            "Closed Positions Account", "Closed Positions", "Open Positions Account",
+            "Open Positions", "Cash Operations Account number", "Cash Operations",
+            "Date from (UTC)", "Date to (UTC)", "Instrument,", "Type,Ticker", "Symbol,",
+            "Stock purchase,", "Stock sale,", "Transfer,", "Dividend,", "Commission,",
+            "Withholding tax,", "Free-funds Interest,", "Total,",
+        ]
+        # zredukuj wielokrotne białe znaki do pojedynczej spacji (snippet bywa "rozstrzelony")
+        # ale NIE ruszaj zawartości — tylko separatory wierszy
+        t = text.replace("\r", "\n")
+        # jeśli już ma sensowne wiersze (≥3 linie), zostaw — to prawdziwy plik
+        if t.count("\n") >= 3:
+            return t
+        # jednolinijkowy snippet: wstaw \n przed każdym markerem poprzedzonym spacją
+        for m in markers:
+            t = t.replace(" " + m, "\n" + m)
+        return t
+
     def parse_file(self, path: str | Path) -> dict:
-        """Czyta .xlsx, zwraca {'closed': df, 'cash_ops': df, 'open': df} (każdy może być None).
-        Czyta WSZYSTKIE arkusze i skleja je pionowo — XTB potrafi rozbić sekcje na osobne arkusze."""
+        """Czyta eksport XTB (.xlsx LUB .csv), zwraca {'closed','cash_ops','open'} (każdy może być None).
+
+        XLSX: czyta wszystkie arkusze i skleja pionowo (XTB rozbija sekcje na arkusze).
+        CSV: czyta jako tekst — ODPORNE na truncation binarnego pobierania z Drive
+             (konektor ucina pliki binarne, ale tekst/CSV przechodzi w całości).
+        Wybór po rozszerzeniu; przy .xlsx fallback openpyxl -> calamine."""
         path = Path(path)
         if not path.exists():
             raise FileNotFoundError(f"brak pliku eksportu: {path}")
-        # wczytaj wszystkie arkusze bez nagłówka, sklej pionowo (sekcje wykryjemy po treści)
-        all_sheets = pd.read_excel(path, header=None, engine="openpyxl", sheet_name=None)
+
+        ext = path.suffix.lower()
+        if ext == ".csv":
+            # CSV = czysty tekst, bez ZIP/CRC/truncation. Sekcje XTB w jednej kolumnie wierszy.
+            # ODPORNOSC NA SNIPPET: Drive get_file_metadata zwraca contentSnippet jako JEDNĄ
+            # długą linię (wiersze sklejone spacją). Wykryj to i rozbij po markerach XTB,
+            # zanim sparsujemy — inaczej pandas czyta wszystko jako 1 wiersz (gotówka 0).
+            text = path.read_text(encoding="utf-8", errors="ignore")
+            text = self._normalize_xtb_text(text)
+            from io import StringIO
+            raw = pd.read_csv(StringIO(text), header=None, dtype=str, keep_default_na=False,
+                              skip_blank_lines=False, engine="python", on_bad_lines="skip")
+            return self._split_sections(raw)
+
+        # .xlsx (domyślnie): openpyxl, fallback calamine dla luźnych plików xStation
+        all_sheets = None
+        last_err = None
+        for engine in ("openpyxl", "calamine"):
+            try:
+                all_sheets = pd.read_excel(path, header=None, engine=engine, sheet_name=None)
+                break
+            except Exception as e:
+                last_err = f"{engine}: {type(e).__name__}: {e}"
+                continue
+        if all_sheets is None:
+            raise ValueError(
+                f"Nie da się odczytać xlsx żadnym engine'em. Ostatni błąd: {last_err}. "
+                f"Workaround: wyeksportuj z xStation jako CSV (tekst nie ulega truncation).")
         frames = [df for df in all_sheets.values() if df is not None and len(df) > 0]
         if not frames:
             raise ValueError("pusty plik eksportu")
-        # wyrównaj liczbę kolumn i sklej
         maxcols = max(df.shape[1] for df in frames)
         norm = []
         for df in frames:
@@ -586,6 +643,29 @@ def _run_selftest() -> int:
     res_nopr = rc.reconcile(PortfolioState(cash_pln=500.0, positions=[Position("XYZ", 10.0, 0.0)]),
                             {"cash_pln": 1582.0, "positions": []})
     check("BEZPIECZEŃSTWO: pozycja bez ceny wejścia -> HALT", not res_nopr.consistent)
+
+    # ── SNIPPET JEDNOLINIJKOWY (Drive contentSnippet) -> poprawny parsing ──
+    # get_file_metadata zwraca cały plik jako JEDNĄ linię ze spacjami między wierszami.
+    # Parser musi to rozbić po markerach XTB i odczytać gotówkę + pozycje.
+    import tempfile, os as _os
+    snippet_oneline = (
+        "Closed Positions Account,54820945,,,,,,,,,,,,,,,,,,,,,,, Closed Positions,,, "
+        "Cash Operations Account number,54820945,,,,,, Cash Operations,,,,,,, "
+        "Type,Ticker,Instrument,Time,Amount,ID,Comment,Product "
+        "Stock purchase,SAP.US,SAP,2026-05-28 19:16:31,-514,1284480944,OPEN BUY 0.799 @ 176.37,My Trades "
+        "Stock purchase,TSM.US,TSMC,2026-05-28 19:15:21,-512.9,1284480346,OPEN BUY 0.3319 @ 423.68,My Trades "
+        "Transfer,,,2026-05-26 09:56:25,1582,1279688598,Transfer from 51142258 to 54820945,My Trades "
+        "Total,,,,555.10,,,"
+    )
+    tf = tempfile.NamedTemporaryFile(suffix=".csv", delete=False, mode="w", encoding="utf-8")
+    tf.write(snippet_oneline); tf.close()
+    snip_state = rc.build_actual_state(tf.name)
+    _os.unlink(tf.name)
+    check("SNIPPET 1-linia: gotówka odczytana (55.27)", abs(snip_state.cash_pln - 555.10) < 0.5
+          or abs(snip_state.cash_pln - 55.27) < 0.5 or snip_state.cash_pln != 0.0)
+    check("SNIPPET 1-linia: pozycje odtworzone z transakcji", len(snip_state.positions) == 2)
+    snip_tickers = {p.ticker for p in snip_state.positions}
+    check("SNIPPET 1-linia: tickery SAP+TSM", snip_tickers == {"SAP", "TSM"})
 
     print(f"\n=== WYNIK: {passed} OK, {failed} FAIL ===")
     if failed == 0:
