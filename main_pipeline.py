@@ -245,13 +245,6 @@ def run_bot(export_path: Optional[str], cfg: Optional[BotConfig] = None,
             if not export_path:
                 res.ok = False; res.halt_reason = "brak --export"; return res
             reconciler = Reconciler()
-            sync = reconciler.sync_or_halt(export_path, cfg.portfolio_json)
-            if sync["halt"]:
-                res.ok = False; res.halted = True; res.halt_reason = sync["reason"]; return res
-            if sync.get("seeded"):
-                res.notes.append(f"auto-sync: nowe pozycje {sync['seeded']} (stop placeholder, PositionManager przeliczy)")
-            if sync.get("dropped"):
-                res.notes.append(f"auto-sync: usunięto sprzedane {sync['dropped']}")
             actual = reconciler.build_actual_state(export_path)
             pj = Path(cfg.portfolio_json)
             expected_json = None
@@ -288,6 +281,43 @@ def run_bot(export_path: Optional[str], cfg: Optional[BotConfig] = None,
         if result.halted:
             res.ok = False; res.halted = True; res.halt_reason = result.halt_reason
             return res
+
+        # ── 6.0. AUTO-SYNC: jeśli reconcile przyjął nowy stan z XTB (wykonane przez Ciebie
+        # zlecenia), odtwórz brakujące pozycje jako ManagedPosition i zapisz portfolio.json.
+        # Dzięki temu NIE musisz ręcznie edytować portfolio.json po każdej transakcji —
+        # eksport XTB jest źródłem prawdy, bot się z niego uczy.
+        if not selftest and (result.reconcile_synced or result.actual_positions):
+            try:
+                existing = load_managed_positions(cfg.portfolio_json)
+                existing_by_tk = {mp.ticker: mp for mp in (existing or [])}
+                today_iso = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+                synced_positions = []
+                for pos in result.actual_positions:
+                    tk = pos.ticker
+                    if tk in existing_by_tk:
+                        # już zarządzana — zachowaj jej stan (stop, HWM, dni)
+                        synced_positions.append(existing_by_tk[tk])
+                    else:
+                        # nowa pozycja z XTB — odtwórz z ceny wejścia, stop wstępny
+                        # (ratchet/position_manager podniesie go w tym samym cyklu niżej)
+                        entry = pos.open_price if pos.open_price > 0 else 0.0
+                        init_stop = round(entry * 0.95, 2) if entry > 0 else 0.0  # -5% wstępny
+                        synced_positions.append(ManagedPosition(
+                            ticker=tk, shares=pos.volume, entry_price_usd=entry,
+                            entry_date=today_iso, stop_loss_usd=init_stop,
+                            high_water_mark_usd=entry, days_held=0,
+                        ))
+                if synced_positions:
+                    save_managed_positions(cfg.portfolio_json, synced_positions,
+                                           cash_pln=actual.cash_pln)
+                    res.notes.append(
+                        f"AUTO-SYNC portfolio.json: {len(synced_positions)} pozycji ze stanu XTB "
+                        f"({', '.join(p.ticker for p in synced_positions)})")
+                    logger.info("AUTO-SYNC: portfolio.json zaktualizowany ze stanu XTB (%d pozycji)",
+                                len(synced_positions))
+            except Exception as e:
+                res.notes.append(f"AUTO-SYNC nieudany: {e}")
+                logger.warning("AUTO-SYNC nieudany: %s", e)
 
         # ── 6.5. ZARZĄDZANIE ISTNIEJĄCYMI POZYCJAMI (przed otwieraniem nowych) ──
         # Bot pamięta co trzyma (portfolio.json -> managed_positions) i decyduje HOLD/SELL
