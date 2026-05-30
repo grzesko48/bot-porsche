@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "date": "2026-05-30",
+    "ticker": "SAP",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +3.1%), nowy szczyt 181.79",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-05-30",
+    "ticker": "ASML",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +0.2%), nowy szczyt 1612.76",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-05-30",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L -1.2%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  }
+]

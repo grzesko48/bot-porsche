@@ -1,5 +1,34 @@
 {
-  "cash_pln": 1582.0,
+  "cash_pln": 55.27,
   "positions": [],
-  "managed_positions": []
+  "managed_positions": [
+    {
+      "ticker": "SAP",
+      "shares": 0.799,
+      "entry_price_usd": 176.37,
+      "entry_date": "2026-05-30",
+      "stop_loss_usd": 167.55,
+      "high_water_mark_usd": 181.7899932861328,
+      "days_held": 0
+    },
+    {
+      "ticker": "ASML",
+      "shares": 0.0851,
+      "entry_price_usd": 1610.28,
+      "entry_date": "2026-05-30",
+      "stop_loss_usd": 1529.77,
+      "high_water_mark_usd": 1612.760009765625,
+      "days_held": 0
+    },
+    {
+      "ticker": "TSM",
+      "shares": 0.3319,
+      "entry_price_usd": 423.68,
+      "entry_date": "2026-05-30",
+      "stop_loss_usd": 402.5,
+      "high_water_mark_usd": 423.68,
+      "days_held": 0
+    }
+  ],
+  "updated_utc": "2026-05-30T11:43:27+00:00"
 }
