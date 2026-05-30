@@ -82,6 +82,8 @@ class PipelineResult:
     accepted_orders: list = field(default_factory=list)   # list[OrderPlan]
     rejected: list = field(default_factory=list)          # list[(ticker, reason)]
     notes: list = field(default_factory=list)
+    reconcile_synced: bool = False                        # True = reconcile przyjął nowy stan z XTB
+    actual_positions: list = field(default_factory=list)  # list[Position] z eksportu (źródło prawdy)
 
 
 class PorschePipeline:
@@ -123,6 +125,8 @@ class PorschePipeline:
             logger.error(res.halt_reason)
             return res
         res.notes.append(f"reconcile OK: {rec.reason}")
+        res.reconcile_synced = rec.synced
+        res.actual_positions = list(actual_state.positions)
 
         cash_pln = actual_state.cash_pln
         positions_value_pln = sum(p.volume * p.open_price * usd_pln_rate for p in actual_state.positions)
