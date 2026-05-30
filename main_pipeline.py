@@ -76,6 +76,10 @@ try:
     from email_render import build_email_html
 except Exception:
     build_email_html = None
+try:
+    import lens_shadow
+except Exception:
+    lens_shadow = None
 
 logger = logging.getLogger("porsche.main")
 if not logger.handlers:
@@ -90,6 +94,7 @@ class BotConfig:
     portfolio_json: str = "portfolio.json"
     decision_log_json: str = "decision_log.json"
     equity_log_json: str = "equity_log.json"      # tracker: snapshoty equity vs SPY
+    lens_shadow_log: str = "lens_shadow_log.json"  # rejestr A/B skuteczności soczewek
     fx_default: float = 4.0
     max_radar_names: int = 5          # ile spółek w sekcji Radar Obserwacyjny
     goal_pln: int = 1_700_000
@@ -373,6 +378,60 @@ def run_bot(export_path: Optional[str], cfg: Optional[BotConfig] = None,
             logger.info("MAKRO-STOP regime: zablokowano %d nowych pozycji (SPY<200SMA)", len(blocked))
         sniper = choose_sniper(res.accepted_picks, candidates_by_ticker)
         res.sniper_pick = sniper
+
+        # ── 7.5. SHADOW LEDGER SOCZEWEK (pomiar skuteczności, NIE wpływa na zakupy) ──
+        # Każdy cykl: policz scalary soczewek dla wszystkich kandydatów i zaloguj
+        # ranking bazowy (sam momentum) vs z soczewkami. lens_evaluate.py liczy potem
+        # forward return obu zestawów. Domyślnie tryb 'shadow' — tylko log.
+        if not selftest and lens_shadow is not None:
+            try:
+                ns_data = {}
+                smd = {}
+                if news_lens is not None:
+                    try:
+                        ns_data = news_lens.read_news_signals()
+                    except Exception:
+                        ns_data = {}
+                if sm_conf is not None:
+                    try:
+                        smd = sm_conf.load_smart_money()
+                    except Exception:
+                        smd = {}
+                scored = []
+                for c in candidates:
+                    tk = c.ticker
+                    mom = float(c.__dict__.get("_mom", 0.0))
+                    ns_scalar = ps_scalar = ss_scalar = 1.0
+                    sig = ns_data.get(tk) if ns_data else None
+                    if news_lens is not None and sig:
+                        try:
+                            ns_scalar = news_lens.news_scalar(sig)
+                        except Exception:
+                            ns_scalar = 1.0
+                        if pead_lens is not None and sig.get("_pead"):
+                            try:
+                                ps_scalar = pead_lens.pead_scalar(sig.get("_pead"))
+                            except Exception:
+                                ps_scalar = 1.0
+                    if sm_conf is not None and smd and not smd.get("_empty"):
+                        try:
+                            ss_scalar = sm_conf.confluence_scalar(sm_conf.score_ticker(tk, smd))
+                        except Exception:
+                            ss_scalar = 1.0
+                    scored.append({"ticker": tk, "mom_score": mom,
+                                   "news_scalar": ns_scalar, "pead_scalar": ps_scalar,
+                                   "sm_scalar": ss_scalar})
+                if scored:
+                    entry = lens_shadow.build_shadow_entry(scored)
+                    lens_shadow.append_shadow_log(entry, cfg.lens_shadow_log)
+                    if lens_shadow.has_divergence(entry):
+                        res.notes.append(
+                            f"SHADOW soczewki: ranking zmieniony (baseline {entry['baseline_top'][:3]} "
+                            f"vs lens {entry['lens_top'][:3]}) — zalogowano do pomiaru")
+                    else:
+                        res.notes.append("SHADOW soczewki: brak sygnału (scalary neutralne) — zalogowano")
+            except Exception as e:
+                res.notes.append(f"SHADOW ledger nieudany: {e}")
 
         # radar: kandydaci, którzy przeszli wstępny skan ale NIE są wśród zaakceptowanych
         accepted_tks = {o.ticker for o in res.accepted_picks}
