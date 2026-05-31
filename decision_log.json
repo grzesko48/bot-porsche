@@ -79,5 +79,32 @@
     "reason": "trzymam (P/L -1.2%)",
     "fraction": 1.0,
     "new_stop_usd": null
+  },
+  {
+    "date": "2026-05-31",
+    "ticker": "SAP",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +3.1%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-05-31",
+    "ticker": "ASML",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +0.2%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-05-31",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L -1.2%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
   }
 ]
