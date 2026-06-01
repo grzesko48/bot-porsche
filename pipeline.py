@@ -129,7 +129,14 @@ class PorschePipeline:
         res.actual_positions = list(actual_state.positions)
 
         cash_pln = actual_state.cash_pln
-        positions_value_pln = sum(p.volume * p.open_price * usd_pln_rate for p in actual_state.positions)
+        # Wartość pozycji liczona po AKTUALNEJ cenie rynkowej (nie po cenie wejścia!).
+        # Aktualne ceny są w candidates (price_usd ze skanu yfinance). Mapujemy ticker->cena.
+        # Fallback: jeśli brak aktualnej ceny dla pozycji, użyj ceny wejścia (open_price).
+        price_by_ticker = {c.ticker: c.price_usd for c in (candidates or []) if getattr(c, "price_usd", 0)}
+        positions_value_pln = 0.0
+        for p in actual_state.positions:
+            cur_price = price_by_ticker.get(p.ticker) or p.open_price
+            positions_value_pln += p.volume * cur_price * usd_pln_rate
         equity_pln = cash_pln + positions_value_pln
         res.cash_pln = round(cash_pln, 2); res.equity_pln = round(equity_pln, 2)
 
@@ -388,6 +395,23 @@ def _run_selftest() -> int:
     check("REGRESJA: 40 kandydatów -> max 5 pozycji (limit trzyma)", len(r.accepted_orders) <= 5)
     check("REGRESJA: suma NIGDY > kapitał (nie 11k za 1.5k konta)",
           sum(o.value_pln for o in r.accepted_orders) <= 1582.0 + 0.01)
+
+    # ── REGRESJA EQUITY: liczone po AKTUALNEJ cenie rynkowej, NIE po cenie wejścia ──
+    from reconcile import PortfolioState as _PS, Position as _Pos
+    eq_state = _PS(cash_pln=55.27, positions=[_Pos("TSM", 0.3319, 423.68)])  # wejście 423.68
+    eq_cand = CandidateInput(ticker="TSM", price_usd=460.0, atr_pct=0.03, atr_usd=5.0,
+                             days_to_earnings=30, avg_dollar_volume=5e9, rsi14=60.0,
+                             price_vs_sma20=1.05, fractional_enabled=True)  # rynek 460
+    eq_r = PorschePipeline(dry_run=True).run(
+        actual_state=eq_state,
+        expected_json={"cash_pln": 55.27, "positions": [{"ticker": "TSM", "volume": 0.3319, "open_price": 423.68}]},
+        radar_level=0, usd_pln_rate=3.63, candidates=[eq_cand])
+    eq_current = round(0.3319 * 460.0 * 3.63 + 55.27, 2)   # po aktualnej cenie
+    eq_entry = round(0.3319 * 423.68 * 3.63 + 55.27, 2)    # po cenie wejścia (stary bug)
+    check("EQUITY: liczone po AKTUALNEJ cenie rynkowej (nie wejścia)",
+          abs(eq_r.equity_pln - eq_current) < 1.0)
+    check("EQUITY: NIE liczy po cenie wejścia (stary bug nie wrócił)",
+          abs(eq_r.equity_pln - eq_entry) > 1.0)
 
     print(f"\n=== WYNIK: {passed} OK, {failed} FAIL ===")
     if failed == 0:
