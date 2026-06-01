@@ -95,6 +95,7 @@ class BotConfig:
     decision_log_json: str = "decision_log.json"
     equity_log_json: str = "equity_log.json"      # tracker: snapshoty equity vs SPY
     lens_shadow_log: str = "lens_shadow_log.json"  # rejestr A/B skuteczności soczewek
+    news_request_json: str = "news_request.json"   # lista kandydatów dla agenta (KROK D2)
     fx_default: float = 4.0
     max_radar_names: int = 5          # ile spółek w sekcji Radar Obserwacyjny
     goal_pln: int = 1_700_000
@@ -270,6 +271,25 @@ def run_bot(export_path: Optional[str], cfg: Optional[BotConfig] = None,
         res.radar_level = radar_level
         res.notes.append(f"skan rynku: {len(candidates)} kandydatów, radar {radar_level}/3, źródło {meta.get('source')}")
         candidates_by_ticker = {c.ticker: c for c in candidates}
+
+        # ── 2.5. SOCZEWKI: zapisz listę kandydatów do sprawdzenia przez agenta (KROK D2) ──
+        # Bez tego news_request.json nie powstaje i soczewki mierzą pustkę (same neutralne).
+        # Bierzemy top kandydatów wg momentum — to one są warte sprawdzenia newsami/smart money.
+        if not selftest and news_lens is not None and candidates:
+            try:
+                top_for_news = sorted(
+                    candidates, key=lambda c: float(c.__dict__.get("_mom", 0.0)), reverse=True
+                )[:5]
+                n_req = news_lens.write_news_request(
+                    [{"ticker": c.ticker,
+                      "name": getattr(c, "name", "") or c.ticker,
+                      "sector": getattr(c, "sector", "") or ""} for c in top_for_news],
+                    path=cfg.news_request_json,
+                )
+                if n_req:
+                    res.notes.append(f"news_request.json: {n_req} kandydatów do sprawdzenia przez agenta (KROK D2)")
+            except Exception as e:
+                res.notes.append(f"write_news_request nieudany: {e}")
 
         # ── 3-6. PIPELINE (reconcile, inwarianty, smart money, sizing, gates, order) ──
         pipe = PorschePipeline(dry_run=dry_run)
