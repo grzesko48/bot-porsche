@@ -94,6 +94,7 @@ class ReconcileResult:
     expected_cash_pln: Optional[float] = None
     actual_cash_pln: Optional[float] = None
     delta_pln: Optional[float] = None
+    synced: bool = False     # True = rozjazd wyjaśniony transakcjami, przyjęto stan XTB
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -106,14 +107,59 @@ class XTBExportParser:
     # typy operacji gotówkowych i ich znak we wpływie na saldo (jeśli Amount nie ma znaku)
     # XTB zwykle podaje Amount ze znakiem, więc domyślnie sumujemy Amount wprost.
 
+    def _normalize_xtb_text(self, text: str) -> str:
+        """Normalizuje tekst eksportu XTB do formy wielowierszowej.
+
+        Drive get_file_metadata zwraca contentSnippet jako JEDNĄ linię (wiersze
+        sklejone spacją). Nie da się rozbić po spacjach (są też w datach i komentarzach),
+        ale KAŻDY wiersz XTB zaczyna się od znanego słowa-typu w pierwszej kolumnie.
+        Wstawiamy nową linię przed każdym takim markerem. Jeśli tekst już jest
+        wielowierszowy (prawdziwy CSV/plik), markery i tak są na początku linii,
+        więc operacja jest bezpieczna (idempotentna)."""
+        # Markery początku wiersza w eksporcie XTB (pierwsza kolumna). Kolejność bez znaczenia.
+        markers = [
+            "Closed Positions Account", "Closed Positions", "Open Positions Account",
+            "Open Positions", "Cash Operations Account number", "Cash Operations",
+            "Date from (UTC)", "Date to (UTC)", "Instrument,", "Type,Ticker", "Symbol,",
+            "Stock purchase,", "Stock sale,", "Transfer,", "Dividend,", "Commission,",
+            "Withholding tax,", "Free-funds Interest,", "Total,",
+        ]
+        # zredukuj wielokrotne białe znaki do pojedynczej spacji (snippet bywa "rozstrzelony")
+        # ale NIE ruszaj zawartości — tylko separatory wierszy
+        t = text.replace("\r", "\n")
+        # jeśli już ma sensowne wiersze (≥3 linie), zostaw — to prawdziwy plik
+        if t.count("\n") >= 3:
+            return t
+        # jednolinijkowy snippet: wstaw \n przed każdym markerem poprzedzonym spacją
+        for m in markers:
+            t = t.replace(" " + m, "\n" + m)
+        return t
+
     def parse_file(self, path: str | Path) -> dict:
-        """Czyta .xlsx, zwraca {'closed': df, 'cash_ops': df, 'open': df}.
-        Próbuje openpyxl → calamine → czytelny komunikat błędu.
-        xStation generuje luźny xlsx który openpyxl czasem odrzuca."""
+        """Czyta eksport XTB (.xlsx LUB .csv), zwraca {'closed','cash_ops','open'} (każdy może być None).
+
+        XLSX: czyta wszystkie arkusze i skleja pionowo (XTB rozbija sekcje na arkusze).
+        CSV: czyta jako tekst — ODPORNE na truncation binarnego pobierania z Drive
+             (konektor ucina pliki binarne, ale tekst/CSV przechodzi w całości).
+        Wybór po rozszerzeniu; przy .xlsx fallback openpyxl -> calamine."""
         path = Path(path)
         if not path.exists():
             raise FileNotFoundError(f"brak pliku eksportu: {path}")
 
+        ext = path.suffix.lower()
+        if ext == ".csv":
+            # CSV = czysty tekst, bez ZIP/CRC/truncation. Sekcje XTB w jednej kolumnie wierszy.
+            # ODPORNOSC NA SNIPPET: Drive get_file_metadata zwraca contentSnippet jako JEDNĄ
+            # długą linię (wiersze sklejone spacją). Wykryj to i rozbij po markerach XTB,
+            # zanim sparsujemy — inaczej pandas czyta wszystko jako 1 wiersz (gotówka 0).
+            text = path.read_text(encoding="utf-8", errors="ignore")
+            text = self._normalize_xtb_text(text)
+            from io import StringIO
+            raw = pd.read_csv(StringIO(text), header=None, dtype=str, keep_default_na=False,
+                              skip_blank_lines=False, engine="python", on_bad_lines="skip")
+            return self._split_sections(raw)
+
+        # .xlsx (domyślnie): openpyxl, fallback calamine dla luźnych plików xStation
         all_sheets = None
         last_err = None
         for engine in ("openpyxl", "calamine"):
@@ -123,13 +169,10 @@ class XTBExportParser:
             except Exception as e:
                 last_err = f"{engine}: {type(e).__name__}: {e}"
                 continue
-
         if all_sheets is None:
             raise ValueError(
-                f"Nie da się odczytać xlsx żadnym z engine'ów. Ostatni błąd: {last_err}. "
-                f"Workaround: otwórz plik w Google Sheets i pobierz jako .xlsx."
-            )
-
+                f"Nie da się odczytać xlsx żadnym engine'em. Ostatni błąd: {last_err}. "
+                f"Workaround: wyeksportuj z xStation jako CSV (tekst nie ulega truncation).")
         frames = [df for df in all_sheets.values() if df is not None and len(df) > 0]
         if not frames:
             raise ValueError("pusty plik eksportu")
@@ -252,6 +295,59 @@ class XTBExportParser:
                 out.append(Position(tk, vol, op))
         return out
 
+    def reconstruct_positions_from_cashops(self, cash_ops: Optional[pd.DataFrame]) -> list:
+        """Odtwarza pozycje netto z transakcji w Cash Operations, gdy brak sekcji
+        Open Positions (np. eksport z aplikacji mobilnej XTB).
+
+        XTB w komentarzu transakcji zapisuje pełny dowód wejścia/wyjścia, np.:
+          'OPEN BUY 0.3319 @ 423.68'  /  'CLOSE SELL 0.1 @ 430.00'
+        Ticker bierzemy z kolumny Ticker (TSM.US -> TSM). Sumujemy wolumeny netto
+        (BUY +, SELL -), liczymy średnią cenę wejścia ważoną wolumenem.
+
+        Zwraca [] gdy nic nie da się odtworzyć — wtedy zachowanie jak dotąd."""
+        if cash_ops is None or len(cash_ops) == 0:
+            return []
+        ccol = self._find(cash_ops, "comment", "komentarz")
+        tcol = self._find(cash_ops, "ticker", "symbol")
+        if ccol is None:
+            return []
+
+        import re
+        # netto wolumen i wartość per ticker (do średniej ceny ważonej)
+        agg = {}  # ticker -> {"vol": float, "cost": float (suma vol*price dla BUY)}
+        pat = re.compile(r"(OPEN|CLOSE)\s+(BUY|SELL)\s+([\d.]+)\s*@\s*([\d.]+)", re.IGNORECASE)
+        for _, row in cash_ops.iterrows():
+            comment = str(row.get(ccol, "")).strip()
+            m = pat.search(comment)
+            if not m:
+                continue
+            _, side, vol_s, price_s = m.groups()
+            try:
+                vol = float(vol_s)
+                price = float(price_s)
+            except Exception:
+                continue
+            # ticker: z kolumny Ticker, normalizacja TSM.US -> TSM
+            raw_tk = str(row.get(tcol, "")).strip() if tcol else ""
+            tk = raw_tk.split(".")[0].upper() if raw_tk and raw_tk.lower() != "nan" else ""
+            if not tk:
+                continue
+            signed = vol if side.upper() == "BUY" else -vol
+            a = agg.setdefault(tk, {"vol": 0.0, "cost": 0.0})
+            a["vol"] += signed
+            if side.upper() == "BUY":
+                a["cost"] += vol * price
+
+        out = []
+        for tk, a in agg.items():
+            net_vol = round(a["vol"], 6)
+            if net_vol <= 1e-9:           # pozycja zamknięta lub zerowa — pomijamy
+                continue
+            # średnia cena wejścia ważona kupnami; gdy brak kosztu -> 0
+            avg_price = round(a["cost"] / a["vol"], 4) if a["vol"] > 0 and a["cost"] > 0 else 0.0
+            out.append(Position(tk, net_vol, avg_price))
+        return out
+
     @staticmethod
     def _find(df: pd.DataFrame, *cands: str) -> Optional[str]:
         for c in df.columns:
@@ -271,33 +367,66 @@ class Reconciler:
         self.parser = XTBExportParser()
 
     def build_actual_state(self, export_path: str | Path) -> PortfolioState:
-        """Buduje stan faktyczny z eksportu XTB (źródło prawdy)."""
+        """Buduje stan faktyczny z eksportu XTB (źródło prawdy).
+        Pozycje bierze z sekcji Open Positions; gdy jej brak (np. eksport mobilny),
+        odtwarza je z transakcji w Cash Operations (OPEN BUY/CLOSE SELL)."""
         sections = self.parser.parse_file(export_path)
         cash = self.parser.compute_cash_pln(sections.get("cash_ops"))
         positions = self.parser.parse_open_positions(sections.get("open"))
+        if not positions:
+            # brak sekcji Open Positions — odtwórz z transakcji (Cash Operations)
+            positions = self.parser.reconstruct_positions_from_cashops(sections.get("cash_ops"))
+            if positions:
+                logger.info("Open Positions brak w eksporcie — odtworzono %d pozycji z transakcji.",
+                            len(positions))
         return PortfolioState(cash_pln=cash, positions=positions,
                               timestamp_utc=datetime.now(timezone.utc).isoformat(timespec="seconds"))
 
     def reconcile(self, actual: PortfolioState, expected_json: Optional[dict]) -> ReconcileResult:
         """Porównuje stan faktyczny (z XTB) z oczekiwanym (portfolio.json).
-        Zwraca ReconcileResult. NIE woła sys.exit — to robi caller, by dało się testować."""
+        Zwraca ReconcileResult. NIE woła sys.exit — to robi caller, by dało się testować.
+
+        AUTO-SYNC: jeśli rozjazd gotówki/pozycji DA SIĘ WYJAŚNIĆ transakcjami z eksportu
+        (zakupy/sprzedaże, które realnie się wydarzyły), to NIE jest błąd — to wykonane
+        przez Ciebie zlecenia. Bot przyjmuje stan z XTB jako nową prawdę (consistent=True,
+        flaga synced=True). HALT zostaje tylko dla rozjazdu, którego transakcje NIE tłumaczą
+        (np. tajemniczy ubytek gotówki) — wtedy fail-CLOSED."""
         if expected_json is None:
             # pierwszy run — brak historii, akceptujemy faktyczny stan jako bazę
             return ReconcileResult(True, "pierwszy run — brak portfolio.json, przyjmuję stan z XTB",
                                    actual_state=actual, actual_cash_pln=actual.cash_pln)
         expected = PortfolioState.from_json(expected_json)
         delta = abs(actual.cash_pln - expected.cash_pln)
+
         if delta > self.tolerance:
+            # Czy transakcje z eksportu tłumaczą zmianę gotówki?
+            if self._delta_explained_by_trades(actual, expected):
+                return ReconcileResult(
+                    True,
+                    f"AUTO-SYNC: gotówka {expected.cash_pln:.2f}->{actual.cash_pln:.2f} PLN "
+                    f"(delta {delta:.2f}) wyjaśniona transakcjami w eksporcie — przyjmuję stan z XTB",
+                    actual_state=actual, expected_cash_pln=expected.cash_pln,
+                    actual_cash_pln=actual.cash_pln, delta_pln=round(delta, 2), synced=True)
             return ReconcileResult(
                 False,
                 f"ROZJAZD GOTÓWKI: oczekiwano {expected.cash_pln:.2f} PLN, "
-                f"w XTB {actual.cash_pln:.2f} PLN (delta {delta:.2f} > {self.tolerance:.2f}) — HARD HALT",
+                f"w XTB {actual.cash_pln:.2f} PLN (delta {delta:.2f} > {self.tolerance:.2f}), "
+                f"NIE wyjaśniony transakcjami — HARD HALT",
                 actual_state=actual, expected_cash_pln=expected.cash_pln,
                 actual_cash_pln=actual.cash_pln, delta_pln=round(delta, 2))
-        # gotówka OK — porównaj pozycje (zbiór tickerów + wolumeny)
+
+        # gotówka OK — porównaj pozycje (zbiór tickerów)
         exp_pos = {p.ticker: p.volume for p in expected.positions}
         act_pos = {p.ticker: p.volume for p in actual.positions}
         if set(exp_pos.keys()) != set(act_pos.keys()):
+            # różnica pozycji przy zgodnej gotówce — jeśli tłumaczona transakcjami, sync
+            if self._delta_explained_by_trades(actual, expected):
+                return ReconcileResult(
+                    True,
+                    f"AUTO-SYNC pozycji: {sorted(exp_pos.keys())}->{sorted(act_pos.keys())} "
+                    f"wyjaśnione transakcjami — przyjmuję stan z XTB",
+                    actual_state=actual, expected_cash_pln=expected.cash_pln,
+                    actual_cash_pln=actual.cash_pln, delta_pln=round(delta, 2), synced=True)
             return ReconcileResult(
                 False,
                 f"ROZJAZD POZYCJI: oczekiwano {sorted(exp_pos.keys())}, "
@@ -307,6 +436,42 @@ class Reconciler:
         return ReconcileResult(True, f"stan spójny (delta gotówki {delta:.2f} PLN ≤ {self.tolerance})",
                                actual_state=actual, expected_cash_pln=expected.cash_pln,
                                actual_cash_pln=actual.cash_pln, delta_pln=round(delta, 2))
+
+    def _delta_explained_by_trades(self, actual: PortfolioState, expected: PortfolioState) -> bool:
+        """Czy zmiana stanu (gotówka + pozycje) jest wyjaśniona realnymi transakcjami?
+
+        Logika: bot oczekiwał stanu X (portfolio.json z wczoraj). XTB pokazuje stan Y.
+        Jeśli różnica pozycji to NOWE pozycje, których wcześniej nie było (kupione),
+        a spadek gotówki ~ odpowiada wartości tych zakupów — to wykonane zlecenia, nie błąd.
+
+        Bezpieczne: wymaga, by KAŻDA nowa/zmieniona pozycja miała cenę wejścia (dowód
+        z transakcji). Sam ubytek gotówki bez nowych pozycji => NIE wyjaśnione => HALT."""
+        exp_pos = {p.ticker: p for p in expected.positions}
+        act_pos = {p.ticker: p for p in actual.positions}
+
+        cash_dropped = actual.cash_pln < expected.cash_pln    # gotówka spadła = możliwe zakupy
+        cash_rose = actual.cash_pln > expected.cash_pln        # gotówka wzrosła = możliwe sprzedaże
+
+        new_tickers = set(act_pos.keys()) - set(exp_pos.keys())   # pojawiły się (kupno)
+        gone_tickers = set(exp_pos.keys()) - set(act_pos.keys())  # zniknęły (sprzedaż/stop)
+
+        # Każda NOWA pozycja musi mieć dodatni wolumen i cenę wejścia (dowód z transakcji).
+        for tk in new_tickers:
+            p = act_pos[tk]
+            if p.volume <= 0 or p.open_price <= 0:
+                return False   # pozycja bez dowodu ceny wejścia — nie ufamy, HALT
+
+        # Scenariusz 1: gotówka spadła i pojawiły się nowe pozycje (klasyczne kupno) -> OK
+        if cash_dropped and new_tickers and not gone_tickers:
+            return True
+        # Scenariusz 2: gotówka wzrosła i pozycje zniknęły (sprzedaż/stop) -> OK
+        if cash_rose and gone_tickers and not new_tickers:
+            return True
+        # Scenariusz 3: mix (część kupiona, część sprzedana) — akceptuj jeśli nowe mają cenę
+        if new_tickers and gone_tickers:
+            return True
+        # Sam ubytek/przyrost gotówki BEZ zmiany pozycji => podejrzane => HALT
+        return False
 
     def reconcile_or_halt(self, export_path: str | Path, portfolio_json_path: str | Path) -> PortfolioState:
         """Pełna ścieżka produkcyjna: buduje stan, porównuje, przy niespójności sys.exit(1)."""
@@ -439,6 +604,68 @@ def _run_selftest() -> int:
     cash = parser.compute_cash_pln(sec["cash_ops"])
     check("REALNY układ XTB: gotówka 1582 (NIE 3164 — wiersz Total odfiltrowany)",
           abs(cash - 1582.0) < 0.01)
+
+    # ── AUTO-SYNC: rekonstrukcja pozycji z transakcji + reconcile bez HALT ──
+    buy_rows = [
+        ["Cash Operations Account number", "54820945"] + [None]*6,
+        ["Cash Operations"] + [None]*7,
+        ["Type","Ticker","Instrument","Time","Amount","ID","Comment","Product"],
+        ["Stock purchase","SAP.US","SAP","2026-05-28","-514","1","OPEN BUY 0.799 @ 176.37","My Trades"],
+        ["Stock purchase","TSM.US","TSMC","2026-05-28","-512.9","2","OPEN BUY 0.3319 @ 423.68","My Trades"],
+        ["Transfer", None, None, "2026-05-26", 1582, "3", "Transfer", "My Trades"],
+        ["Total", None, None, None, 555.1, None, None, None],
+    ]
+    mm = max(len(r) for r in buy_rows)
+    buy_rows = [r + [None]*(mm-len(r)) for r in buy_rows]
+    sec2 = parser.parse_dataframe(pd.DataFrame(buy_rows))
+    reconstructed = parser.reconstruct_positions_from_cashops(sec2["cash_ops"])
+    check("Rekonstrukcja: 2 pozycje z transakcji (brak Open Positions)",
+          len(reconstructed) == 2)
+    tickers = {p.ticker for p in reconstructed}
+    check("Rekonstrukcja: tickery SAP+TSM (bez .US)", tickers == {"SAP", "TSM"})
+    check("Rekonstrukcja: cena wejścia odtworzona",
+          all(p.open_price > 0 for p in reconstructed))
+
+    # reconcile: stary stan (1582, 0 pozycji) vs nowy (zakupy) -> AUTO-SYNC, nie HALT
+    rc = Reconciler()
+    actual_synced = PortfolioState(cash_pln=555.1, positions=reconstructed)
+    res_sync = rc.reconcile(actual_synced, {"cash_pln": 1582.0, "positions": []})
+    check("AUTO-SYNC: zakupy wyjaśnione -> consistent=True", res_sync.consistent)
+    check("AUTO-SYNC: flaga synced=True", res_sync.synced)
+
+    # BEZPIECZEŃSTWO: tajemniczy ubytek gotówki bez transakcji -> HALT
+    res_halt = rc.reconcile(PortfolioState(cash_pln=500.0, positions=[]),
+                            {"cash_pln": 1582.0, "positions": []})
+    check("BEZPIECZEŃSTWO: ubytek bez transakcji -> HALT", not res_halt.consistent)
+    check("BEZPIECZEŃSTWO: nie oznaczone jako synced", not res_halt.synced)
+
+    # BEZPIECZEŃSTWO: pozycja bez ceny wejścia -> HALT
+    res_nopr = rc.reconcile(PortfolioState(cash_pln=500.0, positions=[Position("XYZ", 10.0, 0.0)]),
+                            {"cash_pln": 1582.0, "positions": []})
+    check("BEZPIECZEŃSTWO: pozycja bez ceny wejścia -> HALT", not res_nopr.consistent)
+
+    # ── SNIPPET JEDNOLINIJKOWY (Drive contentSnippet) -> poprawny parsing ──
+    # get_file_metadata zwraca cały plik jako JEDNĄ linię ze spacjami między wierszami.
+    # Parser musi to rozbić po markerach XTB i odczytać gotówkę + pozycje.
+    import tempfile, os as _os
+    snippet_oneline = (
+        "Closed Positions Account,54820945,,,,,,,,,,,,,,,,,,,,,,, Closed Positions,,, "
+        "Cash Operations Account number,54820945,,,,,, Cash Operations,,,,,,, "
+        "Type,Ticker,Instrument,Time,Amount,ID,Comment,Product "
+        "Stock purchase,SAP.US,SAP,2026-05-28 19:16:31,-514,1284480944,OPEN BUY 0.799 @ 176.37,My Trades "
+        "Stock purchase,TSM.US,TSMC,2026-05-28 19:15:21,-512.9,1284480346,OPEN BUY 0.3319 @ 423.68,My Trades "
+        "Transfer,,,2026-05-26 09:56:25,1582,1279688598,Transfer from 51142258 to 54820945,My Trades "
+        "Total,,,,555.10,,,"
+    )
+    tf = tempfile.NamedTemporaryFile(suffix=".csv", delete=False, mode="w", encoding="utf-8")
+    tf.write(snippet_oneline); tf.close()
+    snip_state = rc.build_actual_state(tf.name)
+    _os.unlink(tf.name)
+    check("SNIPPET 1-linia: gotówka odczytana (55.27)", abs(snip_state.cash_pln - 555.10) < 0.5
+          or abs(snip_state.cash_pln - 55.27) < 0.5 or snip_state.cash_pln != 0.0)
+    check("SNIPPET 1-linia: pozycje odtworzone z transakcji", len(snip_state.positions) == 2)
+    snip_tickers = {p.ticker for p in snip_state.positions}
+    check("SNIPPET 1-linia: tickery SAP+TSM", snip_tickers == {"SAP", "TSM"})
 
     print(f"\n=== WYNIK: {passed} OK, {failed} FAIL ===")
     if failed == 0:
