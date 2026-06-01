@@ -8,7 +8,7 @@
       "entry_price_usd": 176.37,
       "entry_date": "2026-05-30",
       "stop_loss_usd": 176.37,
-      "high_water_mark_usd": 195.69000244140625,
+      "high_water_mark_usd": 196.11000061035156,
       "days_held": 0
     },
     {
@@ -30,5 +30,5 @@
       "days_held": 0
     }
   ],
-  "updated_utc": "2026-06-01T19:09:56+00:00"
+  "updated_utc": "2026-06-01T20:43:43+00:00"
 }
