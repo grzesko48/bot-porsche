@@ -1,0 +1,73 @@
+{
+  "generated": "2026-06-01T20:40",
+  "signals": [
+    {
+      "ticker": "TSM",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "MediaTek potwierdza TSMC jako kluczowego partnera (29.05) - miekki sygnal PR, brak twardego swiezego katalizatora",
+      "as_of": "2026-05-29",
+      "confidence": 0.4,
+      "source_count": 1,
+      "sources": [
+        {"label": "TrendForce", "url": "https://www.trendforce.com/news/2026/05/29/news-mediatek-ceo-reaffirms-tsmc-as-key-long-term-partner-amid-samsungs-reported-push-for-foundry-orders/"}
+      ]
+    },
+    {
+      "ticker": "ASML",
+      "has_catalyst": false,
+      "catalyst_type": "regulatory",
+      "direction": "bearish",
+      "headline": "CEO komentuje chinskie restrykcje eksportowe (koniec maja) - przewlekly nawis ryzyka, brak nowego twardego katalizatora",
+      "as_of": "2026-05-28",
+      "confidence": 0.4,
+      "source_count": 2,
+      "sources": [
+        {"label": "Global Times", "url": "https://www.globaltimes.cn/page/202605/1361571.shtml"},
+        {"label": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-is-prepared-for-chinas-rare-earth-export-controls-finance-head-says-company-has-stock-thanks-to-long-lead-times"}
+      ]
+    },
+    {
+      "ticker": "SAP",
+      "has_catalyst": true,
+      "catalyst_type": "MnA",
+      "direction": "bullish",
+      "headline": "SAP przejmuje Dremio i konczy zakup Reltio; euroobligacje 3,5 mld EUR (28.05) na finansowanie akwizycji agentic-AI",
+      "as_of": "2026-05-28",
+      "confidence": 0.6,
+      "source_count": 2,
+      "sources": [
+        {"label": "SAP News Center", "url": "https://news.sap.com/2026/05/sap-to-acquire-dremio-unify-sap-and-non-sap-data-power-agentic-ai/"},
+        {"label": "IgniteSAP", "url": "https://ignitesap.com/sap-financial-results-q1-2026/"}
+      ]
+    },
+    {
+      "ticker": "MSTR",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Symboliczna sprzedaz 32 BTC na dywidende STRC (filing 01.06); duzy zakup BTC byl >7 dni temu - brak swiezego istotnego katalizatora",
+      "as_of": "2026-06-01",
+      "confidence": 0.5,
+      "source_count": 1,
+      "sources": [
+        {"label": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/06/01/strategy-sold-32-btc-for-usd2-5-million-in-late-may-filing-shows"}
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "has_catalyst": true,
+      "catalyst_type": "regulatory",
+      "direction": "bearish",
+      "headline": "FTC wszczyna sonde antymonopolowa ws. licencjonowania (ok. 15.05) - katalizator regulacyjny, ale starszy niz 7 dni",
+      "as_of": "2026-05-15",
+      "confidence": 0.7,
+      "source_count": 2,
+      "sources": [
+        {"label": "US News / Bloomberg", "url": "https://money.usnews.com/investing/news/articles/2026-05-15/arm-holdings-to-face-us-antitrust-probe-over-chip-tech-bloomberg-news-reports"},
+        {"label": "TechTimes", "url": "https://www.techtimes.com/articles/316752/20260517/ftc-investigates-whether-arms-first-chip-launch-lets-it-squeeze-licensees-it-now-competes-against.htm"}
+      ]
+    }
+  ]
+}

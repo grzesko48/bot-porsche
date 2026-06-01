@@ -1,0 +1,48 @@
+{
+  "generated": "2026-06-01T20:43",
+  "freshness_days": 7,
+  "instruction": "Dla każdego tickera sprawdź przez web_search świeże (<=7 dni) newsy. Oceń czy jest ISTOTNY katalizator (kontrakt, przejęcie/fuzja, zmiana prognoz, premiera produktu, decyzja regulatora, ważna rekomendacja). Szum PR/marketing = has_catalyst:false. Wymagaj >=2 niezależnych źródeł dla has_catalyst:true. Świeżość ponad pamięć: TYLKO to, co znajdziesz teraz.",
+  "schema_example": {
+    "ticker": "AAPL",
+    "has_catalyst": true,
+    "catalyst_type": "contract",
+    "direction": "bullish",
+    "headline": "krótko własnymi słowami",
+    "as_of": "YYYY-MM-DD",
+    "confidence": 0.8,
+    "source_count": 2,
+    "sources": [
+      {
+        "label": "Reuters",
+        "url": "https://..."
+      }
+    ]
+  },
+  "tickers": [
+    {
+      "ticker": "TSM",
+      "name": "TSM",
+      "sector": ""
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML",
+      "sector": ""
+    },
+    {
+      "ticker": "SAP",
+      "name": "SAP",
+      "sector": ""
+    },
+    {
+      "ticker": "MSTR",
+      "name": "MSTR",
+      "sector": ""
+    },
+    {
+      "ticker": "ARM",
+      "name": "ARM",
+      "sector": ""
+    }
+  ]
+}
