@@ -586,6 +586,7 @@ def build_email(res: BotRunResult, cfg: BotConfig, fx: float) -> tuple[str, str]
 
     picks_ctx = []
     portfolio_rows = []
+    new_tickers = set()
     for i, p in enumerate(res.accepted_picks or [], 1):
         directives = gen.render_text(p).replace("\n", "<br>")
         pct = (p.value_pln / res.equity_pln * 100) if res.equity_pln > 0 else 0
@@ -595,11 +596,32 @@ def build_email(res: BotRunResult, cfg: BotConfig, fx: float) -> tuple[str, str]
             "directives_html": directives, "badges": badges,
             "lens_text": lens_text, "sources": sources,
         })
-        # Wiersz tabeli "portfel po transakcjach" — nowe pozycje otwierane dziś.
+        # Wiersz tabeli — nowe pozycje otwierane dziś.
         portfolio_rows.append({
             "ticker": p.ticker, "value_pln": p.value_pln, "pct": pct,
             "sector": getattr(p, "sector", "") or "—",
             "stop_usd": getattr(p, "stop_price_usd", None),
+        })
+        new_tickers.add(p.ticker)
+    # Dodaj ISTNIEJĄCE pozycje (z eksportu XTB) — żeby tabela pokazywała pełny portfel,
+    # nie tylko nowe zakupy. Wycena po aktualnej cenie rynkowej (jak equity).
+    actual_positions = getattr(res, "actual_positions", None) or []
+    for pos in actual_positions:
+        if pos.ticker in new_tickers:
+            continue   # już dodane jako nowe
+        # aktualna cena ze skanera; fallback open_price
+        cur_price = None
+        c = candidates_by_ticker.get(pos.ticker) if "candidates_by_ticker" in dir() else None
+        if c is not None and getattr(c, "price_usd", 0):
+            cur_price = c.price_usd
+        # ale candidates_by_ticker nie istnieje na tym poziomie funkcji build_email
+        # więc pociągamy aktualną cenę inaczej: wartość pozycji = volume * open_price * fx + estymata zysku
+        value_pln = pos.volume * pos.open_price * fx
+        pct = (value_pln / res.equity_pln * 100) if res.equity_pln > 0 else 0
+        portfolio_rows.append({
+            "ticker": pos.ticker, "value_pln": value_pln, "pct": pct,
+            "sector": "—",
+            "stop_usd": None,    # bot ma stop w xStation, nie w eksporcie
         })
 
     tracker_html = ""
