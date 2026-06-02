@@ -16,8 +16,8 @@
       "shares": 0.0851,
       "entry_price_usd": 1610.28,
       "entry_date": "2026-05-30",
-      "stop_loss_usd": 1529.77,
-      "high_water_mark_usd": 1632.5899658203125,
+      "stop_loss_usd": 1578.0744,
+      "high_water_mark_usd": 1695.625,
       "days_held": 0
     },
     {
@@ -25,10 +25,10 @@
       "shares": 0.3319,
       "entry_price_usd": 423.68,
       "entry_date": "2026-05-30",
-      "stop_loss_usd": 402.5,
-      "high_water_mark_usd": 440.6600036621094,
+      "stop_loss_usd": 415.2064,
+      "high_water_mark_usd": 446.20001220703125,
       "days_held": 0
     }
   ],
-  "updated_utc": "2026-06-01T20:43:43+00:00"
+  "updated_utc": "2026-06-02T19:14:35+00:00"
 }
