@@ -14,7 +14,7 @@ from typing import Optional
 
 # ── PALETA ──
 BG = "#eef1f5"
-DARK = "#0f172a"          # głębszy granat (lepszy kontrast niż #111827)
+DARK = "#0f172a"          # głębszy granat — dla nagłówków, tickerów, akcentów
 DARK_CARD = "#1e293b"
 GOLD = "#d4af37"
 GOLD_DK = "#b8860b"
@@ -25,7 +25,7 @@ RED_LT = "#fee2e2"
 GREY = "#475569"
 INDIGO = "#6366f1"
 BLUE = "#3b82f6"
-TEXT = "#1f2937"          # ciemniejszy = czytelniejszy
+TEXT = "#334155"          # tekst opisowy — średni szary (NIE czarny, czytelniejszy)
 MUTED = "#64748b"
 MUTED2 = "#94a3b8"
 LINE = "#e2e8f0"
@@ -233,16 +233,27 @@ def build_email_html(ctx: dict) -> str:
                             "Wykonaj po kolei w xStation 5. Każdy blok mówi co zrobić i dlaczego."))
         for d in decisions:
             action = d.get("action", "")
+            extra_raw = d.get("extra_html", "")
+            stop_changed = "Sell Stop" in extra_raw or "stop" in extra_raw.lower()
             if action.startswith("SELL"):
                 bar, ocol = GOLD_DK, GOLD_DK
+                if action == "SELL_ALL":
+                    order = "Sprzedaj całość po cenie rynkowej"
+                else:
+                    order = "Sprzedaj część — resztę zostaw biegnącą"
+                do_html = extra_raw.lstrip(" ·") or "Bez zmian wielkości pozycji."
             else:
+                # HOLD: dwa warianty w zależności od tego, czy bot faktycznie podnosi stop
                 bar, ocol = GREY, GREY
-            order = {"SELL_ALL": "Sprzedaj całość po cenie rynkowej",
-                     "SELL_PARTIAL": "Sprzedaj część — resztę zostaw biegnącą",
-                     "HOLD": "Trzymaj — podnieś Sell Stop"}.get(action, action)
+                if stop_changed:
+                    order = "Trzymaj — podnieś Sell Stop"
+                    do_html = extra_raw.lstrip(" ·") or "Bez zmian wielkości pozycji."
+                else:
+                    order = "Trzymaj — bez zmian"
+                    do_html = "Nic nie rób. Pozycja biegnie dalej, Sell Stop bez zmian."
             P.append(_action_block(
                 company=d.get("ticker", ""), order=f"Zlecenie: {order}", order_color=ocol, bar_color=bar,
-                do_html=d.get("extra_html", "").lstrip(" ·") or "Bez zmian wielkości pozycji.",
+                do_html=do_html,
                 why_html=d.get("reason", ""),
             ))
         if picks:
