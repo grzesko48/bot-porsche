@@ -1,12 +1,8 @@
 {
-  "generated": "2026-06-01T20:40",
+  "generated": "2026-06-02T19:12",
   "insiders": {},
-  "funds": {
-    "MSTR": [
-      {"manager": "Alberta Investment Management Corp", "pct_portfolio": 0.0, "action": "add", "note": "dodano 1,382,000 akcji w Q1 2026 (~172 mln USD)"}
-    ]
-  },
+  "funds": {},
   "politicians": {},
   "sector_exits": [],
-  "_notes": "TSM/ASML/ARM: brak dodatnich klastrow insiderow ani zbieznosci funduszy. ASML/TSM glownie pozycje PUT (Aschenbrenner) - sygnal bearish, nieujmowalny w schemacie buy. MSTR insiderzy: przewaga sprzedazy rutynowej (CFO 19.05, dyrektor 14.05) - brak klastra. TSMC zlikwidowal udzial w ARM (~231 mln USD, koniec kwietnia)."
+  "_notes": "Cykl 2026-06-02: web_search po OpenInsider (Form 4), Dataroma (13F Q1 2026) i Capitol Trades/Quiver nie zwrocil potwierdzonego SWIEZEGO klastra dla TSM/ASML/SAP/MSTR/ARM. Brak >=2 niezaleznych potwierdzen kupna insiderow ani zbieznosci funduszy w oknie <=7 dni. Zgodnie z zasada 'swiezosc ponad pamiec' nie przenosze niezweryfikowanych pozycji z poprzedniego cyklu. Scalary smart-money pozostaja neutralne (1.0)."
 }
