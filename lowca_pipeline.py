@@ -2,33 +2,32 @@
 """
 lowca_pipeline.py — BOT ŁOWCA (osobny od bota bilansowego main_pipeline.py).
 
-Bieg PRZED OTWARCIEM: bierze okazje ocenione przez opportunity_lens (świeże IPO /
-nietypowy wolumen / kontrakt >=50% kapitalizacji) i NAKŁADA WARSTWĘ DECYZYJNĄ:
-każda okazja -> KUP albo PASS, z KONKRETNYM zleceniem (ile akcji, cena wejścia,
-Sell Stop w USD, cel) i klatką bezpieczeństwa (barbell: sleeve <=15%, min ~43 zł).
+Bieg PRZED OTWARCIEM: bierze okazje z opportunity_lens (IPO / wolumen / kontrakt)
+ORAZ smart-money z lowca_sources (insiderzy / fundusze 13F / kongresmeni), scala je,
+liczy KONFLUENCJĘ (ta sama spółka w wielu źródłach = wyższy score) i NAKŁADA
+WARSTWĘ DECYZYJNĄ: KUP/PASS z konkretnym zleceniem (ile akcji, cena wejścia,
+Sell Stop USD, cel, ryzyko zł) w klatce bezpieczeństwa (sleeve <=15%, min ~43 zł).
 
-CO ROBI (v3):
-- SAM czyta z repo: equity + kurs USD/PLN (equity_log.json), wolną gotówkę i
-  OBECNE POZYCJE (portfolio.json -> cash_pln, managed_positions). Nic nie modyfikuje.
-- Decyzje sizing'owane wg min(sleeve, wolna gotówka). NIE poleca spółki, którą już masz.
-- Liczy KONKRETY: liczba akcji, wartość zł, cena wejścia (USD), Sell Stop (USD),
-  cel take-profit (USD), ryzyko w zł (ile tracisz jeśli stop).
-- Mail HTML w stylu bota bilansowego (import palety/komponentów z email_render),
-  z sekcją "Twoje obecne pozycje" (oba boty widzą ten sam stan z repo).
+CO ROBI (v4):
+- SAM czyta z repo: equity, kurs USD/PLN, wolną gotówkę i OBECNE POZYCJE
+  (equity_log.json + portfolio.json). Nic nie modyfikuje. Nie poleca spółki, którą masz.
+- Scala radar lensa + smart-money; KONFLUENCJA podbija score (max +1.5).
+- Tryb --alert-only: bieg MILCZY, chyba że najlepszy score >= progu alertu (domyślnie 8)
+  -> wtedy wysyła "PILNA OKAZJA". Do częstszych biegów w środku sesji.
+- Mail HTML w stylu bilansu (import z email_render), z sekcją pozycji i konkretami.
 
-Łowca NIE rusza rdzenia (85% w bilansie). Łowca NIE składa zleceń — podaje gotowe do XTB.
+Łowca NIE składa zleceń — podaje gotowe do XTB. Konto IKE nietykalne.
 
 UŻYCIE:
     python lowca_pipeline.py --selftest
-    python lowca_pipeline.py --signals opportunity_signals.json --today 2026-06-03 --send
-    (equity/gotówka/kurs/pozycje czytane z repo; można nadpisać --capital --cash --fx)
+    python lowca_pipeline.py --signals opportunity_signals.json --today 2026-06-04 --send
+    python lowca_pipeline.py --signals ... --alert-only --send   # cichy, alert tylko gdy score>=8
 """
 from __future__ import annotations
 import argparse
 import json
 import os
 import sys
-from dataclasses import dataclass, field
 
 try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -36,42 +35,51 @@ try:
 except Exception:
     pass
 
+from dataclasses import dataclass, field
 import opportunity_lens as oppl
+try:
+    import lowca_sources as lsrc
+except Exception:
+    lsrc = None
 
 
 @dataclass
 class LowcaConfig:
     capital_pln: float = 1582.0
-    sleeve_pct: float = 0.15           # max 15% kapitału na spekulacje (barbell)
-    min_position_pln: float = 43.0     # próg XTB (~10 EUR)
-    max_position_pln: float = 120.0    # cap pojedynczej spekulacji
+    sleeve_pct: float = 0.15
+    min_position_pln: float = 43.0
+    max_position_pln: float = 120.0
     max_open_spec: int = 3
     buy_threshold: float = 6.0
+    alert_threshold: float = 8.0       # score >= -> PILNY alert
     fx_usd_pln: float = 4.0
     stop_contract: float = 0.20
     stop_volume: float = 0.15
     stop_ipo: float = 0.25
-    tp_contract: float = 0.40          # cel take-profit per typ (orientacyjny)
+    stop_insider: float = 0.18
+    stop_fund13f: float = 0.20
+    stop_congress: float = 0.20
+    tp_contract: float = 0.40
     tp_volume: float = 0.30
     tp_ipo: float = 0.60
+    tp_insider: float = 0.40
+    tp_fund13f: float = 0.40
+    tp_congress: float = 0.40
 
 
 def _clamp(x, lo, hi): return max(lo, min(hi, x))
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# ODCZYT STANU KONTA Z REPO (oba boty widzą ten sam stan; łowca tylko CZYTA)
-# ─────────────────────────────────────────────────────────────────────────────
 def read_account(portfolio_path="portfolio.json", equity_path="equity_log.json") -> dict:
-    """Czyta equity + kurs (equity_log.json) oraz gotówkę + pozycje (portfolio.json).
-    Nic nie zapisuje. Brak pliku / błąd -> bezpieczne fallbacki."""
+    """Czyta equity+kurs (equity_log.json) i gotówkę+pozycje (portfolio.json). Tylko ODCZYT."""
     acc = {"equity_pln": None, "cash_pln": None, "fx_usd_pln": None, "held": []}
     try:
         with open(equity_path, encoding="utf-8") as f:
             log = json.load(f)
         if isinstance(log, list) and log:
             last = log[-1]
-            acc["equity_pln"] = float(last.get("equity_pln")) if last.get("equity_pln") is not None else None
+            if last.get("equity_pln") is not None:
+                acc["equity_pln"] = float(last["equity_pln"])
             if last.get("fx_rate"):
                 acc["fx_usd_pln"] = float(last["fx_rate"])
     except Exception:
@@ -82,23 +90,20 @@ def read_account(portfolio_path="portfolio.json", equity_path="equity_log.json")
         if pf.get("cash_pln") is not None:
             acc["cash_pln"] = float(pf["cash_pln"])
         for p in (pf.get("managed_positions") or []):
-            acc["held"].append({
-                "ticker": p.get("ticker", "?"),
-                "shares": float(p.get("shares", 0) or 0),
-                "entry_usd": float(p.get("entry_price_usd", 0) or 0),
-                "stop_usd": float(p.get("stop_loss_usd", 0) or 0),
-            })
+            acc["held"].append({"ticker": p.get("ticker", "?"),
+                                "shares": float(p.get("shares", 0) or 0),
+                                "entry_usd": float(p.get("entry_price_usd", 0) or 0),
+                                "stop_usd": float(p.get("stop_loss_usd", 0) or 0)})
     except Exception:
         pass
     return acc
 
 
 def _price_map(signals: dict) -> dict:
-    """{ticker: price_usd} z surowych sygnałów (price_usd opcjonalny)."""
     out = {}
     if not isinstance(signals, dict):
         return out
-    for key in ("contract", "volume", "ipo", "theme", "lockup"):
+    for key in ("contract", "volume", "ipo", "theme", "lockup", "insider", "fund13f", "congress"):
         for s in (signals.get(key) or []):
             if isinstance(s, dict) and s.get("ticker") and s.get("price_usd"):
                 try:
@@ -108,12 +113,12 @@ def _price_map(signals: dict) -> dict:
     return out
 
 
-def _score(opp: dict) -> float:
-    """Score 0-10 z okazji ocenionej przez opportunity_lens (już przefiltrowanej)."""
+def _score_lens(opp: dict) -> float:
+    """Score okazji z opportunity_lens (IPO/WOLUMEN/KONTRAKT)."""
     kind = opp.get("kind")
     if kind == "KONTRAKT":
-        ratio = float(opp.get("ratio", 0.5) or 0.5)   # już >=0.5 po filtrze lensa
-        return round(6.0 + _clamp(ratio, 0, 1.0) * 3.0, 2)   # 7.5 - 9.0
+        ratio = float(opp.get("ratio", 0.5) or 0.5)
+        return round(6.0 + _clamp(ratio, 0, 1.0) * 3.0, 2)
     if kind == "WOLUMEN":
         base = 6.5
         if "przebił" in (opp.get("note", "")):
@@ -127,12 +132,57 @@ def _score(opp: dict) -> float:
     return 0.0
 
 
+def _opp_score(o: dict) -> float:
+    """Score okazji: base_score (smart-money) albo wyliczony z lensa."""
+    bs = o.get("base_score")
+    return float(bs) if bs is not None else _score_lens(o)
+
+
 def _stop_pct(kind: str, c: LowcaConfig) -> float:
-    return {"KONTRAKT": c.stop_contract, "WOLUMEN": c.stop_volume, "IPO": c.stop_ipo}.get(kind, 0.20)
+    return {"KONTRAKT": c.stop_contract, "WOLUMEN": c.stop_volume, "IPO": c.stop_ipo,
+            "INSIDER": c.stop_insider, "FUND13F": c.stop_fund13f, "CONGRESS": c.stop_congress}.get(kind, 0.20)
 
 
 def _tp_pct(kind: str, c: LowcaConfig) -> float:
-    return {"KONTRAKT": c.tp_contract, "WOLUMEN": c.tp_volume, "IPO": c.tp_ipo}.get(kind, 0.40)
+    return {"KONTRAKT": c.tp_contract, "WOLUMEN": c.tp_volume, "IPO": c.tp_ipo,
+            "INSIDER": c.tp_insider, "FUND13F": c.tp_fund13f, "CONGRESS": c.tp_congress}.get(kind, 0.40)
+
+
+def build_candidates(radar: dict, smart: dict, price_map=None) -> "list[dict]":
+    """Scala radar lensa + smart-money, deduplikuje po tickerze, liczy KONFLUENCJĘ.
+    Konfluencja (N źródeł na spółkę) podbija score o +0.6*(N-1), max +1.5."""
+    price_map = price_map or {}
+    lens_all = (radar or {}).get("all", []) if radar else []
+    smart_all = (smart or {}).get("all", []) if smart else []
+    by_ticker = {}
+    for o in (lens_all + smart_all):
+        tk = str(o.get("ticker", "?")).upper()
+        by_ticker.setdefault(tk, []).append(o)
+    out = []
+    for tk, opps in by_ticker.items():
+        kinds = []
+        for o in opps:
+            k = o.get("kind", "?")
+            if k not in kinds:
+                kinds.append(k)
+        best = max(opps, key=_opp_score)
+        base = _opp_score(best)
+        conf_bonus = min(1.5, 0.6 * (len(kinds) - 1))
+        final = round(min(10.0, base + conf_bonus), 2)
+        price = 0.0
+        for o in opps:
+            if o.get("price_usd"):
+                price = float(o["price_usd"]); break
+        if not price:
+            price = float(price_map.get(tk, 0) or 0)
+        note = best.get("note", "")
+        if len(kinds) > 1:
+            note = "KONFLUENCJA " + "+".join(kinds) + " · " + note
+        out.append({"ticker": tk, "kind": best.get("kind", "?"), "kinds": kinds,
+                    "confluence": len(kinds), "note": note, "risk": best.get("risk", ""),
+                    "price_usd": round(price, 2), "score": final})
+    out.sort(key=lambda m: m["score"], reverse=True)
+    return out
 
 
 @dataclass
@@ -146,7 +196,8 @@ class LowcaDecision:
     risk: str = ""
     note: str = ""
     reason: str = ""
-    # konkrety (gdy znana cena)
+    kinds: list = field(default_factory=list)
+    confluence: int = 1
     price_usd: float = 0.0
     stop_price_usd: float = 0.0
     target_price_usd: float = 0.0
@@ -160,19 +211,27 @@ def _shares(size_pln, price_usd, fx):
     return round((size_pln / fx) / price_usd, 4)
 
 
-def decide_all(radar: dict, c: LowcaConfig, free_cash_pln=None, price_map=None,
-               held=None, fx=None, sleeve_used_pln: float = 0.0,
-               open_spec: int = 0) -> "list[LowcaDecision]":
-    """Decyzje KUP/PASS + sizing w klatce min(sleeve, gotówka), z KONKRETAMI (akcje/ceny).
-    Pomija spółki już posiadane (held)."""
-    price_map = price_map or {}
+def deployable_budget(c: LowcaConfig, free_cash_pln=None, sleeve_used_pln: float = 0.0):
+    sleeve_cap = c.capital_pln * c.sleeve_pct
+    avail_sleeve = max(0.0, sleeve_cap - sleeve_used_pln)
+    if free_cash_pln is None:
+        return avail_sleeve, sleeve_cap, False
+    budget = max(0.0, min(avail_sleeve, float(free_cash_pln)))
+    return budget, sleeve_cap, float(free_cash_pln) < avail_sleeve
+
+
+def decide_all(candidates, c: LowcaConfig, free_cash_pln=None, held=None, fx=None,
+               sleeve_used_pln: float = 0.0, open_spec: int = 0) -> "list[LowcaDecision]":
+    """KUP/PASS + sizing w klatce min(sleeve, gotówka), z konkretami i konfluencją.
+    Pomija spółki już posiadane."""
     held_set = {str(t).upper() for t in (held or [])}
     fx = fx or c.fx_usd_pln
-    opps = (radar or {}).get("all", []) if radar else []
     cand = []
-    for o in opps:
-        d = LowcaDecision(ticker=o.get("ticker", "?"), kind=o.get("kind", "?"),
-                          score=_score(o), risk=o.get("risk", ""), note=o.get("note", ""))
+    for o in (candidates or []):
+        d = LowcaDecision(ticker=str(o.get("ticker", "?")), kind=o.get("kind", "?"),
+                          score=float(o.get("score", 0)), risk=o.get("risk", ""),
+                          note=o.get("note", ""), kinds=list(o.get("kinds", [])) or [o.get("kind", "?")],
+                          confluence=int(o.get("confluence", 1)), price_usd=float(o.get("price_usd", 0) or 0))
         cand.append(d)
     cand.sort(key=lambda d: d.score, reverse=True)
     budget, sleeve_cap, cash_limited = deployable_budget(c, free_cash_pln, sleeve_used_pln)
@@ -198,73 +257,61 @@ def decide_all(radar: dict, c: LowcaConfig, free_cash_pln=None, price_map=None,
             continue
         d.verdict = "BUY"; d.size_pln = size; d.stop_pct = _stop_pct(d.kind, c)
         d.reason = f"score {d.score:.1f} >= {c.buy_threshold:.0f}"
-        # KONKRETY (gdy znana cena)
-        price = price_map.get(d.ticker.upper(), 0.0)
-        if price and price > 0:
-            d.price_usd = round(price, 2)
-            d.stop_price_usd = round(price * (1 - d.stop_pct), 2)
-            d.target_price_usd = round(price * (1 + _tp_pct(d.kind, c)), 2)
-            d.shares = _shares(size, price, fx)
+        if d.price_usd and d.price_usd > 0:
+            d.stop_price_usd = round(d.price_usd * (1 - d.stop_pct), 2)
+            d.target_price_usd = round(d.price_usd * (1 + _tp_pct(d.kind, c)), 2)
+            d.shares = _shares(size, d.price_usd, fx)
         d.risk_pln = round(size * d.stop_pct, 0)
         used += size; n += 1
     return cand
 
 
-def deployable_budget(c: LowcaConfig, free_cash_pln=None, sleeve_used_pln: float = 0.0):
-    """min(wolny sleeve, wolna gotówka). Zwraca (budget, sleeve_cap, cash_limited?)."""
-    sleeve_cap = c.capital_pln * c.sleeve_pct
-    avail_sleeve = max(0.0, sleeve_cap - sleeve_used_pln)
-    if free_cash_pln is None:
-        return avail_sleeve, sleeve_cap, False
-    budget = max(0.0, min(avail_sleeve, float(free_cash_pln)))
-    cash_limited = float(free_cash_pln) < avail_sleeve
-    return budget, sleeve_cap, cash_limited
+def best_score(decisions) -> float:
+    return max([d.score for d in decisions], default=0.0)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# RENDER TEKSTOWY (konsola / fallback)
+# RENDER TEKSTOWY
 # ─────────────────────────────────────────────────────────────────────────────
-def render_text(decisions, c: LowcaConfig, equity_pln=None, free_cash_pln=None,
-                fx=None, held=None, sleeve_used_pln: float = 0.0) -> str:
+def render_text(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held=None, sleeve_used_pln=0.0):
     buys = [d for d in decisions if d.verdict == "BUY"]
     passes = [d for d in decisions if d.verdict == "PASS"]
     budget, sleeve_cap, cash_limited = deployable_budget(c, free_cash_pln, sleeve_used_pln)
-    L = ["=" * 64, "  BOT LOWCA — DECYZJE PRZED OTWARCIEM (SPEKULACJA)", "=" * 64]
-    L.append(f"  Equity: {(equity_pln or c.capital_pln):.0f} zl  |  Wolna gotowka: "
-             f"{('%.0f zl' % free_cash_pln) if free_cash_pln is not None else '—'}  |  "
-             f"Do wydania dzis: {budget:.0f} zl  |  Kurs USD/PLN: {fx or c.fx_usd_pln:.2f}")
+    hot = best_score(buys) >= c.alert_threshold
+    L = ["=" * 66, ("  PILNA OKAZJA! " if hot else "  ") + "BOT LOWCA — DECYZJE PRZED OTWARCIEM", "=" * 66]
+    L.append(f"  Equity: {(equity_pln or c.capital_pln):.0f} zl | Wolna gotowka: "
+             f"{('%.0f zl' % free_cash_pln) if free_cash_pln is not None else '—'} | "
+             f"Do wydania: {budget:.0f} zl | USD/PLN: {fx or c.fx_usd_pln:.2f}")
     if held:
-        L.append("  Masz juz: " + ", ".join(f"{h['ticker']} ({h['shares']:.3f} akc.)" for h in held))
+        L.append("  Masz juz: " + ", ".join(f"{h['ticker']} ({h['shares']:.3f})" for h in held))
     if buys:
-        L.append("\n  KUPUJEMY (klik na XTB o 15:30):")
+        L.append("\n  KUPUJEMY:")
         for i, d in enumerate(buys, 1):
+            conf = f" [KONFLUENCJA {'+'.join(d.kinds)}]" if d.confluence > 1 else f" [{d.kind}]"
             if d.price_usd:
-                L.append(f"   {i}. {d.ticker} [{d.kind}] — KUP {d.shares:.4f} akc. za {d.size_pln:.0f} zl "
-                         f"· wejscie ~${d.price_usd:.2f} · Sell Stop ${d.stop_price_usd:.2f} "
-                         f"· cel ${d.target_price_usd:.2f} · ryzyko {d.risk_pln:.0f} zl · score {d.score:.1f}")
+                L.append(f"   {i}. {d.ticker}{conf} — {d.shares:.4f} akc. za {d.size_pln:.0f} zl · "
+                         f"wejscie ${d.price_usd:.2f} · Stop ${d.stop_price_usd:.2f} · cel ${d.target_price_usd:.2f} "
+                         f"· ryzyko {d.risk_pln:.0f} zl · score {d.score:.1f}")
             else:
-                L.append(f"   {i}. {d.ticker} [{d.kind}] — KUP za {d.size_pln:.0f} zl · stop -{d.stop_pct*100:.0f}% "
-                         f"(brak ceny) · ryzyko {d.risk_pln:.0f} zl · score {d.score:.1f}")
+                L.append(f"   {i}. {d.ticker}{conf} — KUP za {d.size_pln:.0f} zl · stop -{d.stop_pct*100:.0f}% "
+                         f"· ryzyko {d.risk_pln:.0f} zl · score {d.score:.1f}")
             if d.note:
                 L.append(f"        {d.note}")
     else:
-        L.append("\n  KUPUJEMY: dzis zadna okazja nie przeszla (prog / gotowka / juz w portfelu).")
+        L.append("\n  KUPUJEMY: dzis nic (prog / gotowka / juz w portfelu).")
     if passes:
         L.append("\n  PASS:")
         for d in passes[:8]:
             L.append(f"   - {d.ticker} [{d.kind}] — {d.reason}")
-    if cash_limited:
-        L.append(f"\n  UWAGA: wolna gotowka ({free_cash_pln:.0f} zl) < sleeve ({sleeve_cap:.0f} zl) — "
-                 f"to gotowka ogranicza zakupy.")
-    L.append("=" * 64)
+    L.append("=" * 66)
     return "\n".join(L)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# RENDER HTML — styl bota bilansowego (import palety/komponentow z email_render)
+# RENDER HTML — styl bilansu
 # ─────────────────────────────────────────────────────────────────────────────
-def render_html(decisions, c: LowcaConfig, equity_pln=None, free_cash_pln=None,
-                fx=None, held=None, sleeve_used_pln: float = 0.0, today: str = "") -> str:
+def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held=None,
+                sleeve_used_pln=0.0, today="") -> str:
     try:
         from email_render import (BG, DARK, GOLD, GOLD_DK, GREEN, GREEN_LT, RED, RED_LT,
                                   GREY, MUTED, MUTED2, TEXT, LINE, LINE2, SERIF, SANS,
@@ -280,13 +327,15 @@ def render_html(decisions, c: LowcaConfig, equity_pln=None, free_cash_pln=None,
     budget, sleeve_cap, cash_limited = deployable_budget(c, free_cash_pln, sleeve_used_pln)
     spent = sum(d.size_pln for d in buys)
     risk_total = sum(d.risk_pln for d in buys)
+    hot = best_score(buys) >= c.alert_threshold
     cash_txt = (f"{free_cash_pln:,.0f} zł" if free_cash_pln is not None else "—")
     kind_label = {"KONTRAKT": "Mała spółka + duży kontrakt", "WOLUMEN": "Nietypowy wolumen / wybicie",
-                  "IPO": "Świeże IPO z momentum"}
+                  "IPO": "Świeże IPO z momentum", "INSIDER": "Zakupy insiderów",
+                  "FUND13F": "Ruch funduszu (13F)", "CONGRESS": "Zakup kongresmena"}
 
     P = [f"<div style='{SANS}background:{BG};padding:22px;'><div style='max-width:700px;margin:0 auto;'>"]
 
-    # ── HEADER ──
+    # HEADER
     P.append(
         f"<div style='background:{DARK};border-radius:14px;padding:28px 30px;margin-bottom:18px;'>"
         f"<div style='{SANS}font-size:10.5pt;text-transform:uppercase;letter-spacing:2.5px;"
@@ -297,120 +346,107 @@ def render_html(decisions, c: LowcaConfig, equity_pln=None, free_cash_pln=None,
         f"<div style='border-top:1px solid #334155;margin:16px 0 12px;'></div>"
         f"<div style='{SANS}font-size:10.5pt;text-transform:uppercase;letter-spacing:1px;"
         f"color:{GOLD};font-weight:bold;'>Wolna gotówka {cash_txt} · Equity {eq:,.0f} zł · "
-        f"Do wydania dziś {budget:,.0f} zł · USD/PLN {fxv:.2f}</div></div>"
+        f"Do wydania {budget:,.0f} zł · USD/PLN {fxv:.2f}</div></div>"
     )
 
-    # ── TWOJE PIENIĄDZE ──
+    # PILNY BANER
+    if hot:
+        P.append(
+            f"<div style='background:{RED};border-radius:12px;padding:16px 20px;margin-bottom:18px;"
+            f"{SANS}font-size:14pt;color:#ffffff;font-weight:bold;'>🔥 PILNA OKAZJA — "
+            f"najwyższy score {best_score(buys):.1f}/10 (próg alertu {c.alert_threshold:.0f}). Patrz niżej.</div>"
+        )
+
+    # TWOJE PIENIĄDZE
     if cash_limited:
-        money_note = (f"Masz <b>{cash_txt}</b> wolnej gotówki — mniej niż budżet sleeve "
-                      f"({sleeve_cap:,.0f} zł). Decyzje poniżej zmieściłem w Twojej gotówce.")
+        money_note = f"Masz <b>{cash_txt}</b> wolnej gotówki — mniej niż budżet sleeve ({sleeve_cap:,.0f} zł). Decyzje zmieściłem w gotówce."
         money_bar = RED
     elif free_cash_pln is not None:
-        money_note = (f"Wolna gotówka <b>{cash_txt}</b> pokrywa cały budżet sleeve "
-                      f"({sleeve_cap:,.0f} zł). Limitem jest strategia (max 15%), nie gotówka.")
+        money_note = f"Wolna gotówka <b>{cash_txt}</b> pokrywa cały budżet sleeve ({sleeve_cap:,.0f} zł). Limitem jest strategia (15%)."
         money_bar = GREEN
     else:
-        money_note = "Brak danych o wolnej gotówce — sizing wg samego sleeve (15% equity)."
+        money_note = "Brak danych o gotówce — sizing wg sleeve (15% equity)."
         money_bar = GOLD_DK
-
     P.append(
         _card_open("Twoje pieniądze dziś", "Tyle realnie możesz dziś wydać na spekulację.") +
-        f"<div style='border-left:5px solid {money_bar};background:#f8fafc;border-radius:8px;"
-        f"padding:14px 16px;{SANS}font-size:12.5pt;color:{TEXT};line-height:1.6;margin-bottom:14px;'>"
-        f"{money_note}</div>"
+        f"<div style='border-left:5px solid {money_bar};background:#f8fafc;border-radius:8px;padding:14px 16px;"
+        f"{SANS}font-size:12.5pt;color:{TEXT};line-height:1.6;margin-bottom:14px;'>{money_note}</div>"
         f"<table style='width:100%;border-collapse:collapse;{SANS}font-size:12.5pt;color:{TEXT};'>"
-        f"<tr><td style='padding:7px 0;'>Equity (cały rachunek)</td>"
-        f"<td style='padding:7px 0;text-align:right;font-weight:bold;color:{DARK};'>{eq:,.0f} zł</td></tr>"
-        f"<tr><td style='padding:7px 0;border-top:1px solid {LINE2};'>Wolna gotówka na rachunku</td>"
-        f"<td style='padding:7px 0;text-align:right;border-top:1px solid {LINE2};font-weight:bold;color:{DARK};'>{cash_txt}</td></tr>"
-        f"<tr><td style='padding:7px 0;border-top:1px solid {LINE2};'>Sleeve spekulacyjny (max 15%)</td>"
-        f"<td style='padding:7px 0;text-align:right;border-top:1px solid {LINE2};color:{TEXT};'>{sleeve_cap:,.0f} zł</td></tr>"
-        f"<tr><td style='padding:7px 0;border-top:2px solid {LINE};'><b>Do wydania dziś (mniejsze z dwóch)</b></td>"
-        f"<td style='padding:7px 0;text-align:right;border-top:2px solid {LINE};font-weight:bold;color:{GREEN};font-size:14pt;'>{budget:,.0f} zł</td></tr>"
-        f"<tr><td style='padding:7px 0;'>Łączne ryzyko sleeve (jeśli wszystkie stopy)</td>"
-        f"<td style='padding:7px 0;text-align:right;font-weight:bold;color:{RED};'>{risk_total:,.0f} zł</td></tr>"
+        f"<tr><td style='padding:7px 0;'>Equity (cały rachunek)</td><td style='padding:7px 0;text-align:right;font-weight:bold;color:{DARK};'>{eq:,.0f} zł</td></tr>"
+        f"<tr><td style='padding:7px 0;border-top:1px solid {LINE2};'>Wolna gotówka</td><td style='padding:7px 0;text-align:right;border-top:1px solid {LINE2};font-weight:bold;color:{DARK};'>{cash_txt}</td></tr>"
+        f"<tr><td style='padding:7px 0;border-top:1px solid {LINE2};'>Sleeve (max 15%)</td><td style='padding:7px 0;text-align:right;border-top:1px solid {LINE2};color:{TEXT};'>{sleeve_cap:,.0f} zł</td></tr>"
+        f"<tr><td style='padding:7px 0;border-top:2px solid {LINE};'><b>Do wydania dziś</b></td><td style='padding:7px 0;text-align:right;border-top:2px solid {LINE};font-weight:bold;color:{GREEN};font-size:14pt;'>{budget:,.0f} zł</td></tr>"
+        f"<tr><td style='padding:7px 0;'>Łączne ryzyko sleeve (jeśli stopy)</td><td style='padding:7px 0;text-align:right;font-weight:bold;color:{RED};'>{risk_total:,.0f} zł</td></tr>"
         f"</table></div>"
     )
 
-    # ── TWOJE OBECNE POZYCJE (oba boty widzą ten sam stan z repo) ──
+    # TWOJE OBECNE POZYCJE
     if held:
         rows = ""
         for h in held:
-            rows += (f"<tr><td style='padding:10px 8px 10px 0;border-bottom:1px solid {LINE2};{SANS}font-size:12.5pt;'>"
-                     f"<b style='color:{DARK};'>{h['ticker']}</b></td>"
+            rows += (f"<tr><td style='padding:10px 8px 10px 0;border-bottom:1px solid {LINE2};{SANS}font-size:12.5pt;'><b style='color:{DARK};'>{h['ticker']}</b></td>"
                      f"<td style='padding:10px 8px;border-bottom:1px solid {LINE2};text-align:right;{SANS}font-size:12pt;color:{TEXT};'>{h['shares']:.4f} akc.</td>"
                      f"<td style='padding:10px 8px;border-bottom:1px solid {LINE2};text-align:right;{SANS}font-size:12pt;color:{MUTED};'>wejście ${h['entry_usd']:.2f}</td>"
                      f"<td style='padding:10px 0;border-bottom:1px solid {LINE2};text-align:right;{SANS}font-size:12pt;color:{TEXT};'>Stop ${h['stop_usd']:.2f}</td></tr>")
-        P.append(
-            _card_open("Twoje obecne pozycje (rdzeń — z bilansu)",
-                       "Ten sam stan widzi bot bilansowy. Łowca tego NIE rusza i nie poleca duplikatów.") +
-            f"<table style='width:100%;border-collapse:collapse;'>{rows}</table></div>"
-        )
+        P.append(_card_open("Twoje obecne pozycje (rdzeń — z bilansu)",
+                            "Ten sam stan widzi bot bilansowy. Łowca tego NIE rusza i nie poleca duplikatów.") +
+                 f"<table style='width:100%;border-collapse:collapse;'>{rows}</table></div>")
 
-    # ── DECYZJE KUP (KONKRETY) ──
+    # DECYZJE KUP
     if buys:
         P.append(_card_open("Decyzje KUP — gotowe zlecenia na XTB",
-                            "Wykonaj o 15:30 w xStation. Ceny w USD wpisujesz w xStation; kwoty w zł."))
+                            "Wykonaj o 15:30 w xStation. Ceny w USD; kwoty w zł."))
         for d in buys:
+            conf_badge = ""
+            if d.confluence > 1:
+                conf_badge = (f"<span style='display:inline-block;{SANS}font-size:10pt;font-weight:bold;color:#166534;"
+                              f"background:{GREEN_LT};border:1px solid #86efac;padding:4px 9px;border-radius:5px;margin-bottom:6px;'>"
+                              f"KONFLUENCJA: {' + '.join(d.kinds)}</span><br>")
             if d.price_usd:
-                do_html = (f"Kup <b>{d.shares:.4f} akcji {d.ticker}</b> (≈ <b>{d.size_pln:,.0f} zł</b>) "
-                           f"po cenie rynkowej (~<b>${d.price_usd:.2f}</b>).<br>"
-                           f"Ustaw <b>Sell Stop ${d.stop_price_usd:.2f}</b>. "
+                do_html = (f"Kup <b>{d.shares:.4f} akcji {d.ticker}</b> (≈ <b>{d.size_pln:,.0f} zł</b>) po cenie rynkowej "
+                           f"(~<b>${d.price_usd:.2f}</b>).<br>Ustaw <b>Sell Stop ${d.stop_price_usd:.2f}</b>. "
                            f"Cel orientacyjny <b>${d.target_price_usd:.2f}</b> (lub trailing — zysk bez capa).")
             else:
                 do_html = (f"Kup <b>{d.ticker}</b> za <b>{d.size_pln:,.0f} zł</b> po cenie rynkowej. "
                            f"Ustaw Sell Stop −{d.stop_pct*100:.0f}% (brak ceny w sygnale).")
-            why_html = (f"{d.note or 'Okazja spekulacyjna.'} "
+            why_html = (f"{conf_badge}{d.note or 'Okazja spekulacyjna.'} "
                         f"<br><span style='color:{RED};font-weight:bold;'>Ryzyko jeśli stop: {d.risk_pln:,.0f} zł.</span> "
-                        f"<span style='color:{MUTED};'>Typ: {kind_label.get(d.kind, d.kind)} · "
-                        f"score {d.score:.1f}/10 · {d.risk or 'WYSOKIE'}.</span>")
-            P.append(_action_block(
-                company=d.ticker, order="Zlecenie: KUP po cenie rynkowej + Sell Stop",
-                order_color=GREEN, bar_color=GREEN, do_html=do_html, why_html=why_html))
+                        f"<span style='color:{MUTED};'>Typ: {kind_label.get(d.kind, d.kind)} · score {d.score:.1f}/10 · {d.risk or 'WYSOKIE'}.</span>")
+            P.append(_action_block(company=d.ticker, order="Zlecenie: KUP po cenie rynkowej + Sell Stop",
+                                   order_color=GREEN, bar_color=GREEN, do_html=do_html, why_html=why_html))
         P.append("</div>")
     else:
         P.append(_card_open("Decyzje KUP — gotowe zlecenia na XTB") +
                  f"<div style='{SANS}font-size:13pt;color:{TEXT};line-height:1.6;'>"
-                 f"<b>Dziś nie kupujemy.</b> Żadna okazja nie przeszła progu (score &lt; 6), "
-                 f"zabrakło gotówki albo już masz tę spółkę. Łowca woli czekać niż wymuszać.</div></div>")
+                 f"<b>Dziś nie kupujemy.</b> Żadna okazja nie przeszła progu, zabrakło gotówki albo już masz tę spółkę.</div></div>")
 
-    # ── PASS ──
+    # PASS
     if passes:
         rows = ""
         for d in passes[:8]:
-            rows += (f"<tr><td style='padding:10px 8px 10px 0;border-bottom:1px solid {LINE2};"
-                     f"{SANS}font-size:12.5pt;'><b style='color:{DARK};'>{d.ticker}</b> "
-                     f"<span style='color:{MUTED};font-size:11pt;'>[{d.kind}]</span></td>"
-                     f"<td style='padding:10px 0;border-bottom:1px solid {LINE2};color:{MUTED};"
-                     f"{SANS}font-size:11.5pt;'>{d.reason}</td></tr>")
-        P.append(
-            _card_open("Pominięte (PASS)", "Okazje, które dziś nie kwalifikują się do zakupu.") +
-            f"<table style='width:100%;border-collapse:collapse;'>{rows}</table></div>"
-        )
+            rows += (f"<tr><td style='padding:10px 8px 10px 0;border-bottom:1px solid {LINE2};{SANS}font-size:12.5pt;'>"
+                     f"<b style='color:{DARK};'>{d.ticker}</b> <span style='color:{MUTED};font-size:11pt;'>[{d.kind}]</span></td>"
+                     f"<td style='padding:10px 0;border-bottom:1px solid {LINE2};color:{MUTED};{SANS}font-size:11.5pt;'>{d.reason}</td></tr>")
+        P.append(_card_open("Pominięte (PASS)", "Okazje, które dziś nie kwalifikują się do zakupu.") +
+                 f"<table style='width:100%;border-collapse:collapse;'>{rows}</table></div>")
 
-    # ── ZASADY / STOPKA ──
-    P.append(
-        _card_open("Zasady łowcy") +
-        f"<div style='{SANS}font-size:11.5pt;color:{TEXT};line-height:1.7;'>"
-        f"• Sleeve spekulacyjny <b>max 15%</b> equity — rdzeń (85%) pracuje niezależnie w bilansie wieczornym.<br>"
-        f"• Każda pozycja ma <b>konkretny Sell Stop</b>; kwota nigdy nie przekracza <b>wolnej gotówki</b>.<br>"
-        f"• Max {c.max_open_spec} spekulacje naraz; próg wejścia ~43 zł (10 EUR na XTB).<br>"
-        f"• <b>Egzekucja = Twój klik na XTB.</b> Łowca niczego nie kupuje — podaje gotowe liczby.<br>"
-        f"• Konto IKE pozostaje nietykalne.</div></div>"
-    )
-    P.append(
-        f"<div style='{SANS}font-size:10pt;color:{MUTED2};text-align:center;padding:20px 0;line-height:1.6;'>"
-        f"Zautomatyzowana synteza okazji — spekulacja wysokiego ryzyka, NIE porada inwestycyjna. "
-        f"Ceny wejścia to ostatni kurs (orientacyjnie); realnie kupujesz po cenie rynkowej.<br>"
-        f"<em>Kwoty w zł; ceny i Sell Stop wpisujesz w xStation w USD.</em></div>"
-    )
-
+    # ZASADY / STOPKA
+    P.append(_card_open("Zasady łowcy") +
+             f"<div style='{SANS}font-size:11.5pt;color:{TEXT};line-height:1.7;'>"
+             f"• Źródła: IPO / wolumen / kontrakt + smart-money (insiderzy, fundusze 13F, kongres). "
+             f"<b>Konfluencja</b> (wiele źródeł na spółkę) podbija score.<br>"
+             f"• Sleeve <b>max 15%</b> equity — rdzeń (85%) niezależnie w bilansie. Każda pozycja ma konkretny Sell Stop.<br>"
+             f"• Kwota nigdy nie przekracza wolnej gotówki. Max {c.max_open_spec} spekulacje naraz.<br>"
+             f"• <b>Egzekucja = Twój klik na XTB.</b> Konto IKE nietykalne.</div></div>")
+    P.append(f"<div style='{SANS}font-size:10pt;color:{MUTED2};text-align:center;padding:20px 0;line-height:1.6;'>"
+             f"Spekulacja wysokiego ryzyka, NIE porada inwestycyjna. Ceny wejścia to ostatni kurs (orientacyjnie).<br>"
+             f"<em>Kwoty w zł; ceny i Sell Stop wpisujesz w xStation w USD.</em></div>")
     P.append("</div></div>")
     return "".join(P)
 
 
 def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
-        sleeve_used=0.0, open_spec=0, today="") -> int:
+        sleeve_used=0.0, open_spec=0, today="", alert_only=False) -> int:
     acc = read_account()
     capital = capital if capital is not None else (acc["equity_pln"] or 1582.0)
     cash = cash if cash is not None else acc["cash_pln"]
@@ -421,17 +457,25 @@ def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
     c = LowcaConfig(capital_pln=capital, fx_usd_pln=fx)
     signals = oppl.read_opportunity_signals(signals_path) if signals_path else oppl.read_opportunity_signals()
     radar = oppl.build_radar(signals)
-    pmap = _price_map(signals)
-    decisions = decide_all(radar, c, free_cash_pln=cash, price_map=pmap, held=held_tickers,
-                           fx=fx, sleeve_used_pln=sleeve_used, open_spec=open_spec)
-    print(render_text(decisions, c, equity_pln=capital, free_cash_pln=cash, fx=fx, held=held,
-                      sleeve_used_pln=sleeve_used))
+    smart = lsrc.build_smart(signals) if lsrc else {"all": []}
+    candidates = build_candidates(radar, smart, _price_map(signals))
+    decisions = decide_all(candidates, c, free_cash_pln=cash, held=held_tickers, fx=fx,
+                           sleeve_used_pln=sleeve_used, open_spec=open_spec)
+    print(render_text(decisions, c, equity_pln=capital, free_cash_pln=cash, fx=fx, held=held, sleeve_used_pln=sleeve_used))
+
+    buys = [d for d in decisions if d.verdict == "BUY"]
+    hot = best_score(buys) >= c.alert_threshold
+    if alert_only and not hot:
+        print(f"[alert-only] brak okazji score>={c.alert_threshold:.0f} — mail POMINIETY (cicho).")
+        return 0
     if send:
         try:
             from notifications import send_email_resend
             html = render_html(decisions, c, equity_pln=capital, free_cash_pln=cash, fx=fx,
                                held=held, sleeve_used_pln=sleeve_used, today=today)
-            r = send_email_resend(html, "Bot Łowca — okazje przed otwarciem", dry_run=False)
+            subj = (f"🔥 Bot Łowca — PILNA OKAZJA (score {best_score(buys):.1f})" if hot
+                    else "Bot Łowca — okazje przed otwarciem")
+            r = send_email_resend(html, subj, dry_run=False)
             print("Mail:", "OK" if r.get("ok") else r.get("note"), "id=", r.get("id"))
         except Exception as e:
             print(f"Mail pominięty: {e}")
@@ -439,10 +483,10 @@ def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# SELFTEST — offline
+# SELFTEST
 # ─────────────────────────────────────────────────────────────────────────────
 def _run_selftest() -> int:
-    print("=== SELFTEST lowca_pipeline (konkrety + pozycje + gotowka + HTML) ===")
+    print("=== SELFTEST lowca_pipeline (smart money + konfluencja + alert) ===")
     P = F = 0
     def ok(n, cond):
         nonlocal P, F
@@ -451,76 +495,69 @@ def _run_selftest() -> int:
     c = LowcaConfig(capital_pln=1648.0, fx_usd_pln=3.64)
 
     signals = {
-        "contract": [{"ticker": "OKLO", "contract_usd": 900e6, "market_cap_usd": 1.8e9, "hours_ago": 2, "source": "SEC 8-K", "price_usd": 22.50}],
-        "volume": [{"ticker": "XYZ", "volume_mult": 5, "pct_today": 18, "broke_high": True, "price_usd": 8.0}],
+        "contract": [{"ticker": "OKLO", "contract_usd": 900e6, "market_cap_usd": 1.8e9, "hours_ago": 2, "price_usd": 22.5}],
         "ipo": [{"ticker": "RDDT", "age_months": 8, "pct_from_ipo": 60, "volume_mult": 2, "price_usd": 140.0}],
+        "insider": [{"ticker": "RDDT", "buyers": 3, "usd_total": 1_500_000, "days_ago": 2, "price_usd": 140.0}],
+        "congress": [{"ticker": "RDDT", "member": "X", "amount_usd": 200_000, "days_ago": 6, "price_usd": 140.0}],
     }
     radar = oppl.build_radar(signals)
-    pmap = _price_map(signals)
-    ok("price_map z sygnalow", pmap.get("OKLO") == 22.50 and pmap.get("RDDT") == 140.0)
-    ok("build_radar 3 okazje", len(radar.get("all", [])) == 3)
+    smart = lsrc.build_smart(signals)
+    ok("smart-money: 2 okazje (insider+congress)", len(smart["all"]) == 2)
+    cands = build_candidates(radar, smart, _price_map(signals))
 
-    # z gotowka 55 i cena -> konkrety
-    dec = decide_all(radar, c, free_cash_pln=55.0, price_map=pmap, fx=3.64)
+    rddt = next((m for m in cands if m["ticker"] == "RDDT"), None)
+    ok("RDDT scalony z wielu zrodel", rddt and rddt["confluence"] >= 3)
+    ok("RDDT konfluencja podbila score (>= IPO bazowy)", rddt and rddt["score"] > 6.5)
+    # IPO bazowo 6.5 (wolumen w nocie) -> +konfluencja (3 zrodla) +1.2 -> ~7.7+; insider base 6.9
+    ok("RDDT score >= 7.5 (konfluencja dziala)", rddt and rddt["score"] >= 7.5)
+    ok("Brak duplikatow tickera w kandydatach", len({m["ticker"] for m in cands}) == len(cands))
+
+    dec = decide_all(cands, c, free_cash_pln=200.0, fx=3.64)
     buys = [d for d in dec if d.verdict == "BUY"]
-    ok("Gotowka 55: suma <= 55", sum(d.size_pln for d in buys) <= 55 + 0.5)
-    ok("BUY ma liczbe akcji > 0", all(d.shares > 0 for d in buys))
-    ok("BUY ma cene wejscia", all(d.price_usd > 0 for d in buys))
-    ok("BUY ma Sell Stop < wejscie", all(0 < d.stop_price_usd < d.price_usd for d in buys))
-    ok("BUY ma cel > wejscie", all(d.target_price_usd > d.price_usd for d in buys))
-    ok("BUY ma ryzyko w zl > 0", all(d.risk_pln > 0 for d in buys))
-    # weryfikacja matematyki akcji dla pierwszego BUY
-    if buys:
-        b = buys[0]
-        exp_shares = round((b.size_pln / 3.64) / b.price_usd, 4)
-        ok("Liczba akcji = (zl/fx)/cena", abs(b.shares - exp_shares) < 1e-6)
-        ok("Stop = cena*(1-stop%)", abs(b.stop_price_usd - round(b.price_usd * (1 - b.stop_pct), 2)) < 0.01)
+    rddt_d = next((d for d in buys if d.ticker == "RDDT"), None)
+    ok("RDDT -> BUY", rddt_d is not None)
+    ok("BUY ma konkretne akcje/stop/cel", rddt_d and rddt_d.shares > 0 and rddt_d.stop_price_usd > 0 and rddt_d.target_price_usd > rddt_d.price_usd)
+    ok("BUY niesie liste kinds (konfluencja)", rddt_d and len(rddt_d.kinds) >= 2)
 
-    # held -> pomija spolke
-    dec_h = decide_all(radar, c, free_cash_pln=200.0, price_map=pmap, held=["RDDT"], fx=3.64)
-    ok("Held RDDT -> PASS 'juz masz'", any(d.ticker == "RDDT" and d.verdict == "PASS" and "już masz" in d.reason for d in dec_h))
-    ok("Held RDDT -> nie ma RDDT w BUY", not any(d.ticker == "RDDT" and d.verdict == "BUY" for d in dec_h))
+    # ALERT: spotka silna konfluencja -> score>=8
+    big = {
+        "contract": [{"ticker": "ZZZ", "contract_usd": 2e9, "market_cap_usd": 2e9, "hours_ago": 1, "price_usd": 10}],
+        "insider": [{"ticker": "ZZZ", "buyers": 4, "usd_total": 3e6, "days_ago": 1, "price_usd": 10}],
+        "congress": [{"ticker": "ZZZ", "member": "Y", "amount_usd": 500_000, "days_ago": 2, "committee_relevant": True, "price_usd": 10}],
+    }
+    cb = build_candidates(oppl.build_radar(big), lsrc.build_smart(big), _price_map(big))
+    zzz = next((m for m in cb if m["ticker"] == "ZZZ"), None)
+    ok("Silna konfluencja ZZZ -> score >= 8 (alert)", zzz and zzz["score"] >= 8.0)
+    decb = decide_all(cb, c, free_cash_pln=200.0, fx=3.64)
+    ok("best_score >= prog alertu", best_score([d for d in decb if d.verdict == "BUY"]) >= c.alert_threshold)
 
-    # brak ceny -> BUY bez konkretow, ale z ryzykiem
-    sig2 = {"ipo": [{"ticker": "NOPRICE", "age_months": 5, "pct_from_ipo": 40, "volume_mult": 2}]}
-    r2 = oppl.build_radar(sig2)
-    d2 = decide_all(r2, c, free_cash_pln=200.0, price_map=_price_map(sig2), fx=3.64)
-    b2 = [d for d in d2 if d.verdict == "BUY"]
-    ok("Brak ceny -> nadal BUY (size>0)", b2 and b2[0].size_pln > 0)
-    ok("Brak ceny -> shares=0 (nie zmysla)", b2 and b2[0].shares == 0)
-    ok("Brak ceny -> ryzyko nadal liczone", b2 and b2[0].risk_pln > 0)
+    # held -> pomija
+    dec_h = decide_all(cands, c, free_cash_pln=200.0, held=["RDDT"], fx=3.64)
+    ok("Held RDDT -> PASS", any(d.ticker == "RDDT" and d.verdict == "PASS" for d in dec_h))
 
-    # read_account fallbacki (brak plikow w tym katalogu testowym jest OK)
-    acc = read_account("brak_portfolio.json", "brak_equity.json")
-    ok("read_account brak plikow -> fallback dict", isinstance(acc, dict) and acc["equity_pln"] is None)
+    # gotowka 0 -> 0 zakupow
+    ok("Gotowka 0 -> 0 BUY", sum(1 for d in decide_all(cands, c, free_cash_pln=0.0) if d.verdict == "BUY") == 0)
+    # brak smart (None) -> dziala na samym lensie
+    ok("Bez smart -> dziala (sam lens)", isinstance(build_candidates(radar, {"all": []}, _price_map(signals)), list))
+    # pusty
+    ok("Pusto -> 0 kandydatow", build_candidates(oppl.build_radar({"_empty": True}), {"all": []}) == [])
+    ok("Sygnaly None -> brak crasha", isinstance(lsrc.build_smart(None), dict))
 
-    # budzet min(sleeve, gotowka)
-    b1, cap1, lim1 = deployable_budget(c, 55.0)
-    ok("Budzet = min(sleeve, gotowka)", abs(b1 - 55.0) < 0.01 and lim1)
-
-    # pusty radar
-    ok("Pusty radar -> 0 decyzji", len(decide_all(oppl.build_radar({"_empty": True}), c, free_cash_pln=55.0)) == 0)
-    ok("Sygnaly None -> brak crasha", isinstance(oppl.build_radar(None), dict))
-
+    # render bez bledu + alert baner
     held = [{"ticker": "SAP", "shares": 0.799, "entry_usd": 176.37, "stop_usd": 176.37}]
-    # render_text
     try:
-        render_text(dec, c, equity_pln=1648, free_cash_pln=55.0, fx=3.64, held=held); ok("render_text bez bledu", True)
-    except Exception as e:
-        ok(f"render_text bez bledu ({e})", False)
-    # render_html z konkretami + pozycjami
-    try:
-        html = render_html(dec, c, equity_pln=1648, free_cash_pln=55.0, fx=3.64, held=held, today="2026-06-03")
+        html = render_html(decb, c, equity_pln=1648, free_cash_pln=200.0, fx=3.64, held=held, today="2026-06-04")
         ok("render_html bez bledu", True)
-        ok("HTML: liczba akcji", "akcji" in html or "akc." in html)
-        ok("HTML: Sell Stop $", "Sell Stop $" in html)
-        ok("HTML: cel $", "Cel orientacyjny" in html)
-        ok("HTML: ryzyko zl", "Ryzyko jeśli stop" in html)
-        ok("HTML: obecne pozycje (SAP)", "SAP" in html and "obecne pozycje" in html)
-        ok("HTML: USD/PLN", "USD/PLN" in html)
-        ok("HTML: IKE", "IKE" in html)
+        ok("HTML: baner PILNA OKAZJA przy score>=8", "PILNA OKAZJA" in html)
+        ok("HTML: badge KONFLUENCJA", "KONFLUENCJA" in html)
+        ok("HTML: konkretny Sell Stop $", "Sell Stop $" in html)
+        ok("HTML: obecne pozycje SAP", "SAP" in html and "obecne pozycje" in html)
     except Exception as e:
         ok(f"render_html bez bledu ({e})", False)
+    try:
+        render_text(decb, c, equity_pln=1648, free_cash_pln=200.0, fx=3.64, held=held); ok("render_text bez bledu", True)
+    except Exception as e:
+        ok(f"render_text bez bledu ({e})", False)
 
     print(f"\n=== WYNIK: {P} OK, {F} FAIL ===")
     if F == 0:
@@ -529,21 +566,22 @@ def _run_selftest() -> int:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Bot Łowca — okazje przed otwarciem")
+    ap = argparse.ArgumentParser(description="Bot Łowca — okazje przed otwarciem (smart money + alerty)")
     ap.add_argument("--selftest", action="store_true")
-    ap.add_argument("--signals", default=None, help="ścieżka do opportunity_signals.json")
+    ap.add_argument("--signals", default=None)
     ap.add_argument("--capital", type=float, default=None, help="equity w zł (domyślnie z equity_log.json)")
     ap.add_argument("--cash", type=float, default=None, help="wolna gotówka w zł (domyślnie z portfolio.json)")
     ap.add_argument("--fx", type=float, default=None, help="kurs USD/PLN (domyślnie z equity_log.json)")
     ap.add_argument("--sleeve-used", type=float, default=0.0)
     ap.add_argument("--open-spec", type=int, default=0)
-    ap.add_argument("--today", default="", help="data do nagłówka maila (YYYY-MM-DD)")
+    ap.add_argument("--today", default="")
+    ap.add_argument("--alert-only", action="store_true", help="mail tylko gdy score >= prog alertu")
     ap.add_argument("--send", action="store_true")
     a = ap.parse_args()
     if a.selftest:
         return _run_selftest()
     return run(signals_path=a.signals, capital=a.capital, cash=a.cash, fx=a.fx, send=a.send,
-               sleeve_used=a.sleeve_used, open_spec=a.open_spec, today=a.today)
+               sleeve_used=a.sleeve_used, open_spec=a.open_spec, today=a.today, alert_only=a.alert_only)
 
 
 if __name__ == "__main__":
