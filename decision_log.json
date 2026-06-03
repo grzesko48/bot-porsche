@@ -322,5 +322,32 @@
     "reason": "trzymam (P/L +3.9%)",
     "fraction": 1.0,
     "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "SAP",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +2.2%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "ASML",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +7.7%), nowy szczyt 1733.82",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +3.9%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
   }
 ]
