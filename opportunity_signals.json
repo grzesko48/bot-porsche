@@ -1,16 +1,21 @@
 {
+  "_date": "2026-06-03",
   "ipo": [
     {
       "ticker": "CRWV",
       "age_months": 14,
-      "pct_from_ipo": 200,
-      "volume_mult": 1.8
+      "pct_from_ipo": 198,
+      "volume_mult": 1.8,
+      "price_usd": 119.27
     },
     {
-      "ticker": "VIDA",
-      "age_months": 1,
-      "pct_from_ipo": 53,
-      "volume_mult": 1
+      "ticker": "CRCL",
+      "age_months": 12,
+      "pct_from_ipo": 224,
+      "volume_mult": 1.1,
+      "price_usd": 100.56
     }
-  ]
+  ],
+  "volume": [],
+  "contract": []
 }
