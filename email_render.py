@@ -346,14 +346,68 @@ def build_email_html(ctx: dict) -> str:
             f"</tr></thead><tbody>{rows}</tbody></table></div>"
         )
 
-    # ── VI. CEL ──
+    # ── VI. RADAR OKAZJI ULTRA (moonshoty — obserwuj, nie auto-kup) ──
+    opp = ctx.get("opportunity_radar") or {}
+    if opp and not opp.get("_empty"):
+        sleeve = ctx.get("moonshot_sleeve_pln", 0)
+        equity_for_sleeve = ctx.get("equity_pln", 0)
+        sleeve_pct = (sleeve / equity_for_sleeve * 100) if equity_for_sleeve else 0
+        blocks = ""
+        # Kontrakty (najmocniejszy sygnał) -> wolumen -> IPO
+        kind_emoji = {"KONTRAKT": "💰", "WOLUMEN": "📈", "IPO": "🆕"}
+        kind_title = {"KONTRAKT": "MAŁA SPÓŁKA + OGROMNY KONTRAKT",
+                      "WOLUMEN": "NIETYPOWY WOLUMEN / WYBICIE", "IPO": "ŚWIEŻE IPO"}
+        seen_kinds = []
+        for o in opp.get("all", []):
+            kind = o.get("kind", "")
+            if kind not in seen_kinds:
+                seen_kinds.append(kind)
+                blocks += (f"<div style='{SANS}font-size:10pt;letter-spacing:1px;text-transform:uppercase;"
+                           f"color:{GOLD_DK};font-weight:bold;margin:16px 0 8px;'>"
+                           f"{kind_emoji.get(kind,'•')} {kind_title.get(kind, kind)}</div>")
+            risk = o.get("risk", "WYSOKIE")
+            risk_col = RED if "BARDZO" in risk else GOLD_DK
+            blocks += (
+                f"<div style='background:#fffbeb;border-left:3px solid {GOLD};border-radius:6px;"
+                f"padding:12px 14px;margin-bottom:8px;'>"
+                f"<b style='{SANS}font-size:13.5pt;color:{DARK};'>{o.get('ticker','')}</b> "
+                f"<span style='{SANS}font-size:11.5pt;color:{TEXT};'>— {o.get('note','')}</span><br>"
+                f"<span style='{SANS}font-size:11pt;color:{GREEN};font-weight:bold;'>→ {o.get('label','OBSERWUJ')}</span> "
+                f"<span style='{SANS}font-size:10.5pt;color:{risk_col};'>· Ryzyko: {risk}</span></div>")
+        # Temat + lockup (informacyjnie)
+        theme = opp.get("theme") or []
+        if theme:
+            tnames = ", ".join(str(t.get("ticker", t) if isinstance(t, dict) else t) for t in theme[:5])
+            blocks += (f"<div style='{SANS}font-size:11pt;color:{TEXT};margin-top:12px;'>"
+                       f"🔥 <b>Liderzy tematu:</b> {tnames} → OBSERWUJ</div>")
+        lockup = opp.get("lockup") or []
+        if lockup:
+            lnames = ", ".join(f"{l.get('ticker','?')} (za {l.get('days_until','?')}d)"
+                               if isinstance(l, dict) else str(l) for l in lockup[:3])
+            blocks += (f"<div style='{SANS}font-size:11pt;color:{MUTED};margin-top:6px;'>"
+                       f"⏳ <b>Lockup:</b> {lnames} → ryzyko podaży insiderów</div>")
+        P.append(
+            _card_open("VI. Radar Okazji Ultra  ⚠ spekulacja — obserwuj, nie auto-kup",
+                       "Spółki przed potencjalnie dużym ruchem. Loteryjne zakłady z barbella — "
+                       "decyzja należy do Ciebie.") +
+            f"<div style='{SANS}font-size:11.5pt;color:{MUTED};margin-bottom:6px;'>"
+            f"Sleeve moonshot: {sleeve:,.0f} zł / {equity_for_sleeve:,.0f} zł "
+            f"({sleeve_pct:.0f}% · barbell)</div>"
+            f"{blocks}"
+            f"<div style='{SANS}font-size:10.5pt;color:{MUTED};line-height:1.6;border-top:1px solid {LINE2};"
+            f"margin-top:14px;padding-top:12px;'><b>Zasada:</b> max 1 moonshot = €10-43 zł (próg XTB). "
+            f"Akceptujesz −100% tej pozycji. Stop −50% lub brak. Winner bez górnego capa. "
+            f"Rdzeń (91%) pracuje niezależnie w sekcji I.</div></div>"
+        )
+
+    # ── VII. CEL ──
     goal = ctx.get("goal_pln", 1_700_000)
     equity = ctx.get("equity_pln", 0)
     pct_goal = min(100.0, (equity / goal * 100) if goal else 0)
     P.append(
         f"<div style='background:{DARK};border-radius:14px;padding:26px 30px;'>"
         f"<div style='{SANS}font-size:10.5pt;letter-spacing:2px;text-transform:uppercase;"
-        f"color:{GOLD};font-weight:bold;margin-bottom:12px;'>VI. Metryka celu</div>"
+        f"color:{GOLD};font-weight:bold;margin-bottom:12px;'>VII. Metryka celu</div>"
         f"<div style='{SERIF}font-size:23pt;font-weight:bold;color:#ffffff;'>"
         f"{equity:,.0f} / {goal:,.0f} PLN</div>"
         f"<div style='{SANS}font-size:11pt;color:{MUTED2};margin-top:6px;'>"
