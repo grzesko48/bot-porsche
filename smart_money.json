@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-02T19:12",
+  "generated": "2026-06-03T14:45",
   "insiders": {},
   "funds": {},
   "politicians": {},
   "sector_exits": [],
-  "_notes": "Cykl 2026-06-02: web_search po OpenInsider (Form 4), Dataroma (13F Q1 2026) i Capitol Trades/Quiver nie zwrocil potwierdzonego SWIEZEGO klastra dla TSM/ASML/SAP/MSTR/ARM. Brak >=2 niezaleznych potwierdzen kupna insiderow ani zbieznosci funduszy w oknie <=7 dni. Zgodnie z zasada 'swiezosc ponad pamiec' nie przenosze niezweryfikowanych pozycji z poprzedniego cyklu. Scalary smart-money pozostaja neutralne (1.0)."
+  "_notes": "Cykl 2026-06-03: web_search po OpenInsider (Form 4), Dataroma (13F Q1 2026) i Capitol Trades/Quiver nie zwrocil potwierdzonego SWIEZEGO (<=7 dni) klastra dla TSM/ASML/SAP/MSTR/ARM. 13F Q1 byly mieszane i nieswieze (np. Triple Frond +11% ASML, ale Pat Dorsey przyciety ASML); transakcje kongresmenow w ASML pochodza z grudnia 2025. Brak >=2 niezaleznych potwierdzen swiezego kupna insiderow ani zbieznosci funduszy w oknie <=7 dni. Zgodnie z zasada 'swiezosc ponad pamiec' nie przenosze niezweryfikowanych pozycji. Scalary smart-money pozostaja neutralne (1.0)."
 }
