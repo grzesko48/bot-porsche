@@ -1,0 +1,31 @@
+{
+  "generated_utc": "2026-06-03T14:47:48+00:00",
+  "scan": [
+    {
+      "type": "ipo",
+      "query": "recent IPO listings last 18 months momentum, Finnhub IPO calendar",
+      "want": "ticker, ipo_date, pct_from_ipo, volume_vs_avg"
+    },
+    {
+      "type": "volume",
+      "query": "unusual volume stocks today, volume > 3x average, breakout 3-month high",
+      "want": "ticker, volume_mult, pct_today, broke_high"
+    },
+    {
+      "type": "contract",
+      "query": "small cap company large government contract SEC 8-K, USAspending defense space nuclear AI",
+      "want": "ticker, contract_usd, market_cap_usd, source, hours_ago"
+    },
+    {
+      "type": "theme",
+      "query": "hottest sector leaders momentum 20 days nuclear AI space defense",
+      "want": "ticker, theme, pct_20d"
+    },
+    {
+      "type": "lockup",
+      "query": "IPO lockup expiry next 14 days insider supply risk",
+      "want": "ticker, lockup_date, days_until"
+    }
+  ],
+  "rules": "Filtruj: cap > $300M. Newsy < 48h. Tylko PO publikacji (nie przed). Etykieta OBSERWUJ. Nigdy nie sugeruj auto-kupna."
+}
