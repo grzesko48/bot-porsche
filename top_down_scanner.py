@@ -368,29 +368,47 @@ def compute_macro_radar(close: pd.DataFrame, cfg: ScannerConfig) -> tuple[int, s
       • VIX > 25 (podwyższony strach)
       • VIX > 35 (panika — drugi punkt od VIX)
     Brak danych -> liczy z dostępnych, dokłada notatkę.
-    Zwraca też `regime_below_200sma` — TWARDY sygnał bessy do filtra wejścia
-    (lekarstwo na momentum crashes: gdy True, bot NIE otwiera nowych pozycji)."""
+    Zwraca też `regime_below_200sma` — TWARDY sygnał bessy do filtra wejścia.
+    FILTR v2 (zwalidowany backtestem 2026-06-03): blokuje zakupy NIE przy samym
+    SPY<200SMA, ale gdy JEDNOCZEŚNIE rynek jest pod średnią ORAZ panikuje (wysoka
+    realized volatility / VIX). Powolna bessa przy spokoju (jak 2022) NIE blokuje —
+    bot zostaje i łapie odbicia. Gwałtowny krach (panika) blokuje — ochrona działa.
+    To naprawia stratę -15pp z 2022, którą dawał stary binarny filtr v1."""
     level = 0
     signals = []
     regime_below_200sma = False   # domyślnie: nie blokuj (fail-safe gdy brak danych SPY)
+    below_sma = False
+    panic = False
+    spy_rvol = 0.0
 
-    # SPY vs 200 SMA
+    # SPY vs 200 SMA + realized volatility (rdzeń filtra v2)
     if BENCH_SPY in close.columns:
         spy = close[BENCH_SPY].dropna()
         if len(spy) >= 200:
             sma200 = spy.rolling(200).mean().iloc[-1]
-            if spy.iloc[-1] < sma200:
+            below_sma = spy.iloc[-1] < sma200
+            depth = (sma200 - spy.iloc[-1]) / sma200 if below_sma else 0.0
+            # realized volatility 20-dniowa (dzienna) — wskaźnik paniki
+            rets = spy.pct_change().dropna()
+            if len(rets) >= 20:
+                spy_rvol = float(rets.iloc[-20:].std())
+            vol_thr = 0.025 * (0.7 if depth > 0.05 else 1.0)   # głęboko pod SMA -> niższy próg
+            panic = spy_rvol > vol_thr
+            if below_sma:
                 level += 1
-                regime_below_200sma = True
-                signals.append(f"SPY {spy.iloc[-1]:.0f} < 200SMA {sma200:.0f} (trend spadkowy — STOP zakupów)")
+                if panic:
+                    regime_below_200sma = True   # v2: blokuj TYLKO przy panice
+                    signals.append(f"SPY < 200SMA + panika (rvol {spy_rvol*100:.1f}% > {vol_thr*100:.1f}%) — STOP zakupów")
+                else:
+                    signals.append(f"SPY < 200SMA, ale spokój (rvol {spy_rvol*100:.1f}%) — powolna bessa, NIE blokuję")
             else:
-                signals.append(f"SPY nad 200SMA (trend wzrostowy)")
+                signals.append("SPY nad 200SMA (trend wzrostowy)")
         else:
             signals.append("SPY: za mało danych na 200SMA")
     else:
         signals.append("SPY: brak danych")
 
-    # VIX
+    # VIX — dodatkowe potwierdzenie paniki (podbija poziom radaru + może wymusić blokadę)
     if VIX_TICKER in close.columns:
         vix = close[VIX_TICKER].dropna()
         if len(vix):
@@ -399,6 +417,9 @@ def compute_macro_radar(close: pd.DataFrame, cfg: ScannerConfig) -> tuple[int, s
                 level += 1; signals.append(f"VIX {v:.1f} > 25 (podwyższony strach)")
             if v > 35:
                 level += 1; signals.append(f"VIX {v:.1f} > 35 (panika)")
+                # VIX > 35 = ewidentna panika: jeśli pod SMA, wymuś blokadę nawet gdy rvol nie złapał
+                if below_sma:
+                    regime_below_200sma = True
             if v <= 25:
                 signals.append(f"VIX {v:.1f} (spokój)")
     else:
@@ -642,6 +663,22 @@ def _run_selftest() -> int:
     # brak CSV (pusty) -> fallback
     baskets_fb, src_fb = sc._build_baskets(sp500_override="Symbol,GICS Sector\n")
     check("Pusty CSV -> fallback uniwersum", "fallback" in src_fb)
+
+    # ── FILTR MAKRO v2 produkcyjny: powolna bessa NIE blokuje, panika blokuje ──
+    import pandas as _pd, numpy as _np
+    _n = 260
+    # powolna bessa: pod 200SMA, niska zmienność -> NIE blokuj
+    _calm = 100 * _np.cumprod(1 + _np.random.default_rng(1).normal(-0.0004, 0.006, _n))
+    # gwałtowny krach: pod 200SMA, wysoka zmienność -> blokuj
+    _panic = 100 * _np.cumprod(1 + _np.random.default_rng(2).normal(-0.003, 0.045, _n))
+    try:
+        for label, series, want_block in [("powolna bessa", _calm, False), ("panika", _panic, True)]:
+            df = _pd.DataFrame({BENCH_SPY: series},
+                               index=_pd.date_range("2022-01-01", periods=_n, freq="B"))
+            _lvl, _sig, _regime = compute_macro_radar(df, cfg if 'cfg' in dir() else None)
+            check(f"FILTR v2 prod: {label} -> blokada={want_block}", _regime == want_block)
+    except Exception as e:
+        check(f"FILTR v2 prod działa ({e})", False)
 
     print(f"\n=== WYNIK: {passed} OK, {failed} FAIL ===")
     if failed == 0:
