@@ -1,0 +1,16 @@
+{
+  "ipo": [
+    {
+      "ticker": "CRWV",
+      "age_months": 14,
+      "pct_from_ipo": 200,
+      "volume_mult": 1.8
+    },
+    {
+      "ticker": "VIDA",
+      "age_months": 1,
+      "pct_from_ipo": 53,
+      "volume_mult": 1
+    }
+  ]
+}
