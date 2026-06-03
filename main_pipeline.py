@@ -80,6 +80,10 @@ try:
     import lens_shadow
 except Exception:
     lens_shadow = None
+try:
+    import opportunity_lens
+except Exception:
+    opportunity_lens = None
 
 logger = logging.getLogger("porsche.main")
 if not logger.handlers:
@@ -115,6 +119,7 @@ class BotRunResult:
     accepted_picks: list = field(default_factory=list)   # list[OrderPlan] — WSZYSTKIE zaakceptowane
     position_decisions: list = field(default_factory=list)  # list[PositionDecision] — zarządzanie istniejącymi
     radar_watch: list = field(default_factory=list)   # list[(ticker, sektor, powód)]
+    opportunity_radar: dict = field(default_factory=lambda: {"_empty": True})
     rejected: list = field(default_factory=list)
     email_html: str = ""
     email_subject: str = ""
@@ -290,6 +295,26 @@ def run_bot(export_path: Optional[str], cfg: Optional[BotConfig] = None,
                     res.notes.append(f"news_request.json: {n_req} kandydatów do sprawdzenia przez agenta (KROK D2)")
             except Exception as e:
                 res.notes.append(f"write_news_request nieudany: {e}")
+
+        # ── 2.6. RADAR OKAZJI: zapisz prośbę dla agenta + zbuduj radar z sygnałów ──
+        # Agent wypełnia opportunity_signals.json przez web_search (IPO/wolumen/kontrakty).
+        # build_radar filtruje je i daje listę OBSERWUJ do sekcji VI maila. Fail-safe.
+        if not selftest and opportunity_lens is not None:
+            try:
+                opportunity_lens.write_opportunity_request(
+                    path=getattr(cfg, "opportunity_request_json", "opportunity_request.json"))
+            except Exception as e:
+                res.notes.append(f"write_opportunity_request nieudany: {e}")
+        if opportunity_lens is not None:
+            try:
+                res.opportunity_radar = opportunity_lens.build_radar(
+                    opportunity_lens.read_opportunity_signals(
+                        getattr(cfg, "opportunity_signals_json", "opportunity_signals.json")))
+                if res.opportunity_radar and not res.opportunity_radar.get("_empty"):
+                    res.notes.append(opportunity_lens.radar_summary_text(res.opportunity_radar))
+            except Exception as e:
+                res.notes.append(f"build_radar nieudany: {e}")
+                res.opportunity_radar = {"_empty": True}
 
         # ── 3-6. PIPELINE (reconcile, inwarianty, smart money, sizing, gates, order) ──
         pipe = PorschePipeline(dry_run=dry_run)
@@ -640,6 +665,8 @@ def build_email(res: BotRunResult, cfg: BotConfig, fx: float) -> tuple[str, str]
         "position_decisions": decisions_ctx, "accepted_picks": picks_ctx,
         "portfolio_rows": portfolio_rows, "portfolio_total_pln": portfolio_total,
         "radar_watch": res.radar_watch, "goal_pln": cfg.goal_pln,
+        "opportunity_radar": getattr(res, "opportunity_radar", {"_empty": True}),
+        "moonshot_sleeve_pln": getattr(cfg, "moonshot_sleeve_pln", 0),
     }
 
     # Nowy ładny render; fallback do prostego HTML gdyby modułu brakło.
