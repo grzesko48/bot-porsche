@@ -1,21 +1,57 @@
 {
-  "_date": "2026-06-03",
+  "_date": "2026-06-04",
   "ipo": [
+    {
+      "ticker": "SWMR",
+      "age_months": 3,
+      "pct_from_ipo": 200,
+      "volume_mult": 2.0,
+      "price_usd": 75.00
+    },
     {
       "ticker": "CRWV",
       "age_months": 14,
-      "pct_from_ipo": 198,
+      "pct_from_ipo": 180,
       "volume_mult": 1.8,
-      "price_usd": 119.27
+      "price_usd": 112.17
     },
     {
       "ticker": "CRCL",
       "age_months": 12,
-      "pct_from_ipo": 224,
+      "pct_from_ipo": 187,
       "volume_mult": 1.1,
-      "price_usd": 100.56
+      "price_usd": 89.05
     }
   ],
-  "volume": [],
-  "contract": []
+  "volume": [
+    {
+      "ticker": "MRVL",
+      "volume_mult": 5.0,
+      "pct_today": 14,
+      "broke_high": true,
+      "price_usd": 309.13
+    }
+  ],
+  "contract": [],
+  "insider": [
+    {
+      "ticker": "NKE",
+      "buyers": 2,
+      "usd_total": 1875000,
+      "days_ago": 52,
+      "role": "CEO Elliott Hill + Director Tim Cook",
+      "price_usd": 43.90
+    }
+  ],
+  "fund13f": [],
+  "congress": [
+    {
+      "ticker": "HD",
+      "member": "Tim Moore + David Taylor",
+      "amount_usd": 40500,
+      "days_ago": 17,
+      "committee_relevant": false,
+      "price_usd": 313.80
+    }
+  ]
 }

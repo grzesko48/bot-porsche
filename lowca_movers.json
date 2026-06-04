@@ -1,0 +1,23 @@
+[
+  {
+    "ticker": "MRVL",
+    "pct": 16,
+    "day": "2026-06-03",
+    "presignal": "wyniki Q1 FY27 pobily oczekiwania ($2.42B +28% r/r, guidance Q2 +35%), Jensen Huang (Nvidia) oglosil MRVL nastepna spolka billionowa na AI Compute Summit — katalizator z 2 czerwca, kontynuacja 3 czerwca; wolumen 5x srednia, nowe ATH",
+    "lesson": "sledz daty wynikow AI semiconductor (MRVL, AVGO, AMD) + konferencje Nvidia — Jensen Huang endorsement = katalizator instytucjonalny; wejscie po przebiciu ATH na ogromnym wolumenie w pierwszych godzinach po deklaracji"
+  },
+  {
+    "ticker": "LEGN",
+    "pct": 18,
+    "day": "2026-06-03",
+    "presignal": "wstepne dane sprzedazy CARVYKTI Q1 2026: $597M (+62% r/r) opublikowane przed oficjalnymi wynikami; HC Wainwright podniola cel do $65 (buy) 3 czerwca",
+    "lesson": "sledz wstepne dane sprzedazy kluczowych lekow CAR-T (LEGN CARVYKTI, FATE) — pierwsze doniesienia kwartalne pojawiaja sie 2-3 tyg. przed oficjalnymi wynikami i sa bardzo mocnym pre-sygnałem"
+  },
+  {
+    "ticker": "SWMR",
+    "pct": 22,
+    "day": "2026-06-03",
+    "presignal": "swieże IPO (Q1 2026) spolki AI-drone z $16.3M wykonanych kontraktow obronnych i prognoza przychodu $20M 2026; post-IPO momentum na narracji AI-obronnosc",
+    "lesson": "sledz nowe IPO w segmencie AI-obronnosc/drony — spolki z realnymi kontraktami DoD i mala kapitalizacja (<$500M) maja najsilniejsza konweksje; sprawdzaj wolumen post-IPO po 30-90 dniach od debiutu"
+  }
+]
