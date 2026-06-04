@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-03T14:45",
+  "generated": "2026-06-04T19:12",
   "signals": [
     {
       "ticker": "TSM",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak nowego twardego katalizatora <=7 dni: blokowa sprzedaz ~8,1% udzialow w Vanguard Int'l Semi (6-K, ~26.05), zatwierdzony capex ~45 mld USD i +30% bonus dla pracownikow to dzialania operacyjne/strukturalne, nie kierunkowy katalizator. Q1 byl w kwietniu",
-      "as_of": "2026-05-28",
-      "confidence": 0.4,
+      "has_catalyst": true,
+      "catalyst_type": "earnings_guidance",
+      "direction": "bullish",
+      "headline": "Swiezy popyt: Nvidia rozszerza inwestycje/capacity na Tajwanie (Computex) + planowana podwyzka cen procesu 3nm o ~15% w H2 2026 (zrodla supply-chain); kurs rosnie 04.06, AGM 04.06 zatwierdzilo wyniki 2025",
+      "as_of": "2026-06-04",
+      "confidence": 0.55,
       "source_count": 2,
       "sources": [
-        {"label": "SEC 6-K (VIS block trade)", "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000280/tsmctosell81ofvanguardinte.htm"},
-        {"label": "Barchart (TSMC 30% bonus / zyski)", "url": "https://www.barchart.com/story/news/2184743/tsmc-ceo-promises-staff-massive-30-bonus-bump-as-profits-surge-this-is-a-clear-message-for-tsm-stock-bulls"}
+        {"label": "Digitimes (TSMC capacity/3nm roadmap 2026)", "url": "https://www.digitimes.com/news/a20260604VL214/tsmc-capacity-demand-roadmap-2026.html"},
+        {"label": "Investing.com (dlaczego TSM rosnie dzis)", "url": "https://www.investing.com/news/stock-market-news/why-is-taiwan-semiconductor-stock-surging-today-93CH-4719732"}
       ]
     },
     {
@@ -20,12 +20,12 @@
       "has_catalyst": false,
       "catalyst_type": "regulatory",
       "direction": "bearish",
-      "headline": "Przewlekly nawis regulacyjny: propozycja MATCH Act (USA) grozi dalszym ograniczeniem eksportu do Chin (udzial Chin ~20% prognozy 2026, 33% przychodow 2025) - ryzyko strukturalne, brak nowego twardego katalizatora <=7 dni",
-      "as_of": "2026-05-28",
+      "headline": "Przewlekly nawis regulacyjny: proponowana ustawa MATCH Act (USA) grozi odcieciem sprzedazy DUV do Chin i serwisu (Chiny spadly do ~19% sprzedazy w Q1 z 36%); ryzyko strukturalne, brak nowego twardego katalizatora <=7 dni",
+      "as_of": "2026-06-01",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "Global Times (ASML China curbs)", "url": "https://www.globaltimes.cn/page/202605/1361571.shtml"},
+        {"label": "IndexBox (ASML spada na ryzyku MATCH Act/DUV)", "url": "https://www.indexbox.io/blog/asml-stock-drops-on-us-bill-threatening-new-china-export-controls/"},
         {"label": "MarketWise (ASML China export restrictions)", "url": "https://marketwise.com/investing/asml-earnings-china-export-restrictions-ai-chip-demand/"}
       ]
     },
@@ -34,12 +34,12 @@
       "has_catalyst": true,
       "catalyst_type": "MnA",
       "direction": "bullish",
-      "headline": "Seria przejec agentic-AI (~1 mld USD: Dremio, Prior Labs, zamkniety Reltio) wzmacnia Business Data Cloud; kurs +7,41% w dniu 01.06 napedzany stawka na akwizycje danych pod AI",
+      "headline": "Sapphire 2026 + seria przejec agentic-AI (~1 mld USD: Dremio, Prior Labs) wzmacnia Business Data Cloud/Joule; cloud +27% r/r, EPS 1,99 USD bije konsensus; kurs +7,41% 01.06",
       "as_of": "2026-06-01",
       "confidence": 0.65,
       "source_count": 2,
       "sources": [
-        {"label": "Globe and Mail (SAP bets $1B on AI acquisitions)", "url": "https://www.theglobeandmail.com/investing/markets/stocks/SAP/pressreleases/1826024/sap-bets-1b-on-ai-acquisitions-to-lock-in-enterprise-data/"},
+        {"label": "Globe and Mail (SAP stawia 1 mld USD na przejecia AI)", "url": "https://www.theglobeandmail.com/investing/markets/stocks/SAP/pressreleases/1826024/sap-bets-1b-on-ai-acquisitions-to-lock-in-enterprise-data/"},
         {"label": "TradingKey (market movers SAP 01.06 +7,41%)", "url": "https://www.tradingkey.com/news/market-movers/261939572-market-movers-sap-20260601"}
       ]
     },
@@ -48,13 +48,13 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "bearish",
-      "headline": "Pierwsza sprzedaz BTC od 2022 (32 BTC za ~2,5 mln USD, 26-31.05, ujawniona 01.06) lamie narracje 'never sell' - to symboliczna akcja skarbowa (~0,0038% zasobu), nie kontrakt/fuzja/guidance; reakcja rynku negatywna (MSTR -9,95% 01.06)",
+      "headline": "Pierwsza sprzedaz BTC od 2022 (32 BTC za ~2,5 mln USD, ujawniona 01.06) lamie narracje 'never sell' - symboliczna akcja skarbowa (~0,0038% zasobu 843706 BTC), nie kontrakt/fuzja/guidance; reakcja rynku negatywna",
       "as_of": "2026-06-01",
       "confidence": 0.45,
       "source_count": 2,
       "sources": [
-        {"label": "CoinDesk (Strategy sold 32 BTC)", "url": "https://www.coindesk.com/markets/2026/06/01/strategy-sold-32-btc-for-usd2-5-million-in-late-may-filing-shows"},
-        {"label": "GuruFocus (MSTR sells bitcoin)", "url": "https://www.gurufocus.com/news/8893934/microstrategy-mstr-sells-bitcoin-amid-market-pressures"}
+        {"label": "CoinDesk (Strategy sprzedalo 32 BTC)", "url": "https://www.coindesk.com/markets/2026/06/01/strategy-sold-32-btc-for-usd2-5-million-in-late-may-filing-shows"},
+        {"label": "CTOL (MSTR bitcoin sale zmienia teze)", "url": "https://www.ctol.digital/news/microstrategy-mstr-bitcoin-sale-why-selling-32-btc-changes-the-entire-investment-thesis/"}
       ]
     },
     {
@@ -62,13 +62,13 @@
       "has_catalyst": true,
       "catalyst_type": "contract",
       "direction": "bullish",
-      "headline": "Nowi klienci AGI CPU - ByteDance i Oracle (ogloszone ~02.06) - oraz podwojony do ~2 mld USD guidance popytu na wlasne uklady (FY27-28); CEO pewny wczesniejszego osiagniecia celu 15 mld USD; fala podwyzek cen docelowych (Mizuho 360 USD)",
+      "headline": "Nowi klienci wlasnych AI CPU (ByteDance, Oracle, ~02.06) + podwojony guidance popytu i fala podwyzek cen docelowych; kurs ~podwoil sie z low 200s do ~418 USD na popycie na licencje AI",
       "as_of": "2026-06-02",
       "confidence": 0.7,
       "source_count": 2,
       "sources": [
-        {"label": "GuruFocus (Arm CEO confident on $15B target)", "url": "https://www.gurufocus.com/news/8895516/arms-ceo-confident-in-early-achievement-of-15-billion-chip-sales-target"},
-        {"label": "StocksToTrade (ARM AI CPU upside, customers)", "url": "https://stockstotrade.com/news/arm-holdings-plc-arm-news-2026_06_01/"}
+        {"label": "TimothySykes (ARM rosnie na AI upside)", "url": "https://www.timothysykes.com/news/arm-holdings-plc-arm-news-2026_06_01-2/"},
+        {"label": "StocksToTrade (ARM agresywne podwyzki PT na AI)", "url": "https://stockstotrade.com/news/arm-holdings-plc-arm-news-2026_06_01-2/"}
       ]
     }
   ]
