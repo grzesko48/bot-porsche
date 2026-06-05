@@ -1,9 +1,9 @@
 {
-  "_date": "2026-06-04",
+  "_date": "2026-06-05",
   "ipo": [
     {
       "ticker": "SWMR",
-      "age_months": 3,
+      "age_months": 4,
       "pct_from_ipo": 200,
       "volume_mult": 2.0,
       "price_usd": 75.00
@@ -30,6 +30,13 @@
       "pct_today": 14,
       "broke_high": true,
       "price_usd": 309.13
+    },
+    {
+      "ticker": "LEGN",
+      "volume_mult": 3.5,
+      "pct_today": 18,
+      "broke_high": true,
+      "price_usd": 54.20
     }
   ],
   "contract": [],
@@ -38,7 +45,7 @@
       "ticker": "NKE",
       "buyers": 2,
       "usd_total": 1875000,
-      "days_ago": 52,
+      "days_ago": 53,
       "role": "CEO Elliott Hill + Director Tim Cook",
       "price_usd": 43.90
     }
@@ -49,7 +56,7 @@
       "ticker": "HD",
       "member": "Tim Moore + David Taylor",
       "amount_usd": 40500,
-      "days_ago": 17,
+      "days_ago": 18,
       "committee_relevant": false,
       "price_usd": 313.80
     }

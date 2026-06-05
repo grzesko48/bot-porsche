@@ -1,0 +1,20 @@
+[
+  {
+    "id": "2026-06-05-MRVL",
+    "date": "2026-06-05",
+    "ticker": "MRVL",
+    "kind": "WOLUMEN",
+    "kinds": [
+      "WOLUMEN"
+    ],
+    "confluence": 1,
+    "score": 7.5,
+    "entry_usd": 309.13,
+    "stop_usd": 262.76,
+    "target_usd": 401.87,
+    "shares": 0.0487,
+    "size_pln": 55.0,
+    "risk_pln": 8.0,
+    "status": "OPEN"
+  }
+]
