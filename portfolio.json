@@ -1,5 +1,5 @@
 {
-  "cash_pln": 55.27,
+  "cash_pln": 5.73,
   "positions": [],
   "managed_positions": [
     {
@@ -28,7 +28,16 @@
       "stop_loss_usd": 415.2064,
       "high_water_mark_usd": 447.2149963378906,
       "days_held": 6
+    },
+    {
+      "ticker": "MRVL",
+      "shares": 0.0476,
+      "entry_price_usd": 284.84,
+      "entry_date": "2026-06-04",
+      "stop_loss_usd": 262.76,
+      "high_water_mark_usd": 284.84,
+      "days_held": 1
     }
   ],
-  "updated_utc": "2026-06-05T19:13:45+00:00"
+  "updated_utc": "2026-06-05T19:46:40+00:00"
 }

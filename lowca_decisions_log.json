@@ -1,7 +1,7 @@
 [
   {
-    "id": "2026-06-05-MRVL",
-    "date": "2026-06-05",
+    "id": "2026-06-04-MRVL",
+    "date": "2026-06-04",
     "ticker": "MRVL",
     "kind": "WOLUMEN",
     "kinds": [
@@ -9,12 +9,13 @@
     ],
     "confluence": 1,
     "score": 7.5,
-    "entry_usd": 309.13,
+    "entry_usd": 284.84,
     "stop_usd": 262.76,
     "target_usd": 401.87,
-    "shares": 0.0487,
-    "size_pln": 55.0,
-    "risk_pln": 8.0,
-    "status": "OPEN"
+    "shares": 0.0476,
+    "size_pln": 49.64,
+    "risk_pln": 7.0,
+    "status": "RECONCILED",
+    "_note": "Faktyczna cena wejscia z XTB (4 czerwca @ 284.84, -49.64 PLN). Pozycja przeniesiona do managed_positions — sladowana przez bota rdzeniowego. Status RECONCILED = nie pokazuj podwojnie w tabeli."
   }
 ]
