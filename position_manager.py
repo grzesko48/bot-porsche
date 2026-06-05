@@ -77,6 +77,25 @@ class PositionManagerConfig:
     crash_radar_level: int = 3               # radar 3/3 -> wyjście ze wszystkiego
 
 
+def _days_since(entry_date: str) -> "Optional[int]":
+    """Wiek pozycji w dniach: entry_date (ISO YYYY-MM-DD) -> dziś. None gdy brak/zły format.
+    FIX days_held: pole w portfolio.json bywa 0 i NIGDY nie rośnie -> liczymy wiek z daty wejścia,
+    inaczej reguła 8 (time-stop: uwolnij martwy kapitał po >=15 dniach) nigdy nie zadziała."""
+    if not entry_date:
+        return None
+    try:
+        ed = datetime.strptime(str(entry_date)[:10], "%Y-%m-%d").date()
+        return max(0, (date.today() - ed).days)
+    except Exception:
+        return None
+
+
+def _resolve_days(d: dict) -> int:
+    """Wiek pozycji: najpierw z entry_date (poprawne), fallback do zapisanego days_held."""
+    days = _days_since(d.get("entry_date", ""))
+    return days if days is not None else int(d.get("days_held", 0))
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # STAN POZYCJI (pamięć dzień-na-dzień)
 # ─────────────────────────────────────────────────────────────────────────────
@@ -106,7 +125,7 @@ class ManagedPosition:
             entry_date=d.get("entry_date", ""),
             stop_loss_usd=float(d.get("stop_loss_usd", 0.0)),
             high_water_mark_usd=float(d.get("high_water_mark_usd", 0.0)),
-            days_held=int(d.get("days_held", 0)),
+            days_held=_resolve_days(d),
         )
 
 
