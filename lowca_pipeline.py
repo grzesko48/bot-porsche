@@ -60,6 +60,7 @@ class LowcaConfig:
     max_open_spec: int = 3
     buy_threshold: float = 6.0
     alert_threshold: float = 8.0       # score >= -> PILNY alert
+    max_extension_pct: float = 0.40    # już +40% w ~miesiąc -> NIE kupuj górki, degraduj na CZEKAJ
     fx_usd_pln: float = 4.0
     stop_contract: float = 0.20
     stop_volume: float = 0.15
@@ -121,6 +122,33 @@ def _price_map(signals: dict) -> dict:
     return out
 
 
+def _meta_map(signals: dict) -> dict:
+    """Ticker -> {pct_1m, catalyst}: ruch ~1-mies (bezpiecznik 'nie kupuj górki') +
+    tag katalizatora (polityczny/Trump/kontrakt rządowy) do podświetlenia w mailu.
+    Łapie kategorie 'policy'/'trump' (zagrywki polityczne) ORAZ pole catalyst w każdej innej."""
+    out = {}
+    if not isinstance(signals, dict):
+        return out
+    for key in ("policy", "trump", "contract", "volume", "ipo", "theme", "lockup", "insider", "fund13f", "congress"):
+        for s in (signals.get(key) or []):
+            if not (isinstance(s, dict) and s.get("ticker")):
+                continue
+            tk = str(s["ticker"]).upper()
+            m = out.setdefault(tk, {})
+            for f in ("pct_1m", "pct_1mo", "month_pct", "run_pct"):
+                if s.get(f) is not None and "pct_1m" not in m:
+                    try:
+                        m["pct_1m"] = float(s[f])
+                    except Exception:
+                        pass
+            cat = s.get("catalyst", "")
+            if not cat and key in ("policy", "trump"):
+                cat = s.get("source") or "Trump/polityka"
+            if cat and not m.get("catalyst"):
+                m["catalyst"] = str(cat)
+    return out
+
+
 def _score_lens(opp: dict) -> float:
     """Score okazji z opportunity_lens (IPO/WOLUMEN/KONTRAKT)."""
     kind = opp.get("kind")
@@ -156,10 +184,12 @@ def _tp_pct(kind: str, c: LowcaConfig) -> float:
             "INSIDER": c.tp_insider, "FUND13F": c.tp_fund13f, "CONGRESS": c.tp_congress}.get(kind, 0.40)
 
 
-def build_candidates(radar: dict, smart: dict, price_map=None) -> "list[dict]":
+def build_candidates(radar: dict, smart: dict, price_map=None, meta_map=None) -> "list[dict]":
     """Scala radar lensa + smart-money, deduplikuje po tickerze, liczy KONFLUENCJĘ.
-    Konfluencja (N źródeł na spółkę) podbija score o +0.6*(N-1), max +1.5."""
+    Konfluencja (N źródeł na spółkę) podbija score o +0.6*(N-1), max +1.5.
+    Dokłada pct_1m (ruch ~1-mies) i catalyst (Trump/polityka) z meta_map."""
     price_map = price_map or {}
+    meta_map = meta_map or {}
     lens_all = (radar or {}).get("all", []) if radar else []
     smart_all = (smart or {}).get("all", []) if smart else []
     by_ticker = {}
@@ -186,9 +216,14 @@ def build_candidates(radar: dict, smart: dict, price_map=None) -> "list[dict]":
         note = best.get("note", "")
         if len(kinds) > 1:
             note = "KONFLUENCJA " + "+".join(kinds) + " · " + note
+        meta = meta_map.get(tk, {})
+        catalyst = meta.get("catalyst", "") or best.get("catalyst", "")
+        if catalyst:
+            note = ("🇺🇸 " + catalyst + " · " + note) if note else ("🇺🇸 " + catalyst)
         out.append({"ticker": tk, "kind": best.get("kind", "?"), "kinds": kinds,
                     "confluence": len(kinds), "note": note, "risk": best.get("risk", ""),
-                    "price_usd": round(price, 2), "score": final})
+                    "price_usd": round(price, 2), "score": final,
+                    "pct_1m": float(meta.get("pct_1m", 0) or 0), "catalyst": catalyst})
     out.sort(key=lambda m: m["score"], reverse=True)
     return out
 
@@ -211,6 +246,8 @@ class LowcaDecision:
     target_price_usd: float = 0.0
     shares: float = 0.0
     risk_pln: float = 0.0
+    pct_1m: float = 0.0          # ruch ~1-mies (do bezpiecznika "nie kupuj górki")
+    catalyst: str = ""           # tag katalizatora (np. Trump/polityka/kontrakt rządowy)
 
 
 def _shares(size_pln, price_usd, fx):
@@ -239,7 +276,8 @@ def decide_all(candidates, c: LowcaConfig, free_cash_pln=None, held=None, fx=Non
         d = LowcaDecision(ticker=str(o.get("ticker", "?")), kind=o.get("kind", "?"),
                           score=float(o.get("score", 0)), risk=o.get("risk", ""),
                           note=o.get("note", ""), kinds=list(o.get("kinds", [])) or [o.get("kind", "?")],
-                          confluence=int(o.get("confluence", 1)), price_usd=float(o.get("price_usd", 0) or 0))
+                          confluence=int(o.get("confluence", 1)), price_usd=float(o.get("price_usd", 0) or 0),
+                          pct_1m=float(o.get("pct_1m", 0) or 0), catalyst=o.get("catalyst", ""))
         cand.append(d)
     cand.sort(key=lambda d: d.score, reverse=True)
     budget, sleeve_cap, cash_limited = deployable_budget(c, free_cash_pln, sleeve_used_pln)
@@ -252,6 +290,10 @@ def decide_all(candidates, c: LowcaConfig, free_cash_pln=None, held=None, fx=Non
             d.verdict = "PASS"; d.reason = f"score {d.score:.1f} < {c.buy_threshold:.0f}"; continue
         if n >= c.max_open_spec:
             d.verdict = "PASS"; d.reason = f"limit spekulacji ({c.max_open_spec})"; continue
+        if d.pct_1m >= c.max_extension_pct * 100:
+            d.verdict = "CZEKAJ"
+            d.reason = f"już +{d.pct_1m:.0f}% w ~miesiąc — czekaj na cofnięcie, NIE kupuj górki"
+            continue
         size = c.min_position_pln + (c.max_position_pln - c.min_position_pln) * _clamp((d.score - c.buy_threshold) / 3.0, 0, 1)
         size = round(size, 0)
         remaining = budget - used
@@ -351,6 +393,7 @@ def log_decisions(decisions, today, path="lowca_decisions_log.json") -> dict:
 # ─────────────────────────────────────────────────────────────────────────────
 def render_text(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held=None, sleeve_used_pln=0.0, learn=None):
     buys = [d for d in decisions if d.verdict == "BUY"]
+    waits = [d for d in decisions if d.verdict == "CZEKAJ"]
     passes = [d for d in decisions if d.verdict == "PASS"]
     budget, sleeve_cap, cash_limited = deployable_budget(c, free_cash_pln, sleeve_used_pln)
     hot = best_score(buys) >= c.alert_threshold
@@ -379,6 +422,11 @@ def render_text(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
                 L.append(f"        {d.note}")
     else:
         L.append("\n  KUPUJEMY: dzis nic (prog / gotowka / juz w portfelu).")
+    if waits:
+        L.append("\n  CZEKAM na cofniecie (zlapane, ale za gorace — nie kupuj gorki):")
+        for d in waits[:6]:
+            tag = (" " + d.catalyst) if d.catalyst else ""
+            L.append(f"   ~ {d.ticker}{tag} — {d.reason}")
     if passes:
         L.append("\n  PASS:")
         for d in passes[:8]:
@@ -402,6 +450,7 @@ def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
                render_text(decisions, c, equity_pln, free_cash_pln, fx, held, sleeve_used_pln) + "</pre>"
 
     buys = [d for d in decisions if d.verdict == "BUY"]
+    waits = [d for d in decisions if d.verdict == "CZEKAJ"]
     passes = [d for d in decisions if d.verdict == "PASS"]
     eq = equity_pln if equity_pln is not None else c.capital_pln
     fxv = fx or c.fx_usd_pln
@@ -534,6 +583,18 @@ def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
                  f"<div style='{SANS}font-size:13pt;color:{TEXT};line-height:1.6;'>"
                  f"<b>Dziś nie kupujemy.</b> Żadna okazja nie przeszła progu, zabrakło gotówki albo już masz tę spółkę.</div></div>")
 
+    # CZEKAM na cofnięcie — złapane zagrywki (Trump/polityka/kontrakt), ale już za gorące
+    if waits:
+        rows = ""
+        for d in waits[:6]:
+            cat = (f"<span style='color:#166534;font-weight:bold;'>{d.catalyst}</span> · " if d.catalyst else "")
+            rows += (f"<tr><td style='padding:10px 8px 10px 0;border-bottom:1px solid {LINE2};{SANS}font-size:12.5pt;white-space:nowrap;'>"
+                     f"<b style='color:{DARK};'>{d.ticker}</b></td>"
+                     f"<td style='padding:10px 0;border-bottom:1px solid {LINE2};color:{TEXT};{SANS}font-size:11.5pt;'>{cat}{d.reason}</td></tr>")
+        P.append(_card_open("Czekam na cofnięcie 🇺🇸",
+                            "Złapane zagrywki (Trump / polityka / kontrakt rządowy), ale już rozgrzane — wejście dopiero na korekcie, nie na górce.") +
+                 f"<table style='width:100%;border-collapse:collapse;'>{rows}</table></div>")
+
     # PASS
     if passes:
         rows = ""
@@ -604,7 +665,7 @@ def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
     signals = oppl.read_opportunity_signals(signals_path) if signals_path else oppl.read_opportunity_signals()
     radar = oppl.build_radar(signals)
     smart = lsrc.build_smart(signals) if lsrc else {"all": []}
-    candidates = build_candidates(radar, smart, _price_map(signals))
+    candidates = build_candidates(radar, smart, _price_map(signals), _meta_map(signals))
     decisions = decide_all(candidates, c, free_cash_pln=cash, held=held_tickers, fx=fx,
                            sleeve_used_pln=sleeve_used, open_spec=open_spec)
     # FORWARD-TEST: zapisz dzisiejsze rekomendacje do dziennika (append-only) — fundament pomiaru edge na żywo
@@ -755,6 +816,31 @@ def _run_selftest() -> int:
     finally:
         if os.path.exists(test_log):
             os.remove(test_log)
+
+    # ── SKANER POLITYKA/TRUMP (tag katalizatora) + BEZPIECZNIK "NIE KUPUJ GORKI" ──
+    hot_sig = {"contract": [{"ticker": "DRON", "contract_usd": 600e6, "market_cap_usd": 700e6, "hours_ago": 2,
+                             "price_usd": 20.0, "pct_1m": 85.0, "catalyst": "Trump/DoD kontrakt"}]}
+    mm = _meta_map(hot_sig)
+    ok("Meta: pct_1m zlapany (+85%)", abs(mm.get("DRON", {}).get("pct_1m", 0) - 85.0) < 0.1)
+    ok("Meta: catalyst (Trump) zlapany", "Trump" in mm.get("DRON", {}).get("catalyst", ""))
+    pc = build_candidates(oppl.build_radar(hot_sig), {"all": []}, _price_map(hot_sig), mm)
+    dron = next((m for m in pc if m["ticker"] == "DRON"), None)
+    ok("Kandydat ma badge polityczny (flaga US)", dron and "\U0001F1FA\U0001F1F8" in dron.get("note", ""))
+    ok("Kandydat niesie pct_1m=85", dron and abs(dron.get("pct_1m", 0) - 85.0) < 0.1)
+    pdec = decide_all(pc, c, free_cash_pln=300.0, fx=3.64)
+    dron_d = next((d for d in pdec if d.ticker == "DRON"), None)
+    ok("BEZPIECZNIK: +85% w miesiac -> CZEKAJ (nie kupuj gorki)", dron_d and dron_d.verdict == "CZEKAJ")
+    cool_sig = {"contract": [{"ticker": "DRON", "contract_usd": 600e6, "market_cap_usd": 700e6, "hours_ago": 2,
+                              "price_usd": 20.0, "pct_1m": 5.0}]}
+    cdec = decide_all(build_candidates(oppl.build_radar(cool_sig), {"all": []}, _price_map(cool_sig), _meta_map(cool_sig)),
+                      c, free_cash_pln=300.0, fx=3.64)
+    cool_d = next((d for d in cdec if d.ticker == "DRON"), None)
+    ok("Niewystrzelona (+5%) NIE blokowana przez bezpiecznik", cool_d and cool_d.verdict != "CZEKAJ")
+    try:
+        ok("HTML: karta Czekam na cofniecie", "Czekam na cofnięcie" in
+           render_html(pdec, c, equity_pln=1648, free_cash_pln=300.0, fx=3.64, today="2026-06-05"))
+    except Exception as e:
+        ok(f"HTML czekam ({e})", False)
 
     print(f"\n=== WYNIK: {P} OK, {F} FAIL ===")
     if F == 0:
