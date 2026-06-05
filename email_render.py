@@ -157,6 +157,53 @@ def _portfolio_table(rows: list, total_pln: float, cash_pln: float,
     )
 
 
+def _detailed_positions_table(d: dict) -> str:
+    """Pełna tabela pozycji (rdzeń + łowca): teraz zł, start zł, kupno $, teraz $, stop, TP, %, zysk zł + SUMA."""
+    rows = (d or {}).get("rows") or []
+    if not rows:
+        return f"<div style='{SANS}font-size:12.5pt;color:{TEXT};'>Brak otwartych pozycji (rdzeń ani łowca).</div>"
+    th = (f"{SANS}font-size:9pt;text-transform:uppercase;letter-spacing:.3px;color:{MUTED};"
+          f"padding:0 6px 8px 0;font-weight:bold;border-bottom:2px solid {LINE};")
+    thr = th + "text-align:right;"
+    head = ("<tr>"
+            f"<td style='{th}'>Walor</td><td style='{thr}'>Teraz zł</td><td style='{thr}'>Start zł</td>"
+            f"<td style='{thr}'>Kupno $</td><td style='{thr}'>Teraz $</td><td style='{thr}'>Stop $</td>"
+            f"<td style='{thr}'>TP $</td><td style='{thr}'>%</td><td style='{thr}'>Zysk zł</td></tr>")
+    body = ""
+    for r in rows:
+        col = GREEN if r["pnl_pln"] > 0 else (RED if r["pnl_pln"] < 0 else TEXT)
+        tag_col = GOLD_DK if r["owner"] == "łowca" else MUTED
+        tp = f"${r['target_usd']:.2f}" if r.get("target_usd") else "trailing"
+        cur = f"${r['current_usd']:.2f}" + ("" if r.get("has_price") else "*")
+        td = f"{SANS}font-size:10pt;padding:8px 6px 8px 0;border-bottom:1px solid {LINE2};white-space:nowrap;"
+        tdr = td + "text-align:right;"
+        body += ("<tr>"
+                 f"<td style='{td}'><b style='color:{DARK};'>{r['ticker']}</b> "
+                 f"<span style='color:{tag_col};font-size:8.5pt;'>{r['owner']}</span></td>"
+                 f"<td style='{tdr}font-weight:bold;color:{DARK};'>{r['now_pln']:,.0f}</td>"
+                 f"<td style='{tdr}color:{MUTED};'>{r['init_pln']:,.0f}</td>"
+                 f"<td style='{tdr}color:{MUTED};'>${r['entry_usd']:.2f}</td>"
+                 f"<td style='{tdr}color:{TEXT};'>{cur}</td>"
+                 f"<td style='{tdr}color:{RED};'>${r['stop_usd']:.2f}</td>"
+                 f"<td style='{tdr}color:{GREEN};'>{tp}</td>"
+                 f"<td style='{tdr}font-weight:bold;color:{col};'>{r['pnl_pct']:+.1f}%</td>"
+                 f"<td style='{tdr}font-weight:bold;color:{col};'>{r['pnl_pln']:+,.0f}</td></tr>")
+    tcol = GREEN if d["total_pnl"] > 0 else (RED if d["total_pnl"] < 0 else TEXT)
+    tf = f"{SANS}font-size:10.5pt;font-weight:bold;padding:12px 6px 0 0;border-top:2px solid {LINE};"
+    tfr = tf + "text-align:right;"
+    foot = ("<tr>"
+            f"<td style='{tf}color:{DARK};'>SUMA</td>"
+            f"<td style='{tfr}color:{DARK};'>{d['total_now']:,.0f}</td>"
+            f"<td style='{tfr}color:{MUTED};'>{d['total_init']:,.0f}</td>"
+            f"<td style='{tf}' colspan='5'></td>"
+            f"<td style='{tfr}color:{tcol};font-size:12.5pt;'>{d['total_pnl']:+,.0f}</td></tr>")
+    note = (f"<div style='{SANS}font-size:9.5pt;color:{MUTED};margin-top:10px;line-height:1.5;'>"
+            f"<b>Łowca</b> = pozycje spekulacyjne (tu read-only; steruje nimi bot łowca, z jego stopem/celem). "
+            f"TP „trailing” = rdzeń bez sztywnego celu (stop podnosi się za zyskiem). "
+            f"* = brak świeżej ceny → wycena po cenie wejścia.</div>")
+    return f"<table style='width:100%;border-collapse:collapse;'>{head}{body}{foot}</table>{note}"
+
+
 def build_email_html(ctx: dict) -> str:
     today = ctx.get("today", "")
     tag = ctx.get("tag", "")
@@ -398,6 +445,16 @@ def build_email_html(ctx: dict) -> str:
             f"margin-top:14px;padding-top:12px;'><b>Zasada:</b> max 1 moonshot = €10-43 zł (próg XTB). "
             f"Akceptujesz −100% tej pozycji. Stop −50% lub brak. Winner bez górnego capa. "
             f"Rdzeń (91%) pracuje niezależnie w sekcji I.</div></div>"
+        )
+
+    # ── PEŁNA TABELA POZYCJI (rdzeń + łowca) — nad metryką celu ──
+    detailed = ctx.get("detailed_positions")
+    if detailed and detailed.get("rows"):
+        P.append(
+            _card_open("Twoje pozycje — pełny rachunek (rdzeń + łowca)",
+                       "Wszystko, co trzymasz: wartość teraz, wkład początkowy, ceny, stop, cel i zysk. "
+                       "Na dole SUMA — ile łącznie jesteś na plus.") +
+            _detailed_positions_table(detailed) + "</div>"
         )
 
     # ── VII. CEL ──

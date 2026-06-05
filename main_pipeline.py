@@ -669,6 +669,14 @@ def build_email(res: BotRunResult, cfg: BotConfig, fx: float) -> tuple[str, str]
         "moonshot_sleeve_pln": getattr(cfg, "moonshot_sleeve_pln", 0),
     }
 
+    # PEŁNA TABELA POZYCJI (rdzeń + łowca, żywe ceny) — additive, fail-safe. NIE rusza logiki decyzji.
+    try:
+        import positions_table as _ptab
+        ctx["detailed_positions"] = _ptab.build_detailed_positions(cfg.portfolio_json, fx)
+    except Exception as e:
+        logger.warning("Pełna tabela pozycji pominięta: %s", e)
+        ctx["detailed_positions"] = None
+
     # Nowy ładny render; fallback do prostego HTML gdyby modułu brakło.
     if build_email_html is not None:
         try:
