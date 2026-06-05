@@ -1,0 +1,7 @@
+{
+  "_comment": "Konfiguracja bota Łowcy — stałe parametry środowiskowe.",
+  "xtb_drive_folder_id": "1YRH_4DO8f1SA565miyZcjVA8_5zkaqBV",
+  "xtb_drive_folder_name": "aktualny",
+  "xtb_file_prefix": "PLN_54820945_",
+  "_workflow": "Przed każdym biegiem łowcy: (1) znajdź najświeższy plik PLN_*.xlsx w folderze xtb_drive_folder_id, (2) pobierz go i zapisz lokalnie, (3) uruchom main_pipeline.py --export <plik> żeby zsynchronizować portfolio.json z XTB jako źródłem prawdy, (4) dopiero potem uruchom lowca_pipeline.py"
+}
