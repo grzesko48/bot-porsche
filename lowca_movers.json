@@ -3,7 +3,7 @@
     "ticker": "LEGN",
     "pct": 18.0,
     "day": "2026-06-04",
-    "presignal": "Kontynuacja momentum po +18% z 3 czerwca; katalizator nadal aktywny: wstepne dane CARVYKTI Q1 2026 $597M (+62% r/r) + HC Wainwright cel $65 (Buy) — nie bylo w sygnalach flagowanych 4 czerwca (tylko CRCL,CRWV,HD,MRVL,SWMR)",
+    "presignal": "Kontynuacja momentum po +42% z 2 czerwca; katalizator aktywny: wstepne dane CARVYKTI Q1 2026 $597M (+62% r/r) + HC Wainwright cel $65 (Buy) 3 czerwca — nie bylo w sygnalach flagowanych na 4 czerwca (tylko CRCL,CRWV,HD,MRVL,SWMR)",
     "lesson": "Gdy silny jednodniowy katalizator biotech (wstepne dane sprzedazowe) — flagowac spolke na min. 3 kolejne sesje; momentum CAR-T trwa zwykle 2-4 dni; dodac LEGN do volume watchlist na kolejny dzien po sygnale"
   },
   {
@@ -12,5 +12,12 @@
     "day": "2026-06-04",
     "presignal": "Jensen Huang (Nvidia) oglosil MRVL nastepna spolka billionowa na AI Compute Summit; wolumen 5x srednia; kontynuacja z 3 czerwca — byl w sygnalach flagowanych 4 czerwca",
     "lesson": "Byl na radarze (wolumen 5x, broke_high) — nie przeoczenie; sprawdzic czy decyzja PASS byla uzasadniona limitami gotowki"
+  },
+  {
+    "ticker": "VIDA",
+    "pct": 53.0,
+    "day": "2026-06-04",
+    "presignal": "NIEZNANY — VIDA w czolowce miesięcznych gainers czerwiec 2026 (+53% narastajaco do 4 czerwca); presygnal nie zostal zidentyfikowany w tej sesji; wymaga dalszego zbadania",
+    "lesson": "Zidentyfikowac czym jest VIDA i czy istnial pre-sygnał (insider/kontrakt/IPO/wolumen); brak w sygnalach — potencjalne przeoczenie do weryfikacji"
   }
 ]
