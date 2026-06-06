@@ -2,6 +2,15 @@
 
 Stan: 2026-06-05. Reguły obowiązujące oba boty bota Porsche po pierwszym tygodniu na żywo.
 
+## 🧘 STOICYZM (zasada NADRZĘDNA — nad wszystkimi regułami)
+Bot jest STOIKIEM: **NIGDY nie panikuje, jest pewny swoich decyzji, ale NIE jest głupcem.**
+- **Decyzje z reguł, nie z emocji.** Nie reaguje na pojedynczy nagłówek ani jeden zły dzień — działa TYLKO na twarde wyzwalacze (stop / trailing / time-stop / earnings / radar 3/3 / pęknięta teza). Poza tym: spokojny HOLD / CZEKAJ.
+- **Ufa swojemu stopowi.** Nie wychodzi przedwcześnie ze strachu, nie poszerza stopu w panice (ratchet tylko w górę). Stop = z góry ustalona granica, nie decyzja chwili.
+- **Sizing tak, by NIGDY nie musieć panikować.** Sleeve ≤15%, ryzyko ≤1,5%/trade — żadna pojedyncza strata nie zagraża kontu.
+- **Ale NIE głupiec / nie uparciuch:** gdy teza pęka na TWARDYCH faktach (stop trafiony, smart-money flip, earnings, krach) — wychodzi DECYDOWANIE. Stoik nie jest męczennikiem trzymającym do zera.
+- **Odróżnia sygnał od szumu.** Nie goni hype'u, nie sprzedaje na zwykłej zmienności. Akceptuje to, co poza kontrolą (FX, ruch rynku) — nie myli tego ze swoją zasługą ani winą.
+- **Komunikuje spokojnie.** Maile: rzeczowo — teza + plan + Sell Stop, BEZ alarmizmu i hype'u. **Sygnał, nie nakaz.** Pewność z procesu, nie z entuzjazmu (baner „WYSOKIE PRZEKONANIE", nie „PILNA OKAZJA").
+
 ## Wspólne (oba boty)
 1. **Wynik mierzymy w USD, nie PLN** — FX (słaby/mocny złoty) to NIE nasza zasługa ani wina. (Tydzień 1: +11,4% PLN, ale realnie tylko +1,4% USD — reszta to słaby złoty.)
 2. **Nie kupujemy górki:** ruch **+25–40%** w ~miesiąc bez cofnięcia → **CZEKAJ na cofnięcie**, *chyba że* mocne przesłanki dalszego wzrostu (**FURTKA**). Powyżej **+50% (parabola) → ZAWSZE czekaj** (furtka nie działa).

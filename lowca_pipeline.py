@@ -422,7 +422,7 @@ def render_text(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
     passes = [d for d in decisions if d.verdict == "PASS"]
     budget, sleeve_cap, cash_limited = deployable_budget(c, free_cash_pln, sleeve_used_pln)
     hot = best_score(buys) >= c.alert_threshold
-    L = ["=" * 66, ("  PILNA OKAZJA! " if hot else "  ") + "BOT LOWCA — DECYZJE PRZED OTWARCIEM", "=" * 66]
+    L = ["=" * 66, ("  MOCNY SYGNAL — " if hot else "  ") + "BOT LOWCA — DECYZJE PRZED OTWARCIEM", "=" * 66]
     L.append(f"  Equity: {(equity_pln or c.capital_pln):.0f} zl | Wolna gotowka: "
              f"{('%.0f zl' % free_cash_pln) if free_cash_pln is not None else '—'} | "
              f"Do wydania: {budget:.0f} zl | USD/PLN: {fx or c.fx_usd_pln:.2f}")
@@ -504,12 +504,13 @@ def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
         f"Do wydania {budget:,.0f} zł · USD/PLN {fxv:.2f}</div></div>"
     )
 
-    # PILNY BANER
+    # BANER WYSOKIEGO PRZEKONANIA (stoicki — sygnał, nie nakaz; bez paniki, spokojny ton)
     if hot:
         P.append(
-            f"<div style='background:{RED};border-radius:12px;padding:16px 20px;margin-bottom:18px;"
-            f"{SANS}font-size:14pt;color:#ffffff;font-weight:bold;'>PILNA OKAZJA — "
-            f"najwyższy score {best_score(buys):.1f}/10 (próg alertu {c.alert_threshold:.0f}). Patrz niżej.</div>"
+            f"<div style='background:{DARK};border-left:5px solid {GOLD};border-radius:12px;padding:16px 20px;margin-bottom:18px;"
+            f"{SANS}font-size:13pt;color:#ffffff;'>"
+            f"<b style='color:{GOLD};'>WYSOKIE PRZEKONANIE</b> — najwyższy score {best_score(buys):.1f}/10. "
+            f"Spokojnie sprawdź poniżej. To <b>sygnał, nie nakaz</b> — decyzja Twoja, plan i Sell Stop gotowe.</div>"
         )
 
     # ★ ULTRA-PICK — najwyższe przekonanie (ramka z gwiazdkami; uczciwa, oparta na analizie historycznej)
@@ -728,7 +729,7 @@ def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
             html = render_html(decisions, c, equity_pln=capital, free_cash_pln=cash, fx=fx,
                                held=held, sleeve_used_pln=sleeve_used, today=today, learn=learn,
                                track=track, open_positions=open_positions, ultra=ultra)
-            subj = (f"Bot Łowca — PILNA OKAZJA (score {best_score(buys):.1f})" if hot
+            subj = (f"Bot Łowca — mocny sygnał (score {best_score(buys):.1f})" if hot
                     else "Bot Łowca — okazje przed otwarciem")
             r = send_email_resend(html, subj, dry_run=False)
             print("Mail:", "OK" if r.get("ok") else r.get("note"), "id=", r.get("id"))
@@ -807,7 +808,7 @@ def _run_selftest() -> int:
         html = render_html(decb, c, equity_pln=1648, free_cash_pln=200.0, fx=3.64, held=held,
                            today="2026-06-04", open_positions=my_pos, ultra=ultra)
         ok("render_html bez bledu", True)
-        ok("HTML: baner PILNA OKAZJA przy score>=8", "PILNA OKAZJA" in html)
+        ok("HTML: baner WYSOKIE PRZEKONANIE przy score>=8", "WYSOKIE PRZEKONANIE" in html)
         ok("HTML: badge KONFLUENCJA", "KONFLUENCJA" in html)
         ok("HTML: konkretny Sell Stop $", "Sell Stop $" in html)
         ok("ULTRA-PICK wybrany (score>=8 i konfluencja>=2)", ultra is not None and ultra.ticker == "ZZZ")
