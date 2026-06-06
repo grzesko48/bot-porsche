@@ -1,23 +1,16 @@
 [
   {
-    "ticker": "LEGN",
-    "pct": 18.0,
-    "day": "2026-06-04",
-    "presignal": "Kontynuacja momentum po +42% z 2 czerwca; katalizator aktywny: wstepne dane CARVYKTI Q1 2026 $597M (+62% r/r) + HC Wainwright cel $65 (Buy) 3 czerwca — nie bylo w sygnalach flagowanych na 4 czerwca (tylko CRCL,CRWV,HD,MRVL,SWMR)",
-    "lesson": "Gdy silny jednodniowy katalizator biotech (wstepne dane sprzedazowe) — flagowac spolke na min. 3 kolejne sesje; momentum CAR-T trwa zwykle 2-4 dni; dodac LEGN do volume watchlist na kolejny dzien po sygnale"
+    "ticker": "STI",
+    "pct": 64,
+    "day": "2026-06-05",
+    "presignal": "Wolumen June 4: 101.6M vs avg <60K (>1600x normy!) + ogłoszenie 30-patentowej platformy baterii litu (space, AI datacenter) + Form 144 affiliate sale zlozony June 4; insider SELLING nie buying; przychody ledwo $85K — micro-cap hype spekulacyjny",
+    "lesson": "Ekstremalny wolumen >500x normy w micro-cap technologia (space/battery/AI) = marker do sledzenia nawet bez insider buy; dodac filtr wolumenu >100x dla spolok <$50M mcap; Form 144 po-godzinach + wolumen anomalia = sygnał wejscia spekulacyjnego na nastepny dzien"
   },
   {
-    "ticker": "MRVL",
-    "pct": 16.0,
-    "day": "2026-06-04",
-    "presignal": "Jensen Huang (Nvidia) oglosil MRVL nastepna spolka billionowa na AI Compute Summit; wolumen 5x srednia; kontynuacja z 3 czerwca — byl w sygnalach flagowanych 4 czerwca",
-    "lesson": "Byl na radarze (wolumen 5x, broke_high) — nie przeoczenie; sprawdzic czy decyzja PASS byla uzasadniona limitami gotowki"
-  },
-  {
-    "ticker": "VIDA",
-    "pct": 53.0,
-    "day": "2026-06-04",
-    "presignal": "NIEZNANY — VIDA w czolowce miesięcznych gainers czerwiec 2026 (+53% narastajaco do 4 czerwca); presygnal nie zostal zidentyfikowany w tej sesji; wymaga dalszego zbadania",
-    "lesson": "Zidentyfikowac czym jest VIDA i czy istnial pre-sygnał (insider/kontrakt/IPO/wolumen); brak w sygnalach — potencjalne przeoczenie do weryfikacji"
+    "ticker": "BGMS",
+    "pct": 76,
+    "day": "2026-06-05",
+    "presignal": "8-K Business Combination Agreement z Future NRG Sdn. Bhd. (Malezja, medwaste/energia) ogłoszony June 4 po zamknieciu gieldy; +225% after-hours przed otwarciem June 5; spółka micro-cap NASDAQ",
+    "lesson": "Ogłoszenia BCA/merger w formularzach 8-K i 425 składanych po 16:00 = pre-sygnał na ruch nastepnego dnia; sledz formularze SEC po godzinach (EDGAR 8-K feed) dla micro-cap NASDAQ — to nasza slaba strona; rozwazyc scraping nowych Form 425 wieczorami"
   }
 ]

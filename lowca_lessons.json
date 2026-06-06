@@ -19,5 +19,19 @@
     "pct": 53.0,
     "presignal": "NIEZNANY — VIDA w czolowce miesięcznych gainers czerwiec 2026 (+53% narastajaco do 4 czerwca); presygnal nie zostal zidentyfikowany w tej sesji; wymaga dalszego zbadania",
     "lesson": "Zidentyfikowac czym jest VIDA i czy istnial pre-sygnał (insider/kontrakt/IPO/wolumen); brak w sygnalach — potencjalne przeoczenie do weryfikacji"
+  },
+  {
+    "date": "2026-06-06",
+    "ticker": "BGMS",
+    "pct": 76.0,
+    "presignal": "8-K Business Combination Agreement z Future NRG Sdn. Bhd. (Malezja, medwaste/energia) ogłoszony June 4 po zamknieciu gieldy; +225% after-hours przed otwarciem June 5; spółka micro-cap NASDAQ",
+    "lesson": "Ogłoszenia BCA/merger w formularzach 8-K i 425 składanych po 16:00 = pre-sygnał na ruch nastepnego dnia; sledz formularze SEC po godzinach (EDGAR 8-K feed) dla micro-cap NASDAQ — to nasza slaba strona; rozwazyc scraping nowych Form 425 wieczorami"
+  },
+  {
+    "date": "2026-06-06",
+    "ticker": "STI",
+    "pct": 64.0,
+    "presignal": "Wolumen June 4: 101.6M vs avg <60K (>1600x normy!) + ogłoszenie 30-patentowej platformy baterii litu (space, AI datacenter) + Form 144 affiliate sale zlozony June 4; insider SELLING nie buying; przychody ledwo $85K — micro-cap hype spekulacyjny",
+    "lesson": "Ekstremalny wolumen >500x normy w micro-cap technologia (space/battery/AI) = marker do sledzenia nawet bez insider buy; dodac filtr wolumenu >100x dla spolok <$50M mcap; Form 144 po-godzinach + wolumen anomalia = sygnał wejscia spekulacyjnego na nastepny dzien"
   }
 ]

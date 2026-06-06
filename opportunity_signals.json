@@ -1,6 +1,15 @@
 {
-  "_date": "2026-06-05",
+  "_date": "2026-06-06",
   "ipo": [
+    {
+      "ticker": "FDXF",
+      "age_months": 0,
+      "pct_from_ipo": 10,
+      "volume_mult": 3.0,
+      "price_usd": 168.00,
+      "pct_1m": null,
+      "catalyst": "FedEx Freight spin-off debiut June 1 2026; S&P 500 dodany June 2 (dzien po IPO!) = forced buying funduszy pasywnych; LTL trucking lider USA; spin-off zwykle outperformuje parenta w pierwszym roku"
+    },
     {
       "ticker": "SWMR",
       "age_months": 4,
@@ -32,9 +41,9 @@
       "volume_mult": 5.0,
       "pct_today": 14,
       "broke_high": true,
-      "price_usd": 309.13,
+      "price_usd": 295.00,
       "pct_1m": 35,
-      "catalyst": "Nvidia CEO Jensen Huang: MRVL 'nastepna spolka billionowa' (Computex AI Summit); wolumen 5x; ATH June 1 2026"
+      "catalyst": "Nvidia CEO Jensen Huang: MRVL 'nastepna spolka billionowa' (Computex AI Summit); wolumen 5x; Q4 FY2026 earnings beat + guidance FY2028 $16.5B rev; S&P 500 dodany; optyczne chipy AI datacenter"
     },
     {
       "ticker": "LEGN",
@@ -53,7 +62,7 @@
       "catalyst": "DoD Drone Dominance Program Phase II Qualifier (ogloszone 2026-06-02); program zakupu 200k dronow do 2027; $71M backlog kontraktow; $8.25M zamowienie europejskie; wycena fuzji $1.5B; backed by Eric Trump",
       "price_usd": null,
       "pct_1m": null,
-      "days_since_announcement": 3,
+      "days_since_announcement": 4,
       "note": "Analogia PUSA (wzorzec z lekcji 2026-06-04): small-cap drone/AI + DoD qualifier + brak pokrycia analitykow = asymetryczna okazja"
     }
   ],
@@ -62,10 +71,20 @@
       "ticker": "NKE",
       "buyers": 2,
       "usd_total": 1875000,
-      "days_ago": 53,
+      "days_ago": 54,
       "role": "CEO Elliott Hill (23660 akcji @$42.27) + Director Tim Cook (25000 akcji @$42.43) — kwiecien 2026",
       "price_usd": 43.90,
       "pct_1m": 7
+    },
+    {
+      "ticker": "UNH",
+      "buyers": 10,
+      "usd_total": 5000000,
+      "days_ago": 66,
+      "role": "10 czlonkow zarzadu (w tym CEO i CFO) kupilo klastrowo April 1 2026 po gwaltownym spadku; CEO i CFO kupili takze March 17",
+      "price_usd": 400.00,
+      "pct_1m": 6,
+      "catalyst": "Najsilniejszy klaster insider roku wg OpenInsider (10 dyrektorow w 1 dzien); Bank of America cel $450; DOJ dochodzenie bez zarzutow; +20% YTD po zalezeniu dna"
     }
   ],
   "fund13f": [],
@@ -74,16 +93,26 @@
       "ticker": "HD",
       "member": "Tim Moore + David Taylor",
       "amount_usd": 40500,
-      "days_ago": 18,
+      "days_ago": 19,
       "committee_relevant": false,
       "price_usd": 313.80,
       "pct_1m": 3
+    },
+    {
+      "ticker": "LITE",
+      "member": "Josh Gottheimer (May 22) + Gilbert Ray Cisneros Jr. (Apr 14)",
+      "amount_usd": 30000,
+      "days_ago": 15,
+      "committee_relevant": true,
+      "price_usd": 848.00,
+      "pct_1m": 18,
+      "catalyst": "2 kongresmenow USA kupilo LITE w maju; przychody Q3 2026: $808.4M (+90% r/r YoY, bicie estymacji); Nasdaq 100 czlonek; optyka AI datacenter; Northland podniosl cel do $1200 z $1000 (Outperform); split akcji mozliwy przy takim kursie"
     }
   ],
   "policy": [
     {
       "ticker": "PLTR",
-      "catalyst": "Trump Truth Social (kwiecien 2026): Palantir 'proven great war-fighting capabilities'; DoD AI — kluczowy kontraktor rzadowy; S&P500 +33% od wyborow, PLTR w czolowce",
+      "catalyst": "Trump Truth Social: Palantir 'proven great war-fighting capabilities'; DoD AI — kluczowy kontraktor rzadowy; S&P500 +33% od wyborow, PLTR w czolowce",
       "price_usd": 141.51,
       "pct_1m": 8
     },
@@ -92,6 +121,14 @@
       "catalyst": "Trump: NATO cel 5% PKB do 2035 (szczyt NATO 2025); EO Prioritizing Warfighter in Defense Contracting (styczen 2026); europejska rearmy; LMT +26% YTD 2026",
       "price_usd": 525.00,
       "pct_1m": 12
+    },
+    {
+      "ticker": "CRWD",
+      "catalyst": "Trump EO 'Promoting Advanced AI Innovation and Security' (podpisany June 2 2026); CRWD lider platformy cybersec AI-native; ARR $5.51B (+24% r/r); split 4:1 ogłoszony July 2 2026; EO wymaga AI cybersecurity clearinghouse — CRWD naturalny partner rzadu",
+      "price_usd": 700.00,
+      "pct_1m": 15,
+      "still_upside": true,
+      "upside_reason": "ATH $782 June 1 → korekta do $700 z rynkiem (-4.67% Nasdaq June 5); EO AI cybersecurity z June 2 = nowy wieloletni katalizator rzadowy; split 4:1 July 2 historycznie przyciaga inwestorow detalicznych; korekcja po ATH to punkt wejscia, nie szyt"
     }
   ]
 }
