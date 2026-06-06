@@ -760,7 +760,7 @@ def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
     if send:
         try:
             from notifications import send_email_resend
-            sb_card = sb.refresh_card(today=today, spy_now=spy_now) if (sb and today) else ""
+            sb_card = sb.refresh_card(today=today, spy_now=spy_now, held=held_tickers) if (sb and today) else ""
             html = render_html(decisions, c, equity_pln=capital, free_cash_pln=cash, fx=fx,
                                held=held, sleeve_used_pln=sleeve_used, today=today, learn=learn,
                                track=track, open_positions=open_positions, ultra=ultra,

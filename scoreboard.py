@@ -87,13 +87,18 @@ def score_entry(entry: dict, price_now, spy_now, today, horizon_days: int = 30) 
     return e
 
 
-def score_log(log, price_map: dict, today, spy_now=None, horizon_days: int = 30) -> list:
-    """Scoruje cały dziennik. price_map: {TICKER: cena_usd_teraz}. Wpisy bez ceny zostają nietknięte."""
+def score_log(log, price_map: dict, today, spy_now=None, horizon_days: int = 30, held=None) -> list:
+    """Scoruje cały dziennik. price_map: {TICKER: cena_usd_teraz}. held: tickery realnie w portfelu
+    (audyt 'kazał vs zrobił' — czy rekomendacja została wykonana). Wpisy bez ceny zostają nietknięte."""
     price_map = {str(k).upper(): v for k, v in (price_map or {}).items()}
+    held_set = {str(h).upper() for h in (held or [])}
     out = []
     for e in (log or []):
         tk = str(e.get("ticker", "")).upper()
-        out.append(score_entry(e, price_map.get(tk), spy_now, today, horizon_days))
+        s = score_entry(e, price_map.get(tk), spy_now, today, horizon_days)
+        if held_set and tk in held_set and not s.get("executed"):
+            s["executed"] = True   # widzieliśmy ją w portfelu => rekomendacja wykonana (egzekucja ręczna OK)
+        out.append(s)
     return out
 
 
@@ -165,10 +170,13 @@ def build_card_html(stats: dict, scored=None) -> str:
     ov_ar = f"{ov['avg_ret']:+.1f}%" if ov.get("avg_ret") is not None else "—"
     ov_aa = f"{ov['avg_alpha']:+.1f} pp" if ov.get("avg_alpha") is not None else "—"
     ov_tl = f"{ov['avg_tail_left']:.0f} pp" if ov.get("avg_tail_left") is not None else "—"
+    n_rec = len(scored or [])
+    n_exec = sum(1 for e in (scored or []) if e.get("executed"))
+    exec_str = f" · wykonane <b>{n_exec}/{n_rec}</b>" if n_rec else ""
     return (
         "<div style='margin:14px 0;padding:12px;border:1px solid #444;border-radius:8px;background:#1b1b1b;color:#ddd;'>"
         f"<b>📊 Tablica wyników (forward-test)</b> — {ov['n']} rekomendacji, {ov['closed']} zamkniętych · "
-        f"śr. zwrot <b>{ov_ar}</b> · alfa vs SPY <b>{ov_aa}</b> · oddany ogon <b>{ov_tl}</b>"
+        f"śr. zwrot <b>{ov_ar}</b> · alfa vs SPY <b>{ov_aa}</b> · oddany ogon <b>{ov_tl}</b>{exec_str}"
         "<table style='border-collapse:collapse;margin-top:8px;font-size:13px;width:100%;'>"
         "<tr style='color:#aaa;border-bottom:1px solid #333;'>"
         "<th style='padding:3px 8px;text-align:left;'>Sygnał</th>"
@@ -247,8 +255,9 @@ def fetch_prices_yf(tickers):
     return out
 
 
-def refresh_card(path="lowca_decisions_log.json", today=None, spy_now=None) -> str:
+def refresh_card(path="lowca_decisions_log.json", today=None, spy_now=None, held=None) -> str:
     """Pełny refresh dla maila: fetch cen tickerów z dziennika -> scoring -> persist -> karta HTML.
+    held: tickery realnie w portfelu (audyt 'kazał vs zrobił').
     W PEŁNI guarded: każdy błąd -> pusty string (mail bez zmian, nigdy nie wywala biegu)."""
     try:
         log = load_log(path)
@@ -257,7 +266,7 @@ def refresh_card(path="lowca_decisions_log.json", today=None, spy_now=None) -> s
         prices = fetch_prices_yf([e.get("ticker") for e in log])
         if spy_now is None:
             spy_now = fetch_spy_yf()
-        scored = score_log(log, prices, today, spy_now)
+        scored = score_log(log, prices, today, spy_now, held=held)
         save_log(scored, path)
         return build_card_html(aggregate(scored), scored)
     except Exception:
@@ -332,6 +341,14 @@ def _run_selftest() -> int:
     ok("Pozycja zamknieta WIN po T+30", s2[0]["status"] == "WIN")
     ipo = aggregate(s2)["by_kind"].get("IPO", {})
     ok("Oddany ogon = peak 50 - exit 30 = 20 pp", ipo.get("avg_tail_left") is not None and abs(ipo["avg_tail_left"] - 20.0) < 0.1)
+
+    # ── AUDYT 'kazal vs zrobil' (rekomendacja w portfelu -> executed) ──
+    elog = [{"id": "e1", "date": "2026-05-01", "ticker": "EEE", "kind": "IPO", "entry_usd": 10.0, "status": "OPEN"},
+            {"id": "e2", "date": "2026-05-01", "ticker": "FFF", "kind": "IPO", "entry_usd": 10.0, "status": "OPEN"}]
+    se = score_log(elog, {"EEE": 11.0, "FFF": 11.0}, "2026-05-10", held=["EEE"])
+    ok("Wykonana (EEE w portfelu) -> executed", se[0].get("executed") is True)
+    ok("Niewykonana (FFF brak w portfelu) -> nie executed", not se[1].get("executed"))
+    ok("Karta pokazuje 'wykonane 1/2'", "wykonane" in build_card_html(aggregate(se), se) and "1/2" in build_card_html(aggregate(se), se))
 
     # karta HTML
     card = build_card_html(stats, scored)
