@@ -52,6 +52,10 @@ from pipeline import PorschePipeline, CandidateInput
 from order_generation import OrderGenerator
 import indicators as ind
 from top_down_scanner import TopDownScanner, multiperiod_momentum, rate_of_change
+try:
+    import wall_street as ws
+except Exception:
+    ws = None
 from performance_tracker import (TrackerConfig, record_snapshot, compute_state,
                                   format_email_section, load_equity_log)
 from notifications import send_email_resend, fetch_earnings_finnhub, fetch_earnings
@@ -289,6 +293,20 @@ def run_bot(export_path: Optional[str], cfg: Optional[BotConfig] = None,
         res.radar_level = radar_level
         res.notes.append(f"skan rynku: {len(candidates)} kandydatów, radar {radar_level}/3, źródło {meta.get('source')}")
         candidates_by_ticker = {c.ticker: c for c in candidates}
+
+        # ── ANTI-KONCENTRACJA SEKTOROWA (#1 ryzyko straty: 60% chipy) ──
+        # Policz ekspozycję sektorową z TRZYMANYCH pozycji i dołącz do kandydatów; bramka
+        # g_sector_cap odrzuci dokładanie do przeważonego sektora (overlay WS tylko audytuje).
+        if ws is not None and candidates:
+            try:
+                sec_pln = {}
+                for p in actual.positions:
+                    s = ws.sector_of(getattr(p, "ticker", ""))
+                    sec_pln[s] = sec_pln.get(s, 0.0) + (getattr(p, "volume", 0) * getattr(p, "open_price", 0) * fx)
+                for ci in candidates:
+                    ci.sector_exposure_pln = sec_pln.get(ws.sector_of(ci.ticker), 0.0)
+            except Exception as e:
+                res.notes.append(f"sector_exposure pominięte: {e}")
 
         # ── 2.5. SOCZEWKI: zapisz listę kandydatów do sprawdzenia przez agenta (KROK D2) ──
         # Bez tego news_request.json nie powstaje i soczewki mierzą pustkę (same neutralne).

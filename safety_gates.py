@@ -62,6 +62,7 @@ class GatesConfig:
     spread_max_smallcap: float = 0.015    # 1.5%
     session_lead_minutes: int = 30        # wysyłka min. 30 min przed otwarciem
     concentration_cap: float = 0.60
+    sector_cap: float = 0.40                  # ANTI-KONCENTRACJA: max % equity w 1 sektorze (#1 ryzyko: 60% chipy; overlay WS audytuje, ale NIE blokuje kupna)
 
 
 @dataclass
@@ -88,6 +89,7 @@ class Candidate:
     current_exposure_pln: float = 0.0            # ile już mamy w tym tickerze
     strong_catalyst: bool = False                # FURTKA: świeży transformacyjny katalizator (kontrakt≫kap, smart-money) -> luźniejsza parabola
     pct_recent_5d: Optional[float] = None        # ANTI-CHASE: zmiana % w ost. 5 sesji (runup); >próg = gonienie górki (lekcja MRVL)
+    sector_exposure_pln: float = 0.0             # ANTI-KONCENTRACJA: ile zł equity już w sektorze tej spółki (z trzymanych pozycji)
 
 
 @dataclass
@@ -227,6 +229,19 @@ class SafetyGates:
                               f"ekspozycja po zakupie {after:.2f} > cap {cap:.2f} ({self.cfg.concentration_cap:.0%} equity)")
         return GateResult("concentration_ok", True, f"koncentracja {after:.2f} ≤ {cap:.2f} OK")
 
+    def g_sector_cap(self, c: Candidate) -> GateResult:
+        """ANTI-KONCENTRACJA SEKTOROWA (#1 ryzyko straty). Overlay WS audytuje sektory, ale NIE
+        blokuje KUPNA — można dokładać do 60% klastra chipów. Ta bramka twardo to ucina:
+        ekspozycja sektora PO zakupie ≤ sector_cap × equity. Nie dokładamy do przeważonego sektora."""
+        if not c.equity_total_pln or c.equity_total_pln <= 0:
+            return GateResult("sector_cap", True, "brak equity — pomijam")
+        after = c.sector_exposure_pln + c.position_value_pln
+        cap = self.cfg.sector_cap * c.equity_total_pln
+        if after > cap + 1e-6:
+            return GateResult("sector_cap", False,
+                              f"sektor po zakupie {after:.0f} > limit {cap:.0f} zł ({self.cfg.sector_cap:.0%} equity) — przeważony, nie dokładamy")
+        return GateResult("sector_cap", True, f"sektor {after:.0f} ≤ {cap:.0f} zł OK")
+
     # ── uruchomienie wszystkich bramek ────────────────────────────────────────
     def evaluate(self, c: Candidate) -> GatesReport:
         gates: list[Callable[[Candidate], GateResult]] = [
@@ -234,7 +249,7 @@ class SafetyGates:
             self.g_not_chasing,
             self.g_cash, self.g_min_order, self.g_fractional, self.g_macro,
             self.g_hard_block, self.g_spread, self.g_pending, self.g_session,
-            self.g_concentration,
+            self.g_concentration, self.g_sector_cap,
         ]
         results = [g(c) for g in gates]
         all_ok = all(r.passed for r in results)
@@ -243,7 +258,7 @@ class SafetyGates:
             logger.info("[%s] ODRZUCONE przez bezpieczniki: %s",
                         c.ticker, "; ".join(r.reason for r in report.failures))
         else:
-            logger.info("[%s] wszystkie 14 bezpieczników OK", c.ticker)
+            logger.info("[%s] wszystkie 15 bezpieczników OK", c.ticker)
         return report
 
 
@@ -272,9 +287,9 @@ def _run_selftest() -> int:
         if cond: passed += 1; print(f"  [OK] {name}")
         else: failed += 1; print(f"  [FAIL] {name}")
 
-    # 1. Dobry kandydat -> wszystkie 14 OK
+    # 1. Dobry kandydat -> wszystkie 15 OK
     rep = sg.evaluate(_good_candidate())
-    check("Dobry kandydat: wszystkie 14 bezpieczników PASS", rep.all_passed and len(rep.results) == 14)
+    check("Dobry kandydat: wszystkie 15 bezpieczników PASS", rep.all_passed and len(rep.results) == 15)
 
     # 2. Earnings za 1 dzień -> FAIL
     c = _good_candidate(); c.days_to_earnings = 1
@@ -346,6 +361,14 @@ def _run_selftest() -> int:
     c = _good_candidate(); c.current_exposure_pln = 900.0  # 900+320=1220 > 0.6*1582=949
     rep = sg.evaluate(c)
     check("Koncentracja > 60% equity -> odrzut", any(f.name == "concentration_ok" for f in rep.failures))
+
+    # 12b. ANTI-KONCENTRACJA SEKTOROWA: sektor > 40% equity -> FAIL (lekcja: 60% chipy)
+    c = _good_candidate(); c.sector_exposure_pln = 600.0  # 600+320=920 > 0.40*1582=633
+    rep = sg.evaluate(c)
+    check("Sektor > 40% equity -> odrzut (nie dokladamy do chipow)", any(f.name == "sector_cap" for f in rep.failures))
+    c = _good_candidate(); c.sector_exposure_pln = 200.0  # 200+320=520 < 633 -> OK
+    rep = sg.evaluate(c)
+    check("Sektor < 40% equity -> PASS", not any(f.name == "sector_cap" for f in rep.failures))
 
     # 13. Spread za szeroki -> FAIL
     c = _good_candidate(); c.spread_pct = 0.02

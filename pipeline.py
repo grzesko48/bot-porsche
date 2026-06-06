@@ -69,6 +69,7 @@ class CandidateInput:
     current_exposure_pln: float = 0.0
     strong_catalyst: bool = False             # FURTKA: świeży transformacyjny katalizator -> luźniejsza parabola (Wniosek #4)
     pct_recent_5d: Optional[float] = None     # ANTI-CHASE: runup % w ost. 5 sesji (>próg = gonienie górki, lekcja MRVL)
+    sector_exposure_pln: float = 0.0          # ANTI-KONCENTRACJA: ile zł equity już w sektorze tej spółki (trzymane pozycje)
     smart_money_html: Optional[str] = None    # do testów / cache (zamiast pobierać)
 
 
@@ -192,6 +193,7 @@ class PorschePipeline:
                 current_exposure_pln=c.current_exposure_pln,
                 strong_catalyst=getattr(c, "strong_catalyst", False),
                 pct_recent_5d=getattr(c, "pct_recent_5d", None),
+                sector_exposure_pln=getattr(c, "sector_exposure_pln", 0.0),
             )
             report = self.gates.evaluate(cand)
             if not report.all_passed:
