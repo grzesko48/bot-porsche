@@ -63,6 +63,9 @@ class LowcaConfig:
     max_position_pln: float = 80.0     # E: mniejszy cap (sleeve ~237 zł — 3×120 to fikcja); mniej ekspozycji na nieudowodniony edge
     max_open_spec: int = 2             # E: max 2 spekulacje naraz (mały sleeve — nie rozcieńczaj w szum)
     risk_per_trade_pct: float = 0.008  # G: risk-parity — każda spekulacja ryzykuje 0,8% kapitału (równy złotówkowy risk)
+    min_rr_enter: float = 1.8          # ASYMETRIA: poniżej tego R:R nie wchodzimy (za słaby zakład)
+    min_rr_full: float = 2.2           # R:R >= tego = pełna pozycja (presuj najlepszą asymetrię); między = ×mult
+    rr_marginal_mult: float = 0.85     # słabsza asymetria (między enter a full) -> mniejsza pozycja
     buy_threshold: float = 6.0
     alert_threshold: float = 8.0       # score >= -> PILNY alert
     extension_warn_pct: float = 0.25   # już +25% w ~mies -> rozgrzane: CZEKAJ, CHYBA ŻE mocne przesłanki dalej (furtka)
@@ -263,6 +266,8 @@ class LowcaDecision:
     catalyst: str = ""           # tag katalizatora (np. Trump/polityka/kontrakt rządowy)
     still_upside: bool = False   # FURTKA: mocne przesłanki dalszego wzrostu (świeży katalizator ≫ cena)
     upside_reason: str = ""      # uzasadnienie furtki
+    rr: float = 0.0              # ASYMETRIA: potencjał/ryzyko (target%/stop%) — wyższa = lepszy zakład; presuj najlepsze
+    ev_pct: float = None         # opcjonalny EV od agenta (scenariusze bull/base/bear); <=0 => nie wchodź
 
 
 def _shares(size_pln, price_usd, fx):
@@ -293,7 +298,8 @@ def decide_all(candidates, c: LowcaConfig, free_cash_pln=None, held=None, fx=Non
                           note=o.get("note", ""), kinds=list(o.get("kinds", [])) or [o.get("kind", "?")],
                           confluence=int(o.get("confluence", 1)), price_usd=float(o.get("price_usd", 0) or 0),
                           pct_1m=float(o.get("pct_1m", 0) or 0), catalyst=o.get("catalyst", ""),
-                          still_upside=bool(o.get("still_upside", False)), upside_reason=str(o.get("upside_reason", "")))
+                          still_upside=bool(o.get("still_upside", False)), upside_reason=str(o.get("upside_reason", "")),
+                          ev_pct=(float(o["ev_pct"]) if o.get("ev_pct") is not None else None))
         cand.append(d)
     cand.sort(key=lambda d: d.score, reverse=True)
     budget, sleeve_cap, cash_limited = deployable_budget(c, free_cash_pln, sleeve_used_pln)
@@ -319,12 +325,21 @@ def decide_all(candidates, c: LowcaConfig, free_cash_pln=None, held=None, fx=Non
                 d.verdict = "CZEKAJ"
                 d.reason = f"już +{d.pct_1m:.0f}% w ~mies — czekaj na cofnięcie (brak mocnych przesłanek dalszego wzrostu)"
                 continue
+        # ── ASYMETRIA (R:R) + EV ── presuj zakłady, gdzie potencjał ≫ ryzyko; blokuj ujemny EV.
+        stop_pct = _stop_pct(d.kind, c)
+        tp_pct = _tp_pct(d.kind, c)
+        d.rr = round(tp_pct / stop_pct, 2) if stop_pct > 0 else 0.0
+        if d.ev_pct is not None and d.ev_pct <= 0:
+            d.verdict = "CZEKAJ"; d.reason = f"EV {d.ev_pct:+.0f}% ≤ 0 — brak dodatniej asymetrii, czekam"; continue
+        if d.rr < c.min_rr_enter:
+            d.verdict = "CZEKAJ"; d.reason = f"R:R {d.rr:.1f} < {c.min_rr_enter:.1f} — za słaba asymetria, czekam"; continue
         # G: RISK-PARITY — każda spekulacja ryzykuje TYLE SAMO zł (anti-ruina), niezależnie od
         # (nieudowodnionego) score. size = budżet_ryzyka / stop%. Szerszy stop -> mniejsza pozycja.
-        stop_pct = _stop_pct(d.kind, c)
         risk_budget = c.risk_per_trade_pct * c.capital_pln
         size = risk_budget / stop_pct if stop_pct > 0 else c.min_position_pln
         size = _clamp(size, c.min_position_pln, c.max_position_pln)
+        if d.rr < c.min_rr_full:
+            size *= c.rr_marginal_mult          # słabsza asymetria -> mniejsza pozycja (presuj najlepsze)
         if override:
             size *= c.override_size_mult        # furtka = mniejsza pozycja (wyższe ryzyko)
         size = round(size, 0)
@@ -338,10 +353,11 @@ def decide_all(candidates, c: LowcaConfig, free_cash_pln=None, held=None, fx=Non
                 d.verdict = "PASS"; d.reason = f"sleeve wyczerpany ({used:.0f}/{budget:.0f} zł)"
             continue
         d.verdict = "BUY"; d.size_pln = size; d.stop_pct = _stop_pct(d.kind, c)
+        rr_tag = f" · R:R {d.rr:.1f}" + (" (pełna)" if d.rr >= c.min_rr_full else " (mniejsza)")
         if override:
-            d.reason = f"KUPNO MIMO +{d.pct_1m:.0f}% — {d.upside_reason or ('konfluencja ' + str(d.confluence))} (ryzyko ↑, pozycja ↓)"
+            d.reason = f"KUPNO MIMO +{d.pct_1m:.0f}% — {d.upside_reason or ('konfluencja ' + str(d.confluence))} (ryzyko ↑, pozycja ↓){rr_tag}"
         else:
-            d.reason = f"score {d.score:.1f} >= {c.buy_threshold:.0f}"
+            d.reason = f"score {d.score:.1f} >= {c.buy_threshold:.0f}{rr_tag}"
         if d.price_usd and d.price_usd > 0:
             d.stop_price_usd = round(d.price_usd * (1 - d.stop_pct), 2)
             d.target_price_usd = round(d.price_usd * (1 + _tp_pct(d.kind, c)), 2)
@@ -410,6 +426,8 @@ def log_decisions(decisions, today, path="lowca_decisions_log.json", spy_usd=Non
             "shares": round(d.shares, 4) if d.shares else None,
             "size_pln": round(d.size_pln, 0),
             "risk_pln": round(d.risk_pln, 0),
+            "rr": d.rr,                          # asymetria (do walidacji EV agenta przez scoreboard)
+            "ev_pct": d.ev_pct,                  # EV od agenta (jeśli podał) — scoreboard sprawdzi korelację z wynikiem
             "spy_at_entry": round(float(spy_usd), 2) if spy_usd else None,  # benchmark do ALFY (scoreboard.py)
             "status": "OPEN",   # scoring T+30/+90 robi scoreboard.py: OPEN -> WIN / LOSS / STOP
         })
@@ -880,6 +898,19 @@ def _run_selftest() -> int:
                       c, free_cash_pln=300.0, fx=3.64)
     cool_d = next((d for d in cdec if d.ticker == "DRON"), None)
     ok("Niewystrzelona (+5%) NIE blokowana przez bezpiecznik", cool_d and cool_d.verdict != "CZEKAJ")
+
+    # ── ASYMETRIA R:R / EV ── presuj najlepsze, blokuj ujemny EV (test bezpośredni decide_all)
+    ev_neg = decide_all([{"ticker": "EVN", "kind": "KONTRAKT", "score": 8.0, "confluence": 2,
+                          "price_usd": 20.0, "ev_pct": -10.0}], c, free_cash_pln=300.0, fx=3.64)
+    ok("EV ujemny -> CZEKAJ (brak asymetrii)", ev_neg[0].verdict == "CZEKAJ")
+    rr_ipo = decide_all([{"ticker": "RRP", "kind": "IPO", "score": 8.0, "confluence": 2,
+                          "price_usd": 20.0}], c, free_cash_pln=300.0, fx=3.64)
+    ok("IPO R:R 2.4 -> BUY pełna (rr>=2.2)", rr_ipo[0].verdict == "BUY" and rr_ipo[0].rr >= 2.2)
+    rr_kon = decide_all([{"ticker": "KKN", "kind": "KONTRAKT", "score": 8.0, "confluence": 2,
+                          "price_usd": 20.0}], c, free_cash_pln=300.0, fx=3.64)
+    ok("KONTRAKT R:R 2.0 -> BUY mniejsza (rr<2.2)", rr_kon[0].verdict == "BUY" and abs(rr_kon[0].rr - 2.0) < 0.01)
+    full_kon = _clamp(c.risk_per_trade_pct * c.capital_pln / _stop_pct("KONTRAKT", c), c.min_position_pln, c.max_position_pln)
+    ok("Asymetria: KONTRAKT (rr<2.2) dostaje mniejszą pozycję niż pełny risk-parity (×0.85)", rr_kon[0].size_pln < round(full_kon, 0))
     try:
         ok("HTML: karta Czekam na cofniecie", "Czekam na cofnięcie" in
            render_html(pdec, c, equity_pln=1648, free_cash_pln=300.0, fx=3.64, today="2026-06-05"))
