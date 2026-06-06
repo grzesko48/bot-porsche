@@ -56,8 +56,9 @@ class LowcaConfig:
     capital_pln: float = 1582.0
     sleeve_pct: float = 0.15
     min_position_pln: float = 43.0
-    max_position_pln: float = 120.0
-    max_open_spec: int = 3
+    max_position_pln: float = 80.0     # E: mniejszy cap (sleeve ~237 zł — 3×120 to fikcja); mniej ekspozycji na nieudowodniony edge
+    max_open_spec: int = 2             # E: max 2 spekulacje naraz (mały sleeve — nie rozcieńczaj w szum)
+    risk_per_trade_pct: float = 0.008  # G: risk-parity — każda spekulacja ryzykuje 0,8% kapitału (równy złotówkowy risk)
     buy_threshold: float = 6.0
     alert_threshold: float = 8.0       # score >= -> PILNY alert
     extension_warn_pct: float = 0.25   # już +25% w ~mies -> rozgrzane: CZEKAJ, CHYBA ŻE mocne przesłanki dalej (furtka)
@@ -314,7 +315,12 @@ def decide_all(candidates, c: LowcaConfig, free_cash_pln=None, held=None, fx=Non
                 d.verdict = "CZEKAJ"
                 d.reason = f"już +{d.pct_1m:.0f}% w ~mies — czekaj na cofnięcie (brak mocnych przesłanek dalszego wzrostu)"
                 continue
-        size = c.min_position_pln + (c.max_position_pln - c.min_position_pln) * _clamp((d.score - c.buy_threshold) / 3.0, 0, 1)
+        # G: RISK-PARITY — każda spekulacja ryzykuje TYLE SAMO zł (anti-ruina), niezależnie od
+        # (nieudowodnionego) score. size = budżet_ryzyka / stop%. Szerszy stop -> mniejsza pozycja.
+        stop_pct = _stop_pct(d.kind, c)
+        risk_budget = c.risk_per_trade_pct * c.capital_pln
+        size = risk_budget / stop_pct if stop_pct > 0 else c.min_position_pln
+        size = _clamp(size, c.min_position_pln, c.max_position_pln)
         if override:
             size *= c.override_size_mult        # furtka = mniejsza pozycja (wyższe ryzyko)
         size = round(size, 0)
