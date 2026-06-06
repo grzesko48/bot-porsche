@@ -378,7 +378,7 @@ def _load_decisions_log(path="lowca_decisions_log.json") -> list:
         return []
 
 
-def log_decisions(decisions, today, path="lowca_decisions_log.json") -> dict:
+def log_decisions(decisions, today, path="lowca_decisions_log.json", spy_usd=None) -> dict:
     """FORWARD-TEST: dopisuje dzisiejsze decyzje KUP do dziennika (append-only, idempotentnie po id).
     Dzięki temu można PÓŹNIEJ zmierzyć realny edge rekomendacji łowcy vs SPY (track record na żywo).
     Loguje tylko BUY (faktyczne rekomendacje). Nigdy nie wywala biegu (bezpieczne try/except)."""
@@ -406,7 +406,8 @@ def log_decisions(decisions, today, path="lowca_decisions_log.json") -> dict:
             "shares": round(d.shares, 4) if d.shares else None,
             "size_pln": round(d.size_pln, 0),
             "risk_pln": round(d.risk_pln, 0),
-            "status": "OPEN",   # późniejszy scoring T+30/+90: OPEN -> WIN / LOSS / STOP
+            "spy_at_entry": round(float(spy_usd), 2) if spy_usd else None,  # benchmark do ALFY (scoreboard.py)
+            "status": "OPEN",   # scoring T+30/+90 robi scoreboard.py: OPEN -> WIN / LOSS / STOP
         })
         seen.add(rid)
         added += 1
