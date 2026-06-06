@@ -10,11 +10,12 @@ KLUCZOWE (wzmocnione przez audyt Gemini):
   Wynik kwartalny = ryzyko luki, która przeskoczy nasz Sell Stop -> realna strata > zakładana.
   Dlatego twardo odrzucamy spółki z earnings w oknie T+0..T+2.
 
-13 BRAMEK:
+14 BRAMEK:
   1. earnings_gap_blocker   — brak wyników w T+0..T+2 (ochrona przed luką pomijającą Sell Stop)
   2. liquidity             — dolarowy obrót wystarczający (brak morderczego spreadu)
   3. rsi_not_overbought    — RSI(14) < 75 (nie kupujemy szczytu)
   4. not_parabolic         — cena < SMA20 * 1.15 (nie gonimy paraboli)
+  4b. not_chasing          — runup 5d ≤ +20% (ANTI-CHASE: nie kupujemy tuż po pionowym poppie — lekcja MRVL)
   5. cash_sufficiency      — stać na pozycję + bufor kosztowy
   6. min_order_usd         — wartość ≥ 10 USD (minimum XTB)
   7. fractional_enabled    — ticker dostępny jako akcja ułamkowa na XTB
@@ -53,6 +54,8 @@ class GatesConfig:
     rsi_max: float = 75.0
     parabolic_sma_mult: float = 1.15          # cena > SMA20*1.15 = parabola
     parabolic_sma_mult_override: float = 1.30 # FURTKA: ze strong_catalyst luźniej do 1.30× (mocne przesłanki, że jeszcze nie max)
+    max_5d_runup_pct: float = 20.0            # ANTI-CHASE: >+20% w 5 sesji = gonienie górki (lekcja MRVL — kupione po poppie)
+    max_5d_runup_override_pct: float = 30.0   # FURTKA: ze strong_catalyst luźniej do +30%
     min_order_usd: float = 10.0
     cost_buffer: float = 0.01             # 1% (spread+FX)
     spread_max_bluechip: float = 0.005    # 0.5%
@@ -84,6 +87,7 @@ class Candidate:
     minutes_to_session_open: Optional[int] = None
     current_exposure_pln: float = 0.0            # ile już mamy w tym tickerze
     strong_catalyst: bool = False                # FURTKA: świeży transformacyjny katalizator (kontrakt≫kap, smart-money) -> luźniejsza parabola
+    pct_recent_5d: Optional[float] = None        # ANTI-CHASE: zmiana % w ost. 5 sesji (runup); >próg = gonienie górki (lekcja MRVL)
 
 
 @dataclass
@@ -147,6 +151,21 @@ class SafetyGates:
                               f"cena {c.price_vs_sma20:.2f}× SMA20 > {thr} (parabola){extra}")
         note = " [furtka: katalizator]" if sc and c.price_vs_sma20 > self.cfg.parabolic_sma_mult else ""
         return GateResult("not_parabolic", True, f"cena {c.price_vs_sma20:.2f}× SMA20 OK{note}")
+
+    def g_not_chasing(self, c: Candidate) -> GateResult:
+        """ANTI-CHASE: nie kupuj spółki, która wystrzeliła pionowo w ost. 5 sesji (lekcja MRVL —
+        kupione tuż po poppie Jensena Huanga). g_parabolic (SMA20) tego NIE łapie, bo średnia
+        nadąża za gwałtownym ruchem. FURTKA: strong_catalyst luzuje próg."""
+        if c.pct_recent_5d is None:
+            return GateResult("not_chasing", True, "brak danych 5d — pomijam")
+        sc = getattr(c, "strong_catalyst", False)
+        thr = self.cfg.max_5d_runup_override_pct if sc else self.cfg.max_5d_runup_pct
+        if c.pct_recent_5d > thr:
+            extra = " (mimo katalizatora — zbyt pionowo)" if sc else ""
+            return GateResult("not_chasing", False,
+                              f"runup 5d +{c.pct_recent_5d:.0f}% > {thr:.0f}% (gonienie górki){extra}")
+        note = " [furtka: katalizator]" if sc and c.pct_recent_5d > self.cfg.max_5d_runup_pct else ""
+        return GateResult("not_chasing", True, f"runup 5d +{c.pct_recent_5d:.0f}% OK{note}")
 
     def g_cash(self, c: Candidate) -> GateResult:
         need = c.position_value_pln * (1.0 + self.cfg.cost_buffer)
@@ -212,6 +231,7 @@ class SafetyGates:
     def evaluate(self, c: Candidate) -> GatesReport:
         gates: list[Callable[[Candidate], GateResult]] = [
             self.g_earnings, self.g_liquidity, self.g_rsi, self.g_parabolic,
+            self.g_not_chasing,
             self.g_cash, self.g_min_order, self.g_fractional, self.g_macro,
             self.g_hard_block, self.g_spread, self.g_pending, self.g_session,
             self.g_concentration,
@@ -223,7 +243,7 @@ class SafetyGates:
             logger.info("[%s] ODRZUCONE przez bezpieczniki: %s",
                         c.ticker, "; ".join(r.reason for r in report.failures))
         else:
-            logger.info("[%s] wszystkie 13 bezpieczników OK", c.ticker)
+            logger.info("[%s] wszystkie 14 bezpieczników OK", c.ticker)
         return report
 
 
@@ -252,9 +272,9 @@ def _run_selftest() -> int:
         if cond: passed += 1; print(f"  [OK] {name}")
         else: failed += 1; print(f"  [FAIL] {name}")
 
-    # 1. Dobry kandydat -> wszystkie 13 OK
+    # 1. Dobry kandydat -> wszystkie 14 OK
     rep = sg.evaluate(_good_candidate())
-    check("Dobry kandydat: wszystkie 13 bezpieczników PASS", rep.all_passed and len(rep.results) == 13)
+    check("Dobry kandydat: wszystkie 14 bezpieczników PASS", rep.all_passed and len(rep.results) == 14)
 
     # 2. Earnings za 1 dzień -> FAIL
     c = _good_candidate(); c.days_to_earnings = 1
@@ -281,6 +301,21 @@ def _run_selftest() -> int:
     c = _good_candidate(); c.price_vs_sma20 = 1.30
     rep = sg.evaluate(c)
     check("Cena 1.30× SMA20 -> odrzut paraboli", any(f.name == "not_parabolic" for f in rep.failures))
+
+    # 6b. ANTI-CHASE: runup 5d +35% -> FAIL (lekcja MRVL)
+    c = _good_candidate(); c.pct_recent_5d = 35.0
+    rep = sg.evaluate(c)
+    check("Runup 5d +35% -> odrzut (gonienie górki)", any(f.name == "not_chasing" for f in rep.failures))
+
+    # 6c. ANTI-CHASE FURTKA: runup +25% ze strong_catalyst -> PASS (luźniejszy próg 30%)
+    c = _good_candidate(); c.pct_recent_5d = 25.0; c.strong_catalyst = True
+    rep = sg.evaluate(c)
+    check("Runup 5d +25% + katalizator -> furtka PASS", not any(f.name == "not_chasing" for f in rep.failures))
+
+    # 6d. ANTI-CHASE: runup +35% nawet z katalizatorem -> FAIL (za pionowo)
+    c = _good_candidate(); c.pct_recent_5d = 35.0; c.strong_catalyst = True
+    rep = sg.evaluate(c)
+    check("Runup 5d +35% mimo katalizatora -> odrzut", any(f.name == "not_chasing" for f in rep.failures))
 
     # 7. Za mało gotówki -> FAIL
     c = _good_candidate(); c.cash_available_pln = 100.0

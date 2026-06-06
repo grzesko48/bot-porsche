@@ -68,6 +68,7 @@ class CandidateInput:
     spread_pct: Optional[float] = None
     current_exposure_pln: float = 0.0
     strong_catalyst: bool = False             # FURTKA: świeży transformacyjny katalizator -> luźniejsza parabola (Wniosek #4)
+    pct_recent_5d: Optional[float] = None     # ANTI-CHASE: runup % w ost. 5 sesji (>próg = gonienie górki, lekcja MRVL)
     smart_money_html: Optional[str] = None    # do testów / cache (zamiast pobierać)
 
 
@@ -190,6 +191,7 @@ class PorschePipeline:
                 minutes_to_session_open=minutes_to_session_open,
                 current_exposure_pln=c.current_exposure_pln,
                 strong_catalyst=getattr(c, "strong_catalyst", False),
+                pct_recent_5d=getattr(c, "pct_recent_5d", None),
             )
             report = self.gates.evaluate(cand)
             if not report.all_passed:

@@ -51,7 +51,7 @@ from reconcile import Reconciler, PortfolioState
 from pipeline import PorschePipeline, CandidateInput
 from order_generation import OrderGenerator
 import indicators as ind
-from top_down_scanner import TopDownScanner
+from top_down_scanner import TopDownScanner, multiperiod_momentum, rate_of_change
 from performance_tracker import (TrackerConfig, record_snapshot, compute_state,
                                   format_email_section, load_equity_log)
 from notifications import send_email_resend, fetch_earnings_finnhub, fetch_earnings
@@ -182,16 +182,24 @@ def scan_market(fx: float, selftest: bool = False,
                     d2e = (date.fromisoformat(ed) - date.today()).days
                 except Exception:
                     d2e = None
+            roc5 = rate_of_change(series, 5)   # ANTI-CHASE: runup 5 sesji (lekcja MRVL — nie kupuj po poppie)
             ci = CandidateInput(
                 ticker=c.ticker, price_usd=price, atr_pct=atrp, atr_usd=atr_v,
                 days_to_earnings=d2e, avg_dollar_volume=dvol,
                 is_smallcap=False, rsi14=rsi_v, price_vs_sma20=pvs,
-                fractional_enabled=True, spread_pct=None,
+                fractional_enabled=True, spread_pct=None, pct_recent_5d=roc5,
             )
             ci.__dict__["_sector"] = c.sector_name
-            # proxy "siły" do wyboru snipera: ROC sektora-rodzica
-            sec_score = next((s.score for s in scan.winning_sectors if s.etf == c.sector_etf), 0.0)
-            ci.__dict__["_mom"] = sec_score
+            # SIŁA PER-SPÓŁKA (momentum Jegadeesh-Titman 3/6/12 mies) — wybieramy najsilniejszą SPÓŁKĘ,
+            # nie "najgrubszą" pozycję (korzeń błędu MRVL: _mom był score'em CAŁEGO sektora, identyczny
+            # dla wszystkich spółek). Fallback: krótszy ROC60, a gdy brak historii — score sektora
+            # (stare zachowanie). Degraduje łagodnie — nigdy gorzej niż dotychczas.
+            stock_mom = multiperiod_momentum(series, (63, 126, 252), (0.2, 0.3, 0.5), 21)
+            if stock_mom is None:
+                stock_mom = rate_of_change(series, 60)
+            if stock_mom is None:
+                stock_mom = next((s.score for s in scan.winning_sectors if s.etf == c.sector_etf), 0.0)
+            ci.__dict__["_mom"] = stock_mom
             candidates.append(ci)
 
         return candidates, scan.radar_level, meta
@@ -222,17 +230,22 @@ def _synthetic_candidates() -> list:
 # ─────────────────────────────────────────────────────────────────────────────
 # WYBÓR SNIPER PICK — najlepszy z zaakceptowanych
 # ─────────────────────────────────────────────────────────────────────────────
+def _sniper_key(plan, candidates_by_ticker: dict):
+    """Klucz JAKOŚCI spółki: siła per-spółka (momentum) PRZED rozmiarem pozycji; remis rozstrzyga
+    'headroom' RSI (mniej wykupiona = lepsza), a value_pln to ostatni tie-break.
+    Lekcja MRVL: kupowaliśmy największą pozycję (proxy hype'u), nie spółkę o najlepszym momentum."""
+    c = candidates_by_ticker.get(plan.ticker)
+    mom = (c.__dict__.get("_mom") if c else 0) or 0
+    rsi = getattr(c, "rsi14", None) if c else None
+    headroom = max(0.0, 70.0 - rsi) if isinstance(rsi, (int, float)) else 0.0
+    return (mom, headroom, getattr(plan, "value_pln", 0.0))
+
+
 def choose_sniper(accepted_orders: list, candidates_by_ticker: dict) -> Optional[object]:
-    """Z zaakceptowanych zleceń wybiera 1 najlepsze.
-    Kryterium: największa wartość pozycji w zł (proxy konfluencji — wyższe skalary => wyższa pozycja),
-    remis rozstrzyga momentum sektora."""
+    """Z zaakceptowanych zleceń wybiera 1 najlepsze — NAJSILNIEJSZĄ SPÓŁKĘ, nie 'najgrubszą' pozycję."""
     if not accepted_orders:
         return None
-    def score(plan):
-        c = candidates_by_ticker.get(plan.ticker)
-        mom = (c.__dict__.get("_mom") if c else 0) or 0
-        return (plan.value_pln, mom)
-    return max(accepted_orders, key=score)
+    return max(accepted_orders, key=lambda plan: _sniper_key(plan, candidates_by_ticker))
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -421,6 +434,10 @@ def run_bot(export_path: Optional[str], cfg: Optional[BotConfig] = None,
             res.notes.append(f"MAKRO-STOP: SPY < 200SMA (trend spadkowy) — wstrzymano otwieranie nowych "
                              f"pozycji ({', '.join(blocked)}). Bot czeka w gotówce. Istniejące pozycje zarządzane normalnie.")
             logger.info("MAKRO-STOP regime: zablokowano %d nowych pozycji (SPY<200SMA)", len(blocked))
+        # RANKING JAKOŚCI: najsilniejsza spółka (per-stock momentum) na 1. miejscu, by sniper ==
+        # accepted_picks[0] (lekcja MRVL: jakość spółki > rozmiar pozycji). Mail też listuje best-first.
+        if res.accepted_picks:
+            res.accepted_picks.sort(key=lambda o: _sniper_key(o, candidates_by_ticker), reverse=True)
         sniper = choose_sniper(res.accepted_picks, candidates_by_ticker)
         res.sniper_pick = sniper
 
