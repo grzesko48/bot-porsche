@@ -51,7 +51,8 @@ class GatesConfig:
     min_dollar_volume_midcap: float = 20_000_000.0
     min_dollar_volume_smallcap: float = 5_000_000.0
     rsi_max: float = 75.0
-    parabolic_sma_mult: float = 1.15      # cena > SMA20*1.15 = parabola
+    parabolic_sma_mult: float = 1.15          # cena > SMA20*1.15 = parabola
+    parabolic_sma_mult_override: float = 1.30 # FURTKA: ze strong_catalyst luźniej do 1.30× (mocne przesłanki, że jeszcze nie max)
     min_order_usd: float = 10.0
     cost_buffer: float = 0.01             # 1% (spread+FX)
     spread_max_bluechip: float = 0.005    # 0.5%
@@ -82,6 +83,7 @@ class Candidate:
     has_unresolved_pending: bool = False
     minutes_to_session_open: Optional[int] = None
     current_exposure_pln: float = 0.0            # ile już mamy w tym tickerze
+    strong_catalyst: bool = False                # FURTKA: świeży transformacyjny katalizator (kontrakt≫kap, smart-money) -> luźniejsza parabola
 
 
 @dataclass
@@ -136,10 +138,15 @@ class SafetyGates:
     def g_parabolic(self, c: Candidate) -> GateResult:
         if c.price_vs_sma20 is None:
             return GateResult("not_parabolic", True, "brak SMA20 — pomijam")
-        if c.price_vs_sma20 > self.cfg.parabolic_sma_mult:
+        # FURTKA: mocny katalizator -> luźniejszy próg (spółka może być wyżej, jeśli jeszcze nie osiągnęła maxa)
+        sc = getattr(c, "strong_catalyst", False)
+        thr = self.cfg.parabolic_sma_mult_override if sc else self.cfg.parabolic_sma_mult
+        if c.price_vs_sma20 > thr:
+            extra = " (mimo katalizatora — za gorące)" if sc else ""
             return GateResult("not_parabolic", False,
-                              f"cena {c.price_vs_sma20:.2f}× SMA20 > {self.cfg.parabolic_sma_mult} (parabola)")
-        return GateResult("not_parabolic", True, f"cena {c.price_vs_sma20:.2f}× SMA20 OK")
+                              f"cena {c.price_vs_sma20:.2f}× SMA20 > {thr} (parabola){extra}")
+        note = " [furtka: katalizator]" if sc and c.price_vs_sma20 > self.cfg.parabolic_sma_mult else ""
+        return GateResult("not_parabolic", True, f"cena {c.price_vs_sma20:.2f}× SMA20 OK{note}")
 
     def g_cash(self, c: Candidate) -> GateResult:
         need = c.position_value_pln * (1.0 + self.cfg.cost_buffer)

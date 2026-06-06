@@ -60,7 +60,9 @@ class LowcaConfig:
     max_open_spec: int = 3
     buy_threshold: float = 6.0
     alert_threshold: float = 8.0       # score >= -> PILNY alert
-    max_extension_pct: float = 0.40    # już +40% w ~miesiąc -> NIE kupuj górki, degraduj na CZEKAJ
+    extension_warn_pct: float = 0.25   # już +25% w ~mies -> rozgrzane: CZEKAJ, CHYBA ŻE mocne przesłanki dalej (furtka)
+    extension_hard_pct: float = 0.50   # już +50% -> parabola: ZAWSZE czekaj (furtka nie działa)
+    override_size_mult: float = 0.6    # furtka = kupno mimo rozgrzania -> mniejsza pozycja (wyższe ryzyko)
     fx_usd_pln: float = 4.0
     stop_contract: float = 0.20
     stop_volume: float = 0.15
@@ -146,6 +148,10 @@ def _meta_map(signals: dict) -> dict:
                 cat = s.get("source") or "Trump/polityka"
             if cat and not m.get("catalyst"):
                 m["catalyst"] = str(cat)
+            # FURTKA: mocne przesłanki, że spółka jeszcze nie osiągnęła szczytu (świeży katalizator ≫ cena)
+            if s.get("still_upside") and not m.get("still_upside"):
+                m["still_upside"] = True
+                m["upside_reason"] = str(s.get("upside_reason") or s.get("still_upside_reason") or "mocne przesłanki dalszego wzrostu")
     return out
 
 
@@ -223,7 +229,9 @@ def build_candidates(radar: dict, smart: dict, price_map=None, meta_map=None) ->
         out.append({"ticker": tk, "kind": best.get("kind", "?"), "kinds": kinds,
                     "confluence": len(kinds), "note": note, "risk": best.get("risk", ""),
                     "price_usd": round(price, 2), "score": final,
-                    "pct_1m": float(meta.get("pct_1m", 0) or 0), "catalyst": catalyst})
+                    "pct_1m": float(meta.get("pct_1m", 0) or 0), "catalyst": catalyst,
+                    "still_upside": bool(meta.get("still_upside", False)),
+                    "upside_reason": str(meta.get("upside_reason", ""))})
     out.sort(key=lambda m: m["score"], reverse=True)
     return out
 
@@ -248,6 +256,8 @@ class LowcaDecision:
     risk_pln: float = 0.0
     pct_1m: float = 0.0          # ruch ~1-mies (do bezpiecznika "nie kupuj górki")
     catalyst: str = ""           # tag katalizatora (np. Trump/polityka/kontrakt rządowy)
+    still_upside: bool = False   # FURTKA: mocne przesłanki dalszego wzrostu (świeży katalizator ≫ cena)
+    upside_reason: str = ""      # uzasadnienie furtki
 
 
 def _shares(size_pln, price_usd, fx):
@@ -277,7 +287,8 @@ def decide_all(candidates, c: LowcaConfig, free_cash_pln=None, held=None, fx=Non
                           score=float(o.get("score", 0)), risk=o.get("risk", ""),
                           note=o.get("note", ""), kinds=list(o.get("kinds", [])) or [o.get("kind", "?")],
                           confluence=int(o.get("confluence", 1)), price_usd=float(o.get("price_usd", 0) or 0),
-                          pct_1m=float(o.get("pct_1m", 0) or 0), catalyst=o.get("catalyst", ""))
+                          pct_1m=float(o.get("pct_1m", 0) or 0), catalyst=o.get("catalyst", ""),
+                          still_upside=bool(o.get("still_upside", False)), upside_reason=str(o.get("upside_reason", "")))
         cand.append(d)
     cand.sort(key=lambda d: d.score, reverse=True)
     budget, sleeve_cap, cash_limited = deployable_budget(c, free_cash_pln, sleeve_used_pln)
@@ -290,11 +301,22 @@ def decide_all(candidates, c: LowcaConfig, free_cash_pln=None, held=None, fx=Non
             d.verdict = "PASS"; d.reason = f"score {d.score:.1f} < {c.buy_threshold:.0f}"; continue
         if n >= c.max_open_spec:
             d.verdict = "PASS"; d.reason = f"limit spekulacji ({c.max_open_spec})"; continue
-        if d.pct_1m >= c.max_extension_pct * 100:
+        # ── BEZPIECZNIK "NIE KUPUJ GÓRKI" + FURTKA (Wniosek #4) ──
+        override = False
+        if d.pct_1m >= c.extension_hard_pct * 100:          # >= +50% = parabola: ZAWSZE czekaj
             d.verdict = "CZEKAJ"
-            d.reason = f"już +{d.pct_1m:.0f}% w ~miesiąc — czekaj na cofnięcie, NIE kupuj górki"
+            d.reason = f"już +{d.pct_1m:.0f}% (parabola) — czekaj na głębsze cofnięcie, za gorące nawet z katalizatorem"
             continue
+        if d.pct_1m >= c.extension_warn_pct * 100:          # +25..50% = rozgrzane
+            if d.still_upside or d.confluence >= 3:         # FURTKA: mocne przesłanki dalej LUB silna konfluencja
+                override = True
+            else:
+                d.verdict = "CZEKAJ"
+                d.reason = f"już +{d.pct_1m:.0f}% w ~mies — czekaj na cofnięcie (brak mocnych przesłanek dalszego wzrostu)"
+                continue
         size = c.min_position_pln + (c.max_position_pln - c.min_position_pln) * _clamp((d.score - c.buy_threshold) / 3.0, 0, 1)
+        if override:
+            size *= c.override_size_mult        # furtka = mniejsza pozycja (wyższe ryzyko)
         size = round(size, 0)
         remaining = budget - used
         if size > remaining:
@@ -306,7 +328,10 @@ def decide_all(candidates, c: LowcaConfig, free_cash_pln=None, held=None, fx=Non
                 d.verdict = "PASS"; d.reason = f"sleeve wyczerpany ({used:.0f}/{budget:.0f} zł)"
             continue
         d.verdict = "BUY"; d.size_pln = size; d.stop_pct = _stop_pct(d.kind, c)
-        d.reason = f"score {d.score:.1f} >= {c.buy_threshold:.0f}"
+        if override:
+            d.reason = f"KUPNO MIMO +{d.pct_1m:.0f}% — {d.upside_reason or ('konfluencja ' + str(d.confluence))} (ryzyko ↑, pozycja ↓)"
+        else:
+            d.reason = f"score {d.score:.1f} >= {c.buy_threshold:.0f}"
         if d.price_usd and d.price_usd > 0:
             d.stop_price_usd = round(d.price_usd * (1 - d.stop_pct), 2)
             d.target_price_usd = round(d.price_usd * (1 + _tp_pct(d.kind, c)), 2)

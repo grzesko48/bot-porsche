@@ -67,6 +67,7 @@ class CandidateInput:
     fractional_enabled: Optional[bool] = None
     spread_pct: Optional[float] = None
     current_exposure_pln: float = 0.0
+    strong_catalyst: bool = False             # FURTKA: świeży transformacyjny katalizator -> luźniejsza parabola (Wniosek #4)
     smart_money_html: Optional[str] = None    # do testów / cache (zamiast pobierać)
 
 
@@ -188,6 +189,7 @@ class PorschePipeline:
                 spread_pct=c.spread_pct, has_unresolved_pending=has_unresolved_pending,
                 minutes_to_session_open=minutes_to_session_open,
                 current_exposure_pln=c.current_exposure_pln,
+                strong_catalyst=getattr(c, "strong_catalyst", False),
             )
             report = self.gates.evaluate(cand)
             if not report.all_passed:
