@@ -46,6 +46,10 @@ try:
 except Exception:
     lmiss = None
 try:
+    import scoreboard as sb
+except Exception:
+    sb = None
+try:
     import wall_street as ws
 except Exception:
     ws = None
@@ -472,7 +476,7 @@ def render_text(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
 # ─────────────────────────────────────────────────────────────────────────────
 def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held=None,
                 sleeve_used_pln=0.0, today="", learn=None, wsreview=None, track=None,
-                open_positions=None, ultra=None) -> str:
+                open_positions=None, ultra=None, scoreboard_card="") -> str:
     try:
         from email_render import (BG, DARK, GOLD, GOLD_DK, GREEN, GREEN_LT, RED, RED_LT,
                                   GREY, MUTED, MUTED2, TEXT, LINE, LINE2, SERIF, SANS,
@@ -664,6 +668,10 @@ def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
                  f"<div style='{SANS}font-size:10pt;color:{MUTED};margin-top:10px;'>{more}"
                  f"Wynik (WIN/LOSS) dojdzie po T+30/+90 dni — wtedy zmierzymy realny edge vs SPY.</div></div>")
 
+    # TABLICA WYNIKÓW (scoreboard) — per-typ-sygnału zwrot + alfa vs SPY
+    if scoreboard_card:
+        P.append(scoreboard_card)
+
     # ZASADY / STOPKA
     # NAUKA — pominięcia + dziennik lekcji
     if learn and lmiss:
@@ -703,9 +711,10 @@ def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
                            sleeve_used_pln=sleeve_used, open_spec=open_spec)
     # FORWARD-TEST: zapisz dzisiejsze rekomendacje do dziennika (append-only) — fundament pomiaru edge na żywo
     track = None
+    spy_now = sb.fetch_spy_yf() if sb else None   # benchmark do ALFY (stempel wejścia + scoring scoreboardu)
     if today:
         try:
-            res_log = log_decisions(decisions, today)
+            res_log = log_decisions(decisions, today, spy_usd=spy_now)
             track = _load_decisions_log()
             print(f"Dziennik decyzji: +{res_log['added']} (łącznie {res_log['total']}).")
         except Exception as e:
@@ -733,9 +742,11 @@ def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
     if send:
         try:
             from notifications import send_email_resend
+            sb_card = sb.refresh_card(today=today, spy_now=spy_now) if (sb and today) else ""
             html = render_html(decisions, c, equity_pln=capital, free_cash_pln=cash, fx=fx,
                                held=held, sleeve_used_pln=sleeve_used, today=today, learn=learn,
-                               track=track, open_positions=open_positions, ultra=ultra)
+                               track=track, open_positions=open_positions, ultra=ultra,
+                               scoreboard_card=sb_card)
             subj = (f"Bot Łowca — mocny sygnał (score {best_score(buys):.1f})" if hot
                     else "Bot Łowca — okazje przed otwarciem")
             r = send_email_resend(html, subj, dry_run=False)

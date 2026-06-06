@@ -208,6 +208,55 @@ def run(path="lowca_decisions_log.json", price_map=None, today=None, spy_now=Non
 # ─────────────────────────────────────────────────────────────────────────────
 # SELFTEST (offline)
 # ─────────────────────────────────────────────────────────────────────────────
+def fetch_spy_yf():
+    """Cena SPY teraz (benchmark do alfy). None gdy brak yfinance/sieci (np. lokalnie)."""
+    try:
+        import yfinance as yf
+        h = yf.Ticker("SPY").history(period="5d")
+        if len(h):
+            return float(h["Close"].iloc[-1])
+    except Exception:
+        pass
+    return None
+
+
+def fetch_prices_yf(tickers):
+    """Aktualne ceny dla listy tickerów (po jednym, odpornie). {} gdy brak yfinance."""
+    out = {}
+    try:
+        import yfinance as yf
+    except Exception:
+        return out
+    for t in {str(x).upper() for x in (tickers or []) if x}:
+        try:
+            h = yf.Ticker(t).history(period="5d")
+            if len(h):
+                out[t] = float(h["Close"].iloc[-1])
+        except Exception:
+            continue
+    return out
+
+
+def refresh_card(path="lowca_decisions_log.json", today=None, spy_now=None) -> str:
+    """Pełny refresh dla maila: fetch cen tickerów z dziennika -> scoring -> persist -> karta HTML.
+    W PEŁNI guarded: każdy błąd -> pusty string (mail bez zmian, nigdy nie wywala biegu)."""
+    try:
+        log = load_log(path)
+        if not log:
+            return ""
+        prices = fetch_prices_yf([e.get("ticker") for e in log])
+        if spy_now is None:
+            spy_now = fetch_spy_yf()
+        scored = score_log(log, prices, today, spy_now)
+        save_log(scored, path)
+        return build_card_html(aggregate(scored), scored)
+    except Exception:
+        return ""
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SELFTEST (offline)
+# ─────────────────────────────────────────────────────────────────────────────
 def _run_selftest() -> int:
     print("=== SELFTEST scoreboard (offline) ===")
     P = F = 0
