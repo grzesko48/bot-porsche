@@ -66,6 +66,7 @@ class LowcaConfig:
     min_rr_enter: float = 1.8          # ASYMETRIA: poniżej tego R:R nie wchodzimy (za słaby zakład)
     min_rr_full: float = 2.2           # R:R >= tego = pełna pozycja (presuj najlepszą asymetrię); między = ×mult
     rr_marginal_mult: float = 0.85     # słabsza asymetria (między enter a full) -> mniejsza pozycja
+    rotation_threshold: float = 8.0    # ROTACJA: tylko MOCNA okazja (score>=tego) sugeruje uwolnienie gotówki sprzedażą
     buy_threshold: float = 6.0
     alert_threshold: float = 8.0       # score >= -> PILNY alert
     extension_warn_pct: float = 0.25   # już +25% w ~mies -> rozgrzane: CZEKAJ, CHYBA ŻE mocne przesłanki dalej (furtka)
@@ -343,10 +344,26 @@ def decide_all(candidates, c: LowcaConfig, free_cash_pln=None, held=None, fx=Non
         if override:
             size *= c.override_size_mult        # furtka = mniejsza pozycja (wyższe ryzyko)
         size = round(size, 0)
+        intended = size                              # ile chcielibyśmy kupić (PRZED klatką gotówki)
         remaining = budget - used
         if size > remaining:
             size = round(remaining, 0)
         if size < c.min_position_pln:
+            # ── ROTACJA KAPITAŁU ── mocna okazja, ale brak gotówki -> zasugeruj uwolnienie środków
+            # (sprzedaj część najsłabszej pozycji), zamiast cichego PASS. Tylko dla MOCNYCH okazji.
+            strong = (d.score >= c.rotation_threshold and d.rr >= c.min_rr_full and intended >= c.min_position_pln)
+            if strong and free_cash_pln is not None and cash_limited:
+                need = round(intended - max(0.0, remaining), 0)
+                d.verdict = "ROTACJA"; d.size_pln = intended; d.stop_pct = stop_pct
+                if d.price_usd and d.price_usd > 0:
+                    d.stop_price_usd = round(d.price_usd * (1 - stop_pct), 2)
+                    d.target_price_usd = round(d.price_usd * (1 + tp_pct), 2)
+                    d.shares = _shares(intended, d.price_usd, fx)
+                d.risk_pln = round(intended * stop_pct, 0)
+                d.reason = (f"MOCNA okazja (score {d.score:.1f}, R:R {d.rr:.1f}) — masz tylko "
+                            f"{max(0.0, remaining):.0f} zł. Uwolnij ~{need:.0f} zł (przytnij część "
+                            f"najsłabszej pozycji), by ją sfinansować.")
+                continue
             if free_cash_pln is not None and cash_limited:
                 d.verdict = "PASS"; d.reason = f"za mało wolnej gotówki (zostało {max(0.0, remaining):.0f} zł)"
             else:
@@ -448,6 +465,7 @@ def log_decisions(decisions, today, path="lowca_decisions_log.json", spy_usd=Non
 def render_text(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held=None, sleeve_used_pln=0.0, learn=None):
     buys = [d for d in decisions if d.verdict == "BUY"]
     waits = [d for d in decisions if d.verdict == "CZEKAJ"]
+    rotations = [d for d in decisions if d.verdict == "ROTACJA"]
     passes = [d for d in decisions if d.verdict == "PASS"]
     budget, sleeve_cap, cash_limited = deployable_budget(c, free_cash_pln, sleeve_used_pln)
     hot = best_score(buys) >= c.alert_threshold
@@ -476,6 +494,10 @@ def render_text(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
                 L.append(f"        {d.note}")
     else:
         L.append("\n  KUPUJEMY: dzis nic (prog / gotowka / juz w portfelu).")
+    if rotations:
+        L.append("\n  ROTACJA (mocna okazja, brak gotowki — rozwaz uwolnienie srodkow):")
+        for d in rotations[:4]:
+            L.append(f"   * {d.ticker} — {d.reason}")
     if waits:
         L.append("\n  CZEKAM na cofniecie (zlapane, ale za gorace — nie kupuj gorki):")
         for d in waits[:6]:
@@ -505,6 +527,7 @@ def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
 
     buys = [d for d in decisions if d.verdict == "BUY"]
     waits = [d for d in decisions if d.verdict == "CZEKAJ"]
+    rotations = [d for d in decisions if d.verdict == "ROTACJA"]
     passes = [d for d in decisions if d.verdict == "PASS"]
     eq = equity_pln if equity_pln is not None else c.capital_pln
     fxv = fx or c.fx_usd_pln
@@ -637,6 +660,18 @@ def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
         P.append(_card_open("Decyzje KUP — gotowe zlecenia na XTB") +
                  f"<div style='{SANS}font-size:13pt;color:{TEXT};line-height:1.6;'>"
                  f"<b>Dziś nie kupujemy.</b> Żadna okazja nie przeszła progu, zabrakło gotówki albo już masz tę spółkę.</div></div>")
+
+    # ROTACJA KAPITAŁU — mocna okazja, ale brak gotówki -> uwolnij środki sprzedażą
+    if rotations:
+        rows = ""
+        for d in rotations[:4]:
+            px = f" (~${d.price_usd:.2f})" if d.price_usd else ""
+            rows += (f"<tr><td style='padding:10px 8px 10px 0;border-bottom:1px solid {LINE2};{SANS}font-size:12.5pt;white-space:nowrap;'>"
+                     f"<b style='color:{DARK};'>{d.ticker}</b>{px}</td>"
+                     f"<td style='padding:10px 0;border-bottom:1px solid {LINE2};color:{TEXT};{SANS}font-size:11.5pt;'>{d.reason}</td></tr>")
+        P.append(_card_open("🔄 Warto uwolnić gotówkę — mocna okazja",
+                            "Silny sygnał, ale brak wolnej gotówki. Rozważ sprzedaż części najsłabszej pozycji, by ją sfinansować — opportunity cost > trzymanie słabego.") +
+                 f"<table style='width:100%;border-collapse:collapse;'>{rows}</table></div>")
 
     # CZEKAM na cofnięcie — złapane zagrywki (Trump/polityka/kontrakt), ale już za gorące
     if waits:
@@ -911,6 +946,16 @@ def _run_selftest() -> int:
     ok("KONTRAKT R:R 2.0 -> BUY mniejsza (rr<2.2)", rr_kon[0].verdict == "BUY" and abs(rr_kon[0].rr - 2.0) < 0.01)
     full_kon = _clamp(c.risk_per_trade_pct * c.capital_pln / _stop_pct("KONTRAKT", c), c.min_position_pln, c.max_position_pln)
     ok("Asymetria: KONTRAKT (rr<2.2) dostaje mniejszą pozycję niż pełny risk-parity (×0.85)", rr_kon[0].size_pln < round(full_kon, 0))
+
+    # ── ROTACJA KAPITAŁU: mocna okazja + brak gotówki -> sugestia uwolnienia środków ──
+    rot = decide_all([{"ticker":"ROTX","kind":"IPO","score":9.0,"confluence":3,"price_usd":20.0}],
+                     c, free_cash_pln=10.0, fx=3.64)
+    ok("Mocna okazja (score 9) + brak gotowki -> ROTACJA", rot[0].verdict == "ROTACJA")
+    ok("ROTACJA niesie sugestie uwolnienia gotowki", rot[0].verdict == "ROTACJA" and "Uwolnij" in rot[0].reason)
+    ok("ROTACJA ma konkretny rozmiar i stop", rot[0].size_pln >= c.min_position_pln and rot[0].stop_price_usd > 0)
+    weak = decide_all([{"ticker":"WEAKX","kind":"KONTRAKT","score":6.5,"confluence":1,"price_usd":20.0}],
+                      c, free_cash_pln=10.0, fx=3.64)
+    ok("Slaba okazja + brak gotowki -> PASS (nie nekamy rotacja)", weak[0].verdict == "PASS")
     try:
         ok("HTML: karta Czekam na cofniecie", "Czekam na cofnięcie" in
            render_html(pdec, c, equity_pln=1648, free_cash_pln=300.0, fx=3.64, today="2026-06-05"))
