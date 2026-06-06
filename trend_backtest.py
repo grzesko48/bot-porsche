@@ -51,6 +51,8 @@ class TrendConfig:
     max_assets: int = 5             # maks. ile pozycji naraz (reszta gotówka)
     cost_per_turn: float = 0.001    # 0.1% kosztu od obracanej części przy rebalansie (spread)
     ann_factor: float = 252.0       # dni handlowe / rok (Sharpe)
+    vol_target: float = 0.0         # 0=off; >0 (np. 0.15) = skaluj ekspozycję do tej zmienności rocznej (anti-DD, BEZ dźwigni)
+    vol_lookback: int = 60          # okno estymacji zmienności (dni) do vol-targetingu
 
 
 @dataclass
@@ -130,9 +132,28 @@ def backtest_trend(close_df, cfg: TrendConfig, bench_col: str = BENCH) -> "tuple
             selected = selected[: cfg.max_assets]
             new_w = pd.Series(0.0, index=assets)
             if selected:
-                w = 1.0 / len(selected)
-                for a in selected:
-                    new_w[a] = w
+                if cfg.vol_target and cfg.vol_target > 0 and i > cfg.vol_lookback:
+                    # RISK-PARITY (waga ~ 1/zmienność) + skala ekspozycji do vol_target. BEZ dźwigni (scale<=1).
+                    vol = {}
+                    for a in selected:
+                        rr = daily_ret[a].iloc[i - cfg.vol_lookback:i]
+                        vol[a] = float(rr.std(ddof=0) * (cfg.ann_factor ** 0.5))
+                    inv = {a: (1.0 / vol[a]) for a in selected if vol[a] > 0}
+                    tot = sum(inv.values())
+                    if tot > 0:
+                        rp = {a: inv[a] / tot for a in inv}                  # wagi risk-parity, suma=1
+                        port_vol = sum(rp[a] * vol[a] for a in rp)           # przybliżona zmienność koszyka
+                        scale = min(1.0, cfg.vol_target / port_vol) if port_vol > 0 else 1.0
+                        for a in rp:
+                            new_w[a] = rp[a] * scale                         # reszta zostaje w gotówce
+                    else:
+                        w = 1.0 / len(selected)
+                        for a in selected:
+                            new_w[a] = w
+                else:
+                    w = 1.0 / len(selected)
+                    for a in selected:
+                        new_w[a] = w
             # koszt rebalansu = obrót * cost
             turnover = float((new_w - prev_weights).abs().sum())
             cost = turnover * cfg.cost_per_turn
@@ -206,35 +227,87 @@ def _print(res: TrendResult, tag=""):
           f"korel.SPY {res.corr_spy:+.2f}  x{res.final_mult:.2f}")
 
 
+def _resolve_assets(asset_set):
+    if asset_set == "commodities":
+        return list(DEFAULT_COMMODITIES)
+    if asset_set == "crypto":
+        return list(DEFAULT_CRYPTO)
+    return list(DEFAULT_COMMODITIES) + list(DEFAULT_CRYPTO)   # "all" = koszyk łączony (dywersyfikacja)
+
+
 def run_live(asset_set="commodities", period="10y") -> int:
-    assets = DEFAULT_COMMODITIES if asset_set == "commodities" else DEFAULT_CRYPTO
+    assets = _resolve_assets(asset_set)
     tickers = assets + [BENCH]
-    print(f"=== TREND-FOLLOWING backtest: {asset_set} {assets} vs {BENCH} ({period}) ===")
+    print(f"=== TREND-FOLLOWING: {asset_set} {assets} vs {BENCH} ({period}) ===")
     try:
         close = fetch_history(tickers, period)
     except Exception as e:
         print(f"  Pobranie danych nieudane (yfinance): {e}")
         return 1
-    cfg = TrendConfig()
-    res, _, _ = backtest_trend(close, cfg)
-    print("\nSTRATEGIA (trend-following long/flat, bez dźwigni):")
-    _print(res, "trend")
-    print("\nPORÓWNANIA:")
-    _print(buy_hold(close, BENCH), "kup-trzymaj SPY")
-    # koszyk EW kup-i-trzymaj
-    bsk = close[assets].astype(float)
-    ew = bsk.pct_change().fillna(0.0).mean(axis=1)
-    ew_eq = (1.0 + ew).cumprod().values
-    bh = TrendResult(name="EW")
-    bh.cagr = _cagr(list(ew_eq), cfg.ann_factor); bh.sharpe = _sharpe(ew.values[1:], cfg.ann_factor)
-    bh.max_dd = _max_drawdown(ew_eq); bh.time_in_market = 1.0; bh.final_mult = float(ew_eq[-1])
-    _print(bh, "kup-trzymaj koszyk")
-    print("\nWALK-FORWARD (ufaj TYLKO gdy OOS dodatni):")
-    wf = walk_forward(close, cfg)
+    naive = TrendConfig()
+    vt = TrendConfig(vol_target=0.15)
+    r_naive, _, _ = backtest_trend(close, naive)
+    r_vt, _, _ = backtest_trend(close, vt)
+    spy = buy_hold(close, BENCH)
+    print("\nSTRATEGIE (long/flat, bez dźwigni):")
+    _print(r_naive, "trend naiwny")
+    _print(r_vt,    "trend+VOL-TARGET")
+    print("\nPORÓWNANIE:")
+    _print(spy, "kup-trzymaj SPY")
+    print("\nWALK-FORWARD (wersja vol-target; ufaj TYLKO gdy OOS dodatni):")
+    wf = walk_forward(close, vt)
     _print(wf["in_sample"], "IS (1. polowa)")
     _print(wf["out_of_sample"], "OOS (2. polowa)")
-    verdict = "EDGE prawdopodobny" if (wf["out_of_sample"].sharpe > 0.3 and res.max_dd < buy_hold(close, BENCH).max_dd) else "BRAK pewnego edge / ostrożnie"
-    print(f"\nWERDYKT: {verdict}. (Pamiętaj: na CFD odjąć swap/contango — to może skasować edge.)")
+    dd_better = r_vt.max_dd < r_naive.max_dd
+    edge = (wf["out_of_sample"].sharpe > 0.4 and r_vt.sharpe >= spy.sharpe and r_vt.max_dd < spy.max_dd)
+    verdict = "WART MAŁEGO SLEEVE (zwalidowany)" if edge else "OSTROŻNIE — brak pewnego edge"
+    print(f"\nVOL-TARGET vs naiwny: MaxDD {r_naive.max_dd*100:.0f}% -> {r_vt.max_dd*100:.0f}% "
+          f"({'lepiej' if dd_better else 'gorzej'}), Sharpe {r_naive.sharpe:.2f} -> {r_vt.sharpe:.2f}")
+    print(f"WERDYKT: {verdict}. (Na CFD odjąć swap/contango — może skasować edge.)")
+    return 0
+
+
+def current_allocation(asset_set="all", period="2y") -> int:
+    """SYGNAŁ NA DZIŚ: co trzymać teraz wg trendu + vol-target (do ręcznej egzekucji na XTB)."""
+    assets = _resolve_assets(asset_set)
+    print(f"=== SYGNAŁ TREND-FOLLOWING (dziś): {asset_set} {assets} ===")
+    try:
+        close = fetch_history(assets, period)
+    except Exception as e:
+        print(f"  Pobranie danych nieudane: {e}"); return 1
+    cfg = TrendConfig(vol_target=0.15)
+    px = close[assets].astype(float)
+    daily_ret = px.pct_change().fillna(0.0)
+    i = len(px) - 1
+    selected, vol = [], {}
+    for a in assets:
+        j0 = i - cfg.lookback_days
+        if j0 < 0:
+            continue
+        base, cur = px[a].iloc[j0], px[a].iloc[i]
+        if base and base > 0 and (cur / base - 1.0) > 0:
+            selected.append(a)
+    weights = {a: 0.0 for a in assets}
+    if selected and i > cfg.vol_lookback:
+        for a in selected:
+            rr = daily_ret[a].iloc[i - cfg.vol_lookback:i]
+            vol[a] = float(rr.std(ddof=0) * (cfg.ann_factor ** 0.5))
+        inv = {a: 1.0 / vol[a] for a in selected if vol[a] > 0}
+        tot = sum(inv.values())
+        if tot > 0:
+            rp = {a: inv[a] / tot for a in inv}
+            port_vol = sum(rp[a] * vol[a] for a in rp)
+            scale = min(1.0, cfg.vol_target / port_vol) if port_vol > 0 else 1.0
+            for a in rp:
+                weights[a] = rp[a] * scale
+    invested = sum(weights.values())
+    print(f"\nTrend UP (trzymaj): {selected if selected else '— nic (trend spadkowy/boczny -> gotówka)'}")
+    print("ALOKACJA SLEEVE (vol-target 15%, BEZ dźwigni):")
+    for a in assets:
+        if weights[a] > 0.005:
+            print(f"  {a:9s} {weights[a]*100:5.1f}%")
+    print(f"  GOTÓWKA   {max(0.0, 1.0 - invested)*100:5.1f}%")
+    print("\nUWAGA: na XTB to często CFD (swap/contango zjada zwrot) — bez dźwigni, mały sleeve, ręczna egzekucja.")
     return 0
 
 
@@ -295,6 +368,16 @@ def _run_selftest() -> int:
     ok("Sharpe to liczba skonczona", np.isfinite(r_up.sharpe))
     ok("MaxDD nieujemny", r_dn.max_dd >= 0)
 
+    # 8) VOL-TARGET: na zmiennym trendzie tnie ekspozycje -> nizszy MaxDD i mniej w rynku niz naiwny
+    wild = pd.Series(100.0 * (1.003) ** np.arange(N) * (1.0 + 0.06 * np.sin(np.arange(N) / 5.0)), index=idx)
+    df_w = pd.DataFrame({"WILD": wild, "SPY": flat})
+    base_w = TrendConfig(lookback_days=200, rebalance_days=20, cost_per_turn=0.0)
+    vt_w = TrendConfig(lookback_days=200, rebalance_days=20, cost_per_turn=0.0, vol_target=0.15, vol_lookback=40)
+    rn, _, _ = backtest_trend(df_w, base_w)
+    rv, _, _ = backtest_trend(df_w, vt_w)
+    ok("Vol-target: ekspozycja w rynku <= naiwny (tnie ryzyko)", rv.time_in_market <= rn.time_in_market + 1e-9)
+    ok("Vol-target: MaxDD <= naiwny", rv.max_dd <= rn.max_dd + 1e-9)
+
     print(f"\n=== WYNIK: {P} OK, {F} FAIL ===")
     if F == 0:
         print("=== trend_backtest.py — WSZYSTKIE TESTY PRZESZŁY ===")
@@ -304,12 +387,15 @@ def _run_selftest() -> int:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Trend-following backtest (surowce/crypto)")
     ap.add_argument("--selftest", action="store_true")
-    ap.add_argument("--run", action="store_true", help="na żywo z yfinance")
-    ap.add_argument("--assets", default="commodities", choices=["commodities", "crypto"])
+    ap.add_argument("--run", action="store_true", help="na żywo z yfinance (backtest)")
+    ap.add_argument("--signal", action="store_true", help="sygnał na dziś: co trzymać teraz")
+    ap.add_argument("--assets", default="commodities", choices=["commodities", "crypto", "all"])
     ap.add_argument("--period", default="10y")
     a = ap.parse_args()
     if a.selftest:
         return _run_selftest()
+    if a.signal:
+        return current_allocation(a.assets, "2y")
     if a.run:
         return run_live(a.assets, a.period)
     ap.print_help()
