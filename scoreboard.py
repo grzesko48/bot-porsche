@@ -66,6 +66,9 @@ def score_entry(entry: dict, price_now, spy_now, today, horizon_days: int = 30) 
     if entry_px and entry_px > 0 and px and px > 0:
         ret = (px / entry_px - 1.0) * 100.0
         e["ret_pct"] = round(ret, 1)
+        # HIGH-WATER MARK zwrotu (do diagnostyki ścinania ogona: ile oddaliśmy od szczytu przy wyjściu)
+        prev_peak = _num(e.get("peak_ret_pct"))
+        e["peak_ret_pct"] = round(ret if prev_peak is None else max(prev_peak, ret), 1)
         spy0 = _num(e.get("spy_at_entry"))
         spyn = _num(spy_now)
         if spy0 and spy0 > 0 and spyn and spyn > 0:
@@ -97,7 +100,8 @@ def score_log(log, price_map: dict, today, spy_now=None, horizon_days: int = 30)
 def aggregate(scored) -> dict:
     """Agregat globalny + per typ sygnału (kind). Liczy tylko wpisy z policzonym ret_pct."""
     def _blank():
-        return {"n": 0, "closed": 0, "wins": 0, "ret_sum": 0.0, "alpha_sum": 0.0, "alpha_n": 0}
+        return {"n": 0, "closed": 0, "wins": 0, "ret_sum": 0.0, "alpha_sum": 0.0, "alpha_n": 0,
+                "tail_sum": 0.0, "tail_n": 0}
 
     by_kind: dict = {}
     overall = _blank()
@@ -117,6 +121,10 @@ def aggregate(scored) -> dict:
                 tgt["closed"] += 1
                 if e.get("status") == "WIN":
                     tgt["wins"] += 1
+                pk = e.get("peak_ret_pct")
+                if pk is not None:
+                    tgt["tail_sum"] += (pk - ret)   # ile oddaliśmy od szczytu (ścięty ogon)
+                    tgt["tail_n"] += 1
 
     def _finish(b):
         out = {
@@ -125,6 +133,7 @@ def aggregate(scored) -> dict:
             "win_rate": round(b["wins"] / b["closed"] * 100.0, 0) if b["closed"] else None,
             "avg_ret": round(b["ret_sum"] / b["n"], 1) if b["n"] else None,
             "avg_alpha": round(b["alpha_sum"] / b["alpha_n"], 1) if b["alpha_n"] else None,
+            "avg_tail_left": round(b["tail_sum"] / b["tail_n"], 1) if b["tail_n"] else None,
         }
         return out
 
@@ -155,10 +164,11 @@ def build_card_html(stats: dict, scored=None) -> str:
                     f"<td style='padding:3px 8px;text-align:right;'>{aa}</td></tr>")
     ov_ar = f"{ov['avg_ret']:+.1f}%" if ov.get("avg_ret") is not None else "—"
     ov_aa = f"{ov['avg_alpha']:+.1f} pp" if ov.get("avg_alpha") is not None else "—"
+    ov_tl = f"{ov['avg_tail_left']:.0f} pp" if ov.get("avg_tail_left") is not None else "—"
     return (
         "<div style='margin:14px 0;padding:12px;border:1px solid #444;border-radius:8px;background:#1b1b1b;color:#ddd;'>"
         f"<b>📊 Tablica wyników (forward-test)</b> — {ov['n']} rekomendacji, {ov['closed']} zamkniętych · "
-        f"śr. zwrot <b>{ov_ar}</b> · alfa vs SPY <b>{ov_aa}</b>"
+        f"śr. zwrot <b>{ov_ar}</b> · alfa vs SPY <b>{ov_aa}</b> · oddany ogon <b>{ov_tl}</b>"
         "<table style='border-collapse:collapse;margin-top:8px;font-size:13px;width:100%;'>"
         "<tr style='color:#aaa;border-bottom:1px solid #333;'>"
         "<th style='padding:3px 8px;text-align:left;'>Sygnał</th>"
@@ -311,6 +321,17 @@ def _run_selftest() -> int:
     kon = stats["by_kind"].get("KONTRAKT", {})
     ok("Per-kind KONTRAKT: n=2 (AAA,CCC)", kon.get("n") == 2)
     ok("Per-kind KONTRAKT: avg_alpha policzona", kon.get("avg_alpha") is not None)
+
+    # ── DIAGNOSTYKA SCINANIA OGONA (peak sledzony przez biegi; oddany ogon = peak - exit) ──
+    tlog = [{"id": "t1", "date": "2026-05-01", "ticker": "TTT", "kind": "IPO",
+             "entry_usd": 10.0, "stop_usd": 8.0, "target_usd": 30.0, "status": "OPEN"}]
+    s1 = score_log(tlog, {"TTT": 15.0}, "2026-05-20")     # +50% (szczyt), 19 dni -> OPEN
+    ok("Peak sledzony: +50%", abs(s1[0]["peak_ret_pct"] - 50.0) < 0.1)
+    s2 = score_log(s1, {"TTT": 13.0}, "2026-06-06")       # spadl do +30%, 36 dni -> WIN
+    ok("Peak utrzymany mimo spadku ceny (+50%)", abs(s2[0]["peak_ret_pct"] - 50.0) < 0.1)
+    ok("Pozycja zamknieta WIN po T+30", s2[0]["status"] == "WIN")
+    ipo = aggregate(s2)["by_kind"].get("IPO", {})
+    ok("Oddany ogon = peak 50 - exit 30 = 20 pp", ipo.get("avg_tail_left") is not None and abs(ipo["avg_tail_left"] - 20.0) < 0.1)
 
     # karta HTML
     card = build_card_html(stats, scored)
