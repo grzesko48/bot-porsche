@@ -1,74 +1,74 @@
 {
-  "generated": "2026-06-04T19:12",
+  "generated": "2026-06-07T08:32",
   "signals": [
     {
-      "ticker": "TSM",
+      "ticker": "LITE",
+      "has_catalyst": true,
+      "catalyst_type": "other",
+      "direction": "bullish",
+      "headline": "Swiezy event finansowo-strategiczny (~04.06): Lumentum pozyskuje ~2 mld USD (note swap/exchange) i POGLEBIA strategiczne partnerstwo z NVIDIA + ekspansja fabryki w USA (Greensboro NC, indium phosphide pod AI DC); rynek reaguje +9,8..13,6%. Uwaga: pierwotna inwestycja NVIDIA 2 mld USD byla 02.03.2026 (nieswieza) — swiezy jest czerwcowy raise/partnership.",
+      "as_of": "2026-06-04",
+      "confidence": 0.6,
+      "source_count": 2,
+      "sources": [
+        {"label": "Globe and Mail (Lumentum raises $2B, deepens NVIDIA partnership)", "url": "https://www.theglobeandmail.com/investing/markets/stocks/LITE/pressreleases/545805/lumentum-raises-2-billion-deepens-nvidia-strategic-partnership/"},
+        {"label": "Yahoo Finance (LITE +9.8% po note swap, AI boost, US expansion)", "url": "https://finance.yahoo.com/markets/stocks/articles/why-lumentum-holdings-lite-9-211725818.html"}
+      ]
+    },
+    {
+      "ticker": "MU",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "bullish",
+      "headline": "Strukturalny, nie swiezy: HBM wyprzedane na 2026 pod wieloletnie (3-5 lat) umowy popytu — silna widocznosc przychodow, ale to narracja ciagla, nie twardy event <=7 dni. Wynik Q3 FY2026 DOPIERO ~24.06 (przyszly). Brak dyskretnego katalizatora w oknie 7 dni.",
+      "as_of": "2026-06-07",
+      "confidence": 0.5,
+      "source_count": 2,
+      "sources": [
+        {"label": "Investing.com (Micron rerating, sold-out HBM)", "url": "https://www.investing.com/analysis/micron-faces-a-rerating-moment-as-soldout-hbm-supply-reshapes-the-earnings-story-200676155"},
+        {"label": "Alpha Spread (HBM 2026 sold out, Q1 beat, upgrades)", "url": "https://www.alphaspread.com/market-news/earnings/micron-rallies-as-ai-demand-sells-out-2026-hbm-production-strong-q1-results-and-analyst-upgrades-fuel-optimism"}
+      ]
+    },
+    {
+      "ticker": "CIEN",
       "has_catalyst": true,
       "catalyst_type": "earnings_guidance",
       "direction": "bullish",
-      "headline": "Swiezy popyt: Nvidia rozszerza inwestycje/capacity na Tajwanie (Computex) + planowana podwyzka cen procesu 3nm o ~15% w H2 2026 (zrodla supply-chain); kurs rosnie 04.06, AGM 04.06 zatwierdzilo wyniki 2025",
+      "headline": "Swiezy raport fiskalny Q2 2026 (04.06): przychod 1,57 mld USD (+40% r/r), adj. EPS 1,64 USD (+290% r/r); PODNIESIONA prognoza FY2026 do 6,3 mld USD (+32% r/r w srodku przedzialu), guidance Q3 1,625 mld USD. Twardy, zweryfikowany beat + raise.",
       "as_of": "2026-06-04",
-      "confidence": 0.55,
-      "source_count": 2,
-      "sources": [
-        {"label": "Digitimes (TSMC capacity/3nm roadmap 2026)", "url": "https://www.digitimes.com/news/a20260604VL214/tsmc-capacity-demand-roadmap-2026.html"},
-        {"label": "Investing.com (dlaczego TSM rosnie dzis)", "url": "https://www.investing.com/news/stock-market-news/why-is-taiwan-semiconductor-stock-surging-today-93CH-4719732"}
-      ]
-    },
-    {
-      "ticker": "ASML",
-      "has_catalyst": false,
-      "catalyst_type": "regulatory",
-      "direction": "bearish",
-      "headline": "Przewlekly nawis regulacyjny: proponowana ustawa MATCH Act (USA) grozi odcieciem sprzedazy DUV do Chin i serwisu (Chiny spadly do ~19% sprzedazy w Q1 z 36%); ryzyko strukturalne, brak nowego twardego katalizatora <=7 dni",
-      "as_of": "2026-06-01",
-      "confidence": 0.4,
-      "source_count": 2,
-      "sources": [
-        {"label": "IndexBox (ASML spada na ryzyku MATCH Act/DUV)", "url": "https://www.indexbox.io/blog/asml-stock-drops-on-us-bill-threatening-new-china-export-controls/"},
-        {"label": "MarketWise (ASML China export restrictions)", "url": "https://marketwise.com/investing/asml-earnings-china-export-restrictions-ai-chip-demand/"}
-      ]
-    },
-    {
-      "ticker": "SAP",
-      "has_catalyst": true,
-      "catalyst_type": "MnA",
-      "direction": "bullish",
-      "headline": "Sapphire 2026 + seria przejec agentic-AI (~1 mld USD: Dremio, Prior Labs) wzmacnia Business Data Cloud/Joule; cloud +27% r/r, EPS 1,99 USD bije konsensus; kurs +7,41% 01.06",
-      "as_of": "2026-06-01",
-      "confidence": 0.65,
-      "source_count": 2,
-      "sources": [
-        {"label": "Globe and Mail (SAP stawia 1 mld USD na przejecia AI)", "url": "https://www.theglobeandmail.com/investing/markets/stocks/SAP/pressreleases/1826024/sap-bets-1b-on-ai-acquisitions-to-lock-in-enterprise-data/"},
-        {"label": "TradingKey (market movers SAP 01.06 +7,41%)", "url": "https://www.tradingkey.com/news/market-movers/261939572-market-movers-sap-20260601"}
-      ]
-    },
-    {
-      "ticker": "MSTR",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "bearish",
-      "headline": "Pierwsza sprzedaz BTC od 2022 (32 BTC za ~2,5 mln USD, ujawniona 01.06) lamie narracje 'never sell' - symboliczna akcja skarbowa (~0,0038% zasobu 843706 BTC), nie kontrakt/fuzja/guidance; reakcja rynku negatywna",
-      "as_of": "2026-06-01",
-      "confidence": 0.45,
-      "source_count": 2,
-      "sources": [
-        {"label": "CoinDesk (Strategy sprzedalo 32 BTC)", "url": "https://www.coindesk.com/markets/2026/06/01/strategy-sold-32-btc-for-usd2-5-million-in-late-may-filing-shows"},
-        {"label": "CTOL (MSTR bitcoin sale zmienia teze)", "url": "https://www.ctol.digital/news/microstrategy-mstr-bitcoin-sale-why-selling-32-btc-changes-the-entire-investment-thesis/"}
-      ]
-    },
-    {
-      "ticker": "ARM",
-      "has_catalyst": true,
-      "catalyst_type": "contract",
-      "direction": "bullish",
-      "headline": "Nowi klienci wlasnych AI CPU (ByteDance, Oracle, ~02.06) + podwojony guidance popytu i fala podwyzek cen docelowych; kurs ~podwoil sie z low 200s do ~418 USD na popycie na licencje AI",
-      "as_of": "2026-06-02",
       "confidence": 0.7,
       "source_count": 2,
       "sources": [
-        {"label": "TimothySykes (ARM rosnie na AI upside)", "url": "https://www.timothysykes.com/news/arm-holdings-plc-arm-news-2026_06_01-2/"},
-        {"label": "StocksToTrade (ARM agresywne podwyzki PT na AI)", "url": "https://stockstotrade.com/news/arm-holdings-plc-arm-news-2026_06_01-2/"}
+        {"label": "SEC 8-K (Ciena Q2 2026 earnings press release, 04.06)", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9912026q2earningspressre.htm"},
+        {"label": "SEC 8-K (Ciena Q2 2026 earnings presentation, 04.06)", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9922026q2earningsprese.htm"}
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Momentum +250% YTD (okolo 130 USD) na narracji foundry 18A + wsparcie NVIDIA/SoftBank/rzad USA i rozszerzone granty CHIPS — ale to narracja ciagla, nie twardy event <=7 dni. W czerwcu formularz 424B5 (oferta papierow) — ryzyko rozwodnienia, niejednoznaczny znak. Brak czystego swiezego katalizatora komercyjnego.",
+      "as_of": "2026-06-07",
+      "confidence": 0.4,
+      "source_count": 2,
+      "sources": [
+        {"label": "SEC Form 424B5 (Intel, FY2026 oferta)", "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000119312526192240/d271916d424b5.htm"},
+        {"label": "Phemex (Intel 2026 foundry turnaround, AI, ryzyka)", "url": "https://phemex.com/academy/intel-stock-2026"}
+      ]
+    },
+    {
+      "ticker": "COHR",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "bullish",
+      "headline": "Mocny setup, ale katalizatory NIESWIEZE: wynik Q3 FY2026 byl 06.05 (rev 1,81 mld USD +21% r/r, EPS 1,41 +55%) — ponad 7 dni; partnerstwo/inwestycja NVIDIA 2 mld USD ogloszone w marcu 2026. Brak twardego eventu w oknie <=7 dni.",
+      "as_of": "2026-06-07",
+      "confidence": 0.45,
+      "source_count": 2,
+      "sources": [
+        {"label": "SEC 8-K (Coherent Q3 FY2026, 06.05)", "url": "https://www.sec.gov/Archives/edgar/data/0000820318/000119312526084366/d42735dex991.htm"},
+        {"label": "Seeking Alpha (Coherent: this party is here to stay)", "url": "https://seekingalpha.com/article/4910806-coherent-this-party-is-here-to-stay"}
       ]
     }
   ]
