@@ -3,13 +3,22 @@
   "positions": [],
   "managed_positions": [
     {
+      "ticker": "MRVL",
+      "shares": 0.0476,
+      "entry_price_usd": 284.84,
+      "entry_date": "2026-06-04",
+      "stop_loss_usd": 262.76,
+      "high_water_mark_usd": 284.84,
+      "days_held": 3
+    },
+    {
       "ticker": "SAP",
       "shares": 0.799,
       "entry_price_usd": 176.37,
       "entry_date": "2026-05-30",
       "stop_loss_usd": 176.37,
       "high_water_mark_usd": 196.11000061035156,
-      "days_held": 6
+      "days_held": 8
     },
     {
       "ticker": "ASML",
@@ -18,7 +27,7 @@
       "entry_date": "2026-05-30",
       "stop_loss_usd": 1610.28,
       "high_water_mark_usd": 1775.6400146484375,
-      "days_held": 6
+      "days_held": 8
     },
     {
       "ticker": "TSM",
@@ -27,17 +36,8 @@
       "entry_date": "2026-05-30",
       "stop_loss_usd": 415.2064,
       "high_water_mark_usd": 447.2149963378906,
-      "days_held": 6
-    },
-    {
-      "ticker": "MRVL",
-      "shares": 0.0476,
-      "entry_price_usd": 284.84,
-      "entry_date": "2026-06-04",
-      "stop_loss_usd": 262.76,
-      "high_water_mark_usd": 284.84,
-      "days_held": 1
+      "days_held": 8
     }
   ],
-  "updated_utc": "2026-06-05T19:46:40+00:00"
+  "updated_utc": "2026-06-07T08:36:34+00:00"
 }

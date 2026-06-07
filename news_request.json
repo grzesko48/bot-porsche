@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T19:44",
+  "generated": "2026-06-07T08:36",
   "freshness_days": 7,
   "instruction": "Dla każdego tickera sprawdź przez web_search świeże (<=7 dni) newsy. Oceń czy jest ISTOTNY katalizator (kontrakt, przejęcie/fuzja, zmiana prognoz, premiera produktu, decyzja regulatora, ważna rekomendacja). Szum PR/marketing = has_catalyst:false. Wymagaj >=2 niezależnych źródeł dla has_catalyst:true. Świeżość ponad pamięć: TYLKO to, co znajdziesz teraz.",
   "schema_example": {
@@ -20,28 +20,28 @@
   },
   "tickers": [
     {
-      "ticker": "TSM",
-      "name": "TSM",
+      "ticker": "LITE",
+      "name": "LITE",
       "sector": ""
     },
     {
-      "ticker": "ASML",
-      "name": "ASML",
+      "ticker": "MU",
+      "name": "MU",
       "sector": ""
     },
     {
-      "ticker": "SAP",
-      "name": "SAP",
+      "ticker": "CIEN",
+      "name": "CIEN",
       "sector": ""
     },
     {
-      "ticker": "MSTR",
-      "name": "MSTR",
+      "ticker": "INTC",
+      "name": "INTC",
       "sector": ""
     },
     {
-      "ticker": "ARM",
-      "name": "ARM",
+      "ticker": "COHR",
+      "name": "COHR",
       "sector": ""
     }
   ]
