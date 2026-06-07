@@ -1,32 +1,32 @@
 {
-  "generated": "2026-06-07T08:32",
+  "generated": "2026-06-07T08:50",
   "signals": [
     {
       "ticker": "LITE",
       "has_catalyst": true,
-      "catalyst_type": "other",
+      "catalyst_type": "partnership",
       "direction": "bullish",
-      "headline": "Swiezy event finansowo-strategiczny (~04.06): Lumentum pozyskuje ~2 mld USD (note swap/exchange) i POGLEBIA strategiczne partnerstwo z NVIDIA + ekspansja fabryki w USA (Greensboro NC, indium phosphide pod AI DC); rynek reaguje +9,8..13,6%. Uwaga: pierwotna inwestycja NVIDIA 2 mld USD byla 02.03.2026 (nieswieza) — swiezy jest czerwcowy raise/partnership.",
+      "headline": "Swiezy event (~04.06): Lumentum pozyskuje ~2 mld USD (note swap) i POGLEBIA strategiczne partnerstwo z NVIDIA + ekspansja fabryki w USA (Greensboro NC, indium phosphide pod AI DC); zamowienia AIXTRON MOCVD. Rynek reaguje +9,8..13,6%. (Pierwotna inwestycja NVIDIA 2 mld USD z 02.03 byla nieswieza; swiezy jest czerwcowy raise/ekspansja.)",
       "as_of": "2026-06-04",
       "confidence": 0.6,
       "source_count": 2,
       "sources": [
         {"label": "Globe and Mail (Lumentum raises $2B, deepens NVIDIA partnership)", "url": "https://www.theglobeandmail.com/investing/markets/stocks/LITE/pressreleases/545805/lumentum-raises-2-billion-deepens-nvidia-strategic-partnership/"},
-        {"label": "Yahoo Finance (LITE +9.8% po note swap, AI boost, US expansion)", "url": "https://finance.yahoo.com/markets/stocks/articles/why-lumentum-holdings-lite-9-211725818.html"}
+        {"label": "Simply Wall St (NVIDIA photonics funding + new AI fab game changer)", "url": "https://simplywall.st/stocks/us/tech/nasdaq-lite/lumentum-holdings/news/nvidias-photonics-funding-and-new-ai-fab-could-be-a-game-cha"}
       ]
     },
     {
       "ticker": "MU",
-      "has_catalyst": false,
-      "catalyst_type": "none",
+      "has_catalyst": true,
+      "catalyst_type": "product",
       "direction": "bullish",
-      "headline": "Strukturalny, nie swiezy: HBM wyprzedane na 2026 pod wieloletnie (3-5 lat) umowy popytu — silna widocznosc przychodow, ale to narracja ciagla, nie twardy event <=7 dni. Wynik Q3 FY2026 DOPIERO ~24.06 (przyszly). Brak dyskretnego katalizatora w oknie 7 dni.",
-      "as_of": "2026-06-07",
+      "headline": "Swieza premiera (poczatek czerwca): Micron pokazal na COMPUTEX 2026 pelne portfolio AI-memory (HBM4, DRAM, LPCAMM2, GDDR7) — rynek +16,3%, nowy ATH. Wspierajaco: HBM 2026 wyprzedane pod wieloletnie umowy. Q3 FY2026 dopiero ~24.06 (przyszle). Discretny fresh event = unveiling COMPUTEX z silna reakcja rynku.",
+      "as_of": "2026-06-02",
       "confidence": 0.5,
       "source_count": 2,
       "sources": [
-        {"label": "Investing.com (Micron rerating, sold-out HBM)", "url": "https://www.investing.com/analysis/micron-faces-a-rerating-moment-as-soldout-hbm-supply-reshapes-the-earnings-story-200676155"},
-        {"label": "Alpha Spread (HBM 2026 sold out, Q1 beat, upgrades)", "url": "https://www.alphaspread.com/market-news/earnings/micron-rallies-as-ai-demand-sells-out-2026-hbm-production-strong-q1-results-and-analyst-upgrades-fuel-optimism"}
+        {"label": "Yahoo Finance (MU +16.3% po unveiling AI-memory stack na COMPUTEX 2026)", "url": "https://finance.yahoo.com/sectors/technology/articles/micron-technology-mu-16-3-141531822.html"},
+        {"label": "Investing.com (Micron sold-out HBM bull case)", "url": "https://www.investing.com/analysis/microns-soldout-hbm-supply-makes-the-bull-case-hard-to-dismiss-200681391"}
       ]
     },
     {
@@ -34,41 +34,41 @@
       "has_catalyst": true,
       "catalyst_type": "earnings_guidance",
       "direction": "bullish",
-      "headline": "Swiezy raport fiskalny Q2 2026 (04.06): przychod 1,57 mld USD (+40% r/r), adj. EPS 1,64 USD (+290% r/r); PODNIESIONA prognoza FY2026 do 6,3 mld USD (+32% r/r w srodku przedzialu), guidance Q3 1,625 mld USD. Twardy, zweryfikowany beat + raise.",
+      "headline": "Swiezy raport fiskalny Q2 2026 (04.06): przychod 1,57 mld USD (+40% r/r), adj. EPS 1,64 USD (+290% r/r); PODNIESIONA prognoza FY2026 do 6,3 mld USD (+32% r/r w srodku przedzialu), guidance Q3 1,625 mld USD. Twardy, zweryfikowany beat + raise; popyt AI-networking, wieloletnia widocznosc zamowien.",
       "as_of": "2026-06-04",
       "confidence": 0.7,
       "source_count": 2,
       "sources": [
         {"label": "SEC 8-K (Ciena Q2 2026 earnings press release, 04.06)", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9912026q2earningspressre.htm"},
-        {"label": "SEC 8-K (Ciena Q2 2026 earnings presentation, 04.06)", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9922026q2earningsprese.htm"}
+        {"label": "StockTitan (Ciena 40% Q2 rev growth, lifts 2026 outlook)", "url": "https://www.stocktitan.net/sec-filings/CIEN/8-k-ciena-corp-reports-material-event-26f71311f5b9.html"}
       ]
     },
     {
       "ticker": "INTC",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Momentum +250% YTD (okolo 130 USD) na narracji foundry 18A + wsparcie NVIDIA/SoftBank/rzad USA i rozszerzone granty CHIPS — ale to narracja ciagla, nie twardy event <=7 dni. W czerwcu formularz 424B5 (oferta papierow) — ryzyko rozwodnienia, niejednoznaczny znak. Brak czystego swiezego katalizatora komercyjnego.",
-      "as_of": "2026-06-07",
-      "confidence": 0.4,
+      "has_catalyst": true,
+      "catalyst_type": "partnership",
+      "direction": "bullish",
+      "headline": "Swiezy event (03-04.06): Intel oglosil strategiczne partnerstwo z Foxconn (rackscale AI infrastructure) na COMPUTEX 2026 — akcja +4% 03.06 i kontynuacja 04.06. Szerszy kontekst: pipeline foundry z podpisanymi zobowiazaniami >15 mld USD, 18A HVM w 2H2026, wstepna umowa z Apple. Uwaga: w czerwcu tez 424B5 (oferta, ryzyko rozwodnienia).",
+      "as_of": "2026-06-03",
+      "confidence": 0.55,
       "source_count": 2,
       "sources": [
-        {"label": "SEC Form 424B5 (Intel, FY2026 oferta)", "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000119312526192240/d271916d424b5.htm"},
-        {"label": "Phemex (Intel 2026 foundry turnaround, AI, ryzyka)", "url": "https://phemex.com/academy/intel-stock-2026"}
+        {"label": "Phemex (Intel Foxconn partnership Computex 2026, foundry pipeline)", "url": "https://phemex.com/academy/intel-stock-2026"},
+        {"label": "Intellectia (Intel Apple 18A foundry deal, surge)", "url": "https://intellectia.ai/blog/intel-apple-chip-deal-2026"}
       ]
     },
     {
       "ticker": "COHR",
-      "has_catalyst": false,
-      "catalyst_type": "none",
+      "has_catalyst": true,
+      "catalyst_type": "partnership",
       "direction": "bullish",
-      "headline": "Mocny setup, ale katalizatory NIESWIEZE: wynik Q3 FY2026 byl 06.05 (rev 1,81 mld USD +21% r/r, EPS 1,41 +55%) — ponad 7 dni; partnerstwo/inwestycja NVIDIA 2 mld USD ogloszone w marcu 2026. Brak twardego eventu w oknie <=7 dni.",
-      "as_of": "2026-06-07",
-      "confidence": 0.45,
+      "headline": "Swiezy event (~02.06): NVIDIA wchodzi kapitalowo (~2 mld USD equity) i zawiera partnerstwo AI-datacenter optics z Coherent — wsparcie ekspansji indium phosphide; akcja +17,6% do rekordu ~426,89 USD przy ogloszeniach na COMPUTEX. Popyt na transceivery AI zabukowany do 2028, backlog kontraktow do 2030. (Q3 FY2026 z 06.05 byl nieswiezy; swiezy jest czerwcowy deal NVIDIA.)",
+      "as_of": "2026-06-02",
+      "confidence": 0.6,
       "source_count": 2,
       "sources": [
-        {"label": "SEC 8-K (Coherent Q3 FY2026, 06.05)", "url": "https://www.sec.gov/Archives/edgar/data/0000820318/000119312526084366/d42735dex991.htm"},
-        {"label": "Seeking Alpha (Coherent: this party is here to stay)", "url": "https://seekingalpha.com/article/4910806-coherent-this-party-is-here-to-stay"}
+        {"label": "Yahoo Finance (COHR +11.9% po NVIDIA AI optics deal + equity investment)", "url": "https://finance.yahoo.com/markets/stocks/articles/why-coherent-cohr-11-9-043123374.html"},
+        {"label": "Simply Wall St (Coherent NVIDIA AI partnership + long-dated transceiver orders)", "url": "https://simplywall.st/stocks/us/tech/nyse-cohr/coherent/news/a-look-at-coherent-cohr-valuation-after-nvidia-ai-partnershi"}
       ]
     }
   ]
