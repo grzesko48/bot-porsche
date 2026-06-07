@@ -76,11 +76,19 @@ class PortfolioState:
 
     @staticmethod
     def from_json(d: dict) -> "PortfolioState":
+        raw_pos = d.get("positions") or []
+        # FALLBACK: bot utrzymuje stan w 'managed_positions'; pole 'positions' bywa puste.
+        # Użyj managed_positions jako baseline reconcile, by porównanie pozycji miało sens
+        # (inaczej oczekiwane=[] vs broker=[4 poz.] => fałszywy HARD HALT — bug 2026-06-07).
+        if not raw_pos and d.get("managed_positions"):
+            raw_pos = [{"ticker": p.get("ticker"), "volume": p.get("shares", 0.0),
+                        "open_price": p.get("entry_price_usd", 0.0)}
+                       for p in d.get("managed_positions", [])]
         return PortfolioState(
             cash_pln=float(d.get("cash_pln", 0.0)),
-            positions=[Position(p["ticker"], float(p["volume"]),
+            positions=[Position(p["ticker"], float(p.get("volume", 0.0)),
                                 float(p.get("open_price", 0.0)), p.get("currency", "USD"))
-                       for p in d.get("positions", [])],
+                       for p in raw_pos],
             timestamp_utc=d.get("timestamp_utc", ""),
             source=d.get("source", "unknown"),
         )
@@ -122,7 +130,7 @@ class XTBExportParser:
             "Open Positions", "Cash Operations Account number", "Cash Operations",
             "Date from (UTC)", "Date to (UTC)", "Instrument,", "Type,Ticker", "Symbol,",
             "Stock purchase,", "Stock sale,", "Transfer,", "Dividend,", "Commission,",
-            "Withholding tax,", "Free-funds Interest,", "Total,",
+            "Withholding tax,", "Free-funds Interest,", "Free funds interest,", "Free funds interest", "Total,",
         ]
         # zredukuj wielokrotne białe znaki do pojedynczej spacji (snippet bywa "rozstrzelony")
         # ale NIE ruszaj zawartości — tylko separatory wierszy
