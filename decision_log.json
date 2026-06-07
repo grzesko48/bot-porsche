@@ -637,5 +637,41 @@
     "reason": "cena 415.17 <= stop 415.21 (zablokowany zysk -2%) — wyjście",
     "fraction": 1.0,
     "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-07",
+    "ticker": "MRVL",
+    "action": "HOLD",
+    "rule": 0,
+    "reason": "BRAK DANYCH RYNKOWYCH — nie oceniono ryzyka (sprawdź ręcznie)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-07",
+    "ticker": "SAP",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +4.8%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-07",
+    "ticker": "ASML",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +2.0%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-07",
+    "ticker": "TSM",
+    "action": "SELL_ALL",
+    "rule": 2,
+    "reason": "cena 415.17 <= stop 415.21 (zablokowany zysk -2%) — wyjście",
+    "fraction": 1.0,
+    "new_stop_usd": null
   }
 ]
