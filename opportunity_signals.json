@@ -1,134 +1,113 @@
 {
-  "_date": "2026-06-06",
+  "_date": "2026-06-07",
   "ipo": [
     {
-      "ticker": "FDXF",
+      "ticker": "QNT",
       "age_months": 0,
+      "pct_from_ipo": -8,
+      "volume_mult": 4.0,
+      "price_usd": 55.35,
+      "pct_1m": -8,
+      "catalyst": "Quantinuum IPO June 4 2026 na Nasdaq (Honeywell spinoff); lider quantum computing; US gov $2B quantum initiative z $100M bezpośrednią inwestycją w QNT; trading 8% PONIŻEJ ceny IPO ($60) po 3 dniach = potencjalny punkt wejścia; MCap $14.6B; upsized IPO — popyt instytucjonalny potwierdzony",
+      "still_upside": true,
+      "upside_reason": "Poniżej ceny IPO po 3 dniach = akumulacja; rząd USA $100M bezpośrednia inwestycja = potwierdzenie technologiczne; quantum computing = następna fala AI infra (post-CRWV/PLTR); Honeywell zachowuje >50% = alignment strategiczny; dopiero początek katalizatora"
+    },
+    {
+      "ticker": "FDXF",
+      "age_months": 1,
       "pct_from_ipo": 10,
-      "volume_mult": 3.0,
+      "volume_mult": 2.5,
       "price_usd": 168.00,
-      "pct_1m": null,
-      "catalyst": "FedEx Freight spin-off debiut June 1 2026; S&P 500 dodany June 2 (dzien po IPO!) = forced buying funduszy pasywnych; LTL trucking lider USA; spin-off zwykle outperformuje parenta w pierwszym roku"
+      "pct_1m": 5,
+      "catalyst": "FedEx Freight spin-off debiut June 1 2026; S&P 500 dodany June 2 (dzień po IPO) = forced buying funduszy pasywnych; LTL trucking lider USA; spin-off zwykle outperformuje parenta w pierwszym roku"
     },
     {
-      "ticker": "SWMR",
-      "age_months": 4,
-      "pct_from_ipo": 200,
+      "ticker": "VIDA",
+      "age_months": 1,
+      "pct_from_ipo": 50,
       "volume_mult": 2.0,
-      "price_usd": 75.00,
-      "pct_1m": 38
-    },
-    {
-      "ticker": "CRWV",
-      "age_months": 14,
-      "pct_from_ipo": 180,
-      "volume_mult": 1.8,
-      "price_usd": 107.66,
-      "pct_1m": 15
-    },
-    {
-      "ticker": "CRCL",
-      "age_months": 12,
-      "pct_from_ipo": 187,
-      "volume_mult": 1.1,
-      "price_usd": 89.05,
-      "pct_1m": 18
+      "price_usd": 6.00,
+      "pct_1m": 50,
+      "catalyst": "VIDA Global IPO May 15 2026 na NYSE American ($4/sh); AI Agent Operating System dla firm; ultra-niski float (3.75M akcji Class A); overallotment option expiry June 14 2026 = potencjalny momentum event; temat AI agent intensywny (Salesforce Agentforce, ChatGPT Enterprise)"
     }
   ],
-  "volume": [
-    {
-      "ticker": "MRVL",
-      "volume_mult": 5.0,
-      "pct_today": 14,
-      "broke_high": true,
-      "price_usd": 295.00,
-      "pct_1m": 35,
-      "catalyst": "Nvidia CEO Jensen Huang: MRVL 'nastepna spolka billionowa' (Computex AI Summit); wolumen 5x; Q4 FY2026 earnings beat + guidance FY2028 $16.5B rev; S&P 500 dodany; optyczne chipy AI datacenter"
-    },
-    {
-      "ticker": "LEGN",
-      "volume_mult": 3.5,
-      "pct_today": 18,
-      "broke_high": true,
-      "price_usd": 54.20,
-      "pct_1m": 55,
-      "catalyst": "Wstepne dane CARVYKTI Q1 2026: $597M (+62% r/r); HC Wainwright cel $65 Buy (3 czerwca); momentum CAR-T 2-4 sesje"
-    }
-  ],
-  "contract": [
-    {
-      "ticker": "JFB",
-      "note_relist": "XTEND AI Robotics — relisting mid-2026 jako XTND na NASDAQ",
-      "catalyst": "DoD Drone Dominance Program Phase II Qualifier (ogloszone 2026-06-02); program zakupu 200k dronow do 2027; $71M backlog kontraktow; $8.25M zamowienie europejskie; wycena fuzji $1.5B; backed by Eric Trump",
-      "price_usd": null,
-      "pct_1m": null,
-      "days_since_announcement": 4,
-      "note": "Analogia PUSA (wzorzec z lekcji 2026-06-04): small-cap drone/AI + DoD qualifier + brak pokrycia analitykow = asymetryczna okazja"
-    }
-  ],
+  "volume": [],
+  "contract": [],
   "insider": [
     {
       "ticker": "NKE",
       "buyers": 2,
       "usd_total": 1875000,
-      "days_ago": 54,
-      "role": "CEO Elliott Hill (23660 akcji @$42.27) + Director Tim Cook (25000 akcji @$42.43) — kwiecien 2026",
-      "price_usd": 43.90,
+      "days_ago": 57,
+      "role": "CEO Elliott Hill (23660 akcji @$42.27) + Director Tim Cook (25000 akcji @$42.43) — kwiecień 2026",
+      "price_usd": 44.00,
       "pct_1m": 7
     },
     {
       "ticker": "UNH",
       "buyers": 10,
       "usd_total": 5000000,
-      "days_ago": 66,
-      "role": "10 czlonkow zarzadu (w tym CEO i CFO) kupilo klastrowo April 1 2026 po gwaltownym spadku; CEO i CFO kupili takze March 17",
+      "days_ago": 67,
+      "role": "10 członków zarządu klastrowo April 1 2026; CEO i CFO kupili March 17",
       "price_usd": 400.00,
       "pct_1m": 6,
-      "catalyst": "Najsilniejszy klaster insider roku wg OpenInsider (10 dyrektorow w 1 dzien); Bank of America cel $450; DOJ dochodzenie bez zarzutow; +20% YTD po zalezeniu dna"
+      "catalyst": "Najsilniejszy klaster insiderów roku wg OpenInsider (10 dyrektorów w 1 dzień); Bank of America cel $450; DOJ dochodzenie bez zarzutów; zalezienie dna — +20% YTD po klastrze"
     }
   ],
   "fund13f": [],
   "congress": [
     {
-      "ticker": "HD",
-      "member": "Tim Moore + David Taylor",
-      "amount_usd": 40500,
-      "days_ago": 19,
-      "committee_relevant": false,
-      "price_usd": 313.80,
-      "pct_1m": 3
-    },
-    {
       "ticker": "LITE",
       "member": "Josh Gottheimer (May 22) + Gilbert Ray Cisneros Jr. (Apr 14)",
       "amount_usd": 30000,
-      "days_ago": 15,
+      "days_ago": 16,
       "committee_relevant": true,
       "price_usd": 848.00,
       "pct_1m": 18,
-      "catalyst": "2 kongresmenow USA kupilo LITE w maju; przychody Q3 2026: $808.4M (+90% r/r YoY, bicie estymacji); Nasdaq 100 czlonek; optyka AI datacenter; Northland podniosl cel do $1200 z $1000 (Outperform); split akcji mozliwy przy takim kursie"
+      "catalyst": "2 kongresmenów USA kupiło LITE w maju; Q3 2026 przychody $808.4M (+90% r/r YoY, bicie estymacji); Nasdaq 100 członek; optyka AI datacenter; Northland podniósł cel do $1200 z $1000 (Outperform); split akcji możliwy przy takim kursie"
+    },
+    {
+      "ticker": "HD",
+      "member": "Tim Moore + David Taylor",
+      "amount_usd": 40500,
+      "days_ago": 21,
+      "committee_relevant": false,
+      "price_usd": 313.80,
+      "pct_1m": 3
     }
   ],
   "policy": [
     {
       "ticker": "PLTR",
-      "catalyst": "Trump Truth Social: Palantir 'proven great war-fighting capabilities'; DoD AI — kluczowy kontraktor rzadowy; S&P500 +33% od wyborow, PLTR w czolowce",
+      "catalyst": "Trump Truth Social: Palantir 'proven great war-fighting capabilities'; DoD AI — kluczowy kontraktor rządowy; S&P500 +33% od wyborów; PLTR w czołówce DoD AI deploymentu",
       "price_usd": 141.51,
       "pct_1m": 8
     },
     {
       "ticker": "LMT",
-      "catalyst": "Trump: NATO cel 5% PKB do 2035 (szczyt NATO 2025); EO Prioritizing Warfighter in Defense Contracting (styczen 2026); europejska rearmy; LMT +26% YTD 2026",
+      "catalyst": "Trump: NATO cel 5% PKB do 2035 (szczyt NATO 2025); EO Prioritizing Warfighter (styczeń 2026); $1.9B Pentagon kontrakt sole-source IDIQ (training devices) kwiecień 2026; europejska rearmy; LMT +26% YTD 2026",
       "price_usd": 525.00,
       "pct_1m": 12
     },
     {
       "ticker": "CRWD",
-      "catalyst": "Trump EO 'Promoting Advanced AI Innovation and Security' (podpisany June 2 2026); CRWD lider platformy cybersec AI-native; ARR $5.51B (+24% r/r); split 4:1 ogłoszony July 2 2026; EO wymaga AI cybersecurity clearinghouse — CRWD naturalny partner rzadu",
+      "catalyst": "Trump EO 'Promoting Advanced AI Innovation and Security' (June 2 2026); AI cybersecurity clearinghouse — CRWD naturalny partner rządu; ARR $5.51B (+24% r/r); split 4:1 ogłoszony July 2 2026",
       "price_usd": 700.00,
       "pct_1m": 15,
       "still_upside": true,
-      "upside_reason": "ATH $782 June 1 → korekta do $700 z rynkiem (-4.67% Nasdaq June 5); EO AI cybersecurity z June 2 = nowy wieloletni katalizator rzadowy; split 4:1 July 2 historycznie przyciaga inwestorow detalicznych; korekcja po ATH to punkt wejscia, nie szyt"
+      "upside_reason": "ATH $782 June 1 → korekta do $700 z rynkiem (-4.67% Nasdaq June 5); EO AI cybersecurity z June 2 = nowy wieloletni katalizator rządowy; split 4:1 July 2 historycznie przyciąga inwestorów detalicznych; korekta po ATH to punkt wejścia, nie szczyt"
+    },
+    {
+      "ticker": "OKLO",
+      "catalyst": "Trump EO: reforma NRC (18-mies. deadline na decyzje o nowych reaktorach, May 2026); EPA Administrator Lee Zeldin: SMR buildout June 2026; OKLO pierwszy komercyjny mikroreaktor 2027-2028; pre-revenue ale Trump policy = ogromny tailwind regulacyjny; SMR, NNE, OKLO zyskały po komentarzu Zeldina",
+      "price_usd": 58.09,
+      "pct_1m": 35
+    },
+    {
+      "ticker": "SMR",
+      "catalyst": "NuScale Power: TVA 6GW SMR partnership (największy deployment SMR w USA); EPA Zeldin endorsement SMR + Trump nuclear policy; NDAA 2026 tailwind dla nuclear; przychody rosną; konkretny projekt w realizacji",
+      "price_usd": 10.37,
+      "pct_1m": 20
     }
   ]
 }
