@@ -37,7 +37,8 @@ SECTOR_MAP = {
     "AAPL": "Hardware/Konsument", "GOOGL": "Internet", "META": "Internet", "AMZN": "Internet", "NFLX": "Internet",
     "TSLA": "Auto/EV", "JPM": "Banki", "BAC": "Banki", "GS": "Banki", "V": "Płatności", "MA": "Płatności",
     "LLY": "Pharma", "NVO": "Pharma", "UNH": "Zdrowie", "XOM": "Energia", "CVX": "Energia",
-    "CRWV": "AI/Infra", "CRCL": "Krypto/Fintech", "COIN": "Krypto/Fintech",
+    "CRWV": "AI/Infra", "CRCL": "Krypto/Fintech", "COIN": "Krypto/Fintech", "MSTR": "Krypto/Fintech",
+    "ACN": "IT/Konsulting", "IBM": "IT/Konsulting", "HD": "Retail", "LITE": "Fotonika", "COHR": "Fotonika",
 }
 
 # Klastry skorelowane (traktowane jak jeden zakład przy limicie 45%).

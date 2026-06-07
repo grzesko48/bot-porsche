@@ -518,7 +518,9 @@ def run_bot(export_path: Optional[str], cfg: Optional[BotConfig] = None,
         for c in candidates:
             if c.ticker in accepted_tks or c.ticker in held_tickers:
                 continue
-            sector = c.__dict__.get("_sector", "")
+            # ETYKIETA SEKTORA: prawdziwy sektor per-spółka (wall_street.sector_of) zamiast zgrubnego
+            # sektora-rodzica ze skanera (tagował np. ACN/ADBE jako "Półprzewodniki"). "Inne" gdy brak w mapie.
+            sector = ws.sector_of(c.ticker) if ws is not None else (c.__dict__.get("_sector", "") or "Inne")
             rej = next((r for t, r in result.rejected if t == c.ticker), None)
             powod = "obserwacja" if rej is None else rej.split(";")[0][:80]
             res.radar_watch.append((c.ticker, sector, powod))
