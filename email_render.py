@@ -22,6 +22,7 @@ GREEN = "#15803d"
 GREEN_LT = "#dcfce7"
 RED = "#b91c1c"
 RED_LT = "#fee2e2"
+BLACK = "#000000"         # KUP=zielony / SPRZEDAJ=czerwony / TRZYMAJ=czarny
 GREY = "#475569"
 INDIGO = "#6366f1"
 BLUE = "#3b82f6"
@@ -90,8 +91,9 @@ def _card_open(title: str, subtitle: str = "", top_color: str = GOLD, dark: bool
 
 def _action_block(company: str, order: str, order_color: str, bar_color: str,
                   do_html: str, why_html: str, badges_html: str = "",
-                  sources_html: str = "") -> str:
-    """Blok akcji z podpunktami: → Co zrobić / → Dlaczego."""
+                  sources_html: str = "", bg_color: str = "#f8fafc") -> str:
+    """Blok akcji z podpunktami: → Co zrobić / → Dlaczego.
+    bg_color: delikatne tło karty w kolorze akcji (zielone=kup, czerwone=sprzedaj)."""
     do_part = (f"<div style='{SANS}font-size:12.5pt;color:{TEXT};line-height:1.6;margin-bottom:10px;'>"
                f"<b style='color:{order_color};'>→ Co zrobić:</b><br>{do_html}</div>") if do_html else ""
     why_part = (f"<div style='{SANS}font-size:11.5pt;color:#475569;line-height:1.55;background:#ffffff;"
@@ -99,7 +101,7 @@ def _action_block(company: str, order: str, order_color: str, bar_color: str,
                 f"<b style='color:{TEXT};'>→ Dlaczego:</b> {why_html}</div>") if why_html else ""
     return (
         f"<div style='border:1px solid {LINE};border-left:5px solid {bar_color};padding:18px 20px;"
-        f"margin-bottom:16px;background:#f8fafc;border-radius:10px;'>"
+        f"margin-bottom:16px;background:{bg_color};border-radius:10px;'>"
         f"{badges_html}"
         f"<div style='{SERIF}font-size:19pt;font-weight:bold;color:{DARK};margin-bottom:2px;'>{company}</div>"
         f"<div style='{SANS}font-size:11.5pt;font-weight:bold;text-transform:uppercase;"
@@ -254,8 +256,8 @@ def build_email_html(ctx: dict) -> str:
                    "Krótki przewodnik — wykonujesz wszystko ręcznie w xStation 5.") +
         f"<div style='{SANS}font-size:12pt;color:{TEXT};line-height:1.7;'>"
         f"<b style='color:{GREEN};'>1. Sekcja Akcje na dziś</b> — konkretne zlecenia: "
-        f"<b>zielony pasek = KUP</b>, <b style='color:{GOLD_DK};'>złoty = SPRZEDAJ</b>, "
-        f"<b style='color:{GREY};'>szary = TRZYMAJ</b> (podnieś stop).<br>"
+        f"<b style='color:{GREEN};'>zielony = KUP</b>, <b style='color:{RED};'>czerwony = SPRZEDAJ</b>, "
+        f"<b style='color:{BLACK};'>czarny = TRZYMAJ</b> (ew. podnieś stop).<br>"
         f"<b style='color:{GREEN};'>2. Plakietki</b> przy spółce (katalizator, PEAD, smart money) "
         f"to dodatkowe potwierdzenia — im więcej zielonych, tym mocniejszy sygnał.<br>"
         f"<b style='color:{GREEN};'>3. Tabela portfela</b> pokazuje, jak ma wyglądać konto "
@@ -283,15 +285,16 @@ def build_email_html(ctx: dict) -> str:
             extra_raw = d.get("extra_html", "")
             stop_changed = "Sell Stop" in extra_raw or "stop" in extra_raw.lower()
             if action.startswith("SELL"):
-                bar, ocol = GOLD_DK, GOLD_DK
+                # SPRZEDAJ → czerwony (pasek + tekst + czerwonawe tło karty)
+                bar, ocol, bg = RED, RED, RED_LT
                 if action == "SELL_ALL":
                     order = "Sprzedaj całość po cenie rynkowej"
                 else:
                     order = "Sprzedaj część — resztę zostaw biegnącą"
                 do_html = extra_raw.lstrip(" ·") or "Bez zmian wielkości pozycji."
             else:
-                # HOLD: dwa warianty w zależności od tego, czy bot faktycznie podnosi stop
-                bar, ocol = GREY, GREY
+                # TRZYMAJ → czarny (pasek + tekst), neutralne tło. Dwa warianty wg podniesienia stopu.
+                bar, ocol, bg = BLACK, BLACK, "#f3f4f6"
                 if stop_changed:
                     order = "Trzymaj — podnieś Sell Stop"
                     do_html = extra_raw.lstrip(" ·") or "Bez zmian wielkości pozycji."
@@ -302,6 +305,7 @@ def build_email_html(ctx: dict) -> str:
                 company=d.get("ticker", ""), order=f"Zlecenie: {order}", order_color=ocol, bar_color=bar,
                 do_html=do_html,
                 why_html=d.get("reason", ""),
+                bg_color=bg,
             ))
         if picks:
             n = len(picks)
@@ -322,6 +326,7 @@ def build_email_html(ctx: dict) -> str:
                     why_html=why,
                     badges_html=render_badges(p.get("badges")),
                     sources_html=render_sources(p.get("sources")),
+                    bg_color=GREEN_LT,
                 ))
         P.append("</div>")
     else:
