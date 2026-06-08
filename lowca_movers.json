@@ -1,5 +1,19 @@
 [
   {
+    "ticker": "SWMR",
+    "pct": 46,
+    "day": "2026-06-02",
+    "presignal": "$2.86M US Army kontrakt na SwarmerKnight drones ogłoszony maj 2026 (5-7 dni przed spike); Jim Cramer Mad Money mention June 2 jako trigger wtórny (wzorzec: kontrakt Army + media mention = timing signal); brak pokrycia analityków; MCap <$50M; AI drone swarm + Ukrainian defense narrative; wolumen 7x normy w dniu spike",
+    "lesson": "Army drone kontrakt + small-cap NASDAQ + brak coverage = ten sam wzorzec co PUSA; Cramer mention jako wtórny trigger — gdy pre-sygnał (Army kontrakt) JUŻ istnieje, media mention = timing entry signal; śledź Mad Money drone/defense segments dla small-cap NASDAQ które mają Army contract w pipeline; presygnal był dostępny 5-7 dni wcześniej"
+  },
+  {
+    "ticker": "MRVL",
+    "pct": 10,
+    "day": "2026-06-08",
+    "presignal": "S&P 500 addition ogłoszone June 5 po zamknięciu giełdy (efektywne June 22 2026); pre-sygnał identyfikowalny: YTD +210% + AI chip wins (Google TPU, Amazon Trainium) + MCap przekroczył $200B = S&P 500 inclusion criteria spełnione; spółki 'on inclusion watch' znane tydzień wcześniej wg S&P eligibility tracking",
+    "lesson": "Śledź spółki AI/tech z YTD +100%+ i MCap $150-300B które dopiero wchodzą w S&P 500 eligibility range — ogłoszenie pojawia się zwykle w piątek po zamknięciu → gap open w poniedziałek = 2-tygodniowe okno przed efektywną datą (forced index buying); presygnal: monitoruj S&P 500 'on watch' listy publikowane przez Goldman/Bloomberg co kwartał"
+  },
+  {
     "ticker": "SMTK",
     "pct": 28,
     "day": "2026-06-06",

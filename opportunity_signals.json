@@ -51,9 +51,44 @@
       "pct_1m": 55,
       "catalyst": "600x wolumen anomalia; FDA PMA pathway nod dla CardiAMP June 5-6 (8-K); Japan PMDA echoes FDA — dual regulatory potwierdzenie; $4.4M financing extend runway do Q1 2027; seria 3 pozytywnych 8-K w 3 dni (June 5-6-7 2026)",
       "still_upside": false
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "volume_mult": 8.0,
+      "price_usd": 287.00,
+      "pct_1m": 28,
+      "catalyst": "S&P 500 addition efektywne June 22 2026 (ogłoszone June 5 po zamknięciu) = mechaniczny forced buying przez fundusze indeksowe ~$15-20B+; AI chipmaker — custom chips dla Google TPU + Amazon Trainium + Microsoft; YTD +210%; premarket +9-10% June 8",
+      "still_upside": true,
+      "upside_reason": "Forced index fund buying June 22 (2 tygodnie przed nami, $15-20B+ obowiązkowych zakupów indeksowych) jeszcze NIE nastąpił; AI custom chip cycle trwa — wieloletnie kontrakty z hyperscalerami; pct_1m=28% napędzony konkretnym fundamentalnym katalizatorem (S&P inclusion), nie czystym hype'em"
+    },
+    {
+      "ticker": "GLW",
+      "name": "Corning Inc",
+      "volume_mult": 5.0,
+      "price_usd": 194.00,
+      "pct_1m": 12,
+      "catalyst": "Amazon multimiliardowa umowa na światlowody dla US data centers — ogłoszona June 8 2026 (dziś, <24h); multi-year deal; rozbudowa zakładów w NC = 1000 miejsc pracy; AI datacenter buildout acceleration — optical fiber = krytyczna infrastruktura; FLEX i MRVL dodane do S&P 500 = AI infra fala"
     }
   ],
-  "contract": [],
+  "contract": [
+    {
+      "ticker": "SPAI",
+      "name": "Safe Pro Group Inc",
+      "price_usd": 5.50,
+      "pct_1m": 20,
+      "catalyst": "US Army $743K AI drone threat analysis kit order (June 2 2026, <7 dni temu); dostawa wykonana; AI edge compute NODE + Red Cat Black Widow drones; SPOTD patented AI tech; master teaming agreement z US defense contractor + $1M subcontract — rosnący pipeline; pierwsze zamówienie Army = proof-of-concept → follow-on contracts"
+    },
+    {
+      "ticker": "MNTS",
+      "name": "Momentus Inc",
+      "price_usd": 4.80,
+      "pct_1m": 40,
+      "catalyst": "SHIELD IDIQ $151B DoD vehicle (Golden Dome missile defense) — prawo do konkurowania; aktywne kontrakty DARPA/NASA/AFRL/SDA/Missile Defense Agency; przychody 2026 forecast $10M (9X r/r); $26.2M gotówka; $25M PIPE maj 2026; YTD +218%",
+      "still_upside": true,
+      "upside_reason": "SHIELD IDIQ $151B = wieloletni pipeline kontraktowy Golden Dome; $10M przychody 2026 vs ~$60M MCap = P/S 6x przy 9X wzroście = rozsądna wycena dla space/defense; $26.2M cash = 12+ mies. runway; dopiero początek Golden Dome realizacji — kontrakt dopiero otwarty"
+    }
+  ],
   "insider": [
     {
       "ticker": "NKE",
