@@ -1,5 +1,19 @@
 [
   {
+    "ticker": "SMTK",
+    "pct": 28,
+    "day": "2026-06-06",
+    "presignal": "LOI nabycia 100% Carbonium Core (ogłoszony ~June 2026) + 12-mies. PoC agreement z global consumer electronics leader na conformable MicroLED wearables + debt conversion $2M w luty 2026 (accounts payable → akcje + warranty); seria 3 małych katalizatorów przez 4 miesiące bez single big trigger",
+    "lesson": "Catalyst TRIAD w micro-cap deep tech: (1) balance sheet repair (debt→equity conversion), (2) enterprise PoC partnership z duża firmą, (3) M&A/acquisition LOI = kumulacja narratywu przez kwartał bez visible trigger; śledź spółki z WSZYSTKIMI trzema w ciągu 1-2 kwartałów — NASDAQ MCap <$50M deep tech (materials, displays, organics)"
+  },
+  {
+    "ticker": "BCDA",
+    "pct": 12,
+    "day": "2026-06-06",
+    "presignal": "8-K June 5: FDA PMA pathway nod dla CardiAMP — dual marketing pathway (preferred: tandem approval z CardiAMP); Japan PMDA echoed FDA — brak safety/performance concerns dla Helix delivery catheter; $4.4M financing closed June 5 (runway do Q1 2027); seria 3 pozytywnych 8-K w 3 dni consecutive",
+    "lesson": "Dual regulatory convergence (FDA + foreign PMDA w tym samym tygodniu) + financing w tym samym tygodniu = triple catalyst stack w biopharma low-float; śledź consecutive SEC 8-K filings (2+ w 5 dni) dla micro-cap biopharma — każde zgłoszenie to incremental re-rating; nawet distressed balance sheet może ignorować short-term gdy regulatory momentum jest silny"
+  },
+  {
     "ticker": "STI",
     "pct": 64,
     "day": "2026-06-05",
