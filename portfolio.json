@@ -9,7 +9,7 @@
       "entry_date": "2026-06-04",
       "stop_loss_usd": 262.76,
       "high_water_mark_usd": 284.84,
-      "days_held": 3
+      "days_held": 4
     },
     {
       "ticker": "SAP",
@@ -18,7 +18,7 @@
       "entry_date": "2026-05-30",
       "stop_loss_usd": 176.37,
       "high_water_mark_usd": 196.11000061035156,
-      "days_held": 8
+      "days_held": 9
     },
     {
       "ticker": "ASML",
@@ -27,7 +27,7 @@
       "entry_date": "2026-05-30",
       "stop_loss_usd": 1610.28,
       "high_water_mark_usd": 1775.6400146484375,
-      "days_held": 8
+      "days_held": 9
     },
     {
       "ticker": "TSM",
@@ -36,8 +36,8 @@
       "entry_date": "2026-05-30",
       "stop_loss_usd": 415.2064,
       "high_water_mark_usd": 447.2149963378906,
-      "days_held": 8
+      "days_held": 9
     }
   ],
-  "updated_utc": "2026-06-07T19:06:56+00:00"
+  "updated_utc": "2026-06-08T19:07:14+00:00"
 }
