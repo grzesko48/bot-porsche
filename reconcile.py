@@ -129,7 +129,7 @@ class XTBExportParser:
             "Closed Positions Account", "Closed Positions", "Open Positions Account",
             "Open Positions", "Cash Operations Account number", "Cash Operations",
             "Date from (UTC)", "Date to (UTC)", "Instrument,", "Type,Ticker", "Symbol,",
-            "Stock purchase,", "Stock sale,", "Transfer,", "Dividend,", "Commission,",
+            "Stock purchase,", "Stock sale,", "Stock sell,", "Transfer,", "Dividend,", "Commission,",
             "Withholding tax,", "Free-funds Interest,", "Free funds interest,", "Free funds interest", "Total,",
         ]
         # zredukuj wielokrotne białe znaki do pojedynczej spacji (snippet bywa "rozstrzelony")
@@ -329,7 +329,7 @@ class XTBExportParser:
             m = pat.search(comment)
             if not m:
                 continue
-            _, side, vol_s, price_s = m.groups()
+            action, side, vol_s, price_s = m.groups()
             try:
                 vol = float(vol_s)
                 price = float(price_s)
@@ -340,11 +340,20 @@ class XTBExportParser:
             tk = raw_tk.split(".")[0].upper() if raw_tk and raw_tk.lower() != "nan" else ""
             if not tk:
                 continue
-            signed = vol if side.upper() == "BUY" else -vol
-            a = agg.setdefault(tk, {"vol": 0.0, "cost": 0.0})
+            # ZNAK wg OPEN/CLOSE, NIE wg BUY/SELL. XTB zamyka długą pozycję komentarzem
+            # "CLOSE BUY" (typ operacji "Stock sell") — liczenie wg BUY/SELL traktowało to
+            # jako kolejne OTWARCIE (+vol) i PODWAJAŁO pozycje przy zamknięciu konta ->
+            # fałszywy "rozjazd pozycji" -> HARD HALT. Poprawnie:
+            #   long:  OPEN BUY  +vol,  CLOSE BUY  -vol
+            #   short: OPEN SELL -vol,  CLOSE SELL +vol
+            is_buy = side.upper() == "BUY"
+            is_open = action.upper() == "OPEN"
+            signed = vol * (1.0 if is_buy else -1.0) * (1.0 if is_open else -1.0)
+            a = agg.setdefault(tk, {"vol": 0.0, "cost": 0.0, "open_vol": 0.0})
             a["vol"] += signed
-            if side.upper() == "BUY":
+            if is_open and is_buy:          # koszt wejścia tylko z OTWARĆ długich pozycji
                 a["cost"] += vol * price
+                a["open_vol"] += vol
 
         out = []
         for tk, a in agg.items():
@@ -352,7 +361,7 @@ class XTBExportParser:
             if net_vol <= 1e-9:           # pozycja zamknięta lub zerowa — pomijamy
                 continue
             # średnia cena wejścia ważona kupnami; gdy brak kosztu -> 0
-            avg_price = round(a["cost"] / a["vol"], 4) if a["vol"] > 0 and a["cost"] > 0 else 0.0
+            avg_price = round(a["cost"] / a["open_vol"], 4) if a.get("open_vol", 0.0) > 0 and a["cost"] > 0 else 0.0
             out.append(Position(tk, net_vol, avg_price))
         return out
 
@@ -633,6 +642,44 @@ def _run_selftest() -> int:
     check("Rekonstrukcja: tickery SAP+TSM (bez .US)", tickers == {"SAP", "TSM"})
     check("Rekonstrukcja: cena wejścia odtworzona",
           all(p.open_price > 0 for p in reconstructed))
+
+    # ── REGRESJA HARD HALT 2026-06-09: "CLOSE BUY" = zamknięcie długiej (NIE otwarcie) ──
+    flat_rows = [
+        ["Cash Operations Account number", "54820945"] + [None]*6,
+        ["Cash Operations"] + [None]*7,
+        ["Type","Ticker","Instrument","Time","Amount","ID","Comment","Product"],
+        ["Stock purchase","ASML.US","ASML","2026-05-28","-499.83","1","OPEN BUY 0.0851 @ 1610.28","My Trades"],
+        ["Stock sell","ASML.US","ASML","2026-06-09","525.17","2","CLOSE BUY 0.0851 @ 1686.07","My Trades"],
+        ["Stock purchase","TSM.US","TSMC","2026-05-28","-512.9","3","OPEN BUY 0.3319 @ 423.68","My Trades"],
+        ["Stock sell","TSM.US","TSMC","2026-06-09","503.71","4","CLOSE BUY 0.3319 @ 415.59","My Trades"],
+        ["Total", None, None, None, 16.15, None, None, None],
+    ]
+    mf = max(len(r) for r in flat_rows)
+    flat_rows = [r + [None]*(mf-len(r)) for r in flat_rows]
+    sec3 = parser.parse_dataframe(pd.DataFrame(flat_rows))
+    flat_pos = parser.reconstruct_positions_from_cashops(sec3["cash_ops"])
+    check("CLOSE BUY: pełne zamknięcie -> 0 pozycji (konto płaskie, NIE podwojone)",
+          len(flat_pos) == 0)
+
+    # częściowe zamknięcie: OPEN BUY 1.0 - CLOSE BUY 0.4 = 0.6 netto, cena wejścia z OPEN
+    part_rows = [
+        ["Cash Operations Account number", "54820945"] + [None]*6,
+        ["Cash Operations"] + [None]*7,
+        ["Type","Ticker","Instrument","Time","Amount","ID","Comment","Product"],
+        ["Stock purchase","GLW.US","GLW","2026-05-28","-194","1","OPEN BUY 1.0 @ 194.00","My Trades"],
+        ["Stock sell","GLW.US","GLW","2026-06-09","80","2","CLOSE BUY 0.4 @ 200.00","My Trades"],
+        ["Total", None, None, None, -114.0, None, None, None],
+    ]
+    mp = max(len(r) for r in part_rows)
+    part_rows = [r + [None]*(mp-len(r)) for r in part_rows]
+    sec4 = parser.parse_dataframe(pd.DataFrame(part_rows))
+    part_pos = parser.reconstruct_positions_from_cashops(sec4["cash_ops"])
+    check("CLOSE BUY częściowe: zostaje 0.6 netto + cena wejścia 194 (nie zafałszowana)",
+          len(part_pos) == 1 and abs(part_pos[0].volume - 0.6) < 1e-6 and abs(part_pos[0].open_price - 194.0) < 0.01)
+
+    # marker "Stock sell," w snippecie jednolinijkowym (Drive) musi rozbić wiersze sprzedaży
+    check("Marker 'Stock sell,' rozbija wiersz w snippecie",
+          parser._normalize_xtb_text("foo Stock sell,ASML.US,x").count("\n") >= 1)
 
     # reconcile: stary stan (1582, 0 pozycji) vs nowy (zakupy) -> AUTO-SYNC, nie HALT
     rc = Reconciler()
