@@ -658,5 +658,51 @@
     "spy_at_entry": 731.42,
     "status": "WIN",
     "days_held": 0
+  },
+  {
+    "id": "2026-06-03-CRWV",
+    "date": "2026-06-03",
+    "ticker": "CRWV",
+    "kind": "IPO",
+    "kinds": [
+      "IPO"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "BUY",
+    "bought": false,
+    "entry_usd": null,
+    "stop_usd": null,
+    "target_usd": null,
+    "shares": null,
+    "size_pln": 53.0,
+    "risk_pln": 13.0,
+    "rr": 2.4,
+    "ev_pct": null,
+    "spy_at_entry": 759.57,
+    "status": "OPEN"
+  },
+  {
+    "id": "2026-06-03-VIDA",
+    "date": "2026-06-03",
+    "ticker": "VIDA",
+    "kind": "IPO",
+    "kinds": [
+      "IPO"
+    ],
+    "confluence": 1,
+    "score": 6.0,
+    "verdict": "BUY",
+    "bought": false,
+    "entry_usd": null,
+    "stop_usd": null,
+    "target_usd": null,
+    "shares": null,
+    "size_pln": 53.0,
+    "risk_pln": 13.0,
+    "rr": 2.4,
+    "ev_pct": null,
+    "spy_at_entry": 759.57,
+    "status": "OPEN"
   }
 ]

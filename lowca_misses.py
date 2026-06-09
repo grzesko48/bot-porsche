@@ -64,8 +64,33 @@ def flagged_set(log, days=None):
     return out
 
 
-def find_misses(movers, flagged, min_pct=15.0):
-    """Duże jednodniowe wzrosty (>=min_pct%), których łowca NIE miał na radarze."""
+BOT_START = "2026-05-28"   # PIERWSZY DZIEN PRACY bota. Nie analizuj ruchow sprzed — bot wtedy nie istnial
+                            # (zeby nie pisac "byla okazja 1000% w marcu"). To NIE byly jego okazje.
+
+_MONTHS = {"jan":1,"feb":2,"mar":3,"apr":4,"may":5,"jun":6,"jul":7,"aug":8,"sep":9,"oct":10,"nov":11,"dec":12,
+           "sty":1,"lut":2,"mar":3,"kwi":4,"maj":5,"cze":6,"lip":7,"sie":8,"wrz":9,"paz":10,"lis":11,"gru":12}
+
+
+def _parse_day(s):
+    """Loose parser daty ruchu: ISO 'YYYY-MM-DD' albo 'June 5 2026'/'March 24'. None gdy nie wiadomo."""
+    import re, datetime
+    s = str(s or "").strip().lower()
+    m = re.search(r"(\d{4})-(\d{1,2})-(\d{1,2})", s)
+    if m:
+        try: return datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except Exception: return None
+    mm = re.search(r"([a-z]{3,})\.?\s+(\d{1,2})(?:[,\s]+(\d{4}))?", s)
+    if mm:
+        mon = _MONTHS.get(mm.group(1)[:3])
+        if mon:
+            try: return datetime.date(int(mm.group(3) or 2026), mon, int(mm.group(2)))
+            except Exception: return None
+    return None
+
+
+def find_misses(movers, flagged, min_pct=15.0, start=BOT_START):
+    """Duże jednodniowe wzrosty (>=min_pct%), których łowca NIE miał na radarze.
+    FILTR DNIA STARTU: pomija ruchy sprzed pierwszego dnia pracy bota (nie były jego okazjami)."""
     flag = {str(t).upper() for t in (flagged or [])}
     out = []
     for m in (movers or []):
@@ -76,6 +101,9 @@ def find_misses(movers, flagged, min_pct=15.0):
             pct = float(m.get("pct", 0) or 0)
         except Exception:
             pct = 0.0
+        day = _parse_day(m.get("day", ""))
+        if day is not None and day.isoformat() < start:
+            continue  # ruch sprzed startu bota — nie nasza okazja
         if pct >= min_pct and tk not in flag:
             out.append({"ticker": tk, "pct": round(pct, 1),
                         "day": m.get("day", ""), "presignal": m.get("presignal", "(nieznany)"),
