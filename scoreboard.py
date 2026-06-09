@@ -65,6 +65,12 @@ def score_entry(entry: dict, price_now, spy_now, today, horizon_days: int = 30) 
         e["days_held"] = days
     if entry_px and entry_px > 0 and px and px > 0:
         ret = (px / entry_px - 1.0) * 100.0
+        # GUARD DANYCH: świeży wpis (days<2) z ogromnym ruchem (>30%) = niemal na pewno zły fetch ceny
+        # (np. GOOGL +98% w 0 dni). Nie scoruj i wyczyść ew. starą zglitchowaną wartość — przeliczy się
+        # następnym razem z dobrą ceną (lub gdy minie ≥2 dni i ruch będzie realny).
+        if days is not None and days < 2 and abs(ret) > 30.0:
+            e.pop("ret_pct", None); e.pop("alpha_pct", None); e.pop("peak_ret_pct", None)
+            return e
         e["ret_pct"] = round(ret, 1)
         # HIGH-WATER MARK zwrotu (do diagnostyki ścinania ogona: ile oddaliśmy od szczytu przy wyjściu)
         prev_peak = _num(e.get("peak_ret_pct"))

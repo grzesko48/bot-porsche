@@ -848,7 +848,9 @@ def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
         except Exception as e:
             print(f"Nauka pominieta: {e}")
     # POZYCJE ŁOWCY (własne, status OPEN) + ULTRA-PICK (najwyższe przekonanie)
-    open_positions = [r for r in (track or []) if str(r.get("status", "OPEN")).upper() == "OPEN"]
+    # TYLKO realnie kupowalne pozycje łowcy (bought=True). Dziennik zawiera teraz też sygnały
+    # "shadow"/backfill (bought=False) — to track record do NAUKI, NIE posiadane pozycje.
+    open_positions = [r for r in (track or []) if str(r.get("status", "OPEN")).upper() == "OPEN" and r.get("bought") is True]
     ultra = select_ultra_pick(decisions, c)
     if ultra is not None:
         print(f"ULTRA-PICK: {ultra.ticker} (score {ultra.score:.1f}, konfluencja {ultra.confluence}).")
