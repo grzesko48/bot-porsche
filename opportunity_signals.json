@@ -1,16 +1,28 @@
 {
   "_date": "2026-06-09",
+  "_run": "mid-session 18:30 CEST",
   "ipo": [
+    {
+      "ticker": "SPCX",
+      "age_months": 0,
+      "pct_from_ipo": 0,
+      "volume_mult": 0,
+      "price_usd": 135.00,
+      "pct_1m": 0,
+      "catalyst": "SpaceX IPO Nasdaq JUNE 12 2026 (3 dni!) — ticker SPCX, cena IPO $135/akcję, wycena $1.75T, zbiera $75B = NAJWIĘKSZE IPO W HISTORII (3x większe niż Alibaba); Starlink monopol satellite internet; Raptor engine vertical integration; AI compute via Grok/X; Elon Musk zatrzymuje >50%; pricing po zamknięciu June 11; precedens Cerebras +70% w dniu debiutu (maj 2026); QNT upsized i otworzył nad ceną IPO",
+      "still_upside": true,
+      "upside_reason": "Największe IPO w historii; Starlink monopol; AI + rockets + satellite = trzysektorowy katalizator; post-Cerebras +70% precedens; instytucjonalny popyt potwierdzony przez upsizing; Musk >50% alignment = sygnał wiary twórcy w długi termin; pierwsze 3-5 dni tradingu historycznie najsilniejsze dla mega-IPO"
+    },
     {
       "ticker": "QNT",
       "age_months": 0,
-      "pct_from_ipo": -8,
+      "pct_from_ipo": -0.1,
       "volume_mult": 4.0,
-      "price_usd": 55.35,
-      "pct_1m": -8,
-      "catalyst": "Quantinuum IPO June 4 2026 na Nasdaq (Honeywell spinoff); lider quantum computing; US gov $2B quantum initiative z $100M bezpośrednią inwestycją w QNT; trading 8% PONIŻEJ ceny IPO ($60) po 5 dniach = potencjalny punkt wejścia; MCap $14.6B; upsized IPO — popyt instytucjonalny potwierdzony",
+      "price_usd": 59.92,
+      "pct_1m": -0.1,
+      "catalyst": "Quantinuum IPO June 4 2026 na Nasdaq (Honeywell spinoff); lider quantum computing; US gov $2B quantum initiative z $100M bezpośrednią inwestycją w QNT; wrócił do ceny IPO ($60) po korektach = stabilizacja; MCap $14.6B; upsized IPO — popyt instytucjonalny potwierdzony",
       "still_upside": true,
-      "upside_reason": "Poniżej ceny IPO po 5 dniach = akumulacja; rząd USA $100M bezpośrednia inwestycja = potwierdzenie technologiczne; quantum computing = następna fala AI infra (post-CRWV/PLTR); Honeywell zachowuje >50% = alignment strategiczny; dopiero początek katalizatora"
+      "upside_reason": "Wróciło do ceny IPO $60 = ustabilizowanie po otwarciu; rząd USA $100M bezpośrednia inwestycja = potwierdzenie technologiczne; quantum computing = następna fala AI infra (post-CRWV/PLTR); Honeywell zachowuje >50% = alignment strategiczny; dopiero początek katalizatora"
     },
     {
       "ticker": "INFQ",
@@ -60,6 +72,16 @@
       "price_usd": 194.00,
       "pct_1m": 12,
       "catalyst": "Amazon multimiliardowa umowa na światłowody dla US data centers — ogłoszona June 8 2026 (<48h); multi-year deal; rozbudowa zakładów w NC = 1000 miejsc pracy; AI datacenter buildout acceleration — optical fiber = krytyczna infrastruktura"
+    },
+    {
+      "ticker": "RCAT",
+      "name": "Red Cat Holdings",
+      "volume_mult": 4.0,
+      "price_usd": 12.68,
+      "pct_1m": 25,
+      "catalyst": "Blue UAS certified drones (Black Widow + Teal 2) + ACS Bullfrog counter-drone integration; avg analyst target $22 (Strong Buy, 6 analityków) = +74% upside od obecnej ceny; -14% today (Clear Street lowered $22→$19 June 6) = potencjalny buy-the-dip; Future Force Capabilities show Jun 8-10; DARPA Perdix + DoD Blue UAS backlog",
+      "still_upside": true,
+      "upside_reason": "Avg analyst $22 vs $12.68 = 74% upside; Blue UAS certified = mandatory inclusion w Army procurement; -14% today to reakcja na downgrade jednego analityka (Clear Street $19), nie na pogorszenie fundamentów; counter-drone rynek $10B+ by 2030; S&P eligibility przy dalszym wzroście"
     }
   ],
   "contract": [
@@ -90,9 +112,9 @@
     {
       "ticker": "SPAI",
       "name": "Safe Pro Group Inc",
-      "price_usd": 5.50,
-      "pct_1m": 20,
-      "catalyst": "US Army $743K AI drone threat analysis kit order (June 2 2026, <7 dni temu); dostawa wykonana; AI edge compute NODE + Red Cat Black Widow drones; SPOTD patented AI tech; master teaming agreement z US defense contractor + $1M subcontract"
+      "price_usd": 6.40,
+      "pct_1m": 22,
+      "catalyst": "US Army $743K AI drone threat analysis kit order (June 2 2026, <7 dni temu); dostawa wykonana; AI edge compute NODE + Red Cat Black Widow drones; SPOTD patented AI tech; master teaming agreement z US defense contractor + $1M subcontract; cena wzrosła z $5.41 do $6.40 (+18%) po zamówieniu"
     },
     {
       "ticker": "MNTS",

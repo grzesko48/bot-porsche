@@ -1,5 +1,19 @@
 [
   {
+    "ticker": "CHAI",
+    "pct": 285,
+    "day": "2026-06-09",
+    "presignal": "JV z Allianca Group na AI data center capacity (April 14 2026) + appointment Sonali Garg do Advisory Board (May 5 2026) + MOU z CSPM Resources (Malaysia, Feb 4 2026) — 3 catalyst w ciągu 4 miesięcy bez single big trigger; 6-K filing May 26 2026 = ostatni pre-sygnał",
+    "lesson": "NTCL-pattern w AI data center small-cap: JV + advisory board + MOU (catalyst stacking przez 4 mies.) kumuluje narratyw AI datacenter infra bez jednego dużego katalizatora; śledź zagraniczne listingi NASDAQ (Cayman/HK-registered) z JV AI datacenter + government advisory appointments + MOU Asia-Pacific — to wzorzec identyczny z NTCL edtech; 6-K filings to odpowiednik 8-K dla zagranicznych emitentów = pre-sygnał"
+  },
+  {
+    "ticker": "PAVS",
+    "pct": 795,
+    "day": "2026-06-09",
+    "presignal": "Registered direct offering $5M (March 24 2026, 85 dni przed spikes) — klasyczny low-float squeeze setup; prior close $0.94; NASDAQ listing; MCap ultra-micro; brak oczywistego katalizatora dnia w dniu wzrostu",
+    "lesson": "Ultra-low float + registered direct offering ($5M) = pre-squeeze setup widoczny 85+ dni wcześniej dla Chinese micro-cap NASDAQ; brak catalyst dnia sugeruje squeeze/pump dynamics na niskim float; wzorzec: niedawny PIPE/direct offering + ultra-micro-cap NASDAQ + brak coverage = klaster pump candidates; ekstremalne ruchy (>500%) możliwe na prawie zero wolumenie normalnym"
+  },
+  {
     "ticker": "LASE",
     "pct": 150,
     "day": "2026-06-08",
@@ -7,18 +21,18 @@
     "lesson": "DoD program qualifier selection dla counter-drone photonics (MEIA Vulcan Call for Solutions) + równoległy kontrakt medyczny ($250K J&J) + US Army traction = triple catalyst stack w micro-cap laser/defense; sygnały DoD były publiczne 4-6 dni przed główną kulminacją; śledź DoD 'Call for Solutions' selections i MEIA program awardy dla small-cap defense photonics/laser companies na NASDAQ — wzorzec analogiczny do PUSA/SWMR (Army qualifier + small-cap + brak coverage = asymetryczna okazja)"
   },
   {
-    "ticker": "SWMR",
-    "pct": 46,
-    "day": "2026-06-02",
-    "presignal": "$2.86M US Army kontrakt na SwarmerKnight drones ogłoszony maj 2026 (5-7 dni przed spike); Jim Cramer Mad Money mention June 2 jako trigger wtórny (wzorzec: kontrakt Army + media mention = timing signal); brak pokrycia analityków; MCap <$50M; AI drone swarm + Ukrainian defense narrative; wolumen 7x normy w dniu spike",
-    "lesson": "Army drone kontrakt + small-cap NASDAQ + brak coverage = ten sam wzorzec co PUSA; Cramer mention jako wtórny trigger — gdy pre-sygnał (Army kontrakt) JUŻ istnieje, media mention = timing entry signal; śledź Mad Money drone/defense segments dla small-cap NASDAQ które mają Army contract w pipeline; presygnal był dostępny 5-7 dni wcześniej"
-  },
-  {
     "ticker": "MRVL",
     "pct": 10,
     "day": "2026-06-08",
     "presignal": "S&P 500 addition ogłoszone June 5 po zamknięciu giełdy (efektywne June 22 2026); pre-sygnał identyfikowalny: YTD +210% + AI chip wins (Google TPU, Amazon Trainium) + MCap przekroczył $200B = S&P 500 inclusion criteria spełnione; spółki 'on inclusion watch' znane tydzień wcześniej wg S&P eligibility tracking",
     "lesson": "Śledź spółki AI/tech z YTD +100%+ i MCap $150-300B które dopiero wchodzą w S&P 500 eligibility range — ogłoszenie pojawia się zwykle w piątek po zamknięciu → gap open w poniedziałek = 2-tygodniowe okno przed efektywną datą (forced index buying); presygnal: monitoruj S&P 500 'on watch' listy publikowane przez Goldman/Bloomberg co kwartał"
+  },
+  {
+    "ticker": "SWMR",
+    "pct": 46,
+    "day": "2026-06-02",
+    "presignal": "$2.86M US Army kontrakt na SwarmerKnight drones ogłoszony maj 2026 (5-7 dni przed spike); Jim Cramer Mad Money mention June 2 jako trigger wtórny (wzorzec: kontrakt Army + media mention = timing signal); brak pokrycia analityków; MCap <$50M; AI drone swarm + Ukrainian defense narrative; wolumen 7x normy w dniu spike",
+    "lesson": "Army drone kontrakt + small-cap NASDAQ + brak coverage = ten sam wzorzec co PUSA; Cramer mention jako wtórny trigger — gdy pre-sygnał (Army kontrakt) JUŻ istnieje, media mention = timing entry signal; śledź Mad Money drone/defense segments dla small-cap NASDAQ które mają Army contract w pipeline; presygnal był dostępny 5-7 dni wcześniej"
   },
   {
     "ticker": "SMTK",

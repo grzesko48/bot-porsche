@@ -18,7 +18,7 @@
     "status": "RECONCILED",
     "_note": "Faktyczna cena wejscia z XTB (4 czerwca @ 284.84, -49.64 PLN). Pozycja przeniesiona do managed_positions — sladowana przez bota rdzeniowego. Status RECONCILED = nie pokazuj podwojnie w tabeli.",
     "days_held": 5,
-    "ret_pct": -5.8,
+    "ret_pct": -8.7,
     "peak_ret_pct": 4.7,
     "executed": true
   },
@@ -45,9 +45,9 @@
     "spy_at_entry": 757.09,
     "status": "OPEN",
     "days_held": 5,
-    "ret_pct": -18.4,
+    "ret_pct": -22.7,
     "peak_ret_pct": -18.4,
-    "alpha_pct": -15.8
+    "alpha_pct": -19.3
   },
   {
     "id": "2026-06-05-MRVL",
@@ -70,11 +70,12 @@
     "rr": 0.0,
     "ev_pct": null,
     "spy_at_entry": 737.55,
-    "status": "OPEN",
+    "status": "STOP",
     "days_held": 4,
-    "ret_pct": -13.2,
+    "ret_pct": -15.9,
     "peak_ret_pct": -13.2,
-    "alpha_pct": -13.2
+    "alpha_pct": -15.0,
+    "executed": true
   },
   {
     "id": "2026-06-05-LEGN",
@@ -99,9 +100,9 @@
     "spy_at_entry": 737.55,
     "status": "STOP",
     "days_held": 4,
-    "ret_pct": -41.4,
+    "ret_pct": -41.8,
     "peak_ret_pct": -41.4,
-    "alpha_pct": -41.4
+    "alpha_pct": -40.9
   },
   {
     "id": "2026-06-05-SWMR",
@@ -126,9 +127,9 @@
     "spy_at_entry": 737.55,
     "status": "OPEN",
     "days_held": 4,
-    "ret_pct": -18.4,
+    "ret_pct": -22.7,
     "peak_ret_pct": -18.4,
-    "alpha_pct": -18.4
+    "alpha_pct": -21.8
   },
   {
     "id": "2026-06-05-CRWV",
@@ -153,9 +154,9 @@
     "spy_at_entry": 737.55,
     "status": "OPEN",
     "days_held": 4,
-    "ret_pct": -6.4,
+    "ret_pct": -9.4,
     "peak_ret_pct": -6.4,
-    "alpha_pct": -6.4
+    "alpha_pct": -8.6
   },
   {
     "id": "2026-06-05-CRCL",
@@ -180,9 +181,9 @@
     "spy_at_entry": 737.55,
     "status": "OPEN",
     "days_held": 4,
-    "ret_pct": -6.5,
+    "ret_pct": -9.5,
     "peak_ret_pct": -6.5,
-    "alpha_pct": -6.5
+    "alpha_pct": -8.7
   },
   {
     "id": "2026-06-06-MRVL",
@@ -207,8 +208,9 @@
     "spy_at_entry": null,
     "status": "OPEN",
     "days_held": 3,
-    "ret_pct": -9.0,
-    "peak_ret_pct": -9.0
+    "ret_pct": -11.8,
+    "peak_ret_pct": -9.0,
+    "executed": true
   },
   {
     "id": "2026-06-06-LEGN",
@@ -233,7 +235,7 @@
     "spy_at_entry": null,
     "status": "STOP",
     "days_held": 3,
-    "ret_pct": -41.4,
+    "ret_pct": -41.8,
     "peak_ret_pct": -41.4
   },
   {
@@ -259,7 +261,7 @@
     "spy_at_entry": null,
     "status": "OPEN",
     "days_held": 3,
-    "ret_pct": 14.6,
+    "ret_pct": 13.2,
     "peak_ret_pct": 14.6
   },
   {
@@ -285,7 +287,7 @@
     "spy_at_entry": null,
     "status": "OPEN",
     "days_held": 3,
-    "ret_pct": -18.4,
+    "ret_pct": -22.7,
     "peak_ret_pct": -18.4
   },
   {
@@ -311,7 +313,7 @@
     "spy_at_entry": null,
     "status": "OPEN",
     "days_held": 3,
-    "ret_pct": -6.4,
+    "ret_pct": -9.4,
     "peak_ret_pct": -6.4
   },
   {
@@ -337,7 +339,7 @@
     "spy_at_entry": null,
     "status": "OPEN",
     "days_held": 2,
-    "ret_pct": 14.6,
+    "ret_pct": 13.2,
     "peak_ret_pct": 14.6
   },
   {
@@ -363,7 +365,7 @@
     "spy_at_entry": null,
     "status": "STOP",
     "days_held": 2,
-    "ret_pct": -26.2,
+    "ret_pct": -26.8,
     "peak_ret_pct": -26.2
   },
   {
@@ -389,7 +391,7 @@
     "spy_at_entry": null,
     "status": "OPEN",
     "days_held": 2,
-    "ret_pct": 0.0,
+    "ret_pct": -3.3,
     "peak_ret_pct": 0.0
   },
   {
@@ -415,9 +417,10 @@
     "spy_at_entry": 739.22,
     "status": "OPEN",
     "days_held": 1,
-    "ret_pct": -4.8,
+    "ret_pct": -6.7,
     "peak_ret_pct": -4.8,
-    "alpha_pct": -4.6
+    "alpha_pct": -5.6,
+    "executed": true
   },
   {
     "id": "2026-06-08-BCDA",
@@ -442,9 +445,9 @@
     "spy_at_entry": 739.22,
     "status": "STOP",
     "days_held": 1,
-    "ret_pct": -48.1,
-    "peak_ret_pct": -48.1,
-    "alpha_pct": -47.9
+    "ret_pct": -46.9,
+    "peak_ret_pct": -46.9,
+    "alpha_pct": -45.8
   },
   {
     "id": "2026-06-08-GLW",
@@ -469,8 +472,197 @@
     "spy_at_entry": 739.22,
     "status": "OPEN",
     "days_held": 1,
-    "ret_pct": -7.7,
+    "ret_pct": -10.3,
     "peak_ret_pct": -7.7,
-    "alpha_pct": -7.5
+    "alpha_pct": -9.3
+  },
+  {
+    "id": "2026-06-09-GLW",
+    "date": "2026-06-09",
+    "ticker": "GLW",
+    "kind": "WOLUMEN",
+    "kinds": [
+      "WOLUMEN"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "PASS",
+    "bought": false,
+    "entry_usd": 194.0,
+    "stop_usd": 164.9,
+    "target_usd": 252.2,
+    "shares": null,
+    "size_pln": 0.0,
+    "risk_pln": 0.0,
+    "rr": 2.0,
+    "ev_pct": null,
+    "spy_at_entry": 731.42,
+    "status": "OPEN",
+    "days_held": 0,
+    "ret_pct": -10.3,
+    "peak_ret_pct": -10.3,
+    "alpha_pct": -10.3
+  },
+  {
+    "id": "2026-06-09-RCAT",
+    "date": "2026-06-09",
+    "ticker": "RCAT",
+    "kind": "WOLUMEN",
+    "kinds": [
+      "WOLUMEN"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "PASS",
+    "bought": false,
+    "entry_usd": 12.68,
+    "stop_usd": 10.78,
+    "target_usd": 16.48,
+    "shares": null,
+    "size_pln": 0.0,
+    "risk_pln": 0.0,
+    "rr": 2.0,
+    "ev_pct": null,
+    "spy_at_entry": 731.42,
+    "status": "OPEN",
+    "days_held": 0,
+    "ret_pct": -11.4,
+    "peak_ret_pct": -11.4,
+    "alpha_pct": -11.4
+  },
+  {
+    "id": "2026-06-09-INFQ",
+    "date": "2026-06-09",
+    "ticker": "INFQ",
+    "kind": "IPO",
+    "kinds": [
+      "IPO"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "PASS",
+    "bought": false,
+    "entry_usd": 17.5,
+    "stop_usd": 13.12,
+    "target_usd": 28.0,
+    "shares": null,
+    "size_pln": 0.0,
+    "risk_pln": 0.0,
+    "rr": 2.4,
+    "ev_pct": null,
+    "spy_at_entry": 731.42,
+    "status": "OPEN",
+    "days_held": 0,
+    "ret_pct": -21.9,
+    "peak_ret_pct": -21.9,
+    "alpha_pct": -21.9
+  },
+  {
+    "id": "2026-06-09-FDXF",
+    "date": "2026-06-09",
+    "ticker": "FDXF",
+    "kind": "IPO",
+    "kinds": [
+      "IPO"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "PASS",
+    "bought": false,
+    "entry_usd": 168.0,
+    "stop_usd": 126.0,
+    "target_usd": 268.8,
+    "shares": null,
+    "size_pln": 0.0,
+    "risk_pln": 0.0,
+    "rr": 2.4,
+    "ev_pct": null,
+    "spy_at_entry": 731.42,
+    "status": "OPEN",
+    "days_held": 0,
+    "ret_pct": 13.2,
+    "peak_ret_pct": 13.2,
+    "alpha_pct": 13.2
+  },
+  {
+    "id": "2026-06-09-INIO",
+    "date": "2026-06-09",
+    "ticker": "INIO",
+    "kind": "IPO",
+    "kinds": [
+      "IPO"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "PASS",
+    "bought": false,
+    "entry_usd": 32.22,
+    "stop_usd": 24.16,
+    "target_usd": 51.55,
+    "shares": null,
+    "size_pln": 0.0,
+    "risk_pln": 0.0,
+    "rr": 2.4,
+    "ev_pct": null,
+    "spy_at_entry": 731.42,
+    "status": "OPEN",
+    "days_held": 0,
+    "ret_pct": 6.1,
+    "peak_ret_pct": 6.1,
+    "alpha_pct": 6.1
+  },
+  {
+    "id": "2026-06-09-LITE",
+    "date": "2026-06-09",
+    "ticker": "LITE",
+    "kind": "CONGRESS",
+    "kinds": [
+      "CONGRESS"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "PASS",
+    "bought": false,
+    "entry_usd": 848.0,
+    "stop_usd": 678.4,
+    "target_usd": 1187.2,
+    "shares": null,
+    "size_pln": 0.0,
+    "risk_pln": 0.0,
+    "rr": 2.0,
+    "ev_pct": null,
+    "spy_at_entry": 731.42,
+    "status": "OPEN",
+    "days_held": 0,
+    "ret_pct": -3.3,
+    "peak_ret_pct": -3.3,
+    "alpha_pct": -3.3
+  },
+  {
+    "id": "2026-06-09-GOOGL",
+    "date": "2026-06-09",
+    "ticker": "GOOGL",
+    "kind": "FUND13F",
+    "kinds": [
+      "FUND13F"
+    ],
+    "confluence": 1,
+    "score": 6.0,
+    "verdict": "PASS",
+    "bought": false,
+    "entry_usd": 182.0,
+    "stop_usd": 145.6,
+    "target_usd": 254.8,
+    "shares": null,
+    "size_pln": 0.0,
+    "risk_pln": 0.0,
+    "rr": 2.0,
+    "ev_pct": null,
+    "spy_at_entry": 731.42,
+    "status": "WIN",
+    "days_held": 0,
+    "ret_pct": 98.2,
+    "peak_ret_pct": 98.2,
+    "alpha_pct": 98.2
   }
 ]
