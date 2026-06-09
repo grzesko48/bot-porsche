@@ -697,6 +697,27 @@ def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
                             "Pozycje spekulacyjne, którymi steruje łowca. Pełny rachunek (rdzeń + łowca) widzisz w mailu bilansu o 21:00.") +
                  f"<table style='width:100%;border-collapse:collapse;'>{rows}</table></div>")
 
+    # ── RANKING OKAZJI DNIA — wszystkie dzisiejsze okazje od najlepszej (decisions juz score-sorted) ──
+    ranked = [d for d in decisions if float(getattr(d, "score", 0)) >= c.buy_threshold]
+    if ranked:
+        act = {"BUY": ("KUP", GREEN), "ROTACJA": ("uwolnij gotówkę", GOLD_DK),
+               "CZEKAJ": ("czekaj — rozgrzane", "#b45309"), "PASS": ("brak gotówki", MUTED)}
+        rrows = ""
+        for i, d in enumerate(ranked[:8], 1):
+            s, w = signal_strength(d, c)
+            label, col = act.get(d.verdict, (d.verdict, MUTED))
+            rrows += (f"<tr>"
+                      f"<td style='padding:8px 6px 8px 0;border-bottom:1px solid {LINE2};{SANS}font-size:12pt;color:{MUTED};'>{i}.</td>"
+                      f"<td style='padding:8px 6px;border-bottom:1px solid {LINE2};{SANS}font-size:12.5pt;'><b style='color:{DARK};'>{d.ticker}</b> <span style='color:{MUTED};font-size:10pt;'>[{d.kind}]</span></td>"
+                      f"<td style='padding:8px 6px;border-bottom:1px solid {LINE2};text-align:center;{SANS}font-size:13pt;'><b style='color:{DARK};'>{s}/10</b></td>"
+                      f"<td style='padding:8px 6px;border-bottom:1px solid {LINE2};{SANS}font-size:11pt;color:{col};font-weight:bold;'>{label}</td>"
+                      f"<td style='padding:8px 0;border-bottom:1px solid {LINE2};text-align:right;{SANS}font-size:10.5pt;color:{MUTED};'>{_reward_risk_str(d, c)}</td></tr>")
+        P.append(_card_open("🏆 Ranking okazji dziś — od najlepszej",
+                            "Wszystko, co dziś znalazłem, w jednym miejscu — od najwyższej siły sygnału. Werdykt: czy kupuję, czekam, czy brak gotówki. To siła SYGNAŁU, nie pewność zysku.") +
+                 f"<table style='width:100%;border-collapse:collapse;'>"
+                 f"<tr style='color:{MUTED};{SANS}font-size:10pt;'><td></td><td>Spółka</td><td style='text-align:center;'>Siła</td><td>Werdykt</td><td style='text-align:right;'>Potencjał / ryzyko</td></tr>"
+                 f"{rrows}</table></div>")
+
     # DECYZJE KUP
     if buys:
         P.append(_card_open("Decyzje KUP — gotowe zlecenia na XTB",
