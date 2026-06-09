@@ -68,6 +68,16 @@
   ],
   "volume": [
     {
+      "ticker": "RKLB",
+      "name": "Rocket Lab Corporation",
+      "volume_mult": 6.0,
+      "price_usd": 119.26,
+      "pct_1m": 38,
+      "catalyst": "SpaceX IPO roadshow opened June 8 — space sector volume anomalia; RKLB jako prime beneficjent halo effect; Stifel PT raised $132 z $110 June 4 (Buy); Q1 2026 revenue $200M +64% YoY, backlog $2.2B",
+      "still_upside": true,
+      "upside_reason": "SpaceX IPO pricing June 11 + listing June 12 = konkretny 3-dniowy katalizator halo; Stifel PT $132 (+10% upside); backlog $2.2B z $90M Space Force + $30M Anduril kontraktami; pct_1m napędzony fundamentalną re-wyceną commercial space, nie pustym hype'em"
+    },
+    {
       "ticker": "MRVL",
       "name": "Marvell Technology",
       "volume_mult": 8.0,
@@ -97,6 +107,29 @@
     }
   ],
   "contract": [
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab Corporation",
+      "price_usd": 119.26,
+      "pct_1m": 38,
+      "catalyst": "$90M Space Force GEO satellite contract (pierwszy GEO program RKLB, Space Systems Command) + $30M Anduril 3-launch hypersonic contract (HASTE) + Raytheon Space Force Interceptor selection (Space Based Interceptor, missile defense); backlog $2.2B, Q1 revenue $200M (+64% YoY)",
+      "still_upside": true,
+      "upside_reason": "Multiple concurrently awarded DoD/Space Force contracts potwierdzają przetarg rządowy; SpaceX IPO June 12 anchor pricing dla commercial space = sektor re-rating; Stifel PT $132; jeszcze nie osiągnięto szczytu cyklu kontraktowego"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "price_usd": 29.80,
+      "pct_1m": 12,
+      "catalyst": "$4.82B NASA Near Space Network Services (prime contractor) + $1.1B record backlog (+$842M YTD wzrost) + $15.5M LRO Camera + $4.5M ShadowCam; down -28% od szczytu $46.75 (May 28) po $500M follow-on offering = reset wejścia; revenue guidance $900M-$1B 2026, EBITDA positive"
+    },
+    {
+      "ticker": "ONDS",
+      "name": "Ondas Inc.",
+      "price_usd": 11.79,
+      "pct_1m": 15,
+      "catalyst": "$175M Mistral DoD Prime Contractor merger (closed April 24 2026) + backlog $457M ($264M z Mistral) + $10M demining contract Izrael Eastern Border ($50M+ program follow-on) + Palantir-connected autonomous defense; revenue guidance 2026 $375M (7x wzrost YoY z $50.7M)"
+    },
     {
       "ticker": "LASE",
       "name": "Laser Photonics Corp",
@@ -191,6 +224,22 @@
     }
   ],
   "policy": [
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab Corporation",
+      "price_usd": 119.26,
+      "pct_1m": 38,
+      "catalyst": "Trump EO 'Ensuring American Space Superiority' — 180-day deadline June 16 2026 wymusza NASA commercial-first acquisition reform (OTA/Space Act Agreements priorytet nad cost-plus); SpaceX IPO June 12 tworzy $1.75T publiczny anchor dla wyceny commercial space economy = sektor strukturalny re-rating",
+      "still_upside": true,
+      "upside_reason": "Trump EO June 16 deadline = bezpośredni regulatory tailwind w 7 dni; SpaceX IPO June 12 = historyczny anchor event; Stifel PT $132; rząd komercjalizuje space — RKLB jako pure-play prime beneficjent"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "price_usd": 29.80,
+      "pct_1m": 12,
+      "catalyst": "Trump Space EO commercial-first NASA mandate + June 16 regulatory reform deadline; LUNR jedyna spółka z commercial Moon landing 21. w. = niezbędna dla nowej NASA lunar economy; SpaceX IPO halo efekt; $4.82B NSN backlog = komercyjny lunar backbone"
+    },
     {
       "ticker": "PLTR",
       "catalyst": "Trump Truth Social: Palantir 'proven great war-fighting capabilities'; DoD AI — kluczowy kontraktor rządowy; S&P500 +33% od wyborów; PLTR w czołówce DoD AI deploymentu",

@@ -1,5 +1,12 @@
 [
   {
+    "ticker": "RKLB",
+    "pct": 9,
+    "day": "2026-06-08",
+    "presignal": "SpaceX S-1 filing May 20 2026 (19 dni wcześniej) + IPO roadshow opened June 8 (roadshow announcement ~June 3-5); $90M Space Force GEO satellite contract (June 3) + $30M Anduril hypersonic (June 4) + Raytheon Space Force Interceptor selection — triple DoD catalyst stack w 7 dni przed roadshow; Stifel PT raised $132 z $110 June 4; presygnal był dostępny min. 5 dni wcześniej",
+    "lesson": "SpaceX IPO roadshow = event-driven halo window dla publicznych space stocks (RKLB, LUNR, ASTS, SPCE); optymalny entry window: 3-5 dni przed roadshow start (po S-1 filing + roadshow date announcement, min. 2 tyg. przed IPO); RKLB z multiple DoD contracts = fundamental + momentum synergy; śledź IPO roadshow calendars mega-space companies dla pozycji w pure-play space stocks 1-2 tyg. wcześniej"
+  },
+  {
     "ticker": "CHAI",
     "pct": 285,
     "day": "2026-06-09",
