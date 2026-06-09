@@ -1,5 +1,12 @@
 [
   {
+    "ticker": "LASE",
+    "pct": 150,
+    "day": "2026-06-08",
+    "presignal": "DoD MEIA Vulcan anti-drone LSAD system selection (June 4, 4 dni przed głównym spike) + US Army DefenseTech traction (June 3) + CMS Laser $250K J&J medical device order (June 2, 6 dni wcześniej); triple catalyst stack budował się od June 2 zanim masa rynku zauważyła; spółka Laser Photonics micro-cap NASDAQ, cena od $0.82 (koniec maja) do $3.65 (June 8)",
+    "lesson": "DoD program qualifier selection dla counter-drone photonics (MEIA Vulcan Call for Solutions) + równoległy kontrakt medyczny ($250K J&J) + US Army traction = triple catalyst stack w micro-cap laser/defense; sygnały DoD były publiczne 4-6 dni przed główną kulminacją; śledź DoD 'Call for Solutions' selections i MEIA program awardy dla small-cap defense photonics/laser companies na NASDAQ — wzorzec analogiczny do PUSA/SWMR (Army qualifier + small-cap + brak coverage = asymetryczna okazja)"
+  },
+  {
     "ticker": "SWMR",
     "pct": 46,
     "day": "2026-06-02",

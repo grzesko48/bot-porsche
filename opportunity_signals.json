@@ -1,5 +1,5 @@
 {
-  "_date": "2026-06-08",
+  "_date": "2026-06-09",
   "ipo": [
     {
       "ticker": "QNT",
@@ -8,9 +8,9 @@
       "volume_mult": 4.0,
       "price_usd": 55.35,
       "pct_1m": -8,
-      "catalyst": "Quantinuum IPO June 4 2026 na Nasdaq (Honeywell spinoff); lider quantum computing; US gov $2B quantum initiative z $100M bezpośrednią inwestycją w QNT; trading 8% PONIŻEJ ceny IPO ($60) po 4 dniach = potencjalny punkt wejścia; MCap $14.6B; upsized IPO — popyt instytucjonalny potwierdzony",
+      "catalyst": "Quantinuum IPO June 4 2026 na Nasdaq (Honeywell spinoff); lider quantum computing; US gov $2B quantum initiative z $100M bezpośrednią inwestycją w QNT; trading 8% PONIŻEJ ceny IPO ($60) po 5 dniach = potencjalny punkt wejścia; MCap $14.6B; upsized IPO — popyt instytucjonalny potwierdzony",
       "still_upside": true,
-      "upside_reason": "Poniżej ceny IPO po 4 dniach = akumulacja; rząd USA $100M bezpośrednia inwestycja = potwierdzenie technologiczne; quantum computing = następna fala AI infra (post-CRWV/PLTR); Honeywell zachowuje >50% = alignment strategiczny; dopiero początek katalizatora"
+      "upside_reason": "Poniżej ceny IPO po 5 dniach = akumulacja; rząd USA $100M bezpośrednia inwestycja = potwierdzenie technologiczne; quantum computing = następna fala AI infra (post-CRWV/PLTR); Honeywell zachowuje >50% = alignment strategiczny; dopiero początek katalizatora"
     },
     {
       "ticker": "INFQ",
@@ -19,9 +19,9 @@
       "volume_mult": 3.5,
       "price_usd": 17.50,
       "pct_1m": 46,
-      "catalyst": "Infleqtion Inc — pierwszy publicznie notowany neutral-atom quantum computing na NYSE (SPAC, luty 2026); DOC CHIPS Act LOI $100M milestone grant podpisany maj 2026; jeden z 9 firm w US $2B quantum pool; $443M gotówki; Trump AI EO June 2 = wieloletni katalizator rządowy dla quantum",
+      "catalyst": "Infleqtion Inc — neutral-atom quantum computing NYSE (SPAC luty 2026); DOC CHIPS Act LOI $100M milestone grant podpisany maj 2026; jeden z 9 firm w US $2B quantum pool; $443M gotówki; Trump AI EO June 2 = wieloletni katalizator rządowy",
       "still_upside": true,
-      "upside_reason": "CHIPS LOI $100M oczekuje pełnego zatwierdzenia — dopiero początek; jeden z 9 firm w $2B quantum pool = powtarzalne granty; $443M cash = runway bez ryzyka dilucji; Trump AI EO June 2 tworzy trwały pipeline rządowy; quantum w analogicznej fazie co AI datacenter 2022"
+      "upside_reason": "CHIPS LOI $100M oczekuje pełnego zatwierdzenia — dopiero początek; jeden z 9 firm w $2B quantum pool = powtarzalne granty; $443M cash = runway bez ryzyka dilucji; Trump AI EO tworzy trwały pipeline rządowy; quantum w analogicznej fazie co AI datacenter 2022"
     },
     {
       "ticker": "FDXF",
@@ -33,34 +33,25 @@
       "catalyst": "FedEx Freight spin-off debiut June 1 2026; S&P 500 dodany June 2 (dzień po IPO) = forced buying funduszy pasywnych; LTL trucking lider USA; spin-off zwykle outperformuje parenta w pierwszym roku"
     },
     {
-      "ticker": "VIDA",
-      "age_months": 1,
-      "pct_from_ipo": 50,
-      "volume_mult": 2.0,
-      "price_usd": 6.00,
-      "pct_1m": 50,
-      "catalyst": "VIDA Global IPO May 15 2026 na NYSE American ($4/sh); AI Agent Operating System dla firm; ultra-niski float (3.75M akcji Class A); overallotment option expiry June 14 2026 = potencjalny momentum event; temat AI agent intensywny"
+      "ticker": "INIO",
+      "age_months": 0,
+      "pct_from_ipo": 19,
+      "volume_mult": 3.0,
+      "price_usd": 32.22,
+      "pct_1m": 19,
+      "catalyst": "INNIO Holding IPO June 4 2026 na NASDAQ (upsized $2.43B, 90M akcji @ $27); producent systemów power generation dla AI data centers (Jenbacher + Waukesha brands); data center orders eksplodowały z $309M do $1B YoY (+224%); lider distributed power generation dla microgrids i grid stabilization; IPO momentum + AI datacenter tailwind"
     }
   ],
   "volume": [
     {
-      "ticker": "BCDA",
-      "name": "BioCardia Inc",
-      "volume_mult": 600,
-      "price_usd": 1.65,
-      "pct_1m": 55,
-      "catalyst": "600x wolumen anomalia; FDA PMA pathway nod dla CardiAMP June 5-6 (8-K); Japan PMDA echoes FDA — dual regulatory potwierdzenie; $4.4M financing extend runway do Q1 2027; seria 3 pozytywnych 8-K w 3 dni (June 5-6-7 2026)",
-      "still_upside": false
-    },
-    {
       "ticker": "MRVL",
       "name": "Marvell Technology",
       "volume_mult": 8.0,
-      "price_usd": 287.00,
+      "price_usd": 285.00,
       "pct_1m": 28,
-      "catalyst": "S&P 500 addition efektywne June 22 2026 (ogłoszone June 5 po zamknięciu) = mechaniczny forced buying przez fundusze indeksowe ~$15-20B+; AI chipmaker — custom chips dla Google TPU + Amazon Trainium + Microsoft; YTD +210%; premarket +9-10% June 8",
+      "catalyst": "S&P 500 addition efektywne June 22 2026 (ogłoszone June 5 po zamknięciu) = mechaniczny forced buying przez fundusze indeksowe ~$15-20B+; AI chipmaker — custom chips dla Google TPU + Amazon Trainium + Microsoft; YTD +210%; JUŻ W PORTFELU",
       "still_upside": true,
-      "upside_reason": "Forced index fund buying June 22 (2 tygodnie przed nami, $15-20B+ obowiązkowych zakupów indeksowych) jeszcze NIE nastąpił; AI custom chip cycle trwa — wieloletnie kontrakty z hyperscalerami; pct_1m=28% napędzony konkretnym fundamentalnym katalizatorem (S&P inclusion), nie czystym hype'em"
+      "upside_reason": "Forced index fund buying June 22 (13 dni, $15-20B+ obowiązkowych zakupów indeksowych) jeszcze NIE nastąpił; AI custom chip cycle trwa — wieloletnie kontrakty z hyperscalerami; pct_1m=28% napędzony konkretnym fundamentalnym katalizatorem (S&P inclusion), nie czystym hype'em"
     },
     {
       "ticker": "GLW",
@@ -68,25 +59,49 @@
       "volume_mult": 5.0,
       "price_usd": 194.00,
       "pct_1m": 12,
-      "catalyst": "Amazon multimiliardowa umowa na światlowody dla US data centers — ogłoszona June 8 2026 (dziś, <24h); multi-year deal; rozbudowa zakładów w NC = 1000 miejsc pracy; AI datacenter buildout acceleration — optical fiber = krytyczna infrastruktura; FLEX i MRVL dodane do S&P 500 = AI infra fala"
+      "catalyst": "Amazon multimiliardowa umowa na światłowody dla US data centers — ogłoszona June 8 2026 (<48h); multi-year deal; rozbudowa zakładów w NC = 1000 miejsc pracy; AI datacenter buildout acceleration — optical fiber = krytyczna infrastruktura"
     }
   ],
   "contract": [
+    {
+      "ticker": "LASE",
+      "name": "Laser Photonics Corp",
+      "price_usd": 3.65,
+      "pct_1m": 234,
+      "catalyst": "DoD MEIA Vulcan anti-drone LSAD system selection (DoW Call for Solutions) + US Army traction + CMS Laser $250K J&J medical device order (precision drilling) — triple catalyst micro-cap laser defense tech",
+      "still_upside": false
+    },
+    {
+      "ticker": "FLY",
+      "name": "Firefly Aerospace Inc",
+      "price_usd": 36.17,
+      "pct_1m": -16,
+      "catalyst": "$75M NASA JPL subcontract na 4 drony księżycowe (Moon Base south pole mission); jedyny publicznie notowany zwycięzca NASA Moon Base contracts; stock spada -16% po follow-on offering (4M nowych akcji @ $48, June 1) — dilution selloff = buy-the-dip okno na realny kontrakt",
+      "still_upside": true,
+      "upside_reason": "$75M NASA kontrakt vs ~$350M MCap = kontrakt 21% kapitalizacji; jedyny publiczny zwycięzca NASA Moon Base = brak porównywalnej konkurencji; pct_1m NEGATYWNE (-16%) wyłącznie z dilution selloff, nie z pogorszenia fundamentów; stock może wrócić do $48 ofering price = 33% upside"
+    },
+    {
+      "ticker": "VOYG",
+      "name": "Voyager Technologies Inc",
+      "price_usd": 41.55,
+      "pct_1m": 10,
+      "catalyst": "DARPA Burn n' Go Phase 2 $16.5M contract (20 mies., hot-fire demonstrations tailorable solid rocket motors); guidance podniesione $230-255M (+38-53% YoY); rekordowy backlog $275M (+54% YoY); Trump EO fixed-price contracting (April 30) = VOYG beneficjentem regulacyjnego przełomu; 52-wk high $73.95 vs current $41.55 = 44% dyskonto do szczytu"
+    },
     {
       "ticker": "SPAI",
       "name": "Safe Pro Group Inc",
       "price_usd": 5.50,
       "pct_1m": 20,
-      "catalyst": "US Army $743K AI drone threat analysis kit order (June 2 2026, <7 dni temu); dostawa wykonana; AI edge compute NODE + Red Cat Black Widow drones; SPOTD patented AI tech; master teaming agreement z US defense contractor + $1M subcontract — rosnący pipeline; pierwsze zamówienie Army = proof-of-concept → follow-on contracts"
+      "catalyst": "US Army $743K AI drone threat analysis kit order (June 2 2026, <7 dni temu); dostawa wykonana; AI edge compute NODE + Red Cat Black Widow drones; SPOTD patented AI tech; master teaming agreement z US defense contractor + $1M subcontract"
     },
     {
       "ticker": "MNTS",
       "name": "Momentus Inc",
       "price_usd": 4.80,
       "pct_1m": 40,
-      "catalyst": "SHIELD IDIQ $151B DoD vehicle (Golden Dome missile defense) — prawo do konkurowania; aktywne kontrakty DARPA/NASA/AFRL/SDA/Missile Defense Agency; przychody 2026 forecast $10M (9X r/r); $26.2M gotówka; $25M PIPE maj 2026; YTD +218%",
+      "catalyst": "SHIELD IDIQ $151B DoD vehicle (Golden Dome missile defense) — prawo do konkurowania; aktywne kontrakty DARPA/NASA/AFRL/SDA/Missile Defense Agency; przychody 2026 forecast $10M (9X r/r); $26.2M gotówka; $25M PIPE maj 2026",
       "still_upside": true,
-      "upside_reason": "SHIELD IDIQ $151B = wieloletni pipeline kontraktowy Golden Dome; $10M przychody 2026 vs ~$60M MCap = P/S 6x przy 9X wzroście = rozsądna wycena dla space/defense; $26.2M cash = 12+ mies. runway; dopiero początek Golden Dome realizacji — kontrakt dopiero otwarty"
+      "upside_reason": "SHIELD IDIQ $151B = wieloletni pipeline kontraktowy Golden Dome; $10M przychody 2026 vs ~$60M MCap = P/S 6x przy 9X wzroście = rozsądna wycena dla space/defense; $26.2M cash = 12+ mies. runway; dopiero początek Golden Dome realizacji"
     }
   ],
   "insider": [
@@ -94,20 +109,10 @@
       "ticker": "NKE",
       "buyers": 2,
       "usd_total": 1875000,
-      "days_ago": 58,
+      "days_ago": 59,
       "role": "CEO Elliott Hill (23660 akcji @$42.27) + Director Tim Cook (25000 akcji @$42.43) — kwiecień 2026",
       "price_usd": 44.00,
       "pct_1m": 7
-    },
-    {
-      "ticker": "UNH",
-      "buyers": 10,
-      "usd_total": 5000000,
-      "days_ago": 68,
-      "role": "10 członków zarządu klastrowo April 1 2026; CEO i CFO kupili March 17",
-      "price_usd": 400.00,
-      "pct_1m": 6,
-      "catalyst": "Najsilniejszy klaster insiderów roku wg OpenInsider (10 dyrektorów w 1 dzień); Bank of America cel $450; DOJ dochodzenie bez zarzutów; zalezienie dna — +20% YTD po klastrze"
     }
   ],
   "fund13f": [
@@ -125,30 +130,21 @@
       "ticker": "LITE",
       "member": "Josh Gottheimer (May 22) + Gilbert Ray Cisneros Jr. (Apr 14)",
       "amount_usd": 30000,
-      "days_ago": 17,
+      "days_ago": 18,
       "committee_relevant": true,
       "price_usd": 848.00,
       "pct_1m": 18,
-      "catalyst": "2 kongresmenów USA kupiło LITE w maju; Q3 2026 przychody $808.4M (+90% r/r YoY); Nasdaq 100; optyka AI datacenter; Northland podniósł cel do $1200 z $1000 (Outperform); split akcji możliwy"
+      "catalyst": "2 kongresmenów USA kupiło LITE w maju; Q3 2026 przychody $808.4M (+90% r/r YoY); Nasdaq 100; optyka AI datacenter; Northland podniósł cel do $1200 z $1000 (Outperform)"
     },
     {
       "ticker": "TSM",
       "member": "39 Congress members purchases",
       "amount_usd": 1297000,
-      "days_ago": 25,
+      "days_ago": 26,
       "committee_relevant": true,
       "price_usd": 450.00,
       "pct_1m": 8,
-      "catalyst": "39 zakupów przez kongresmenów USA łącznie $1.297M (maj 2026) — #1 most purchased by Congress; już w portfelu MANAGED"
-    },
-    {
-      "ticker": "HD",
-      "member": "Tim Moore + David Taylor",
-      "amount_usd": 40500,
-      "days_ago": 22,
-      "committee_relevant": false,
-      "price_usd": 313.80,
-      "pct_1m": 3
+      "catalyst": "39 zakupów przez kongresmenów USA łącznie $1.297M (maj 2026) — #1 most purchased by Congress; JUŻ W PORTFELU"
     }
   ],
   "policy": [
@@ -174,7 +170,7 @@
     },
     {
       "ticker": "OKLO",
-      "catalyst": "Trump EO: reforma NRC (18-mies. deadline na decyzje o nowych reaktorach, maj 2026); EPA Administrator Lee Zeldin: SMR buildout June 2026; OKLO pierwszy komercyjny mikroreaktor 2027-2028; pre-revenue ale Trump policy = ogromny tailwind regulacyjny",
+      "catalyst": "Trump EO: reforma NRC (18-mies. deadline na decyzje o nowych reaktorach, maj 2026); EPA Administrator Lee Zeldin: SMR buildout June 2026; OKLO pierwszy komercyjny mikroreaktor 2027-2028; Trump policy = ogromny tailwind regulacyjny",
       "price_usd": 58.09,
       "pct_1m": 35,
       "still_upside": true,
@@ -182,9 +178,15 @@
     },
     {
       "ticker": "SMR",
-      "catalyst": "NuScale Power: TVA 6GW SMR partnership (największy deployment SMR w USA); EPA Zeldin endorsement SMR + Trump nuclear policy; NDAA 2026 tailwind dla nuclear; konkretny projekt w realizacji",
+      "catalyst": "NuScale Power: TVA 6GW SMR partnership (największy deployment SMR w USA); EPA Zeldin endorsement SMR + Trump nuclear policy; NDAA 2026 tailwind dla nuclear",
       "price_usd": 10.37,
       "pct_1m": 20
+    },
+    {
+      "ticker": "VOYG",
+      "catalyst": "Trump EO April 30 fixed-price contracting mandate: implementation guidance OMB due ~June 14 2026; VOYG specjalizuje się w fixed-price defense contracts = bezpośredni beneficjent regulacyjnego przełomu od cost-plus na fixed-price; raised guidance $230-255M; backlog $275M (+54%)",
+      "price_usd": 41.55,
+      "pct_1m": 10
     }
   ]
 }

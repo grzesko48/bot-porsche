@@ -110,5 +110,54 @@
     "pct": 28.0,
     "presignal": "LOI nabycia 100% Carbonium Core (ogłoszony ~June 2026) + 12-mies. PoC agreement z global consumer electronics leader na conformable MicroLED wearables + debt conversion $2M w luty 2026 (accounts payable → akcje + warranty); seria 3 małych katalizatorów przez 4 miesiące bez single big trigger",
     "lesson": "Catalyst TRIAD w micro-cap deep tech: (1) balance sheet repair (debt→equity conversion), (2) enterprise PoC partnership z duża firmą, (3) M&A/acquisition LOI = kumulacja narratywu przez kwartał bez visible trigger; śledź spółki z WSZYSTKIMI trzema w ciągu 1-2 kwartałów — NASDAQ MCap <$50M deep tech (materials, displays, organics)"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "LASE",
+    "pct": 150.0,
+    "presignal": "DoD MEIA Vulcan anti-drone LSAD system selection (June 4, 4 dni przed głównym spike) + US Army DefenseTech traction (June 3) + CMS Laser $250K J&J medical device order (June 2, 6 dni wcześniej); triple catalyst stack budował się od June 2 zanim masa rynku zauważyła; spółka Laser Photonics micro-cap NASDAQ, cena od $0.82 (koniec maja) do $3.65 (June 8)",
+    "lesson": "DoD program qualifier selection dla counter-drone photonics (MEIA Vulcan Call for Solutions) + równoległy kontrakt medyczny ($250K J&J) + US Army traction = triple catalyst stack w micro-cap laser/defense; sygnały DoD były publiczne 4-6 dni przed główną kulminacją; śledź DoD 'Call for Solutions' selections i MEIA program awardy dla small-cap defense photonics/laser companies na NASDAQ — wzorzec analogiczny do PUSA/SWMR (Army qualifier + small-cap + brak coverage = asymetryczna okazja)"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "BGMS",
+    "pct": 76.0,
+    "presignal": "8-K Business Combination Agreement z Future NRG Sdn. Bhd. (Malezja, medwaste/energia) ogłoszony June 4 po zamknieciu gieldy; +225% after-hours przed otwarciem June 5; spółka micro-cap NASDAQ",
+    "lesson": "Ogłoszenia BCA/merger w formularzach 8-K i 425 składanych po 16:00 = pre-sygnał na ruch nastepnego dnia; sledz formularze SEC po godzinach (EDGAR 8-K feed) dla micro-cap NASDAQ — to nasza slaba strona; rozwazyc scraping nowych Form 425 wieczorami"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "STI",
+    "pct": 64.0,
+    "presignal": "Wolumen June 4: 101.6M vs avg <60K (>1600x normy!) + ogłoszenie 30-patentowej platformy baterii litu (space, AI datacenter) + Form 144 affiliate sale zlozony June 4; insider SELLING nie buying; przychody ledwo $85K — micro-cap hype spekulacyjny",
+    "lesson": "Ekstremalny wolumen >500x normy w micro-cap technologia (space/battery/AI) = marker do sledzenia nawet bez insider buy; dodac filtr wolumenu >100x dla spolok <$50M mcap; Form 144 po-godzinach + wolumen anomalia = sygnał wejscia spekulacyjnego na nastepny dzien"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "INDP",
+    "pct": 53.8,
+    "presignal": "10-Q Q1 2026: drastycznie obniżone saldo gotówki + disclosure poszukiwania financing alternatives i strategic options; warrant repricing agreement Feb 11 2026 (cena wykonania obniżona do $1.75); wolumen June 4: 44.28M vs avg 4.53M (~9.8x normy) = pre-squeeze confirmation",
+    "lesson": "Warrant repricing do bardzo niskiej ceny + disclosure 'strategic/financing alternatives' w 10-Q = 2-3 tyg. lead time na low-float squeeze w micro-cap biopharma; wolumen 9.8x normy z 10-Q disclosure = sygnał wejścia spekulacyjnego"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "NTCL",
+    "pct": 33.0,
+    "presignal": "$6M PIPE kwiecień 2026 + $1.67M kontrakt AI-service + launch AI-powered CEPA English Testing System (luty 2026) + MOU z RunSun Cloud (październik 2025) — seria małych katalizatorów narastała przez 1-2 kwartały przed wzrostem",
+    "lesson": "Catalyst stacking (PIPE + kontrakt AI + MOU + launch produktu) w small-cap edtech/AI przez 2-3 kwartały = kumulacja narratywu bez single big catalyst; śledź spółki z edtech/AI gdzie katalysatory kumulują się kwartalnie (NASDAQ, MCap <$50M)"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "JLHL",
+    "pct": 28.8,
+    "presignal": "5x Form 3 SEC (initial insider ownership statements) złożone March 24 2026 dla niedawnego listingu chińskiej spółki na NASDAQ (Julong Holding — intelligent security/city management, Beijing); brak pokrycia analityków; brak oczywistego katalizatora dnia w dniu wzrostu",
+    "lesson": "Śledź klaster Form 3 (initial ownership statements) dla niedawnych chińskich listingów na NASDAQ — 5+ Form 3 w krótkim czasie sygnalizuje instytucjonalną akumulację w toku; brak coverage analityków + forma 3 klaster + low float = pre-sygnał squeeze"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "SMTK",
+    "pct": 28.0,
+    "presignal": "LOI nabycia 100% Carbonium Core (ogłoszony ~June 2026) + 12-mies. PoC agreement z global consumer electronics leader na conformable MicroLED wearables + debt conversion $2M w luty 2026 (accounts payable → akcje + warranty); seria 3 małych katalizatorów przez 4 miesiące bez single big trigger",
+    "lesson": "Catalyst TRIAD w micro-cap deep tech: (1) balance sheet repair (debt→equity conversion), (2) enterprise PoC partnership z duża firmą, (3) M&A/acquisition LOI = kumulacja narratywu przez kwartał bez visible trigger; śledź spółki z WSZYSTKIMI trzema w ciągu 1-2 kwartałów — NASDAQ MCap <$50M deep tech (materials, displays, organics)"
   }
 ]
