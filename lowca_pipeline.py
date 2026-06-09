@@ -199,6 +199,47 @@ def _tp_pct(kind: str, c: LowcaConfig) -> float:
             "INSIDER": c.tp_insider, "FUND13F": c.tp_fund13f, "CONGRESS": c.tp_congress}.get(kind, 0.40)
 
 
+def signal_strength(d, c: LowcaConfig) -> tuple:
+    """SIŁA SYGNAŁU 1-10 (NIE prawdopodobieństwo zysku — to SPEKULACJA). Z istniejącego score,
+    z zabezpieczeniami: cap 8 gdy <2 niezależne potwierdzenia LUB R:R<2 (anti-inflacja, spec sceptyka).
+    Zwraca (liczba, słowo)."""
+    s = max(1, min(10, round(float(getattr(d, "score", 0)))))
+    if getattr(d, "confluence", 1) < 2 or getattr(d, "rr", 0) < c.min_rr_enter:
+        s = min(s, 8)
+    word = "wyjątkowa" if s >= 9 else "mocna" if s >= 7 else "średnia" if s >= 4 else "słaba"
+    return s, word
+
+
+def _reward_risk_str(d, c: LowcaConfig) -> str:
+    """Uczciwe 'ile razy X': potencjał (cel) vs ryzyko (stop) — BEZ wymyślonego prawdopodobieństwa."""
+    tp = _tp_pct(d.kind, c) * 100
+    sl = (d.stop_pct or _stop_pct(d.kind, c)) * 100
+    mult = 1.0 + tp / 100.0
+    return f"potencjał +{tp:.0f}% (×{mult:.2f}) / ryzyko −{sl:.0f}% · R:R {getattr(d,'rr',0):.1f}"
+
+
+def why_no_buys(decisions, free_cash_pln, c: LowcaConfig) -> str:
+    """PLAIN WHY-NOT (F3): wprost dlaczego 0 zakupów. Rozróżnia: brak gotówki / brak okazji / rozgrzane / trzymasz."""
+    low = lambda d: (d.reason or "").lower()
+    cash_p = [d for d in decisions if d.verdict == "PASS" and "gotówk" in low(d)]
+    score_p = [d for d in decisions if d.verdict == "PASS" and "score" in low(d)]
+    held_p = [d for d in decisions if d.verdict == "PASS" and "masz" in low(d)]
+    waits = [d for d in decisions if d.verdict == "CZEKAJ"]
+    parts = []
+    if cash_p:
+        parts.append(f"<b>Brak gotówki</b> — masz {(free_cash_pln or 0):.0f} zł, a najtańsza pozycja to ~{c.min_position_pln:.0f} zł. "
+                     f"{len(cash_p)} {'okazja czeka' if len(cash_p)==1 else 'okazji czeka'} na uwolnienie środków (sprzedaj coś = ruszą).")
+    if not decisions:
+        parts.append("<b>Brak okazji</b> — w sygnałach dziś nic nie znalazłem.")
+    elif score_p and not cash_p:
+        parts.append(f"<b>Brak mocnej okazji</b> — nic powyżej progu {c.buy_threshold:.0f}/10 dziś.")
+    if waits:
+        parts.append(f"{len(waits)} {'okazja' if len(waits)==1 else 'okazji'} <b>rozgrzana</b> (już +25%) — czekam na cofnięcie, nie gonię górki.")
+    if held_p:
+        parts.append(f"{len(held_p)} już trzymasz w portfelu.")
+    return " ".join(parts) if parts else "Żadna okazja nie przeszła progu dziś."
+
+
 def build_candidates(radar: dict, smart: dict, price_map=None, meta_map=None) -> "list[dict]":
     """Scala radar lensa + smart-money, deduplikuje po tickerze, liczy KONFLUENCJĘ.
     Konfluencja (N źródeł na spółkę) podbija score o +0.6*(N-1), max +1.5.
@@ -360,9 +401,11 @@ def decide_all(candidates, c: LowcaConfig, free_cash_pln=None, held=None, fx=Non
                     d.target_price_usd = round(d.price_usd * (1 + tp_pct), 2)
                     d.shares = _shares(intended, d.price_usd, fx)
                 d.risk_pln = round(intended * stop_pct, 0)
-                d.reason = (f"MOCNA okazja (score {d.score:.1f}, R:R {d.rr:.1f}) — masz tylko "
-                            f"{max(0.0, remaining):.0f} zł. Uwolnij ~{need:.0f} zł (przytnij część "
-                            f"najsłabszej pozycji), by ją sfinansować.")
+                _s, _w = signal_strength(d, c)
+                d.reason = (f"Siła sygnału {_s}/10 ({_w}, SPEKULACJA — nie pewniak). Masz {max(0.0, remaining):.0f} zł. "
+                            f"Rozważ uwolnienie ~{need:.0f} zł — przytnij część NAJSŁABSZEJ pozycji (bilans wieczorem "
+                            f"wskaże którą; zwycięzcę w trendzie NIE ruszaj), kup TYLKO do limitu sleeve 15%. "
+                            f"{_reward_risk_str(d, c)}.")
                 continue
             if free_cash_pln is not None and cash_limited:
                 d.verdict = "PASS"; d.reason = f"za mało wolnej gotówki (zostało {max(0.0, remaining):.0f} zł)"
@@ -638,6 +681,10 @@ def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
         P.append(_card_open("Decyzje KUP — gotowe zlecenia na XTB",
                             "Wykonaj o 15:30 w xStation. Ceny w USD; kwoty w zł."))
         for d in buys:
+            _str, _word = signal_strength(d, c)
+            sig_line = (f"<b style='color:{DARK};font-size:13pt;'>Siła sygnału {_str}/10</b> "
+                        f"<span style='color:{MUTED};'>(spekulacja, NIE pewniak)</span> — {_word}.<br>"
+                        f"<span style='color:{TEXT};font-size:11.5pt;'>{_reward_risk_str(d, c)}</span><br>")
             conf_badge = ""
             if d.confluence > 1:
                 conf_badge = (f"<span style='display:inline-block;{SANS}font-size:10pt;font-weight:bold;color:#166534;"
@@ -650,16 +697,16 @@ def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
             else:
                 do_html = (f"Kup <b>{d.ticker}</b> za <b>{d.size_pln:,.0f} zł</b> po cenie rynkowej. "
                            f"Ustaw Sell Stop −{d.stop_pct*100:.0f}% (brak ceny w sygnale).")
-            why_html = (f"{conf_badge}{d.note or 'Okazja spekulacyjna.'} "
+            why_html = (f"{sig_line}{conf_badge}{d.note or 'Okazja spekulacyjna.'} "
                         f"<br><span style='color:{RED};font-weight:bold;'>Ryzyko jeśli stop: {d.risk_pln:,.0f} zł.</span> "
-                        f"<span style='color:{MUTED};'>Typ: {kind_label.get(d.kind, d.kind)} · score {d.score:.1f}/10 · {d.risk or 'WYSOKIE'}.</span>")
+                        f"<span style='color:{MUTED};'>Typ: {kind_label.get(d.kind, d.kind)} · {d.risk or 'WYSOKIE'} ryzyko.</span>")
             P.append(_action_block(company=d.ticker, order="Zlecenie: KUP po cenie rynkowej + Sell Stop",
                                    order_color=GREEN, bar_color=GREEN, do_html=do_html, why_html=why_html))
         P.append("</div>")
     else:
         P.append(_card_open("Decyzje KUP — gotowe zlecenia na XTB") +
                  f"<div style='{SANS}font-size:13pt;color:{TEXT};line-height:1.6;'>"
-                 f"<b>Dziś nie kupujemy.</b> Żadna okazja nie przeszła progu, zabrakło gotówki albo już masz tę spółkę.</div></div>")
+                 f"<b>Dziś nie kupujemy.</b> {why_no_buys(decisions, free_cash_pln, c)}</div></div>")
 
     # ROTACJA KAPITAŁU — mocna okazja, ale brak gotówki -> uwolnij środki sprzedażą
     if rotations:
@@ -951,7 +998,8 @@ def _run_selftest() -> int:
     rot = decide_all([{"ticker":"ROTX","kind":"IPO","score":9.0,"confluence":3,"price_usd":20.0}],
                      c, free_cash_pln=10.0, fx=3.64)
     ok("Mocna okazja (score 9) + brak gotowki -> ROTACJA", rot[0].verdict == "ROTACJA")
-    ok("ROTACJA niesie sugestie uwolnienia gotowki", rot[0].verdict == "ROTACJA" and "Uwolnij" in rot[0].reason)
+    ok("ROTACJA niesie sugestie uwolnienia gotowki", rot[0].verdict == "ROTACJA" and "uwolni" in rot[0].reason.lower())
+    ok("ROTACJA: jezyk bezpieczny (spekulacja nie pewniak)", "SPEKULACJA" in rot[0].reason and "nie pewniak" in rot[0].reason)
     ok("ROTACJA ma konkretny rozmiar i stop", rot[0].size_pln >= c.min_position_pln and rot[0].stop_price_usd > 0)
     weak = decide_all([{"ticker":"WEAKX","kind":"KONTRAKT","score":6.5,"confluence":1,"price_usd":20.0}],
                       c, free_cash_pln=10.0, fx=3.64)
