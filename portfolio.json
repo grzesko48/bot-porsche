@@ -1,16 +1,7 @@
 {
-  "cash_pln": 5.73,
+  "cash_pln": 51.46,
   "positions": [],
   "managed_positions": [
-    {
-      "ticker": "MRVL",
-      "shares": 0.0476,
-      "entry_price_usd": 284.84,
-      "entry_date": "2026-06-04",
-      "stop_loss_usd": 262.76,
-      "high_water_mark_usd": 284.84,
-      "days_held": 5
-    },
     {
       "ticker": "SAP",
       "shares": 0.799,
@@ -39,5 +30,5 @@
       "days_held": 10
     }
   ],
-  "updated_utc": "2026-06-09T15:23:17+00:00"
+  "updated_utc": "2026-06-09T15:34:00+00:00"
 }
