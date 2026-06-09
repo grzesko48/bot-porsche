@@ -145,5 +145,12 @@
     "pct": 28.8,
     "presignal": "5x Form 3 SEC (initial insider ownership statements) złożone March 24 2026 dla niedawnego listingu chińskiej spółki na NASDAQ (Julong Holding — intelligent security/city management, Beijing); brak pokrycia analityków; brak oczywistego katalizatora dnia w dniu wzrostu",
     "lesson": "Śledź klaster Form 3 (initial ownership statements) dla niedawnych chińskich listingów na NASDAQ — 5+ Form 3 w krótkim czasie sygnalizuje instytucjonalną akumulację w toku; brak coverage analityków + forma 3 klaster + low float = pre-sygnał squeeze"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "NUVL",
+    "pct": 39.4,
+    "presignal": "FDA NDA dla neladalkib z Priority Review zaakceptowana (PDUFA 2026-11-27, ALK-positive NSCLC) — widoczna PRZED ogłoszeniem; Bernstein launched Outperform $189 target ('best idea and top pick') — agresywny target 2-3x ceny oznaczał potencjał M&A; TipRanks: 'Why Nuvalent rebounding after rout' — stock odrabiał PRZED ogłoszeniem (rynek wyczuł deal); GSK acquisition $10.6B ($124/share, 40% premium) ogłoszone June 9 rano; wszystkie 3 pre-sygnały dostępne dni przed ogłoszeniem",
+    "lesson": "Biotech z FDA Priority Review NDA + agresywna inicjacja analityka (target 2-3x bieżąca cena, 'best idea') + stock 'nagle odrabia po rout' bez wyraźnego powodu = klasyczny pre-M&A pattern; sledź biotech gdzie analityk daje target 2x+ ceny + FDA Priority Review w ostatnich 30 dniach = buyout watch; GSK-NUVL-pattern do screenera"
   }
 ]

@@ -103,5 +103,12 @@
     "day": "2026-06-09",
     "presignal": "Q1 2026 revenue $50M (11x YoY wzrost) ogłoszony wcześniej; $20.9M US Army C100 UAS contract; $4.8M Navy Maritime Domain Awareness contract; Drone Factory 01 otwarta Huntsville AL; 8 analityków Strong Buy avg target $20.13 (+51% upside); wszystkie trzy pre-sygnały dostępne PRZED dzisiejszym +23%",
     "lesson": "Revenue step-change 11x YoY + dual DoD contracts Army + Navy w tym samym kwartale = bot nie miał ONDS na radarze mimo dostępnych sygnałów; dodać filtr: Q1 revenue >10x YoY + >=2 DoD contracts w kwartale dla NASDAQ drone/UAS MCap <$200M = silny pre-sygnał reratingowy"
+  },
+  {
+    "ticker": "NUVL",
+    "pct": 39.36,
+    "day": "2026-06-09",
+    "presignal": "FDA NDA dla neladalkib z Priority Review zaakceptowana (PDUFA 2026-11-27, ALK-positive NSCLC) — widoczna PRZED ogłoszeniem; Bernstein launched Outperform $189 target ('best idea and top pick') — agresywny target 2-3x ceny oznaczał potencjał M&A; TipRanks: 'Why Nuvalent rebounding after rout' — stock odrabiał PRZED ogłoszeniem (rynek wyczuł deal); GSK acquisition $10.6B ($124/share, 40% premium) ogłoszone June 9 rano; wszystkie 3 pre-sygnały dostępne dni przed ogłoszeniem",
+    "lesson": "Biotech z FDA Priority Review NDA + agresywna inicjacja analityka (target 2-3x bieżąca cena, 'best idea') + stock 'nagle odrabia po rout' bez wyraźnego powodu = klasyczny pre-M&A pattern; sledź biotech gdzie analityk daje target 2x+ ceny + FDA Priority Review w ostatnich 30 dniach = buyout watch; GSK-NUVL-pattern do screenera"
   }
 ]
