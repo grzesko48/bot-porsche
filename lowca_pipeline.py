@@ -458,20 +458,39 @@ def _load_decisions_log(path="lowca_decisions_log.json") -> list:
         return []
 
 
-def log_decisions(decisions, today, path="lowca_decisions_log.json", spy_usd=None) -> dict:
-    """FORWARD-TEST: dopisuje dzisiejsze decyzje KUP do dziennika (append-only, idempotentnie po id).
-    Dzięki temu można PÓŹNIEJ zmierzyć realny edge rekomendacji łowcy vs SPY (track record na żywo).
-    Loguje tylko BUY (faktyczne rekomendacje). Nigdy nie wywala biegu (bezpieczne try/except)."""
+def _is_conviction_call(d, thr: float) -> bool:
+    """Czy decyzja to PRAWDZIWY wybór bota (warto zapisac do nauki), nawet jesli nie kupiles.
+    Liczy sie: score >= prog ORAZ (KUP/CZEKAJ/ROTACJA) lub PASS z powodu BRAKU GOTOWKI.
+    Pomija: PASS bo 'juz masz' (nie nowy sygnal) i PASS bo score < prog (brak przekonania)."""
+    if float(getattr(d, "score", 0)) < thr:
+        return False
+    if d.verdict in ("BUY", "ROTACJA", "CZEKAJ"):
+        return True
+    if d.verdict == "PASS" and "gotówk" in (getattr(d, "reason", "") or "").lower():
+        return True
+    return False
+
+
+def log_decisions(decisions, today, path="lowca_decisions_log.json", spy_usd=None, c=None) -> dict:
+    """FORWARD-TEST SYGNALU: loguje KAZDA decyzje z przekonaniem (score>=prog) — KUP/CZEKAJ/ROTACJA/
+    'chcialem-brak-gotowki' — NIEZALEZNIE czy kupiles. Bot uczy sie z tego, co WYBRAL, nawet bez zakupu.
+    Kazdy wpis ma stop/cel (policzone z typu gdy brak), by scoreboard zmierzyl go tak samo (zwrot + alfa).
+    Pole 'bought' = czy realnie kupowalne (KUP). Append-only, idempotentnie po id. Nigdy nie wywala biegu."""
     log = _load_decisions_log(path)
-    buys = [d for d in (decisions or []) if d.verdict == "BUY"]
-    if not today or not buys:
+    thr = c.buy_threshold if c is not None else 6.0
+    tracked = [d for d in (decisions or []) if _is_conviction_call(d, thr)]
+    if not today or not tracked:
         return {"added": 0, "total": len(log)}
     seen = {r.get("id") for r in log}
     added = 0
-    for d in buys:
+    for d in tracked:
         rid = f"{today}-{d.ticker.upper()}"
         if rid in seen:
             continue
+        entry = round(d.price_usd, 2) if d.price_usd else None
+        # stop/cel: z decyzji jesli sa, inaczej policz z typu — by scoreboard scorowal TEZ nie-kupione
+        stop = round(d.stop_price_usd, 2) if d.stop_price_usd else (round(entry * (1 - _stop_pct(d.kind, c)), 2) if (entry and c is not None) else None)
+        tgt = round(d.target_price_usd, 2) if d.target_price_usd else (round(entry * (1 + _tp_pct(d.kind, c)), 2) if (entry and c is not None) else None)
         log.append({
             "id": rid,
             "date": today,
@@ -480,14 +499,16 @@ def log_decisions(decisions, today, path="lowca_decisions_log.json", spy_usd=Non
             "kinds": d.kinds,
             "confluence": d.confluence,
             "score": round(d.score, 2),
-            "entry_usd": round(d.price_usd, 2) if d.price_usd else None,
-            "stop_usd": round(d.stop_price_usd, 2) if d.stop_price_usd else None,
-            "target_usd": round(d.target_price_usd, 2) if d.target_price_usd else None,
+            "verdict": d.verdict,                # KUP/CZEKAJ/ROTACJA/PASS — czego bot CHCIAL
+            "bought": d.verdict == "BUY",        # czy realnie kupowalne; reszta = sygnal 'shadow' (uczymy sie i tak)
+            "entry_usd": entry,
+            "stop_usd": stop,
+            "target_usd": tgt,
             "shares": round(d.shares, 4) if d.shares else None,
             "size_pln": round(d.size_pln, 0),
             "risk_pln": round(d.risk_pln, 0),
-            "rr": d.rr,                          # asymetria (do walidacji EV agenta przez scoreboard)
-            "ev_pct": d.ev_pct,                  # EV od agenta (jeśli podał) — scoreboard sprawdzi korelację z wynikiem
+            "rr": d.rr,
+            "ev_pct": d.ev_pct,
             "spy_at_entry": round(float(spy_usd), 2) if spy_usd else None,  # benchmark do ALFY (scoreboard.py)
             "status": "OPEN",   # scoring T+30/+90 robi scoreboard.py: OPEN -> WIN / LOSS / STOP
         })
@@ -763,7 +784,7 @@ def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
                        f"<td style='{td}text-align:right;color:{DARK};font-weight:bold;'>{r.get('score','')}</td></tr>")
         more = (f"Pokazane {len(recent)} z {len(track)}. " if len(track) > len(recent) else "")
         P.append(_card_open(f"Dziennik decyzji łowcy — {len(track)} rekomendacji",
-                            "Track record na żywo: każda decyzja KUP zapisana, by uczciwie zmierzyć skuteczność.") +
+                            "Track record na żywo: KAŻDY mój wybór (kupiony czy nie — KUP/CZEKAJ/rotacja) zapisany i mierzony vs SPY. Uczę się ze wszystkiego, co wybrałem.") +
                  f"<table style='width:100%;border-collapse:collapse;'>{rows_t}</table>"
                  f"<div style='{SANS}font-size:10pt;color:{MUTED};margin-top:10px;'>{more}"
                  f"Wynik (WIN/LOSS) dojdzie po T+30/+90 dni — wtedy zmierzymy realny edge vs SPY.</div></div>")
@@ -814,7 +835,7 @@ def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
     spy_now = sb.fetch_spy_yf() if sb else None   # benchmark do ALFY (stempel wejścia + scoring scoreboardu)
     if today:
         try:
-            res_log = log_decisions(decisions, today, spy_usd=spy_now)
+            res_log = log_decisions(decisions, today, spy_usd=spy_now, c=c)
             track = _load_decisions_log()
             print(f"Dziennik decyzji: +{res_log['added']} (łącznie {res_log['total']}).")
         except Exception as e:
@@ -955,6 +976,20 @@ def _run_selftest() -> int:
                              held=held, today="2026-06-04", track=loaded)
         ok("HTML: karta Dziennik decyzji obecna", "Dziennik decyzji" in html_t)
         ok("Dziennik: brak crasha gdy brak BUY/daty", log_decisions([], "", path=test_log)["added"] == 0)
+        # NAUKA Z WYBOROW (nie tylko zakupow): CZEKAJ/brak-gotowki tez logowane z flaga bought
+        conv = decide_all([
+            {"ticker":"CZK","kind":"WOLUMEN","score":7.5,"confluence":1,"price_usd":15.0,"pct_1m":40.0},
+            {"ticker":"NOC","kind":"KONTRAKT","score":7.0,"confluence":1,"price_usd":30.0}],
+            c, free_cash_pln=10.0, fx=3.64)
+        clog = "lowca_conv_TEST.json"
+        if os.path.exists(clog): os.remove(clog)
+        rc = log_decisions(conv, "2026-06-09", path=clog, c=c)
+        cl = _load_decisions_log(clog)
+        ok("Nauka: CZEKAJ/brak-gotowki tez zapisane (nie tylko BUY)", rc["added"] >= 1)
+        ok("Nauka: wpisy maja verdict + bought + stop/cel", bool(cl) and all(
+            ("verdict" in x and "bought" in x and x.get("stop_usd") is not None) for x in cl))
+        ok("Nauka: nie-kupione maja bought=False", any(x.get("bought") is False for x in cl))
+        if os.path.exists(clog): os.remove(clog)
     except Exception as e:
         ok(f"Dziennik decyzji bez bledu ({e})", False)
     finally:
