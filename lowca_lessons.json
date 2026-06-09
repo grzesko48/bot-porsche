@@ -117,5 +117,33 @@
     "pct": 28.0,
     "presignal": "LOI nabycia 100% Carbonium Core (ogłoszony ~June 2026) + 12-mies. PoC agreement z global consumer electronics leader na conformable MicroLED wearables + debt conversion $2M w luty 2026 (accounts payable → akcje + warranty); seria 3 małych katalizatorów przez 4 miesiące bez single big trigger",
     "lesson": "Catalyst TRIAD w micro-cap deep tech: (1) balance sheet repair (debt→equity conversion), (2) enterprise PoC partnership z duża firmą, (3) M&A/acquisition LOI = kumulacja narratywu przez kwartał bez visible trigger; śledź spółki z WSZYSTKIMI trzema w ciągu 1-2 kwartałów — NASDAQ MCap <$50M deep tech (materials, displays, organics)"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "PAVS",
+    "pct": 795.0,
+    "presignal": "Registered direct offering $5M (March 24 2026, 85 dni przed spikes) — klasyczny low-float squeeze setup; prior close $0.94; NASDAQ listing; MCap ultra-micro; brak oczywistego katalizatora dnia w dniu wzrostu",
+    "lesson": "Ultra-low float + registered direct offering ($5M) = pre-squeeze setup widoczny 85+ dni wcześniej dla Chinese micro-cap NASDAQ; brak catalyst dnia sugeruje squeeze/pump dynamics na niskim float; wzorzec: niedawny PIPE/direct offering + ultra-micro-cap NASDAQ + brak coverage = klaster pump candidates; ekstremalne ruchy (>500%) możliwe na prawie zero wolumenie normalnym"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "CHAI",
+    "pct": 285.0,
+    "presignal": "JV z Allianca Group na AI data center capacity (April 14 2026) + appointment Sonali Garg do Advisory Board (May 5 2026) + MOU z CSPM Resources (Malaysia, Feb 4 2026) — 3 catalyst w ciągu 4 miesięcy bez single big trigger; 6-K filing May 26 2026 = ostatni pre-sygnał",
+    "lesson": "NTCL-pattern w AI data center small-cap: JV + advisory board + MOU (catalyst stacking przez 4 mies.) kumuluje narratyw AI datacenter infra bez jednego dużego katalizatora; śledź zagraniczne listingi NASDAQ (Cayman/HK-registered) z JV AI datacenter + government advisory appointments + MOU Asia-Pacific — to wzorzec identyczny z NTCL edtech; 6-K filings to odpowiednik 8-K dla zagranicznych emitentów = pre-sygnał"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "INDP",
+    "pct": 53.8,
+    "presignal": "10-Q Q1 2026: drastycznie obniżone saldo gotówki + disclosure poszukiwania financing alternatives i strategic options; warrant repricing agreement Feb 11 2026 (cena wykonania obniżona do $1.75); wolumen June 4: 44.28M vs avg 4.53M (~9.8x normy) = pre-squeeze confirmation",
+    "lesson": "Warrant repricing do bardzo niskiej ceny + disclosure 'strategic/financing alternatives' w 10-Q = 2-3 tyg. lead time na low-float squeeze w micro-cap biopharma; wolumen 9.8x normy z 10-Q disclosure = sygnał wejścia spekulacyjnego"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "JLHL",
+    "pct": 28.8,
+    "presignal": "5x Form 3 SEC (initial insider ownership statements) złożone March 24 2026 dla niedawnego listingu chińskiej spółki na NASDAQ (Julong Holding — intelligent security/city management, Beijing); brak pokrycia analityków; brak oczywistego katalizatora dnia w dniu wzrostu",
+    "lesson": "Śledź klaster Form 3 (initial ownership statements) dla niedawnych chińskich listingów na NASDAQ — 5+ Form 3 w krótkim czasie sygnalizuje instytucjonalną akumulację w toku; brak coverage analityków + forma 3 klaster + low float = pre-sygnał squeeze"
   }
 ]

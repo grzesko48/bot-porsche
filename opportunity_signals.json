@@ -52,6 +52,18 @@
       "price_usd": 32.22,
       "pct_1m": 19,
       "catalyst": "INNIO Holding IPO June 4 2026 na NASDAQ (upsized $2.43B, 90M akcji @ $27); producent systemów power generation dla AI data centers (Jenbacher + Waukesha brands); data center orders eksplodowały z $309M do $1B YoY (+224%); lider distributed power generation dla microgrids i grid stabilization; IPO momentum + AI datacenter tailwind"
+    },
+    {
+      "ticker": "AVEX",
+      "name": "AEVEX Corp",
+      "age_months": 0,
+      "pct_from_ipo": -15,
+      "volume_mult": 2.5,
+      "price_usd": 22.87,
+      "pct_1m": -15,
+      "catalyst": "AEVEX Corp IPO NYSE June 3 2026 ($27/akcję, $312M oferta); Air Force $15.6M kontrakt (UAS mission capabilities + modular airborne) + $18.5M Air Force (Group 3 additive manufactured drones) = $34.1M łącznie; trading -15% poniżej ceny IPO ($27) = buy-the-dip; avg analyst target $36 (Strong Buy, 8 analityków = +57% upside); drone defense lider aligned z DoD $901B budget 2026",
+      "still_upside": true,
+      "upside_reason": "$22.87 vs IPO $27 (-15%) i avg analyst $36 (+57%); $34.1M AF contracts potwierdzonych; 8/8 analityków Strong Buy; DoD drone budżet accelerating; 52-wk high $42.34 = powrót możliwy gdy sentiment wróci"
     }
   ],
   "volume": [
@@ -124,6 +136,15 @@
       "catalyst": "SHIELD IDIQ $151B DoD vehicle (Golden Dome missile defense) — prawo do konkurowania; aktywne kontrakty DARPA/NASA/AFRL/SDA/Missile Defense Agency; przychody 2026 forecast $10M (9X r/r); $26.2M gotówka; $25M PIPE maj 2026",
       "still_upside": true,
       "upside_reason": "SHIELD IDIQ $151B = wieloletni pipeline kontraktowy Golden Dome; $10M przychody 2026 vs ~$60M MCap = P/S 6x przy 9X wzroście = rozsądna wycena dla space/defense; $26.2M cash = 12+ mies. runway; dopiero początek Golden Dome realizacji"
+    },
+    {
+      "ticker": "AVEX",
+      "name": "AEVEX Corp",
+      "price_usd": 22.87,
+      "pct_1m": -15,
+      "catalyst": "US Air Force $15.6M kontrakt (zaawansowane UAS mission capabilities + modular airborne systems integration) + $18.5M Air Force kontrakt (Group 3 additive manufactured drones) = $34.1M łącznie; IPO NYSE June 3 2026 @ $27 → teraz $22.87 (-15%); lider drone defense z certyfikowanymi UAS dla USAF",
+      "still_upside": true,
+      "upside_reason": "$34.1M AF contracts; IPO discount -15% od ceny emisji; avg analyst $36 (+57% upside); Strong Buy (8/8 analityków); DoD $901B FY2026 budget z priorytetem UAS; 52-wk high $42.34"
     }
   ],
   "insider": [
