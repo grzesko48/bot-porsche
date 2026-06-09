@@ -781,5 +781,77 @@
     "reason": "trzymam (P/L +1.4%)",
     "fraction": 1.0,
     "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "MRVL",
+    "action": "HOLD",
+    "rule": 0,
+    "reason": "BRAK DANYCH RYNKOWYCH — nie oceniono ryzyka (sprawdź ręcznie)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "SAP",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +2.0%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "ASML",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +10.6%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +0.8%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "MRVL",
+    "action": "HOLD",
+    "rule": 0,
+    "reason": "BRAK DANYCH RYNKOWYCH — nie oceniono ryzyka (sprawdź ręcznie)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "SAP",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +1.8%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "ASML",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +10.2%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +0.2%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
   }
 ]

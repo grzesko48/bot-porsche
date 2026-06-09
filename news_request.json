@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T14:40",
+  "generated": "2026-06-09T15:23",
   "freshness_days": 7,
   "instruction": "Dla każdego tickera sprawdź przez web_search świeże (<=7 dni) newsy. Oceń czy jest ISTOTNY katalizator (kontrakt, przejęcie/fuzja, zmiana prognoz, premiera produktu, decyzja regulatora, ważna rekomendacja). Szum PR/marketing = has_catalyst:false. Wymagaj >=2 niezależnych źródeł dla has_catalyst:true. Świeżość ponad pamięć: TYLKO to, co znajdziesz teraz.",
   "schema_example": {
