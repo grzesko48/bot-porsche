@@ -99,11 +99,29 @@
       "ticker": "RCAT",
       "name": "Red Cat Holdings",
       "volume_mult": 4.0,
-      "price_usd": 12.68,
-      "pct_1m": 25,
-      "catalyst": "Blue UAS certified drones (Black Widow + Teal 2) + ACS Bullfrog counter-drone integration; avg analyst target $22 (Strong Buy, 6 analityków) = +74% upside od obecnej ceny; -14% today (Clear Street lowered $22→$19 June 6) = potencjalny buy-the-dip; Future Force Capabilities show Jun 8-10; DARPA Perdix + DoD Blue UAS backlog",
+      "price_usd": 12.46,
+      "pct_1m": 41,
+      "catalyst": "US Army SRR Program win (Black Widow soldier-portable sUAS 5880 systemów/5 lat) + Japan MoD 173 Black Widow systems (April 30 2026, ATLA competitive win) + US Army Threat Analysis Kit z SPAI (June 2) + Trump Drone Dominance $1.1B program (RCAT wskazany beneficjent); -14% od szczytu $14.95 = buy-the-dip w trendzie; avg analyst target $19-25 (+53-101% od $12.46)",
       "still_upside": true,
-      "upside_reason": "Avg analyst $22 vs $12.68 = 74% upside; Blue UAS certified = mandatory inclusion w Army procurement; -14% today to reakcja na downgrade jednego analityka (Clear Street $19), nie na pogorszenie fundamentów; counter-drone rynek $10B+ by 2030; S&P eligibility przy dalszym wzroście"
+      "upside_reason": "Avg analyst target $19-25 vs $12.46 = 53-101% upside; Blue UAS certified = mandatory Army procurement; -14% od szczytu to reakcja na Clear Street downgrade (nie pogorszenie fundamentów); Japan MoD = pierwszy kontrakt Asia-Pacific z planami licensed manufacturing; Drone Dominance program multi-year = strukturalny tailwind"
+    },
+    {
+      "ticker": "ONDS",
+      "name": "Ondas Holdings Inc",
+      "volume_mult": 6.0,
+      "price_usd": 13.33,
+      "pct_1m": 50,
+      "catalyst": "$20.9M US Army C100 UAS contract + $4.8M Navy Maritime Domain Awareness contract (World View balloon system) + Q1 2026 revenue $50M (11x YoY wzrost); Drone Factory 01 otwarta (90K sqft, Huntsville AL); dziś +23.42% na dużym wolumenie",
+      "still_upside": true,
+      "upside_reason": "Q1 revenue step-change do $50M (11x YoY) sygnalizuje genuine scale-up; avg analyst target $20.13 (+51% upside od $13.33); dual DoD contracts Army + Navy = zdywersyfikowany pipeline; 8 analityków Strong Buy; Drone Factory 01 = zdolności produkcyjne online"
+    },
+    {
+      "ticker": "SLGB",
+      "name": "Smart Logistics Global Limited",
+      "volume_mult": 84.0,
+      "price_usd": 1.12,
+      "pct_1m": 87,
+      "catalyst": "BRAK jasnego katalizatora — dziś +114% na 84x normalnego wolumenu (55.8M vs avg 665K); chiński micro-cap B2B logistics NASDAQ; NASDAQ compliance deadline Oct 28 2026; wzorzec PAVS/JLHL squeeze bez fundamentalnego triggera"
     }
   ],
   "contract": [
@@ -135,7 +153,7 @@
       "name": "Laser Photonics Corp",
       "price_usd": 3.65,
       "pct_1m": 234,
-      "catalyst": "DoD MEIA Vulcan anti-drone LSAD system selection (DoW Call for Solutions) + US Army traction + CMS Laser $250K J&J medical device order (precision drilling) — triple catalyst micro-cap laser defense tech",
+      "catalyst": "DoD MEIA Vulcan anti-drone LSAD system selection + US Army traction + CMS Laser $250K J&J medical device order — triple catalyst micro-cap laser defense tech; PARABOLA — pct_1m +234%",
       "still_upside": false
     },
     {
@@ -164,20 +182,46 @@
     {
       "ticker": "MNTS",
       "name": "Momentus Inc",
-      "price_usd": 4.80,
-      "pct_1m": 40,
-      "catalyst": "SHIELD IDIQ $151B DoD vehicle (Golden Dome missile defense) — prawo do konkurowania; aktywne kontrakty DARPA/NASA/AFRL/SDA/Missile Defense Agency; przychody 2026 forecast $10M (9X r/r); $26.2M gotówka; $25M PIPE maj 2026",
-      "still_upside": true,
-      "upside_reason": "SHIELD IDIQ $151B = wieloletni pipeline kontraktowy Golden Dome; $10M przychody 2026 vs ~$60M MCap = P/S 6x przy 9X wzroście = rozsądna wycena dla space/defense; $26.2M cash = 12+ mies. runway; dopiero początek Golden Dome realizacji"
+      "price_usd": 13.15,
+      "pct_1m": 188,
+      "catalyst": "SHIELD IDIQ $151B DoD vehicle (Golden Dome missile defense) — prawo do konkurowania; aktywne kontrakty DARPA/NASA/AFRL/SDA/MDA; przychody 2026 forecast $10M (9X r/r); PARABOLA — wzrost z $4.57 (1 maja) do $13.15 = +188% w 1 miesiąc",
+      "still_upside": false
     },
     {
       "ticker": "AVEX",
       "name": "AEVEX Corp",
       "price_usd": 22.87,
       "pct_1m": -15,
-      "catalyst": "US Air Force $15.6M kontrakt (zaawansowane UAS mission capabilities + modular airborne systems integration) + $18.5M Air Force kontrakt (Group 3 additive manufactured drones) = $34.1M łącznie; IPO NYSE June 3 2026 @ $27 → teraz $22.87 (-15%); lider drone defense z certyfikowanymi UAS dla USAF",
+      "catalyst": "US Air Force $15.6M kontrakt + $18.5M Air Force (additive manufactured drones) = $34.1M łącznie; IPO NYSE June 3 2026 @ $27 → teraz $22.87 (-15%); lider drone defense z certyfikowanymi UAS dla USAF; avg analyst target $36 (Strong Buy 8/8 analityków)",
       "still_upside": true,
       "upside_reason": "$34.1M AF contracts; IPO discount -15% od ceny emisji; avg analyst $36 (+57% upside); Strong Buy (8/8 analityków); DoD $901B FY2026 budget z priorytetem UAS; 52-wk high $42.34"
+    },
+    {
+      "ticker": "RCAT",
+      "name": "Red Cat Holdings",
+      "price_usd": 12.46,
+      "pct_1m": 41,
+      "catalyst": "US Army SRR Program win + Japan MoD 173 Black Widow systems + Army Threat Analysis Kit (June 2) + Trump Drone Dominance $1.1B; -14% od szczytu $14.95 = cofnięcie w trendzie wzrostowym",
+      "still_upside": true,
+      "upside_reason": "Analyst targets $19-25 vs $12.46; Blue UAS certified = mandatory procurement; Japan MoD Asia-Pacific foothold; Drone Dominance multi-year tailwind"
+    },
+    {
+      "ticker": "ONDS",
+      "name": "Ondas Holdings Inc",
+      "price_usd": 13.33,
+      "pct_1m": 50,
+      "catalyst": "$20.9M US Army C100 UAS contract + $4.8M Navy Maritime Domain Awareness + Q1 revenue $50M (11x YoY); Drone Factory 01 otwarta (90K sqft Huntsville AL); 8 analityków Strong Buy, avg target $20.13",
+      "still_upside": true,
+      "upside_reason": "Revenue step-change 11x YoY do $50M = genuine scale-up; avg analyst $20.13 (+51% upside); dual DoD contracts; Drone Factory zdolności produkcyjne"
+    },
+    {
+      "ticker": "SIDU",
+      "name": "Sidus Space Inc",
+      "price_usd": 3.32,
+      "pct_1m": 2,
+      "catalyst": "MDA SHIELD IDIQ $151B ceiling (grudzień 2025) — dostęp do Golden Dome task orders; Russell 2000/3000/Microcap inclusion efektywna June 26 2026 (forced index buying za 17 dni); oferta $100M (June 3) już zaabsorbowana przez rynek",
+      "still_upside": true,
+      "upside_reason": "Russell 2000/3000 forced buying June 26 = znana data katalizatora za 17 dni; MDA SHIELD = dostęp do $151B kontraktów obronnych (Golden Dome); cena pobita ofertą $100M ale overhang usunięty; pct_1m zaledwie +2% po dilution = czysty punkt wejścia"
     }
   ],
   "insider": [
@@ -279,6 +323,27 @@
       "catalyst": "Trump EO April 30 fixed-price contracting mandate: implementation guidance OMB due ~June 14 2026; VOYG specjalizuje się w fixed-price defense contracts = bezpośredni beneficjent regulacyjnego przełomu od cost-plus na fixed-price; raised guidance $230-255M; backlog $275M (+54%)",
       "price_usd": 41.55,
       "pct_1m": 10
+    },
+    {
+      "ticker": "RCAT",
+      "name": "Red Cat Holdings",
+      "catalyst": "Trump $1.1B Drone Dominance program — RCAT wskazany beneficjent w DoD (300K attack drones do 2027); Blue UAS certified = mandatory procurement; Army SRR Program + Japan MoD",
+      "price_usd": 12.46,
+      "pct_1m": 41
+    },
+    {
+      "ticker": "ONDS",
+      "name": "Ondas Holdings Inc",
+      "catalyst": "Trump Drone Dominance program tailwind + dual DoD contracts ($20.9M Army + $4.8M Navy) + Q1 revenue 11x YoY; Drone Factory 01 = production scale-up aligned z Drone Dominance policy",
+      "price_usd": 13.33,
+      "pct_1m": 50
+    },
+    {
+      "ticker": "SIDU",
+      "name": "Sidus Space Inc",
+      "catalyst": "Trump Golden Dome missile defense initiative — SIDU ma dostęp do SHIELD IDIQ $151B jako preferowany dostawca AI-enabled sensing i multi-domain defense; Russell 2000 inclusion June 26",
+      "price_usd": 3.32,
+      "pct_1m": 2
     }
   ]
 }

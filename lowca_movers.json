@@ -89,5 +89,19 @@
     "day": "2026-05-28",
     "presignal": "$6M PIPE kwiecień 2026 + $1.67M kontrakt AI-service + launch AI-powered CEPA English Testing System (luty 2026) + MOU z RunSun Cloud (październik 2025) — seria małych katalizatorów narastała przez 1-2 kwartały przed wzrostem",
     "lesson": "Catalyst stacking (PIPE + kontrakt AI + MOU + launch produktu) w small-cap edtech/AI przez 2-3 kwartały = kumulacja narratywu bez single big catalyst; śledź spółki z edtech/AI gdzie katalysatory kumulują się kwartalnie (NASDAQ, MCap <$50M)"
+  },
+  {
+    "ticker": "SLGB",
+    "pct": 114,
+    "day": "2026-06-09",
+    "presignal": "NIEZNANY — brak jasnego katalizatora fundamentalnego; NASDAQ compliance deadline Oct 28 2026 (140 dni); chiński micro-cap B2B logistics ($628M revenue, P/S ~1, NASDAQ); wolumen 55.8M vs avg 665K = 84x normy bez żadnego news; szczyt intraday $3+ (premarket), zamknięcie ok $1.12; wzorzec identyczny z PAVS/JLHL (squeeze bez fundamentalnego triggera)",
+    "lesson": "Chinese micro-cap NASDAQ + NASDAQ compliance deadline + low float = squeeze candidate bez fundamentalnego katalizatora; wolumen 84x normy bez newsów = czysty pump/squeeze (PAVS-pattern); NIE gonić; dodać do screenera: NASDAQ compliance deadline <6 mies. + ultra-low MCap + chiński emitent = pre-squeeze watchlist"
+  },
+  {
+    "ticker": "ONDS",
+    "pct": 23,
+    "day": "2026-06-09",
+    "presignal": "Q1 2026 revenue $50M (11x YoY wzrost) ogłoszony wcześniej; $20.9M US Army C100 UAS contract; $4.8M Navy Maritime Domain Awareness contract; Drone Factory 01 otwarta Huntsville AL; 8 analityków Strong Buy avg target $20.13 (+51% upside); wszystkie trzy pre-sygnały dostępne PRZED dzisiejszym +23%",
+    "lesson": "Revenue step-change 11x YoY + dual DoD contracts Army + Navy w tym samym kwartale = bot nie miał ONDS na radarze mimo dostępnych sygnałów; dodać filtr: Q1 revenue >10x YoY + >=2 DoD contracts w kwartale dla NASDAQ drone/UAS MCap <$200M = silny pre-sygnał reratingowy"
   }
 ]

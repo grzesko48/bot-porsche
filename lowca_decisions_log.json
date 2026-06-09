@@ -18,7 +18,7 @@
     "status": "RECONCILED",
     "_note": "Faktyczna cena wejscia z XTB (4 czerwca @ 284.84, -49.64 PLN). Pozycja przeniesiona do managed_positions — sladowana przez bota rdzeniowego. Status RECONCILED = nie pokazuj podwojnie w tabeli.",
     "days_held": 5,
-    "ret_pct": -13.0,
+    "ret_pct": -13.6,
     "peak_ret_pct": 4.7,
     "executed": true
   },
@@ -45,9 +45,9 @@
     "spy_at_entry": 757.09,
     "status": "OPEN",
     "days_held": 5,
-    "ret_pct": -24.6,
+    "ret_pct": -22.0,
     "peak_ret_pct": -18.4,
-    "alpha_pct": -20.2
+    "alpha_pct": -17.7
   },
   {
     "id": "2026-06-05-MRVL",
@@ -72,9 +72,9 @@
     "spy_at_entry": 737.55,
     "status": "STOP",
     "days_held": 4,
-    "ret_pct": -19.8,
+    "ret_pct": -20.4,
     "peak_ret_pct": -13.2,
-    "alpha_pct": -18.0,
+    "alpha_pct": -18.6,
     "executed": true
   },
   {
@@ -127,9 +127,9 @@
     "spy_at_entry": 737.55,
     "status": "OPEN",
     "days_held": 4,
-    "ret_pct": -24.6,
+    "ret_pct": -22.0,
     "peak_ret_pct": -18.4,
-    "alpha_pct": -22.8
+    "alpha_pct": -20.3
   },
   {
     "id": "2026-06-05-CRWV",
@@ -154,9 +154,9 @@
     "spy_at_entry": 737.55,
     "status": "OPEN",
     "days_held": 4,
-    "ret_pct": -12.1,
+    "ret_pct": -12.4,
     "peak_ret_pct": -6.4,
-    "alpha_pct": -10.3
+    "alpha_pct": -10.6
   },
   {
     "id": "2026-06-05-CRCL",
@@ -181,9 +181,9 @@
     "spy_at_entry": 737.55,
     "status": "OPEN",
     "days_held": 4,
-    "ret_pct": -12.1,
+    "ret_pct": -12.3,
     "peak_ret_pct": -6.5,
-    "alpha_pct": -10.3
+    "alpha_pct": -10.6
   },
   {
     "id": "2026-06-06-MRVL",
@@ -208,7 +208,7 @@
     "spy_at_entry": null,
     "status": "STOP",
     "days_held": 3,
-    "ret_pct": -16.0,
+    "ret_pct": -16.6,
     "peak_ret_pct": -9.0,
     "executed": true
   },
@@ -261,7 +261,7 @@
     "spy_at_entry": null,
     "status": "OPEN",
     "days_held": 3,
-    "ret_pct": 13.6,
+    "ret_pct": 13.3,
     "peak_ret_pct": 14.6
   },
   {
@@ -287,7 +287,7 @@
     "spy_at_entry": null,
     "status": "OPEN",
     "days_held": 3,
-    "ret_pct": -24.6,
+    "ret_pct": -22.0,
     "peak_ret_pct": -18.4
   },
   {
@@ -313,7 +313,7 @@
     "spy_at_entry": null,
     "status": "OPEN",
     "days_held": 3,
-    "ret_pct": -12.1,
+    "ret_pct": -12.4,
     "peak_ret_pct": -6.4
   },
   {
@@ -339,7 +339,7 @@
     "spy_at_entry": null,
     "status": "OPEN",
     "days_held": 2,
-    "ret_pct": 13.6,
+    "ret_pct": 13.3,
     "peak_ret_pct": 14.6
   },
   {
@@ -365,7 +365,7 @@
     "spy_at_entry": null,
     "status": "STOP",
     "days_held": 2,
-    "ret_pct": -29.3,
+    "ret_pct": -32.2,
     "peak_ret_pct": -25.8
   },
   {
@@ -391,7 +391,7 @@
     "spy_at_entry": null,
     "status": "OPEN",
     "days_held": 2,
-    "ret_pct": -7.6,
+    "ret_pct": -7.4,
     "peak_ret_pct": 0.0
   },
   {
@@ -417,9 +417,9 @@
     "spy_at_entry": 739.22,
     "status": "OPEN",
     "days_held": 1,
-    "ret_pct": -9.3,
+    "ret_pct": -9.4,
     "peak_ret_pct": -4.8,
-    "alpha_pct": -7.3,
+    "alpha_pct": -7.5,
     "executed": true
   },
   {
@@ -498,7 +498,7 @@
     "days_held": 0,
     "ret_pct": -14.2,
     "peak_ret_pct": -10.3,
-    "alpha_pct": -13.2
+    "alpha_pct": -13.3
   },
   {
     "id": "2026-06-09-RCAT",
@@ -523,9 +523,9 @@
     "spy_at_entry": 731.42,
     "status": "OPEN",
     "days_held": 0,
-    "ret_pct": -14.4,
+    "ret_pct": -13.6,
     "peak_ret_pct": -11.4,
-    "alpha_pct": -13.4
+    "alpha_pct": -12.7
   },
   {
     "id": "2026-06-09-INFQ",
@@ -550,9 +550,9 @@
     "spy_at_entry": 731.42,
     "status": "OPEN",
     "days_held": 0,
-    "ret_pct": -24.5,
+    "ret_pct": -24.3,
     "peak_ret_pct": -21.9,
-    "alpha_pct": -23.5
+    "alpha_pct": -23.4
   },
   {
     "id": "2026-06-09-FDXF",
@@ -577,9 +577,9 @@
     "spy_at_entry": 731.42,
     "status": "OPEN",
     "days_held": 0,
-    "ret_pct": 13.6,
+    "ret_pct": 13.3,
     "peak_ret_pct": 14.0,
-    "alpha_pct": 14.6
+    "alpha_pct": 14.3
   },
   {
     "id": "2026-06-09-INIO",
@@ -604,9 +604,9 @@
     "spy_at_entry": 731.42,
     "status": "OPEN",
     "days_held": 0,
-    "ret_pct": 3.9,
+    "ret_pct": 2.4,
     "peak_ret_pct": 6.1,
-    "alpha_pct": 4.9
+    "alpha_pct": 3.3
   },
   {
     "id": "2026-06-09-LITE",
@@ -631,9 +631,9 @@
     "spy_at_entry": 731.42,
     "status": "OPEN",
     "days_held": 0,
-    "ret_pct": -7.6,
+    "ret_pct": -7.4,
     "peak_ret_pct": -3.3,
-    "alpha_pct": -6.6
+    "alpha_pct": -6.5
   },
   {
     "id": "2026-06-09-GOOGL",
@@ -708,9 +708,9 @@
     "days_held": 6
   },
   {
-    "id": "2026-06-09-RKLB",
+    "id": "2026-06-09-MRVL",
     "date": "2026-06-09",
-    "ticker": "RKLB",
+    "ticker": "MRVL",
     "kind": "WOLUMEN",
     "kinds": [
       "WOLUMEN"
@@ -719,19 +719,70 @@
     "score": 6.5,
     "verdict": "PASS",
     "bought": false,
-    "entry_usd": 119.26,
-    "stop_usd": 101.37,
-    "target_usd": 155.04,
+    "entry_usd": 285.0,
+    "stop_usd": 242.25,
+    "target_usd": 370.5,
     "shares": null,
     "size_pln": 0.0,
     "risk_pln": 0.0,
     "rr": 2.0,
     "ev_pct": null,
-    "spy_at_entry": 724.22,
+    "spy_at_entry": 724.72,
     "status": "OPEN",
     "days_held": 0,
-    "ret_pct": -14.6,
-    "peak_ret_pct": -14.6,
-    "alpha_pct": -14.6
+    "ret_pct": -13.6,
+    "peak_ret_pct": -13.6,
+    "alpha_pct": -13.6
+  },
+  {
+    "id": "2026-06-09-ONDS",
+    "date": "2026-06-09",
+    "ticker": "ONDS",
+    "kind": "WOLUMEN",
+    "kinds": [
+      "WOLUMEN"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "CZEKAJ",
+    "bought": false,
+    "entry_usd": 13.33,
+    "stop_usd": 11.33,
+    "target_usd": 17.33,
+    "shares": null,
+    "size_pln": 0.0,
+    "risk_pln": 0.0,
+    "rr": 0.0,
+    "ev_pct": null,
+    "spy_at_entry": 724.72,
+    "status": "OPEN",
+    "days_held": 0
+  },
+  {
+    "id": "2026-06-09-SLGB",
+    "date": "2026-06-09",
+    "ticker": "SLGB",
+    "kind": "WOLUMEN",
+    "kinds": [
+      "WOLUMEN"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "CZEKAJ",
+    "bought": false,
+    "entry_usd": 1.12,
+    "stop_usd": 0.95,
+    "target_usd": 1.46,
+    "shares": null,
+    "size_pln": 0.0,
+    "risk_pln": 0.0,
+    "rr": 0.0,
+    "ev_pct": null,
+    "spy_at_entry": 724.72,
+    "status": "OPEN",
+    "days_held": 0,
+    "ret_pct": 3.6,
+    "peak_ret_pct": 3.6,
+    "alpha_pct": 3.6
   }
 ]
