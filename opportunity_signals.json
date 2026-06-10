@@ -1,6 +1,6 @@
 {
   "_date": "2026-06-10",
-  "_run": "pre-market 14:30 CEST",
+  "_run": "mid-session 18:30 CEST",
   "ipo": [
     {
       "ticker": "SPCX",
@@ -144,6 +144,16 @@
       "price_usd": 6.40,
       "pct_1m": 22,
       "catalyst": "US Army $743K AI drone threat analysis kit order (June 2 2026); AI edge compute NODE + Red Cat Black Widow drones; SPOTD patented AI tech; master teaming agreement z US defense contractor + $1M subcontract; stock +18% od zamówienia"
+    },
+    {
+      "ticker": "JFB",
+      "name": "JFB Construction Holdings (XTEND AI Robotics)",
+      "price_usd": 5.35,
+      "pct_1m": -7,
+      "note": "XTEND AI drone systems, MCap $76M; Asia-Pacific drone contract $2.5M (>100 Scorpio autonomous drone systems, ogłoszony June 9 <48h); Europe $8.25M kontrakt (2026); Israeli MoD $1.67M; fuzja z XTEND (wartość $1.5B) oczekiwana przed końcem Q2 2026 = KONIEC TEGO MIESIĄCA; ticker zmieni się na XTND; US Army Fuze Safety Board approval; konfluencja: fresh kontrakt + merger uplift + drone defense narrative",
+      "catalyst": "Asia-Pacific drone defense $2.5M (June 9) + Europe $8.25M + Israeli MoD $1.67M + fuzja XTEND $1.5B przed końcem Q2",
+      "still_upside": true,
+      "upside_reason": "Merger $1.5B vs MCap $76M + seria kontraktów Asia/Europe/Israel — katalysator właśnie startuje; fuzja planowana na końcu Q2 2026 (przed 30 czerwca)"
     }
   ],
   "insider": [
