@@ -17,7 +17,7 @@
     "risk_pln": 7.0,
     "status": "RECONCILED",
     "_note": "Faktyczna cena wejscia z XTB (4 czerwca @ 284.84, -49.64 PLN). Pozycja przeniesiona do managed_positions — sladowana przez bota rdzeniowego. Status RECONCILED = nie pokazuj podwojnie w tabeli.",
-    "days_held": 5,
+    "days_held": 6,
     "ret_pct": -10.5,
     "peak_ret_pct": 4.7,
     "executed": true
@@ -44,7 +44,7 @@
     "ev_pct": null,
     "spy_at_entry": 757.09,
     "status": "OPEN",
-    "days_held": 5,
+    "days_held": 6,
     "ret_pct": -19.1,
     "peak_ret_pct": -18.4,
     "alpha_pct": -15.3
@@ -71,7 +71,7 @@
     "ev_pct": null,
     "spy_at_entry": 737.55,
     "status": "STOP",
-    "days_held": 4,
+    "days_held": 5,
     "ret_pct": -17.5,
     "peak_ret_pct": -13.2,
     "alpha_pct": -16.3,
@@ -99,7 +99,7 @@
     "ev_pct": null,
     "spy_at_entry": 737.55,
     "status": "STOP",
-    "days_held": 4,
+    "days_held": 5,
     "ret_pct": -41.3,
     "peak_ret_pct": -41.3,
     "alpha_pct": -40.1
@@ -126,7 +126,7 @@
     "ev_pct": null,
     "spy_at_entry": 737.55,
     "status": "OPEN",
-    "days_held": 4,
+    "days_held": 5,
     "ret_pct": -19.1,
     "peak_ret_pct": -18.4,
     "alpha_pct": -17.8
@@ -153,7 +153,7 @@
     "ev_pct": null,
     "spy_at_entry": 737.55,
     "status": "OPEN",
-    "days_held": 4,
+    "days_held": 5,
     "ret_pct": -10.4,
     "peak_ret_pct": -6.4,
     "alpha_pct": -9.2
@@ -180,7 +180,7 @@
     "ev_pct": null,
     "spy_at_entry": 737.55,
     "status": "OPEN",
-    "days_held": 4,
+    "days_held": 5,
     "ret_pct": -9.7,
     "peak_ret_pct": -6.5,
     "alpha_pct": -8.5
@@ -207,7 +207,7 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "STOP",
-    "days_held": 3,
+    "days_held": 4,
     "ret_pct": -13.6,
     "peak_ret_pct": -9.0,
     "executed": true
@@ -234,7 +234,7 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "STOP",
-    "days_held": 3,
+    "days_held": 4,
     "ret_pct": -41.3,
     "peak_ret_pct": -41.3
   },
@@ -260,7 +260,7 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "OPEN",
-    "days_held": 3,
+    "days_held": 4,
     "ret_pct": 14.3,
     "peak_ret_pct": 14.6
   },
@@ -286,7 +286,7 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "OPEN",
-    "days_held": 3,
+    "days_held": 4,
     "ret_pct": -19.1,
     "peak_ret_pct": -18.4
   },
@@ -312,7 +312,7 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "OPEN",
-    "days_held": 3,
+    "days_held": 4,
     "ret_pct": -10.4,
     "peak_ret_pct": -6.4
   },
@@ -338,7 +338,7 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "OPEN",
-    "days_held": 2,
+    "days_held": 3,
     "ret_pct": 14.3,
     "peak_ret_pct": 14.6
   },
@@ -364,7 +364,7 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "STOP",
-    "days_held": 2,
+    "days_held": 3,
     "ret_pct": -32.2,
     "peak_ret_pct": -25.8
   },
@@ -390,7 +390,7 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "OPEN",
-    "days_held": 2,
+    "days_held": 3,
     "ret_pct": -4.5,
     "peak_ret_pct": 0.0
   },
@@ -416,7 +416,7 @@
     "ev_pct": null,
     "spy_at_entry": 739.22,
     "status": "OPEN",
-    "days_held": 1,
+    "days_held": 2,
     "ret_pct": -7.7,
     "peak_ret_pct": -4.8,
     "alpha_pct": -6.3,
@@ -444,7 +444,7 @@
     "ev_pct": null,
     "spy_at_entry": 739.22,
     "status": "STOP",
-    "days_held": 1
+    "days_held": 2
   },
   {
     "id": "2026-06-08-GLW",
@@ -468,7 +468,7 @@
     "ev_pct": null,
     "spy_at_entry": 739.22,
     "status": "OPEN",
-    "days_held": 1,
+    "days_held": 2,
     "ret_pct": -12.8,
     "peak_ret_pct": -7.7,
     "alpha_pct": -11.3
@@ -495,7 +495,7 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 0,
+    "days_held": 1,
     "ret_pct": -12.8,
     "peak_ret_pct": -10.3,
     "alpha_pct": -12.4
@@ -522,7 +522,7 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 0,
+    "days_held": 1,
     "ret_pct": -11.3,
     "peak_ret_pct": -11.3,
     "alpha_pct": -10.9
@@ -549,7 +549,7 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 0,
+    "days_held": 1,
     "ret_pct": -22.1,
     "peak_ret_pct": -21.9,
     "alpha_pct": -21.7
@@ -576,7 +576,7 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 0,
+    "days_held": 1,
     "ret_pct": 14.3,
     "peak_ret_pct": 14.3,
     "alpha_pct": 14.7
@@ -603,7 +603,7 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 0,
+    "days_held": 1,
     "ret_pct": 3.2,
     "peak_ret_pct": 6.1,
     "alpha_pct": 3.6
@@ -630,7 +630,7 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 0,
+    "days_held": 1,
     "ret_pct": -4.5,
     "peak_ret_pct": -3.3,
     "alpha_pct": -4.1
@@ -657,7 +657,7 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "WIN",
-    "days_held": 0
+    "days_held": 1
   },
   {
     "id": "2026-06-03-CRWV",
@@ -681,7 +681,7 @@
     "ev_pct": null,
     "spy_at_entry": 759.57,
     "status": "OPEN",
-    "days_held": 6
+    "days_held": 7
   },
   {
     "id": "2026-06-03-VIDA",
@@ -705,7 +705,7 @@
     "ev_pct": null,
     "spy_at_entry": 759.57,
     "status": "OPEN",
-    "days_held": 6
+    "days_held": 7
   },
   {
     "id": "2026-06-09-MRVL",
@@ -729,7 +729,7 @@
     "ev_pct": null,
     "spy_at_entry": 724.72,
     "status": "OPEN",
-    "days_held": 0,
+    "days_held": 1,
     "ret_pct": -10.5,
     "peak_ret_pct": -10.5,
     "alpha_pct": -11.1
@@ -756,7 +756,7 @@
     "ev_pct": null,
     "spy_at_entry": 724.72,
     "status": "STOP",
-    "days_held": 0,
+    "days_held": 1,
     "ret_pct": -28.3,
     "peak_ret_pct": -28.3,
     "alpha_pct": -28.8
@@ -783,9 +783,57 @@
     "ev_pct": null,
     "spy_at_entry": 724.72,
     "status": "OPEN",
-    "days_held": 0,
+    "days_held": 1,
     "ret_pct": -4.0,
     "peak_ret_pct": 3.6,
     "alpha_pct": -4.5
+  },
+  {
+    "id": "2026-06-10-TSM",
+    "date": "2026-06-10",
+    "ticker": "TSM",
+    "kind": "CONGRESS",
+    "kinds": [
+      "CONGRESS"
+    ],
+    "confluence": 1,
+    "score": 6.9,
+    "verdict": "BUY",
+    "bought": true,
+    "entry_usd": 415.59,
+    "stop_usd": 332.47,
+    "target_usd": 581.83,
+    "shares": 0.0353,
+    "size_pln": 54.0,
+    "risk_pln": 11.0,
+    "rr": 2.0,
+    "ev_pct": null,
+    "spy_at_entry": NaN,
+    "status": "OPEN",
+    "days_held": 0
+  },
+  {
+    "id": "2026-06-10-GLW",
+    "date": "2026-06-10",
+    "ticker": "GLW",
+    "kind": "WOLUMEN",
+    "kinds": [
+      "WOLUMEN"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "BUY",
+    "bought": true,
+    "entry_usd": 194.0,
+    "stop_usd": 164.9,
+    "target_usd": 252.2,
+    "shares": 0.0952,
+    "size_pln": 68.0,
+    "risk_pln": 10.0,
+    "rr": 2.0,
+    "ev_pct": null,
+    "spy_at_entry": NaN,
+    "status": "OPEN",
+    "days_held": 0
   }
 ]
