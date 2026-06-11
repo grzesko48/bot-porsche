@@ -131,5 +131,19 @@
     "day": "2026-06-06",
     "presignal": "NASDAQ compliance regained kwiecień 2026 (usunięcie ryzyka delistingu) + ogłoszenie AI-Ready Distributed Power Solutions via proposed U.S. subsidiary (maj 2026) + pivot oilfield-to-AI narrative; retail social media frenzy równoległy z SDOT; brak fundamentalnego uzasadnienia AI (net income $1.8M z oilfield operations); wszystkie pre-sygnały dostępne 2-4 tygodnie przed spike",
     "lesson": "NASDAQ compliance regained (removal of delisting risk) + AI narrative pivot w chińskiej spółce oilfield = retail momentum pump BEZ fundamentów; dual ticker social media frenzy (STAK+SDOT jednocześnie) = typowy skoordynowany retail pump; pre-sygnał był czytelny (compliance + AI subsidiary announcement) ale risk/reward ZA NISKIE wobec braku realnych przychodów AI; dodać do screenera: NASDAQ compliance regained w ostatnich 60 dniach + Chinese company + 'AI subsidiary' ogłoszenie = pump watch ale NIE kupować"
+  },
+  {
+    "ticker": "CPOP",
+    "pct": 322,
+    "day": "2026-06-10",
+    "presignal": "6-K złożona premarket June 10 2026 (przed otwarciem rynku): przychody +65% YoY H2 FY2025 ($66.57M digital entertainment +79% YoY); operating income podwoił się do $6.58M z $2.72M; prior close $0.37; chiński micro-cap media NASDAQ; brak pokrycia analityków; volume 287M vs avg 4.2M = 68x normy; presygnal był dostępny od 21:00-9:30 ET w EDGAR dla monitorujących 6-K",
+    "lesson": "Monitoruj EDGAR 6-K filings dla Chinese NASDAQ micro-cap między 21:00-9:30 ET — przychody +50%+ YoY w raporcie 6-K złożonym premarket = pre-pump katalysator na otwarcie; CPOP-pattern: chiński emitent NASDAQ + dramatyczna poprawa revenue + niski float = intraday pump 5-10x; presygnal był dostępny 8+ godzin przed spike dla alertów EDGAR; NIE gonić po +100%+"
+  },
+  {
+    "ticker": "VACH",
+    "pct": 63,
+    "day": "2026-06-10",
+    "presignal": "Veraxa Biotech + Voyager Acquisition Corp (SPAC healthcare) BCA closing June 10 2026; S-4 efektywność i closing date była znana z wyprzedzeniem z S-4/Form 424B4 filings; wzorzec identyczny z BGMS 8-K BCA June 4; SPAC focus healthcare sector; closing date ujawniana tygodnie przed zamknięciem",
+    "lesson": "Śledź daty zamknięcia BCA (closing dates) deklarowane w S-4/Form 424B4 dla SPAC health/biotech — dzień oficjalnego zamknięcia = catalyst dla nowego combined entity (VACH-Veraxa wzorzec = BGMS-FutureNRG wzorzec); monituj SEC EDGAR calendar: S-4 effective date → proxy vote date → closing date = 3-step lead time; closing day = pump day dla combined entity na NASDAQ"
   }
 ]
