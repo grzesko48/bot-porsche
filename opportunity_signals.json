@@ -1,6 +1,6 @@
 {
   "_date": "2026-06-12",
-  "_run": "pre-open 14:30 CEST",
+  "_run": "mid-session 18:30 CEST",
   "ipo": [
     {
       "ticker": "SPCX",
@@ -39,6 +39,22 @@
   ],
   "volume": [
     {
+      "ticker": "BYAH",
+      "name": "Park Ha Biological Technology",
+      "volume_mult": 26.0,
+      "price_usd": 2.30,
+      "pct_1m": 130,
+      "catalyst": "Premarket June 12 +129% na 26.2M akcji — chiński micro-cap pump bez fundamentalnego katalizatora; wzorzec PAVS/GLXG/STAK; anti-chase blokuje (>50%); NIE KUPOWAC"
+    },
+    {
+      "ticker": "DSY",
+      "name": "DSY Inc",
+      "volume_mult": 18.0,
+      "price_usd": 3.00,
+      "pct_1m": 103,
+      "catalyst": "Premarket June 12 +103% na 18M akcji — micro-cap pump bez newsow; wzorzec PAVS/GLXG; anti-chase blokuje; NIE KUPOWAC"
+    },
+    {
       "ticker": "RKLB",
       "name": "Rocket Lab Corporation — CZEKAJ NA COFNIECIE (parabola)",
       "volume_mult": 8.0,
@@ -60,11 +76,11 @@
       "ticker": "ONDS",
       "name": "Ondas Inc",
       "volume_mult": 5.0,
-      "price_usd": 11.64,
+      "price_usd": 9.83,
       "pct_1m": 32,
-      "catalyst": "US Army C100 UAS contract $20.9M + Navy Maritime Domain Awareness $4.8M (<48h dual DoD); Q1 2026 revenue $50M (+11x YoY); 8 analitykow Strong Buy avg target $20.13 (+73% upside z $11.64); Drone Factory 01 otwarta Huntsville AL; Trump Drone Dominance tailwind",
+      "catalyst": "US Army C100 UAS contract $20.9M + Navy Maritime Domain Awareness $4.8M (<48h dual DoD); Q1 2026 revenue $50M (+11x YoY); 8 analitykow Strong Buy avg target $20.13 (+104% upside z $9.83); Drone Factory 01 otwarta Huntsville AL; Trump Drone Dominance tailwind; mid-session update: cena $9.83 (close June 11 vs $11.64 preopen) — weryfikacja",
       "still_upside": true,
-      "upside_reason": "Revenue step-change 11x YoY — rzadki sygnalny; dual Army+Navy DoD contracts potwierdzonych; avg analyst $20.13 = +73% upside z $11.64; pct_1m=+32% napedzony fundamentami; Drone Factory skaluje produkcje"
+      "upside_reason": "Revenue step-change 11x YoY — rzadki sygnalny; dual Army+Navy DoD contracts potwierdzonych; avg analyst $20.13 = +104% upside z $9.83; Drone Factory skaluje produkcje"
     },
     {
       "ticker": "GLW",
@@ -96,11 +112,11 @@
     {
       "ticker": "ONDS",
       "name": "Ondas Inc",
-      "price_usd": 11.64,
+      "price_usd": 9.83,
       "pct_1m": 32,
-      "catalyst": "US Army C100 UAS contract $20.9M + Navy Maritime Domain Awareness $4.8M (<48h dual DoD); Q1 2026 revenue $50M (+11x YoY); Drone Factory 01 otwarta 90K sqft Huntsville AL; 8 analitykow Strong Buy avg target $20.13 (+73% upside)",
+      "catalyst": "US Army C100 UAS contract $20.9M + Navy Maritime Domain Awareness $4.8M (<48h dual DoD); Q1 2026 revenue $50M (+11x YoY); Drone Factory 01 otwarta 90K sqft Huntsville AL; 8 analitykow Strong Buy avg target $20.13 (+104% upside)",
       "still_upside": true,
-      "upside_reason": "Revenue step-change 11x YoY; dual Army+Navy contracts; analyst avg $20.13 = +73% z $11.64; Drone Dominance tailwind; Drone Factory skaluje produkcje"
+      "upside_reason": "Revenue step-change 11x YoY; dual Army+Navy contracts; analyst avg $20.13 = +104% z $9.83; Drone Dominance tailwind; Drone Factory skaluje produkcje"
     },
     {
       "ticker": "DPRO",
@@ -161,6 +177,14 @@
       "catalyst": "Asia-Pacific drone defense $2.5M (June 9) + Europe $8.25M + Israeli MoD $1.67M + UK Defense AI Robotics Facility LAUNCH (June 11, swiezy!) + fuzja XTEND $1.5B oczekiwana przed koncem Q2 2026 (18 DNI — przed 30 CZERWCA); ticker zmieni sie na XTND",
       "still_upside": true,
       "upside_reason": "Merger $1.5B vs MCap ~$76M = 20x uplift potential + UK robotics facility launch June 11 + 18 dni do closing; katalysator wlasnie startuje; pct_1m=-7% = dyskonto przed merge closing"
+    },
+    {
+      "ticker": "ZENA",
+      "name": "ZenaTech Inc",
+      "price_usd": 2.12,
+      "pct_1m": 42,
+      "catalyst": "ZenaDrone 2000 heavy-lift counter-UAS platform (gas-powered; field testing Q3 2026); Ukrainian subsidiary Phoenix Aero w Lviv — produkcja counter-UAS dla GCC i US defense partners; rynek counter-drone $20B do 2030; Counter-Drone Arms Race acceleration; ZENA all-time low $1.15 May 21 — recovery +84% od dna",
+      "still_upside": false
     }
   ],
   "insider": [
@@ -249,12 +273,12 @@
     },
     {
       "ticker": "RCAT",
-      "name": "Red Cat Holdings",
-      "catalyst": "Trump $1.1B Drone Dominance program; Blue UAS certified = mandatory Army procurement; US Army SRR Program win + Japan MoD 173 systems (Asia-Pacific foothold); Teal Drones w Gauntlet I competition; analyst targets $19-25 (+29-70%)",
-      "price_usd": 14.74,
-      "pct_1m": 48,
+      "name": "Red Cat Holdings — MID-SESSION UPDATE: lock-up expiry dip",
+      "catalyst": "MID-SESSION ALERT: cena spadla z $14.74 (preopen) do $11.12 (-24.5%) = lock-up expiry June 12 powoduje sprzedaz insiderow; Trump $1.1B Drone Dominance program; Blue UAS certified = mandatory Army procurement; US Army SRR Program win; analyst avg target $21.25 = +91% upside od $11.12; Q1 revenue +849% YoY $15.5M; 4 analitycy Strong Buy. RYZYKO: dalsza sprzedaz insiderow w ciagu 1-2 dni.",
+      "price_usd": 11.12,
+      "pct_1m": 18,
       "still_upside": true,
-      "upside_reason": "Analyst targets $19-25 vs $14.74 (+29-70%); Blue UAS certified = mandatory Army procurement (structural revenue); Japan MoD deployment; Gauntlet I Drone Dominance presence; pct_1m=+48% napedzony FUNDAMENTALNYMI kontraktami"
+      "upside_reason": "Lock-up dip do $11.12 = analyst avg $21.25 (+91% upside); fundamenty nienaruszone (Q1 +849% YoY); Blue UAS mandatory procurement = strukturalny revenue; pct_1m +18% ponizej progu 25% = dozwolone kupno; RYZYKO: insider selling moze potrwac 1-2 dni"
     },
     {
       "ticker": "OXY",
@@ -271,6 +295,27 @@
       "pct_1m": 30,
       "still_upside": true,
       "upside_reason": "Classified sole-source = rzadowy AI partner bez konkurencji; Trump AI EO = strukturalny tailwind; backlog $281.9M > annual guidance = pelna widocznosc przychodow"
+    },
+    {
+      "ticker": "CMPS",
+      "name": "Compass Pathways PLC",
+      "price_usd": 10.50,
+      "pct_1m": 8,
+      "catalyst": "Trump EO 18 April 2026 fast-tracking psychedelic FDA (expedited review vouchers, Right-to-Try pathway, $50M rzadowe badania); COMP360 osiagnął primary endpoint Phase III — historyczny milestone dla psilocybiny w depresji; analyst Buy $23 target (HC Wainwright, June 2); FDA national priority vouchers aktywne; pct_1m tylko +8% = nie rozdmuchany mimo EO"
+    },
+    {
+      "ticker": "ATAI",
+      "name": "AtaiBeckley Life Sciences",
+      "price_usd": 5.20,
+      "pct_1m": 12,
+      "catalyst": "Trump EO psychedelic fast-track; BPL-003 pipeline (psilocybina); analyst konsensus 10/12 Buy, avg target $14.63 (+181% upside od $5.20); +220% YTD do marca 2026; FDA breakthrough vouchers aktywne; Right-to-Try enrollment katalizator"
+    },
+    {
+      "ticker": "MNMD",
+      "name": "Mind Medicine Inc",
+      "price_usd": 12.00,
+      "pct_1m": 5,
+      "catalyst": "Trump EO psychedelic FDA fast-track; +110% YTD do marca 2026; kliniczna pozycja w psilocybinie i LSD therapy; beneficjent $50M rzadowych badan psychedelicznych; FDA breakthrough vouchers potencjalny beneficjent; pct_1m tylko +5% = nisko"
     }
   ]
 }
