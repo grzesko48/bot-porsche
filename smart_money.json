@@ -1,15 +1,8 @@
 {
-  "generated": "2026-06-12T19:15",
+  "generated": "2026-06-13T19:08",
   "insiders": {},
   "funds": {},
-  "politicians": {
-    "INTC": [
-      {"name": "Presidential disclosure (Trump) + GOP lawmakers (agregat, lagowane)", "days_to_disclose": 45, "top_tier": true, "committee_match": false}
-    ],
-    "MU": [
-      {"name": "Presidential disclosure (Trump) BUY 500k-1M (agregat, lagowane)", "days_to_disclose": 45, "top_tier": true, "committee_match": false}
-    ]
-  },
+  "politicians": {},
   "sector_exits": [],
-  "_notes": "Cykl 2026-06-12 (kandydaci soczewek: LITE, MU, CIEN, INTC, COHR). INSIDERZY: web_search po OpenInsider (cluster buys / Form 4) zwrocil tylko landing pages narzedzia, BEZ potwierdzonego swiezego (<=7 dni) klastra KUPNA dla zadnego z 5 tickerow — nie przenosze niezweryfikowanych pozycji. FUNDUSZE (13F/Dataroma): brak swiezej, >=2-zrodlowej zbieznosci. POLITYCY: ujawnienie prezydenckie (Trump, zlozone V.2026) obejmuje zlecenia KUPNA Intel ORAZ Micron (500k-1M kazde), transakcje wykonane I-III.2026 -> sygnal LAGOWANY (days_to_disclose~45, top_tier), nie news; konserwatywna waga shadow. Sygnaly smart-money pozostaja w przewadze NEUTRALNE."
+  "_notes": "Cykl 2026-06-13 (kandydaci soczewek: LITE, MU, CIEN, INTC, COHR). INSIDERZY: web_search po OpenInsider (cluster buys / Form 4) zwrocil tylko landing pages narzedzia, BEZ potwierdzonego swiezego (<=7 dni) klastra KUPNA dla zadnego z 5 tickerow -> nie przenosze niezweryfikowanych pozycji. FUNDUSZE (13F/Dataroma): tylko ogolne strony, brak swiezej >=2-zrodlowej zbieznosci kierunkowej (wzmianka o dwustronnym zakladzie put+call na MU/TSM = brak kierunku). POLITYCY: brak potwierdzonego w tym cyklu, swiezego ujawnienia kongresowego/prezydenckiego dla kandydatow -> nie loguje sygnalu. Wszystkie sygnaly smart-money pozostaja NEUTRALNE (brak twardych danych)."
 }

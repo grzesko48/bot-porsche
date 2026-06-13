@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T19:15",
+  "generated": "2026-06-13T19:08",
   "signals": [
     {
       "ticker": "LITE",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni, od 05.06) dyskretnego katalizatora. Bazowy deal NVIDIA 2 mld USD jest z marca 2026 (nieswiezy). Q3 FY2026 (rekord: przychod 808 mln +90% r/r, EPS non-GAAP 2,37) raportowany ~02.06 — poza oknem. Inkluzja Nasdaq-100 (18.05) i podniesienia PT (czerwiec, do 1000-1100+) to momentum/rekomendacje, nie twardy event. Konserwatywnie: brak.",
-      "as_of": "2026-06-12",
+      "headline": "Brak swiezego (<=7 dni, od 06.06) twardego katalizatora. Bazowy deal NVIDIA 2 mld USD + partnerstwo optyki AI to marzec 2026 (nieswiezy). Q3 FY2026 (transcript) z 06.05 — poza oknem. Guidance Q4 (EPS non-GAAP 2,85-3,05, okres do 27.06) to outlook, nie event. Negocjacje take-or-pay/prepayment z klientami to narracja, nie potwierdzony kontrakt w oknie. Konserwatywnie: brak.",
+      "as_of": "2026-06-13",
       "confidence": 0.3,
       "source_count": 2,
       "sources": [
         {"label": "SEC 8-K (Lumentum Q3 FY2026 press release)", "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000162828026030530/lite_ex991xq3fy26.htm"},
-        {"label": "TimothySykes (LITE jumps as AI demand fuels growth, 02.06)", "url": "https://www.timothysykes.com/news/lumentum-holdings-inc-lite-news-2026_06_02/"}
+        {"label": "Motley Fool (Lumentum Q3 2026 earnings transcript, 06.05)", "url": "https://www.fool.com/earnings/call-transcripts/2026/05/06/lumentum-lite-q3-2026-earnings-transcript/"}
       ]
     },
     {
@@ -20,27 +20,27 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego dyskretnego katalizatora. Glowny event — raport Q3 FY2026 — dopiero 24.06 (oczekujacy, NIE teraz; konsensus EPS 19,82, przychod 34,8 mld, marza ~81%). Narracja HBM sold-out 2026 pod kontraktami 3-5 lat trwa, ale to nie nowy event w oknie <=7 dni. Earnings-window 24.06 ma znaczenie dla bramki earnings, nie jako news.",
-      "as_of": "2026-06-12",
+      "headline": "Brak swiezego dyskretnego katalizatora. Glowny event — raport Q3 FY2026 — dopiero 24.06 (oczekujacy, NIE teraz; guidance rekord przychod 33,5 mld +/-0,75, marza ~81%, EPS non-GAAP 19,15). Powolanie do zarzadu A. Black Bjorlin (09.06) to governance/szum, nie katalizator. Narracja DRAM +58-63% q/q (TrendForce) i HBM sold-out trwa, ale nie nowy event w oknie. Earnings-window 24.06 dotyczy bramki earnings, nie newsa.",
+      "as_of": "2026-06-13",
       "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "TechTimes (Micron earnings preview — June 24 tests HBM supercycle, 11.06)", "url": "https://www.techtimes.com/articles/318228/20260611/micron-earnings-preview-june-24-tests-whether-hbm-supercycle-real-cresting.htm"},
-        {"label": "TechTimes (Micron stock climbs as HBM sells out — June 24 earnings, 08.06)", "url": "https://www.techtimes.com/articles/318017/20260608/micron-stock-climbs-hbm-sells-out-june-24-earnings-decides-ai-memory-trade.htm"}
+        {"label": "Motley Fool (Prediction: Micron stock after June 24, 01.06)", "url": "https://www.fool.com/investing/2026/06/01/prediction-micron-stock-will-skyrocket-after-june/"},
+        {"label": "SEC 8-K (Micron Q2 FY2026 press release)", "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000004/a2026q2ex991-pressrelease.htm"}
       ]
     },
     {
       "ticker": "CIEN",
-      "has_catalyst": true,
-      "catalyst_type": "capital_raise",
+      "has_catalyst": false,
+      "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Swiezy twardy event w oknie: emisja convertible senior notes 0,00% due 2031. 08.06 wycena 2,5 mld USD (podniesiona z 2,0 mld), zamknieta 11.06 na 2,875 mld USD (pelne wykonanie opcji). ~1,14 mld USD przeznaczone na splate term loan, reszta na cele ogolne/capacity. To finansowanie ROZWADNIAJACE (neutralne-do-negatywnego krotkoterminowo), nie sygnal kupna. Mocny katalizator earnings beat&raise (Q2 FY2026, 04.06: przychod 1,57 mld +40% r/r, raise FY do 6,3 mld) WYPADL z okna <=7 dni (8 dni). Konserwatywnie: direction neutral.",
-      "as_of": "2026-06-11",
-      "confidence": 0.5,
+      "headline": "Mocny beat&raise (Q2 FY2026, 04.06: przychod 1,57 mld +40% r/r, EPS adj 1,64 +290%, raise FY do 6,3 mld, RPO 2,3 mld) WYPADL z okna <=7 dni (9 dni). Brak NOWEGO twardego eventu w oknie 06-13.06. Konserwatywnie: brak swiezego katalizatora.",
+      "as_of": "2026-06-13",
+      "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "SEC 8-K (Ciena convertible notes pricing/close, FY2026)", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000119312526267607/d118604d8k.htm"},
-        {"label": "SEC 8-K (Ciena convertible notes, FY2026)", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000119312526260665/d125730d8k.htm"}
+        {"label": "SEC 8-K (Ciena Q2 FY2026 earnings press release, 04.06)", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9912026q2earningspressre.htm"},
+        {"label": "SEC 8-K (Ciena Q2 FY2026 earnings presentation)", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9922026q2earningsprese.htm"}
       ]
     },
     {
@@ -48,13 +48,14 @@
       "has_catalyst": true,
       "catalyst_type": "contract",
       "direction": "bullish",
-      "headline": "Swiezy event (08-09.06): INTC +~11% (~110 USD) na raportach o zamowieniu Google na 3 mln ukladow TPU (produkcja 2028) do Intel Foundry jako backup wobec przeciazonego TSMC; do tego ewaluacja przez NVIDIA. Potwierdzone w oknie: rozszerzona wieloletnia wspolpraca Cadence z Intel Foundry (proces 14A) oraz partnerstwa Hitachi/Phison; Wells Fargo PT do 110 USD. RYZYKO: deal Google to 'reported', brak potwierdzenia w filingach SEC (verification risk) -> umiarkowana pewnosc.",
+      "headline": "Swiezy event (08-09.06): INTC +~11% na raportach (The Information 08.06, echo Reuters/TrendForce 09.06) o zamowieniu Google na >3 mln ukladow TPU (produkcja 2028, proces 18A) do Intel Foundry jako alternatywy wobec przeciazonego TSMC — najwiekszy kontrakt produkcyjny IFS dotad (Morgan Stanley: ~polowa wolumenu Google 2028). Do tego ewaluacja 18A przez NVIDIA. RYZYKO: deal 'reported', BRAK oficjalnego potwierdzenia Google/Intel ani filingu SEC (verification risk) -> umiarkowana pewnosc.",
       "as_of": "2026-06-09",
       "confidence": 0.55,
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
-        {"label": "Barchart (Intel soars on Google deal to build TPUs)", "url": "https://www.barchart.com/story/news/2381748/intel-shares-soar-on-google-deal-to-build-tpus-here-s-what-it-means-for-intc-stock"},
-        {"label": "StocksToTrade (Intel surges as Google, Nvidia turn to its foundry, 11.06)", "url": "https://stockstotrade.com/news/intel-corporation-intc-news-2026_06_11/"}
+        {"label": "TrendForce (Intel Foundry gains momentum as Google orders 3M TPUs, 09.06)", "url": "https://www.trendforce.com/news/2026/06/09/news-intel-foundry-gains-momentum-as-google-reportedly-orders-3m-tpus-nvidia-evaluates-18a-for-multi-die-gpu-design/"},
+        {"label": "TechTimes (Chip supply shifts from TSMC: Google's Intel TPU order, 10.06)", "url": "https://www.techtimes.com/articles/318143/20260610/chip-supply-shifts-tsmc-googles-reported-intel-tpu-order-lifts-foundry-doubts-remain.htm"},
+        {"label": "Republic World (Google's TPU order boosts Intel Foundry, 08.06)", "url": "https://www.republicworld.com/tech/google-s-rumoured-tpu-order-gives-intel-foundry-ambitions-a-major-boost-2026-06-08-127429"}
       ]
     },
     {
@@ -62,12 +63,12 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Katalizator (NVIDIA 2 mld USD equity + wieloletnia umowa optyki AI-DC) z marca 2026; rajd akcji byl 02-03.06 (szczyt ~440) — POZA oknem <=7 dni. Q3 FY2026 raportowany 06.05 (poza oknem). Na 12.06 akcja sciagnieta do ~356 USD. Brak NOWEGO twardego eventu w oknie. Konserwatywnie: brak swiezego katalizatora.",
-      "as_of": "2026-06-12",
+      "headline": "Katalizator (NVIDIA 2 mld USD equity + wieloletnia umowa optyki AI-DC, endorsement Jensena Huanga) z poczatku czerwca/marca; rajd 02.06 — POZA oknem <=7 dni. Q3 FY2026 (przychod 1,81 mld +21% r/r) i guidance Q4 (1,91-2,05 mld) raportowane wczesniej (poza oknem). Backlog do 2028+, kontrakty do 2030 to struktura, nie nowy event w oknie. Konserwatywnie: brak swiezego katalizatora.",
+      "as_of": "2026-06-13",
       "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "SEC 8-K (Coherent Q3 FY2026 press release, 06.05)", "url": "https://www.sec.gov/Archives/edgar/data/0000820318/000119312526208972/d57080dex991.htm"},
+        {"label": "SEC 8-K (Coherent Q3 FY2026 press release)", "url": "https://www.sec.gov/Archives/edgar/data/0000820318/000119312526208972/d57080dex991.htm"},
         {"label": "TimothySykes (COHR rips higher as analysts lift targets, 02.06)", "url": "https://www.timothysykes.com/news/coherent-corp-cohr-news-2026_06_02/"}
       ]
     }
