@@ -113,5 +113,19 @@
       "SIDU",
       "TSM"
     ]
+  },
+  {
+    "date": "2026-06-15",
+    "flagged": [
+      "CAST",
+      "GLW",
+      "GOOGL",
+      "LITE",
+      "ONDS",
+      "OXY",
+      "RKLB",
+      "SIDU",
+      "TSM"
+    ]
   }
 ]
