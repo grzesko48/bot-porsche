@@ -88,9 +88,13 @@ def _parse_day(s):
     return None
 
 
-def find_misses(movers, flagged, min_pct=15.0, start=BOT_START):
+def find_misses(movers, flagged, min_pct=15.0, start=BOT_START, max_pct=500.0):
     """Duże jednodniowe wzrosty (>=min_pct%), których łowca NIE miał na radarze.
-    FILTR DNIA STARTU: pomija ruchy sprzed pierwszego dnia pracy bota (nie były jego okazjami)."""
+    FILTR DNIA STARTU: pomija ruchy sprzed pierwszego dnia pracy bota (nie były jego okazjami).
+    FILTR ARTEFAKTU (max_pct, domyślnie 500%): pomija ruchy >=max_pct% — to prawie zawsze
+    REVERSE-SPLIT (np. 40-do-1 = ~+3900/4000%, jak Worldline/Alpha Modus 15.06.2026), data-glitch
+    albo niewykonalny pump na ~zerowym wolumenie. To NIE są realne przeoczone okazje (nie dało się
+    ich ZŁAPAĆ ani ZREALIZOWAĆ) — zatruwałyby pętlę nauki fałszywym FOMO."""
     flag = {str(t).upper() for t in (flagged or [])}
     out = []
     for m in (movers or []):
@@ -104,7 +108,7 @@ def find_misses(movers, flagged, min_pct=15.0, start=BOT_START):
         day = _parse_day(m.get("day", ""))
         if day is not None and day.isoformat() < start:
             continue  # ruch sprzed startu bota — nie nasza okazja
-        if pct >= min_pct and tk not in flag:
+        if min_pct <= pct < max_pct and tk not in flag:
             out.append({"ticker": tk, "pct": round(pct, 1),
                         "day": m.get("day", ""), "presignal": m.get("presignal", "(nieznany)"),
                         "lesson": m.get("lesson", "(do uzupełnienia)")})
@@ -240,11 +244,15 @@ def _run_selftest() -> int:
     # find_misses: NVDA urosło +30%, nie było flagowane -> miss; CCC było flagowane -> nie miss; XYZ +5% -> za mało
     movers = [{"ticker": "NVDA", "pct": 30, "presignal": "insider 2d", "lesson": "śledź insiderów half-cap"},
               {"ticker": "ccc", "pct": 40, "presignal": "x", "lesson": "y"},
-              {"ticker": "XYZ", "pct": 5, "presignal": "z", "lesson": "w"}]
+              {"ticker": "XYZ", "pct": 5, "presignal": "z", "lesson": "w"},
+              {"ticker": "WLN", "pct": 4014, "presignal": "reverse split 40:1", "lesson": "artefakt"},
+              {"ticker": "AMOD", "pct": 4056, "presignal": "reverse split 1:40", "lesson": "artefakt"}]
     misses = find_misses(movers, flagged_set(log), min_pct=15)
     ok("find_misses łapie NVDA (przeoczone +30%)", any(m["ticker"] == "NVDA" for m in misses))
     ok("find_misses pomija CCC (było flagowane)", not any(m["ticker"] == "CCC" for m in misses))
     ok("find_misses pomija mały ruch XYZ", not any(m["ticker"] == "XYZ" for m in misses))
+    ok("find_misses ODFILTROWUJE reverse-split +4014% (WLN, artefakt)", not any(m["ticker"] == "WLN" for m in misses))
+    ok("find_misses ODFILTROWUJE reverse-split +4056% (AMOD, artefakt)", not any(m["ticker"] == "AMOD" for m in misses))
 
     # append_lessons + dedup
     lessons, added = append_lessons(misses, "2026-06-04", less)
