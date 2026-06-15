@@ -1,6 +1,6 @@
 {
   "_date": "2026-06-15",
-  "_run": "pre-open 14:30 CEST",
+  "_run": "srodsesyjny 18:30 CEST",
   "ipo": [
     {
       "ticker": "SPCX",
@@ -40,7 +40,7 @@
       "volume_mult": 51.5,
       "price_usd": 2.80,
       "pct_1m": 600,
-      "catalyst": "PUMP/SQUEEZE — premarket June 15 +245.7% na 51.5M akcji; severely distressed: negative equity ~$7M, -2300% EBIT margin, $0.63M revenue; wzorzec identyczny z INHD June 8 (+3660%); NIE KUPOWAC — brak substancji, parabola"
+      "catalyst": "PUMP/SQUEEZE — premarket June 15 +245.7% na 51.5M akcji; katalizator: dystrybucja DIRECTV (June 11) ale $92.9K przychody Q1 2026, strata $4.53M, gotówka $119K, going-concern warning; wzorzec identyczny z INHD June 8 (+3660%); NIE KUPOWAC — brak substancji, parabola"
     },
     {
       "ticker": "RKLB",
@@ -248,9 +248,9 @@
       "name": "Red Cat Holdings — lock-up dip recovery",
       "price_usd": 12.00,
       "pct_1m": 18,
-      "catalyst": "Lock-up expiry June 12 dip do $11.12; Trump $1.1B Drone Dominance program; Blue UAS certified = mandatory Army procurement; US Army SRR Program win; analyst avg target $21.25; Q1 revenue +849% YoY $15.5M; 4 analitycy Strong Buy. Lock-up selling POWINNO BYC ZAKONCZONE po 3 dniach — poniedziałek = recovery okno.",
+      "catalyst": "Lock-up expiry June 12 dip; $225M secondary @ $9.40 (23.9M akcji, dilucja priced-in po -6.91% June 12); NOWY June 15: $742K Army Black Widow drone + AI landmine detection contract + Quaze Technologies acquisition closed; Trump $1.1B Drone Dominance program; Blue UAS certified; analyst: Clear St $19 Buy (obnizone z $22 za dilucje), Roth Capital inicjacja $25 Buy; Q1 revenue +849% YoY $15.5M; secondary price $9.40 = floor wsparcia.",
       "still_upside": true,
-      "upside_reason": "Lock-up dip zakonczony po 3 dniach; analyst avg $21.25 (+77% upside z $12); fundamenty nienaruszone (Q1 +849% YoY); Blue UAS mandatory procurement = strukturalny revenue; pct_1m +18% < 25% = dozwolone kupno"
+      "upside_reason": "Dilucja priced-in; secondary $9.40 = wsparcie; analyst avg ~$22 (+83% upside z $12); nowy Army contract June 15 potwierdza DoD traction; Q1 +849% YoY nienaruszone; pct_1m +18% < 25% = dozwolone kupno; uwaga: sleeve mniejszy ze wzgledu na dilucje"
     },
     {
       "ticker": "BBAI",
