@@ -1,7 +1,99 @@
 {
-  "cash_pln": 100000.0,
+  "cash_pln": 28400.0,
   "start_capital_pln": 100000.0,
   "start_date": "2026-06-16",
-  "positions": [],
-  "updated": "2026-06-16"
+  "positions": [
+    {
+      "ticker": "TSM",
+      "tag": "core",
+      "shares": 9.259614,
+      "entry_usd": 441.4,
+      "entry_date": "2026-06-15",
+      "peak_usd": 441.4,
+      "stop_usd": 418.49,
+      "target_usd": 573.82,
+      "days_held": 0,
+      "kind": "CORE",
+      "score": 8.0
+    },
+    {
+      "ticker": "ASML",
+      "tag": "core",
+      "shares": 2.159497,
+      "entry_usd": 1892.66,
+      "entry_date": "2026-06-15",
+      "peak_usd": 1892.66,
+      "stop_usd": 1789.88,
+      "target_usd": 2460.458,
+      "days_held": 0,
+      "kind": "CORE",
+      "score": 7.7
+    },
+    {
+      "ticker": "MSTR",
+      "tag": "core",
+      "shares": 31.166642,
+      "entry_usd": 131.14,
+      "entry_date": "2026-06-15",
+      "peak_usd": 131.14,
+      "stop_usd": 120.65,
+      "target_usd": 170.482,
+      "days_held": 0,
+      "kind": "CORE",
+      "score": 7.4
+    },
+    {
+      "ticker": "SAP",
+      "tag": "core",
+      "shares": 24.871864,
+      "entry_usd": 164.33,
+      "entry_date": "2026-06-15",
+      "peak_usd": 164.33,
+      "stop_usd": 154.46,
+      "target_usd": 213.629,
+      "days_held": 0,
+      "kind": "CORE",
+      "score": 7.1
+    },
+    {
+      "ticker": "GLW",
+      "tag": "sleeve",
+      "shares": 6.233325,
+      "entry_usd": 187.88,
+      "entry_date": "2026-06-15",
+      "peak_usd": 187.88,
+      "stop_usd": 164.9,
+      "target_usd": 252.2,
+      "days_held": 0,
+      "kind": "WOLUMEN",
+      "score": 6.5
+    },
+    {
+      "ticker": "OXY",
+      "tag": "sleeve",
+      "shares": 21.504172,
+      "entry_usd": 54.46,
+      "entry_date": "2026-06-15",
+      "peak_usd": 54.46,
+      "stop_usd": 45.9,
+      "target_usd": 70.2,
+      "days_held": 0,
+      "kind": "WOLUMEN",
+      "score": 6.5
+    },
+    {
+      "ticker": "LITE",
+      "tag": "sleeve",
+      "shares": 0.855092,
+      "entry_usd": 957.24,
+      "entry_date": "2026-06-15",
+      "peak_usd": 957.24,
+      "stop_usd": 678.4,
+      "target_usd": 1187.2,
+      "days_held": 0,
+      "kind": "CONGRESS",
+      "score": 6.5
+    }
+  ],
+  "updated": "2026-06-15"
 }

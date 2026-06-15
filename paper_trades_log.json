@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-06-15",
+    "ticker": "TSM",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 9.2596,
+    "price_usd": 441.4,
+    "value_pln": 15000.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 8.0)"
+  },
+  {
+    "date": "2026-06-15",
+    "ticker": "ASML",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 2.1595,
+    "price_usd": 1892.66,
+    "value_pln": 15000.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.7)"
+  },
+  {
+    "date": "2026-06-15",
+    "ticker": "MSTR",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 31.1666,
+    "price_usd": 131.14,
+    "value_pln": 15000.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.4)"
+  },
+  {
+    "date": "2026-06-15",
+    "ticker": "SAP",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 24.8719,
+    "price_usd": 164.33,
+    "value_pln": 15000.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.1)"
+  },
+  {
+    "date": "2026-06-15",
+    "ticker": "GLW",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 6.2333,
+    "price_usd": 187.88,
+    "value_pln": 4298.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.5)"
+  },
+  {
+    "date": "2026-06-15",
+    "ticker": "OXY",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 21.5042,
+    "price_usd": 54.46,
+    "value_pln": 4298.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.5)"
+  },
+  {
+    "date": "2026-06-15",
+    "ticker": "LITE",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 0.8551,
+    "price_usd": 957.24,
+    "value_pln": 3004.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.5)"
+  }
+]

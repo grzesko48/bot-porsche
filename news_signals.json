@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-15T19:09",
+  "generated": "2026-06-15T23:35",
   "signals": [
     {
       "ticker": "LITE",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni, od 08.06) twardego katalizatora. Wymiana obligacji zamiennych 650,4 mln USD na ~5 mln akcji (01.06) i podwyzka celu do 1200 USD (Northland, 02.06) — poza oknem (13-14 dni). Optyka AI/Computex to narracja. 12.06 JPMorgan reiterate Overweight (cel 1130) — sell-side, nie event. Akcje optyczne -15% od czerwcowych szczytow ('brak katalizatorow latem'). Konserwatywnie: brak.",
-      "as_of": "2026-06-15",
-      "confidence": 0.3,
+      "headline": "Brak swiezego twardego katalizatora. W oknie tylko sell-side: JPMorgan podtrzymuje Overweight (12.06), Northland podnosi cel do 1200 USD - reiteracja/PT, nie event. Akcje optyczne -15-17% od czerwcowych szczytow przez obawy o opoznienie adopcji CPO. Kierunek mieszany/neutralny. Konserwatywnie: brak.",
+      "as_of": "2026-06-12",
+      "confidence": 0.35,
       "source_count": 2,
       "sources": [
-        {"label": "Yahoo Finance (Lumentum 650,4 mln USD private share exchange, 01.06)", "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-holdings-lite-announces-650-161120112.html"},
-        {"label": "GuruFocus (Coherent & Lumentum, JPMorgan Overweight, 12.06)", "url": "https://www.gurufocus.com/news/8914309/coherent-cohr-and-lumentum-lite-present-investment-opportunities-says-jpmorgan-analyst"}
+        {"label": "GuruFocus (JPMorgan Overweight COHR/LITE, 12.06)", "url": "https://www.gurufocus.com/news/8914309/coherent-cohr-and-lumentum-lite-present-investment-opportunities-says-jpmorgan-analyst"},
+        {"label": "TipRanks/The Fly (Lumentum PT raised)", "url": "https://www.tipranks.com/news/the-fly/lumentum-price-target-raised-to-75-from-70-at-barclays"}
       ]
     },
     {
@@ -20,13 +20,13 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego dyskretnego katalizatora. Glowny event — raport Q3 FY2026 — dopiero 24.06 (oczekujacy, NIE teraz; bramka earnings, nie news). Powolanie dr A. Black Bjorlin do zarzadu (09.06) to governance/szum. Narracja HBM sold-out + umowy wieloletnie trwa, ale to nie nowy event w oknie. Insiderzy: w maju 25 transakcji SPRZEDAZY (~18,2 mln USD), zero kupna. Konserwatywnie: brak.",
-      "as_of": "2026-06-15",
-      "confidence": 0.3,
+      "headline": "W oknie tylko podwyzki celow sell-side (Wolfe 1250 USD, TD Cowen 1500 USD, 11.06) - rekomendacje, nie dyskretny event. Wlasciwy katalizator (wyniki Q3 FY2026) dopiero 24.06 (oczekujacy, bramka earnings - NIE news). Insiderzy NETTO SPRZEDAJA (CEO ~21,5 mln USD, ~52 mln USD w 3 mies., zero kupna). Konserwatywnie: brak.",
+      "as_of": "2026-06-11",
+      "confidence": 0.35,
       "source_count": 2,
       "sources": [
-        {"label": "Yahoo Finance (Micron Q3 prediction, earnings 24.06)", "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-micron-technology-stock-could-110200571.html"},
-        {"label": "SEC 8-K (Micron FY2026 press release)", "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000110465926071845/tm2617112d1_ex99-1.htm"}
+        {"label": "Barchart (Micron PT doubled)", "url": "https://www.barchart.com/story/news/2330980/why-1-veteran-analyst-doubled-her-micron-stock-price-target-for-2026"},
+        {"label": "Benzinga (MU analyst ratings)", "url": "https://www.benzinga.com/quote/MU/analyst-ratings"}
       ]
     },
     {
@@ -34,27 +34,25 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Beat&raise (Q2 FY2026, 04.06: przychod 1,57 mld +40% r/r, EPS adj 1,64, raise FY do 6,3 mld) WYPADL z okna <=7 dni (11 dni). W oknie: emisja obligacji zamiennych 0% 2,875 mld USD (zamknieta 11.06) — finansowanie/rozwodnienie, kierunek neutralny-lekko negatywny, NIE bullish. Quantum-safe demo z Colt (10.06) — drobny PoC, nie twardy event. UBS cel 508 (02.06) poza oknem. Konserwatywnie: brak.",
+      "headline": "Brak swiezego katalizatora w oknie 08-15.06. Wyniki Q2 FY2026 (beat&raise) i podwyzki celow wypadly 04-05.06 (poza oknem). Emisja obligacji zamiennych ~2,875 mld USD (zamknieta 11.06) - finansowanie/rozwodnienie, kierunek neutralny-lekko negatywny. Konserwatywnie: brak.",
       "as_of": "2026-06-15",
-      "confidence": 0.3,
-      "source_count": 2,
-      "sources": [
-        {"label": "TipRanks (Ciena 2,0 mld USD convertible notes offering, 08.06)", "url": "https://www.tipranks.com/news/company-announcements/ciena-announces-2-0-billion-convertible-notes-offering-plan"},
-        {"label": "Ciena IR (Q2 FY2026 results, 04.06)", "url": "https://investor.ciena.com/news/news-details/2026/Ciena-Reports-Fiscal-Second-Quarter-2026-Financial-Results/default.aspx"}
-      ]
+      "confidence": 0.4,
+      "source_count": 0,
+      "sources": []
     },
     {
       "ticker": "INTC",
       "has_catalyst": true,
-      "catalyst_type": "contract",
+      "catalyst_type": "rating_upgrade",
       "direction": "bullish",
-      "headline": "Swiezy event na krawedzi okna: 08.06 liczne raporty, ze Google (Alphabet) i NVIDIA wybraly Intel Foundry jako zapasowego producenta najbardziej zaawansowanych ukladow (TSMC przeciazone popytem) — INTC +10-12% (lider S&P 500). Wells Fargo podniosl cel do 110 USD (z 85). Wczesniej (V) wstepne porozumienie z Apple (proces 18A). >=2 niezalezne zrodla. RYZYKO: czesc to 'reported'/backup bez finalnego filingu i event starzeje sie (08.06 = 7 dni) -> umiarkowana pewnosc.",
-      "as_of": "2026-06-11",
-      "confidence": 0.5,
-      "source_count": 2,
+      "headline": "Swiezy twardy katalizator: Bank of America PODWOJNY upgrade do Buy (cel 96->135 USD, 11.06) - zmiana ratingu, nie reiteracja. Raporty o zainteresowaniu Google i NVIDIA Intel Foundry jako zapasowym producentem zaawansowanych ukladow (TSMC przeciazone). Akcje testuja rekordy (15.06). >=3 niezalezne zrodla, kierunek bullish.",
+      "as_of": "2026-06-15",
+      "confidence": 0.8,
+      "source_count": 3,
       "sources": [
-        {"label": "StocksToTrade (Intel surges as Google, NVIDIA turn to its foundry, 11.06)", "url": "https://stockstotrade.com/news/intel-corporation-intc-news-2026_06_11/"},
-        {"label": "Intellectia (Intel foundry news, Google/Nvidia/Apple)", "url": "https://intellectia.ai/blog/intel-apple-chip-deal-2026"}
+        {"label": "Yahoo Finance (BofA double upgrade Intel)", "url": "https://finance.yahoo.com/markets/stocks/articles/intel-scores-double-upgrade-bank-165300391.html"},
+        {"label": "FXLeaders (Intel record highs, upgrade)", "url": "https://www.fxleaders.com/news/2026/06/15/intel-stock-intc-tests-record-highs-on-iran-deal-analyst-upgrade-and-foundry-momentum/"},
+        {"label": "InteractiveCrypto (Google/Nvidia foundry interest)", "url": "https://www.interactivecrypto.com/intel-surges-9-2-on-bank-of-america-upgrade-google-nvidia-foundry-interest-jun-2026"}
       ]
     },
     {
@@ -62,13 +60,13 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Katalizator (NVIDIA 2 mld USD equity + wieloletnia umowa CPO/optyki AI-DC) oraz rajd na Computex 02.06 (+17,6%, rekord 426,89) — POZA oknem <=7 dni (13 dni). Bookingi optyki AI do 2028/2030 to struktura, nie nowy event. 12.06 JPMorgan reiterate Overweight (cel 380) — sell-side. Akcje optyczne -15% od czerwcowych szczytow. Konserwatywnie: brak swiezego katalizatora.",
-      "as_of": "2026-06-15",
-      "confidence": 0.3,
+      "headline": "W oknie sygnaly mieszane sell-side: JPMorgan podtrzymuje Overweight i widzi okazje po spadku ~17% (12.06), inny analityk utrzymuje Hold z celem 330 USD. Brak dyskretnego twardego eventu; katalizator NVIDIA 2 mld USD + Computex byly 02.06 (poza oknem). Kierunek neutralny. Konserwatywnie: brak.",
+      "as_of": "2026-06-12",
+      "confidence": 0.35,
       "source_count": 2,
       "sources": [
-        {"label": "Yahoo Finance (Coherent +11,9% po Nvidia AI optics deal & equity)", "url": "https://finance.yahoo.com/markets/stocks/articles/why-coherent-cohr-11-9-043123374.html"},
-        {"label": "GuruFocus (Coherent & Lumentum, JPMorgan Overweight, 12.06)", "url": "https://www.gurufocus.com/news/8914309/coherent-cohr-and-lumentum-lite-present-investment-opportunities-says-jpmorgan-analyst"}
+        {"label": "GuruFocus (JPMorgan Overweight COHR/LITE, 12.06)", "url": "https://www.gurufocus.com/news/8914309/coherent-cohr-and-lumentum-lite-present-investment-opportunities-says-jpmorgan-analyst"},
+        {"label": "TipRanks/The Fly (Coherent rating note)", "url": "https://www.tipranks.com/news/the-fly/coherent-upgraded-to-buy-from-neutral-at-bofa-2"}
       ]
     }
   ]
