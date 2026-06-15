@@ -71,6 +71,16 @@ def score_entry(entry: dict, price_now, spy_now, today, horizon_days: int = 30) 
         if days is not None and days < 2 and abs(ret) > 30.0:
             e.pop("ret_pct", None); e.pop("alpha_pct", None); e.pop("peak_ret_pct", None)
             return e
+        # GUARD OUTLIERA (dowolne days): ruch >70% to niemal zawsze zły fetch ceny / reverse-split /
+        # niewykonalny pump (np. GOOGL +97,6% w 6 dni = błąd danych mega-capa). Flaguj 'glitch_suspect',
+        # NIE rozliczaj jako WIN (zostaw OPEN), wyczyść zglitchowany zwrot — przeliczy się, gdy cena wróci
+        # do normy. Kompromis: realny >70% catch też wstrzymany do weryfikacji (dla tego bota b. rzadkie;
+        # uczciwość audytu edge > automatyczne zaliczenie niezweryfikowanego monstera).
+        if abs(ret) > 70.0:
+            e["glitch_suspect"] = True
+            e.pop("ret_pct", None); e.pop("alpha_pct", None); e.pop("peak_ret_pct", None)
+            e["status"] = "OPEN"
+            return e
         e["ret_pct"] = round(ret, 1)
         # HIGH-WATER MARK zwrotu (do diagnostyki ścinania ogona: ile oddaliśmy od szczytu przy wyjściu)
         prev_peak = _num(e.get("peak_ret_pct"))

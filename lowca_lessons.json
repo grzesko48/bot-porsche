@@ -120,13 +120,6 @@
   },
   {
     "date": "2026-06-09",
-    "ticker": "PAVS",
-    "pct": 795.0,
-    "presignal": "Registered direct offering $5M (March 24 2026, 85 dni przed spikes) — klasyczny low-float squeeze setup; prior close $0.94; NASDAQ listing; MCap ultra-micro; brak oczywistego katalizatora dnia w dniu wzrostu",
-    "lesson": "Ultra-low float + registered direct offering ($5M) = pre-squeeze setup widoczny 85+ dni wcześniej dla Chinese micro-cap NASDAQ; brak catalyst dnia sugeruje squeeze/pump dynamics na niskim float; wzorzec: niedawny PIPE/direct offering + ultra-micro-cap NASDAQ + brak coverage = klaster pump candidates; ekstremalne ruchy (>500%) możliwe na prawie zero wolumenie normalnym"
-  },
-  {
-    "date": "2026-06-09",
     "ticker": "CHAI",
     "pct": 285.0,
     "presignal": "JV z Allianca Group na AI data center capacity (April 14 2026) + appointment Sonali Garg do Advisory Board (May 5 2026) + MOU z CSPM Resources (Malaysia, Feb 4 2026) — 3 catalyst w ciągu 4 miesięcy bez single big trigger; 6-K filing May 26 2026 = ostatni pre-sygnał",
@@ -152,13 +145,6 @@
     "pct": 39.4,
     "presignal": "FDA NDA dla neladalkib z Priority Review zaakceptowana (PDUFA 2026-11-27, ALK-positive NSCLC) — widoczna PRZED ogłoszeniem; Bernstein launched Outperform $189 target ('best idea and top pick') — agresywny target 2-3x ceny oznaczał potencjał M&A; TipRanks: 'Why Nuvalent rebounding after rout' — stock odrabiał PRZED ogłoszeniem (rynek wyczuł deal); GSK acquisition $10.6B ($124/share, 40% premium) ogłoszone June 9 rano; wszystkie 3 pre-sygnały dostępne dni przed ogłoszeniem",
     "lesson": "Biotech z FDA Priority Review NDA + agresywna inicjacja analityka (target 2-3x bieżąca cena, 'best idea') + stock 'nagle odrabia po rout' bez wyraźnego powodu = klasyczny pre-M&A pattern; sledź biotech gdzie analityk daje target 2x+ ceny + FDA Priority Review w ostatnich 30 dniach = buyout watch; GSK-NUVL-pattern do screenera"
-  },
-  {
-    "date": "2026-06-10",
-    "ticker": "PAVS",
-    "pct": 795.0,
-    "presignal": "Registered direct offering $5M (March 24 2026, 85 dni przed spikes) — klasyczny low-float squeeze setup; prior close $0.94; NASDAQ listing; MCap ultra-micro; brak oczywistego katalizatora dnia w dniu wzrostu",
-    "lesson": "Ultra-low float + registered direct offering ($5M) = pre-squeeze setup widoczny 85+ dni wcześniej dla Chinese micro-cap NASDAQ; brak catalyst dnia sugeruje squeeze/pump dynamics na niskim float; wzorzec: niedawny PIPE/direct offering + ultra-micro-cap NASDAQ + brak coverage = klaster pump candidates; ekstremalne ruchy (>500%) możliwe na prawie zero wolumenie normalnym"
   },
   {
     "date": "2026-06-10",
@@ -232,31 +218,10 @@
   },
   {
     "date": "2026-06-10",
-    "ticker": "INHD",
-    "pct": 3660.0,
-    "presignal": "$3M development-services agreement z Hong Kong AI provider na used-phone sales-agent system (build order, nie revenue) ogłoszony June 8 → +3,660% intraday (prior close $1.05 → $39.49); spółka miała 2 reverse splity w ciągu ostatnich 6 miesięcy; NASDAQ halted under T12 code po sesji June 8 = brak substancji",
-    "lesson": "Build-order DISGUISED as AI revenue deal + historia >=2 reverse splits w 12 miesięcy + micro-cap = typowy pump/squeeze bez fundamentów; NASDAQ T12 halt potwierdza brak substancji; NIGDY nie tradować spółek z >=2 reverse splits w ciągu roku nawet jeśli 'AI deal' — ekstremalny ruch +3660% to pułapka; pre-sygnał był: seria reverse splits = pre-pump setup, ale NIGDY nie powinno być to okazja DO kupna"
-  },
-  {
-    "date": "2026-06-10",
     "ticker": "STAK",
     "pct": 479.0,
     "presignal": "NASDAQ compliance regained kwiecień 2026 (usunięcie ryzyka delistingu) + ogłoszenie AI-Ready Distributed Power Solutions via proposed U.S. subsidiary (maj 2026) + pivot oilfield-to-AI narrative; retail social media frenzy równoległy z SDOT; brak fundamentalnego uzasadnienia AI (net income $1.8M z oilfield operations); wszystkie pre-sygnały dostępne 2-4 tygodnie przed spike",
     "lesson": "NASDAQ compliance regained (removal of delisting risk) + AI narrative pivot w chińskiej spółce oilfield = retail momentum pump BEZ fundamentów; dual ticker social media frenzy (STAK+SDOT jednocześnie) = typowy skoordynowany retail pump; pre-sygnał był czytelny (compliance + AI subsidiary announcement) ale risk/reward ZA NISKIE wobec braku realnych przychodów AI; dodać do screenera: NASDAQ compliance regained w ostatnich 60 dniach + Chinese company + 'AI subsidiary' ogłoszenie = pump watch ale NIE kupować"
-  },
-  {
-    "date": "2026-06-11",
-    "ticker": "INHD",
-    "pct": 3660.0,
-    "presignal": "$3M development-services agreement z Hong Kong AI provider na used-phone sales-agent system (build order, nie revenue) ogłoszony June 8 → +3,660% intraday (prior close $1.05 → $39.49); spółka miała 2 reverse splity w ciągu ostatnich 6 miesięcy; NASDAQ halted under T12 code po sesji June 8 = brak substancji",
-    "lesson": "Build-order DISGUISED as AI revenue deal + historia >=2 reverse splits w 12 miesięcy + micro-cap = typowy pump/squeeze bez fundamentów; NASDAQ T12 halt potwierdza brak substancji; NIGDY nie tradować spółek z >=2 reverse splits w ciągu roku nawet jeśli 'AI deal' — ekstremalny ruch +3660% to pułapka; pre-sygnał był: seria reverse splits = pre-pump setup, ale NIGDY nie powinno być to okazja DO kupna"
-  },
-  {
-    "date": "2026-06-11",
-    "ticker": "PAVS",
-    "pct": 795.0,
-    "presignal": "Registered direct offering $5M (March 24 2026, 85 dni przed spikes) — klasyczny low-float squeeze setup; prior close $0.94; NASDAQ listing; MCap ultra-micro; brak oczywistego katalizatora dnia w dniu wzrostu",
-    "lesson": "Ultra-low float + registered direct offering ($5M) = pre-squeeze setup widoczny 85+ dni wcześniej dla Chinese micro-cap NASDAQ; brak catalyst dnia sugeruje squeeze/pump dynamics na niskim float; wzorzec: niedawny PIPE/direct offering + ultra-micro-cap NASDAQ + brak coverage = klaster pump candidates; ekstremalne ruchy (>500%) możliwe na prawie zero wolumenie normalnym"
   },
   {
     "date": "2026-06-11",
@@ -341,20 +306,6 @@
     "pct": 28.0,
     "presignal": "LOI nabycia 100% Carbonium Core (ogłoszony ~June 2026) + 12-mies. PoC agreement z global consumer electronics leader na conformable MicroLED wearables + debt conversion $2M w luty 2026 (accounts payable → akcje + warranty); seria 3 małych katalizatorów przez 4 miesiące bez single big trigger",
     "lesson": "Catalyst TRIAD w micro-cap deep tech: (1) balance sheet repair (debt→equity conversion), (2) enterprise PoC partnership z duża firmą, (3) M&A/acquisition LOI = kumulacja narratywu przez kwartał bez visible trigger; śledź spółki z WSZYSTKIMI trzema w ciągu 1-2 kwartałów — NASDAQ MCap <$50M deep tech (materials, displays, organics)"
-  },
-  {
-    "date": "2026-06-12",
-    "ticker": "INHD",
-    "pct": 3660.0,
-    "presignal": "$3M development-services agreement z Hong Kong AI provider na used-phone sales-agent system (build order, nie revenue) ogłoszony June 8 → +3,660% intraday (prior close $1.05 → $39.49); spółka miała 2 reverse splity w ciągu ostatnich 6 miesięcy; NASDAQ halted under T12 code po sesji June 8 = brak substancji",
-    "lesson": "Build-order DISGUISED as AI revenue deal + historia >=2 reverse splits w 12 miesięcy + micro-cap = typowy pump/squeeze bez fundamentów; NASDAQ T12 halt potwierdza brak substancji; NIGDY nie tradować spółek z >=2 reverse splits w ciągu roku nawet jeśli 'AI deal' — ekstremalny ruch +3660% to pułapka; pre-sygnał był: seria reverse splits = pre-pump setup, ale NIGDY nie powinno być to okazja DO kupna"
-  },
-  {
-    "date": "2026-06-12",
-    "ticker": "PAVS",
-    "pct": 795.0,
-    "presignal": "Registered direct offering $5M (March 24 2026, 85 dni przed spikes) — klasyczny low-float squeeze setup; prior close $0.94; NASDAQ listing; MCap ultra-micro; brak oczywistego katalizatora dnia w dniu wzrostu",
-    "lesson": "Ultra-low float + registered direct offering ($5M) = pre-squeeze setup widoczny 85+ dni wcześniej dla Chinese micro-cap NASDAQ; brak catalyst dnia sugeruje squeeze/pump dynamics na niskim float; wzorzec: niedawny PIPE/direct offering + ultra-micro-cap NASDAQ + brak coverage = klaster pump candidates; ekstremalne ruchy (>500%) możliwe na prawie zero wolumenie normalnym"
   },
   {
     "date": "2026-06-12",

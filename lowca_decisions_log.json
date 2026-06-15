@@ -659,11 +659,12 @@
     "rr": 2.0,
     "ev_pct": null,
     "spy_at_entry": 731.42,
-    "status": "WIN",
+    "status": "OPEN",
     "days_held": 6,
-    "ret_pct": 97.6,
-    "peak_ret_pct": 98.4,
-    "alpha_pct": 96.2
+    "ret_pct": null,
+    "peak_ret_pct": null,
+    "alpha_pct": null,
+    "glitch_suspect": true
   },
   {
     "id": "2026-06-03-CRWV",
