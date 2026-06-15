@@ -459,6 +459,23 @@ def run_bot(export_path: Optional[str], cfg: Optional[BotConfig] = None,
         sniper = choose_sniper(res.accepted_picks, candidates_by_ticker)
         res.sniper_pick = sniper
 
+        # ── PAPER (faza nauki): wystaw zakwalifikowane core-buye do feedu wirtualnej księgi 100k ──
+        # paper_engine.py przeskaluje sizing na 100k; tu tylko ticker/cena/stop + malejący score
+        # (zachowuje ranking bilansu). NIE wpływa na realny rachunek — osobna wirtualna księga (nauka).
+        if not selftest:
+            try:
+                import json as _pjson
+                core_feed = [{"ticker": o.ticker, "entry_usd": round(float(o.entry_price_usd), 4),
+                              "stop_usd": round(float(o.stop_price_usd), 4),
+                              "target_usd": round(float(o.entry_price_usd) * 1.30, 4),
+                              "score": round(8.0 - i * 0.3, 2)}
+                             for i, o in enumerate((res.accepted_picks or [])[:8])]
+                with open("paper_core_orders.json", "w", encoding="utf-8") as _pf:
+                    _pjson.dump(core_feed, _pf, ensure_ascii=False, indent=2)
+                res.notes.append(f"paper_core_orders.json: {len(core_feed)} core-buy -> wirtualna ksiega 100k")
+            except Exception as _pe:
+                res.notes.append(f"paper feed pominięty: {_pe}")
+
         # ── 7.5. SHADOW LEDGER SOCZEWEK (pomiar skuteczności, NIE wpływa na zakupy) ──
         # Każdy cykl: policz scalary soczewek dla wszystkich kandydatów i zaloguj
         # ranking bazowy (sam momentum) vs z soczewkami. lens_evaluate.py liczy potem
