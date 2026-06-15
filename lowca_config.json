@@ -1,5 +1,7 @@
 {
   "_comment": "Konfiguracja bota Łowcy — stałe parametry środowiskowe.",
+  "selection_enabled": false,
+  "_selection_enabled_comment": "PIVOT 2026-06-16: false = tryb OVERLAY (łowca NIE zaleca kupna — selekcja ma zmierzoną alfę -13.7pp; dalej skanuje, ostrzega/unika i mierzy cienie). true = przywróć selekcję/kupno. Próg rewizji: n>=60 / ~6-8 tyg, albo CONGRESS +alfa przy n>=25.",
   "xtb_drive_folder_id": "1YRH_4DO8f1SA565miyZcjVA8_5zkaqBV",
   "xtb_drive_folder_name": "aktualny",
   "xtb_file_prefix": "PLN_54820945_",

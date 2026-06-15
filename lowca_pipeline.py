@@ -59,6 +59,7 @@ except Exception:
 class LowcaConfig:
     capital_pln: float = 1582.0
     sleeve_pct: float = 0.15
+    selection_enabled: bool = True     # PIVOT 2026-06-16: False = tryb OVERLAY (zero kupna, sam pomiar/unikanie); flaga z lowca_config.json
     min_position_pln: float = 43.0
     max_position_pln: float = 80.0     # E: mniejszy cap (sleeve ~237 zł — 3×120 to fikcja); mniej ekspozycji na nieudowodniony edge
     max_open_spec: int = 2             # E: max 2 spekulacje naraz (mały sleeve — nie rozcieńczaj w szum)
@@ -320,6 +321,11 @@ def _shares(size_pln, price_usd, fx):
 
 def deployable_budget(c: LowcaConfig, free_cash_pln=None, sleeve_used_pln: float = 0.0):
     sleeve_cap = c.capital_pln * c.sleeve_pct
+    # PIVOT (2026-06-16): tryb OVERLAY — selekcja wstrzymana (alfa zmierzona -13.7pp). Budżet 0 ->
+    # każda decyzja staje się PASS (ZERO ekspozycji), ale skan, unikanie (CZEKAJ), pętla nauki i
+    # pomiar cieni dalej działają. Odwracalne: "selection_enabled": true w lowca_config.json.
+    if not getattr(c, "selection_enabled", True):
+        return 0.0, sleeve_cap, False
     avail_sleeve = max(0.0, sleeve_cap - sleeve_used_pln)
     if free_cash_pln is None:
         return avail_sleeve, sleeve_cap, False
@@ -620,6 +626,19 @@ def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
         f"Do wydania {budget:,.0f} zł · USD/PLN {fxv:.2f}</div></div>"
     )
 
+    # PIVOT OVERLAY (2026-06-16) — łowca nie kupuje, mierzy i ostrzega; baner u góry, by nie było wątpliwości
+    if not getattr(c, "selection_enabled", True):
+        P.append(
+            f"<div style='background:#7f1d1d;border-left:5px solid {GOLD};border-radius:12px;padding:18px 22px;margin-bottom:18px;"
+            f"{SANS}font-size:12.5pt;color:#ffffff;line-height:1.6;'>"
+            f"<b style='color:{GOLD};font-size:13.5pt;'>🛑 TRYB OVERLAY — ZERO KUPNA</b><br>"
+            f"Łowca <b>nie zaleca dziś żadnego zakupu</b>. Selekcja (łowienie „co kupić”) ma zmierzoną "
+            f"<b>ujemną alfę −13,7 pp vs SPY</b> (audyt 16.06) → rękaw spekulacyjny wstrzymany, realny kapitał na selekcję = 0 zł. "
+            f"Poniżej to <b>raport ryzyka i pomiaru</b>, nie rekomendacje: czego unikać, czego się uczę, dalszy pomiar cieni "
+            f"(m.in. CONGRESS) vs SPY. "
+            f"<span style='color:{MUTED2};'>Próg powrotu do kupna: n≥60 / ~6–8 tyg, albo CONGRESS +alfa przy n≥25.</span></div>"
+        )
+
     # BANER WYSOKIEGO PRZEKONANIA (stoicki — sygnał, nie nakaz; bez paniki, spokojny ton)
     if hot:
         P.append(
@@ -835,6 +854,17 @@ def render_html(decisions, c, equity_pln=None, free_cash_pln=None, fx=None, held
     return "".join(P)
 
 
+def _selection_enabled(path="lowca_config.json") -> bool:
+    """PIVOT: czy łowca robi SELEKCJĘ (kupno) czy działa jako OVERLAY (zero kupna, sam pomiar/unikanie).
+    Domyślnie False (overlay) — selekcja ma zmierzoną ujemną alfę (-13,7 pp). Odwracalne: ustaw
+    "selection_enabled": true w lowca_config.json (zero zmian w kodzie)."""
+    try:
+        import json as _j
+        return bool(_j.load(open(path, encoding="utf-8")).get("selection_enabled", False))
+    except Exception:
+        return False
+
+
 def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
         sleeve_used=0.0, open_spec=0, today="", alert_only=False) -> int:
     acc = read_account()
@@ -844,7 +874,7 @@ def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
     held = acc["held"]
     held_tickers = [h["ticker"] for h in held]
 
-    c = LowcaConfig(capital_pln=capital, fx_usd_pln=fx)
+    c = LowcaConfig(capital_pln=capital, fx_usd_pln=fx, selection_enabled=_selection_enabled())
     signals = oppl.read_opportunity_signals(signals_path) if signals_path else oppl.read_opportunity_signals()
     radar = oppl.build_radar(signals)
     smart = lsrc.build_smart(signals) if lsrc else {"all": []}
@@ -872,7 +902,7 @@ def run(signals_path=None, capital=None, cash=None, fx=None, send=False,
     # TYLKO realnie kupowalne pozycje łowcy (bought=True). Dziennik zawiera teraz też sygnały
     # "shadow"/backfill (bought=False) — to track record do NAUKI, NIE posiadane pozycje.
     open_positions = [r for r in (track or []) if str(r.get("status", "OPEN")).upper() == "OPEN" and r.get("bought") is True]
-    ultra = select_ultra_pick(decisions, c)
+    ultra = select_ultra_pick(decisions, c) if c.selection_enabled else None  # PIVOT: brak ultra-pick (box „→ kup") w trybie overlay
     if ultra is not None:
         print(f"ULTRA-PICK: {ultra.ticker} (score {ultra.score:.1f}, konfluencja {ultra.confluence}).")
     print(render_text(decisions, c, equity_pln=capital, free_cash_pln=cash, fx=fx, held=held,
@@ -1067,6 +1097,19 @@ def _run_selftest() -> int:
            render_html(pdec, c, equity_pln=1648, free_cash_pln=300.0, fx=3.64, today="2026-06-05"))
     except Exception as e:
         ok(f"HTML czekam ({e})", False)
+
+    # PIVOT OVERLAY (odwracalnosc): ta sama silna okazja IPO -> BUY w selekcji, ale NIE w overlay
+    c_ovl = LowcaConfig(capital_pln=1600.0, fx_usd_pln=3.64, selection_enabled=False)
+    ovl = decide_all([{"ticker": "RRP", "kind": "IPO", "score": 8.0, "confluence": 2,
+                       "price_usd": 20.0}], c_ovl, free_cash_pln=300.0, fx=3.64)
+    ok("OVERLAY: budzet=0 gdy selection_enabled=False", deployable_budget(c_ovl, 300.0)[0] == 0.0)
+    ok("OVERLAY: silne IPO (BUY w selekcji) NIE kupowane w overlay (zero ekspozycji)",
+       ovl[0].verdict != "BUY" and ovl[0].size_pln == 0)
+    try:
+        ok("OVERLAY: baner 'ZERO KUPNA' w mailu", "ZERO KUPNA" in
+           render_html(ovl, c_ovl, equity_pln=1600, free_cash_pln=300.0, fx=3.64, today="2026-06-16"))
+    except Exception as e:
+        ok(f"OVERLAY html ({e})", False)
 
     print(f"\n=== WYNIK: {P} OK, {F} FAIL ===")
     if F == 0:
