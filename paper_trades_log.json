@@ -75,5 +75,16 @@
     "value_pln": 3004.0,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.5)"
+  },
+  {
+    "date": "2026-06-16",
+    "ticker": "GOOGL",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 2.5065,
+    "price_usd": 370.62,
+    "value_pln": 3400.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.0)"
   }
 ]
