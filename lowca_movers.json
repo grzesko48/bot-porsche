@@ -68,5 +68,19 @@
     "day": "2026-06-15",
     "presignal": "Leadnova.ai acquisition (June 2025) → UAT announcement November 2025 → commercial beta target Q1 2026 → pełny launch commercial June 15 2026; czterostopniowy roadmap produktowy był widoczny przez cały czas; wolumen 91M vs avg 1.42M (64x normy) w dniu wzrostu; spółka telecom AI micro-cap NASDAQ ($29.1M kwartalny revenue, negative EBIT); cena od $0.52 do $0.89 w ~25 dni",
     "lesson": "Telecom AI micro-cap z 4-etapowym roadmapem produktowym (akwizycja platformy → UAT → beta launch → commercial launch) buduje pre-sygnał przez miesiące PRZED głównym spike; każdy etap (akwizycja, UAT, beta) to identyfikowalny checkpoint; wolumen 64x normy w dniu commercial launch = potwierdzenie; śledź NASDAQ micro-cap gdzie akwizycja AI narzędzia + UAT + beta launch tworzy progresywny roadmap — commercial launch = moment kupna (ale pct_1m >50% = parabola, nie gonić)"
+  },
+  {
+    "ticker": "CAST",
+    "pct": 254,
+    "day": "2026-06-15",
+    "presignal": "Kontynuacja June 13 (+161%) — ultra-low float micro-cap streaming FreeCast Inc.; severely distressed balance sheet (negative equity ~$7M, -2300% EBIT margin, $0.63M revenue); ultra-low float NASDAQ = squeeze setup identyczny jak INHD; 'distribution deal' jako fasada dla pump; pre-sygnał: negatywny equity + revenue <$1M + ultra-low float = squeeze setup identyfikowalny PRZED",
+    "lesson": "CAST-pattern: ultra-distressed micro-cap + negative equity + ultra-low float NASDAQ = multi-day squeeze (June 13 +161% → June 15 +254% = ciągłość wielodniowa!); NIE KUPOWAĆ mimo identyfikowalnego wzorca — brak substancji; ważna obserwacja: squeeze może trwać KILKA DNI z narastaniem — identyfikacja w D+1 (June 13) daje potencjalnie window D+2 (June 15); ale wzorzec ZAWSZE PASS"
+  },
+  {
+    "ticker": "GELS",
+    "pct": 47,
+    "day": "2026-06-15",
+    "presignal": "Gelteq Limited (biotech gel-based drug delivery platform) — Kemin Industries vet palatability trial completion (animal health validation) + nowe Gelteq Center of Excellence Guangdong Province China + strategic commercial partnerships = 3 milestone'y commercialization przez 2-3 kwartały PRZED głównym spike; cena od ~$0.44 do $2.73 (kilka dni); NASDAQ micro-cap biotech",
+    "lesson": "Catalyst TRIAD commercialization w small-cap biotech drug delivery: (1) enterprise partner validation (Kemin vet palatability trial), (2) operational expansion (China CoE), (3) strategic commercial partnerships = kumulacja narratywu bez single FDA/clinical trigger; wzorzec identyczny z SMTK (catalyst TRIAD deep tech) i NTCL (stacking przez 2-3 kwartały); śledź NASDAQ micro-cap biotech delivery platform gdzie milestones commercialization kumulują się — enterprise partner trial + nowe centrum + partnership = triple signal stack"
   }
 ]

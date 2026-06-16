@@ -1,6 +1,6 @@
 {
   "_date": "2026-06-16",
-  "_run": "preotwarcie 14:30 CEST",
+  "_run": "srodsesyjny 18:30 CEST",
   "ipo": [
     {
       "ticker": "SPCX",
@@ -31,6 +31,16 @@
       "catalyst": "IPO NYSE June 3 @ $27; USAF $15.6M + $18.5M additive drones = $34.1M łącznie; avg analyst $36 (8/8 Strong Buy, +53% upside); DoD $901B FY2026; -13% od IPO = buy-the-dip przy potwierdzonych kontraktach",
       "still_upside": true,
       "upside_reason": "$23.50 vs analyst $36 (+53%); -13% od IPO przy 8/8 Strong Buy; drone defense USAF IPO discount = asymetryczna okazja"
+    },
+    {
+      "ticker": "KARD",
+      "name": "Kardigan Inc — Cardiovascular Precision Biotech IPO",
+      "age_months": 0,
+      "price_usd": 15.00,
+      "pct_1m": 0,
+      "catalyst": "IPO NASDAQ pricing week June 15-18 (listing ~June 18 2026); $350M raise @ $14-16 range; $1.4B target valuation; 3 Phase 2b/3 programs: danicamtiv (genetic DCM, MYH7/TTN mutations), ataciguat (calcific aortic valve stenosis), tonlamarsen (acute severe hypertension); orphan disease potential dla danicamtiv; instytucjonalna dystrybucja $350M = conviction signal",
+      "still_upside": true,
+      "upside_reason": "Fresh IPO z silnym instytucjonalnym popytem ($350M raise); 3 równoległe Phase 2b/3 = wiele potencjalnych katalizatorów danych; genetic DCM = orphan disease premium wycena; cena IPO $14-16 = znana podłoga; pct_1m=0 = brak efektu anty-chase"
     }
   ],
   "volume": [
@@ -59,6 +69,22 @@
       "price_usd": 55.00,
       "pct_1m": 19,
       "catalyst": "US-Iran war od Feb 28 2026 trwa; WTI $88+; Strait of Hormuz threat (21M bbl/dzień); Berkshire Hathaway strategic holding; energia = #1 sektor S&P 500 YTD 2026"
+    },
+    {
+      "ticker": "SUGP",
+      "name": "SU Group Holdings — PARABOLA OSTRZEŻENIE",
+      "volume_mult": 180.0,
+      "price_usd": 2.80,
+      "pct_1m": 179,
+      "note": "Volume 157M premarket June 16 (+179%). Catalyst: GEZE distribution deal (AI building security systems, window/door automation) + AI Under Vehicle Surveillance Systems kontrakt przy Huanggang Port border. Chiński NASDAQ micro-cap commercial services. pct_1m +179% = PARABOLA — NIE KUPOWAC. Wzorzec: GEZE distribution = realny katalizator komercyjny, ale wejście po +179% = gonienie górki. Obserwuj cofnięcie do $1.00-1.20 jeśli teza się potwierdzi."
+    },
+    {
+      "ticker": "GELS",
+      "name": "Gelteq Limited — PARABOLA po catalyst triad",
+      "volume_mult": 15.0,
+      "price_usd": 2.73,
+      "pct_1m": 520,
+      "note": "June 15 +47% (cena $0.44 → $2.73 w kilka dni = +520% całkowity ruch). Catalyst: Kemin vet palatability trial completion + Gelteq Center of Excellence Guangdong China + strategic commercialization partnerships = catalyst TRIAD biotech drug delivery. pct_1m +520% = EKSTREMALNA PARABOLA — NIE KUPOWAC. Wzorzec SMTK/NTCL ale już po spiku. Monitoruj jako lekcję catalyst TRIAD w small-cap biotech delivery."
     }
   ],
   "contract": [
@@ -230,12 +256,12 @@
     },
     {
       "ticker": "RCAT",
-      "name": "Red Cat Holdings — lock-up dip recovery",
-      "price_usd": 13.00,
-      "pct_1m": 20,
-      "catalyst": "NOWY June 15: $742K Army Black Widow drone + AI landmine detection contract + Quaze Technologies acquisition closed; lock-up expiry June 12 dip priced-in; secondary $9.40 = floor wsparcia; analyst Clear St $19, Roth $25 Buy; Q1 revenue +849% YoY; Trump $1.1B Drone Dominance",
+      "name": "Red Cat Holdings — pullback do poziomu miesięcznego",
+      "price_usd": 11.07,
+      "pct_1m": 2,
+      "catalyst": "June 16 dip do $11.07 z $13: Army Black Widow drone $742K + AI landmine detection contract + Quaze Technologies acquisition closed (June 15); lock-up expiry priced-in; secondary $9.40 = floor wsparcia; analyst Clear St $19, Roth $25 Buy avg ~$22; Q1 revenue +849% YoY; Trump $1.1B Drone Dominance; pct_1m ZRESET do +2% = lepszy entry",
       "still_upside": true,
-      "upside_reason": "Dilucja priced-in; secondary $9.40 = wsparcie/podłoga; analyst avg ~$22 (+69% z $13); nowy Army contract June 15 potwierdza DoD traction; Q1 +849% YoY; pct_1m +20% < 25%"
+      "upside_reason": "Dilucja priced-in; dip z $13 do $11.07 (-14.8%) = LEPSZY entry przy niezmienionej tezie; secondary $9.40 = twardy floor; analyst avg ~$22 (+99% z $11.07!); nowy Army contract June 15; Q1 +849% YoY; pct_1m +2% = brak efektu anti-chase"
     },
     {
       "ticker": "BBAI",
