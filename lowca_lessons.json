@@ -425,5 +425,33 @@
     "pct": 18.0,
     "presignal": "DARPA Burn n Go Phase 2 $16.5M kontrakt (ogłoszony wczesniej) + guidance podniesione $230-255M (+38-53% YoY) + backlog $275M (+54% YoY) + Trump EO fixed-price contracting (OMB guidance due June 14 = 3 dni later); 'big space wins' pops June 11 — SpaceX IPO halo aktywny w calym sektorze space/defense",
     "lesson": "Trump EO fixed-price contracting + OMB implementation deadline (2-3 dni ahead) = konkretny regulacyjny catalyst dla specjalistow fixed-price (VOYG); kombinacja: raised guidance + backlog +54% + bliska data OMB + SpaceX IPO halo = multi-catalyst stack; sledz OMB implementation deadlines dla Trump EO jako konkretnych dat eventow"
+  },
+  {
+    "date": "2026-06-16",
+    "ticker": "GLXG",
+    "pct": 192.0,
+    "presignal": "$200M shelf registration złożona (~June 3 2026) + ultra-low float + brak fundamentalnego katalizatora w dniu wzrostu; wzorzec identyczny z PAVS (+795% June 9) — low-float squeeze setup tygodnie przed spike; spółka: Galaxy Payroll Group (HR/payroll SaaS, NASDAQ micro-cap, $32M gotówki, 29 pracownikow); atak retailu bez newsow corporate",
+    "lesson": "Shelf registration $100M-$200M dla NASDAQ micro-cap (<$50M MCap) + ultra-low float = pre-squeeze marker tygodnie przed spike — wzorzec PAVS/GLXG; monitoruj nowe S-3/shelf registrations dla NASDAQ spolek z ultra-niskim float jako pre-pump watchlist; NIE kupowac po spiku, identyfikowac S-3 filing PRZED; koszt pominiecia: +192% jednego dnia"
+  },
+  {
+    "date": "2026-06-16",
+    "ticker": "VSME",
+    "pct": 67.0,
+    "presignal": "AI Smart Living pivot announcement June 10 2026 (dostępny 5 dni przed wzrostem +66.7%); BVI holding company + Singapore platform do ekspansji SE Asia ogłoszone; ultra-low float chiński NASDAQ micro-cap; wzorzec identyczny z CHAI/NTCL (catalyst stacking bez realnych przychodów); ale: $0 potwierdzonych umów, going-concern risk, brak coverage analityków",
+    "lesson": "VSME = CHAI-pattern ze wzrostem narratywu AI bez przychodów; pre-sygnał (AI pivot June 10) był dostępny 5 dni wcześniej; NIE KUPOWAC — spółka ma going-concern warning i $0 realnych umów AI; odróżniaj CHAI-pattern LEGITYMNY (realne JV z $) od CHAI-pattern PUMP (tylko narracja); jeśli brak potwierdzonych przychodów z AI = zawsze PASS mimo identycznego wzorca"
+  },
+  {
+    "date": "2026-06-16",
+    "ticker": "ROKU",
+    "pct": 20.0,
+    "presignal": "Evercore ISI raised target $185 (od $160) w tygodniu przed Bloomberg M&A story; Q1 2026 platform revenue +28% YoY $1.13B + guidance raised to ~$5B platform rev + EBITDA $675M dla 2026; stock recovering z poprzedniego weakness bez oczywistego powodu = pre-M&A pattern analogiczny NUVL (GSK buyout June 9); Bloomberg acquisition speculation opublikowane June 13 rano",
+    "lesson": "Large-cap streaming z analyst target upgrade (Evercore $185) + strong platform revenue growth + stock rebuilding bez wyraźnego katalizatora = pre-M&A pattern (wzorzec NUVL-GSK); śledź large-cap tech gdzie analyst agresywnie podnosi target + stock recovering z rout = buyout candidate radar; Evercore target raise 2 tyg. przed Bloomberg = actionable pre-sygnał"
+  },
+  {
+    "date": "2026-06-16",
+    "ticker": "VOYG",
+    "pct": 18.0,
+    "presignal": "DARPA Burn n Go Phase 2 $16.5M kontrakt (ogłoszony wczesniej) + guidance podniesione $230-255M (+38-53% YoY) + backlog $275M (+54% YoY) + Trump EO fixed-price contracting (OMB guidance due June 14 = 3 dni later); 'big space wins' pops June 11 — SpaceX IPO halo aktywny w calym sektorze space/defense",
+    "lesson": "Trump EO fixed-price contracting + OMB implementation deadline (2-3 dni ahead) = konkretny regulacyjny catalyst dla specjalistów fixed-price (VOYG); kombinacja: raised guidance + backlog +54% + bliska data OMB + SpaceX IPO halo = multi-catalyst stack; śledź OMB implementation deadlines dla Trump EO jako konkretnych dat eventów"
   }
 ]
