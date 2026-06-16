@@ -269,19 +269,78 @@ def generate_core_orders() -> list:
     return out
 
 
+# ── MAIL WIRTUALNEJ KSIĘGI ────────────────────────────────────────────────────────────────────
+def render_email(book: dict, snap: dict, today: str, trades_today: list, prices: dict, fx: float) -> str:
+    prices = {str(k).upper(): v for k, v in (prices or {}).items()}
+    core = [p for p in book.get("positions", []) if p.get("tag") == "core"]
+    sleeve = [p for p in book.get("positions", []) if p.get("tag") == "sleeve"]
+    ret = snap.get("ret_since_start_pct", 0.0)
+    rc = "#16a34a" if ret >= 0 else "#dc2626"
+
+    def _rows(lst):
+        out = ""
+        for p in lst:
+            tk = str(p.get("ticker")).upper()
+            px = _num(prices.get(tk)) or _num(p.get("entry_usd"))
+            entry = _num(p.get("entry_usd"))
+            pnl = (px / entry - 1.0) * 100.0 if entry > 0 else 0.0
+            val = _num(p.get("shares")) * px * fx
+            c = "#16a34a" if pnl >= 0 else "#dc2626"
+            out += (f"<tr><td style='padding:6px 8px;border-top:1px solid #eef;'>{tk}</td>"
+                    f"<td style='padding:6px 8px;border-top:1px solid #eef;text-align:right;'>${entry:.2f}</td>"
+                    f"<td style='padding:6px 8px;border-top:1px solid #eef;text-align:right;'>${px:.2f}</td>"
+                    f"<td style='padding:6px 8px;border-top:1px solid #eef;text-align:right;'>{val:,.0f} zł</td>"
+                    f"<td style='padding:6px 8px;border-top:1px solid #eef;text-align:right;color:{c};font-weight:bold;'>{pnl:+.1f}%</td></tr>")
+        return out or "<tr><td colspan='5' style='padding:8px;color:#888;'>— brak —</td></tr>"
+
+    tr_rows = ""
+    for t in (trades_today or []):
+        c = "#16a34a" if t.get("side") == "BUY" else ("#16a34a" if _num(t.get("pnl_pln")) >= 0 else "#dc2626")
+        pnl = f" · P/L {_num(t.get('pnl_pln')):+,.0f} zł" if t.get("side") == "SELL" else ""
+        tr_rows += (f"<tr><td style='padding:5px 8px;border-top:1px solid #eef;color:{c};font-weight:bold;'>{t.get('side')}</td>"
+                    f"<td style='padding:5px 8px;border-top:1px solid #eef;'>{t.get('ticker')} <span style='color:#888;'>({t.get('tag')})</span></td>"
+                    f"<td style='padding:5px 8px;border-top:1px solid #eef;text-align:right;'>{_num(t.get('value_pln')):,.0f} zł{pnl}</td></tr>")
+    if not tr_rows:
+        tr_rows = "<tr><td colspan='3' style='padding:8px;color:#888;'>Dziś brak transakcji (HOLD).</td></tr>"
+
+    F = "font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;"
+    return (
+        f"<div style='{F}background:#f1f5f9;padding:20px;'><div style='max-width:640px;margin:0 auto;'>"
+        f"<div style='background:#0f172a;border-radius:14px;padding:24px;'>"
+        f"<div style='{F}font-size:10pt;letter-spacing:2px;color:#d4af37;font-weight:bold;text-transform:uppercase;'>Wirtualna księga · faza nauki</div>"
+        f"<div style='{F}font-size:22pt;color:#fff;font-weight:bold;margin:8px 0;'>100 000 zł — {today}</div>"
+        f"<div style='{F}font-size:13pt;color:#cbd5e1;'>Equity <b style='color:#fff;'>{snap.get('equity_pln',0):,.0f} zł</b> "
+        f"(<b style='color:{rc};'>{ret:+.1f}%</b> od startu) · gotówka {snap.get('cash_pln',0):,.0f} zł · "
+        f"zainwestowane {snap.get('invested_pln',0):,.0f} zł · pozycji {snap.get('n_positions',0)}</div></div>"
+        f"<div style='background:#fef3c7;border-left:5px solid #d4af37;border-radius:10px;padding:14px 18px;margin:14px 0;{F}font-size:11.5pt;color:#92400e;'>"
+        f"⚠️ <b>To WIRTUALNE 100 000 zł (paper-trade, faza nauki)</b> — NIE Twój realny rachunek. "
+        f"Realny rachunek jest osobno (tryb overlay, 0 zł ryzyka). Tu oba boty (rdzeń + rękaw) zarządzają księgą, "
+        f"żeby zmierzyć cały system zanim ruszysz prawdziwym kapitałem.</div>"
+        f"<div style='background:#fff;border-radius:12px;padding:18px;margin-bottom:14px;'>"
+        f"<div style='{F}font-weight:bold;color:#0f172a;margin-bottom:8px;'>Transakcje dziś</div>"
+        f"<table style='width:100%;border-collapse:collapse;{F}font-size:11.5pt;color:#1e293b;'>{tr_rows}</table></div>"
+        f"<div style='background:#fff;border-radius:12px;padding:18px;'>"
+        f"<div style='{F}font-weight:bold;color:#0f172a;margin-bottom:8px;'>Pozycje — rdzeń ({len(core)}) + rękaw ({len(sleeve)})</div>"
+        f"<table style='width:100%;border-collapse:collapse;{F}font-size:11.5pt;color:#1e293b;'>"
+        f"<tr style='color:#64748b;font-size:10pt;'><td style='padding:4px 8px;'>Spółka</td><td style='padding:4px 8px;text-align:right;'>Wejście</td>"
+        f"<td style='padding:4px 8px;text-align:right;'>Teraz</td><td style='padding:4px 8px;text-align:right;'>Wartość</td><td style='padding:4px 8px;text-align:right;'>P/L</td></tr>"
+        f"<tr><td colspan='5' style='padding:4px 8px;color:#d4af37;font-weight:bold;font-size:10pt;'>RDZEŃ (~85%)</td></tr>{_rows(core)}"
+        f"<tr><td colspan='5' style='padding:4px 8px;color:#d4af37;font-weight:bold;font-size:10pt;'>RĘKAW (≤15%)</td></tr>{_rows(sleeve)}"
+        f"</table></div></div></div>"
+    )
+
+
 # ── KROK DNIA ─────────────────────────────────────────────────────────────────────────────────
-def step(today: str, fx=4.0, signals_path=None, prices=None, orders=None) -> dict:
+def step(today: str, fx=4.0, signals_path=None, prices=None, orders=None, send=False) -> dict:
     """Jeden dzień: wyjścia -> wejścia -> wycena -> log. Idempotentny po dacie (pomija powtórkę)."""
     book = load_book(start_date=today)
     eqlog = _load(EQUITY_PATH, [])
-    if isinstance(eqlog, list) and any(e.get("date") == today for e in eqlog):
-        print(f"[paper] {today} już zaksięgowany — pomijam (idempotentnie).")
-        return mark_equity(book, prices or {}, fx)
     trades = _load(TRADES_PATH, [])
     if not isinstance(trades, list):
         trades = []
+    already = isinstance(eqlog, list) and any(e.get("date") == today for e in eqlog)
 
-    # ceny: dla trzymanych + kandydatów
+    # zlecenia + ceny liczymy ZAWSZE (potrzebne i do kroku, i do maila o aktualnym stanie)
     if orders is None:
         orders = generate_sleeve_orders(book.get("start_capital_pln", START_CAPITAL), fx, signals_path) + generate_core_orders()
     tickers = sorted({str(p.get("ticker")).upper() for p in book["positions"]} |
@@ -291,27 +350,40 @@ def step(today: str, fx=4.0, signals_path=None, prices=None, orders=None) -> dic
             import scoreboard as sb
             prices = sb.fetch_prices_yf(tickers) or {}
         except Exception as e:
-            print(f"[paper] ceny niedostępne ({e}) — krok bez ruchu cen.")
+            print(f"[paper] ceny niedostępne ({e}) — bez ruchu cen.")
             prices = {}
 
-    day_index = {str(p.get("ticker")).upper(): _num(p.get("days_held")) + 1 for p in book["positions"]}
     new_trades = []
-    apply_exits(book, prices, fx, today, day_index, new_trades)
-    eqmid = mark_equity(book, prices, fx)
-    size_and_buy(book, orders or [], eqmid["equity_pln"], fx, today, prices, new_trades)
+    if already:
+        # ten dzień już zaksięgowany: NIE kupujemy ponownie (idempotencja), ale odświeżamy wycenę + mail
+        print(f"[paper] {today} już zaksięgowany — bez nowych transakcji, świeży raport/mail.")
+    else:
+        day_index = {str(p.get("ticker")).upper(): _num(p.get("days_held")) + 1 for p in book["positions"]}
+        apply_exits(book, prices, fx, today, day_index, new_trades)
+        eqmid = mark_equity(book, prices, fx)
+        size_and_buy(book, orders or [], eqmid["equity_pln"], fx, today, prices, new_trades)
+        book["updated"] = today
+
     snap = mark_equity(book, prices, fx)
     snap["date"] = today
-
-    book["updated"] = today
-    eqlog.append(snap)
-    trades.extend(new_trades)
-    _save(BOOK_PATH, book)
-    _save(EQUITY_PATH, eqlog)
-    _save(TRADES_PATH, trades)
+    if not already:
+        eqlog.append(snap)
+        trades.extend(new_trades)
+        _save(BOOK_PATH, book)
+        _save(EQUITY_PATH, eqlog)
+        _save(TRADES_PATH, trades)
     n_buy = sum(1 for t in new_trades if t["side"] == "BUY")
     n_sell = sum(1 for t in new_trades if t["side"] == "SELL")
     print(f"[paper] {today}: equity {snap['equity_pln']:,.0f} zł ({snap['ret_since_start_pct']:+.1f}% od startu) | "
           f"cash {snap['cash_pln']:,.0f} | pozycji {snap['n_positions']} | dziś +{n_buy} kup / -{n_sell} sprzedaż")
+    if send:
+        try:
+            from notifications import send_email_resend
+            subj = f"📊 Wirtualna księga 100k — {today} (equity {snap['equity_pln']:,.0f} zł, {snap['ret_since_start_pct']:+.1f}%)"
+            r = send_email_resend(render_email(book, snap, today, new_trades, prices, fx), subj, dry_run=False)
+            print(f"[paper] mail wirtualnej księgi: {r.get('note')}")
+        except Exception as e:
+            print(f"[paper] mail pominięty: {e}")
     return snap
 
 
@@ -376,6 +448,13 @@ def _run_selftest() -> int:
     # INVARIANT: gotówka nigdy nie spada poniżej 0
     ok("Gotówka >= 0 (nie ma debetu)", load_book()["cash_pln"] >= -0.01)
 
+    # MAIL: render_email produkuje HTML z banerem 'NIE realny rachunek' + equity
+    book = load_book()
+    snap = mark_equity(book, {"COREX": 118}, fx)
+    html = render_email(book, snap, "2026-07-03", [], {"COREX": 118}, fx)
+    ok("Mail: HTML z banerem 'NIE Twój realny rachunek'", "NIE Twój realny rachunek" in html)
+    ok("Mail: pokazuje equity i 100 000", "100 000 zł" in html and "Equity" in html)
+
     os.chdir(_cwd)
     print(f"\n=== WYNIK: {P[0]} OK, {F[0]} FAIL ===")
     if F[0] == 0:
@@ -388,6 +467,7 @@ def main() -> int:
     ap.add_argument("--selftest", action="store_true")
     ap.add_argument("--init", action="store_true", help="utwórz świeżą księgę 100k")
     ap.add_argument("--step", action="store_true", help="jeden dzień (wyjścia->wejścia->log)")
+    ap.add_argument("--send", action="store_true", help="wyślij mail wirtualnej księgi (Resend)")
     ap.add_argument("--status", action="store_true")
     ap.add_argument("--today", default="")
     ap.add_argument("--fx", type=float, default=4.0)
@@ -401,7 +481,7 @@ def main() -> int:
         print(f"Utworzono wirtualną księgę: {args.capital:,.0f} zł ({args.today}).")
         return 0
     if args.step:
-        step(args.today or "today", fx=args.fx, signals_path=args.signals)
+        step(args.today or "today", fx=args.fx, signals_path=args.signals, send=args.send)
         return 0
     status()
     return 0
