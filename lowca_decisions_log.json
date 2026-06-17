@@ -17,8 +17,8 @@
     "risk_pln": 7.0,
     "status": "RECONCILED",
     "_note": "Faktyczna cena wejscia z XTB (4 czerwca @ 284.84, -49.64 PLN). Pozycja przeniesiona do managed_positions — sladowana przez bota rdzeniowego. Status RECONCILED = nie pokazuj podwojnie w tabeli.",
-    "days_held": 12,
-    "ret_pct": 9.8,
+    "days_held": 13,
+    "ret_pct": 3.4,
     "peak_ret_pct": 9.8,
     "executed": true
   },
@@ -44,10 +44,10 @@
     "ev_pct": null,
     "spy_at_entry": 757.09,
     "status": "STOP",
-    "days_held": 12,
-    "ret_pct": -42.3,
+    "days_held": 13,
+    "ret_pct": -44.8,
     "peak_ret_pct": -18.4,
-    "alpha_pct": -42.0
+    "alpha_pct": -44.0
   },
   {
     "id": "2026-06-05-MRVL",
@@ -71,10 +71,10 @@
     "ev_pct": null,
     "spy_at_entry": 737.55,
     "status": "STOP",
-    "days_held": 11,
-    "ret_pct": 1.2,
+    "days_held": 12,
+    "ret_pct": -4.8,
     "peak_ret_pct": 1.2,
-    "alpha_pct": -1.2,
+    "alpha_pct": -6.6,
     "executed": true
   },
   {
@@ -99,10 +99,10 @@
     "ev_pct": null,
     "spy_at_entry": 737.55,
     "status": "STOP",
-    "days_held": 11,
-    "ret_pct": -36.4,
+    "days_held": 12,
+    "ret_pct": -37.9,
     "peak_ret_pct": -33.1,
-    "alpha_pct": -38.8
+    "alpha_pct": -39.8
   },
   {
     "id": "2026-06-05-SWMR",
@@ -126,10 +126,10 @@
     "ev_pct": null,
     "spy_at_entry": 737.55,
     "status": "STOP",
-    "days_held": 11,
-    "ret_pct": -42.3,
+    "days_held": 12,
+    "ret_pct": -44.8,
     "peak_ret_pct": -18.4,
-    "alpha_pct": -44.7
+    "alpha_pct": -46.6
   },
   {
     "id": "2026-06-05-CRWV",
@@ -153,10 +153,10 @@
     "ev_pct": null,
     "spy_at_entry": 737.55,
     "status": "OPEN",
-    "days_held": 11,
-    "ret_pct": 8.2,
-    "peak_ret_pct": 8.2,
-    "alpha_pct": 5.8
+    "days_held": 12,
+    "ret_pct": 11.0,
+    "peak_ret_pct": 11.0,
+    "alpha_pct": 9.2
   },
   {
     "id": "2026-06-05-CRCL",
@@ -180,10 +180,10 @@
     "ev_pct": null,
     "spy_at_entry": 737.55,
     "status": "OPEN",
-    "days_held": 11,
-    "ret_pct": -7.2,
+    "days_held": 12,
+    "ret_pct": -7.3,
     "peak_ret_pct": -6.5,
-    "alpha_pct": -9.6
+    "alpha_pct": -9.1
   },
   {
     "id": "2026-06-06-MRVL",
@@ -207,8 +207,8 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "STOP",
-    "days_held": 10,
-    "ret_pct": 6.0,
+    "days_held": 11,
+    "ret_pct": -0.2,
     "peak_ret_pct": 6.0,
     "executed": true
   },
@@ -234,8 +234,8 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "STOP",
-    "days_held": 10,
-    "ret_pct": -36.4,
+    "days_held": 11,
+    "ret_pct": -37.9,
     "peak_ret_pct": -33.1
   },
   {
@@ -260,8 +260,8 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "OPEN",
-    "days_held": 10,
-    "ret_pct": -2.8,
+    "days_held": 11,
+    "ret_pct": -4.2,
     "peak_ret_pct": 14.6
   },
   {
@@ -286,8 +286,8 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "STOP",
-    "days_held": 10,
-    "ret_pct": -42.3,
+    "days_held": 11,
+    "ret_pct": -44.8,
     "peak_ret_pct": -18.4
   },
   {
@@ -312,9 +312,9 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "OPEN",
-    "days_held": 10,
-    "ret_pct": 8.2,
-    "peak_ret_pct": 8.2
+    "days_held": 11,
+    "ret_pct": 11.0,
+    "peak_ret_pct": 11.0
   },
   {
     "id": "2026-06-07-FDXF",
@@ -338,8 +338,8 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "OPEN",
-    "days_held": 9,
-    "ret_pct": -2.8,
+    "days_held": 10,
+    "ret_pct": -4.2,
     "peak_ret_pct": 14.6
   },
   {
@@ -364,8 +364,8 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "STOP",
-    "days_held": 9,
-    "ret_pct": -25.0,
+    "days_held": 10,
+    "ret_pct": -28.6,
     "peak_ret_pct": -25.0
   },
   {
@@ -390,8 +390,8 @@
     "ev_pct": null,
     "spy_at_entry": null,
     "status": "OPEN",
-    "days_held": 9,
-    "ret_pct": 11.8,
+    "days_held": 10,
+    "ret_pct": 3.4,
     "peak_ret_pct": 11.8
   },
   {
@@ -416,10 +416,10 @@
     "ev_pct": null,
     "spy_at_entry": 739.22,
     "status": "OPEN",
-    "days_held": 8,
-    "ret_pct": -2.4,
+    "days_held": 9,
+    "ret_pct": -2.5,
     "peak_ret_pct": -2.4,
-    "alpha_pct": -4.6,
+    "alpha_pct": -4.1,
     "executed": true
   },
   {
@@ -444,10 +444,10 @@
     "ev_pct": null,
     "spy_at_entry": 739.22,
     "status": "STOP",
-    "days_held": 8,
-    "ret_pct": -49.7,
-    "peak_ret_pct": -46.7,
-    "alpha_pct": -51.9
+    "days_held": 9,
+    "ret_pct": -46.0,
+    "peak_ret_pct": -46.0,
+    "alpha_pct": -47.6
   },
   {
     "id": "2026-06-08-GLW",
@@ -471,10 +471,10 @@
     "ev_pct": null,
     "spy_at_entry": 739.22,
     "status": "OPEN",
-    "days_held": 8,
-    "ret_pct": -4.3,
+    "days_held": 9,
+    "ret_pct": -9.2,
     "peak_ret_pct": -4.3,
-    "alpha_pct": -6.5
+    "alpha_pct": -10.8
   },
   {
     "id": "2026-06-09-GLW",
@@ -498,10 +498,10 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 7,
-    "ret_pct": -4.3,
+    "days_held": 8,
+    "ret_pct": -9.2,
     "peak_ret_pct": -4.3,
-    "alpha_pct": -7.6
+    "alpha_pct": -11.8
   },
   {
     "id": "2026-06-09-RCAT",
@@ -525,10 +525,10 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 7,
-    "ret_pct": -9.1,
+    "days_held": 8,
+    "ret_pct": -8.6,
     "peak_ret_pct": -5.3,
-    "alpha_pct": -12.3
+    "alpha_pct": -11.3
   },
   {
     "id": "2026-06-09-INFQ",
@@ -552,10 +552,10 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 7,
-    "ret_pct": -18.9,
+    "days_held": 8,
+    "ret_pct": -22.1,
     "peak_ret_pct": -18.9,
-    "alpha_pct": -22.1
+    "alpha_pct": -24.7
   },
   {
     "id": "2026-06-09-FDXF",
@@ -579,10 +579,10 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 7,
-    "ret_pct": -2.8,
+    "days_held": 8,
+    "ret_pct": -4.2,
     "peak_ret_pct": 14.3,
-    "alpha_pct": -6.1
+    "alpha_pct": -6.9
   },
   {
     "id": "2026-06-09-INIO",
@@ -606,10 +606,10 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 7,
-    "ret_pct": 7.3,
-    "peak_ret_pct": 7.3,
-    "alpha_pct": 4.1
+    "days_held": 8,
+    "ret_pct": 8.7,
+    "peak_ret_pct": 8.7,
+    "alpha_pct": 6.1
   },
   {
     "id": "2026-06-09-LITE",
@@ -633,10 +633,10 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 7,
-    "ret_pct": 11.8,
+    "days_held": 8,
+    "ret_pct": 3.4,
     "peak_ret_pct": 11.8,
-    "alpha_pct": 8.5
+    "alpha_pct": 0.8
   },
   {
     "id": "2026-06-09-GOOGL",
@@ -660,7 +660,7 @@
     "ev_pct": null,
     "spy_at_entry": 731.42,
     "status": "OPEN",
-    "days_held": 7,
+    "days_held": 8,
     "glitch_suspect": true
   },
   {
@@ -685,7 +685,7 @@
     "ev_pct": null,
     "spy_at_entry": 759.57,
     "status": "OPEN",
-    "days_held": 13
+    "days_held": 14
   },
   {
     "id": "2026-06-03-VIDA",
@@ -709,7 +709,7 @@
     "ev_pct": null,
     "spy_at_entry": 759.57,
     "status": "OPEN",
-    "days_held": 13
+    "days_held": 14
   },
   {
     "id": "2026-06-09-MRVL",
@@ -733,10 +733,10 @@
     "ev_pct": null,
     "spy_at_entry": 724.72,
     "status": "OPEN",
-    "days_held": 7,
-    "ret_pct": 9.8,
+    "days_held": 8,
+    "ret_pct": 3.3,
     "peak_ret_pct": 9.8,
-    "alpha_pct": 5.6
+    "alpha_pct": -0.3
   },
   {
     "id": "2026-06-09-ONDS",
@@ -760,10 +760,10 @@
     "ev_pct": null,
     "spy_at_entry": 724.72,
     "status": "STOP",
-    "days_held": 7,
-    "ret_pct": -28.0,
+    "days_held": 8,
+    "ret_pct": -29.4,
     "peak_ret_pct": -26.3,
-    "alpha_pct": -32.2
+    "alpha_pct": -33.0
   },
   {
     "id": "2026-06-09-SLGB",
@@ -787,10 +787,10 @@
     "ev_pct": null,
     "spy_at_entry": 724.72,
     "status": "STOP",
-    "days_held": 7,
-    "ret_pct": -29.5,
+    "days_held": 8,
+    "ret_pct": -30.0,
     "peak_ret_pct": -18.7,
-    "alpha_pct": -33.7
+    "alpha_pct": -33.6
   },
   {
     "id": "2026-06-10-TSM",
@@ -814,8 +814,8 @@
     "ev_pct": null,
     "spy_at_entry": NaN,
     "status": "OPEN",
-    "days_held": 6,
-    "ret_pct": 5.7,
+    "days_held": 7,
+    "ret_pct": 5.5,
     "peak_ret_pct": 5.7
   },
   {
@@ -840,8 +840,8 @@
     "ev_pct": null,
     "spy_at_entry": NaN,
     "status": "OPEN",
-    "days_held": 6,
-    "ret_pct": -4.3,
+    "days_held": 7,
+    "ret_pct": -9.2,
     "peak_ret_pct": -4.3
   },
   {
@@ -866,10 +866,10 @@
     "ev_pct": null,
     "spy_at_entry": 734.47,
     "status": "OPEN",
-    "days_held": 5,
-    "ret_pct": 5.7,
+    "days_held": 6,
+    "ret_pct": 5.5,
     "peak_ret_pct": 5.7,
-    "alpha_pct": 2.9
+    "alpha_pct": 3.3
   },
   {
     "id": "2026-06-11-RKLB",
@@ -893,10 +893,10 @@
     "ev_pct": null,
     "spy_at_entry": 734.47,
     "status": "OPEN",
-    "days_held": 5,
-    "ret_pct": -0.5,
+    "days_held": 6,
+    "ret_pct": 3.4,
     "peak_ret_pct": 9.3,
-    "alpha_pct": -3.4
+    "alpha_pct": 1.2
   },
   {
     "id": "2026-06-12-TSM",
@@ -920,10 +920,10 @@
     "ev_pct": null,
     "spy_at_entry": 737.76,
     "status": "OPEN",
-    "days_held": 4,
-    "ret_pct": 5.7,
+    "days_held": 5,
+    "ret_pct": 5.5,
     "peak_ret_pct": 5.7,
-    "alpha_pct": 3.3
+    "alpha_pct": 3.8
   },
   {
     "id": "2026-06-12-RKLB",
@@ -947,10 +947,10 @@
     "ev_pct": null,
     "spy_at_entry": 737.76,
     "status": "STOP",
-    "days_held": 4,
-    "ret_pct": -29.9,
+    "days_held": 5,
+    "ret_pct": -27.1,
     "peak_ret_pct": -23.0,
-    "alpha_pct": -32.2
+    "alpha_pct": -28.9
   },
   {
     "id": "2026-06-12-SIDU",
@@ -974,10 +974,10 @@
     "ev_pct": null,
     "spy_at_entry": 737.76,
     "status": "STOP",
-    "days_held": 4,
-    "ret_pct": -34.9,
+    "days_held": 5,
+    "ret_pct": -32.6,
     "peak_ret_pct": -13.1,
-    "alpha_pct": -37.2
+    "alpha_pct": -34.4
   },
   {
     "id": "2026-06-12-GLW",
@@ -1001,10 +1001,10 @@
     "ev_pct": null,
     "spy_at_entry": 737.76,
     "status": "OPEN",
-    "days_held": 4,
-    "ret_pct": -4.3,
+    "days_held": 5,
+    "ret_pct": -9.2,
     "peak_ret_pct": -4.3,
-    "alpha_pct": -6.7
+    "alpha_pct": -11.0
   },
   {
     "id": "2026-06-12-BYAH",
@@ -1028,10 +1028,10 @@
     "ev_pct": null,
     "spy_at_entry": 740.55,
     "status": "STOP",
-    "days_held": 4,
-    "ret_pct": -38.9,
+    "days_held": 5,
+    "ret_pct": -40.4,
     "peak_ret_pct": -9.8,
-    "alpha_pct": -40.9
+    "alpha_pct": -41.8
   },
   {
     "id": "2026-06-12-DSY",
@@ -1054,9 +1054,12 @@
     "rr": 0.0,
     "ev_pct": null,
     "spy_at_entry": 740.55,
-    "status": "OPEN",
-    "days_held": 4,
-    "glitch_suspect": true
+    "status": "WIN",
+    "days_held": 5,
+    "glitch_suspect": true,
+    "ret_pct": 58.8,
+    "peak_ret_pct": 58.8,
+    "alpha_pct": 57.4
   },
   {
     "id": "2026-06-15-TSM",
@@ -1080,10 +1083,10 @@
     "ev_pct": null,
     "spy_at_entry": 741.75,
     "status": "OPEN",
-    "days_held": 1,
-    "ret_pct": 5.7,
+    "days_held": 2,
+    "ret_pct": 5.5,
     "peak_ret_pct": 5.7,
-    "alpha_pct": 3.9
+    "alpha_pct": 4.3
   },
   {
     "id": "2026-06-15-CAST",
@@ -1106,11 +1109,11 @@
     "rr": 0.0,
     "ev_pct": null,
     "spy_at_entry": 741.75,
-    "status": "OPEN",
-    "days_held": 1,
-    "ret_pct": 26.8,
-    "peak_ret_pct": 26.8,
-    "alpha_pct": 25.0
+    "status": "WIN",
+    "days_held": 2,
+    "ret_pct": 45.0,
+    "peak_ret_pct": 45.0,
+    "alpha_pct": 43.8
   },
   {
     "id": "2026-06-15-RKLB",
@@ -1134,10 +1137,10 @@
     "ev_pct": null,
     "spy_at_entry": 741.75,
     "status": "STOP",
-    "days_held": 1,
-    "ret_pct": -27.9,
-    "peak_ret_pct": -27.9,
-    "alpha_pct": -29.8
+    "days_held": 2,
+    "ret_pct": -25.1,
+    "peak_ret_pct": -25.1,
+    "alpha_pct": -26.3
   },
   {
     "id": "2026-06-15-SIDU",
@@ -1161,7 +1164,10 @@
     "ev_pct": null,
     "spy_at_entry": 741.75,
     "status": "STOP",
-    "days_held": 1
+    "days_held": 2,
+    "ret_pct": -29.1,
+    "peak_ret_pct": -29.1,
+    "alpha_pct": -30.3
   },
   {
     "id": "2026-06-15-GLW",
@@ -1185,10 +1191,10 @@
     "ev_pct": null,
     "spy_at_entry": 741.75,
     "status": "OPEN",
-    "days_held": 1,
-    "ret_pct": -4.3,
+    "days_held": 2,
+    "ret_pct": -9.2,
     "peak_ret_pct": -4.3,
-    "alpha_pct": -6.1
+    "alpha_pct": -10.4
   },
   {
     "id": "2026-06-16-NIXX",
@@ -1212,9 +1218,63 @@
     "ev_pct": null,
     "spy_at_entry": 755.23,
     "status": "OPEN",
+    "days_held": 1,
+    "ret_pct": 9.0,
+    "peak_ret_pct": 9.0,
+    "alpha_pct": 9.5
+  },
+  {
+    "id": "2026-06-17-NIXX",
+    "date": "2026-06-17",
+    "ticker": "NIXX",
+    "kind": "WOLUMEN",
+    "kinds": [
+      "WOLUMEN"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "CZEKAJ",
+    "bought": false,
+    "entry_usd": 0.89,
+    "stop_usd": 0.76,
+    "target_usd": 1.16,
+    "shares": null,
+    "size_pln": 0.0,
+    "risk_pln": 0.0,
+    "rr": 0.0,
+    "ev_pct": null,
+    "spy_at_entry": 750.92,
+    "status": "OPEN",
     "days_held": 0,
-    "ret_pct": -8.6,
-    "peak_ret_pct": -8.6,
-    "alpha_pct": -8.6
+    "ret_pct": 9.0,
+    "peak_ret_pct": 9.0,
+    "alpha_pct": 9.0
+  },
+  {
+    "id": "2026-06-17-ONDS",
+    "date": "2026-06-17",
+    "ticker": "ONDS",
+    "kind": "WOLUMEN",
+    "kinds": [
+      "WOLUMEN"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "CZEKAJ",
+    "bought": false,
+    "entry_usd": 11.7,
+    "stop_usd": 9.94,
+    "target_usd": 15.21,
+    "shares": null,
+    "size_pln": 0.0,
+    "risk_pln": 0.0,
+    "rr": 0.0,
+    "ev_pct": null,
+    "spy_at_entry": 750.92,
+    "status": "STOP",
+    "days_held": 0,
+    "ret_pct": -19.5,
+    "peak_ret_pct": -19.5,
+    "alpha_pct": -19.5
   }
 ]
