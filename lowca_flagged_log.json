@@ -142,6 +142,8 @@
   {
     "date": "2026-06-18",
     "flagged": [
+      "APWC",
+      "ASTS",
       "GOOGL",
       "LITE",
       "LUNR",

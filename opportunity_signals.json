@@ -1,6 +1,6 @@
 {
   "_date": "2026-06-18",
-  "_run": "preotwarcie 14:30 CEST",
+  "_run": "srodsesyjna 18:30 CEST",
   "ipo": [
     {
       "ticker": "SPCX",
@@ -63,9 +63,38 @@
       "catalyst": "US Army C100 UAS $20.9M + Navy Maritime Domain Awareness $4.8M (dual DoD <48h); Q1 2026 revenue $50M (+11x YoY); 8 analityków Strong Buy avg target $20.13 (+112% upside); Drone Factory 01 Huntsville AL operacyjna; cofnięcie z $11.97 do $9.50",
       "still_upside": true,
       "upside_reason": "Revenue step-change 11x YoY — rzadki sygnał fundamentalny; dual Army+Navy DoD; avg analyst $20.13 = +112% upside; pct_1m +27% napędzony realnymi kontraktami DoD — still_upside"
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "volume_mult": 4.0,
+      "price_usd": 79.64,
+      "pct_1m": -5,
+      "catalyst": "BlueBird 8, 9, 10 satellite launch June 17 2026 (SpaceX rocket); ATH $133.86 May 28 → $79.64 = -40% korekta przy rosnącej konstelacji; 7 analityków avg target $81.47; SpaceX halo aktywny (SPCX IPO June 12); cellular broadband from space = strukturalna teza; Q2 launch milestone = traction signal",
+      "still_upside": true,
+      "upside_reason": "Świeży launch June 17 = operacyjny milestone; -40% od ATH to naturalna korekta po SpaceX IPO hype; analyst avg $81.47 bliskie cenie = potential re-rating po uruchomieniu komercyjnym; pct_1m -5% = nie rozgrzany"
+    },
+    {
+      "ticker": "APWC",
+      "name": "Asia Pacific Wire & Cable",
+      "volume_mult": 8800,
+      "price_usd": 1.79,
+      "pct_1m": 38,
+      "catalyst": "Volume spike 43.85M vs avg 4.97K (8,800x normy!) June 18 2026; Q1 2026 revenue $130.8M (+30% YoY), EPS $0.05 vs -$0.07 rok temu; 0.07x sales deep value; $33.2M cash vs modest debt; capital raise na nowe zakłady produkcyjne + global supply chain realignment tailwind; opened $1.92, high $2.28, close $1.79",
+      "still_upside": false,
+      "upside_reason": "pct_1m +38% > 25% — anti-chase blokuje; brak konkretnego kontraktu/catalystic ogłoszenia jako uzasadnienia furtki; czekaj na cofnięcie do $1.30-1.40"
     }
   ],
   "contract": [
+    {
+      "ticker": "OSS",
+      "name": "One Stop Systems Inc",
+      "price_usd": 17.80,
+      "pct_1m": -9,
+      "catalyst": "$8.4M DoD kontrakt ogłoszony June 16 2026 (<48h) — 91 serwerów AI signal surveillance dla DoD prime contractor; $44M potential 4-letni; 3 analityków Strong Buy avg ~$22 (+24% upside); MCap ~$435M; rugged AI compute dla DoD = structural tailwind; cofnięcie -9% od June 2 pivot top = entry point",
+      "still_upside": true,
+      "upside_reason": "$8.4M initial + $44M potential (4yr) przy MCap $435M; 3/3 Strong Buy; -9% od ostatniego szczytu = dyskonto; DoD AI compute specjalista = powtarzalny kontrakt"
+    },
     {
       "ticker": "BBAI",
       "name": "BigBear.ai Holdings",
@@ -91,7 +120,7 @@
       "pct_1m": 37,
       "catalyst": "DEVCOM Army Research Laboratory C-UAS contract (May 20 2026); SOCOM Flex FPV + training; USAF Special Operations; Canada $80B defense modernization (export); Trump Drone Dominance tailwind",
       "still_upside": true,
-      "upside_reason": "C-UAS Army w early development = revenue dopiero nadchodzi; Canada $80B = strukturalny export; multi-service DoD traction; pct_1m +37% napędzony realnymi kontraktami"
+      "upside_reason": "C-UAS Army w early development = revenue dopiero nadchodzi; Canada $80B = strukturalny export; multi-service DoD traction; pct_1m +37% napędzony realnymi kontraktami DoD — still_upside"
     },
     {
       "ticker": "AVEX",
