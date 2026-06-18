@@ -1,5 +1,19 @@
 [
   {
+    "ticker": "ICCM",
+    "pct": 187,
+    "day": "2026-06-17",
+    "presignal": "FDA marketing authorization ProSense system październik 2025 (8 miesięcy lead time!) + aktywna US install base rośnie 70% YoY (mierzalne z kwartalnych raportów) + ECIO 2026 konferencja i ASBrS Annual Meeting z nowymi danymi klinicznymi (kidney cancer ~90% recurrence-free, breast cancer early results) — wszystkie 3 pre-sygnały dostępne przed ruchem; stock leżał cicho po FDA auth przez 8 miesięcy",
+    "lesson": "Medical device z RECENT FDA marketing authorization (<12 mies.) + rosnącą install base + upcoming major medical conference z nową danymi klinicznymi = pre-spike pattern; FDA marketing auth to NIE koniec — to START: śledź konferencje medyczne (ECIO, SBI Symposium, ASBrS) dla spółek z auth <12 mies. jako konkretne daty eventów; wzorzec: auth → install base rośnie → conference data = 3-step lead time widoczny miesiące wcześniej"
+  },
+  {
+    "ticker": "FTHM",
+    "pct": 77,
+    "day": "2026-06-17",
+    "presignal": "Bed Bath & Beyond (BBBY) ogłosiło strategię 'Everything Home' (homeownership + commerce + services) tygodnie przed ogłoszeniem; CEO Fathom Fregenal terminated same-day = red flag zmiany kontroli; BBBY przeszło przez bankructwo i relaunched jako online home retailer — aktywnie poszukiwało akwizycji w real estate/mortgage; FTHM jako small-cap realtor z mortgage + title + insurance = idealny cel; deal $53M = premium do MCap",
+    "lesson": "Strategia M&A acquirera (BBBY 'Everything Home') + target pasujący do strategii (FTHM: mortgage+title+insurance) + CEO termination same-day = pre-M&A sygnały; śledź relaunchowane po bankructwie retailery poszukujące M&A w komplementarnych sektorach; CEO termination w small-cap + acquirer z ogłoszoną strategią = wzorzec buyout watch; jednak timing ogłoszenia trudny do przewidzenia dokładnie"
+  },
+  {
     "ticker": "RKLB",
     "pct": 25,
     "day": "2026-06-11",
