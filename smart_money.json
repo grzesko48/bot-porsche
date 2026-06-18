@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-16T14:35",
+  "generated": "2026-06-18T19:10",
   "insiders": {},
   "funds": {},
   "politicians": {},
   "sector_exits": [],
-  "_notes": "Cykl 2026-06-16 (kandydaci: LITE, MU, CIEN, INTC, COHR). INSIDERZY: brak potwierdzonego swiezego (<=30 dni) KLASTRA ZAKUPOW Form 4 dla zadnego z 5 (fail-CLOSED). MU NETTO SPRZEDAZ (CEO, zero kupna). INTC: realny zakup CFO Zinsnera ~250 tys. USD ale STARY (26.01, poza oknem); brak swiezego klastra mimo upgrade'u BofA. LITE/CIEN/COHR: brak zakupow insiderow w oknie. FUNDUSZE (13F/Dataroma): mieszane - 13F Q1'26 to migawka, nie swiezy sygnal; brak jednoznacznego kierunku. POLITYCY (kongres): brak swiezych (<=7 dni) transakcji o znaczeniu; wczesniejsze (Cisneros/Gottheimer LITE, Fetterman MU) poza oknem i drobne. KONKLUZJA: wszystkie sygnaly smart-money NEUTRALNE - brak twardego, swiezego klastra kupna do zalogowania. Zgodne z polityka fail-CLOSED."
+  "_notes": "Cykl 2026-06-18 (kandydaci: LITE, MU, CIEN, INTC, COHR). INSIDERZY (Form 4 / OpenInsider): brak SWIEZEGO (<=30 dni) KLASTRA ZAKUPOW dla zadnego z 5 -> fail-CLOSED, wszystkie NEUTRAL. INTC: realny klaster zakupow 4 dyrektorow (Henry, Meurice, Novick, Goldsmith po 2782 akcji @ 120.29) ale z 13.05 = 36 dni temu, POZA oknem 30 dni -> nie logujemy jako swiezy. MU: NETTO SPRZEDAZ (24 sprzedaze, 0 kupna, maj/czerwiec). CIEN: silna SPRZEDAZ insiderow (~27 mln USD w 90 dni, ZERO kupna; SVP Rothenstein i Brodie sprzedaja 15.06 wg 10b5-1) -> sygnal raczej negatywny, nie bullish. LITE: 13 sprzedazy (~3.8 mln USD), brak kupna. COHR: brak istotnych transakcji insiderow w oknie. FUNDUSZE (13F/Dataroma): 13F Q1'26 to migawka, nie swiezy sygnal; brak jednoznacznego kierunku. POLITYCY (kongres): INTC transakcje 20.04/20.01 (poza oknem 7 dni), brak swiezych. KONKLUZJA: wszystkie sygnaly smart-money NEUTRALNE - brak twardego, swiezego (<=30 dni dla insiderow, <=7 dni dla kongresu) klastra KUPNA do zalogowania. Zgodne z polityka fail-CLOSED."
 }

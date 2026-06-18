@@ -86,5 +86,38 @@
     "value_pln": 3400.0,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.0)"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "MSTR",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 31.1666,
+    "price_usd": 109.54,
+    "value_pln": 12562.92,
+    "pnl_pln": -2477.95,
+    "reason": "stop trafiony (zwrot -16.5%)"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "MSTR",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 36.1758,
+    "price_usd": 109.54,
+    "value_pln": 14582.04,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.4)"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "RDZN",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 7.8055,
+    "price_usd": 1.64,
+    "value_pln": 47.25,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.5)"
   }
 ]
