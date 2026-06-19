@@ -1,8 +1,15 @@
 {
-  "generated": "2026-06-18T19:10",
+  "generated": "2026-06-19T19:10",
   "insiders": {},
-  "funds": {},
+  "funds": {
+    "CIEN": [
+      {"manager": "13F agregat (20 funduszy dolozylo ~1 mln akcji w Q1'26)", "pct_portfolio": 0, "action": "add"}
+    ],
+    "COHR": [
+      {"manager": "WT Asset Management (+443%, ~520 mln USD, Q1'26)", "pct_portfolio": 1.5, "action": "add"}
+    ]
+  },
   "politicians": {},
   "sector_exits": [],
-  "_notes": "Cykl 2026-06-18 (kandydaci: LITE, MU, CIEN, INTC, COHR). INSIDERZY (Form 4 / OpenInsider): brak SWIEZEGO (<=30 dni) KLASTRA ZAKUPOW dla zadnego z 5 -> fail-CLOSED, wszystkie NEUTRAL. INTC: realny klaster zakupow 4 dyrektorow (Henry, Meurice, Novick, Goldsmith po 2782 akcji @ 120.29) ale z 13.05 = 36 dni temu, POZA oknem 30 dni -> nie logujemy jako swiezy. MU: NETTO SPRZEDAZ (24 sprzedaze, 0 kupna, maj/czerwiec). CIEN: silna SPRZEDAZ insiderow (~27 mln USD w 90 dni, ZERO kupna; SVP Rothenstein i Brodie sprzedaja 15.06 wg 10b5-1) -> sygnal raczej negatywny, nie bullish. LITE: 13 sprzedazy (~3.8 mln USD), brak kupna. COHR: brak istotnych transakcji insiderow w oknie. FUNDUSZE (13F/Dataroma): 13F Q1'26 to migawka, nie swiezy sygnal; brak jednoznacznego kierunku. POLITYCY (kongres): INTC transakcje 20.04/20.01 (poza oknem 7 dni), brak swiezych. KONKLUZJA: wszystkie sygnaly smart-money NEUTRALNE - brak twardego, swiezego (<=30 dni dla insiderow, <=7 dni dla kongresu) klastra KUPNA do zalogowania. Zgodne z polityka fail-CLOSED."
+  "_notes": "Cykl 2026-06-19 (kandydaci: LITE, MU, CIEN, INTC, COHR). INSIDERZY (Form 4 / OpenInsider): brak SWIEZEGO (<=30 dni) KLASTRA ZAKUPOW dla zadnego z 5 -> fail-CLOSED, wszystkie NEUTRAL. LITE: 9 sprzedazy (~14.8 mln USD), 0 kupna - sprzedaz gl. 10b5-1, NIE oznaczam jako exit-shield. MU: brak kupna na otwartym rynku (5/29, 5/11 sprzedaze). CIEN: rutynowe 10b5-1 (Rothenstein, Brodie 15.06) - nie marker konwikcji. INTC: realny zakup CFO Zinsnera (~250k USD) z 26.01 - POZA oknem 30 dni; dyr. 'zakupy' z 13.05 to granty RSU (comp), nie open-market. COHR: dyr. Xia sprzedal 2000 akcji 13.05. FUNDUSZE (13F/Dataroma Q1'26 - migawka): CIEN bullish (20 funduszy dolozylo ~1 mln akcji, TipRanks Very Positive); COHR bullish (WT Asset Management +443.5%, ~520 mln USD). Zalogowane jako 'add'. POLITYCY (kongres): brak potwierdzonych SWIEZYCH (<=7 dni) zakupow w oknie - LITE Cisneros (<=15k USD 14.04) i INTC trades poza oknem -> pomijam. KONKLUZJA: jedyne pozytywne sygnaly smart-money to 13F CIEN i COHR (warstwa funduszy); insiderzy i politycy neutralni (fail-CLOSED)."
 }

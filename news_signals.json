@@ -1,32 +1,30 @@
 {
-  "generated": "2026-06-18T19:10",
+  "generated": "2026-06-19T19:10",
   "signals": [
     {
       "ticker": "LITE",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego dyskretnego katalizatora w oknie 11-18.06. Strategiczne partnerstwo NVIDIA (2 mld USD inwestycji, multi-year commitment) z marca 2026 - stare. Akwizycja piatej fab InP w Greensboro i guidance Q4 (EPS 2.85-3.05) z transkryptu earnings (06.05) - poza oknem. Insiderzy NETTO SPRZEDAJA. Konserwatywnie: brak.",
-      "as_of": "2026-06-18",
-      "confidence": 0.35,
-      "source_count": 2,
-      "sources": [
-        {"label": "SEC EDGAR (Lumentum 8-K/10-Q FY2026)", "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000162828026030777/lite-20260328.htm"},
-        {"label": "Motley Fool (Lumentum Q3 FY2026 transcript, 06.05)", "url": "https://www.fool.com/earnings/call-transcripts/2026/05/06/lumentum-lite-q3-2026-earnings-transcript/"}
-      ]
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z >=2 niezaleznych zrodel. Tylko pojedyncze reiteracje analitykow, insiderzy NETTO SPRZEDAJA. Konserwatywnie: brak.",
+      "as_of": "2026-06-19",
+      "confidence": 0.2,
+      "source_count": 0,
+      "sources": []
     },
     {
       "ticker": "MU",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Wlasciwy katalizator (wyniki fiskalne Q3 FY2026) DOPIERO 24.06 - oczekujacy event (bramka earnings, NIE swiezy news). Powolanie do zarzadu A.B. Bjorlin (09.06) poza oknem 7 dni i to governance, nie twardy event. Insiderzy NETTO SPRZEDAJA (24 sprzedaze, 0 kupna w maju/czerwcu). Konserwatywnie: brak.",
-      "as_of": "2026-06-18",
-      "confidence": 0.35,
-      "source_count": 2,
+      "has_catalyst": true,
+      "catalyst_type": "rating",
+      "direction": "bullish",
+      "headline": "Stifel i Wedbush ostro podniosly ceny docelowe Micron na popycie AI (DRAM/HBM), 17-18.06. Wyniki fiskalne Q3 24.06 (event oczekujacy).",
+      "as_of": "2026-06-19",
+      "confidence": 0.9,
+      "source_count": 3,
       "sources": [
-        {"label": "SEC EDGAR (Micron 8-K FY2026, guidance Q3 rev 33.5 mld)", "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000110465926071845/tm2617112d1_ex99-1.htm"},
-        {"label": "Yahoo Finance (Micron earnings 24.06)", "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-micron-stock-skyrocket-june-105100758.html"}
+        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4604817-micron-jumps-as-wedbush-and-stifel-raise-price-targets-on-ai-driven-demand"},
+        {"label": "MarketScreener", "url": "https://www.marketscreener.com/news/wedbush-raises-price-target-on-micron-technology-to-1-300-from-550-keeps-outperform-rating-ce7f5cddd18bf22d"},
+        {"label": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/06/18/wall-street-just-put-a-monster-target-on-micron-is-the-stock-still-too-cheap-2/"}
       ]
     },
     {
@@ -34,42 +32,40 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego twardego katalizatora w oknie 11-18.06. Wyniki Q2 FY2026 (rev 1.57 mld +40% r/r, EPS adj 1.64) i podwyzka guidance FY26 do 6.3 mld wypadly 04.06 - poza oknem 7 dni. 16.06 akcje -7% (realizacja zyskow), insiderzy SPRZEDAJA (SVP-owie 15.06 wg 10b5-1, ~27 mln USD w 90 dni, zero kupna). Konserwatywnie: brak (kierunek raczej negatywny niz bullish).",
-      "as_of": "2026-06-18",
-      "confidence": 0.4,
-      "source_count": 2,
-      "sources": [
-        {"label": "SEC EDGAR (Ciena 8-K Q2 FY2026, 04.06)", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9912026q2earningspressre.htm"},
-        {"label": "TradingKey (CIEN -7.11% 16.06)", "url": "https://www.tradingkey.com/news/market-movers/261971227-market-movers-cien-20260616"}
-      ]
+      "headline": "Wyniki Q2 i podwyzka guidance FY26 wypadly 04.06 - poza oknem 7 dni. Brak swiezego twardego katalizatora; insiderzy sprzedaja (10b5-1). Konserwatywnie: brak.",
+      "as_of": "2026-06-19",
+      "confidence": 0.3,
+      "source_count": 0,
+      "sources": []
     },
     {
       "ticker": "INTC",
       "has_catalyst": true,
       "catalyst_type": "contract",
       "direction": "bullish",
-      "headline": "Swiezy twardy katalizator (18.06): Trump oglasza, ze Apple zgodzilo sie projektowac i produkowac chipy z Intelem w USA - akcje +9% pre-market (UWAGA: brak formalnego potwierdzenia obu firm - element niepewnosci). W oknie tez: BofA podwojny upgrade do Buy (cel 135 USD, ~6+ USD EPS do 2030), Google planuje >3 mln TPU w Intel Foundry od 2028, wieloletni deal z Cadence dla procesu 14A, node 18A-P na risk production. >=2 niezalezne zrodla, kierunek bullish.",
-      "as_of": "2026-06-18",
-      "confidence": 0.7,
+      "headline": "Doniesienia o umowie Apple-Intel (Intel produkuje chipy dla Apple w USA) wywindowaly akcje ~10%, 18.06.",
+      "as_of": "2026-06-19",
+      "confidence": 0.85,
       "source_count": 3,
       "sources": [
-        {"label": "TimothySykes (Intel AI foundry deals, upgrades, 17.06)", "url": "https://www.timothysykes.com/news/intel-corporation-intc-news-2026_06_17/"},
-        {"label": "Investing.com (Apple-Intel chip manufacturing deal)", "url": "https://www.investing.com/analysis/appleintel-chip-manufacturing-deal-reshapes-foundry-race-200682398"},
-        {"label": "FXLeaders (Intel record highs, BofA upgrade, foundry, 15.06)", "url": "https://www.fxleaders.com/news/2026/06/15/intel-stock-intc-tests-record-highs-on-iran-deal-analyst-upgrade-foundry-momentum/"}
+        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-18/intel-intc-share-price-soars-after-trump-says-it-struck-apple-chip-deal"},
+        {"label": "CNBC", "url": "https://www.cnbc.com/amp/2026/06/18/trump-intel-apple-chip-design-deal.html"},
+        {"label": "CBS News", "url": "https://www.cbsnews.com/news/intel-intc-shares-trump-apple-chip-agreement/"}
       ]
     },
     {
       "ticker": "COHR",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak swiezego twardego katalizatora w oknie 11-18.06. Wyniki Q3 FY2026 (rev 1.81 mld +21% r/r) i guidance Q4 (rev 1.91-2.05 mld) z 06.05 - poza oknem. Partnerstwo NVIDIA (2 mld USD equity + multi-year CPO supply) i rekordowy backlog do 2028 - starsze. Konserwatywnie: brak.",
-      "as_of": "2026-06-18",
-      "confidence": 0.35,
-      "source_count": 2,
+      "has_catalyst": true,
+      "catalyst_type": "regulator",
+      "direction": "bullish",
+      "headline": "Program CHIPS (Dept. of Commerce) podpisal list intencyjny do 50 mln USD na rozbudowe fab InP Coherent w Teksasie pod optyke AI, 16.06.",
+      "as_of": "2026-06-19",
+      "confidence": 0.85,
+      "source_count": 3,
       "sources": [
-        {"label": "SEC EDGAR (Coherent 8-K FY2026)", "url": "https://www.sec.gov/Archives/edgar/data/0000820318/000119312526208972/d57080dex991.htm"},
-        {"label": "Motley Fool (Coherent Q3 FY2026 transcript, 06.05)", "url": "https://www.fool.com/earnings/call-transcripts/2026/05/06/coherent-cohr-q3-2026-earnings-transcript/"}
+        {"label": "NIST/Dept of Commerce", "url": "https://www.nist.gov/news-events/news/2026/06/department-commerces-chips-program-announces-letter-intent-coherent-50"},
+        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4603979-coherent-in-spotlight-as-it-signs-letter-of-intent-for-50m-in-funding-from-chips-act"},
+        {"label": "Photonics.com", "url": "https://www.photonics.com/Articles/Coherent-Secures-50M-Grant-Breaks-Ground-on-InP/p5/a72339"}
       ]
     }
   ]
