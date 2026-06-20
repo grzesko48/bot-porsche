@@ -96,5 +96,19 @@
     "day": "2026-06-18",
     "presignal": "Upsized $400M IPO (z $350M = +14% vs plan) + MyoKardia pedigree management (firma zalozycieli MyoKardia przejętej przez BMS za $13B w 2020) + strong institutional demand potwierdzony upsize; KardAR001 oral HCM (hypertrophic cardiomyopathy) therapy Phase 2 pipeline; KARD zadebiutowala June 18 na NASDAQ; brak public pre-IPO sygnalu — spółka prywatna przed debiutem",
     "lesson": "Fresh IPO z UPSIZED offering (+14% vs plan) = pre-sygnał silnego popytu instytucjonalnego DZIEN 0 dostępny PRZED debiutem (cena ustalana dzień przed); zarzad z wysoce udanego precedensu (MyoKardia → BMS $13B) to pre-sygnał jakości; monitoring pricing date (upsized vs zakres = silny demand) + pedigree management = identyfikowalny sygnał wejscia aftermarket Day 1; wzorzec: upsized IPO + pedigree = day-1 pop, powtarzalny"
+  },
+  {
+    "ticker": "CDT",
+    "pct": 101,
+    "day": "2026-06-18",
+    "presignal": "Pre-sygnały PRZED June 18: (1) CDT Equity ogłosiło retirement $6.3M długu (kilka dni wczesniej) — balance sheet cleanup; (2) patent momentum announcement (kilka dni wczesniej); (3) CDT holds 20% stake w Sarborg Ltd — fakt strukturalny znany wczesniej; Sarborg fundraise $638.3M (=$127.5M stake dla CDT) ogłoszony June 18 rano = same-day catalyst; CDT MCap przed ruchem $6.5M vs stake $127.5M = 20x discount widoczny WCZESNIEJ",
+    "lesson": "Holding company z >= 20% stake w prywatnej firmie AI/quantum + debt retirement (balance sheet cleanup) + patent milestone = pre-sygnał valuation re-rating announcement od affiliated company; monitoruj: (1) SEC filings z mention affiliated private company fundraising, (2) debt retirement press releases dla micro-cap holding companies, (3) sprawdz czy MCap < stake value = asymetryczna okazja; po +101% pct_1m>50% = PARABOLA = nie gonić; wzorzec: HOLDING_COMPANY_STAKE pattern"
+  },
+  {
+    "ticker": "CAST",
+    "pct": 170,
+    "day": "2026-06-18",
+    "presignal": "FreeCast (CAST) ogłosiło Starlink Business reseller agreement June 18 rano (same-day catalyst, brak pre-sygnału przed June 18); spółka going-concern micro-cap streaming; CAST byla juz na radarze z +565% wzrostem w czerwcu (distressed streaming pattern June 13 +161%); drugi spike tej samej spolki w miesiacu na nowym katalizatorze (Starlink partnership = marquee endorsement); wzorzec: SERIAL_CATALYST_SAME_TICKER",
+    "lesson": "Drugi spike w miesiacu dla tej samej distressed micro-cap streaming (June 13 +161%, June 18 +170%): wzorzec serial catalyst — ta sama spolka lapie kilka spike'ow na kolejnych newsach; marquee partnership (Starlink) = volatile spike dla going-concern micro-cap nawet bez poprawy fundamentow; NIE KUPOWAC — going concern + pct_1m 565% = parabola absolutna; wniosek: monitoruj already-spiked distressed micro-caps pod katem kolejnych marquee partnership announcements, ale zawsze PASS gdy going-concern + >50% mc"
   }
 ]
