@@ -1,13 +1,13 @@
 {
-  "generated": "2026-06-19T19:10",
+  "generated": "2026-06-20T22:35",
   "signals": [
     {
       "ticker": "LITE",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z >=2 niezaleznych zrodel. Tylko pojedyncze reiteracje analitykow, insiderzy NETTO SPRZEDAJA. Konserwatywnie: brak.",
-      "as_of": "2026-06-19",
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora. Partnerstwo NVIDIA (marzec) i guidance Q4 (5 maja) sa stare; insiderzy NETTO SPRZEDAJA. Konserwatywnie: brak.",
+      "as_of": "2026-06-20",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -17,14 +17,14 @@
       "has_catalyst": true,
       "catalyst_type": "rating",
       "direction": "bullish",
-      "headline": "Stifel i Wedbush ostro podniosly ceny docelowe Micron na popycie AI (DRAM/HBM), 17-18.06. Wyniki fiskalne Q3 24.06 (event oczekujacy).",
-      "as_of": "2026-06-19",
-      "confidence": 0.9,
+      "headline": "Stifel i Wedbush ostro podniosly ceny docelowe Micron na popycie AI (DRAM/HBM), 17-18.06 (w oknie 7 dni). Wyniki fiskalne Q3 wypadaja 24.06 - event binarny za 4 dni.",
+      "as_of": "2026-06-20",
+      "confidence": 0.85,
       "source_count": 3,
       "sources": [
         {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4604817-micron-jumps-as-wedbush-and-stifel-raise-price-targets-on-ai-driven-demand"},
         {"label": "MarketScreener", "url": "https://www.marketscreener.com/news/wedbush-raises-price-target-on-micron-technology-to-1-300-from-550-keeps-outperform-rating-ce7f5cddd18bf22d"},
-        {"label": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/06/18/wall-street-just-put-a-monster-target-on-micron-is-the-stock-still-too-cheap-2/"}
+        {"label": "StockTitan", "url": "https://www.stocktitan.net/news/MU/micron-technology-to-report-fiscal-third-quarter-results-on-june-24-22gcrbths4gp.html"}
       ]
     },
     {
@@ -32,8 +32,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wyniki Q2 i podwyzka guidance FY26 wypadly 04.06 - poza oknem 7 dni. Brak swiezego twardego katalizatora; insiderzy sprzedaja (10b5-1). Konserwatywnie: brak.",
-      "as_of": "2026-06-19",
+      "headline": "Jedyna swieza pozycja to emisja obligacji zamiennych ~2.5 mld USD (mid-czerwiec) - rozwadniajaca, neutralna/lekko negatywna. Wyniki Q2 (04.06) poza oknem 7 dni; insiderzy sprzedaja (10b5-1, 15.06). Konserwatywnie: brak.",
+      "as_of": "2026-06-20",
       "confidence": 0.3,
       "source_count": 0,
       "sources": []
@@ -43,14 +43,14 @@
       "has_catalyst": true,
       "catalyst_type": "contract",
       "direction": "bullish",
-      "headline": "Doniesienia o umowie Apple-Intel (Intel produkuje chipy dla Apple w USA) wywindowaly akcje ~10%, 18.06.",
-      "as_of": "2026-06-19",
-      "confidence": 0.85,
+      "headline": "Doniesienia o umowie Apple-Intel (Intel produkuje chipy dla Apple w USA) - 18.06, akcje +9% pre-market. Zrodlo: wpis Trumpa, brak formalnego potwierdzenia obu spolek -> nizsza pewnosc.",
+      "as_of": "2026-06-20",
+      "confidence": 0.8,
       "source_count": 3,
       "sources": [
-        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-18/intel-intc-share-price-soars-after-trump-says-it-struck-apple-chip-deal"},
-        {"label": "CNBC", "url": "https://www.cnbc.com/amp/2026/06/18/trump-intel-apple-chip-design-deal.html"},
-        {"label": "CBS News", "url": "https://www.cbsnews.com/news/intel-intc-shares-trump-apple-chip-agreement/"}
+        {"label": "CNBC", "url": "https://www.cnbc.com/2026/05/08/intel-stock-apple-chip-deal.html"},
+        {"label": "Investing.com", "url": "https://www.investing.com/analysis/appleintel-chip-manufacturing-deal-reshapes-foundry-race-200682398"},
+        {"label": "EE Times", "url": "https://www.eetimes.com/apple-intel-foundry-deal-could-reshape-u-s-chip-manufacturing/"}
       ]
     },
     {
@@ -58,14 +58,14 @@
       "has_catalyst": true,
       "catalyst_type": "regulator",
       "direction": "bullish",
-      "headline": "Program CHIPS (Dept. of Commerce) podpisal list intencyjny do 50 mln USD na rozbudowe fab InP Coherent w Teksasie pod optyke AI, 16.06.",
-      "as_of": "2026-06-19",
+      "headline": "CHIPS (Dept. of Commerce) podpisal list intencyjny do 50 mln USD na rozbudowe fab InP Coherent w Sherman, TX (podwojenie powierzchni, x4 produkcja waferow) pod optyke AI - 16.06.",
+      "as_of": "2026-06-20",
       "confidence": 0.85,
       "source_count": 3,
       "sources": [
-        {"label": "NIST/Dept of Commerce", "url": "https://www.nist.gov/news-events/news/2026/06/department-commerces-chips-program-announces-letter-intent-coherent-50"},
+        {"label": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/06/16/3312664/11543/en/Coherent-Announces-a-CHIPS-Letter-of-Intent-for-50-Million-to-Expand-World-Leading-Manufacturing-Facility-for-AI-Infrastructure.html"},
         {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4603979-coherent-in-spotlight-as-it-signs-letter-of-intent-for-50m-in-funding-from-chips-act"},
-        {"label": "Photonics.com", "url": "https://www.photonics.com/Articles/Coherent-Secures-50M-Grant-Breaks-Ground-on-InP/p5/a72339"}
+        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/coherent-cohr-wins-50-million-071438402.html"}
       ]
     }
   ]
