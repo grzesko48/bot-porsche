@@ -1,7 +1,7 @@
 {
   "_date": "2026-06-22",
-  "_run": "przedsesyjna 14:30 CEST",
-  "_note": "June 22 poniedzialek. Russell rebalancing efektywny June 26 = 4 DNI (PILNE — forced buying MECHANICZNY). JFB merger deadline 30 czerwca = 8 DNI (COUNTDOWN). Ceny z June 20 zamkniecia (piatek). Trump AI EO June 2 + NSPM June 5 aktywne — DoD AI procurement. CAST $7.25 to -96% od ATH $170 ale pct_1m 565% = PARABOLA nadal. INHD halted od June 9. KARD dzis Dzien 3 handlu.",
+  "_run": "srodsesyjna 18:30 CEST",
+  "_note": "June 22 poniedzialek srodek sesji US. Russell rebalancing efektywny June 26 = 4 DNI (PILNE — forced buying MECHANICZNY, bezcenny trigger). JFB merger deadline 30 czerwca = 8 DNI (COUNTDOWN). NOWE vs 14:30: CTM Castellum Navy $250M IDIQ cybersec (June 15, pominiety); EHGO dzis +118% AI partnership (pump/PASS). CAST pct_1m 565% = PARABOLA. ONDS price dzis w sesji. Trump AI EO + border security EO aktywne. Anti-chase blokuje EHGO/SAGT (>50%/mc).",
   "ipo": [
     {
       "ticker": "KARD",
@@ -45,6 +45,26 @@
     }
   ],
   "volume": [
+    {
+      "ticker": "EHGO",
+      "name": "Eshallgo Inc.",
+      "volume_mult": 20,
+      "price_usd": 3.50,
+      "pct_1m": 150,
+      "catalyst": "Dzis +118% na ogloszeniu 'AI partnership'; spike z $1.80 pre-market do $5+; micro-cap NASDAQ; wzorzec VSME/CAST (brak realnych przychodow AI); $10.7M cash $2.8M debt; distressed",
+      "still_upside": false,
+      "upside_reason": "ZAWSZE PASS: pct_1m ~150% = parabola absolutna; distressed pump bez realnych przychodow AI; wzorzec VSME = going-concern + AI narracja bez $ = pump"
+    },
+    {
+      "ticker": "SAGT",
+      "name": "Sagtec Global Limited",
+      "volume_mult": 8,
+      "price_usd": 1.81,
+      "pct_1m": 81,
+      "catalyst": "FY2026 guidance: revenue $25.8M (+35% YoY) + $10.5M financing March 2026 + AI enterprise SaaS SE Asia; CEO shareholder letter; +76% premarket June 20; Kuala Lumpur enterprise software NASDAQ",
+      "still_upside": false,
+      "upside_reason": "pct_1m ~81% >> 50% = PARABOLA absolutna; CZEKAJ na cofniecie do $0.90-1.00"
+    },
     {
       "ticker": "CDT",
       "name": "CDT Equity Inc",
@@ -127,6 +147,15 @@
     }
   ],
   "contract": [
+    {
+      "ticker": "CTM",
+      "name": "Castellum Inc.",
+      "price_usd": 0.83,
+      "pct_1m": 20,
+      "catalyst": "JV CTM JV LLC wins position on $250M Navy IDIQ cybersecurity LIIS CMDS MAC June 15 2026; MCap ~$78M; 59 contractors share task order pool; cybersecurity + electronic warfare; Trump EO fixed-price contracting aligned",
+      "still_upside": false,
+      "upside_reason": "IDIQ to pozycja przetargowa dla task orders, nie bezposredni kontrakt; 59 firm dziela pule — potencjal ale nie pewnosc; pct_1m ~20% = w oknie ale slaba konfluencja (brak insider/fund sygnalu)"
+    },
     {
       "ticker": "OSS",
       "name": "One Stop Systems Inc",
