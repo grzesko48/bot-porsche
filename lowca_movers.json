@@ -110,5 +110,19 @@
     "day": "2026-06-18",
     "presignal": "FreeCast (CAST) ogłosiło Starlink Business reseller agreement June 18 rano (same-day catalyst, brak pre-sygnału przed June 18); spółka going-concern micro-cap streaming; CAST byla juz na radarze z +565% wzrostem w czerwcu (distressed streaming pattern June 13 +161%); drugi spike tej samej spolki w miesiacu na nowym katalizatorze (Starlink partnership = marquee endorsement); wzorzec: SERIAL_CATALYST_SAME_TICKER",
     "lesson": "Drugi spike w miesiacu dla tej samej distressed micro-cap streaming (June 13 +161%, June 18 +170%): wzorzec serial catalyst — ta sama spolka lapie kilka spike'ow na kolejnych newsach; marquee partnership (Starlink) = volatile spike dla going-concern micro-cap nawet bez poprawy fundamentow; NIE KUPOWAC — going concern + pct_1m 565% = parabola absolutna; wniosek: monitoruj already-spiked distressed micro-caps pod katem kolejnych marquee partnership announcements, ale zawsze PASS gdy going-concern + >50% mc"
+  },
+  {
+    "ticker": "CAST",
+    "pct": 41,
+    "day": "2026-06-20",
+    "presignal": "Starlink broadband reseller partnership ogłoszony June 18 2026 (2 dni wczesniej) — third spike z rzedu dla tej samej spolki; CAST kontynuuje momentum po +161% (June 13) i +170% (June 18); serial catalyst pattern: kazdy nowy headline = kolejna fala; micro-cap streaming z negatywnym equity i going-concern risk",
+    "lesson": "CAST wzorzec SERIAL_CATALYST_SAME_TICKER: 3 spike w miesiacu (+161% June 13, +170% June 18, +41% June 20) pokazuje ze ta sama distressed micro-cap moze wielokrotnie skakac na kolejnych newsach; NIE KUPOWAC — spółka going-concern + pct_1m 565% = parabola absolutna bezwzgledna; LEKCJA: po 2+ spikach tej samej spolki stop sledzenia — kazdy kolejny spike jest wewnatrz parabolicznej struktury i konczy sie gwaltownym retracement"
+  },
+  {
+    "ticker": "INHD",
+    "pct": 700,
+    "day": "2026-06-08",
+    "presignal": "Dwa reverse splity w 6 miesiecy: 1-for-24 grudzien 2025 + 1-for-20 maj 2026 = ultra-low float setup identyfikowalny tygodnie wczesniej; $3M AI sales-agent development deal z HK AI provider ogłoszony June 8 = trigger; spółka Inno Holdings (INHD) NASDAQ micro-cap; cena z ~$1.05 do $39.49 (intraday ATH $60) w jednej sesji; T12 trading halt nastepnego dnia June 9",
+    "lesson": "Podwójny reverse split w <6 miesiecy = ultra-low float pre-pump setup (wzorzec AZI/PAVS/GLXG); maly AI kontrakt ($3M development-only, niekomercyjny) + ultra-low float = micro-cap pump trigger; monitoruj spolki z 2+ reverse splitami w 6 miesiacach + kazde AI/deal ogłoszenie = pre-squeeze watchlist; UWAGA: T12 halt nastepnego dnia = exit rule kluczowy (wyjdz w dniu spike lub nigdy); nie gonić po T12 halt"
   }
 ]
