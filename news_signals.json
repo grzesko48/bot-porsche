@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T22:35",
+  "generated": "2026-06-22T19:10",
   "signals": [
     {
       "ticker": "LITE",
@@ -7,7 +7,7 @@
       "catalyst_type": "none",
       "direction": "neutral",
       "headline": "Brak swiezego (<=7 dni) twardego katalizatora. Partnerstwo NVIDIA (marzec) i guidance Q4 (5 maja) sa stare; insiderzy NETTO SPRZEDAJA. Konserwatywnie: brak.",
-      "as_of": "2026-06-20",
+      "as_of": "2026-06-22",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -17,8 +17,8 @@
       "has_catalyst": true,
       "catalyst_type": "rating",
       "direction": "bullish",
-      "headline": "Stifel i Wedbush ostro podniosly ceny docelowe Micron na popycie AI (DRAM/HBM), 17-18.06 (w oknie 7 dni). Wyniki fiskalne Q3 wypadaja 24.06 - event binarny za 4 dni.",
-      "as_of": "2026-06-20",
+      "headline": "Stifel i Wedbush ostro podniosly ceny docelowe Micron na popycie AI (DRAM/HBM), 17-18.06 (w oknie 7 dni). Wyniki fiskalne Q3 wypadaja 24.06 - event binarny za 2 dni.",
+      "as_of": "2026-06-22",
       "confidence": 0.85,
       "source_count": 3,
       "sources": [
@@ -32,8 +32,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Jedyna swieza pozycja to emisja obligacji zamiennych ~2.5 mld USD (mid-czerwiec) - rozwadniajaca, neutralna/lekko negatywna. Wyniki Q2 (04.06) poza oknem 7 dni; insiderzy sprzedaja (10b5-1, 15.06). Konserwatywnie: brak.",
-      "as_of": "2026-06-20",
+      "headline": "Wyniki Q2 (04.06, +40% r/r, podniesiony guidance FY do 6.3 mld) sa juz POZA oknem 7 dni (18 dni temu). Emisja obligacji zamiennych ~2.5 mld (mid-czerwiec) rozwadniajaca; insiderzy sprzedaja (10b5-1, 15.06). Konserwatywnie: brak swiezego katalizatora.",
+      "as_of": "2026-06-22",
       "confidence": 0.3,
       "source_count": 0,
       "sources": []
@@ -43,9 +43,9 @@
       "has_catalyst": true,
       "catalyst_type": "contract",
       "direction": "bullish",
-      "headline": "Doniesienia o umowie Apple-Intel (Intel produkuje chipy dla Apple w USA) - 18.06, akcje +9% pre-market. Zrodlo: wpis Trumpa, brak formalnego potwierdzenia obu spolek -> nizsza pewnosc.",
-      "as_of": "2026-06-20",
-      "confidence": 0.8,
+      "headline": "Doniesienia o umowie Apple-Intel (Intel produkuje chipy dla Apple w USA) - 18.06 (w oknie), akcje +9% pre-market. Brak formalnego potwierdzenia obu spolek -> nizsza pewnosc.",
+      "as_of": "2026-06-22",
+      "confidence": 0.75,
       "source_count": 3,
       "sources": [
         {"label": "CNBC", "url": "https://www.cnbc.com/2026/05/08/intel-stock-apple-chip-deal.html"},
@@ -58,14 +58,14 @@
       "has_catalyst": true,
       "catalyst_type": "regulator",
       "direction": "bullish",
-      "headline": "CHIPS (Dept. of Commerce) podpisal list intencyjny do 50 mln USD na rozbudowe fab InP Coherent w Sherman, TX (podwojenie powierzchni, x4 produkcja waferow) pod optyke AI - 16.06.",
-      "as_of": "2026-06-20",
+      "headline": "CHIPS (Dept. of Commerce/NIST) podpisal list intencyjny do 50 mln USD na rozbudowe fab InP Coherent w Sherman, TX (podwojenie powierzchni, x4 produkcja waferow, >1000 miejsc pracy) pod optyke AI - 16.06 (w oknie). Potwierdzone zrodlem rzadowym NIST.",
+      "as_of": "2026-06-22",
       "confidence": 0.85,
       "source_count": 3,
       "sources": [
+        {"label": "NIST (gov)", "url": "https://www.nist.gov/news-events/news/2026/06/department-commerces-chips-program-announces-letter-intent-coherent-50"},
         {"label": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/06/16/3312664/11543/en/Coherent-Announces-a-CHIPS-Letter-of-Intent-for-50-Million-to-Expand-World-Leading-Manufacturing-Facility-for-AI-Infrastructure.html"},
-        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4603979-coherent-in-spotlight-as-it-signs-letter-of-intent-for-50m-in-funding-from-chips-act"},
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/coherent-cohr-wins-50-million-071438402.html"}
+        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4603979-coherent-in-spotlight-as-it-signs-letter-of-intent-for-50m-in-funding-from-chips-act"}
       ]
     }
   ]
