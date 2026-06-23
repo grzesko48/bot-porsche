@@ -1,17 +1,17 @@
 {
-  "_date": "2026-06-22",
-  "_run": "srodsesyjna 18:30 CEST",
-  "_note": "June 22 poniedzialek srodek sesji US. Russell rebalancing efektywny June 26 = 4 DNI (PILNE — forced buying MECHANICZNY, bezcenny trigger). JFB merger deadline 30 czerwca = 8 DNI (COUNTDOWN). NOWE vs 14:30: CTM Castellum Navy $250M IDIQ cybersec (June 15, pominiety); EHGO dzis +118% AI partnership (pump/PASS). CAST pct_1m 565% = PARABOLA. ONDS price dzis w sesji. Trump AI EO + border security EO aktywne. Anti-chase blokuje EHGO/SAGT (>50%/mc).",
+  "_date": "2026-06-23",
+  "_run": "przedotwarcioowa 14:30 CEST",
+  "_note": "Jun 23 wtorek pre-opening. NOWE vs 18:30 Jun 22: Trump QUANTUM EO podpisany WCZORAJ (22 czerwca) — $2B CHIPS Act grants: QBTS $100M + RGTI $100M + rzad bierze equity stake; QBTS/RGTI +30-33% wczoraj = PARABOLA (>50%/mc = BLOCKED); IONQ pct_1m ~42% CZEKAJ; QUBT pct_1m ~18% BUY zone. COUNTDOWN AKTYWNY: Russell 2000/3000 forced inclusion ZA 3 DNI (June 26) — SPCX/HYPR/ORMP/RDZN = OKNO ZAMYKA SIE; JFB XTEND merger deadline June 30 = 7 DNI; CRWD split July 2 = 9 DNI. Wczoraj: NXTS +115%/EHGO +56% = pump+dilution PASS. ORKA +18% kliniczne dane biotech = nowy sygnal. Anti-chase blokuje QBTS/RGTI/CDT/SAGT/EHGO (>50%/mc).",
   "ipo": [
     {
       "ticker": "KARD",
       "name": "Kardigan Inc",
       "age_months": 0,
       "price_usd": 22.0,
-      "pct_1m": 0,
-      "catalyst": "IPO June 18 2026 — priced $16 (top of range), zamknieto $22 (+38% dzien 1); upsized z $350M do $400M = silny popyt instytucjonalny; cardiovascular precision medicine (KardAR001 oral HCM therapy Phase 2); ~$2B MCap; zarzad z MyoKardia (przejeta przez BMS za $13B w 2020); DZIS = Dzien 2 pierwszego handlu (June 19 bylo swieto); pct_1m=0 (dopiero 2 dni na gieldzie)",
+      "pct_1m": 38,
+      "catalyst": "IPO June 18 2026 — priced $16 (top of range), zamknieto $22 (+38% dzien 1); upsized z $350M do $400M = silny popyt instytucjonalny; cardiovascular precision medicine (KardAR001 oral HCM therapy Phase 2); ~$2B MCap; zarzad z MyoKardia (przejeta przez BMS za $13B w 2020); DZIS = Dzien 5 — pct_1m=38% liczone od IPO price $16",
       "still_upside": true,
-      "upside_reason": "Swiezy IPO Day 2 — MyoKardia pedigree = BMS $13B buyout 2020; KardAR001 Phase 2 HCM data incoming; $400M runway; upsized offering = silny demand instytucjonalny; Dzien 2 po swiecie = first real 'second day' trade"
+      "upside_reason": "MyoKardia pedigree = BMS $13B buyout 2020; KardAR001 Phase 2 HCM data incoming; $400M runway; upsized offering = silny demand instytucjonalny; 5 dni od debiutu = wciaz swiezy"
     },
     {
       "ticker": "SPCX",
@@ -19,19 +19,19 @@
       "age_months": 0,
       "price_usd": 174.90,
       "pct_1m": 30,
-      "catalyst": "SpaceX IPO June 12 2026 — RECORD $75B ($1.77T wycena); Cursor AI acquisition $60B ogloszona June 16 (AI data centers in space); Russell 2000/3000 forced index inclusion June 26 (TERAZ 6 DNI!); 30% float detaliczny = retail momentum; cofniecie z ATH $225 do $174 = -22% korekta",
+      "catalyst": "SpaceX IPO June 12 2026 — RECORD $75B ($1.77T wycena); Cursor AI acquisition $60B ogloszona June 16 (AI data centers in space); Russell 2000/3000 forced index inclusion June 26 (TERAZ ZA 3 DNI — OKNO ZAMYKA SIE!); 30% float detaliczny = retail momentum; cofniecie z ATH $225 do $174 = -22% korekta",
       "still_upside": true,
-      "upside_reason": "Russell forced buying June 26 mechanicznie zwieksza popyt za 6 DNI; Cursor AI = structural AI-in-space narrative; cofniecie -22% od ATH = potencjal odbicia; index inclusion = dodatkowy mechaniczny catalyst"
+      "upside_reason": "Russell forced buying June 26 mechanicznie zwieksza popyt ZA 3 DNI; Cursor AI = structural AI-in-space narrative; cofniecie -22% od ATH = potencjal odbicia; index inclusion = dodatkowy mechaniczny catalyst; OKNO ZAMYKA SIE = teraz lub nigdy"
     },
     {
       "ticker": "QNT",
       "name": "Quantinuum",
       "age_months": 1,
-      "price_usd": 60.50,
-      "pct_1m": 2,
-      "catalyst": "IPO June 4 2026 (Honeywell spinoff, quantum computing lider); Trump AI EO June 2 = rzadowe zainteresowanie AI/quantum; US gov $2B quantum initiative + $100M bezposrednia inwestycja rzadowa; stabilizacja przy IPO price $60 = base building; pct_1m +2% = nierozgrzany; UWAGA: revenue Q1 -73% YoY - ryzyko fundamentalne",
+      "price_usd": 68.0,
+      "pct_1m": 13,
+      "catalyst": "IPO June 4 2026 (Honeywell spinoff, quantum computing lider) — priced $60, opened $68; Trump QUANTUM EO June 22 WCZORAJ = bezposredni beneficjent sektora; US gov $2B CHIPS grants quantum = potwierdzenie roli Quantinuum; pct_1m +13% = umiarkowanie rozgrzany; UWAGA: revenue Q1 -73% YoY — ryzyko fundamentalne",
       "still_upside": true,
-      "upside_reason": "Stabilizacja przy IPO price = dobry punkt wejscia; rzad USA $100M = technologiczne potwierdzenie; quantum = kolejna fala AI infra; pct_1m +2% = nierozgrzany; Trump AI EO tailwind"
+      "upside_reason": "Trump EO June 22 = sektorowy tailwind dla lidera; Honeywell backing = solidna teza; quantum EO kolejna fala po AI; pct_1m +13% < 25% = nie rozgrzany"
     },
     {
       "ticker": "AVEX",
@@ -51,9 +51,29 @@
       "volume_mult": 20,
       "price_usd": 3.50,
       "pct_1m": 150,
-      "catalyst": "Dzis +118% na ogloszeniu 'AI partnership'; spike z $1.80 pre-market do $5+; micro-cap NASDAQ; wzorzec VSME/CAST (brak realnych przychodow AI); $10.7M cash $2.8M debt; distressed",
+      "catalyst": "June 22 +118% na ogloszeniu 'AI partnership'; spike z $1.80 pre-market do $5+; micro-cap NASDAQ; wzorzec VSME/CAST (brak realnych przychodow AI); $10.7M cash $2.8M debt; distressed",
       "still_upside": false,
       "upside_reason": "ZAWSZE PASS: pct_1m ~150% = parabola absolutna; distressed pump bez realnych przychodow AI; wzorzec VSME = going-concern + AI narracja bez $ = pump"
+    },
+    {
+      "ticker": "NXTS",
+      "name": "Nexentis Technologies",
+      "volume_mult": 50,
+      "price_usd": 7.00,
+      "pct_1m": 120,
+      "catalyst": "June 22 +115% AI drug discovery partnership (Boltz + MitoCareX Bio, SLC small-molecule); nastepnie NATYCHMIAST $2.9M dilutive offering ogloszone po godzinach = -46% AH = klasyczny pump-and-dilute; zamknieto $13, AH $7",
+      "still_upside": false,
+      "upside_reason": "ZAWSZE PASS: pump + natychmiastowa dilucja = micro-cap pump and dump; pct_1m >100% = parabola absolutna; AI partnership bez realnych przychodow = NXTS-pattern = EHGO-pattern"
+    },
+    {
+      "ticker": "ORKA",
+      "name": "Oruka Therapeutics",
+      "volume_mult": 5,
+      "price_usd": 13.00,
+      "pct_1m": 18,
+      "catalyst": "June 22 +18% kliniczne dane ORKA-001 (100-day half-life IL-23p19 inhibitor) i ORKA-002 (30-day half-life IL-17A/F inhibitor) — psoriasis/arthritis pipeline; zero net debt + hefty cash pile; Phase 2 milestones kontynuuja sie",
+      "still_upside": true,
+      "upside_reason": "Phase 2 clinical data wciaz sie pojawia (ORKA-001/002); zero debt + cash runway solidna; pct_1m +18% < 25% = nie rozgrzany; realny katalizator kliniczny (nie AI narracja)"
     },
     {
       "ticker": "SAGT",
@@ -71,9 +91,9 @@
       "volume_mult": 50,
       "price_usd": 1.85,
       "pct_1m": 100,
-      "catalyst": "+101% June 18 2026: CDT holds 20% stake in Sarborg Ltd (nowa wycena $638.3M) = stake worth $127.5M vs CDT MCap ~$13M po spike — nadal 10x discount do wartosci stake; SarborgQ quantum computing division launch; pre-sygnaly przed June 18: patent milestone + $6.3M debt retirement ogloszone dni wczesniej; Dzis June 20 pierwsze notowanie po swiecie",
+      "catalyst": "+101% June 18 2026: CDT holds 20% stake w Sarborg Ltd (nowa wycena $638.3M) = stake worth $127.5M vs CDT MCap ~$13M po spike — nadal 10x discount do wartosci stake; SarborgQ quantum computing division launch; patent milestone + $6.3M debt retirement",
       "still_upside": false,
-      "upside_reason": "pct_1m ~100% = PARABOLA (>50% blokada absolutna); wartosci analityczne: stake $127.5M vs MCap $13M = strukturalny dyskont — DO OBSERWACJI, nie do kupna; czekaj na cofniecie i konsolidacje powyzej $1.30-1.50"
+      "upside_reason": "pct_1m ~100% = PARABOLA (>50% blokada absolutna); wartosci analityczne: stake $127.5M vs MCap = strukturalny dyskont — DO OBSERWACJI, nie do kupna; czekaj na cofniecie i konsolidacje powyzej $1.30-1.50"
     },
     {
       "ticker": "HYPR",
@@ -81,9 +101,9 @@
       "volume_mult": 4.0,
       "price_usd": 1.40,
       "pct_1m": 12,
-      "catalyst": "Russell 2000 + Russell 3000 addition CONFIRMED effective June 26 2026 (TERAZ 6 DNI!); portable MRI (Swoop) medical imaging micro-cap NASDAQ; 52-tyg $0.66-$2.22; OKNO FORCED BUYING = June 20-26; $11T benchmarkowane do Russell = mechaniczne kupno; 4% pop po announcement",
+      "catalyst": "Russell 2000 + Russell 3000 addition CONFIRMED effective June 26 2026 (TERAZ ZA 3 DNI — OSTATNIE OKNO!); portable MRI (Swoop) medical imaging micro-cap NASDAQ; 52-tyg $0.66-$2.22; OKNO FORCED BUYING = June 23-26; $11T benchmarkowane do Russell = mechaniczne kupno",
       "still_upside": true,
-      "upside_reason": "Russell forced buying z $11T aktywow MECHANICZNIE za 6 DNI; pct_1m +12% = nierozgrzany; medical imaging = solidna teza fundamentalna; okno kupna trwa"
+      "upside_reason": "Russell forced buying z $11T aktywow MECHANICZNIE ZA 3 DNI — ostatnie okno kupna; pct_1m +12% = nierozgrzany; medical imaging = solidna teza"
     },
     {
       "ticker": "ORMP",
@@ -91,9 +111,9 @@
       "volume_mult": 3.5,
       "price_usd": 3.87,
       "pct_1m": 8,
-      "catalyst": "Russell 2000 + Russell 3000 addition CONFIRMED effective June 26 2026 (TERAZ 6 DNI!); oral insulin/diabetes pharma (ORMD-0801 pipeline); 52-tyg $1.98-$5.01; OKNO FORCED BUYING = June 20-26; 237 spolek dodawanych do Russell w tej edycji",
+      "catalyst": "Russell 2000 + Russell 3000 addition CONFIRMED effective June 26 2026 (TERAZ ZA 3 DNI — OSTATNIE OKNO!); oral insulin/diabetes pharma (ORMD-0801 pipeline); 52-tyg $1.98-$5.01; $11T forced buy mechaniczny",
       "still_upside": true,
-      "upside_reason": "Russell forced buying z $11T aktywow MECHANICZNIE za 6 DNI; pct_1m +8% = nierozgrzany; oral insulin = unmet need; okno kupna trwa"
+      "upside_reason": "Russell forced buying ZA 3 DNI; pct_1m +8% = nierozgrzany; oral insulin = unmet need; ostatnie okno kupna"
     },
     {
       "ticker": "RDZN",
@@ -101,9 +121,9 @@
       "volume_mult": 3.0,
       "price_usd": 1.77,
       "pct_1m": 15,
-      "catalyst": "Russell 2000 + Russell 3000 inclusion EFFECTIVE June 26 (TERAZ 6 DNI!) — forced buying z $11T benchmarked; + LOI $30M insurance capacity z US carrier; + $2.5M fleet ADAS contract (3000-10000 trucks); + $10M+ India claims mandate; + European OEM GAP insurance partnership (UK); multi-catalyst stack + Russell forced buying",
+      "catalyst": "Russell 2000 + Russell 3000 inclusion EFFECTIVE June 26 (TERAZ ZA 3 DNI!) — forced buying z $11T benchmarked; + LOI $30M insurance capacity z US carrier; + $2.5M fleet ADAS contract (3000-10000 trucks); + $10M+ India claims mandate; + European OEM GAP insurance partnership (UK); multi-catalyst stack + Russell forced buying",
       "still_upside": true,
-      "upside_reason": "Russell 2000 forced buying June 26 = mechaniczny catalyst z $11T aktywow; $1.77 = micro-cap z 4 realnymi kontraktami; pct_1m +15% < 25% = nie rozgrzany"
+      "upside_reason": "Russell 2000 forced buying June 26 = mechaniczny catalyst z $11T aktywow ZA 3 DNI; $1.77 = micro-cap z 4 realnymi kontraktami; pct_1m +15% < 25% = nie rozgrzany; OSTATNIE OKNO"
     },
     {
       "ticker": "LUNR",
@@ -123,7 +143,7 @@
       "pct_1m": 27,
       "catalyst": "US Army C100 UAS $20.9M + Navy Maritime Domain Awareness $4.8M (dual DoD); Q1 2026 revenue $50M (+11x YoY); 8 analityków Strong Buy avg target $20.13 (+112% upside); Drone Factory 01 Huntsville AL operacyjna; cofniecie z $11.97 do $9.50",
       "still_upside": true,
-      "upside_reason": "Revenue step-change 11x YoY — rzadki sygnal fundamentalny; dual Army+Navy contracts; analyst avg $20.13 = +112% upside; pct_1m +27% naped zony realnymi kontraktami DoD"
+      "upside_reason": "Revenue step-change 11x YoY — rzadki sygnal fundamentalny; dual Army+Navy contracts; analyst avg $20.13 = +112% upside; pct_1m +27% napedzony realnymi kontraktami DoD"
     },
     {
       "ticker": "ASTS",
@@ -131,7 +151,7 @@
       "volume_mult": 4.0,
       "price_usd": 79.64,
       "pct_1m": -5,
-      "catalyst": "BlueBird 8,9,10 satellite launch June 17 2026 (SpaceX, 3 dni temu!); ATH $133.86 May 28 → $79.64 = -40% korekta przy rosnącej konstelacji; 7 analitykow avg target $81.47; SpaceX Cursor AI halo aktywny; cellular broadband from space = strukturalna teza",
+      "catalyst": "BlueBird 8,9,10 satellite launch June 17 2026 (SpaceX, 6 dni temu); ATH $133.86 May 28 → $79.64 = -40% korekta przy rosnącej konstelacji; 7 analityków avg target $81.47; SpaceX Cursor AI halo aktywny; cellular broadband from space = strukturalna teza",
       "still_upside": true,
       "upside_reason": "Swiezy launch June 17 = operacyjny milestone; -40% od ATH to naturalna korekta; analyst avg $81.47 bliskie cenie = re-rating potential; pct_1m -5% = nie rozgrzany"
     },
@@ -143,10 +163,19 @@
       "pct_1m": 38,
       "catalyst": "Volume spike 43.85M vs avg 4.97K (8,800x normy!) June 18; Q1 2026 revenue $130.8M (+30% YoY), EPS $0.05 vs -$0.07 YoY; 0.07x sales deep value; cofniecie z $2.28 do $1.79 po spike",
       "still_upside": false,
-      "upside_reason": "pct_1m +38% > 25% — anti-chase blokuje; brak konkretnego catalystic ogłoszenia; czekaj na cofniecie do $1.30-1.40 (support)"
+      "upside_reason": "pct_1m +38% > 25% — anti-chase blokuje; brak konkretnego catalytic ogłoszenia; czekaj na cofniecie do $1.30-1.40 (support)"
     }
   ],
   "contract": [
+    {
+      "ticker": "QBTS",
+      "name": "D-Wave Quantum",
+      "price_usd": 24.69,
+      "pct_1m": 65,
+      "catalyst": "Trump QUANTUM EO June 22 (WCZORAJ) — $100M CHIPS Act grant + rzad USA bierze minority equity stake; Q1 2026 bookings $33.4M (+1,994% YoY, Fortune 100 + academic); MCap ~$4.4B; grant = strukturalne potwierdzenie technologii; QBTS +33% June 22",
+      "still_upside": false,
+      "upside_reason": "pct_1m ~65% = PARABOLA absolutna (>50%); BLOCKED nawet z furtka; CZEKAJ na cofniecie do $15-18; teza silna ale cena juz skoczyła"
+    },
     {
       "ticker": "CTM",
       "name": "Castellum Inc.",
@@ -233,9 +262,9 @@
       "name": "JFB Construction Holdings (XTEND AI Robotics)",
       "price_usd": 5.50,
       "pct_1m": -5,
-      "catalyst": "Asia-Pacific drone $2.5M + Europe $8.25M + Israeli MoD $1.67M + UK Defense AI Robotics Facility LAUNCH June 11 + fuzja XTEND $1.5B oczekiwana PRZED koncem Q2 2026 (10 DNI do 30 czerwca!); ticker → XTND",
+      "catalyst": "Asia-Pacific drone $2.5M + Europe $8.25M + Israeli MoD $1.67M + UK Defense AI Robotics Facility LAUNCH June 11 + fuzja XTEND $1.5B oczekiwana PRZED koncem Q2 2026 (7 DNI do 30 czerwca!); ticker → XTND",
       "still_upside": true,
-      "upside_reason": "Merger $1.5B vs MCap ~$76M = 20x uplift potential + UK robotics facility; 10 DNI do closing deadline June 30 = COUNTDOWN CATALYST KULMINACJA; pct_1m -5% = dyskonto"
+      "upside_reason": "Merger $1.5B vs MCap ~$76M = 20x uplift potential + UK robotics facility; 7 DNI do closing deadline June 30 = COUNTDOWN FINISZ; pct_1m -5% = dyskonto"
     },
     {
       "ticker": "RCAT",
@@ -252,7 +281,7 @@
       "ticker": "NVST",
       "buyers": 1,
       "usd_total": 776000,
-      "days_ago": 6,
+      "days_ago": 7,
       "role": "CFO Michael Nicholson open market purchase ~50,000 akcji @~$15.52 = $776K — June 2026",
       "price_usd": 15.52,
       "pct_1m": 5,
@@ -262,7 +291,7 @@
       "ticker": "NKE",
       "buyers": 2,
       "usd_total": 1875000,
-      "days_ago": 67,
+      "days_ago": 68,
       "role": "CEO Elliott Hill (23660 akcji @$42.27) + Director Tim Cook (25000 akcji @$42.43) — kwiecien 2026",
       "price_usd": 45.00,
       "pct_1m": 8
@@ -293,7 +322,7 @@
       "ticker": "SMPL",
       "member": "Rep. Tim Moore (R-NC)",
       "amount_usd": 65000,
-      "days_ago": 8,
+      "days_ago": 9,
       "committee_relevant": false,
       "price_usd": 32.0,
       "pct_1m": 3,
@@ -303,7 +332,7 @@
       "ticker": "LITE",
       "member": "Josh Gottheimer (May 22) + Gilbert Ray Cisneros Jr. (Apr 14)",
       "amount_usd": 30000,
-      "days_ago": 28,
+      "days_ago": 29,
       "committee_relevant": true,
       "price_usd": 860.00,
       "pct_1m": 20,
@@ -313,7 +342,7 @@
       "ticker": "TSM",
       "member": "39 Congress members purchases",
       "amount_usd": 1297000,
-      "days_ago": 33,
+      "days_ago": 34,
       "committee_relevant": true,
       "price_usd": 420.00,
       "pct_1m": 9,
@@ -321,6 +350,42 @@
     }
   ],
   "policy": [
+    {
+      "ticker": "QBTS",
+      "name": "D-Wave Quantum",
+      "price_usd": 24.69,
+      "pct_1m": 65,
+      "catalyst": "Trump QUANTUM EO podpisany WCZORAJ (June 22 2026) — $2B CHIPS Act grants: D-Wave dostaje $100M + rzad USA bierze minority equity stake; Q1 bookings $33.4M = +1,994% YoY (Fortune 100 contracts); Mizuho target $35 (od $29) vs $24.69 = +42% upside do celu; QBTS +33% June 22",
+      "still_upside": false,
+      "upside_reason": "pct_1m ~65% = PARABOLA absolutna (>50% blokada bezwzgledna); NIE KUPOWAC GORKI; czekaj na cofniecie do $15-18 po normalizacji; teza silna: direct grant + bookings explosion + government equity stake — ALE CENA JESTUZ DALEKO OD BAZY"
+    },
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "price_usd": 21.36,
+      "pct_1m": 55,
+      "catalyst": "Trump QUANTUM EO June 22 — Rigetti dostaje $100M CHIPS Act grant + government equity stake; superconducting qubit technology; +30% June 22",
+      "still_upside": false,
+      "upside_reason": "pct_1m ~55% = PARABOLA absolutna (>50% blokada); PASS; czekaj na cofniecie do $12-15"
+    },
+    {
+      "ticker": "IONQ",
+      "name": "IonQ",
+      "price_usd": 56.55,
+      "pct_1m": 42,
+      "catalyst": "Trump QUANTUM EO June 22 sektor halo (brak bezposredniego grantu dla IonQ); trapped-ion QC lider z najsilniejszymi fundamentami; +12% June 22; YTD +30%",
+      "still_upside": true,
+      "upside_reason": "Sektor lider trapped-ion QC; quantum EO = strukturalny wieloletni tailwind; pct_1m +42% w strefie CZEKAJ ale IONQ ma NAJSILNIEJSZE fundamenty z grupy; EO nie minal dopiero zaczyna; furtka: dalszy wzrost rzadowych kontraktow = mozliwe przy cofnieciu do $48-52"
+    },
+    {
+      "ticker": "QUBT",
+      "name": "Quantum Computing Inc",
+      "price_usd": 9.80,
+      "pct_1m": 18,
+      "catalyst": "Trump QUANTUM EO June 22 halo + QUBT wlasne 8-K filings 2026 (nowe kontrakty/partnerstwa); YTD +3% = UNDERPERFORMER vs sektora = nizsza baza; pct_1m +18% < 25% = NORMALNY BUY zone",
+      "still_upside": true,
+      "upside_reason": "Jedyny z wielkiej czworki quantum z pct_1m <25% = nie rozgrzany; quantum EO tailwind dotrze tez do QUBT; YTD +3% vs IONQ +30%/QBTS +65% = spacer do nadrobienia; BUY zone = potencjalna okazja z asymetrycznym risk/reward"
+    },
     {
       "ticker": "OKLO",
       "name": "Oklo Inc",
@@ -335,9 +400,9 @@
       "name": "CrowdStrike Holdings",
       "price_usd": 710.00,
       "pct_1m": 17,
-      "catalyst": "Trump EO 'Promoting Advanced AI Innovation and Security' June 2 2026 — AI cybersecurity clearinghouse; ARR $5.51B (+24% r/r); stock split 4:1 ogłoszony July 2 2026 (12 DNI!); korekta z ATH $782 do $710 = entry",
+      "catalyst": "Trump EO 'Promoting Advanced AI Innovation and Security' June 2 2026 — AI cybersecurity clearinghouse; ARR $5.51B (+24% r/r); stock split 4:1 ogłoszony July 2 2026 (9 DNI!); korekta z ATH $782 do $710 = entry",
       "still_upside": true,
-      "upside_reason": "Stock split July 2 = retail przyciagniecie (12 dni); korekta -9% od ATH; AI EO = wieloletni rzadowy pipeline; ARR $5.51B solidny fundament"
+      "upside_reason": "Stock split July 2 = retail przyciagniecie (9 dni); korekta -9% od ATH; AI EO = wieloletni rzadowy pipeline; ARR $5.51B solidny fundament"
     },
     {
       "ticker": "DPRO",

@@ -131,5 +131,33 @@
     "day": "2026-06-20",
     "presignal": "$10.5M financing round completed March 2026 (znany ~90 dni przed wzrostem) + AI enterprise SaaS pivot z realnym revenue ($25.8M guidance) + warrant structure (do $21M additional) = potential dla guidance catalyst; CEO shareholder letter z FY2026 guidance (+35% YoY) opublikowany June 20 rano = same-day trigger; Sagtec Global Limited (SAGT) NASDAQ micro-cap, Kuala Lumpur enterprise software; cena z ~$1.00 do $1.81",
     "lesson": "Malaysian/SE Asian NASDAQ enterprise software z ukonczonym financing round + warrant structure + AI SaaS pivot = potencjal gwaltownego wzrostu na guidance announcement; pre-sygnał (financing March 2026) byl dostepny 3 miesiace wczesniej ale same-day catalyst (CEO letter) trudny do przewidzenia dokladnie; wzorzec NIXX (commercial launch) ale tutaj: financing + guidance = analogiczny roadmap; sledz NASDAQ micro-cap SE Asian enterprise software z: (1) completed PIPE/financing, (2) AI narrative pivot, (3) pending guidance season = oczekuj guidance catalyst"
+  },
+  {
+    "ticker": "QBTS",
+    "pct": 33,
+    "day": "2026-06-22",
+    "presignal": "May 21 2026 CNBC/Reuters: 'US plans $2B quantum computing funding + government equity stakes' (32 dni przed EO) + June 1 D-Wave Investor Day +14% (21 dni przed EO); formalny Trump Quantum EO podpisany June 22 rano = potwierdzenie cyklu informacyjnego z maja; EO alokuje $100M CHIPS Act grant dla QBTS bezposrednio; rzad bierze minority equity stake = de facto inwestycja publiczna",
+    "lesson": "Sledz rzadowe zapowiedzi finansowania sektora (pre-EO leaks w CNBC/Reuters) — formalne EO przychodza tygodnie-miesiace po pierwszych doniesieniach; May 21 announcement bylo actionable sygnałem 32 dni przed spike; wzorzec: rzadowy funding preview + company Investor Day = 2-step lead time przed formalnym EO; po EO pct_1m +33% = CZEKAJ zone (anti-chase); po ~3 tygodniach konsolidacji = nowe okno wejscia"
+  },
+  {
+    "ticker": "RGTI",
+    "pct": 30,
+    "day": "2026-06-22",
+    "presignal": "May 21 2026: 'US plans $2B quantum grants + equity stakes' (CNBC) — identyczny pre-sygnał co QBTS; Rigetti Computing superconducting qubit pure-play; Trump Quantum EO June 22 alokuje $100M CHIPS Act grant dla RGTI bezposrednio + rzad bierze minority equity stake; caly sektor quantum (QBTS+RGTI+IONQ+QUBT) ruszyl jednoczesnie na tym samym EO",
+    "lesson": "Identyczny wzorzec jak QBTS — May 21 preview → June 22 EO spike; sledz CALY sektor quantum przy pierwszych doniesieniach o rzadowym finansowaniu (wszystkie pure-play pure-qubit korzystaja z tego samego sygnalu); po EO pct_1m +30% = CZEKAJ; alternatywa: QUBT (pct_1m +18%) = BUY zone jako beneficjent EO bez parabolicznego run-up"
+  },
+  {
+    "ticker": "NXTS",
+    "pct": 115,
+    "day": "2026-06-22",
+    "presignal": "BRAK pre-sygnalu — 8-K AI drug discovery partnership (Boltz + MitoCareX Bio, SLC molecules) ogłoszony RANO June 22 = same-day catalyst bez poprzedniego sygnalu; nastepnie NATYCHMIAST $2.9M dilutive offering po godzinach = -46% AH; wzorzec identyczny z EHGO/VSME/CAST pump-and-dilute",
+    "lesson": "AI drug discovery partnership 8-K rano + natychmiastowa oferta dilutywna tego samego dnia = klasyczny micro-cap pump-and-dump; nie ma pre-sygnalu do lapania; wzorzec: AI partnership 8-K + registered direct offering w ciagu 24h = zawsze PASS; NXTS zamknal sie $13 AH ale otworzyl $7 = -46%; powtorka EHGO/VSME — trzecia instancja tego samego wzorca pump-and-dilute = wzorzec ugruntowany"
+  },
+  {
+    "ticker": "ORKA",
+    "pct": 18,
+    "day": "2026-06-22",
+    "presignal": "Pipeline kalendarza kliniczny: ORKA-001 (100-day half-life IL-23p19 inhibitor) i ORKA-002 (30-day half-life IL-17A/F inhibitor) — dane Phase 2 psoriasis/arthritis oczekiwane w 2025-2026 wg prospektu IPO; zero long-term debt + strong cash pile = bezpieczny runway dla trial completion; same-day Phase 2 clinical update = catalyst; pct_1m +18% = BUY zone (anti-chase nie blokuje)",
+    "lesson": "Sledz kalendarze danych klinicznych dla biotech Phase 2 z zero-debt + strong cash (bezpieczny runway) — clinical update w terminach z IPO prospektu = identyfikowalny lead-time; ORKA-001/002 data nadchodzi falami; wzorzec: zero debt biotech + pipeline calendar + Phase 2 data = sledz i kupuj PRZED ogłoszeniem jesli pct_1m <25%; pct_1m +18% po clinical update = BUY zone (still_upside=true w signals JSON)"
   }
 ]

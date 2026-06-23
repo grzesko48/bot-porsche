@@ -209,5 +209,28 @@
       "SMPL",
       "TSM"
     ]
+  },
+  {
+    "date": "2026-06-23",
+    "flagged": [
+      "APWC",
+      "ASTS",
+      "CDT",
+      "EHGO",
+      "GOOGL",
+      "HYPR",
+      "LITE",
+      "LUNR",
+      "MIRM",
+      "NVST",
+      "NXTS",
+      "ONDS",
+      "ORKA",
+      "ORMP",
+      "RDZN",
+      "SAGT",
+      "SMPL",
+      "TSM"
+    ]
   }
 ]
