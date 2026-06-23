@@ -1,30 +1,33 @@
 {
-  "generated": "2026-06-22T19:10",
+  "generated": "2026-06-23T21:15",
   "signals": [
     {
       "ticker": "LITE",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) twardego katalizatora. Partnerstwo NVIDIA (marzec) i guidance Q4 (5 maja) sa stare; insiderzy NETTO SPRZEDAJA. Konserwatywnie: brak.",
-      "as_of": "2026-06-22",
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora. Partnerstwo/inwestycja NVIDIA i guidance Q4 (call 6 maja) sa stare; JPMorgan (12.06) wprost mowi o letnim zastoju katalizatorow w optyce i spadku ~15% od szczytu. Ruch to szum/odbicie. Konserwatywnie: brak.",
+      "as_of": "2026-06-23",
       "confidence": 0.2,
-      "source_count": 0,
-      "sources": []
+      "source_count": 2,
+      "sources": [
+        {"label": "GuruFocus (JPM Overweight, summer lull)", "url": "https://www.gurufocus.com/news/8914309/coherent-cohr-and-lumentum-lite-present-investment-opportunities-says-jpmorgan-analyst"},
+        {"label": "Lumentum Q3 FY26 transcript (6 maja)", "url": "https://www.fool.com/earnings/call-transcripts/2026/05/06/lumentum-lite-q3-2026-earnings-transcript/"}
+      ]
     },
     {
       "ticker": "MU",
       "has_catalyst": true,
       "catalyst_type": "rating",
       "direction": "bullish",
-      "headline": "Stifel i Wedbush ostro podniosly ceny docelowe Micron na popycie AI (DRAM/HBM), 17-18.06 (w oknie 7 dni). Wyniki fiskalne Q3 wypadaja 24.06 - event binarny za 2 dni.",
-      "as_of": "2026-06-22",
-      "confidence": 0.85,
+      "headline": "Popyt AI na pamiec (DRAM/HBM) napedza rekordowe prognozy; analitycy ostro podnosza ceny docelowe (17-18.06, w oknie). UWAGA: wyniki fiskalne Q3 wypadaja 24.06 - binarny event ZA 1 DZIEN, ryzyko luki w obie strony.",
+      "as_of": "2026-06-23",
+      "confidence": 0.8,
       "source_count": 3,
       "sources": [
-        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4604817-micron-jumps-as-wedbush-and-stifel-raise-price-targets-on-ai-driven-demand"},
-        {"label": "MarketScreener", "url": "https://www.marketscreener.com/news/wedbush-raises-price-target-on-micron-technology-to-1-300-from-550-keeps-outperform-rating-ce7f5cddd18bf22d"},
-        {"label": "StockTitan", "url": "https://www.stocktitan.net/news/MU/micron-technology-to-report-fiscal-third-quarter-results-on-june-24-22gcrbths4gp.html"}
+        {"label": "Seeking Alpha (Wedbush/Stifel PT raise)", "url": "https://seekingalpha.com/news/4604817-micron-jumps-as-wedbush-and-stifel-raise-price-targets-on-ai-driven-demand"},
+        {"label": "TradingKey (Q3 preview, 24.06)", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261975340-mu-q3-earnings-preview-june-2026-tradingkey"},
+        {"label": "indmoney (HBM/AI memory preview)", "url": "https://www.indmoney.com/blog/us-stocks/micron-earnings-preview-hbm-ai-memory-mu-stock"}
       ]
     },
     {
@@ -32,25 +35,27 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wyniki Q2 (04.06, +40% r/r, podniesiony guidance FY do 6.3 mld) sa juz POZA oknem 7 dni (18 dni temu). Emisja obligacji zamiennych ~2.5 mld (mid-czerwiec) rozwadniajaca; insiderzy sprzedaja (10b5-1, 15.06). Konserwatywnie: brak swiezego katalizatora.",
-      "as_of": "2026-06-22",
+      "headline": "Wyniki Q2 (04.06, +40% r/r, podniesiony guidance FY do 6.3 mld, kontrakt multi-rail z hyperscalerem) sa POZA oknem 7 dni (19 dni temu). Brak swiezego (<=7 dni) katalizatora. Konserwatywnie: brak.",
+      "as_of": "2026-06-23",
       "confidence": 0.3,
-      "source_count": 0,
-      "sources": []
+      "source_count": 1,
+      "sources": [
+        {"label": "Ciena 8-K Q2 FY26 (04.06)", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9912026q2earningspressre.htm"}
+      ]
     },
     {
       "ticker": "INTC",
       "has_catalyst": true,
       "catalyst_type": "contract",
       "direction": "bullish",
-      "headline": "Doniesienia o umowie Apple-Intel (Intel produkuje chipy dla Apple w USA) - 18.06 (w oknie), akcje +9% pre-market. Brak formalnego potwierdzenia obu spolek -> nizsza pewnosc.",
-      "as_of": "2026-06-22",
-      "confidence": 0.75,
+      "headline": "Doniesienia o umowie foundry Apple-Intel (produkcja chipow w USA) - 18.06 (w oknie), wsparcie rzadu USA (10% udzialow), kolejne ruchy sektorowe +10.6% 20.06. Brak formalnego potwierdzenia obu spolek -> umiarkowana pewnosc.",
+      "as_of": "2026-06-23",
+      "confidence": 0.65,
       "source_count": 3,
       "sources": [
-        {"label": "CNBC", "url": "https://www.cnbc.com/2026/05/08/intel-stock-apple-chip-deal.html"},
-        {"label": "Investing.com", "url": "https://www.investing.com/analysis/appleintel-chip-manufacturing-deal-reshapes-foundry-race-200682398"},
-        {"label": "EE Times", "url": "https://www.eetimes.com/apple-intel-foundry-deal-could-reshape-u-s-chip-manufacturing/"}
+        {"label": "Yahoo Finance (govt backing, foundry/Apple-Google)", "url": "https://finance.yahoo.com/markets/stocks/articles/intel-next-chapter-government-backing-152809605.html"},
+        {"label": "Yahoo Finance (Apple talks, foundry focus)", "url": "https://finance.yahoo.com/markets/stocks/articles/apple-talks-put-intel-foundry-221413260.html"},
+        {"label": "TradingKey (INTC +10.64% 20.06)", "url": "https://www.tradingkey.com/news/market-movers/261978975-market-movers-intc-20260620"}
       ]
     },
     {
@@ -58,9 +63,9 @@
       "has_catalyst": true,
       "catalyst_type": "regulator",
       "direction": "bullish",
-      "headline": "CHIPS (Dept. of Commerce/NIST) podpisal list intencyjny do 50 mln USD na rozbudowe fab InP Coherent w Sherman, TX (podwojenie powierzchni, x4 produkcja waferow, >1000 miejsc pracy) pod optyke AI - 16.06 (w oknie). Potwierdzone zrodlem rzadowym NIST.",
-      "as_of": "2026-06-22",
-      "confidence": 0.85,
+      "headline": "CHIPS (Dept. of Commerce/NIST) podpisal list intencyjny do 50 mln USD na rozbudowe fab InP Coherent (Sherman, TX) pod optyke AI - 16.06 (granica okna <=7 dni). Potwierdzone zrodlem rzadowym NIST. UWAGA: katalizator starzeje sie do krawedzi okna.",
+      "as_of": "2026-06-23",
+      "confidence": 0.75,
       "source_count": 3,
       "sources": [
         {"label": "NIST (gov)", "url": "https://www.nist.gov/news-events/news/2026/06/department-commerces-chips-program-announces-letter-intent-coherent-50"},

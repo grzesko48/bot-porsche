@@ -141,5 +141,27 @@
     "value_pln": 14719.89,
     "pnl_pln": 0.0,
     "reason": "wejście (core, score 7.4)"
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "ASML",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 2.1595,
+    "price_usd": 1778.46,
+    "value_pln": 14363.77,
+    "pnl_pln": -922.34,
+    "reason": "stop trafiony (zwrot -6.0%)"
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "ASML",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 2.1517,
+    "price_usd": 1778.46,
+    "value_pln": 14311.69,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 8.0)"
   }
 ]
