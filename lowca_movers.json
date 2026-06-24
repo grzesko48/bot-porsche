@@ -138,5 +138,26 @@
     "day": "2026-06-23",
     "presignal": "S-1 resale registration filing June 22 dla 68.1M akcji (25x current float 2.69M akcji) — EDGAR filing dostepny DZIEN przed ruchem; Flyte-Volato PIPE investment $2.2M (7.5% stake w Volato, largest shareholder) ogłoszony June 23 premarket = AI-driven private aviation pivot; PGA Tour partnership (Emiliano Grillo, US Open 2026) = branding catalyst; 8 nowych patentow heart failure platform; spółka: Catheter Precision Inc. (NYSEAM, micro-cap medical device); po godzinach June 23 +28%, premarket June 24 +65.8%; cena z ~$1.20 do $2.10",
     "lesson": "S-1 resale registration filing (megadylucja: 68M akcji na 2.69M float = 25x) + AI/aviation subsidiary pivot announcement + branding partnership = retail speculation pump; pre-sygnał byl dostepny June 22 (S-1 EDGAR); ZAWSZE PASS — dilution 25x float zabija dlugoterminowa wartosc akcji mimo krotkoterminowego +66%; wzorzec identyczny z GLXG ($200M shelf + ultra-low float); lekcja: S-1 resale mega-dilution + AI pivot tego samego dnia = pump watch ale ZAWSZE PASS; rynek June 23 byl DOWN (-3.29% Nasdaq, -1.45% SP500) wiec VTAK byl wymyslonym outlierem na pump w środowisku risk-off"
+  },
+  {
+    "ticker": "INFQ",
+    "pct": 13,
+    "day": "2026-06-23",
+    "presignal": "Trump podpisal 2 Quantum EO June 22 2026 (DZIEN PRZED): (1) DoE quantum computer do 2028, (2) post-quantum cryptography migration 2030-2031; INFQ ma $100M CHIPS LOI Department of Commerce; INFQ +13.49% June 23 na rynku DOWN (-3.29% Nasdaq) = silna wzgledna sila; cena zamkniecia $16.16",
+    "lesson": "Trump Quantum EO signing = natychmiastowy pre-sygnał dla publicznych quantum stocks (INFQ, IONQ, RGTI, QNT, QBTS); optymalne wejscie: DZIEN podpisania EO (June 22) wieczorem lub pre-market June 23, PRZED masowa reakcja rynku; wzorzec analogiczny do VOYG/Trump fixed-price EO; sledz White House quantum policy events jako pre-sygnaly dla: INFQ (CHIPS LOI $100M), IONQ (revenue lider), RGTI (CHIPS LOI $100M), QNT (Honeywell spinoff); quantum EO June 22 = multi-day wave, nie single-day event"
+  },
+  {
+    "ticker": "ORIS",
+    "pct": 22,
+    "day": "2026-06-23",
+    "presignal": "1-for-4 reverse stock split effective June 23 2026 (znany z wyprzedzeniem z SEC filing); Oriental Rise Holdings (ORIS) chiński micro-cap NASDAQ; wzorzec identyczny z AZI (+224.8% reverse split compliance) — efektywna data splitu = catalyst squeeze; brak fundamentalnego katalizatora poza mechanika splitu",
+    "lesson": "AZI-pattern potwierdzony w ORIS: reverse stock split effective date = squeeze catalyst dla chinskich micro-cap NASDAQ; pre-sygnał identyfikowalny TYGODNIE przed (SEC filing z effective date); ORIS +22% na DOWN rynku = czysto mechaniczny squeeze; sledz SEC filings z datami efektywnymi reverse splitow dla chinskich NASDAQ micro-cap jako pre-squeeze watchlist; UWAGA: ORIS bez compliance deadline i bez insider commitment = slabszy wariant AZI-patternu; PASS jesli brak dodatkowego katalizatora (w AZI byl $5 founder commitment)"
+  },
+  {
+    "ticker": "QNT",
+    "pct": 13,
+    "day": "2026-06-23",
+    "presignal": "Trump Quantum EO x2 podpisane June 22 2026 (DZIEN PRZED); QNT = Quantinuum (Honeywell spinoff, IPO June 4 2026 @ $60) — lider rynku quantum computing; QNT juz na naszym radarze (w signals); +13% June 23 na DOWN rynku (-3.29% Nasdaq) = wysoka wzgledna sila",
+    "lesson": "QNT bylo JUZ na naszym radarze w opportunity_signals.json — NIE jest to przeoczenie! Potwierdzenie: Trump Quantum EO = realny katalizator dla tez ktore mielismy; wzorzec quantum EO → immediate sector rally jest teraz potwierdzony empirycznie (QNT +13%, INFQ +13.49%, IONQ +4% WSZYSTKIE June 23); quantum EO June 22 = skuteczny pre-sygnał identyfikowany 1 dzien wczesniej"
   }
 ]
