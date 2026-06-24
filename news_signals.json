@@ -1,65 +1,44 @@
 {
-  "generated": "2026-06-22T19:10",
+  "generated": "2026-06-24T19:50",
+  "freshness_days": 7,
   "signals": [
-    {
-      "ticker": "LITE",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) twardego katalizatora. Partnerstwo NVIDIA (marzec) i guidance Q4 (5 maja) sa stare; insiderzy NETTO SPRZEDAJA. Konserwatywnie: brak.",
-      "as_of": "2026-06-22",
-      "confidence": 0.2,
-      "source_count": 0,
-      "sources": []
-    },
     {
       "ticker": "MU",
       "has_catalyst": true,
       "catalyst_type": "rating",
       "direction": "bullish",
-      "headline": "Stifel i Wedbush ostro podniosly ceny docelowe Micron na popycie AI (DRAM/HBM), 17-18.06 (w oknie 7 dni). Wyniki fiskalne Q3 wypadaja 24.06 - event binarny za 2 dni.",
-      "as_of": "2026-06-22",
-      "confidence": 0.85,
+      "headline": "Stifel i Wedbush ostro podniosly ceny docelowe Micron na popycie AI (DRAM/HBM, 17-18.06, w oknie 7 dni) + wieloletnia umowa dostaw pamieci dla Anthropic. Wyniki fiskalne Q3 wypadaja DZIS 24.06 - event binarny (konsensus oczekuje pobicia wlasnej prognozy ~33,5 mld USD).",
+      "as_of": "2026-06-24",
+      "confidence": 0.7,
       "source_count": 3,
       "sources": [
         {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4604817-micron-jumps-as-wedbush-and-stifel-raise-price-targets-on-ai-driven-demand"},
-        {"label": "MarketScreener", "url": "https://www.marketscreener.com/news/wedbush-raises-price-target-on-micron-technology-to-1-300-from-550-keeps-outperform-rating-ce7f5cddd18bf22d"},
-        {"label": "StockTitan", "url": "https://www.stocktitan.net/news/MU/micron-technology-to-report-fiscal-third-quarter-results-on-june-24-22gcrbths4gp.html"}
+        {"label": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/mu-micron-stock-q3-2026-earnings-high-bandwidth-memory"},
+        {"label": "SEC 8-K MU", "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000110465926071845/tm2617112d1_ex99-1.htm"}
       ]
-    },
-    {
-      "ticker": "CIEN",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Wyniki Q2 (04.06, +40% r/r, podniesiony guidance FY do 6.3 mld) sa juz POZA oknem 7 dni (18 dni temu). Emisja obligacji zamiennych ~2.5 mld (mid-czerwiec) rozwadniajaca; insiderzy sprzedaja (10b5-1, 15.06). Konserwatywnie: brak swiezego katalizatora.",
-      "as_of": "2026-06-22",
-      "confidence": 0.3,
-      "source_count": 0,
-      "sources": []
     },
     {
       "ticker": "INTC",
       "has_catalyst": true,
       "catalyst_type": "contract",
       "direction": "bullish",
-      "headline": "Doniesienia o umowie Apple-Intel (Intel produkuje chipy dla Apple w USA) - 18.06 (w oknie), akcje +9% pre-market. Brak formalnego potwierdzenia obu spolek -> nizsza pewnosc.",
-      "as_of": "2026-06-22",
-      "confidence": 0.75,
+      "headline": "Ogloszony deal Apple-Intel na produkcje chipow w USA (18.06, w oknie 7 dni), akcje +9% + seria umow foundry (Cadence 14A; raporty Google/Nvidia jako backup wobec ograniczen TSMC). Brak formalnego potwierdzenia stron -> nizsza pewnosc.",
+      "as_of": "2026-06-18",
+      "confidence": 0.7,
       "source_count": 3,
       "sources": [
-        {"label": "CNBC", "url": "https://www.cnbc.com/2026/05/08/intel-stock-apple-chip-deal.html"},
         {"label": "Investing.com", "url": "https://www.investing.com/analysis/appleintel-chip-manufacturing-deal-reshapes-foundry-race-200682398"},
-        {"label": "EE Times", "url": "https://www.eetimes.com/apple-intel-foundry-deal-could-reshape-u-s-chip-manufacturing/"}
+        {"label": "indmoney", "url": "https://www.indmoney.com/blog/us-stocks/intel-stock-apple-chip-deal-intc-outlook"},
+        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/intel-next-chapter-government-backing-152809605.html"}
       ]
     },
     {
       "ticker": "COHR",
       "has_catalyst": true,
-      "catalyst_type": "regulator",
+      "catalyst_type": "regulatory",
       "direction": "bullish",
-      "headline": "CHIPS (Dept. of Commerce/NIST) podpisal list intencyjny do 50 mln USD na rozbudowe fab InP Coherent w Sherman, TX (podwojenie powierzchni, x4 produkcja waferow, >1000 miejsc pracy) pod optyke AI - 16.06 (w oknie). Potwierdzone zrodlem rzadowym NIST.",
-      "as_of": "2026-06-22",
+      "headline": "CHIPS Act list intencyjny do 50 mln USD na rozbudowe fab InP w Sherman TX pod optyke AI - zdarzenie 16.06. UWAGA: dzis to 8 dni, tuz POZA oknem 7 dni -> traktowane jako nieswieze (scalar neutralny).",
+      "as_of": "2026-06-16",
       "confidence": 0.85,
       "source_count": 3,
       "sources": [
@@ -67,6 +46,28 @@
         {"label": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/06/16/3312664/11543/en/Coherent-Announces-a-CHIPS-Letter-of-Intent-for-50-Million-to-Expand-World-Leading-Manufacturing-Facility-for-AI-Infrastructure.html"},
         {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4603979-coherent-in-spotlight-as-it-signs-letter-of-intent-for-50m-in-funding-from-chips-act"}
       ]
+    },
+    {
+      "ticker": "LITE",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z 2 zrodlami. Partnerstwo NVIDIA (marzec) i guidance Q3 (call 6 maja) stare; insiderzy NETTO SPRZEDAJA (dyrektor -1416 akcji 02.06, 10b5-1). Konserwatywnie: brak.",
+      "as_of": "2026-06-24",
+      "confidence": 0.2,
+      "source_count": 0,
+      "sources": []
+    },
+    {
+      "ticker": "CIEN",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Wyniki Q2 (04.06, +40% r/r, podniesiony guidance FY do 6.3 mld) juz POZA oknem 7 dni (20 dni temu). Insiderzy mocno sprzedaja (41 transakcji, ~53 mln USD, w tym CEO). Brak swiezego katalizatora.",
+      "as_of": "2026-06-24",
+      "confidence": 0.3,
+      "source_count": 0,
+      "sources": []
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T19:10",
+  "generated": "2026-06-24T19:50",
   "insiders": {},
   "funds": {
     "CIEN": [
@@ -11,5 +11,5 @@
   },
   "politicians": {},
   "sector_exits": [],
-  "_notes": "Cykl 2026-06-22 (kandydaci: LITE, MU, CIEN, INTC, COHR). INSIDERZY (Form 4 / OpenInsider): brak SWIEZEGO (<=30 dni) KLASTRA ZAKUPOW na otwartym rynku dla zadnego z 5 -> fail-CLOSED, wszystkie NEUTRAL. MU: sprzedaze + grant, 0 open-market buy. LITE: sprzedaze, 0 kupna. CIEN: SVP Brodie i CSO Rothenstein sprzedaze 15.06 wg planu 10b5-1 - rutyna, NIE marker konwikcji. INTC: brak swiezych open-market buy. COHR: brak swiezych Form 4 buy. FUNDUSZE (13F/Dataroma Q1'26 - migawka, bez zmiany d/d): CIEN bullish (ok.20 funduszy dolozylo ~1 mln akcji); COHR bullish (WT Asset Management +443.5%, ~520 mln USD). Zalogowane jako 'add'. POLITYCY (kongres): Cisneros (LITE, 14.04) i Gottheimer (LITE+MU, 22.05) - OBA POZA oknem <=7 dni (>30 dni temu) -> pomijam (fail-CLOSED). KONKLUZJA: jedyne pozytywne sygnaly smart-money to 13F CIEN i COHR (warstwa funduszy, Q1 snapshot); insiderzy i politycy neutralni."
+  "_notes": "Cykl 2026-06-24 (kandydaci: LITE, MU, CIEN, INTC, COHR). INSIDERZY (Form 4 / OpenInsider): brak SWIEZEGO (<=30 dni) KLASTRA ZAKUPOW na otwartym rynku -> fail-CLOSED, wszystkie NEUTRAL. INTC: klaster 4 dyrektorow (Alyssa, Meurice, Novick, Goldsmith) kupil po 2782 akcje @120.29 (~335 tys. USD kazdy) ale 13.05 -> dzis 42 dni, POZA oknem 30 dni -> pomijam (sygnal konwikcji wygasl). CFO Zinsner kupil 26.01 (stare). MU/LITE/CIEN/COHR: insiderzy NETTO SPRZEDAJA (rutyna/10b5-1, w tym CEO CIEN), 0 open-market buy. COHR dodatkowo rozwodnienie +26% r/r. FUNDUSZE (13F/Dataroma Q1'26 - migawka, brak nowych filingow do ~sierpnia): CIEN bullish (ok.20 funduszy dolozylo ~1 mln akcji); COHR bullish (WT Asset Management +443.5%, ~520 mln USD). Utrzymane jako 'add'. POLITYCY (kongres): brak transakcji w oknie <=7 dni -> pomijam (fail-CLOSED). KONKLUZJA: pozytywne sygnaly smart-money tylko z 13F (CIEN, COHR); insiderzy i politycy neutralni; klaster INTC poza oknem czasowym."
 }

@@ -141,5 +141,71 @@
     "value_pln": 14719.89,
     "pnl_pln": 0.0,
     "reason": "wejście (core, score 7.4)"
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "ASML",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 2.1595,
+    "price_usd": 1749.62,
+    "value_pln": 14206.4,
+    "pnl_pln": -1161.44,
+    "reason": "stop trafiony (zwrot -7.6%)"
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "MSTR",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 36.1758,
+    "price_usd": 94.0,
+    "value_pln": 12785.96,
+    "pnl_pln": -2113.08,
+    "reason": "stop trafiony (zwrot -14.2%)"
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "RDZN",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 7.8055,
+    "price_usd": 1.43,
+    "value_pln": 42.12,
+    "pnl_pln": -6.16,
+    "reason": "stop trafiony (zwrot -12.8%)"
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "ARM",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 10.6581,
+    "price_usd": 353.39,
+    "value_pln": 14161.96,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 8.0)"
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "ASML",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 2.1527,
+    "price_usd": 1749.62,
+    "value_pln": 14161.96,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.7)"
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "MSTR",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 40.0689,
+    "price_usd": 94.0,
+    "value_pln": 14161.96,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.1)"
   }
 ]
