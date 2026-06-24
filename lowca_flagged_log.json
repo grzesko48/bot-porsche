@@ -209,5 +209,24 @@
       "SMPL",
       "TSM"
     ]
+  },
+  {
+    "date": "2026-06-24",
+    "flagged": [
+      "ASTS",
+      "GOOGL",
+      "HYPR",
+      "LITE",
+      "LUNR",
+      "MIRM",
+      "NVST",
+      "ONDS",
+      "ORMP",
+      "RDZN",
+      "SIDU",
+      "SMPL",
+      "SVC",
+      "TSM"
+    ]
   }
 ]
