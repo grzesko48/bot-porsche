@@ -228,5 +228,24 @@
       "SVC",
       "TSM"
     ]
+  },
+  {
+    "date": "2026-06-25",
+    "flagged": [
+      "ASTS",
+      "EYE",
+      "GOOGL",
+      "HYPR",
+      "LITE",
+      "LUNR",
+      "MIRM",
+      "ONDS",
+      "ORMP",
+      "RDZN",
+      "SIDU",
+      "SMPL",
+      "SVC",
+      "TSM"
+    ]
   }
 ]
