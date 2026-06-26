@@ -1,5 +1,12 @@
 [
   {
+    "ticker": "FCUV",
+    "pct": 31,
+    "day": "2026-06-25",
+    "presignal": "4-for-1 reverse split effective June 23 2026 (NASDAQ compliance maneuver — minimum bid rule) + Deterministic AI platform launch announcement June 19 2026 (rule-based enterprise AI for SEC EDGAR filings, 4 dni przed pump) + ultra-low float po reverse split; cena z ~$0.54 (pre-split) przez $2.18→$7.40 June 23 i dalej +31% June 25; wzorzec INHD (double reverse split + AI deal)",
+    "lesson": "FCUV = INHD-pattern: reverse split (compliance) + AI product launch w krotkim czasie = ultra-low-float micro-cap pump; pre-sygnaly dostepne 4-6 dni wczesniej (split June 23 + AI launch June 19); screener: reverse split w ostatnich 30 dniach + AI product/deal announcement + ultra-low float NASDAQ micro-cap = pre-pump watchlist; UWAGA: zawsze CZEKAJ na konsolidacje po pierwszym dniacm spiku, nie gonić; wzorzec potwierdzony: INHD (AI deal $3M), FCUV (AI platform launch + compliance split)"
+  },
+  {
     "ticker": "ICCM",
     "pct": 187,
     "day": "2026-06-17",
@@ -18,7 +25,7 @@
     "pct": 25,
     "day": "2026-06-11",
     "presignal": "SpaceX IPO oficjalnie zaplanowane na June 12 (T-1 day) — halo okno dla pure-play space stocks; RKLB +849% YoY revenue, backlog $2.2B, multiple DoD contracts May-June 2026; roadshow June 8 potwierdzal date; pre-sygnał widoczny 3-4 dni wczesniej (S-1 May 20 + roadshow June 8 + IPO date June 12 ujawnione ~June 9-10)",
-    "lesson": "SpaceX IPO T-1 day = peak halo window dla public space stocks; RKLB jako pure-play beneficjent; optymalny entry był T-3/T-2 (June 9-10) a nie T-0 (June 12 gdy wszystko już skacze); śledź IPO-day calendars dla mega-cap space companies i kupuj beneficjentów 3-4 dni PRZED debiutem, nie w dniu debiutu"
+    "lesson": "SpaceX IPO T-1 day = peak halo window dla public space stocks; RKLB jako pure-play beneficjent; optymalny entry byl T-3/T-2 (June 9-10) a nie T-0 (June 12 gdy wszystko już skacze); śledź IPO-day calendars dla mega-cap space companies i kupuj beneficjentów 3-4 dni PRZED debiutem, nie w dniu debiutu"
   },
   {
     "ticker": "VOYG",
