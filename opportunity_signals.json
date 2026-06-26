@@ -1,7 +1,7 @@
 {
   "_date": "2026-06-26",
-  "_run": "14:30 CEST (przed otwarciem)",
-  "_note": "June 26 piatek — RUSSELL REBALANCING EFEKTYWNA DZIŚ PO ZAMKNIECIU (closing auction = szczyt forced buying $12.2T); SpaceX SPCX dolacza do Russell 1000 DZIŠ — mechaniczny popyt ale bond $25B presja; CRWD split 4-for-1 za 6 DNI (July 2, record date bylo June 25); IONQ -7.35% pullback June 25 = lepszy entry (~$49.60); GIW NOWE: GigCapital8 SPAC LOI Quantisimo $575M quantum BGMS-VACH-pattern (ogloszone June 25); Trump presidential actions June 25 (szczegoly nieznane). MICRON Q3 mega-beat utrzymuje AI sentyment pozytywny.",
+  "_run": "18:30 CEST (srodek sesji US)",
+  "_note": "June 26 piatek — RUSSELL REBALANCING EFEKTYWNA DZIŠ PO ZAMKNIECIU (closing auction = szczyt forced buying $12.2T); SpaceX SPCX dolacza do Russell 1000 DZIŠ — mechaniczny popyt ale bond $25B presja; CRWD split 4-for-1 za 6 DNI (July 2, record date bylo June 25); IONQ -7.35% pullback June 25 = lepszy entry (~$49.60); GIW NOWE: GigCapital8 SPAC LOI Quantisimo $575M quantum BGMS-VACH-pattern (ogloszone June 25); Trump presidential actions June 25 (szczegoly nieznane). MICRON Q3 mega-beat utrzymuje AI sentyment pozytywny. RKLB NOWE: NASA 3 Electron launches selected June 25 AH (PolSIR+TSIS-2, max $300M), gap up June 26. OpenAI IPO delay do 2027 (NYT report June 25) — negatywny dla AI IPO sentymentu, SpaceX $152. Nasdaq odrabia po sell-off June 25.",
   "ipo": [
     {
       "ticker": "AVEX",
@@ -117,6 +117,15 @@
     }
   ],
   "contract": [
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab USA",
+      "price_usd": 109.31,
+      "pct_1m": 28,
+      "catalyst": "NASA selected RKLB for 3 Electron launches (PolSIR + TSIS-2) ogloszone June 25 2026 po godzinach — SWIEZY <48h; max $300M contract value over 10 years; 90+ launches flight heritage; +3-5% after hours + gap up June 26; 15/19 analitykow Buy avg target $106.92; SpaceX IPO halo sektor aktywny",
+      "still_upside": false,
+      "upside_reason": "pct_1m +28% > 25% + stock powyzej analyst avg $106.92 = anti-chase blokuje; CZEKAJ na cofniecie do $95-100; NASA contract realny ale juz w cenie; obserwuj target upgrades od analitykow"
+    },
     {
       "ticker": "GIW",
       "name": "GigCapital8 Corp (SPAC → Quantisimo quantum)",

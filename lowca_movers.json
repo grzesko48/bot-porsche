@@ -1,5 +1,12 @@
 [
   {
+    "ticker": "RKLB",
+    "pct": 5,
+    "day": "2026-06-25",
+    "presignal": "NASA selected Rocket Lab dla 3 launches Electron (PolSIR + TSIS-2) ogloszone June 25 po godzinach (after-market). Max $300M value over 10 years. +3-5% after hours -> gap up June 26. Pre-sygnaly dostepne: NASA mission calendar pokazywal PolSIR/TSIS-2 szukajace launch vehicle od miesiecy; SpaceX IPO halo podgrzewal sektor space; RKLB 90+ launches = pre-qualified NASA vendor; 15/19 analitykow Buy",
+    "lesson": "NASA launch contract po godzinach = after-hours catalyst i gap-up nastepnego dnia; NASA science mission calendars (PolSIR, TSIS-2) maja dlugi lead time zanim wybieraja launch provider — mozna sledzic misje 'szukajace launch vehicle'; wzorzec: SpaceX IPO halo + NASA contract = dual catalyst dla pure-play launch provider; sledz NASA mission task orders jako pre-sygnaly dla RKLB/LUNR"
+  },
+  {
     "ticker": "FCUV",
     "pct": 31,
     "day": "2026-06-25",
