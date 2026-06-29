@@ -266,5 +266,20 @@
       "SVC",
       "TSM"
     ]
+  },
+  {
+    "date": "2026-06-29",
+    "flagged": [
+      "ASTS",
+      "EYE",
+      "GOOGL",
+      "LITE",
+      "LUNR",
+      "META",
+      "MIRM",
+      "MTEK",
+      "ONDS",
+      "TSM"
+    ]
   }
 ]

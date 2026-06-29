@@ -1,5 +1,33 @@
 [
   {
+    "ticker": "AVEX",
+    "pct": 12,
+    "day": "2026-06-26",
+    "presignal": "Russell 2000 inclusion ogloszone kilka dni przed effective June 29 (widoczne publicznie z wyprzedzeniem) + USAF $34.1M kontrakty (znane od IPO) + -35% od IPO $27 = deep discount vs analyst avg $35.75 (8/8 Strong Buy); forced buying w closing auction June 26; McapDiscount + Russell inclusion + 8/8 Strong Buy = triple pre-sygnał dostepny tygodnie wczesniej",
+    "lesson": "IPO deep-discount (-35%+ od ceny IPO) + Russell 2000 inclusion announcement + silny analyst consensus (8/8 Strong Buy) = identyfikowalny entry przed closing auction; Russell inclusion ogłaszany z wyprzedzeniem ~2 tygodnie = przewidywalny mechaniczny catalyst; wzorzec: IPO z silnymi kontraktami ale wyprzedane przez secondary offering = forced discount okazja"
+  },
+  {
+    "ticker": "MTEK",
+    "pct": 22,
+    "day": "2026-06-26",
+    "presignal": "Seria kontraktow eskalujacych przez czerwiec 2026: Pilot Contract IFV Modernization Program USA (wczesniej) → follow-on orders dla intelligence gathering systems (June 23) → PIERWSZY prime contractor contract $350K MIL-STD armored vehicle audio June 26; MCap ~$12M = asymetria; seria 3 kontraktow w jednym miesiacu budowala momentum",
+    "lesson": "Israeli AI-defense micro-cap NASDAQ z eskalujaca seria kontraktow (sub → follow-on → PRIME) = milestone rerating dla MCap <$15M; sledz serie kontraktow eskalujacych od sub/follow-on do prime dla MCap <$20M defense tech NASDAQ; wzorzec: 3 kontrakty w jednym miesiacu (June 23 + June 26) = catalyst stacking signal; $350K vs $12M MCap = pozorne malzenstwo ale first prime = strategic breakthrough"
+  },
+  {
+    "ticker": "NVCT",
+    "pct": 125,
+    "day": "2026-06-22",
+    "presignal": "HC Wainwright podnisl target do $13 (od $10) PRZED ogłoszeniem in-licensingu — agresywny raise = pierwsza wskazowka; nastepnie in-licensing 2 compounds od Haisco Pharmaceutical June 22: NXP100 (complement-mediated diseases, once-daily oral) + NXP200 (next-gen BRAF inhibitor Phase 1b); HC Wainwright natychmiast podnisl do $39 (od $13 = 3x raise); Lucid Capital $22 tego samego dnia; spółka NASDAQ clinical-stage oncology",
+    "lesson": "Clinical-stage oncology + AGRESYWNY analyst target raise >50% PRZED głównym catalyst = pre-signal in-licensing/M&A; HC Wainwright pattern: gdy target raise pre-catalyst jest tak agresywny (np. $10→$13 zanim informacja jest publiczna) = insider-aware positioning; sledz HC Wainwright + Lucid Capital raises w clinical oncology small-cap = pre-licensing watch; pct_1m +186% po June 22 = PARABOLA absolutna; nigdy nie gonić po +125% jednego dnia; wzorzec analogiczny do NUVL-GSK: analyst aggresive raise = M&A/deal precursor"
+  },
+  {
+    "ticker": "RTB",
+    "pct": 75,
+    "day": "2026-06-22",
+    "presignal": "Merger re-listing NASDAQ May 13 2026 (RYVYL Inc → RTB Digital) = fresh listing z pivoted identity; investor webinar May 28 = management roadshow; technical crossover: 10-day MA crosses 50-day MA June 18 = sygnal techniczny przed katalyzatorem; AI/DeFi/Web3 enterprise media platform launch June 22 = commercial catalyst; Coinbase USDC real-time payment rails = marquee partner",
+    "lesson": "Merger re-listing (rename/rebrand z nowym tickerem) + investor webinar (management roadshow) + MA crossover techniczny + AI/DeFi platform commercial launch = 4-stepowy pre-sygnał na ruch; sledz re-listingi (merge-renamed tickers) na NASDAQ z investor webinar w ciagu 2 tygodni od commercial platform launch; MA 10/50 crossover = techniczny sygnał potwierdzajacy wejscie; wzorzec: fresh identity + tech signal + platform launch = identyfikowalny 15-18 dni przed +75% spike"
+  },
+  {
     "ticker": "RKLB",
     "pct": 5,
     "day": "2026-06-25",
