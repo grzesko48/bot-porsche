@@ -266,5 +266,16 @@
       "SVC",
       "TSM"
     ]
+  },
+  {
+    "date": "2026-06-29",
+    "flagged": [
+      "ASTS",
+      "CRWV",
+      "EYE",
+      "LUNR",
+      "ONDS",
+      "UMAC"
+    ]
   }
 ]

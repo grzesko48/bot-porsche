@@ -166,5 +166,19 @@
     "day": "2026-06-24",
     "presignal": "Q1 2026 revenue +43% YoY (dostepny kilka tygodni przed ruchem) + AI datacenter power demand narrative budowana od miesiecy (clean energy jako zasilanie AI farm) = stock pozycjonowany jako partner strategiczny; Tesla/Renew Home 16GW VPP framework deal ogłoszony June 24 rano (same-day 8-K = catalyst trudny do przewidzenia dokladnie); volume 5x normy w premarket June 24 = pierwszy czytelny sygnal na rynku; cena z ~$13.15 do $15.97",
     "lesson": "Clean energy + AI datacenter power = M&A/partnership target narrative (wzorzec pre-buyout: silne fundamenty + sector tailwind = atrakcyjny cel dla duzych graczy); kiedy 8-K partnership z marquee acquirer (Tesla) sie pojawia = premarket volume 5x normy jest pierwszym sygnałem; lekcja: monitoruj clean energy small/mid-cap z silnymi Q1 results + rosnacym AI datacenter power narrative jako watchlist dla partnerships; volume 5x w premarket = sygnał do decheckowania 8-K filing na SEC EDGAR (pierwsze 30 minut premarket)"
+  },
+  {
+    "ticker": "ONDS",
+    "pct": 20,
+    "day": "2026-06-26",
+    "presignal": "Russell 2000 reconstitution closing auction June 26 (efektywna data June 29) — ONDS Ondas Holdings wchodzi do Russell 2000 od 2026-06-29; pre-sygnał dostępny od dnia ogłoszenia reconstitution list (May 22 2026, ~35 dni wczesniej); BYĆ MOŻE WYŁAPANY: ONDS był w sygnałach June 26 z notatką 'Russell 2000 addition efektywna June 29 + FIFA perimeter drone + Army/Navy 2026 contracts'; closing auction June 26 — $334B Nasdaq Closing Cross (rekord) = mechaniczne kupno przez ETF trackers; cena ~$9.35 → ~$11.20 (+20%) w closing auction i po godzinach",
+    "lesson": "POTWIERDZONY WZORZEC: Russell rebalancing closing auction (last trading day before effective date) = mechaniczny spike dla nowych wejść do Russell 2000/3000; mieliśmy ONDS w sygnałach z Russell addition + fundamentalne katalizatory (FIFA, Army/Navy contracts); wzorzec SIDU (June 11 +22%) powtórzony dla ONDS June 26; REGUŁA: każdy ticker z Russell 2000 addition w preliminary list (ogłaszana ~May 22) powinien trafić na watchlist z datą closing auction jako docelowym entry/exit; wolumen 10-15x normy w ostatniej godzinie sesji = sygnał mechanical buying aktywny"
+  },
+  {
+    "ticker": "UMAC",
+    "pct": 25,
+    "day": "2026-06-26",
+    "presignal": "Russell 3000 addition efektywna June 29 — Unusual Machines (UMAC, drone FPV components) na preliminary Russell 3000 list od May 22 2026 (~35 dni wczesniej); NIEWYŁAPANY: UMAC nie był w sygnałach June 26 mimo obecności na Russell preliminary list; premarket June 26 +15%, closing auction +25% od otwarcia (mechanical ETF buying); UMAC: FPV drone komponenty, Made-in-USA narrative, DoD NDA/vendor relationship; $3.80 → $4.75 June 26",
+    "lesson": "PRZEOCZENIE: Russell 3000 preliminary list (May 22) zawierała UMAC drone — nie trafił do sygnałów mimo jasnego pre-sygnału (35 dni lead time); KOREKTA SCREENERA: Russell preliminary list dodawana na watchlist AUTOMATYCZNIE po ogłoszeniu ~May 22, sprawdzana pod kątem: (1) sektor defense/drone/AI (synergia z portfolio tematycznym), (2) float <50M akcji (mechaniczne kupno ma większy efekt), (3) present watchlist KROK B następnego runa; koszt: UMAC +25% nie wyłapany mimo dostępności danych; nowa REGUŁA: screener Russell preliminary (maj/listopad każdego roku) pod drone/defense/space tickers z small float = priorytet VOLUME group"
   }
 ]

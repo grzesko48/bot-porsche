@@ -1434,5 +1434,28 @@
     "ret_pct": -19.6,
     "peak_ret_pct": -19.6,
     "alpha_pct": -19.6
+  },
+  {
+    "id": "2026-06-29-UMAC",
+    "date": "2026-06-29",
+    "ticker": "UMAC",
+    "kind": "WOLUMEN",
+    "kinds": [
+      "WOLUMEN"
+    ],
+    "confluence": 1,
+    "score": 6.5,
+    "verdict": "CZEKAJ",
+    "bought": false,
+    "entry_usd": 3.8,
+    "stop_usd": 3.23,
+    "target_usd": 4.94,
+    "shares": null,
+    "size_pln": 0.0,
+    "risk_pln": 0.0,
+    "rr": 0.0,
+    "ev_pct": null,
+    "spy_at_entry": null,
+    "status": "OPEN"
   }
 ]
