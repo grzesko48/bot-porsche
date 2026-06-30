@@ -281,5 +281,20 @@
       "ONDS",
       "TSM"
     ]
+  },
+  {
+    "date": "2026-06-30",
+    "flagged": [
+      "ASTS",
+      "EYE",
+      "GOOGL",
+      "LITE",
+      "LUNR",
+      "META",
+      "MIRM",
+      "MTEK",
+      "ONDS",
+      "TSM"
+    ]
   }
 ]
