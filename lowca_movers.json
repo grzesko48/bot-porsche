@@ -1,5 +1,19 @@
 [
   {
+    "ticker": "IRDM",
+    "pct": 21,
+    "day": "2026-06-29",
+    "presignal": "Brak retail-widocznego pre-sygnalu — zaskakujace ogloszenie $8B akwizycji Iridium przez Rocket Lab (RKLB) 29 czerwca przed otwarciem (RKLB zaplacil $54/akcje, premia 24.1% do ostatniego zamkniecia). Konsolidacja rynku satelitarnego byla tematem sektorowym (RKLB budowal narracje 'wyzwanie dla Starlink'), ale konkretny target (IRDM) nie byl typowany.",
+    "lesson": "Czyste M&A-surprise sa trudne do zlapania bez dostepu do przedwczesnego wolumenu opcji; ale gdy jeden gracz sektora (np. RKLB) buduje narracje konsolidacji/'vertical integration', warto skanowac mniejsze/starsze spolki w tym samym lancuchu wartosci (satelity, ground stations) jako potencjalne cele przejecia — nie tylko akcje kupujacego."
+  },
+  {
+    "ticker": "AVAV",
+    "pct": 34,
+    "day": "2026-06-29",
+    "presignal": "Kwartalne wyniki Q4 (AeroVironment) pokazaly mocny beat + podniesione guidance napedzane popytem na drony (Pentagon Drone Dominance Program, $117M kontrakt US Army na 82 systemy P550 ogloszony wczesniej w czerwcu). Data raportu byla znana z gory (kalendarz earnings).",
+    "lesson": "Sledz kalendarz earnings dla primow dronowych/obronnych (AVAV, KTOS, ONDS, BBAI) w okresach gdy sektor ma silny tailwind polityczny (Drone Dominance, DoD budget) — rosnace zamowienia w poprzednich miesiacach (jak $117M kontrakt AVAV) sa pre-sygnalem mocnego kwartalu przed oficjalnym raportem."
+  },
+  {
     "ticker": "AVEX",
     "pct": 12,
     "day": "2026-06-26",
