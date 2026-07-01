@@ -215,5 +215,19 @@
     "day": "2026-06-29",
     "presignal": "Astera Labs (ALAB) — lider optical interconnects dla AI datacenter hyperscalers (AWS, Meta, Google, Microsoft); Q1 2026 przychody +70%+ YoY; PCIe/CXL connectivity dla AI inference clusters = strukturalny popyt; S&P 500 inclusion spodziewana po rosnącym MCap; sektor semiconductor surge June 29 (ALAB+16%, KLA+12%, AMAT+11%); Nasdaq +2.07% broad risk-on day",
     "lesson": "Astera Labs (ALAB) = AI inference interconnect plays surge na szerokim risk-on dniu semiconductor; pre-sygnał: spółki z 70%+ YoY revenue growth w AI infrastructure + nie-przesadzone wyceny mogą surgebować na broad sector risk-on; śledź AI datacenter optical/electrical interconnect specialists (ALAB, MRVL, SMCI) jako trailing AI infrastructure bet: nie tak medialne jak Nvidia ale fundamenty silne; wzorzec: AI infra semiconductor + broad risk-on NASDAQ = +15-20% outperformer"
+  },
+  {
+    "ticker": "AVAV",
+    "pct": 34,
+    "day": "2026-06-30",
+    "presignal": "Q4 FY2026 earnings (fiscal rok kończący się April 30) ogłoszone June 29 po zamknięciu — EPS $1.84 vs est. $1.49 (+23% beat) + revenue $641.6M vs est. $570M (+133% YoY); znana data earnings z wyprzedzeniem (kalendarz kwartalny) + poprzednie kwartały pokazywały przyspieszające tempo wzrostu drone/defense; reakcja +20% premarket June 30, do +34% w ciągu dnia mimo że część analityków obniżyła niektóre targety (mixed guidance)",
+    "lesson": "Drone/defense-tech (AVAV) earnings date był znany z wyprzedzeniem (kalendarz kwartalny) — pre-sygnał to nie sam beat, tylko: (1) przyspieszające tempo revenue w poprzednich kwartałach, (2) sektor drone/precision-strike już rozgrzany newsami (AVEX kontrakty USAF w tym samym tygodniu) = sector tailwind przed earnings; śledź kalendarz earnings dla defense/drone small-mid-cap z przyspieszającym trendem revenue jako 'earnings play' watchlist, szczególnie gdy peer (AVEX) ma świeże kontrakty w tym samym tygodniu"
+  },
+  {
+    "ticker": "ENPH",
+    "pct": 18,
+    "day": "2026-06-30",
+    "presignal": "Narrację 'AI datacenter power' budowano od kilku dni wcześniej (Trefis artykuł June 26: 'Enphase Just Found A New Story To Tell' o $2B solid-state transformer datacenter opportunity) + Barclays upgrade Underweight→Equal Weight PT $30→$51 tuż przed spikiem; June 30 rano: dołączenie do Open Compute Project jako Platinum member (AI datacenter power conversion) + speculacja o zakazie importu zagranicznych inverterów (national security) = potrójny katalizator w jednym dniu",
+    "lesson": "Analyst narrative-building (Trefis 4 dni wcześniej o nowej thesis 'AI datacenter power') + agresywny analyst upgrade tuż przed eventem (Barclays $30→$51) = pre-sygnał zmiany narracji dla dotychczas rozczarowującej spółki (solar/clean energy); śledź clean-energy/solar mid-cap gdzie pojawia się NOWA teza inwestycyjna (AI datacenter, importowe restrykcje) w publikacjach analitycznych 3-5 dni przed potencjalnym re-rating; kombinacja: nowa narracja + agresywny upgrade + polityczny katalizator (import ban) = multi-catalyst stack"
   }
 ]
