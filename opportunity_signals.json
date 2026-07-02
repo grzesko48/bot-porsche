@@ -1,105 +1,95 @@
 {
-  "_date": "2026-07-01",
+  "_date": "2026-07-02",
   "_run": "14:30 CEST (przed otwarciem USA)",
-  "_note": "Środa July 1 — LIME (Neutron Holdings) zadebiutowało na NASDAQ dziś po cenowaniu $25 (6x oversubscribed), handluje $28.01; NASA CLPS mega-day June 30: LUNR dostało $148.3M kontrakt (6. CLPS award, najwięcej z całej branży) ALE akcja spadła ~52% w miesiąc (Russell index removal + equity raise + rover setback z NASA dla rywali) = tani entry na fresh catalyst; FLY dostało $144M kontrakt na Blue Ghost (6. misja księżycowa) +13.7% reakcja; AVEX (AEVEX) dostało DRUGI kontrakt USAF w tym tygodniu — $50M long-range precision strike (po $33.7M z 2 dni wcześniej) = $83.7M kontraktów w <1 tydzień, cena wciąż -26% od IPO; Trump quantum EO (June 22, dwa executive orders: akceleracja quantum computing + post-quantum cryptography) dalej napędza sektor — INFQ/RGTI/QBTS odbijają dziś mimo że cały miesiąc były na minusie (IONQ -28.8%/mc, RGTI -24.2%/mc) = odbicie z dołka, nie pogoń za górką. Kongresmeni USA kupowali WFC/GOOGL/MSFT w ostatnich dniach (megacapy, niska waga spekulacyjna). Nasdaq premarket lekko czerwony (-0.94%), semiconductory brały zyski po +80% w H1 2026.",
+  "_note": "Czwartek July 2 — GH (Guardant Health) +13.8% June 30/July1 na FDA approval Guardant360 CDx (27. wskazanie, HER2-mutant NSCLC) + fala podwyżek celów (RBC $185, Mizuho $175, Evercore $160, Barclays $150), cena $169.61 wciąż poniżej większości nowych celów mimo pct_1m +36%; AMTM (Amentum) skumulował dwa kontrakty w <2 tyg: NASA COSMOS (30.06) + $77M Pentagon Indo-Pacific AI logistics (17.06); PLTR dostał Army NGC2 (Foundry jako cloud data layer) + Nvidia sovereign-AI deal, ale akcja wciąż -21% w miesiąc (najgorszy miesiąc od 5 lat) = brak pogoni za górką; ELAB (PMGC Holdings) ultra-micro-cap z LOI na 76% przejęcie aerospace/defense machining shop — wzorzec zbliżony do wcześniej unikanych pump-ów, mała pozycja jeśli w ogóle; Pelosi (poprzez Paul Pelosi) ujawniła do $6M w call options na INTC i UBER (strike $50, exp 03/2027, transakcja z 29 maja, filing podpisany 23 czerwca) — INTC już +16%/mc po tegorocznym ~500% rajdzie; 51Talk (COE) CEO kupuje nieprzerwanie od pół roku (55 transakcji, $75.9M) mimo że akcja -34% w 90 dni = insider-conviction w słabości; Bending Spoons (BSP) zadebiutowało na NASDAQ 1 lipca (+39.7% dnia 1, wycena $18.4B, realne przychodowe marki: AOL/Vimeo/Evernote/Eventbrite) — jakościowy IPO ale już rozgrzany dzień 0, czekać na cofnięcie. Brak świeżych 13F (termin dopiero ~14.08) i brak świeżego (<48h) katalizatora czysto politycznego mapowalnego na tykier poza kontraktami ujętymi wyżej.",
   "ipo": [
     {
-      "ticker": "LIME",
-      "name": "Neutron Holdings (Lime)",
+      "ticker": "BSP",
+      "name": "Bending Spoons",
       "age_months": 0,
-      "price_usd": 28.01,
-      "pct_1m": 0,
-      "catalyst": "Debiut NASDAQ dziś (July 1); cenowanie June 30 wieczorem @ $25 (środek widełek $24-26); popyt 6x oferowanych akcji; dzień 1 range $26.50-$28.95, obecnie $28.01 (+12% od ceny IPO); $174M raised; $886.7M przychody 2025 (+29% YoY), FCF+ $100M; Uber-backed; globalny lider mikromobilności (230 miast, 29 krajów)",
-      "still_upside": true,
-      "upside_reason": "6x oversubscribed = silny popyt instytucjonalny (wzorzec KARD upsize); FCF+ i realne przychody +29% YoY odróżniają od czystego hype'u; dzień 1 dopiero się kończy, pct_1m=0 (za wcześnie na miesięczny ruch) — mała pozycja na debiut, obserwować zamknięcie dnia 1-2"
-    }
-  ],
-  "volume": [],
-  "contract": [
-    {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "price_usd": 21.29,
-      "pct_1m": -52,
-      "catalyst": "NASA CLPS kontrakt do $148.3M (June 30) na dostawę production-line Nova-C lądownika na Księżyc do 2028 — 6. task order, najwięcej ze wszystkich vendorów CLPS; Cantor Fitzgerald reiterates Overweight, PT $43 (+100% od ceny); reafirmowany guidance FY2026 $900M-$1B",
-      "still_upside": true,
-      "upside_reason": "pct_1m -52% = akcja mocno wychłodzona (Russell index removal + equity raise + rover setback z rywalami — te newsy NIE dotyczą tego kontraktu); PT $43 vs $21.29 = +100% upside; świeży $148.3M kontrakt (<48h) na tanim entry to rzadka konfiguracja — furtka nie potrzebna, bo cena już nisko, nie wysoko"
-    },
-    {
-      "ticker": "FLY",
-      "name": "Firefly Aerospace",
-      "price_usd": 27.96,
-      "pct_1m": 10,
-      "catalyst": "NASA CLPS kontrakt $144M (June 30) na misję Blue Ghost — 6. kontraktowana misja księżycowa, cel: połowa czasu dewelopmentu vs pierwsza misja; reakcja +13.7% dnia ogłoszenia, silniejsza niż peer grupa",
-      "still_upside": true,
-      "upside_reason": "MCap $4.65B mimo -52% w ostatnim roku = spory dyskont; kontrakt $144M reprezentuje potwierdzenie powtarzalności modelu biznesowego (6. misja = nie jednorazowy fluke); pct_1m +10% wciąż poniżej progu +25%"
-    },
-    {
-      "ticker": "AVEX",
-      "name": "AEVEX Corp",
-      "price_usd": 20.03,
-      "pct_1m": -26,
-      "catalyst": "DRUGI kontrakt USAF w tym samym tygodniu: $50M long-range precision strike (unmanned systems, $27M initial funding) ogłoszony ~June 30, tuż po $18.5M OWA drone + $15.2M FIRIS option ($33.7M) z 2 dni wcześniej = $83.7M nowych kontraktów USAF w <7 dni; Russell 2000 inclusion June 29; analyst avg PT $36.14 (Strong Buy)",
-      "still_upside": true,
-      "upside_reason": "Eskalujący klaster kontraktów DoD ($33.7M → +$50M w tym samym tygodniu) = przyspieszający, nie jednorazowy katalizator; PT $36.14 vs $20.03 = +80% upside; pct_1m -26% (dyskont od IPO @$27) = spółka NIE rozgrzana mimo serii dobrych newsów"
-    }
-  ],
-  "insider": [],
-  "fund13f": [],
-  "congress": [
-    {
-      "ticker": "TSM",
-      "member": "kontynuacja klastra kongresmenów (39+ zakupów, poprzedni tydzień) — #1 most purchased",
-      "amount_usd": 1297000,
-      "days_ago": 41,
-      "committee_relevant": true,
-      "price_usd": 425.0,
-      "pct_1m": 11,
-      "catalyst": "TSMC = monopol AI-chip supply; semiconductor sektor bierze zyski dziś po +80% w H1 2026, ale fundamenty (Micron mega-beat) pozostają pozytywne; Trump chipset policy tailwind"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet Inc",
-      "member": "Wielu kongresmenów (klaster, maj-czerwiec 2026)",
-      "price_usd": 357.18,
-      "pct_1m": 12,
-      "catalyst": "Dow Jones inclusion June 29 (+5% dnia włączenia); Berkshire Hathaway potroił stake Q1 2026; Third Point nowa pozycja; AI incumbent z realną monetyzacją"
-    },
-    {
-      "ticker": "WFC",
-      "name": "Wells Fargo & Co",
-      "member": "Senator Republikanin (Kentucky), zakup ~1 dzień temu",
-      "price_usd": 82.62,
-      "pct_1m": 3,
-      "catalyst": "brak specyficznego kontraktu/katalizatora — czysty sygnał smart-money bankowy"
-    }
-  ],
-  "policy": [
-    {
-      "ticker": "QBTS",
-      "name": "D-Wave Quantum Inc.",
-      "price_usd": 26.3,
-      "pct_1m": -5,
-      "catalyst": "Trump quantum EO (June 22: akceleracja quantum computing R&D + post-quantum cryptography) — D-Wave (annealing quantum) bezpośredni beneficjent; dziś +7.5-7.8% na nowej fali sektorowej (DOE/Commerce/War collaboration na budowę quantum computer do 2028)",
-      "still_upside": true,
-      "upside_reason": "Cały sektor quantum był na minusie w ostatnim miesiącu (IONQ -28.8%, RGTI -24.2%) mimo EO z 22 czerwca — dzisiejszy pop to odbicie z dołka, nie pogoń za szczytem; Trump EO to strukturalny multi-year tailwind (rządowe finansowanie + equity stakes), nie jednorazowy news"
-    },
-    {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
-      "price_usd": 22.65,
-      "pct_1m": -24,
-      "catalyst": "Trump quantum EO June 22 — ten sam sektorowy tailwind co QBTS/INFQ; dziś +5.9% na nowej rundzie DOE/Commerce/War kolaboracji",
-      "still_upside": true,
-      "upside_reason": "pct_1m -24% = spółka wychłodzona po korekcie z połowy czerwca (-5-7% dni w tygodniu June 16); EO tworzy wieloletni popyt rządowy dla quantum, sektor dopiero na początku fazy komercjalizacji"
-    },
-    {
-      "ticker": "INFQ",
-      "name": "Infleqtion",
-      "price_usd": 16.08,
-      "pct_1m": -8,
-      "catalyst": "Największy beneficjent dzisiejszego newsa — Trump EO June 22 wywołał +12% pop June 23, dziś dalsze +13.2% na kontynuacji sektorowego newsflow (DOE/Commerce/War quantum computer 2028)",
+      "price_usd": 40.50,
+      "pct_1m": 40,
+      "catalyst": "Debiut NASDAQ 1 lipca 2026, cena IPO $29 (powyżej widełek $26-28), zamknięcie dnia 1 +39.7% na $40.50, wycena $18.4B, $1.68B raised; realny biznes (AOL, Vimeo, Evernote, Eventbrite, WeTransfer, Komoot, Brightcove) — nie czysty hype",
       "still_upside": false
     }
-  ]
+  ],
+  "volume": [
+    {
+      "ticker": "GH",
+      "name": "Guardant Health",
+      "price_usd": 169.61,
+      "pct_1m": 36,
+      "catalyst": "FDA approved Guardant360 CDx jako companion diagnostic dla HER2-mutant NSCLC (27. wskazanie na platformie); seria podwyżek celów analityków w czerwcu: RBC $185 (nowe pokrycie), Mizuho $175, Evercore ISI $160 (z $95), Barclays $150 — wszystkie POWYŻEJ obecnej ceny",
+      "still_upside": true,
+      "upside_reason": "cena wciąż poniżej większości nowych celów analityków (RBC $185, Mizuho $175) wydanych PO ostatniej fali wzrostu, plus świeże rozszerzenie wskazań FDA — katalizator regulacyjny dopiero się materializuje w pipeline"
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit",
+      "price_usd": 192.78,
+      "pct_1m": 13
+    },
+    {
+      "ticker": "IBKR",
+      "name": "Interactive Brokers",
+      "price_usd": 93.39,
+      "pct_1m": 9,
+      "catalyst": "DART (avg revenue trades) +47% r/r, client equity +49% r/r; przebicie oporu na silnym wolumenie"
+    }
+  ],
+  "contract": [
+    {
+      "ticker": "AMTM",
+      "name": "Amentum Holdings",
+      "price_usd": 25.75,
+      "pct_1m": 13,
+      "catalyst": "NASA COSMOS (Johnson Space Center mission ops) + $77M GSA/Pentagon Indo-Pacific AI logistics kontrakt (17-30 czerwca, stacking w <2 tyg)"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies",
+      "price_usd": 125.49,
+      "pct_1m": -21,
+      "catalyst": "Trump/DoD: US Army wybrał Palantir Foundry jako cloud data layer dla NGC2 modernization (top-priority program) + wspólny 'intelligent engine' z Nvidia dla suwerennych rządowych środowisk AI",
+      "still_upside": true,
+      "upside_reason": "pct_1m -21% (najgorszy miesiąc od 5 lat) mimo świeżego, poważnego kontraktu DoD — brak pogoni za górką, cena wychłodzona"
+    },
+    {
+      "ticker": "ELAB",
+      "name": "PMGC Holdings",
+      "price_usd": 1.72,
+      "pct_1m": 20,
+      "catalyst": "Non-binding LOI na przejęcie 76% udziałów w arizońskiej precyzyjnej firmie machining (aerospace/defense/semiconductor, ITAR, AS9100, >30% przychodów defense)",
+      "note": "UWAGA: ultra-micro-cap (dzienny zakres ~$1.1-1.9, skrajna zmienność), non-binding LOI (target close Q4 2026, brak pewności domknięcia) — wzorzec zbliżony do wcześniej unikanych pump-ów (VSME/VTAK z dziennika lekcji); mała pozycja jeśli w ogóle"
+    }
+  ],
+  "insider": [
+    {
+      "ticker": "COE",
+      "name": "51Talk Online Education Group",
+      "price_usd": 24.08,
+      "pct_1m": -15,
+      "catalyst": "CEO Jack Jiajia Huang: nieprzerwany klaster zakupów — 55 transakcji w 6 miesięcy, ~3.46M akcji za ~$75.9M; kupuje mimo że akcja spadła ~34% w 90 dni — insider-conviction w słabości, nie pogoń za górką"
+    }
+  ],
+  "fund13f": {"_empty": true, "reason": "13F za Q2 2026 nie są jeszcze wymagane (termin ~14 sierpnia 2026) — brak świeżych danych"},
+  "congress": [
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "member": "Nancy/Paul Pelosi",
+      "price_usd": 127.02,
+      "pct_1m": 16,
+      "catalyst": "do $3M w call options (200 kontraktów, strike $50, exp. 03/2027) — trade z 29 maja, filing podpisany 23 czerwca; opcje głęboko in-the-money"
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber Technologies",
+      "member": "Nancy/Paul Pelosi",
+      "price_usd": 72.73,
+      "pct_1m": 7,
+      "catalyst": "drugi leg tej samej transakcji — 200 call options, strike $50, exp. 03/2027, identyczna struktura i timing co INTC"
+    }
+  ],
+  "policy": {"_empty": true, "reason": "brak świeżego (<48h) katalizatora czysto politycznego mapowalnego na konkretny tykier poza kontraktami DoD/NASA już ujętymi w grupie 'contract' (AMTM, PLTR); USMCA non-renewal (1 lipca) zbyt ogólne bez jasnego beneficjenta"}
 }

@@ -1,5 +1,12 @@
 [
   {
+    "ticker": "PRGS",
+    "pct": 18,
+    "day": "2026-07-01",
+    "presignal": "Q2 FY2026 earnings po zamknieciu 30 czerwca: EPS $1.62 vs est. $1.49 (+9% beat), revenue $253.5M vs est. $247.6M — zanizony konsensus analitykow bez wyraznego pre-sygnalu poza znana data raportu (kalendarzowa, kwartalna); brak nietypowego wolumenu opcji ani insider buying w dniach poprzedzajacych w dostepnych zrodlach",
+    "lesson": "Mid-cap enterprise software z historia stabilnych beatow (Progress Software) — gdy konsensus wygląda zanizony wzgledem trendu poprzednich kwartalow, monitoruj implied move w opcjach (straddle pricing) dzien przed earnings jako pre-sygnal wielkosci potencjalnej reakcji; bez tego, czysto kalendarzowe earnings sa trudne do zlapania z wyprzedzeniem — buduj watchlist mid-cap software z rosnacym FCF przed kazdym sezonem earnings"
+  },
+  {
     "ticker": "AVEX",
     "pct": 12,
     "day": "2026-06-26",
