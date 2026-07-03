@@ -1,95 +1,79 @@
 {
-  "_date": "2026-07-02",
+  "_date": "2026-07-03",
   "_run": "14:30 CEST (przed otwarciem USA)",
-  "_note": "Czwartek July 2 — GH (Guardant Health) +13.8% June 30/July1 na FDA approval Guardant360 CDx (27. wskazanie, HER2-mutant NSCLC) + fala podwyżek celów (RBC $185, Mizuho $175, Evercore $160, Barclays $150), cena $169.61 wciąż poniżej większości nowych celów mimo pct_1m +36%; AMTM (Amentum) skumulował dwa kontrakty w <2 tyg: NASA COSMOS (30.06) + $77M Pentagon Indo-Pacific AI logistics (17.06); PLTR dostał Army NGC2 (Foundry jako cloud data layer) + Nvidia sovereign-AI deal, ale akcja wciąż -21% w miesiąc (najgorszy miesiąc od 5 lat) = brak pogoni za górką; ELAB (PMGC Holdings) ultra-micro-cap z LOI na 76% przejęcie aerospace/defense machining shop — wzorzec zbliżony do wcześniej unikanych pump-ów, mała pozycja jeśli w ogóle; Pelosi (poprzez Paul Pelosi) ujawniła do $6M w call options na INTC i UBER (strike $50, exp 03/2027, transakcja z 29 maja, filing podpisany 23 czerwca) — INTC już +16%/mc po tegorocznym ~500% rajdzie; 51Talk (COE) CEO kupuje nieprzerwanie od pół roku (55 transakcji, $75.9M) mimo że akcja -34% w 90 dni = insider-conviction w słabości; Bending Spoons (BSP) zadebiutowało na NASDAQ 1 lipca (+39.7% dnia 1, wycena $18.4B, realne przychodowe marki: AOL/Vimeo/Evernote/Eventbrite) — jakościowy IPO ale już rozgrzany dzień 0, czekać na cofnięcie. Brak świeżych 13F (termin dopiero ~14.08) i brak świeżego (<48h) katalizatora czysto politycznego mapowalnego na tykier poza kontraktami ujętymi wyżej.",
+  "_note": "Piatek July 3 (pre-4th of July, rynek zamkniety w piatek pozniej/skrocona sesja). Glowny watek dnia: sektor quantum computing (QBTS/RGTI/IONQ) mocno wychlodzony -18% do -22% w miesiac po fali realizacji zyskow (spor o 'quantum supremacy' D-Wave + insider share-sale filing), MIMO ze fundamentalny katalizator polityczny (Trump quantum EO z 23.06 + $2B rzadowe equity stakes w 9 spolkach, w tym QBTS/RGTI) wciaz aktywny — brak pogoni za gorka, wrecz odwrotnie: cofniecie po newsie. LGO (Largo, vanadium) dostal $125M 5-letni kontrakt DoD/DLA (National Defense Stockpile) 30.06 — swiezy (3 dni), spolka $300M mcap, ale akcja SPADA (-29% 1m) bo rynek nie doceniel/sprzedaje surowce ogolnie — asymetria warta obserwacji, nie pogoni. KTOS (Kratos) na liscie dostawcow Golden Dome SHIELD ($151B program Pentagonu) — tez wychlodzony -18% 1m. IQMX (IQM Quantum Computers, fiński hardware quantum) zadebiutowal na NASDAQ 1-2 lipca przez SPAC (Real Asset Acquisition Corp) — dzien 1 spadek -3.4% do $12.97, bardzo swiezy, brak jeszcze historii 1m. Pelosi (poprzez Paul Pelosi) ujawnila w czerwcu wykonanie opcji call na AVGO (Broadcom) — konwersja na akcje, ale AVGO tez juz -17.8% w miesiac (post-earnings selloff, nie chase). Brak potwierdzonego swiezego klastra insiderow poza juz znanym COE (51Talk, ujety wczoraj). Brak nowych 13F (termin dopiero ~14 sierpnia) i brak swiezego wolumenowego sygnalu z konkretna cena ponizej progu chase — SpaceX dolacza do Nasdaq-100 7 lipca (sympathy catalyst dla sektora, ale sam SpaceX niepubliczny do handlu detalicznego w tym sensie co inne spolki, i po +50% od IPO to juz rozgrzane, pomijam).",
   "ipo": [
     {
-      "ticker": "BSP",
-      "name": "Bending Spoons",
+      "ticker": "IQMX",
+      "name": "IQM Quantum Computers Oyj",
       "age_months": 0,
-      "price_usd": 40.50,
-      "pct_1m": 40,
-      "catalyst": "Debiut NASDAQ 1 lipca 2026, cena IPO $29 (powyżej widełek $26-28), zamknięcie dnia 1 +39.7% na $40.50, wycena $18.4B, $1.68B raised; realny biznes (AOL, Vimeo, Evernote, Eventbrite, WeTransfer, Komoot, Brightcove) — nie czysty hype",
-      "still_upside": false
+      "price_usd": 12.97,
+      "pct_1m": -3,
+      "catalyst": "Debiut NASDAQ 1-2 lipca 2026 przez polaczenie SPAC z Real Asset Acquisition Corp; finski producent superconducting quantum computers (pelny stack, klienci: uczelnie, centra obliczeniowe); ~$233.5M net proceeds z transakcji + PIPE ($10/akcje); dzien 1: -3.4% do $12.97 (dolek $11.62, szczyt $13.78)",
+      "note": "BARDZO swiezy debiut (2 dni) — brak historii 1m, wysoka zmiennosc dnia 1; czekac na ustabilizowanie sie ceny przed decyzja"
     }
   ],
-  "volume": [
-    {
-      "ticker": "GH",
-      "name": "Guardant Health",
-      "price_usd": 169.61,
-      "pct_1m": 36,
-      "catalyst": "FDA approved Guardant360 CDx jako companion diagnostic dla HER2-mutant NSCLC (27. wskazanie na platformie); seria podwyżek celów analityków w czerwcu: RBC $185 (nowe pokrycie), Mizuho $175, Evercore ISI $160 (z $95), Barclays $150 — wszystkie POWYŻEJ obecnej ceny",
-      "still_upside": true,
-      "upside_reason": "cena wciąż poniżej większości nowych celów analityków (RBC $185, Mizuho $175) wydanych PO ostatniej fali wzrostu, plus świeże rozszerzenie wskazań FDA — katalizator regulacyjny dopiero się materializuje w pipeline"
-    },
-    {
-      "ticker": "RDDT",
-      "name": "Reddit",
-      "price_usd": 192.78,
-      "pct_1m": 13
-    },
-    {
-      "ticker": "IBKR",
-      "name": "Interactive Brokers",
-      "price_usd": 93.39,
-      "pct_1m": 9,
-      "catalyst": "DART (avg revenue trades) +47% r/r, client equity +49% r/r; przebicie oporu na silnym wolumenie"
-    }
-  ],
+  "volume": {"_empty": true, "reason": "brak potwierdzonego swiezego sygnalu wolumenowego (>=3x + przebicie) z wiarygodna cena w tej rundzie wyszukiwan — CLRO/MIDDV/CWD (dzisiejsi liderzy wzrostu wg StockTitan) juz po ruchu (+109% i wiecej), zbyt rozgrzane bez zweryfikowanego katalizatora"},
   "contract": [
     {
-      "ticker": "AMTM",
-      "name": "Amentum Holdings",
-      "price_usd": 25.75,
-      "pct_1m": 13,
-      "catalyst": "NASA COSMOS (Johnson Space Center mission ops) + $77M GSA/Pentagon Indo-Pacific AI logistics kontrakt (17-30 czerwca, stacking w <2 tyg)"
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies",
-      "price_usd": 125.49,
-      "pct_1m": -21,
-      "catalyst": "Trump/DoD: US Army wybrał Palantir Foundry jako cloud data layer dla NGC2 modernization (top-priority program) + wspólny 'intelligent engine' z Nvidia dla suwerennych rządowych środowisk AI",
+      "ticker": "LGO",
+      "name": "Largo Inc.",
+      "price_usd": 0.80,
+      "pct_1m": -29,
+      "catalyst": "Trump/DoD kontrakt: 5-letni IDIQ kontrakt z U.S. Defense Logistics Agency (DLA) na dostawe do 2876 ton high-purity vanadium pentoxide dla National Defense Stockpile, max wartosc $125M (fixed-price, +10%/rok), ogloszony 30.06.2026 (3 dni temu)",
       "still_upside": true,
-      "upside_reason": "pct_1m -21% (najgorszy miesiąc od 5 lat) mimo świeżego, poważnego kontraktu DoD — brak pogoni za górką, cena wychłodzona"
+      "upside_reason": "kontrakt $125M vs ~$300M market cap (~40%+ kapitalizacji) to znaczaca dywersyfikacja przychodow producenta wanadu, ale akcja SPADA -29%/mc (rynek jeszcze nie docenil/sektor surowcowy pod presja) — wejscie NIE jest pogonia za gorka, przeciwnie: cena wychlodzona mimo swiezego katalizatora"
     },
     {
-      "ticker": "ELAB",
-      "name": "PMGC Holdings",
-      "price_usd": 1.72,
-      "pct_1m": 20,
-      "catalyst": "Non-binding LOI na przejęcie 76% udziałów w arizońskiej precyzyjnej firmie machining (aerospace/defense/semiconductor, ITAR, AS9100, >30% przychodów defense)",
-      "note": "UWAGA: ultra-micro-cap (dzienny zakres ~$1.1-1.9, skrajna zmienność), non-binding LOI (target close Q4 2026, brak pewności domknięcia) — wzorzec zbliżony do wcześniej unikanych pump-ów (VSME/VTAK z dziennika lekcji); mała pozycja jeśli w ogóle"
+      "ticker": "KTOS",
+      "name": "Kratos Defense & Security Solutions",
+      "price_usd": 54.41,
+      "pct_1m": -18,
+      "catalyst": "Trump/DoD: spolka na liscie >2400 zatwierdzonych dostawcow programu Golden Dome SHIELD ($151B backbone Pentagonu, cel: warstwowa obrona antyrakietowa USA); Kratos (target drones, satellite comms hardware) typowany jako beneficjent podwykonawstwa dla duzych graczy (LMT/RTX/RKLB)",
+      "note": "to ekspozycja tematyczna/programowa (nie pojedynczy swiezy kontrakt <48h) — akcja wychlodzona -18%/mc, brak pogoni"
     }
   ],
-  "insider": [
-    {
-      "ticker": "COE",
-      "name": "51Talk Online Education Group",
-      "price_usd": 24.08,
-      "pct_1m": -15,
-      "catalyst": "CEO Jack Jiajia Huang: nieprzerwany klaster zakupów — 55 transakcji w 6 miesięcy, ~3.46M akcji za ~$75.9M; kupuje mimo że akcja spadła ~34% w 90 dni — insider-conviction w słabości, nie pogoń za górką"
-    }
-  ],
-  "fund13f": {"_empty": true, "reason": "13F za Q2 2026 nie są jeszcze wymagane (termin ~14 sierpnia 2026) — brak świeżych danych"},
+  "insider": {"_empty": true, "reason": "brak nowego, zweryfikowanego klastra insiderow (2+ kupujacych w 7 dni) roznego od juz znanego COE (51Talk, ujety w poprzedniej rundzie) — OpenInsider wymaga bezposredniego dostepu do biezacych danych, wyszukiwarka nie zwrocila konkretnych swiezych tykierow"},
+  "fund13f": {"_empty": true, "reason": "13F za Q2 2026 nie sa jeszcze wymagane (termin ~14 sierpnia 2026) — brak swiezych danych"},
   "congress": [
     {
-      "ticker": "INTC",
-      "name": "Intel",
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
       "member": "Nancy/Paul Pelosi",
-      "price_usd": 127.02,
-      "pct_1m": 16,
-      "catalyst": "do $3M w call options (200 kontraktów, strike $50, exp. 03/2027) — trade z 29 maja, filing podpisany 23 czerwca; opcje głęboko in-the-money"
-    },
-    {
-      "ticker": "UBER",
-      "name": "Uber Technologies",
-      "member": "Nancy/Paul Pelosi",
-      "price_usd": 72.73,
-      "pct_1m": 7,
-      "catalyst": "drugi leg tej samej transakcji — 200 call options, strike $50, exp. 03/2027, identyczna struktura i timing co INTC"
+      "price_usd": 359.80,
+      "pct_1m": -18,
+      "catalyst": "W czerwcu Pelosi ujawnila wykonanie 200 kontraktow call options na Broadcom, konwertujac je na 20 000 akcji common stock — polprzewodnikowy/infrastruktura AI + ekspozycja defense-tech",
+      "still_upside": true,
+      "upside_reason": "AVGO -17.8%/mc (post-earnings selloff mimo +47.9% r/r revenue) — insider (kongresmen) konwertuje opcje na akcje WLASNIE w dolku, nie na szczycie"
     }
   ],
-  "policy": {"_empty": true, "reason": "brak świeżego (<48h) katalizatora czysto politycznego mapowalnego na konkretny tykier poza kontraktami DoD/NASA już ujętymi w grupie 'contract' (AMTM, PLTR); USMCA non-renewal (1 lipca) zbyt ogólne bez jasnego beneficjenta"}
+  "policy": [
+    {
+      "ticker": "QBTS",
+      "name": "D-Wave Quantum",
+      "price_usd": 22.52,
+      "pct_1m": -18,
+      "catalyst": "Trump/Biały Dom: 2 executive orders (23.06.2026) przyspieszajace quantum computing R&D (cel: dzialajacy komputer kwantowy do 2028 + post-quantum cryptography do 2030-31) + $2B rzadowych equity stakes w 9 firmach quantum (maj 2026), D-Wave i Rigetti wsrod beneficjentow ($100M kazda)",
+      "still_upside": true,
+      "upside_reason": "sektor spadl -18% do -22%/mc PO newsie (realizacja zyskow + spor naukowy o 'quantum supremacy' D-Wave), ale rzadowy katalizator (EO + finansowanie equity) jest trwaly i nie zniknal — to cofniecie, nie koniec tezy; analitycy: srednia rekomendacja 'Strong Buy', cel $37+ (+65% od ceny)"
+    },
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "price_usd": 18.97,
+      "pct_1m": -21,
+      "catalyst": "Trump/Biały Dom: jw. (quantum EO 23.06 + $2B equity stakes, Rigetti otrzymuje do $100M za superconducting quantum tech)",
+      "still_upside": true,
+      "upside_reason": "-21%/mc mimo aktywnego wsparcia rzadowego (equity stake + EO) — cofniecie sektorowe po realizacji zyskow, nie odwrocenie tezy"
+    },
+    {
+      "ticker": "IONQ",
+      "name": "IonQ",
+      "price_usd": 50.12,
+      "pct_1m": -22,
+      "catalyst": "Trump/Biały Dom: jw. (quantum EO 23.06 + sektorowy government push na post-quantum cryptography), IonQ jako lider trapped-ion quantum computing",
+      "still_upside": true,
+      "upside_reason": "-22%/mc, najbardziej wychlodzony z trojki mimo ze katalizator polityczny nadal aktualny — brak elementu pogoni za gorka"
+    }
+  ]
 }

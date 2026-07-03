@@ -1,5 +1,20 @@
 [
   {
+    "ticker": "CLRO",
+    "pct": 109,
+    "day": "2026-07-02",
+    "presignal": "8-K definitive merger agreement (ogloszony w srode 1 lipca, po godzinach) — ClearOne (mikrokapitalizacja, NASDAQ) przejmuje Cortigent Inc. (spolke bionicznego oka/neurostymulacji) od Vivani Medical (VANI) w zamian za 12.5M akcji ClearOne; dodatkowo $1M loan agreement z First Finance zlozony tego samego dnia (8-K); klasyczny wzorzec 8-K BCA/merger po zamknieciu gieldy -> pop nastepnego dnia, identyczny z BGMS (Future NRG, czerwiec) i VACH (Veraxa/Voyager) juz w dzienniku lekcji",
+    "lesson": "POWTORZENIE znanego wzorca (nie nowa lekcja): 8-K definitive merger/reverse-merger agreement zlozony po godzinach = pre-sygnal na pop nastepnej sesji dla micro-cap NASDAQ (wzorzec BGMS/VACH); potwierdza wartosc monitorowania EDGAR 8-K feed wieczorem dla merger agreements w micro-cap shells"
+  },
+  {
+    "ticker": "CWD",
+    "pct": 90,
+    "day": "2026-07-02",
+    "presignal": "CaliberCos (mikrokapitalizacja real estate asset manager) ogloszyla rozszerzenie strategii tokenizacji funduszy nieruchomosci z uzyciem Chainlink (LINK) oracle + Automated Compliance Engine, rownolegle z odejsciem dlugoletniej CFO Jade Leung (11 lat) i powolaniem Acting CFO Michael Rosales (8-K); firma potwierdzila guidance FY2026 bez zmian — brak jednoznacznego pojedynczego pre-sygnalu z wyprzedzeniem >1 dnia w dostepnych zrodlach, oba katalizatory (tokenizacja + CFO transition) zbiegly sie tego samego dnia",
+    "lesson": "NOWY WZORZEC: real-estate/finansowy micro-cap ogłaszający inwestycję/integrację z Chainlink (LINK) lub inna crypto-tokenizacja infrastruktury nieruchomosci = spekulacyjny katalizator kryptonarracji nawet bez realnych przychodow z tego segmentu; sledz micro-cap real estate/fintech NASDAQ z ogłoszeniami 'tokenization' + Chainlink/blockchain integration jako nowa kategorie pump-watch, analogiczna do AI-pivot pattern (CHAI/VSME) ale w temacie RWA tokenization",
+    "day_earlier_signal": "brak — katalizator pojawil sie tego samego dnia bez wyprzedzenia w dostepnych zrodlach"
+  },
+  {
     "ticker": "PRGS",
     "pct": 18,
     "day": "2026-07-01",
