@@ -1426,5 +1426,33 @@
     "pct": 16.0,
     "presignal": "Astera Labs (ALAB) — lider optical interconnects dla AI datacenter hyperscalers (AWS, Meta, Google, Microsoft); Q1 2026 przychody +70%+ YoY; PCIe/CXL connectivity dla AI inference clusters = strukturalny popyt; S&P 500 inclusion spodziewana po rosnącym MCap; sektor semiconductor surge June 29 (ALAB+16%, KLA+12%, AMAT+11%); Nasdaq +2.07% broad risk-on day",
     "lesson": "Astera Labs (ALAB) = AI inference interconnect plays surge na szerokim risk-on dniu semiconductor; pre-sygnał: spółki z 70%+ YoY revenue growth w AI infrastructure + nie-przesadzone wyceny mogą surgebować na broad sector risk-on; śledź AI datacenter optical/electrical interconnect specialists (ALAB, MRVL, SMCI) jako trailing AI infrastructure bet: nie tak medialne jak Nvidia ale fundamenty silne; wzorzec: AI infra semiconductor + broad risk-on NASDAQ = +15-20% outperformer"
+  },
+  {
+    "date": "2026-07-06",
+    "ticker": "SNAL",
+    "pct": 400.0,
+    "presignal": "1-for-5 reverse split zatwierdzony z efektywnoscia 2 lipca (ogloszony wczesniej) + silne fundamenty Q1 2026 (przychod +35.7% do $27.3M, powrot do zysku) + Noble Capital podniosl cel z $3.50 do $17.50 (Outperform) - ten przypadek mial realny fundament (3 tytuly AAA w pipeline, USDO stablecoin) w odroznieniu od HKIT/NVVE",
+    "lesson": "Reverse split + realna poprawa fundamentow (powrot do zysku, podniesiony cel analityka) to silniejszy sygnal niz sam split - SNAL byl do zlapania na Q1 earnings (14-15 maja), dlugo przed lipcowym splitem, nie na sam dzien splitu"
+  },
+  {
+    "date": "2026-07-06",
+    "ticker": "CWD",
+    "pct": 91.0,
+    "presignal": "CFO transition (11-letni Jade Leung odszedl, insider Michael Rosales Acting CFO) + zapowiedz rozszerzonej strategii tokenizacji nieruchomosci z Chainlink (premarket 2 lipca) - ale wolumen byl 'near-zero' wg ainvest ('CWD Surges 16% on Near-Zero Volume: A Trap?') = ostrzezenie dostepne przed pelnym ruchem",
+    "lesson": "Wysoki % ruchu na niskim wolumenie to czerwona flaga (latwe do zmanipulowania) - potwierdzone: akcja spadla -25% after-hours tego samego dnia. Sprawdzaj wolumen bezwzgledny, nie tylko procent zmiany."
+  },
+  {
+    "date": "2026-07-06",
+    "ticker": "USDE",
+    "pct": 57.0,
+    "presignal": "Launch StablecoinX Harness (middleware dla Ethena/USDe) zapowiedziany ok. 2 lipca - ale cena juz wczesniej byla paraboliczna (z $3.58 29 czerwca do $6.70 1 lipca, +85%) i crashowala do $2.39 2 lipca przed kolejnym odbiciem +57% 4 lipca",
+    "lesson": "Klasyczny multi-day pump-crash-pump w mikro-cap stablecoin infra - kazdy dzien z osobna wyglada jak 'okazja', ale to jeden ciagly whipsaw. Patrz na zmiennosc TYGODNIOWA, nie pojedynczy dzien, zanim uznasz ruch za sygnal."
+  },
+  {
+    "date": "2026-07-06",
+    "ticker": "SDEV",
+    "pct": 22.0,
+    "presignal": "Nowa 'regulatory approval' dla platformy stablecoin (ten sam sektor/tydzien co USDE) - ale szczyt byl ~$1.50 i juz zaczela spadac do ~$1.05 = szczyt byl juz za newsem, nie po nim",
+    "lesson": "Gdy caly mikro-sektor (stablecoin infra: USDE+SDEV) pompuje jednoczesnie w tym samym tygodniu, to spekulacja sektorowa, nie firma-specific edge - trudne do timowania, wysokie ryzyko kupna szczytu"
   }
 ]

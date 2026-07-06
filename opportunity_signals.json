@@ -1,79 +1,62 @@
 {
-  "_date": "2026-07-03",
-  "_run": "14:30 CEST (przed otwarciem USA)",
-  "_note": "Piatek July 3 (pre-4th of July, rynek zamkniety w piatek pozniej/skrocona sesja). Glowny watek dnia: sektor quantum computing (QBTS/RGTI/IONQ) mocno wychlodzony -18% do -22% w miesiac po fali realizacji zyskow (spor o 'quantum supremacy' D-Wave + insider share-sale filing), MIMO ze fundamentalny katalizator polityczny (Trump quantum EO z 23.06 + $2B rzadowe equity stakes w 9 spolkach, w tym QBTS/RGTI) wciaz aktywny — brak pogoni za gorka, wrecz odwrotnie: cofniecie po newsie. LGO (Largo, vanadium) dostal $125M 5-letni kontrakt DoD/DLA (National Defense Stockpile) 30.06 — swiezy (3 dni), spolka $300M mcap, ale akcja SPADA (-29% 1m) bo rynek nie doceniel/sprzedaje surowce ogolnie — asymetria warta obserwacji, nie pogoni. KTOS (Kratos) na liscie dostawcow Golden Dome SHIELD ($151B program Pentagonu) — tez wychlodzony -18% 1m. IQMX (IQM Quantum Computers, fiński hardware quantum) zadebiutowal na NASDAQ 1-2 lipca przez SPAC (Real Asset Acquisition Corp) — dzien 1 spadek -3.4% do $12.97, bardzo swiezy, brak jeszcze historii 1m. Pelosi (poprzez Paul Pelosi) ujawnila w czerwcu wykonanie opcji call na AVGO (Broadcom) — konwersja na akcje, ale AVGO tez juz -17.8% w miesiac (post-earnings selloff, nie chase). Brak potwierdzonego swiezego klastra insiderow poza juz znanym COE (51Talk, ujety wczoraj). Brak nowych 13F (termin dopiero ~14 sierpnia) i brak swiezego wolumenowego sygnalu z konkretna cena ponizej progu chase — SpaceX dolacza do Nasdaq-100 7 lipca (sympathy catalyst dla sektora, ale sam SpaceX niepubliczny do handlu detalicznego w tym sensie co inne spolki, i po +50% od IPO to juz rozgrzane, pomijam).",
+  "_date": "2026-07-06",
+  "_run": "14:30 CEST (przed otwarciem)",
+  "_note": "Poniedzialek. Ostatnia sesja handlowa: czwartek 2 lipca (piatek 3 lipca = swieto gieldowe, 4 lipca Saturday). FOMC Minutes w srode, rynek wycenia mozliwa podwyzke stop do konca roku. Russell 2000 najlepsze 1H od 1991 (+22%), ale ostatni tydzien schladzanie. BSP (Bending Spoons) zadebiutowal na Nasdaq 1 lipca (+40% dzien 1). AVAV +35% w tydzien po Q4 beat + $500M kontrakcie Army (Investor Day 8 lipca). SPCX -28% od ATH $225.64 (16 czerwca), Nasdaq-100 inclusion w lipcu wymusza forced buying na mikroskopijnym floacie. Mikro-cap sektor stablecoin infra (USDE/SDEV) i seria reverse-split compliance plays (HKIT/NVVE/SNAL) generuja ekstremalna zmiennosc bez trwalego fundamentu - patrz lowca_movers.json.",
   "ipo": [
     {
-      "ticker": "IQMX",
-      "name": "IQM Quantum Computers Oyj",
+      "ticker": "BSP",
+      "name": "Bending Spoons S.p.A.",
       "age_months": 0,
-      "price_usd": 12.97,
-      "pct_1m": -3,
-      "catalyst": "Debiut NASDAQ 1-2 lipca 2026 przez polaczenie SPAC z Real Asset Acquisition Corp; finski producent superconducting quantum computers (pelny stack, klienci: uczelnie, centra obliczeniowe); ~$233.5M net proceeds z transakcji + PIPE ($10/akcje); dzien 1: -3.4% do $12.97 (dolek $11.62, szczyt $13.78)",
-      "note": "BARDZO swiezy debiut (2 dni) — brak historii 1m, wysoka zmiennosc dnia 1; czekac na ustabilizowanie sie ceny przed decyzja"
+      "price_usd": 35.93,
+      "pct_1m": 24,
+      "catalyst": "IPO Nasdaq 1 lipca 2026 @ $29 (upsized, $1.68B raised) - wloski holding technologiczny (AOL, Vimeo, Eventbrite, Evernote); Q1 2026 przychod +132% YoY do $601.3M; +40% dzien 1 do $40.50, teraz $35.93 (pullback -11% od szczytu, ale +24% od ceny IPO)",
+      "still_upside": true,
+      "upside_reason": "Realne przychody rosnace +132% YoY (nie story-stock bez fundamentow), pullback z $40.50 do $35.93 daje lepszy entry niz dzien debiutu; zdywersyfikowane portfolio marek (AOL/Vimeo/Eventbrite) = rzadka w IPO tego typu stabilnosc cash-flow"
     }
   ],
-  "volume": {"_empty": true, "reason": "brak potwierdzonego swiezego sygnalu wolumenowego (>=3x + przebicie) z wiarygodna cena w tej rundzie wyszukiwan — CLRO/MIDDV/CWD (dzisiejsi liderzy wzrostu wg StockTitan) juz po ruchu (+109% i wiecej), zbyt rozgrzane bez zweryfikowanego katalizatora"},
+  "volume": [
+    {
+      "ticker": "CWD",
+      "name": "CaliberCos Inc.",
+      "price_usd": 0.91,
+      "pct_1m": 40,
+      "catalyst": "Real estate tokenization strategia z Chainlink (Automated Compliance Engine) ogloszona premarket 2 lipca -> +90.6% w sesji do $1.23; rownolegle zmiana CFO (11-letni Jade Leung odszedl, insider Michael Rosales Acting CFO, guidance 2026 podtrzymane)",
+      "still_upside": false,
+      "note": "OSTRZEZENIE: ruch na 'near-zero volume' wg ainvest + akcja spadla -25% after-hours tego samego dnia = pump-and-fade, nie kupowac mimo realnego katalizatora Chainlink"
+    },
+    {
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies Corp. (SpaceX)",
+      "price_usd": 162.00,
+      "pct_1m": 7,
+      "catalyst": "Nasdaq-100 inclusion w lipcu 2026 wymusza mechaniczny popyt instytucjonalny (~$4.3B forced buy) przy zaledwie ~3% wolnego floatu",
+      "still_upside": true,
+      "upside_reason": "Cena $162 to -28% od ATH $225.64 (16 czerwca), ale forced index buying na mikroskopijnym floacie to techniczny popyt niezalezny od sentymentu; 8/9 analitykow Buy"
+    }
+  ],
   "contract": [
     {
-      "ticker": "LGO",
-      "name": "Largo Inc.",
-      "price_usd": 0.80,
-      "pct_1m": -29,
-      "catalyst": "Trump/DoD kontrakt: 5-letni IDIQ kontrakt z U.S. Defense Logistics Agency (DLA) na dostawe do 2876 ton high-purity vanadium pentoxide dla National Defense Stockpile, max wartosc $125M (fixed-price, +10%/rok), ogloszony 30.06.2026 (3 dni temu)",
+      "ticker": "AVAV",
+      "name": "AeroVironment Inc.",
+      "price_usd": 191.00,
+      "pct_1m": 35,
+      "catalyst": "Trump/DoD: $500M kontrakt US Army na system antydronowy Titan RF (wazny do 2029) + FY2026 Q4 beat (przychod $641.6M, +133% YoY, EPS $1.84 vs $1.47 est.) + backlog $1.2B (+65% YoY) + FY2027 guidance ~$2.2B przychodu; Investor Day 8 lipca 2026",
       "still_upside": true,
-      "upside_reason": "kontrakt $125M vs ~$300M market cap (~40%+ kapitalizacji) to znaczaca dywersyfikacja przychodow producenta wanadu, ale akcja SPADA -29%/mc (rynek jeszcze nie docenil/sektor surowcowy pod presja) — wejscie NIE jest pogonia za gorka, przeciwnie: cena wychlodzona mimo swiezego katalizatora"
-    },
-    {
-      "ticker": "KTOS",
-      "name": "Kratos Defense & Security Solutions",
-      "price_usd": 54.41,
-      "pct_1m": -18,
-      "catalyst": "Trump/DoD: spolka na liscie >2400 zatwierdzonych dostawcow programu Golden Dome SHIELD ($151B backbone Pentagonu, cel: warstwowa obrona antyrakietowa USA); Kratos (target drones, satellite comms hardware) typowany jako beneficjent podwykonawstwa dla duzych graczy (LMT/RTX/RKLB)",
-      "note": "to ekspozycja tematyczna/programowa (nie pojedynczy swiezy kontrakt <48h) — akcja wychlodzona -18%/mc, brak pogoni"
+      "upside_reason": "Kontrakt $500M + podniesiony guidance FY2027 $2.2B (nie tylko beat przeszlego kwartalu) + Investor Day za 2 dni moze przyniesc kolejny katalizator = teza jeszcze nie w pelni wyceniona mimo +35% w tydzien; wieloletni tailwind z budzetu obronnego NDAA FY2027 $1.15-1.5T"
     }
   ],
-  "insider": {"_empty": true, "reason": "brak nowego, zweryfikowanego klastra insiderow (2+ kupujacych w 7 dni) roznego od juz znanego COE (51Talk, ujety w poprzedniej rundzie) — OpenInsider wymaga bezposredniego dostepu do biezacych danych, wyszukiwarka nie zwrocila konkretnych swiezych tykierow"},
-  "fund13f": {"_empty": true, "reason": "13F za Q2 2026 nie sa jeszcze wymagane (termin ~14 sierpnia 2026) — brak swiezych danych"},
+  "insider": [],
+  "fund13f": [],
   "congress": [
     {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc.",
-      "member": "Nancy/Paul Pelosi",
-      "price_usd": 359.80,
-      "pct_1m": -18,
-      "catalyst": "W czerwcu Pelosi ujawnila wykonanie 200 kontraktow call options na Broadcom, konwertujac je na 20 000 akcji common stock — polprzewodnikowy/infrastruktura AI + ekspozycja defense-tech",
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies Corp. (SpaceX)",
+      "price_usd": 162.00,
+      "pct_1m": 7,
+      "catalyst": "Kongresmeni Dan Meuser (House Financial Services) i Gil Cisneros (House Armed Services - nadzoruje DoD, klienta SpaceX) zglosili zakupy SPCX w czerwcu tuz po IPO (12 czerwca)",
       "still_upside": true,
-      "upside_reason": "AVGO -17.8%/mc (post-earnings selloff mimo +47.9% r/r revenue) — insider (kongresmen) konwertuje opcje na akcje WLASNIE w dolku, nie na szczycie"
+      "upside_reason": "Konfluencja z grupa volume: kongresmeni kupuja + Nasdaq-100 forced buying = dwa niezalezne zrodla popytu technicznego"
     }
   ],
-  "policy": [
-    {
-      "ticker": "QBTS",
-      "name": "D-Wave Quantum",
-      "price_usd": 22.52,
-      "pct_1m": -18,
-      "catalyst": "Trump/Biały Dom: 2 executive orders (23.06.2026) przyspieszajace quantum computing R&D (cel: dzialajacy komputer kwantowy do 2028 + post-quantum cryptography do 2030-31) + $2B rzadowych equity stakes w 9 firmach quantum (maj 2026), D-Wave i Rigetti wsrod beneficjentow ($100M kazda)",
-      "still_upside": true,
-      "upside_reason": "sektor spadl -18% do -22%/mc PO newsie (realizacja zyskow + spor naukowy o 'quantum supremacy' D-Wave), ale rzadowy katalizator (EO + finansowanie equity) jest trwaly i nie zniknal — to cofniecie, nie koniec tezy; analitycy: srednia rekomendacja 'Strong Buy', cel $37+ (+65% od ceny)"
-    },
-    {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing",
-      "price_usd": 18.97,
-      "pct_1m": -21,
-      "catalyst": "Trump/Biały Dom: jw. (quantum EO 23.06 + $2B equity stakes, Rigetti otrzymuje do $100M za superconducting quantum tech)",
-      "still_upside": true,
-      "upside_reason": "-21%/mc mimo aktywnego wsparcia rzadowego (equity stake + EO) — cofniecie sektorowe po realizacji zyskow, nie odwrocenie tezy"
-    },
-    {
-      "ticker": "IONQ",
-      "name": "IonQ",
-      "price_usd": 50.12,
-      "pct_1m": -22,
-      "catalyst": "Trump/Biały Dom: jw. (quantum EO 23.06 + sektorowy government push na post-quantum cryptography), IonQ jako lider trapped-ion quantum computing",
-      "still_upside": true,
-      "upside_reason": "-22%/mc, najbardziej wychlodzony z trojki mimo ze katalizator polityczny nadal aktualny — brak elementu pogoni za gorka"
-    }
-  ]
+  "policy": []
 }

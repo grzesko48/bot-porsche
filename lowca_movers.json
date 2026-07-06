@@ -1,255 +1,44 @@
 [
   {
-    "ticker": "CLRO",
-    "pct": 109,
+    "ticker": "HKIT",
+    "pct": 2400,
     "day": "2026-07-02",
-    "presignal": "8-K definitive merger agreement (ogloszony w srode 1 lipca, po godzinach) — ClearOne (mikrokapitalizacja, NASDAQ) przejmuje Cortigent Inc. (spolke bionicznego oka/neurostymulacji) od Vivani Medical (VANI) w zamian za 12.5M akcji ClearOne; dodatkowo $1M loan agreement z First Finance zlozony tego samego dnia (8-K); klasyczny wzorzec 8-K BCA/merger po zamknieciu gieldy -> pop nastepnego dnia, identyczny z BGMS (Future NRG, czerwiec) i VACH (Veraxa/Voyager) juz w dzienniku lekcji",
-    "lesson": "POWTORZENIE znanego wzorca (nie nowa lekcja): 8-K definitive merger/reverse-merger agreement zlozony po godzinach = pre-sygnal na pop nastepnej sesji dla micro-cap NASDAQ (wzorzec BGMS/VACH); potwierdza wartosc monitorowania EDGAR 8-K feed wieczorem dla merger agreements w micro-cap shells"
+    "presignal": "Reverse split mechanika: 1-for-25 split ogloszony z efektywnoscia 6 lipca; handel wstrzymany 2 lipca z 'news pending' - klasyczny setup low-float reverse-split (HKIT juz mial podobny epizod w czerwcu +182%) - halt + zapowiedziany split byl dostepny jako sygnal dzien przed",
+    "lesson": "Halt handlu + zapowiedziany reverse split (compliance z $1 minimum bid) to mechaniczny wyzwalacz ekstremalnej zmiennosci, ale to pump-and-crash w tym samym tygodniu (cena spadla do $0.15-0.25 po splicie) - PRZYKLAD DO UNIKANIA, nie kupowania"
+  },
+  {
+    "ticker": "NVVE",
+    "pct": 1700,
+    "day": "2026-07-02",
+    "presignal": "1-for-18 reverse split ogloszony 30 czerwca, efektywny 6 lipca (compliance z Nasdaq $1 minimum bid) - filing dostepny kilka dni wczesniej",
+    "lesson": "Reverse-split compliance plays generuja ekstremalna, krotkotrwala zmiennosc wokol daty efektywnosci - wzorzec identyczny z SNAL/HKIT w tym samym tygodniu; nie kupowac na sam split, to nie jest fundamentalny katalizator"
+  },
+  {
+    "ticker": "SNAL",
+    "pct": 400,
+    "day": "2026-07-02",
+    "presignal": "1-for-5 reverse split zatwierdzony z efektywnoscia 2 lipca (ogloszony wczesniej) + silne fundamenty Q1 2026 (przychod +35.7% do $27.3M, powrot do zysku) + Noble Capital podniosl cel z $3.50 do $17.50 (Outperform) - ten przypadek mial realny fundament (3 tytuly AAA w pipeline, USDO stablecoin) w odroznieniu od HKIT/NVVE",
+    "lesson": "Reverse split + realna poprawa fundamentow (powrot do zysku, podniesiony cel analityka) to silniejszy sygnal niz sam split - SNAL byl do zlapania na Q1 earnings (14-15 maja), dlugo przed lipcowym splitem, nie na sam dzien splitu"
   },
   {
     "ticker": "CWD",
-    "pct": 90,
+    "pct": 91,
     "day": "2026-07-02",
-    "presignal": "CaliberCos (mikrokapitalizacja real estate asset manager) ogloszyla rozszerzenie strategii tokenizacji funduszy nieruchomosci z uzyciem Chainlink (LINK) oracle + Automated Compliance Engine, rownolegle z odejsciem dlugoletniej CFO Jade Leung (11 lat) i powolaniem Acting CFO Michael Rosales (8-K); firma potwierdzila guidance FY2026 bez zmian — brak jednoznacznego pojedynczego pre-sygnalu z wyprzedzeniem >1 dnia w dostepnych zrodlach, oba katalizatory (tokenizacja + CFO transition) zbiegly sie tego samego dnia",
-    "lesson": "NOWY WZORZEC: real-estate/finansowy micro-cap ogłaszający inwestycję/integrację z Chainlink (LINK) lub inna crypto-tokenizacja infrastruktury nieruchomosci = spekulacyjny katalizator kryptonarracji nawet bez realnych przychodow z tego segmentu; sledz micro-cap real estate/fintech NASDAQ z ogłoszeniami 'tokenization' + Chainlink/blockchain integration jako nowa kategorie pump-watch, analogiczna do AI-pivot pattern (CHAI/VSME) ale w temacie RWA tokenization",
-    "day_earlier_signal": "brak — katalizator pojawil sie tego samego dnia bez wyprzedzenia w dostepnych zrodlach"
+    "presignal": "CFO transition (11-letni Jade Leung odszedl, insider Michael Rosales Acting CFO) + zapowiedz rozszerzonej strategii tokenizacji nieruchomosci z Chainlink (premarket 2 lipca) - ale wolumen byl 'near-zero' wg ainvest ('CWD Surges 16% on Near-Zero Volume: A Trap?') = ostrzezenie dostepne przed pelnym ruchem",
+    "lesson": "Wysoki % ruchu na niskim wolumenie to czerwona flaga (latwe do zmanipulowania) - potwierdzone: akcja spadla -25% after-hours tego samego dnia. Sprawdzaj wolumen bezwzgledny, nie tylko procent zmiany."
   },
   {
-    "ticker": "PRGS",
-    "pct": 18,
-    "day": "2026-07-01",
-    "presignal": "Q2 FY2026 earnings po zamknieciu 30 czerwca: EPS $1.62 vs est. $1.49 (+9% beat), revenue $253.5M vs est. $247.6M — zanizony konsensus analitykow bez wyraznego pre-sygnalu poza znana data raportu (kalendarzowa, kwartalna); brak nietypowego wolumenu opcji ani insider buying w dniach poprzedzajacych w dostepnych zrodlach",
-    "lesson": "Mid-cap enterprise software z historia stabilnych beatow (Progress Software) — gdy konsensus wygląda zanizony wzgledem trendu poprzednich kwartalow, monitoruj implied move w opcjach (straddle pricing) dzien przed earnings jako pre-sygnal wielkosci potencjalnej reakcji; bez tego, czysto kalendarzowe earnings sa trudne do zlapania z wyprzedzeniem — buduj watchlist mid-cap software z rosnacym FCF przed kazdym sezonem earnings"
+    "ticker": "USDE",
+    "pct": 57,
+    "day": "2026-07-04",
+    "presignal": "Launch StablecoinX Harness (middleware dla Ethena/USDe) zapowiedziany ok. 2 lipca - ale cena juz wczesniej byla paraboliczna (z $3.58 29 czerwca do $6.70 1 lipca, +85%) i crashowala do $2.39 2 lipca przed kolejnym odbiciem +57% 4 lipca",
+    "lesson": "Klasyczny multi-day pump-crash-pump w mikro-cap stablecoin infra - kazdy dzien z osobna wyglada jak 'okazja', ale to jeden ciagly whipsaw. Patrz na zmiennosc TYGODNIOWA, nie pojedynczy dzien, zanim uznasz ruch za sygnal."
   },
   {
-    "ticker": "AVEX",
-    "pct": 12,
-    "day": "2026-06-26",
-    "presignal": "Russell 2000 inclusion ogloszone kilka dni przed effective June 29 (widoczne publicznie z wyprzedzeniem) + USAF $34.1M kontrakty (znane od IPO) + -35% od IPO $27 = deep discount vs analyst avg $35.75 (8/8 Strong Buy); forced buying w closing auction June 26; McapDiscount + Russell inclusion + 8/8 Strong Buy = triple pre-sygnał dostepny tygodnie wczesniej",
-    "lesson": "IPO deep-discount (-35%+ od ceny IPO) + Russell 2000 inclusion announcement + silny analyst consensus (8/8 Strong Buy) = identyfikowalny entry przed closing auction; Russell inclusion ogłaszany z wyprzedzeniem ~2 tygodnie = przewidywalny mechaniczny catalyst; wzorzec: IPO z silnymi kontraktami ale wyprzedane przez secondary offering = forced discount okazja"
-  },
-  {
-    "ticker": "MTEK",
+    "ticker": "SDEV",
     "pct": 22,
-    "day": "2026-06-26",
-    "presignal": "Seria kontraktow eskalujacych przez czerwiec 2026: Pilot Contract IFV Modernization Program USA (wczesniej) → follow-on orders dla intelligence gathering systems (June 23) → PIERWSZY prime contractor contract $350K MIL-STD armored vehicle audio June 26; MCap ~$12M = asymetria; seria 3 kontraktow w jednym miesiacu budowala momentum",
-    "lesson": "Israeli AI-defense micro-cap NASDAQ z eskalujaca seria kontraktow (sub → follow-on → PRIME) = milestone rerating dla MCap <$15M; sledz serie kontraktow eskalujacych od sub/follow-on do prime dla MCap <$20M defense tech NASDAQ; wzorzec: 3 kontrakty w jednym miesiacu (June 23 + June 26) = catalyst stacking signal; $350K vs $12M MCap = pozorne malzenstwo ale first prime = strategic breakthrough"
-  },
-  {
-    "ticker": "NVCT",
-    "pct": 125,
-    "day": "2026-06-22",
-    "presignal": "HC Wainwright podnisl target do $13 (od $10) PRZED ogłoszeniem in-licensingu — agresywny raise = pierwsza wskazowka; nastepnie in-licensing 2 compounds od Haisco Pharmaceutical June 22: NXP100 (complement-mediated diseases, once-daily oral) + NXP200 (next-gen BRAF inhibitor Phase 1b); HC Wainwright natychmiast podnisl do $39 (od $13 = 3x raise); Lucid Capital $22 tego samego dnia; spółka NASDAQ clinical-stage oncology",
-    "lesson": "Clinical-stage oncology + AGRESYWNY analyst target raise >50% PRZED głównym catalyst = pre-signal in-licensing/M&A; HC Wainwright pattern: gdy target raise pre-catalyst jest tak agresywny (np. $10→$13 zanim informacja jest publiczna) = insider-aware positioning; sledz HC Wainwright + Lucid Capital raises w clinical oncology small-cap = pre-licensing watch; pct_1m +186% po June 22 = PARABOLA absolutna; nigdy nie gonić po +125% jednego dnia"
-  },
-  {
-    "ticker": "RTB",
-    "pct": 75,
-    "day": "2026-06-22",
-    "presignal": "Merger re-listing NASDAQ May 13 2026 (RYVYL Inc → RTB Digital) = fresh listing z pivoted identity; investor webinar May 28 = management roadshow; technical crossover: 10-day MA crosses 50-day MA June 18 = sygnal techniczny przed katalyzatorem; AI/DeFi/Web3 enterprise media platform launch June 22 = commercial catalyst; Coinbase USDC real-time payment rails = marquee partner",
-    "lesson": "Merger re-listing (rename/rebrand z nowym tickerem) + investor webinar (management roadshow) + MA crossover techniczny + AI/DeFi platform commercial launch = 4-stepowy pre-sygnał na ruch; sledz re-listingi (merge-renamed tickers) na NASDAQ z investor webinar w ciagu 2 tygodni od commercial platform launch; MA 10/50 crossover = techniczny sygnał potwierdzajacy wejscie"
-  },
-  {
-    "ticker": "RKLB",
-    "pct": 5,
-    "day": "2026-06-25",
-    "presignal": "NASA selected Rocket Lab dla 3 launches Electron (PolSIR + TSIS-2) ogloszone June 25 po godzinach (after-market). Max $300M value over 10 years. +3-5% after hours -> gap up June 26. Pre-sygnaly dostepne: NASA mission calendar pokazywal PolSIR/TSIS-2 szukajace launch vehicle od miesiecy; SpaceX IPO halo podgrzewal sektor space; RKLB 90+ launches = pre-qualified NASA vendor; 15/19 analitykow Buy",
-    "lesson": "NASA launch contract po godzinach = after-hours catalyst i gap-up nastepnego dnia; NASA science mission calendars (PolSIR, TSIS-2) maja dlugi lead time zanim wybieraja launch provider — mozna sledzic misje 'szukajace launch vehicle'; wzorzec: SpaceX IPO halo + NASA contract = dual catalyst dla pure-play launch provider; sledz NASA mission task orders jako pre-sygnaly dla RKLB/LUNR"
-  },
-  {
-    "ticker": "FCUV",
-    "pct": 31,
-    "day": "2026-06-25",
-    "presignal": "4-for-1 reverse split effective June 23 2026 (NASDAQ compliance maneuver — minimum bid rule) + Deterministic AI platform launch announcement June 19 2026 (rule-based enterprise AI for SEC EDGAR filings, 4 dni przed pump) + ultra-low float po reverse split; cena z ~$0.54 (pre-split) przez $2.18→$7.40 June 23 i dalej +31% June 25; wzorzec INHD (double reverse split + AI deal)",
-    "lesson": "FCUV = INHD-pattern: reverse split (compliance) + AI product launch w krotkim czasie = ultra-low-float micro-cap pump; pre-sygnaly dostepne 4-6 dni wczesniej (split June 23 + AI launch June 19); screener: reverse split w ostatnich 30 dniach + AI product/deal announcement + ultra-low float NASDAQ micro-cap = pre-pump watchlist; UWAGA: zawsze CZEKAJ na konsolidacje po pierwszym dniacm spiku, nie gonić"
-  },
-  {
-    "ticker": "ICCM",
-    "pct": 187,
-    "day": "2026-06-17",
-    "presignal": "FDA marketing authorization ProSense system październik 2025 (8 miesięcy lead time!) + aktywna US install base rośnie 70% YoY (mierzalne z kwartalnych raportów) + ECIO 2026 konferencja i ASBrS Annual Meeting z nowymi danymi klinicznymi (kidney cancer ~90% recurrence-free, breast cancer early results) — wszystkie 3 pre-sygnały dostępne przed ruchem; stock leżał cicho po FDA auth przez 8 miesięcy",
-    "lesson": "Medical device z RECENT FDA marketing authorization (<12 mies.) + rosnącą install base + upcoming major medical conference z nową danymi klinicznymi = pre-spike pattern; FDA marketing auth to NIE koniec — to START: śledź konferencje medyczne (ECIO, SBI Symposium, ASBrS) dla spółek z auth <12 mies. jako konkretne daty eventów; wzorzec: auth → install base rośnie → conference data = 3-step lead time widoczny miesiące wcześniej"
-  },
-  {
-    "ticker": "FTHM",
-    "pct": 77,
-    "day": "2026-06-17",
-    "presignal": "Bed Bath & Beyond (BBBY) ogłosiło strategię 'Everything Home' (homeownership + commerce + services) tygodnie przed ogłoszeniem; CEO Fathom Fregenal terminated same-day = red flag zmiany kontroli; BBBY przeszło przez bankructwo i relaunched jako online home retailer — aktywnie poszukiwało akwizycji w real estate/mortgage; FTHM jako small-cap realtor z mortgage + title + insurance = idealny cel; deal $53M = premium do MCap",
-    "lesson": "Strategia M&A acquirera (BBBY 'Everything Home') + target pasujący do strategii (FTHM: mortgage+title+insurance) + CEO termination same-day = pre-M&A sygnały; śledź relaunchowane po bankructwie retailery poszukujące M&A w komplementarnych sektorach; CEO termination w small-cap + acquirer z ogłoszoną strategią = wzorzec buyout watch"
-  },
-  {
-    "ticker": "RKLB",
-    "pct": 25,
-    "day": "2026-06-11",
-    "presignal": "SpaceX IPO oficjalnie zaplanowane na June 12 (T-1 day) — halo okno dla pure-play space stocks; RKLB +849% YoY revenue, backlog $2.2B, multiple DoD contracts May-June 2026; roadshow June 8 potwierdzal date; pre-sygnał widoczny 3-4 dni wczesniej (S-1 May 20 + roadshow June 8 + IPO date June 12 ujawnione ~June 9-10)",
-    "lesson": "SpaceX IPO T-1 day = peak halo window dla public space stocks; RKLB jako pure-play beneficjent; optymalny entry byl T-3/T-2 (June 9-10) a nie T-0 (June 12 gdy wszystko już skacze); śledź IPO-day calendars dla mega-cap space companies i kupuj beneficjentów 3-4 dni PRZED debiutem, nie w dniu debiutu"
-  },
-  {
-    "ticker": "VOYG",
-    "pct": 18,
-    "day": "2026-06-11",
-    "presignal": "DARPA Burn n Go Phase 2 $16.5M kontrakt (ogłoszony wczesniej) + guidance podniesione $230-255M (+38-53% YoY) + backlog $275M (+54% YoY) + Trump EO fixed-price contracting (OMB guidance due June 14 = 3 dni later); 'big space wins' pops June 11 — SpaceX IPO halo aktywny w calym sektorze space/defense",
-    "lesson": "Trump EO fixed-price contracting + OMB implementation deadline (2-3 dni ahead) = konkretny regulacyjny catalyst dla specjalistów fixed-price (VOYG); kombinacja: raised guidance + backlog +54% + bliska data OMB + SpaceX IPO halo = multi-catalyst stack; śledź OMB implementation deadlines dla Trump EO jako konkretnych dat eventów"
-  },
-  {
-    "ticker": "GLXG",
-    "pct": 192,
-    "day": "2026-06-11",
-    "presignal": "$200M shelf registration złożona (~June 3 2026) + ultra-low float + brak fundamentalnego katalizatora w dniu wzrostu; wzorzec identyczny z PAVS (+795% June 9) — low-float squeeze setup tygodnie przed spike; spółka: Galaxy Payroll Group (HR/payroll SaaS, NASDAQ micro-cap, $32M gotówki, 29 pracownikow); atak retailu bez newsow corporate",
-    "lesson": "Shelf registration $100M-$200M dla NASDAQ micro-cap (<$50M MCap) + ultra-low float = pre-squeeze marker tygodnie przed spike — wzorzec PAVS/GLXG; monitoruj nowe S-3/shelf registrations dla NASDAQ spolek z ultra-niskim float jako pre-pump watchlist; NIE kupowac po spiku, identyfikowac S-3 filing PRZED; koszt pominiecia: +192% jednego dnia"
-  },
-  {
-    "ticker": "SIDU",
-    "pct": 22,
-    "day": "2026-06-11",
-    "presignal": "MDA SHIELD IDIQ $151B ceiling (Golden Dome program) + Russell 2000/3000 forced buying June 26 (15 dni ahead June 11) + SpaceX IPO June 12 halo (T-1 day); micro-cap space/defense NASDAQ; pre-sygnaly byly dostepne tydzien wczesniej: SHIELD IDIQ + Russell inclusion announcement",
-    "lesson": "Russell 2000/3000 rebalancing forced buying 2 tygodnie przed efektywna data = mechaniczny catalyst dla small-cap; kombinacja: Russell inclusion + IPO halo + DoD program = trojny catalyst stack; śledź Russell rebalancing calendars (koniec czerwca) dla niedawno dodanych spolek small-cap space/defense"
-  },
-  {
-    "ticker": "BYAH",
-    "pct": 129,
-    "day": "2026-06-12",
-    "presignal": "NIEZNANY — Park Ha Biological Technology; premarket June 12 +129% na 26.2M akcji; chiński micro-cap NASDAQ; brak oczywistego fundamentalnego katalizatora; wzorzec identyczny z PAVS/GLXG (low-float squeeze bez newsow)",
-    "lesson": "Chiński micro-cap NASDAQ + brak newsów + premarket pump = wzorzec PAVS/GLXG; NIE KUPOWAC po spiku; identyfikowac pre-sygnaly (shelf registration, PIPE, compliance deadline) PRZED nie po; ten wzorzec jest już znany — nie jest to nowe przeoczenie, to potwierdzenie istniejącego wzorca"
-  },
-  {
-    "ticker": "DSY",
-    "pct": 103,
-    "day": "2026-06-12",
-    "presignal": "NIEZNANY — premarket June 12 +103% na 18M akcji; micro-cap NASDAQ; brak oczywistego fundamentalnego katalizatora; wzorzec pump/squeeze",
-    "lesson": "Kolejny potwierdzony pump wzorzec June 12 (BYAH + DSY jednocześnie = dual ticker pump, podobnie jak STAK+SDOT); dual ticker social media frenzy = skoordynowany retail pump; NIE gonić; potwierdza konieczność screenera pre-pump (shelf registrations, PIPE, compliance deadlines)"
-  },
-  {
-    "ticker": "CAST",
-    "pct": 161,
-    "day": "2026-06-13",
-    "presignal": "Ultra-low float micro-cap streaming (FreeCast Inc.) + severely distressed balance sheet (negative equity ~$7M, -2300% EBIT margin, $0.63M revenue) = pre-squeeze pump setup identyfikowalny z publicznego bilansu; wzorzec identyczny z INHD (June 8 +3660%) — streaming 'distribution deal' jako fasada dla pump; kontynuuje June 15 (+245.7% premarket)",
-    "lesson": "UNIKAC: ultra-distressed micro-cap z negatywnym equity + ultra-low float NASDAQ = pre-pump setup jak INHD; NIE KUPOWAC mimo identyfikowalnego pre-sygnalu — brak substancji; wzorzec: negative equity + revenue <$1M + ultra-low float = squeeze watchlist ale ZAWSZE PASS"
-  },
-  {
-    "ticker": "ROKU",
-    "pct": 20,
-    "day": "2026-06-13",
-    "presignal": "Evercore ISI raised target $185 (od $160) w tygodniu przed Bloomberg M&A story; Q1 2026 platform revenue +28% YoY $1.13B + guidance raised to ~$5B platform rev + EBITDA $675M dla 2026; stock recovering z poprzedniego weakness bez oczywistego powodu = pre-M&A pattern analogiczny NUVL (GSK buyout June 9); Bloomberg acquisition speculation opublikowane June 13 rano",
-    "lesson": "Large-cap streaming z analyst target upgrade (Evercore $185) + strong platform revenue growth + stock rebuilding bez wyraźnego katalizatora = pre-M&A pattern (wzorzec NUVL-GSK); śledź large-cap tech gdzie analyst agresywnie podnosi target + stock recovering z rout = buyout candidate radar; Evercore target raise 2 tyg. przed Bloomberg = actionable pre-sygnał"
-  },
-  {
-    "ticker": "VSME",
-    "pct": 67,
-    "day": "2026-06-15",
-    "presignal": "AI Smart Living pivot announcement June 10 2026 (dostępny 5 dni przed wzrostem +66.7%); BVI holding company + Singapore platform do ekspansji SE Asia ogłoszone; ultra-low float chiński NASDAQ micro-cap; wzorzec identyczny z CHAI/NTCL (catalyst stacking bez realnych przychodów); ale: $0 potwierdzonych umów, going-concern risk, brak coverage analityków",
-    "lesson": "VSME = CHAI-pattern ze wzrostem narratywu AI bez przychodów; pre-sygnał (AI pivot June 10) był dostępny 5 dni wcześniej; NIE KUPOWAC — spółka ma going-concern warning i $0 realnych umów AI; odróżniaj CHAI-pattern LEGITYMNY (realne JV z $) od CHAI-pattern PUMP (tylko narracja)"
-  },
-  {
-    "ticker": "NIXX",
-    "pct": 33,
-    "day": "2026-06-15",
-    "presignal": "Leadnova.ai acquisition (June 2025) → UAT announcement November 2025 → commercial beta target Q1 2026 → pełny launch commercial June 15 2026; czterostopniowy roadmap produktowy był widoczny przez cały czas; wolumen 91M vs avg 1.42M (64x normy) w dniu wzrostu; spółka telecom AI micro-cap NASDAQ ($29.1M kwartalny revenue, negative EBIT)",
-    "lesson": "Telecom AI micro-cap z 4-etapowym roadmapem produktowym (akwizycja platformy → UAT → beta launch → commercial launch) buduje pre-sygnał przez miesiące PRZED głównym spike; każdy etap (akwizycja, UAT, beta) to identyfikowalny checkpoint; wolumen 64x normy w dniu commercial launch = potwierdzenie"
-  },
-  {
-    "ticker": "APWC",
-    "pct": 35,
-    "day": "2026-06-18",
-    "presignal": "Q1 2026 revenue $130.8M (+30% YoY) opublikowany przed ruchem; stock handluje 0.07x sales i 0.21x book = ekstremalny deep value przy poprawiającej się rentowności (EPS $0.05 vs -$0.07 rok temu); capital raise ogłoszony na nowe zakłady produkcyjne + global supply chain realignment tailwind; wolumen 43.85M vs avg 4.97K (8,800x normy) June 18",
-    "lesson": "Deep value NASDAQ industrial (0.07x sales + Q1 revenue +30% YoY + EPS turnaround) może zignorować fundamenty przez miesiące zanim rynek odkryje wartość — spike 8,800x wolumenu bez specyficznego katalizatora tego dnia = pure value re-rating; śledź NASDAQ industrial/wire-cable z pct_1m <0% AND trailing 12m P/S <0.1x AND recent EPS turnaround = deep value squeeze kandidat"
-  },
-  {
-    "ticker": "KARD",
-    "pct": 38,
-    "day": "2026-06-18",
-    "presignal": "Upsized $400M IPO (z $350M = +14% vs plan) + MyoKardia pedigree management (firma założycieli MyoKardia przejętej przez BMS za $13B w 2020) + strong institutional demand potwierdzony upsize; KardAR001 oral HCM (hypertrophic cardiomyopathy) therapy Phase 2 pipeline; KARD zadebiutowała June 18 na NASDAQ",
-    "lesson": "Fresh IPO z UPSIZED offering (+14% vs plan) = pre-sygnał silnego popytu instytucjonalnego DZIEŃ 0 dostępny PRZED debiutem (cena ustalana dzień przed); zarząd z wysoce udanego precedensu (MyoKardia → BMS $13B) to pre-sygnał jakości; monitoring pricing date (upsized vs zakres = silny demand) + pedigree management = identyfikowalny sygnał wejścia aftermarket Day 1"
-  },
-  {
-    "ticker": "CDT",
-    "pct": 101,
-    "day": "2026-06-18",
-    "presignal": "Pre-sygnały PRZED June 18: (1) CDT Equity ogłosiło retirement $6.3M długu (kilka dni wczesniej) — balance sheet cleanup; (2) patent momentum announcement; (3) CDT holds 20% stake w Sarborg Ltd — fakt strukturalny znany wczesniej; Sarborg fundraise $638.3M ($127.5M stake dla CDT) ogłoszony June 18 rano = same-day catalyst; CDT MCap przed ruchem $6.5M vs stake $127.5M = 20x discount widoczny WCZESNIEJ",
-    "lesson": "Holding company z >= 20% stake w prywatnej firmie AI/quantum + debt retirement (balance sheet cleanup) + patent milestone = pre-sygnał valuation re-rating announcement od affiliated company; monitoruj: SEC filings z mention affiliated private company fundraising, debt retirement press releases dla micro-cap holding companies, sprawdź czy MCap < stake value = asymetryczna okazja"
-  },
-  {
-    "ticker": "CAST",
-    "pct": 170,
-    "day": "2026-06-18",
-    "presignal": "FreeCast (CAST) ogłosiło Starlink Business reseller agreement June 18 rano (same-day catalyst); spółka going-concern micro-cap streaming; CAST była już na radarze z +565% wzrostem w czerwcu (distressed streaming pattern June 13 +161%); drugi spike tej samej spółki w miesiącu na nowym katalizatorze",
-    "lesson": "Drugi spike w miesiącu dla tej samej distressed micro-cap streaming: wzorzec serial catalyst — ta sama spółka łapie kilka spike'ów na kolejnych newsach; marquee partnership (Starlink) = volatile spike dla going-concern micro-cap; NIE KUPOWAC — going concern + pct_1m 565% = parabola absolutna"
-  },
-  {
-    "ticker": "CAST",
-    "pct": 41,
-    "day": "2026-06-20",
-    "presignal": "Starlink broadband reseller partnership ogłoszony June 18 2026 (2 dni wcześniej) — third spike z rzędu dla tej samej spółki; CAST kontynuuje momentum po +161% (June 13) i +170% (June 18); serial catalyst pattern",
-    "lesson": "CAST wzorzec SERIAL_CATALYST_SAME_TICKER: 3 spike w miesiącu (+161% June 13, +170% June 18, +41% June 20); NIE KUPOWAC — spółka going-concern + pct_1m 565% = parabola absolutna bezwzględna; po 2+ spikach tej samej spółki stop śledzenia — każdy kolejny spike jest wewnątrz parabolicznej struktury"
-  },
-  {
-    "ticker": "INHD",
-    "pct": 700,
-    "day": "2026-06-08",
-    "presignal": "Dwa reverse splity w 6 miesięcy: 1-for-24 grudzień 2025 + 1-for-20 maj 2026 = ultra-low float setup identyfikowalny tygodnie wcześniej; $3M AI sales-agent development deal z HK AI provider ogłoszony June 8 = trigger; spółka Inno Holdings (INHD) NASDAQ micro-cap; T12 trading halt następnego dnia June 9",
-    "lesson": "Podwójny reverse split w <6 miesięcy = ultra-low float pre-pump setup; mały AI kontrakt ($3M development-only) + ultra-low float = micro-cap pump trigger; monitoruj spółki z 2+ reverse splitami w 6 miesiącach + każde AI/deal ogłoszenie = pre-squeeze watchlist; UWAGA: T12 halt następnego dnia = exit rule kluczowy"
-  },
-  {
-    "ticker": "SAGT",
-    "pct": 76,
-    "day": "2026-06-20",
-    "presignal": "$10.5M financing round completed March 2026 (znany ~90 dni przed wzrostem) + AI enterprise SaaS pivot z realnym revenue ($25.8M guidance) + warrant structure (do $21M additional); CEO shareholder letter z FY2026 guidance (+35% YoY) opublikowany June 20 rano = same-day trigger; Sagtec Global Limited NASDAQ micro-cap, Kuala Lumpur",
-    "lesson": "Malaysian/SE Asian NASDAQ enterprise software z ukończonym financing round + warrant structure + AI SaaS pivot = potencjał gwałtownego wzrostu na guidance announcement; wzorzec NIXX (commercial launch) ale tutaj: financing + guidance = analogiczny roadmap; śledź NASDAQ micro-cap SE Asian enterprise software z: (1) completed PIPE/financing, (2) AI narrative pivot, (3) pending guidance season"
-  },
-  {
-    "ticker": "VTAK",
-    "pct": 66,
-    "day": "2026-06-23",
-    "presignal": "S-1 resale registration filing June 22 dla 68.1M akcji (25x current float 2.69M akcji) — EDGAR filing dostępny DZIEŃ przed ruchem; Flyte-Volato PIPE investment $2.2M + AI-driven private aviation pivot ogłoszony June 23 premarket; PGA Tour partnership (Emiliano Grillo, US Open 2026)",
-    "lesson": "S-1 resale registration filing (megadylucja: 68M akcji na 2.69M float = 25x) + AI/aviation subsidiary pivot announcement + branding partnership = retail speculation pump; ZAWSZE PASS — dilution 25x float zabija długoterminową wartość akcji mimo krótkoterminowego +66%; wzorzec identyczny z GLXG ($200M shelf + ultra-low float)"
-  },
-  {
-    "ticker": "WEN",
-    "pct": 37,
-    "day": "2026-06-24",
-    "presignal": "8-K CFO appointment (Steve Cirulis, ex-Potbelly CFO) filed June 23 po zamknięciu giełdy = formalny pre-sygnał dostępny DZIEŃ WCZEŚNIEJ; high short interest ~34% free float = pre-meme squeeze setup; stock był przy 52-tyg low $6.07 (ekstremalne oversold); Wendy's Soars 37% — viral Reddit 'Save Wendy's' kampania koincydowała z CFO appointment",
-    "lesson": "CFO/CEO appointment 8-K (executive hire z prestiżowym background) dla spółki z SHORT INTEREST >30% float = pre-meme rally setup; kiedy stock jest przy 52-tyg low + exec hire + wysoki short interest = monitor retail platforms (Reddit r/WallStreetBets) następnego dnia rankiem; screener: spółki z short_float >25% + CFO/CEO change 8-K in last 24h = pre-meme watchlist"
-  },
-  {
-    "ticker": "RUN",
-    "pct": 24,
-    "day": "2026-06-24",
-    "presignal": "Q1 2026 revenue +43% YoY (dostępny kilka tygodni przed ruchem) + AI datacenter power demand narrative budowana od miesięcy (clean energy jako zasilanie AI farm) = stock pozycjonowany jako partner strategiczny; Tesla/Renew Home 16GW VPP framework deal ogłoszony June 24 rano (same-day 8-K = catalyst trudny do przewidzenia dokładnie); volume 5x normy w premarket June 24 = pierwszy czytelny sygnał",
-    "lesson": "Clean energy + AI datacenter power = M&A/partnership target narrative; kiedy 8-K partnership z marquee acquirer (Tesla) się pojawia = premarket volume 5x normy jest pierwszym sygnałem; monitoruj clean energy small/mid-cap z silnymi Q1 results + rosnącym AI datacenter power narrative jako watchlist dla partnerships; volume 5x w premarket = sygnał do decheckowania 8-K filing na SEC EDGAR"
-  },
-  {
-    "ticker": "IRDM",
-    "pct": 25,
-    "day": "2026-06-29",
-    "presignal": "Rocket Lab (RKLB) ogłosiło przejęcie Iridium za $8B ($54/akcję = $27 cash + RKLB stock, 24.1% premium) June 29 rano; IRDM skoczyło +25.4%; brak specyficznego pre-sygnału M&A transakcji przed ogłoszeniem — deal był 'bolt from blue' dla rynku; sektor space consolidation był dyskutowany ogólnie; IRDM handlowało normalnie dzień wcześniej",
-    "lesson": "Iridium-RKLB: $8B space consolidation = wzorzec NUVL-GSK (acquiree skacze 25%+ przy ogłoszeniu); pre-sygnał tej transakcji był trudny do wyodrębnienia — jednak: (1) RKLB nie miało doświadczenia w satelitach komunikacyjnych = aspiracyjna akwizycja; (2) space consolidation trend był widoczny (SpaceX dominacja wymuszała konsolidację; IRDM miał unikalny spectrum L-band + 66-sat LEO); lekcja: śledź spółki z unikatowym spectrum/infrastructure (IRDM, DISH) jako potencjalne targetami akwizycji w sektorach gdzie incumbents chcą przyspieszyć (launch → constellation → comm = naturalna trajektoria dla RKLB)"
-  },
-  {
-    "ticker": "RKLB",
-    "pct": 16,
-    "day": "2026-06-29",
-    "presignal": "RKLB było w naszych sygnałach z ceną $109.31 (anti-chase signal: pct_1m +28%, powyzej analyst avg $106.92 = CZEKAJ). W rzeczywistości RKLB handlowało ~$84-85 przed ogłoszeniem June 29 i zamknęło na $97.95 (+15.86%). Ogłoszenie przejęcia Iridium za $8B = same-day catalyst; Craig-Hallum podniósł target do $120. W sygnałach cena była przeszacowana o ~$25 vs realna cena.",
-    "lesson": "WAŻNA: nasza cena RKLB ($109.31) w sygnałach była BŁĘDNA — realna cena dzień przed wynosiła ~$84-85. Anti-chase na $109 był właściwy ALE z błędną ceną bazową. LEKCJA METADANYCH: zawsze weryfikuj ceny poprzez co najmniej 2 źródła; jedna strona może pokazywać intraday ATH nie closing price. Dla RKLB: deal z Iridium fundamentalnie zmienia spółkę — teraz $99 z celem $120 = +21%; pct_1m ~+17% < 25% = wejście możliwe po M&A dealach. WZORZEC NOWY: gdy acquirer (RKLB) +15% na ogłoszeniu akwizycji = rynek aprobuje deal jako value-creating = kontynuuj śledzić acquirera"
-  },
-  {
-    "ticker": "ALAB",
-    "pct": 16,
-    "day": "2026-06-29",
-    "presignal": "Astera Labs (ALAB) — lider optical interconnects dla AI datacenter hyperscalers (AWS, Meta, Google, Microsoft); Q1 2026 przychody +70%+ YoY; PCIe/CXL connectivity dla AI inference clusters = strukturalny popyt; S&P 500 inclusion spodziewana po rosnącym MCap; sektor semiconductor surge June 29 (ALAB+16%, KLA+12%, AMAT+11%); Nasdaq +2.07% broad risk-on day",
-    "lesson": "Astera Labs (ALAB) = AI inference interconnect plays surge na szerokim risk-on dniu semiconductor; pre-sygnał: spółki z 70%+ YoY revenue growth w AI infrastructure + nie-przesadzone wyceny mogą surgebować na broad sector risk-on; śledź AI datacenter optical/electrical interconnect specialists (ALAB, MRVL, SMCI) jako trailing AI infrastructure bet: nie tak medialne jak Nvidia ale fundamenty silne; wzorzec: AI infra semiconductor + broad risk-on NASDAQ = +15-20% outperformer"
-  },
-  {
-    "ticker": "AVAV",
-    "pct": 34,
-    "day": "2026-06-30",
-    "presignal": "Q4 FY2026 earnings (fiscal rok kończący się April 30) ogłoszone June 29 po zamknięciu — EPS $1.84 vs est. $1.49 (+23% beat) + revenue $641.6M vs est. $570M (+133% YoY); znana data earnings z wyprzedzeniem (kalendarz kwartalny) + poprzednie kwartały pokazywały przyspieszające tempo wzrostu drone/defense; reakcja +20% premarket June 30, do +34% w ciągu dnia mimo że część analityków obniżyła niektóre targety (mixed guidance)",
-    "lesson": "Drone/defense-tech (AVAV) earnings date był znany z wyprzedzeniem (kalendarz kwartalny) — pre-sygnał to nie sam beat, tylko: (1) przyspieszające tempo revenue w poprzednich kwartałach, (2) sektor drone/precision-strike już rozgrzany newsami (AVEX kontrakty USAF w tym samym tygodniu) = sector tailwind przed earnings; śledź kalendarz earnings dla defense/drone small-mid-cap z przyspieszającym trendem revenue jako 'earnings play' watchlist, szczególnie gdy peer (AVEX) ma świeże kontrakty w tym samym tygodniu"
-  },
-  {
-    "ticker": "ENPH",
-    "pct": 18,
-    "day": "2026-06-30",
-    "presignal": "Narrację 'AI datacenter power' budowano od kilku dni wcześniej (Trefis artykuł June 26: 'Enphase Just Found A New Story To Tell' o $2B solid-state transformer datacenter opportunity) + Barclays upgrade Underweight→Equal Weight PT $30→$51 tuż przed spikiem; June 30 rano: dołączenie do Open Compute Project jako Platinum member (AI datacenter power conversion) + speculacja o zakazie importu zagranicznych inverterów (national security) = potrójny katalizator w jednym dniu",
-    "lesson": "Analyst narrative-building (Trefis 4 dni wcześniej o nowej thesis 'AI datacenter power') + agresywny analyst upgrade tuż przed eventem (Barclays $30→$51) = pre-sygnał zmiany narracji dla dotychczas rozczarowującej spółki (solar/clean energy); śledź clean-energy/solar mid-cap gdzie pojawia się NOWA teza inwestycyjna (AI datacenter, importowe restrykcje) w publikacjach analitycznych 3-5 dni przed potencjalnym re-rating; kombinacja: nowa narracja + agresywny upgrade + polityczny katalizator (import ban) = multi-catalyst stack"
+    "day": "2026-07-02",
+    "presignal": "Nowa 'regulatory approval' dla platformy stablecoin (ten sam sektor/tydzien co USDE) - ale szczyt byl ~$1.50 i juz zaczela spadac do ~$1.05 = szczyt byl juz za newsem, nie po nim",
+    "lesson": "Gdy caly mikro-sektor (stablecoin infra: USDE+SDEV) pompuje jednoczesnie w tym samym tygodniu, to spekulacja sektorowa, nie firma-specific edge - trudne do timowania, wysokie ryzyko kupna szczytu"
   }
 ]
