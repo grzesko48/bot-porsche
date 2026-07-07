@@ -1454,5 +1454,26 @@
     "pct": 22.0,
     "presignal": "Nowa 'regulatory approval' dla platformy stablecoin (ten sam sektor/tydzien co USDE) - ale szczyt byl ~$1.50 i juz zaczela spadac do ~$1.05 = szczyt byl juz za newsem, nie po nim",
     "lesson": "Gdy caly mikro-sektor (stablecoin infra: USDE+SDEV) pompuje jednoczesnie w tym samym tygodniu, to spekulacja sektorowa, nie firma-specific edge - trudne do timowania, wysokie ryzyko kupna szczytu"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "LHSW",
+    "pct": 281.0,
+    "presignal": "CEO Yue Zhu kupil 2.4M akcji Class B za srednio $0.165/akcje (Lianyue Holding LLC) 30 czerwca 2026 - Form 4 zlozony kilka dni przed spike; spolka machine vision/AI (face recognition, intelligent transportation) w Chinach, NASDAQ micro-cap, ultra-niska cena bazowa",
+    "lesson": "CEO/insider buy przy ultra-niskiej cenie bazowej ($0.165) w chinskim NASDAQ micro-cap machine vision/AI = magnes psychologiczny podobny do wzorca AZI (insider commitment price); sledz Form 4 od foundera/CEO przy cenach <$0.50 w small-cap AI/vision - lead time ~5 dni"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "ZCMD",
+    "pct": 96.0,
+    "presignal": "1-for-3 share consolidation (reverse split) efektywny 6 lipca, zatwierdzony przez zarzad i akcjonariuszy 18 czerwca - czysto mechaniczny compliance move (utrzymanie Nasdaq Capital Market listing), brak nowego newsa fundamentalnego w dniu spike'u",
+    "lesson": "Kolejne potwierdzenie wzorca HKIT/NVVE/SNAL: zapowiedziana data efektywnosci reverse split (znana tygodnie wczesniej z uchwaly akcjonariuszy) generuje mechaniczna, krotkotrwala zmiennosc bez fundamentu - PRZYKLAD DO UNIKANIA, nie do kupowania na sam dzien splitu"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "KIDZ",
+    "pct": 85.0,
+    "presignal": "Nominacja do finalu 2026 EdTechX Award (Americas) + premierowy launch platformy robotyki KIDZBot (AI-native K-12 learning OS) oglaszane tego samego dnia - brak wyraznego pre-sygnalu z dnia wczesniejszego zidentyfikowanego w tej sesji",
+    "lesson": "Sledz liste finalistow EdTechX Awards dla small-cap edtech/AI (NASDAQ) jako potencjalny wczesny wskaznik - nominacje bywaja oglaszane z wyprzedzeniem przed launchem produktu, ktory dopiero staje sie realnym katalizatorem dnia; do dalszej weryfikacji czy sam finalist-nod wyprzedzal spike"
   }
 ]

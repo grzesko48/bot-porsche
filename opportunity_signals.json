@@ -1,7 +1,7 @@
 {
-  "_date": "2026-07-06",
-  "_run": "18:30 CEST (srodek sesji US)",
-  "_note": "Poniedzialek, srodek sesji US (rynek otwarty ~3h). Dow/S&P/Nasdaq rajd +2%/+1.8%/+2.1% po Independence Day - odbicie chipow (Kevin Warsh jako nowy Fed Chair zapowiada mniej forward guidance). DELL +8% do $427.50 po tym jak Trump osobiscie promowal firme podczas ceremonii otwarcia dzwonka NYSE/Nasdaq z Gabinetu Owalnego (launch programu 'Trump Accounts', do ktorego Michael i Susan Dell przekazuja $6B) - to juz KOLEJNY raz gdy Trump pompuje DELL, wiec ruch nie jest jednorazowy fluke. Largo (LGO) +kontrakt DLA $125M na vanad (National Defense Stockpile) vs mikroskopijna kapitalizacja ~$65-80M - kontrakt > kapitalizacji. AVAV/SPCX/BSP tezy z porannej rundy 14:30 nadal aktualne (Investor Day AVAV 8 lipca, Nasdaq-100 inclusion SPCX 7 lipca - JUTRO), ceny zaktualizowane. Ostatnia pelna sesja handlowa przed dzisiejsza: czwartek 2 lipca (3 lipca swieto, 4-5 lipca weekend) - brak nowych 'wczorajszych' duzych ruchow do retro ponad to, co juz zapisane w lowca_movers.json rano.",
+  "_date": "2026-07-07",
+  "_run": "przed otwarciem USA",
+  "_note": "Wtorek. Poniedzialek (6 lipca) rajd Dow/S&P/Nasdaq kontynuowany po Independence Day, DELL +Trump-pump nadal w grze. Najwieksze wczorajsze gainery (PFSA +2948%, NCRA +2886%, CGTL +1215%, SVC +403%) to mechaniczne artefakty reverse-split/consolidation (compliance) - NIE realne okazje, pominiete zgodnie z lekcja HKIT/NVVE/SNAL (pump-and-crash, nie kupowac). AVAV/LGO/SPCX/BSP tezy z poprzedniego biegu (6 lipca) nadal aktualne i wzmocnione swiezymi katalizatorami: SpaceX Nasdaq-100 inclusion jest DZIS (7 lipca, nie jutro), AeroVironment Investor Day JUTRO (8 lipca). Quantum stocks (RGTI/IONQ/QBTS) po EO Trumpa z 22 czerwca juz sfaded -20-25% w czerwcu, katalizator nieaktualny/w pelni wchloniety - pominiete.",
   "ipo": [
     {
       "ticker": "BSP",
@@ -9,40 +9,40 @@
       "age_months": 0,
       "price_usd": 36.58,
       "pct_1m": 26,
-      "catalyst": "IPO Nasdaq 1 lipca 2026 @ $29 (upsized, $1.68B raised) - wloski holding technologiczny (AOL, Vimeo, Eventbrite, Evernote); Q1 2026 przychod +132% YoY do $601.3M; dzien 1 szczyt $40.50, teraz $36.58 (+26% od ceny IPO, wciaz -10% od szczytu)",
+      "catalyst": "IPO Nasdaq 1 lipca 2026 @ $29 (upsized, $1.68B raised) - wloski holding technologiczny (AOL, Vimeo, Eventbrite, Evernote); Q1 2026 przychod +132% YoY do $601.3M; dzien 1 szczyt $40.50, teraz $36.58 (+26% od IPO, wciaz -10% od szczytu dnia debiutu)",
       "still_upside": true,
-      "upside_reason": "Realne przychody rosnace +132% YoY (nie story-stock bez fundamentow); zdywersyfikowane portfolio marek (AOL/Vimeo/Eventbrite) = rzadka w IPO tego typu stabilnosc cash-flow; cena wciaz ponizej szczytu dnia debiutu"
+      "upside_reason": "Realne przychody rosnace +132% YoY (nie story-stock bez fundamentow); zdywersyfikowane portfolio marek (AOL/Vimeo/Eventbrite) = rzadka stabilnosc cash-flow w IPO tego typu; cena wciaz ponizej szczytu debiutu, brak zmiany od wczoraj"
     }
   ],
   "volume": [
     {
       "ticker": "SPCX",
       "name": "Space Exploration Technologies Corp. (SpaceX)",
-      "price_usd": 162.00,
-      "pct_1m": 7,
-      "catalyst": "Nasdaq-100 inclusion 7 lipca 2026 (JUTRO) wymusza mechaniczny popyt instytucjonalny (~$4.3B forced buy) przy zaledwie ~3% wolnego floatu",
+      "price_usd": 160.96,
+      "pct_1m": 19,
+      "catalyst": "Nasdaq-100 inclusion efektywna DZIS, 7 lipca 2026 (przed otwarciem) - wymusza mechaniczny popyt instytucjonalny (~$4.3B z samego QQQ, do $27B z calego indeksu Russell/Nasdaq-100) przy zaledwie ~3-5% wolnego floatu",
       "still_upside": true,
-      "upside_reason": "Cena $162 to -28% od ATH $225.64 (16 czerwca), ale forced index buying na mikroskopijnym floacie to techniczny popyt niezalezny od sentymentu, wydarzenie jest JUTRO wiec katalizator jeszcze nie w pelni sie zmaterializowal; consensus target $210.86 (+31%), Moderate Buy"
+      "upside_reason": "Wydarzenie jest DZIS, nie jutro - forced buying jeszcze w trakcie materializacji; cena $160.96 to nadal ponizej ATH $225.64 (16 czerwca); Q1 2026 przychod $4.7B, Starlink >10M subskrybentow, $27.8B rocznego segmentu AI (Anthropic/Alphabet/Reflection AI); ekstremalnie niski float = techniczny popyt niezalezny od sentymentu"
     }
   ],
   "contract": [
     {
       "ticker": "AVAV",
       "name": "AeroVironment Inc.",
-      "price_usd": 192.50,
+      "price_usd": 190.89,
       "pct_1m": 35,
-      "catalyst": "Trump/DoD: $500M kontrakt US Army na system antydronowy Titan RF (wazny do 2029) + FY2026 Q4 beat (przychod $641.6M, +133% YoY, EPS $1.84 vs $1.47 est.) + backlog $1.2B (+65% YoY) + FY2027 guidance ~$2.2B przychodu; Investor Day 8 lipca 2026",
+      "catalyst": "Trump/DoD: $500M kontrakt US Army na system antydronowy Titan RF (wazny do czerwca 2029) + FY2026 Q4 beat (przychod $641.6M, +133% YoY, +15% powyzej estymacji) + Investor Day JUTRO, 8 lipca 2026 (aktualizacja guidance FY2027)",
       "still_upside": true,
-      "upside_reason": "Kontrakt $500M + podniesiony guidance FY2027 $2.2B (nie tylko beat przeszlego kwartalu) + Investor Day za 2 dni moze przyniesc kolejny katalizator = teza jeszcze nie w pelni wyceniona mimo +35%; wieloletni tailwind z budzetu obronnego NDAA FY2027 $1.15-1.5T"
+      "upside_reason": "Kontrakt $500M + Investor Day za 1 dzien moze przyniesc kolejny katalizator (guidance FY2027 ~$2.2B) - teza jeszcze nie w pelni wyceniona mimo +35%; wieloletni tailwind z budzetu obronnego NDAA FY2027 $1.15T+"
     },
     {
       "ticker": "LGO",
       "name": "Largo Inc.",
-      "price_usd": 0.80,
+      "price_usd": 0.85,
       "pct_1m": 27,
-      "catalyst": "Trump/DoD: 5-letni kontrakt IDIQ z Defense Logistics Agency na dostawe do 2876 ton wysokoczystego pentatlenku wanadu (V2O5) dla US National Defense Stockpile, maks. wartosc $125M, ogloszony 1 lipca 2026; ceny firm-fixed-price z premia do benchmarkow 2026 + eskalacja 10%/rok",
+      "catalyst": "Trump/DoD: 5-letni kontrakt IDIQ z Defense Logistics Agency na dostawe do 2876 ton wysokoczystego pentatlenku wanadu (V2O5) dla US National Defense Stockpile, maks. wartosc $125M, ogloszony 30 czerwca/1 lipca 2026",
       "still_upside": true,
-      "upside_reason": "Kontrakt maks. $125M vs kapitalizacja spolki tylko ~$65-80M (kontrakt > 100% kapitalizacji!) - wieloletnia dywersyfikacja przychodow dla producenta wanadu z Brazylii wczesniej zaleznego wylacznie od cyklicznej ceny surowca; ogloszenie 5 dni temu (1 lipca), rynek dopiero zaczyna to wyceniac, mala plynnosc = wysokie ryzyko ale asymetryczna okazja"
+      "upside_reason": "Kontrakt maks. $125M vs kapitalizacja spolki tylko ~$65-80M (kontrakt > 100% kapitalizacji!) - wieloletnia dywersyfikacja przychodow producenta wanadu z Brazylii wczesniej zaleznego wylacznie od cyklicznej ceny surowca; ogloszenie ~1 tydzien temu, rynek dopiero zaczyna to wyceniac, mala plynnosc = wysokie ryzyko ale asymetryczna okazja"
     }
   ],
   "insider": [],
@@ -51,22 +51,22 @@
     {
       "ticker": "SPCX",
       "name": "Space Exploration Technologies Corp. (SpaceX)",
-      "price_usd": 162.00,
-      "pct_1m": 7,
+      "price_usd": 160.96,
+      "pct_1m": 19,
       "catalyst": "Kongresmeni Dan Meuser (House Financial Services) i Gil Cisneros (House Armed Services - nadzoruje DoD, klienta SpaceX) zglosili zakupy SPCX w czerwcu tuz po IPO (12 czerwca)",
       "still_upside": true,
-      "upside_reason": "Konfluencja z grupa volume: kongresmeni kupuja + Nasdaq-100 forced buying JUTRO = dwa niezalezne zrodla popytu technicznego"
+      "upside_reason": "Konfluencja z grupa volume: kongresmeni kupili + Nasdaq-100 forced buying DZIS = dwa niezalezne zrodla popytu technicznego"
     }
   ],
   "policy": [
     {
       "ticker": "DELL",
       "name": "Dell Technologies Inc.",
-      "price_usd": 427.50,
-      "pct_1m": 3,
-      "catalyst": "Trump/Biały Dom: prezydent osobiscie zareklamowal Dell ('Go out and buy a Dell computer') podczas pierwszej w historii wspolnej ceremonii otwarcia dzwonka NYSE/Nasdaq z Gabinetu Owalnego (6 lipca), przy okazji launchu programu 'Trump Accounts' (Michael i Susan Dell przekazuja $6B na ten program); Trump ujawnil ze aktywnie handluje akcjami DELL",
+      "price_usd": 418.88,
+      "pct_1m": 8,
+      "catalyst": "Trump/Biały Dom: prezydent osobiscie zareklamowal Dell ('Go out and buy a Dell computer') 6 lipca podczas pierwszej wspolnej ceremonii otwarcia dzwonka NYSE/Nasdaq z Gabinetu Owalnego, przy launchu programu 'Trump Accounts' ($6B od Michael/Susan Dell); silne fundamenty - AI-server revenue $16.1B, +757% YoY",
       "still_upside": false,
-      "note": "Mega-cap ($300B+), to juz KOLEJNY epizod 'Trump-pump' na tej samej spolce (powtarzalny wzorzec, nie jednorazowy news) - ruch dnia +8% jest swiezy i pct_1m tylko ~3% (nie rozgrzane), ale brak nowego fundamentalnego katalizatora poza retoryka; niska konwiktcja co do trwalosci, ostroznie z rozmiarem pozycji"
+      "note": "Mega-cap ($300B+), to juz KOLEJNY epizod 'Trump-pump' na tej samej spolce (powtarzalny wzorzec, nie jednorazowy news) - +4.4% 6 lipca, ale brak nowego fundamentalnego katalizatora poza retoryka i silnym Q; niska konwiktcja co do trwalosci samego pump, ostroznie z rozmiarem pozycji"
     }
   ]
 }
