@@ -1,72 +1,135 @@
 {
-  "_date": "2026-07-07",
-  "_run": "srodsesyjny (18:30 CEST)",
-  "_note": "Wtorek, biezacy skan intraday po biegu przedrynkowym z 14:30. Brak nowych silnych swiezych katalizatorow ponad to, co juz zidentyfikowano rano - tezy AVAV/LGO/BSP podtrzymane. SPCX: Nasdaq-100 inclusion faktycznie nastapilo dzis rano, ale wiekszosc popytu pasywnego juz zrealizowana do otwarcia (buy-the-rumor-sell-the-news, cena $158.77 vs $160.96 rano, test wsparcia $149.92-155.93) - osłabiona teza forced-buying, ostroznosc z rozmiarem. AeroVironment Investor Day nadal JUTRO (8 lipca) - katalizator jeszcze przed nami. Sprawdzono Above Food (ABVE) merger z Palm Global - to STARA wiadomosc z lipca 2025 (nie swieza), pominieto. Brak nowych confirmed insider/13F/congress/policy sygnalow ponad SPCX (kongresmeni z czerwca, wciaz aktualne). Retro na wczorajsze gainery (6 lipca) juz wykonane w biegu porannym (lowca_movers.json) - bez zmian, ten sam dzien.",
+  "_date": "2026-07-08",
+  "_run": "przedrynkowy (14:30 CEST, srodek)",
+  "_note": "Sroda, rynek jeszcze nie otwarty w momencie skanu (14:40 CEST, otwarcie 15:30 CEST). Kluczowa zmiana dnia: Trump oglosil dzis zakonczenie zawieszenia broni z Iranem -> napiecia geopolityczne rosna, sektor obronny/ropa zyskuje, tech/AI pod presja. AVAV: dane cenowe niespojne miedzy zrodlami w tej sesji (restatement ksiegowy 22 czerwca zbil kurs, +Investor Day dzis) - uzyto ceny z dokladniejszego zrodla ($162.53, pct_1m -25%), traktowac z ostroznoscia mimo mocnego kontraktu DoD i zakupu kongresmena - to NIE jest czyste 'dip-buy', tylko podwyzszone ryzyko ksiegowe. BSP i QNT (IPO) juz bez swiezego katalizatora - furtka wygasla. CLRO/CRGT i CWD skrajnie rozgrzane (+340%/+100% mc) - poza zasiegiem bezpiecznika, tylko do obserwacji/unikania.",
   "ipo": [
     {
       "ticker": "BSP",
       "name": "Bending Spoons S.p.A.",
-      "age_months": 0,
-      "price_usd": 36.58,
-      "pct_1m": 26,
-      "catalyst": "IPO Nasdaq 1 lipca 2026 @ $29 (upsized, $1.68B raised) - wloski holding technologiczny (AOL, Vimeo, Eventbrite, Evernote); Q1 2026 przychod +132% YoY do $601.3M; brak zmiany od porannego sprawdzenia",
-      "still_upside": true,
-      "upside_reason": "Realne przychody rosnace +132% YoY (nie story-stock bez fundamentow); zdywersyfikowane portfolio marek = rzadka stabilnosc cash-flow w IPO tego typu; cena wciaz ponizej szczytu debiutu $40.50"
+      "price_usd": 37.15,
+      "pct_1m": 28.1,
+      "catalyst": "IPO Nasdaq 1 lipca @ $29 (wloski holding tech: AOL/Vimeo/Eventbrite/Evernote), Q1 przychod +132% YoY",
+      "still_upside": false,
+      "note": "brak swiezego katalizatora od 7 lipca, +28%/mc juz w strefie ostroznosci - furtka z rana wygasla"
+    },
+    {
+      "ticker": "QNT",
+      "name": "Quantinuum Inc.",
+      "price_usd": 74.56,
+      "pct_1m": 24,
+      "catalyst": "IPO 4 czerwca @ $60 (quantum computing), szczyt $82.30",
+      "still_upside": false,
+      "note": "brak nowego katalizatora w ostatnich 48h, blisko szczytu 52-tyg."
     }
   ],
   "volume": [
     {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies Corp. (SpaceX)",
-      "price_usd": 158.77,
-      "pct_1m": 19,
-      "catalyst": "Nasdaq-100 inclusion efektywna dzis rano (7 lipca); JPMorgan szacuje ~$4.3B pasywnego popytu z QQQ",
+      "ticker": "CLRO",
+      "name": "ClearOne Inc. (rebranding Cortigent Holdings)",
+      "price_usd": 10.36,
+      "pct_1m": 340,
+      "catalyst": "Reverse merger z Cortigent (spinoff Vivani Medical, implanty neurostymulacyjne), wolumen 41.4M akcji",
       "still_upside": false,
-      "note": "AKTUALIZACJA intraday: wiekszosc pasywnego popytu index-fund juz zrealizowana do zamkniecia 6 lipca / otwarcia 7 lipca - klasyczny wzorzec 'buy the rumor, sell the news' (cena spadla z $160.96 rano do $158.77, test wsparcia $149.92-155.93); niski float ograniczony insider lock-up do 6 sierpnia (earnings) - katalizator w duzej mierze juz wchloniety, ostroznosc z nowym wejsciem"
+      "note": "ekstremalnie spekulacyjne, mikrospolka, +340%/tydzien - poza zasiegiem bezpiecznika (>50%), tylko do obserwacji"
+    },
+    {
+      "ticker": "CWD",
+      "name": "CaliberCos Inc.",
+      "price_usd": 1.28,
+      "pct_1m": 100,
+      "catalyst": "Tokenizacja nieruchomosci przez Chainlink + zmiana CFO (2 lipca)",
+      "still_upside": false,
+      "note": "+100%/mc, katalizator sprzed 6 dni juz w cenie - poza zasiegiem bezpiecznika"
     }
   ],
   "contract": [
     {
-      "ticker": "AVAV",
-      "name": "AeroVironment Inc.",
-      "price_usd": 190.89,
-      "pct_1m": 35,
-      "catalyst": "Trump/DoD: $500M kontrakt US Army Titan RF (do czerwca 2029) + Q4 beat (+133% YoY) + Investor Day JUTRO 8 lipca (guidance FY2027)",
-      "still_upside": true,
-      "upside_reason": "Investor Day jutro moze przyniesc kolejny katalizator (guidance ~$2.2B); teza jeszcze nie w pelni wyceniona mimo +35%, bez zmian od porannego sprawdzenia"
-    },
-    {
       "ticker": "LGO",
       "name": "Largo Inc.",
       "price_usd": 0.85,
-      "pct_1m": 27,
-      "catalyst": "Trump/DoD: 5-letni kontrakt IDIQ z Defense Logistics Agency, V2O5 dla US National Defense Stockpile, maks. $125M, ogloszony ~30 czerwca/1 lipca 2026",
+      "pct_1m": 10.1,
+      "catalyst": "Trump/DoD: 5-letni kontrakt IDIQ z Defense Logistics Agency, V2O5 dla US National Defense Stockpile, maks. $125M (1 lipca 2026)",
       "still_upside": true,
-      "upside_reason": "Kontrakt maks. $125M vs kapitalizacja ~$65-80M (>100% kapitalizacji); rynek dopiero zaczyna wyceniac - dane cenowe z roznych zrodel niespojne w tej sesji (NASDAQ vs TSX), trzymam ostrozna wycene z rana"
+      "upside_reason": "kontrakt do $125M vs kapitalizacja ~$100-150M (realnie >50%), tylko +10%/mc, rynek dopiero zaczyna wyceniac"
+    },
+    {
+      "ticker": "AVAV",
+      "name": "AeroVironment Inc.",
+      "price_usd": 162.53,
+      "pct_1m": -25,
+      "catalyst": "Trump/DoD: $500M kontrakt US Army Titan RF, Puma $30.9M (Niemcy), JIATF-401 $80.5M; Investor Day dzis 8 lipca (FY27 guidance +10% revenue potwierdzone)",
+      "still_upside": false,
+      "note": "OSTROZNIE: accounting restatement 22 czerwca zbil kurs (-20% w czerwcu, dodatkowo -7% dzis mimo dobrego Investor Day) - rynek ignoruje mocne kontrakty z powodu watpliwosci ksiegowych; niespojne dane cenowe miedzy zrodlami w tej sesji, nie traktowac jako czysty dip-buy mimo ujemnego pct_1m"
+    },
+    {
+      "ticker": "KTOS",
+      "name": "Kratos Defense",
+      "price_usd": 55.02,
+      "pct_1m": -26,
+      "catalyst": "Kontrakt na system obrony powietrznej ~$36M (2 lipca) + rozbudowa fabryki Valkyrie/Firejet (6 lipca)",
+      "still_upside": false,
+      "note": "kontrakt zbyt maly wzgledem $10.3B kapitalizacji, korekta sektorowa"
     }
   ],
-  "insider": [],
+  "insider": [
+    {
+      "ticker": "HELE",
+      "name": "Helen of Troy",
+      "price_usd": 28.5,
+      "pct_1m": 5,
+      "catalyst": "Cluster buy: CEO (Uzzell) i CFO (Grass) kupili akcje na otwartym rynku",
+      "still_upside": true,
+      "upside_reason": "cena ~11% ponizej 52-tyg. maksimum ($31.98), insiderzy kupuja blisko dolkow, sygnal turnaround"
+    },
+    {
+      "ticker": "CUEN",
+      "name": "Cuentas Inc.",
+      "price_usd": 0.45,
+      "pct_1m": 61,
+      "catalyst": "CEO drobne zakupy 1-2 lipca (penny stock)",
+      "still_upside": false,
+      "note": "slaby sygnal (male kwoty), juz +61%/mc - poza zasiegiem bezpiecznika"
+    }
+  ],
   "fund13f": [],
   "congress": [
     {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies Corp. (SpaceX)",
-      "price_usd": 158.77,
-      "pct_1m": 19,
-      "catalyst": "Kongresmeni Dan Meuser i Gil Cisneros zglosili zakupy SPCX w czerwcu tuz po IPO (12 czerwca)",
+      "ticker": "AVAV",
+      "name": "AeroVironment Inc.",
+      "price_usd": 162.53,
+      "pct_1m": -25,
+      "catalyst": "Rep. Gil Cisneros (D-CA) kupil $15,001-$50,000, trade date 2026-06-30, zgloszone 2026-07-02, tuz po rajdzie na earnings",
       "still_upside": false,
-      "note": "Patrz uwaga w grupie volume - katalizator Nasdaq-100 w duzej mierze juz wchloniety w cene"
+      "note": "swieze zgloszenie kongresmena zbiega sie z kontraktami DoD i Investor Day - patrz uwaga o ryzyku ksiegowym w grupie contract"
     }
   ],
   "policy": [
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies Inc.",
-      "price_usd": 418.88,
-      "pct_1m": 8,
-      "catalyst": "Trump/Biały Dom: prezydent osobiscie zareklamowal Dell 6 lipca przy launchu 'Trump Accounts'; silne fundamenty AI-server +757% YoY",
+      "ticker": "RTX",
+      "name": "RTX Corp",
+      "price_usd": 186.39,
+      "pct_1m": 7,
+      "catalyst": "Trump/DoD: nacisk na potrojenie produkcji przechwytywaczy Patriot; Trump oglosil dzis zakonczenie zawieszenia broni z Iranem",
+      "still_upside": true,
+      "upside_reason": "backlog >$194B (sektorowo), FMS >$21B zatwierdzone dla partnerow bliskowschodnich, eskalacja geopolityczna swieza (dzis)"
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
+      "price_usd": 513.22,
+      "pct_1m": 10,
+      "catalyst": "Trump/DoD: ten sam katalizator co RTX (eskalacja Iran), backlog $95.7B",
+      "still_upside": true,
+      "upside_reason": "momentum swieze (ostatni tydzien), napedzane dzisiejsza eskalacja"
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "price_usd": 502.93,
+      "pct_1m": 3,
+      "catalyst": "Trump/DoD: Iran ceasefire 'over', nacisk na produkcje Patriot",
       "still_upside": false,
-      "note": "Mega-cap, powtarzalny wzorzec 'Trump-pump' bez nowego katalizatora dzis; niska konwiktcja co do trwalosci"
+      "note": "ruch juz slabszy niz RTX/NOC, mniej swiezy"
     }
   ]
 }
