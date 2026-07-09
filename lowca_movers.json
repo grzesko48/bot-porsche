@@ -5,5 +5,12 @@
     "day": "2026-07-08",
     "presignal": "Data raportu Q3 FY2026 znana z kalendarza (30 czerwca zamkniecie kwartalu); przyspieszajacy trend AI-driven revenue w poprzednich kwartalach (74% sprzedazy z AI, +104% r/r) + uznanie NVIDIA AI Factory Specialized Partner i Dell Technologies Global Alliances AI Partner of the Year (nagrody/partnerstwa czesto ogłaszane przed earnings) + segment memory rosnacy szybciej niz konsensus (Stifel: +60% k/k vs prognoza +46%)",
     "lesson": "Potwierdzenie wzorca AVAV (accelerating-revenue-before-earnings): AI-infra spolki z przyspieszajacym udzialem przychodow AI (>70% total sales, r/r wzrost >100%) + swiezo przyznane partnerstwo/nagroda (NVIDIA/Dell) w tygodniach przed earnings = pre-sygnal duzego beat & raise; sledz kalendarz earnings dla AI-infra/memory small-mid-cap gdzie ostatni kwartal pokazywal przyspieszenie, a rowniez nowe partner-of-the-year designations jako dodatkowy wskaznik"
+  },
+  {
+    "ticker": "BABA",
+    "pct": 12.0,
+    "day": "2026-07-08",
+    "presignal": "Sedzia federalny (N.D. Cal.) czasowo zablokowal Pentagonowi egzekwowanie zakazu lobbingu wobec Alibaba + doniesienia o ok. $600M ugodzie non-prosecution z DOJ krazyly 7 lipca (dzien wczesniej), zanim akcje na Hang Seng Tech skoczyly +12% 8 lipca; juz zlapane w opportunity_signals.json z rana 9 lipca (nie jest to przeoczenie)",
+    "lesson": "dwa rownolegle overhangi prawne (DOJ + Pentagon) rozwiazywane w tym samym tygodniu tuz przed wynikami to silny re-rating catalyst dla dużych, mocno przecenionych nazw (BABA nadal >40% ponizej 52-tyg. maks.) - sledz newsy sądowe/regulacyjne o duzych cap-ach z chinskiego sektora tech jako wyprzedzajacy sygnal przed skokiem"
   }
 ]

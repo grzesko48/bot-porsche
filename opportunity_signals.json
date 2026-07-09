@@ -1,46 +1,26 @@
 {
   "_date": "2026-07-09",
-  "_run": "przedrynkowy (14:30 CEST), czwartek, rynek jeszcze zamkniety w momencie skanu (otwarcie 15:30 CEST). Kontekst dnia: futures spadaja (S&P E-mini -0.8%, Nasdaq100 -1.2%) na podwyzszonej zmiennosci, ale kilka pojedynczych nazw ma swieze, silne katalizatory idiosynkratyczne (Alibaba +11% na uldze prawnej, Nebius +10.9%, Arista +8.8% na AI-infra risk-on). BSP/QNT z wczorajszego skanu - furtka nadal wygasla, brak nowego katalizatora, pominiete dzis. Q2 2026 13F nieopublikowane jeszcze (termin 14 sierpnia) - grupa fund13f pusta jak wczoraj.",
-  "ipo": [
-    {
-      "ticker": "ITG",
-      "name": "ITG Inc. (Oaktree-backed digital infrastructure)",
-      "price_usd": 13.67,
-      "pct_1m": -14.6,
-      "catalyst": "IPO 30 czerwca @ $16 (ponizej widelek $19-22), debiut +12.5% do $17.71 w dniu 1",
-      "still_upside": false,
-      "note": "brak momentum - cena spadla ponizej ceny IPO po 9 dniach notowan, PASS"
-    },
-    {
-      "ticker": "LIME",
-      "name": "Lime / Neutron Holdings",
-      "price_usd": 24.63,
-      "pct_1m": -1.5,
-      "catalyst": "IPO 1 lipca @ $25 (Uber-backed e-scooter/micromobility), otwarcie +8% do $27",
-      "still_upside": false,
-      "note": "konsoliduje sie ponizej ceny IPO (ATL $23.87 z 6 lipca), brak swiezego katalizatora - PASS"
-    }
-  ],
-  "volume": [
-    {
-      "ticker": "INVX",
-      "name": "Innovex International",
-      "price_usd": 24.80,
-      "pct_1m": -7.15,
-      "catalyst": "Nietypowy wolumen opcji call (~920x sredniej, strike $30 na 17 lipca, 5839 kontraktow vs OI 23) + dodanie do indeksow Russell (1 lipca) + zamknieta akwizycja TCO Group (1 lipca)",
-      "still_upside": false,
-      "note": "slabsze przekonanie - sektor oilfield services equipment, cena 33% ponizej sredniego celu analitykow i spada, ale to spekulacyjny call-buying bez potwierdzonego kierunku - tylko do obserwacji, NIE rekomendacja kupna"
-    }
-  ],
+  "_run": "srodsesyjny (18:30 CEST), czwartek, rynek otwarty ok. 3h. Kontekst dnia: USA wznowily naloty na Iran (Trump: ceasefire 'over'), ropa gwaltownie w gore (WTI +6.3%), ale Nasdaq w plusie (+~1%, semikondy +4% SOXX) - rynek ignoruje geopolityke i goni AI/chip momentum. Nowy swiezy katalizator idiosynkratyczny: nLIGHT (LASR) +28% dzis na kontrakcie DoW/Lockheed (laser weapons). BABA i ONDS z rana nadal aktualne (kontynuacja tezy, ceny bez istotnej zmiany). Wiekszosc dzisiejszych 'top gainers' to micro-cap biotech/pump (VRAX, JLHL, FBRX, SDOT) - odrzucone: SDOT ma going-concern warning + raport short-sellera (Fugazi Research) - unikac; FBRX to binarny pop na danych fazy 1b (male n=43) - klasyczny wzorzec runowania po skoku, nie gonic.",
+  "ipo": [],
+  "volume": [],
   "contract": [
+    {
+      "ticker": "LASR",
+      "name": "nLIGHT, Inc.",
+      "price_usd": 75.08,
+      "pct_1m": 12.45,
+      "catalyst": "Trump/DoW kontrakt: US Department of War oglosil dzis (9 lipca) poczatkowa transze $86M dla Lockheed Martin + nLIGHT w ramach szerszego $627M kontraktu Joint Laser Weapon System (JLWS) na lasery bojowe przeciw pociskom manewrujacym i dronom; nLIGHT +28% dzis. Kontrakt $627M vs kapitalizacja nLIGHT ok. $3-4.2B (~15-20%), spolka dopiero co pobila Q1 (przychod $80.2M vs konsensus $72.1M) i wprowadzila nowa linie produktow HADES (directed energy)",
+      "still_upside": true,
+      "upside_reason": "mimo +28% W JEDNYM DNIU, pct_1m tylko +12.45% (ponizej progu 25%) bo akcja byla plaska/spadala wczesniej w miesiacu - to nie pogon za gorka tylko swiezy re-rating; kontrakt to dopiero pierwsza transza wiekszego $627M programu, wiec katalizator sie dopiero zaczyna"
+    },
     {
       "ticker": "ONDS",
       "name": "Ondas Holdings",
       "price_usd": 7.54,
       "pct_1m": -22.0,
-      "catalyst": "Kontrakt/DoD-adjacent: Sentrycs (spolka zalezna) integruje Cyber-over-RF counter-drone tech z Lockheed Martin Sanctum Counter-UAS; Q2 2026 zamowienia obronne >$150M (+$40M w czerwcu); akwizycja DZYNE Technologies za $875.8M (ogloszona ok. 7 lipca)",
+      "catalyst": "Kontynuacja z rana: Sentrycs (spolka zalezna) integruje Cyber-over-RF counter-drone tech z Lockheed Martin Sanctum Counter-UAS; Q2 2026 zamowienia obronne >$150M; akwizycja DZYNE Technologies za $875.8M (~22% kapitalizacji)",
       "still_upside": true,
-      "upside_reason": "akwizycja DZYNE (~$875.8M) to ok. 22% obecnej kapitalizacji ($3.94B) - istotna wzgledem wielkosci spolki; rosnace zamowienia obronne + partnerstwo z Lockheed dopiero sie rozwijaja, a cena spadla -22%/mc (insider selling wczesniej odnotowane w newsach) - to potencjalny dip na fundamentalnym katalizatorze, nie pogon za gorka"
+      "upside_reason": "bez zmian wzgledem porannego skanu - akwizycja DZYNE i rosnace zamowienia obronne to katalizator wielotygodniowy, cena nadal -22%/mc, brak sygnalu ze teza pekla"
     }
   ],
   "insider": [],
@@ -50,11 +30,11 @@
     {
       "ticker": "BABA",
       "name": "Alibaba Group",
-      "price_usd": 108.97,
+      "price_usd": 108.78,
       "pct_1m": -7.0,
-      "catalyst": "Sedzia federalny (N.D. Cal.) czasowo zablokowal Pentagonowi egzekwowanie zakazu lobbingu wobec Alibaba (wpis na liste firm powiazanych z chinskim wojskiem) + ok. $600M ugoda non-prosecution z DOJ (koszt zdefiniowany, usuwa dlugoletni overhang prawny) - oba wydarzenia 7-8 lipca",
+      "catalyst": "Kontynuacja z rana: sedzia federalny czasowo zablokowal Pentagonowi zakaz lobbingu wobec Alibaba + ok. $600M ugoda non-prosecution z DOJ (7-8 lipca); HK-listowane akcje +12% 8 lipca, chmura AI nadal przyspiesza",
       "still_upside": true,
-      "upside_reason": "akcja wciaz ok. 43% ponizej 52-tyg. maksimum ($192.67) mimo +11% odbicia w ciagu 2 dni, dwa niezalezne overhangi prawne (DOJ + Pentagon) rozwiazane/zlagodzone tuz przed spodziewanymi wynikami kwartalnymi - to usuwanie ryzyka i re-rating, nie szczyt paraboli mikro-cap"
+      "upside_reason": "bez zmian wzgledem porannego skanu - akcja nadal ok. 40%+ ponizej 52-tyg. maksimum mimo odbicia, dwa overhangi prawne rozwiazane tuz przed wynikami - to usuwanie ryzyka, nie szczyt paraboli"
     }
   ]
 }
