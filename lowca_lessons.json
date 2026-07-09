@@ -1475,5 +1475,12 @@
     "pct": 85.0,
     "presignal": "Nominacja do finalu 2026 EdTechX Award (Americas) + premierowy launch platformy robotyki KIDZBot (AI-native K-12 learning OS) oglaszane tego samego dnia - brak wyraznego pre-sygnalu z dnia wczesniejszego zidentyfikowanego w tej sesji",
     "lesson": "Sledz liste finalistow EdTechX Awards dla small-cap edtech/AI (NASDAQ) jako potencjalny wczesny wskaznik - nominacje bywaja oglaszane z wyprzedzeniem przed launchem produktu, ktory dopiero staje sie realnym katalizatorem dnia; do dalszej weryfikacji czy sam finalist-nod wyprzedzal spike"
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "PENG",
+    "pct": 26.6,
+    "presignal": "Data raportu Q3 FY2026 znana z kalendarza (30 czerwca zamkniecie kwartalu); przyspieszajacy trend AI-driven revenue w poprzednich kwartalach (74% sprzedazy z AI, +104% r/r) + uznanie NVIDIA AI Factory Specialized Partner i Dell Technologies Global Alliances AI Partner of the Year (nagrody/partnerstwa czesto ogłaszane przed earnings) + segment memory rosnacy szybciej niz konsensus (Stifel: +60% k/k vs prognoza +46%)",
+    "lesson": "Potwierdzenie wzorca AVAV (accelerating-revenue-before-earnings): AI-infra spolki z przyspieszajacym udzialem przychodow AI (>70% total sales, r/r wzrost >100%) + swiezo przyznane partnerstwo/nagroda (NVIDIA/Dell) w tygodniach przed earnings = pre-sygnal duzego beat & raise; sledz kalendarz earnings dla AI-infra/memory small-mid-cap gdzie ostatni kwartal pokazywal przyspieszenie, a rowniez nowe partner-of-the-year designations jako dodatkowy wskaznik"
   }
 ]

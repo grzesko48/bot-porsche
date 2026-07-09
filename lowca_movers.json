@@ -1,44 +1,9 @@
 [
   {
-    "ticker": "MFP",
-    "pct": 455.39,
-    "day": "2026-07-07",
-    "presignal": "Spin-off od Middleby (MIDD) zapowiedziany i zaplanowany tygodnie wczesniej; 6 lipca GlobeNewswire potwierdzil start notowan 7 lipca",
-    "lesson": "sledz kalendarze spin-offow korporacyjnych - pierwszy dzien notowan przy niskim floacie generuje ekstremalne, czesto sztuczne wahania cenowe; uzywaj limitow, nie market order"
-  },
-  {
-    "ticker": "CRNX",
-    "pct": 98.74,
-    "day": "2026-07-07",
-    "presignal": "Vertex ogłosil przejecie za $85/akcje (~$10 mld) 6 lipca; insiderzy tylko sprzedawali (10b5-1), brak insider buy",
-    "lesson": "buyouty M&A sa niemal niemozliwe do przewidzenia legalnie; jedyny realny trop to nietypowy wzrost wolumenu opcji call/IV 1-3 dni wczesniej"
-  },
-  {
-    "ticker": "CLRO",
-    "pct": 97.71,
-    "day": "2026-07-07",
-    "presignal": "Umowa fuzji z Cortigent (spolka Vivani Medical) ogloszona juz 2 lipca, 8-K zlozony 6 lipca - rynek zareagowal z opoznieniem",
-    "lesson": "ustaw alerty na 8-K 'Entry into Material Definitive Agreement' - reverse merger/BCA malych spolek czesto ma wielodniowe opoznienie repricingu, mozna wejsc dnia ogloszenia zamiast dnia wybuchu"
-  },
-  {
-    "ticker": "TVRD",
-    "pct": 54.23,
-    "day": "2026-07-07",
-    "presignal": "Zaplanowany readout danych Fazy 1 dla STAT3 inhibitora TTI-109 - znany katalizator kliniczny",
-    "lesson": "korzystaj z kalendarzy katalizatorow biotech (np. biopharmcatalyst) - daty readoutow sa publiczne z wyprzedzeniem, mozna pozycjonowac sie pre-market"
-  },
-  {
-    "ticker": "SKIN",
-    "pct": 47.04,
-    "day": "2026-07-07",
-    "presignal": "NIEZNANY - wymaga dalszego zbadania (spolka pod $1 z deadline'em delistingu Nasdaq do 4 listopada; FDA clearance dla SkinStylus ogloszone tego samego dnia, wolumen 51x sredniej)",
-    "lesson": "skanuj sub-$1 spolki Nasdaq z deadline'em compliance i oczekujacymi wnioskami FDA - to gotowy setup pod short-squeeze przy dowolnej pozytywnej wiadomosci"
-  },
-  {
-    "ticker": "SKYQ",
-    "pct": 41.51,
-    "day": "2026-07-07",
-    "presignal": "Eskalacja w Ciesninie Ormuz (ataki na statki, ropa >$70) + wczesniej zapowiedziany start produkcji w rafinerii Foreland w lipcu",
-    "lesson": "obserwuj naglowki geopolityczne (Bliski Wschod) pod katem mikro-caps z ekspozycja na rope, ktore maja juz zapowiedziany operacyjny katalizator w tym samym miesiacu"
+    "ticker": "PENG",
+    "pct": 26.6,
+    "day": "2026-07-08",
+    "presignal": "Data raportu Q3 FY2026 znana z kalendarza (30 czerwca zamkniecie kwartalu); przyspieszajacy trend AI-driven revenue w poprzednich kwartalach (74% sprzedazy z AI, +104% r/r) + uznanie NVIDIA AI Factory Specialized Partner i Dell Technologies Global Alliances AI Partner of the Year (nagrody/partnerstwa czesto ogłaszane przed earnings) + segment memory rosnacy szybciej niz konsensus (Stifel: +60% k/k vs prognoza +46%)",
+    "lesson": "Potwierdzenie wzorca AVAV (accelerating-revenue-before-earnings): AI-infra spolki z przyspieszajacym udzialem przychodow AI (>70% total sales, r/r wzrost >100%) + swiezo przyznane partnerstwo/nagroda (NVIDIA/Dell) w tygodniach przed earnings = pre-sygnal duzego beat & raise; sledz kalendarz earnings dla AI-infra/memory small-mid-cap gdzie ostatni kwartal pokazywal przyspieszenie, a rowniez nowe partner-of-the-year designations jako dodatkowy wskaznik"
   }
 ]
