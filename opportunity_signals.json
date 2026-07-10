@@ -1,46 +1,46 @@
 {
-  "_date": "2026-07-09",
-  "_run": "przedrynkowy (14:30 CEST), czwartek, rynek jeszcze zamkniety w momencie skanu (otwarcie 15:30 CEST). Kontekst dnia: futures spadaja (S&P E-mini -0.8%, Nasdaq100 -1.2%) na podwyzszonej zmiennosci, ale kilka pojedynczych nazw ma swieze, silne katalizatory idiosynkratyczne (Alibaba +11% na uldze prawnej, Nebius +10.9%, Arista +8.8% na AI-infra risk-on). BSP/QNT z wczorajszego skanu - furtka nadal wygasla, brak nowego katalizatora, pominiete dzis. Q2 2026 13F nieopublikowane jeszcze (termin 14 sierpnia) - grupa fund13f pusta jak wczoraj.",
+  "_date": "2026-07-10",
+  "_run": "przedrynkowy (14:30 CEST), piatek, rynek jeszcze zamkniety w momencie skanu. Kontekst dnia: SK Hynix debiutuje na NASDAQ (SKHYV, najwieksze IPO zagranicznej spolki w historii USA, $29B), AVAV +10-20% na $500M kontrakcie Army C-UAS, ONDS kontynuuje ruch po DZYNE + podniesionym guidance, BABA nadal reaguje na rozwiazanie overhangow prawnych (DOJ + Pentagon) z 7-8 lipca. Q2 2026 13F nieopublikowane (termin 14 sierpnia) - grupa fund13f pusta. Brak swiezych klastrow insiderow ani kongresmenow spelniajacych prog jakosci - obie grupy puste.",
   "ipo": [
     {
-      "ticker": "ITG",
-      "name": "ITG Inc. (Oaktree-backed digital infrastructure)",
-      "price_usd": 13.67,
-      "pct_1m": -14.6,
-      "catalyst": "IPO 30 czerwca @ $16 (ponizej widelek $19-22), debiut +12.5% do $17.71 w dniu 1",
+      "ticker": "SKHYV",
+      "name": "SK Hynix Inc. (ADR)",
+      "price_usd": 158.14,
+      "pct_1m": 6.1,
+      "catalyst": "Debiut NASDAQ 10 lipca (najwieksze IPO zagranicznej spolki w historii USA, $29B, 7x oversubscribed); ADR wycenione na $149, otwarcie +6% do $158; HBM/AI memory supercycle tailwind (analogiczny do rajdu MU)",
       "still_upside": false,
-      "note": "brak momentum - cena spadla ponizej ceny IPO po 9 dniach notowan, PASS"
-    },
-    {
-      "ticker": "LIME",
-      "name": "Lime / Neutron Holdings",
-      "price_usd": 24.63,
-      "pct_1m": -1.5,
-      "catalyst": "IPO 1 lipca @ $25 (Uber-backed e-scooter/micromobility), otwarcie +8% do $27",
-      "still_upside": false,
-      "note": "konsoliduje sie ponizej ceny IPO (ATL $23.87 z 6 lipca), brak swiezego katalizatora - PASS"
+      "note": "dzien 1 notowan, brak historii miesiecznej (pct_1m = intraday pop vs cena IPO); zbyt swiezy i zmienny na konkretna rekomendacje - do obserwacji, ewentualnie po 2-3 dniach konsolidacji"
     }
   ],
   "volume": [
     {
-      "ticker": "INVX",
-      "name": "Innovex International",
-      "price_usd": 24.80,
-      "pct_1m": -7.15,
-      "catalyst": "Nietypowy wolumen opcji call (~920x sredniej, strike $30 na 17 lipca, 5839 kontraktow vs OI 23) + dodanie do indeksow Russell (1 lipca) + zamknieta akwizycja TCO Group (1 lipca)",
+      "ticker": "JLHL",
+      "name": "Julong Holding Limited",
+      "price_usd": 7.09,
+      "pct_1m": 220.0,
+      "catalyst": "Wolumen ~40x sredniej (41M vs avg 1.04M), +129% w jednej sesji (9 lipca) bez potwierdzonego katalizatora korporacyjnego (ostatni news to zmiana skladu zarzadu 16 czerwca)",
       "still_upside": false,
-      "note": "slabsze przekonanie - sektor oilfield services equipment, cena 33% ponizej sredniego celu analitykow i spada, ale to spekulacyjny call-buying bez potwierdzonego kierunku - tylko do obserwacji, NIE rekomendacja kupna"
+      "note": "wzorzec identyczny z STI z naszego dziennika lekcji (ekstremalny wolumen bez fundamentalnego katalizatora, mala kapitalizacja chinski listing) - PASS, juz mocno sparabolizowany (+220%/mc), obserwowac tylko pod katem dalszych Form 3/insider filings"
     }
   ],
   "contract": [
     {
+      "ticker": "AVAV",
+      "name": "AeroVironment",
+      "price_usd": 148.45,
+      "pct_1m": -8.0,
+      "catalyst": "Swiezy kontrakt: $500M firm-fixed-price US Army na commercial counter-UAS/counter-small-UAS (ogloszony ~8-9 lipca, <48h), plus wczesniejszy 133% revenue beat w Q-wynikach",
+      "still_upside": true,
+      "upside_reason": "mimo krotkoterminowej zmiennosci cena jest ok. 8% ponizej poziomu sprzed miesiaca (nie rozgrzana), $500M kontrakt to swiezy, konkretny katalizator obronny, analitycy Buy ze srednim celem $258 (+74% od obecnej ceny) - kontrakt dopiero zaczyna byc wyceniany"
+    },
+    {
       "ticker": "ONDS",
       "name": "Ondas Holdings",
-      "price_usd": 7.54,
-      "pct_1m": -22.0,
-      "catalyst": "Kontrakt/DoD-adjacent: Sentrycs (spolka zalezna) integruje Cyber-over-RF counter-drone tech z Lockheed Martin Sanctum Counter-UAS; Q2 2026 zamowienia obronne >$150M (+$40M w czerwcu); akwizycja DZYNE Technologies za $875.8M (ogloszona ok. 7 lipca)",
+      "price_usd": 7.82,
+      "pct_1m": -18.0,
+      "catalyst": "Kontynuacja katalizatora z akwizycji DZYNE Technologies ($875.8M, ok. 22% kapitalizacji) - spolka podniosla guidance revenue 2026 do $525M z $390M (7 lipca); integracja Sentrycs z Lockheed Martin Sanctum Counter-UAS",
       "still_upside": true,
-      "upside_reason": "akwizycja DZYNE (~$875.8M) to ok. 22% obecnej kapitalizacji ($3.94B) - istotna wzgledem wielkosci spolki; rosnace zamowienia obronne + partnerstwo z Lockheed dopiero sie rozwijaja, a cena spadla -22%/mc (insider selling wczesniej odnotowane w newsach) - to potencjalny dip na fundamentalnym katalizatorze, nie pogon za gorka"
+      "upside_reason": "cena wciaz ok. 18%/mc w dol i ponad 50% ponizej sredniego celu analitykow ($19.81, Needham Buy $19); podniesione guidance i rosnacy defense backlog dopiero zaczynaja byc wycenianie przez rynek - powtorka tezy z wczorajszego skanu, teza nienaruszona"
     }
   ],
   "insider": [],
@@ -50,11 +50,11 @@
     {
       "ticker": "BABA",
       "name": "Alibaba Group",
-      "price_usd": 108.97,
-      "pct_1m": -7.0,
-      "catalyst": "Sedzia federalny (N.D. Cal.) czasowo zablokowal Pentagonowi egzekwowanie zakazu lobbingu wobec Alibaba (wpis na liste firm powiazanych z chinskim wojskiem) + ok. $600M ugoda non-prosecution z DOJ (koszt zdefiniowany, usuwa dlugoletni overhang prawny) - oba wydarzenia 7-8 lipca",
+      "price_usd": 108.38,
+      "pct_1m": -5.0,
+      "catalyst": "Kontynuacja tezy z 7-8 lipca: sedzia federalny czasowo zablokowal Pentagonowi zakaz lobbingu wobec Alibaba + ok. $600M ugoda non-prosecution z DOJ; dodatkowo rosnace oczekiwania na wyniki kwartalne i AI/cloud momentum",
       "still_upside": true,
-      "upside_reason": "akcja wciaz ok. 43% ponizej 52-tyg. maksimum ($192.67) mimo +11% odbicia w ciagu 2 dni, dwa niezalezne overhangi prawne (DOJ + Pentagon) rozwiazane/zlagodzone tuz przed spodziewanymi wynikami kwartalnymi - to usuwanie ryzyka i re-rating, nie szczyt paraboli mikro-cap"
+      "upside_reason": "akcja nadal ok. 40%+ ponizej 52-tyg. maksimum mimo kilkudniowego odbicia, dwa niezalezne overhangi prawne rozwiazane/zlagodzone tuz przed wynikami - to usuwanie ryzyka i re-rating dużej, płynnej spolki, nie szczyt mikro-cap paraboli"
     }
   ]
 }
