@@ -1,6 +1,6 @@
 {
   "_date": "2026-07-10",
-  "_run": "przedrynkowy (14:30 CEST), piatek, rynek jeszcze zamkniety w momencie skanu. Kontekst dnia: SK Hynix debiutuje na NASDAQ (SKHYV, najwieksze IPO zagranicznej spolki w historii USA, $29B), AVAV +10-20% na $500M kontrakcie Army C-UAS, ONDS kontynuuje ruch po DZYNE + podniesionym guidance, BABA nadal reaguje na rozwiazanie overhangow prawnych (DOJ + Pentagon) z 7-8 lipca. Q2 2026 13F nieopublikowane (termin 14 sierpnia) - grupa fund13f pusta. Brak swiezych klastrow insiderow ani kongresmenow spelniajacych prog jakosci - obie grupy puste.",
+  "_run": "sesja srodsesyjna (18:30 CEST) - aktualizacja skanu przedrynkowego z 14:30. Rynek US otwarty od ok. 4h. Nowe katalizatory od 14:30: nLIGHT (LASR) +27% na $627M kontrakcie laserowym Pentagon/Dept. of War (Joint Laser Weapon System OTA); Circle (CRCL) +7-13% po zatwierdzeniu przez OCC narodowej trust bank charter dla USDC custody; SpaceX (SPCX) - potwierdzone zakupy kongresmenow (Cisneros, Armed Services Cmte) po IPO z 12.06, teraz konfluencja ipo+congress; Forte Biosciences (FBRX) +58% w 1 dzien na danych Phase 1b/2a bielactwo - juz sparabolizowane (pct_1m >100%), oczekiwane PASS. Poprzednie sygnaly z 14:30 (AVAV, ONDS, BABA, SKHYV, JLHL) pozostaja aktualne bez istotnych zmian tezy w ciagu dnia.",
   "ipo": [
     {
       "ticker": "SKHYV",
@@ -10,6 +10,15 @@
       "catalyst": "Debiut NASDAQ 10 lipca (najwieksze IPO zagranicznej spolki w historii USA, $29B, 7x oversubscribed); ADR wycenione na $149, otwarcie +6% do $158; HBM/AI memory supercycle tailwind (analogiczny do rajdu MU)",
       "still_upside": false,
       "note": "dzien 1 notowan, brak historii miesiecznej (pct_1m = intraday pop vs cena IPO); zbyt swiezy i zmienny na konkretna rekomendacje - do obserwacji, ewentualnie po 2-3 dniach konsolidacji"
+    },
+    {
+      "ticker": "SPCX",
+      "name": "SpaceX (Space Exploration Technologies Corp)",
+      "price_usd": 153.15,
+      "pct_1m": 13.0,
+      "catalyst": "IPO 12.06.2026 ($135, najwieksze IPO w historii, obecnie $2.01T MCap); po spike do $225.64 i korekcie do $147, teraz stabilizacja ~$150-153; Ark Invest (Cathie Wood) kupuje dolek",
+      "still_upside": false,
+      "note": "duza, plynna spolka (MCap $2T) - konfluencja z grupa congress (patrz nizej); pct_1m umiarkowany (+13%), nie rozgrzana ekstremalnie mimo ze byla juz +67% od IPO i skorygowala -34% od szczytu"
     }
   ],
   "volume": [
@@ -21,6 +30,15 @@
       "catalyst": "Wolumen ~40x sredniej (41M vs avg 1.04M), +129% w jednej sesji (9 lipca) bez potwierdzonego katalizatora korporacyjnego (ostatni news to zmiana skladu zarzadu 16 czerwca)",
       "still_upside": false,
       "note": "wzorzec identyczny z STI z naszego dziennika lekcji (ekstremalny wolumen bez fundamentalnego katalizatora, mala kapitalizacja chinski listing) - PASS, juz mocno sparabolizowany (+220%/mc), obserwowac tylko pod katem dalszych Form 3/insider filings"
+    },
+    {
+      "ticker": "FBRX",
+      "name": "Forte Biosciences",
+      "price_usd": 32.47,
+      "pct_1m": 120.0,
+      "catalyst": null,
+      "still_upside": false,
+      "note": "Wolumen 3.41M vs srednia 645K (~5.3x) po pozytywnych danych Phase 1b/2a FB102 w bielactwie (statystycznie istotna poprawa juz w 9. tyg.); ale +58% jednego dnia (20.56->32.47) i pct_1m >100% = wyrazna parabola, oczekiwane PASS wg reguly anti-chase >=50%/mc - klasyczny wzorzec binarnego eventu biotech juz w pelni wyceniony"
     }
   ],
   "contract": [
@@ -41,11 +59,30 @@
       "catalyst": "Kontynuacja katalizatora z akwizycji DZYNE Technologies ($875.8M, ok. 22% kapitalizacji) - spolka podniosla guidance revenue 2026 do $525M z $390M (7 lipca); integracja Sentrycs z Lockheed Martin Sanctum Counter-UAS",
       "still_upside": true,
       "upside_reason": "cena wciaz ok. 18%/mc w dol i ponad 50% ponizej sredniego celu analitykow ($19.81, Needham Buy $19); podniesione guidance i rosnacy defense backlog dopiero zaczynaja byc wycenianie przez rynek - powtorka tezy z wczorajszego skanu, teza nienaruszona"
+    },
+    {
+      "ticker": "LASR",
+      "name": "nLIGHT Inc",
+      "price_usd": 75.19,
+      "pct_1m": 13.5,
+      "catalyst": "Nowy kontrakt: Pentagon Joint Laser Weapon System OTA (Dept. of War), initial award $44M, ceiling do $627M na architekture obrony przeciw pociskom manewrujacym (ogloszony 9 lipca, <48h); Needham podniosl PT 80->90, Stifel 75->85; poprzedni kwartal +55% revenue r/r, nowa linia produktowa HADES directed-energy",
+      "still_upside": true,
+      "upside_reason": "pct_1m tylko +13.5% (baza z polowy czerwca $66.26) mimo ze jednodniowy pop wyniosl +27-28% - rynek dopiero zaczyna wyceniac kontrakt o ceilingu $627M (ok. 15% obecnej kapitalizacji $4.25B) plus dwa niezalezne podniesienia celow analitykow tego samego tygodnia"
     }
   ],
   "insider": [],
   "fund13f": [],
-  "congress": [],
+  "congress": [
+    {
+      "ticker": "SPCX",
+      "name": "SpaceX (Space Exploration Technologies Corp)",
+      "price_usd": 153.15,
+      "pct_1m": 13.0,
+      "catalyst": "Rep. Gil Cisneros (House Armed Services Committee, nadzoruje DoD - glownego klienta SpaceX) ujawnil zakup akcji SPCX 18.06.2026 tuz po IPO; rowniez Rep. Dan Meuser (Financial Services Cmte) zakup dla dziecka na utrzymaniu 15.06.2026 - pierwsze znane zakupy kongresmenow po rekordowym IPO",
+      "still_upside": false,
+      "note": "konfluencja z grupa ipo (ta sama spolka) - dwa niezalezne sygnaly na jednym tickerze"
+    }
+  ],
   "policy": [
     {
       "ticker": "BABA",
@@ -55,6 +92,15 @@
       "catalyst": "Kontynuacja tezy z 7-8 lipca: sedzia federalny czasowo zablokowal Pentagonowi zakaz lobbingu wobec Alibaba + ok. $600M ugoda non-prosecution z DOJ; dodatkowo rosnace oczekiwania na wyniki kwartalne i AI/cloud momentum",
       "still_upside": true,
       "upside_reason": "akcja nadal ok. 40%+ ponizej 52-tyg. maksimum mimo kilkudniowego odbicia, dwa niezalezne overhangi prawne rozwiazane/zlagodzone tuz przed wynikami - to usuwanie ryzyka i re-rating dużej, płynnej spolki, nie szczyt mikro-cap paraboli"
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group",
+      "price_usd": 68.0,
+      "pct_1m": -20.0,
+      "catalyst": "OCC (federalny regulator bankowy) zatwierdzil narodowa trust bank charter (Circle National Trust) dla custody rezerw USDC - decyzja regulacyjna 10.07.2026, akcja +7-13% w dniu decyzji",
+      "still_upside": true,
+      "upside_reason": "pct_1m ok. -20% (spadek z majowego szczytu $138 i czerwcowej wyprzedazy) - regulacyjne zatwierdzenie to swiezy, fundamentalny katalizator zmniejszajacy ryzyko regulacyjne, ale UWAGA: Compass Point ciol PT 97->55 na obawach o konkurencje (Stripe Open USD) - teza mieszana, mniejsza pozycja"
     }
   ]
 }

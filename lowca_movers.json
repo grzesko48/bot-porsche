@@ -19,5 +19,19 @@
     "day": "2026-07-09",
     "presignal": "Kontynuacja wzorca z naszego dziennika lekcji (Form 3 klaster z 24 marca) - wolumen 9 lipca ~40x sredniej (41M vs 1.04M) bez jasnego swiezego katalizatora korporacyjnego (ostatni news: zmiana zarzadu 16 czerwca); ten sam ticker byl juz identyfikowany jako lekcja w czerwcu",
     "lesson": "JLHL to POWTORKA juz znanej lekcji (Form 3 klaster + low float chinski listing na NASDAQ = pre-sygnal squeeze) - nie nowe przeoczenie, tylko kontynuacja wczesniej zidentyfikowanego wzorca; potwierdza wartosc tego screenera, ale bez nowego unikalnego insightu do dziennika"
+  },
+  {
+    "ticker": "ALNY",
+    "pct": 18.4,
+    "day": "2026-07-09",
+    "presignal": "Brak pre-sygnalu dla samej ALNY - ruch wywolany PORAZKA konkurenta: Ionis/AstraZeneca ogloszily 9 lipca rano, ze ich Phase 3 CARDIO-TTRansform (eplontersen/Wainua) nie spelnil primary endpoint w ATTR-CM; to 'bolt from blue' dla rynku, ale byl przewidywalny TERMIN readout (znany z kalendarza klinicznego od miesiecy)",
+    "lesson": "Gdy lider rynku (ALNY w ATTR-CM/RNAi, AMVUTTRA) ma bezposredniego konkurenta z pivotal trial readout w nadchodzacych tygodniach, to asymetryczny zaklad: porazka konkurenta = skok lidera bez wlasnego newsa. Sledz kalendarz odczytow Phase 3 bezposrednich konkurentow (clinicaltrials.gov) w indykacjach, gdzie mamy jasnego 'incumbent' lidera - pozycjonuj sie w liderze PRZED data readoutu konkurenta, nie po fakcie"
+  },
+  {
+    "ticker": "MARA",
+    "pct": 12.0,
+    "day": "2026-07-09",
+    "presignal": "Ogloszenie zakupu ziemi/mocy od HIF USA (Matagorda County, TX, ok. 1200 akrow, do $600M) rozszerzajace power capacity do 4.8GW pod pivot z bitcoin miningu do HPC/AI compute; kilka dni wczesniej Citizens zainicjowal pokrycie z ocena Outperform i celem $24 (2x obecnej ceny), podkreslajac teze HPC-pivot",
+    "lesson": "Bitcoin miner + swiezy analyst initiation z teza 'pivot do HPC/AI compute' (nie czysty mining) + kolejne ogloszenie zakupu ziemi/mocy w ciagu tego samego tygodnia = multi-catalyst stack w sektorze crypto-infra->AI-infra; sledz initiation reports z nowa teza HPC dla miners (MARA, RIOT, CLSK) jako wyprzedzajacy sygnal przed kolejnymi ogloszeniami power/land deals"
   }
 ]
