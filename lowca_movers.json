@@ -1,23 +1,30 @@
 [
   {
-    "ticker": "GIPR",
-    "pct": 1025.61,
-    "day": "2026-07-09",
-    "presignal": "1-for-10 reverse split ogloszony 8 lipca (efektywny 9 lipca 17:00 ET) w celu odzyskania zgodnosci z NASDAQ min. $1.00 bid price; spolka wczesniej ostrzegala o ryzyku delistingu (8-K o material event) - split byl zapowiedziany publicznie dzien wczesniej",
-    "lesson": "Reverse split effective date + ultra-niski free float po splicie = mechaniczny pre-sygnal ekstremalnej zmiennosci pierwszego dnia notowan post-split (podobnie jak AZI); sledz zapowiedzi reverse split (8-K) z efektywna data w ciagu 24-48h - pierwszy dzien post-split czesto generuje wielokrotnosci ceny na cienkim wolumenie, ale to spekulacyjny szum mechaniczny a nie fundamentalny katalizator - do obserwacji, NIE kupowac (brak fundamentow)"
+    "ticker": "JZXN",
+    "pct": 70.09,
+    "day": "2026-07-10",
+    "presignal": "Brak jasnego swiezego newsa fundamentalnego w dniu spike'u - niski free float, chinska spolka EV/battery-swap (Jiuzi Holdings); ten sam ticker mial juz analogiczny nieuzasadniony newsem spike 11 maja 2026 ('JZXN Stock Volatility Draws Day Traders Attention') - powtarzajacy sie wzorzec low-float momentum bez katalizatora",
+    "lesson": "JZXN to seryjny low-float 'runner' (co najmniej 2 nieuzasadnione newsem spike'i w 2026: maj i lipiec) - sledzic historie powtarzajacych sie tickerow z ultra-niskim floatem jako wzorzec rozpoznawczy, ale traktowac jako sygnal do OBSERWACJI/UNIKANIA (czysty sentyment/social momentum), nie do kupowania - brak edge'u fundamentalnego"
   },
   {
-    "ticker": "VRAX",
-    "pct": 259.75,
-    "day": "2026-07-09",
-    "presignal": "Multi-country commercial supply agreement z Fosun Diagnostics (ImmuneSelect, Azja Poludniowo-Wschodnia) ogloszony 9 lipca rano; spolka juz byla w silnym trendzie wzrostowym od konca czerwca (z $0.13-0.17 do niskich $3 na poczatku lipca) na wczesniejszych newsach - kontrakt z Fosun byl kolejnym stopniem eskalacji, nie pojedynczym zaskoczeniem",
-    "lesson": "Micro-cap biotech z rosnacym cash (tu $6.4M) + seria komercyjnych partnerstw dystrybucyjnych (kolejne kraje/rynki) w ciagu 1-2 tygodni = eskalujacy momentum pattern podobny do catalyst stacking (NTCL/CHAI); ale P/S ekstremalnie wysoki i przychody znikome - klasyczny sentyment/momentum play, wysokie ryzyko odwrocenia (por. LEGN/BCDA runa po wzroscie z naszych danych)"
+    "ticker": "SUNE",
+    "pct": 55.74,
+    "day": "2026-07-10",
+    "presignal": "Naglowek 'zwyciestwo kontraktu clean-energy' ogloszony w dniu spike'u, ale rownolegle ujawniono warunki fuzji z Suniva pozostawiajace obecnym akcjonariuszom SUNE tylko ok. 1.8% polaczonej spolki - highly dilutive merger schowany pod pozytywnym naglowkiem",
+    "lesson": "Gdy 'kontrakt/zwyciestwo' pojawia sie tego samego dnia co warunki fuzji, ZAWSZE sprawdzic strukture dilucji przed potraktowaniem popu jako buyable - tu fundamenty byly mocno negatywne (1.8% dla obecnych akcjonariuszy) mimo pozytywnego newsa na pierwszy rzut oka"
   },
   {
-    "ticker": "JLHL",
-    "pct": 317.97,
-    "day": "2026-07-09",
-    "presignal": "Kontynuacja wzorca z naszego dziennika lekcji (Form 3 klaster z 24 marca) - wolumen 9 lipca ~40x sredniej (41M vs 1.04M) bez jasnego swiezego katalizatora korporacyjnego (ostatni news: zmiana zarzadu 16 czerwca); ten sam ticker byl juz identyfikowany jako lekcja w czerwcu",
-    "lesson": "JLHL to POWTORKA juz znanej lekcji (Form 3 klaster + low float chinski listing na NASDAQ = pre-sygnal squeeze) - nie nowe przeoczenie, tylko kontynuacja wczesniej zidentyfikowanego wzorca; potwierdza wartosc tego screenera, ale bez nowego unikalnego insightu do dziennika"
+    "ticker": "NVVE",
+    "pct": 54.33,
+    "day": "2026-07-10",
+    "presignal": "Kontynuacja mechanicznego wzorca reverse split/compliance juz zidentyfikowanego w dzienniku lekcji (HKIT/NVVE/SNAL, wpis z 7 lipca dot. ZCMD) - brak nowego fundamentalnego katalizatora w dniu spike'u",
+    "lesson": "NVVE potwierdza juz znany wzorzec (nie nowe przeoczenie) - mechaniczne zdarzenia korporacyjne (reverse split/compliance) w small-cap generuja krotkotrwala zmiennosc bez fundamentu; dalsze wzmocnienie tezy: PASS/unikac, nie gonic"
+  },
+  {
+    "ticker": "ZBAO",
+    "pct": 38.72,
+    "day": "2026-07-10",
+    "presignal": "Brak zidentyfikowanego jasnego katalizatora korporacyjnego w dostepnych zrodlach - chinski micro-cap (Zhibao Tech) z niskim floatem, ruch wygladajacy na czysto mechaniczny/spekulacyjny (thin float)",
+    "lesson": "Chinskie micro-capy z niskim floatem moga ruszac sie skokowo bez identyfikowalnego newsa (samej mechaniki cienkiego wolumenu/social hype) - niski edge predykcyjny, nie warto probowac timowac wejscia bez konkretnego katalizatora"
   }
 ]
