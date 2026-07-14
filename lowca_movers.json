@@ -1,30 +1,9 @@
 [
   {
-    "ticker": "JZXN",
-    "pct": 70.09,
-    "day": "2026-07-10",
-    "presignal": "Brak jasnego swiezego newsa fundamentalnego w dniu spike'u - niski free float, chinska spolka EV/battery-swap (Jiuzi Holdings); ten sam ticker mial juz analogiczny nieuzasadniony newsem spike 11 maja 2026 ('JZXN Stock Volatility Draws Day Traders Attention') - powtarzajacy sie wzorzec low-float momentum bez katalizatora",
-    "lesson": "JZXN to seryjny low-float 'runner' (co najmniej 2 nieuzasadnione newsem spike'i w 2026: maj i lipiec) - sledzic historie powtarzajacych sie tickerow z ultra-niskim floatem jako wzorzec rozpoznawczy, ale traktowac jako sygnal do OBSERWACJI/UNIKANIA (czysty sentyment/social momentum), nie do kupowania - brak edge'u fundamentalnego"
-  },
-  {
-    "ticker": "SUNE",
-    "pct": 55.74,
-    "day": "2026-07-10",
-    "presignal": "Naglowek 'zwyciestwo kontraktu clean-energy' ogloszony w dniu spike'u, ale rownolegle ujawniono warunki fuzji z Suniva pozostawiajace obecnym akcjonariuszom SUNE tylko ok. 1.8% polaczonej spolki - highly dilutive merger schowany pod pozytywnym naglowkiem",
-    "lesson": "Gdy 'kontrakt/zwyciestwo' pojawia sie tego samego dnia co warunki fuzji, ZAWSZE sprawdzic strukture dilucji przed potraktowaniem popu jako buyable - tu fundamenty byly mocno negatywne (1.8% dla obecnych akcjonariuszy) mimo pozytywnego newsa na pierwszy rzut oka"
-  },
-  {
-    "ticker": "NVVE",
-    "pct": 54.33,
-    "day": "2026-07-10",
-    "presignal": "Kontynuacja mechanicznego wzorca reverse split/compliance juz zidentyfikowanego w dzienniku lekcji (HKIT/NVVE/SNAL, wpis z 7 lipca dot. ZCMD) - brak nowego fundamentalnego katalizatora w dniu spike'u",
-    "lesson": "NVVE potwierdza juz znany wzorzec (nie nowe przeoczenie) - mechaniczne zdarzenia korporacyjne (reverse split/compliance) w small-cap generuja krotkotrwala zmiennosc bez fundamentu; dalsze wzmocnienie tezy: PASS/unikac, nie gonic"
-  },
-  {
-    "ticker": "ZBAO",
-    "pct": 38.72,
-    "day": "2026-07-10",
-    "presignal": "Brak zidentyfikowanego jasnego katalizatora korporacyjnego w dostepnych zrodlach - chinski micro-cap (Zhibao Tech) z niskim floatem, ruch wygladajacy na czysto mechaniczny/spekulacyjny (thin float)",
-    "lesson": "Chinskie micro-capy z niskim floatem moga ruszac sie skokowo bez identyfikowalnego newsa (samej mechaniki cienkiego wolumenu/social hype) - niski edge predykcyjny, nie warto probowac timowac wejscia bez konkretnego katalizatora"
+    "ticker": "BRAI",
+    "pct": 57.0,
+    "day": "2026-07-13",
+    "presignal": "Brak zidentyfikowanego wyraznego pre-sygnalu dzien wczesniej - australijska micro-cap spolka AI (Braiin, NASDAQ) oglosila premiere agentowej platformy 'ARIA' (Agentic Real Estate Intelligence and Automation) dla rynku nieruchomosci tego samego dnia co spike (globalny rynek software real estate szacowany na $32B do 2033); typowy wzorzec launch-day bez wczesniejszego teasera medialnego",
+    "lesson": "Micro-cap 'vertical AI agent' product launches (np. real estate, legal, healthcare) moga generowac 50%+ jednodniowy pop na samym ogloszeniu bez wczesniejszego pre-sygnalu w mediach - trudne do zlapania z wyprzedzeniem tym samym schematem co inne launch-day katalizatory; monitorowac zapowiedzi/rejestracje produktow (np. trademark filings, teaser posty na LinkedIn/X spolki kilka dni wczesniej) jako ewentualny wczesniejszy trop, ale traktowac jako kategorie wysokiego ryzyka FOMO, nie edge do systematycznego gonienia"
   }
 ]
