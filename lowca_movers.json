@@ -1,30 +1,9 @@
 [
   {
-    "ticker": "JZXN",
-    "pct": 70.09,
-    "day": "2026-07-10",
-    "presignal": "Brak jasnego swiezego newsa fundamentalnego w dniu spike'u - niski free float, chinska spolka EV/battery-swap (Jiuzi Holdings); ten sam ticker mial juz analogiczny nieuzasadniony newsem spike 11 maja 2026 ('JZXN Stock Volatility Draws Day Traders Attention') - powtarzajacy sie wzorzec low-float momentum bez katalizatora",
-    "lesson": "JZXN to seryjny low-float 'runner' (co najmniej 2 nieuzasadnione newsem spike'i w 2026: maj i lipiec) - sledzic historie powtarzajacych sie tickerow z ultra-niskim floatem jako wzorzec rozpoznawczy, ale traktowac jako sygnal do OBSERWACJI/UNIKANIA (czysty sentyment/social momentum), nie do kupowania - brak edge'u fundamentalnego"
-  },
-  {
-    "ticker": "SUNE",
-    "pct": 55.74,
-    "day": "2026-07-10",
-    "presignal": "Naglowek 'zwyciestwo kontraktu clean-energy' ogloszony w dniu spike'u, ale rownolegle ujawniono warunki fuzji z Suniva pozostawiajace obecnym akcjonariuszom SUNE tylko ok. 1.8% polaczonej spolki - highly dilutive merger schowany pod pozytywnym naglowkiem",
-    "lesson": "Gdy 'kontrakt/zwyciestwo' pojawia sie tego samego dnia co warunki fuzji, ZAWSZE sprawdzic strukture dilucji przed potraktowaniem popu jako buyable - tu fundamenty byly mocno negatywne (1.8% dla obecnych akcjonariuszy) mimo pozytywnego newsa na pierwszy rzut oka"
-  },
-  {
-    "ticker": "NVVE",
-    "pct": 54.33,
-    "day": "2026-07-10",
-    "presignal": "Kontynuacja mechanicznego wzorca reverse split/compliance juz zidentyfikowanego w dzienniku lekcji (HKIT/NVVE/SNAL, wpis z 7 lipca dot. ZCMD) - brak nowego fundamentalnego katalizatora w dniu spike'u",
-    "lesson": "NVVE potwierdza juz znany wzorzec (nie nowe przeoczenie) - mechaniczne zdarzenia korporacyjne (reverse split/compliance) w small-cap generuja krotkotrwala zmiennosc bez fundamentu; dalsze wzmocnienie tezy: PASS/unikac, nie gonic"
-  },
-  {
-    "ticker": "ZBAO",
-    "pct": 38.72,
-    "day": "2026-07-10",
-    "presignal": "Brak zidentyfikowanego jasnego katalizatora korporacyjnego w dostepnych zrodlach - chinski micro-cap (Zhibao Tech) z niskim floatem, ruch wygladajacy na czysto mechaniczny/spekulacyjny (thin float)",
-    "lesson": "Chinskie micro-capy z niskim floatem moga ruszac sie skokowo bez identyfikowalnego newsa (samej mechaniki cienkiego wolumenu/social hype) - niski edge predykcyjny, nie warto probowac timowac wejscia bez konkretnego katalizatora"
+    "ticker": "AGEN",
+    "pct": 115.0,
+    "day": "2026-07-13",
+    "presignal": "Brak jasnego pre-sygnalu z dnia wczesniejszego (12 lipca) - wszystkie trzy katalizatory (private placement $85-340M, 3-letnie dane Phase 1b BOT+BAL w raku jelita grubego, podniesienie celu HC Wainwright $23->$30) zostaly ogloszone TEGO SAMEGO dnia co spike (13 lipca); wolumen eksplodowal do ok. 158M akcji vs srednia 1.9M (ok. 80x)",
+    "lesson": "Nie kazdy duzy ruch ma wyprzedzajacy sygnal - potrojny stack katalizatorow (finansowanie + dane kliniczne + upgrade analityka) oglaszany tego samego dnia moze wywolac ruch >100% bez mozliwego wczesniejszego zlapania; ale UWAGA: taki ruch czesto towarzyszy silnemu rozwodnieniu (tu potencjalne ~3x zwiekszenie liczby akcji) - nawet gdyby zlapac go na czas, wysokie ryzyko nastepnego dnia; nie gonic post-factum, to kolejny przyklad wzorca run-then-fade z biotech micro-cap"
   }
 ]

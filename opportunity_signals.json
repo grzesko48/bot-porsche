@@ -1,49 +1,70 @@
 {
-  "_date": "2026-07-13",
-  "_run": "srodsesyjny (18:30 CEST), poniedzialek, rynek USA otwarty ok. 6.5h w momencie skanu. NOWY swiezy katalizator dnia: Trump ponownie nalozyl blokade Cieśniny Ormuz na statki Iranu (ogloszone 12 lipca, po wymianie uderzen USA-Iran w weekend, <48h), ropa Brent +5.3% do ok. $80/brk, WTI +5.3% do ok. $75; prezydent zadal 20% oplaty reimbursement od ladunku. To eskalacja konfliktu, nie nowy news pojedynczy - dotyka realnie tankowce (dluzsze/drozsze trasy) i obronnosc (podwyzszone ryzyko regionalne, kontrakty). FRO/LMT/NOC dodane do policy z cenami i pct_1m (wszystkie ponizej progu +25%/mc, katalizator dopiero zaczyna byc wyceniany). WULF/AVAV/BABA - tezy z 10-13 lipca nienaruszone, ceny odswiezone (bez istotnej zmiany od porannego skanu). ONDS - dodano ostrzezenie: 7 i 10 lipca zlozono resale filing na 3.4M akcji (bez wplywu gotowki, insider/holder selling) - overhang dla ceny, ale teza DZYNE guidance nienaruszona, furtka utrzymana z nizszym przekonaniem. EQPT bez zmian (short-seller spor nierozstrzygniety). Brak swiezych klastrow insiderow, ruchow 13F (Q2 termin 14 sierpnia), kongresmenow ani nietypowego wolumenu spelniajacego prog jakosci na dzis - te grupy puste.",
+  "_date": "2026-07-14",
+  "_run": "przedrynkowy (14:30 CEST), wtorek, przed otwarciem USA. Kontynuacja eskalacji Ciesniny Ormuz: trzecia noc z rzedu uderzen USA na Iran (w nocy z 13 na 14 lipca), Trump podtrzymuje blokade + 20% oplate za eskorte, WTI ~$78 (blisko miesiecznego maksimum), Brent >$83 - to wciaz jedna ciagla eskalacja <48h od najnowszych uderzen, nie nowy pojedynczy news. FRO/NOC/LMT/BABA - tezy z 7-13 lipca nienaruszone, ceny odswiezone gdzie dostepne (FRO spadl z $40.93 do $36.92, wciaz +6%/mc; NOC $541, teraz -2.4%/mc). WULF/AVAV/ONDS - tezy kontraktowe z 6-10 lipca kontynuowane, WULF cena odswiezona do $20.83 (~+21%/mc, ostygla z ~$25 szczytu). NOWE DZIS: (1) insider cluster buy Mission Produce (AVO) - 10-procentowy udzialowiec kupil akcje w 3 oddzielnych transakcjach 3-9 lipca za lacznie ok. $22M ($13.04-$13.40/akcje), cena wciaz nieruszona (~$13.35) - klasyczny wzorzec klastra insiderow poprzedzajacy ruch. (2) AGEN (Agenus) - dodany do volume WYLACZNIE jako przyklad wzorca DO UNIKANIA (lekcja LEGN/BCDA): +115% w jeden dzien 13 lipca na $85-340M private placement (dilutive, mozliwe ~3x zwiekszenie liczby akcji) + dane Phase 1b - juz sparabolizowany, nie kupowac, tylko obserwacja pod katem odwrotu. Sprawdzono rowniez quantum computing (QBTS/RGTI/IONQ/QUBT) - po EO Trumpa z 23 czerwca, ale dzis spadaja -6/-8% na szerokim risk-off z powodu Ormuz - katalizator juz nieaktualny/wyprzedany, POMINIETO (brak swiezej przewagi). Brak nowych klastrow 13F (Q2 termin dopiero 14 sierpnia), swiezych zakupow kongresmenow ani IPO spelniajacego prog jakosci na dzis - te grupy puste/bez zmian.",
   "ipo": [
     {
       "ticker": "EQPT",
       "name": "EquipmentShare.com Inc.",
       "price_usd": 18.78,
       "pct_1m": -17.0,
-      "catalyst": "Podniesiona prognoza 2026 (revenue $5.25-5.68B z $5.15-5.58B, rental segment growth 33% z 29%) + nowy $500M buyback (10 lipca); +17% w piatek, ale wciaz ok. 17%/mc w dol po raporcie short-sellera (zarzuty related-party transactions, dochodzenie prawne)",
+      "catalyst": "Podniesiona prognoza 2026 (revenue $5.25-5.68B) + $500M buyback (10 lipca); teza z 13 lipca kontynuowana, spor z short-sellerem (related-party transactions) wciaz nierozstrzygniety",
       "still_upside": false,
-      "note": "swiezy IPO, cena blisko historycznych minimow mimo podniesionej prognozy - konflikt miedzy fundamentalnym katalizatorem a niewyjasnionymi zarzutami short-sellera; do obserwacji, nie furtka (zbyt duza niepewnosc prawna)"
+      "note": "bez zmian od 13 lipca - do obserwacji, nie furtka (zbyt duza niepewnosc prawna)"
     }
   ],
-  "volume": [],
+  "volume": [
+    {
+      "ticker": "AGEN",
+      "name": "Agenus Inc.",
+      "price_usd": 7.24,
+      "pct_1m": 130.0,
+      "catalyst": "Wolumen ~158M akcji vs srednia 1.9M (ok. 80x), +115% w jeden dzien (13 lipca) na $85M private placement (do $340M z warrantami) + pozytywne dane Phase 1b (botensilimab+balstilimab, colon cancer) + podniesiony cel HC Wainwright $23->$30",
+      "still_upside": false,
+      "note": "PRZYKLAD DO UNIKANIA, nie do kupowania: juz sparabolizowany (>>+50%/mc), swiezy private placement moze ~potroic liczbe akcji (silne rozwodnienie) - wzorzec identyczny do LEGN/BCDA z naszych lekcji (pump nastepnie runa); dodany dla kompletnosci wolumenu, bot powinien PASS"
+    }
+  ],
   "contract": [
     {
       "ticker": "WULF",
       "name": "TeraWulf Inc.",
-      "price_usd": 21.96,
-      "pct_1m": 28.0,
-      "catalyst": "20-letni lease z Anthropic na kampus AI w Hawesville, Kentucky - ok. $19B kontraktowanego przychodu (kapitalizacja spolki ok. $10.9B, kontrakt znacznie > 50% kapitalizacji), ogloszony 6-7 lipca",
+      "price_usd": 20.83,
+      "pct_1m": 21.0,
+      "catalyst": "20-letni lease z Anthropic na kampus AI w Hawesville, Kentucky - ok. $19B kontraktowanego przychodu (kapitalizacja spolki ok. $10.9B) - teza z 6-13 lipca kontynuowana, cena ostygla z ~$25 do ~$21",
       "still_upside": true,
-      "upside_reason": "cena juz sie cofnela z ~$25 do ~$22 (nie szczyt pogoni), Rosenblatt/Needham/Citi/Morgan Stanley podnioslo cele do $30-72 PO umowie, CEO publicznie sugeruje ze to 'tip of the iceberg' dla kolejnych kontraktow AI infra - katalizator dopiero zaczyna byc wyceniany, przychody startuja dopiero w 2027"
+      "upside_reason": "cena dalej sie cofnela (nie szczyt pogoni), Rosenblatt/Needham/Citi/Morgan Stanley cele $30-72 PO umowie, przychody startuja dopiero w 2027 - katalizator dopiero zaczyna byc wyceniany"
     },
     {
       "ticker": "AVAV",
       "name": "AeroVironment",
       "price_usd": 144.58,
       "pct_1m": -8.0,
-      "catalyst": "$500M firm-fixed-price US Army na commercial counter-UAS/counter-small-UAS (ogloszony ~8-9 lipca), plus wczesniejszy 133% revenue beat w Q-wynikach - teza z 10 lipca kontynuowana, cena lekko nizej",
+      "catalyst": "$500M firm-fixed-price US Army na commercial counter-UAS (ogloszony ~8-9 lipca) + 133% revenue beat w Q-wynikach - teza z 10-13 lipca kontynuowana, bez istotnej zmiany ceny",
       "still_upside": true,
-      "upside_reason": "cena nadal ok. 8%/mc w dol (nie rozgrzana), analitycy Buy ze srednim celem $258 (+78% od obecnej ceny) - kontrakt dopiero zaczyna byc wyceniany"
+      "upside_reason": "cena nadal ok. 8%/mc w dol (nie rozgrzana), analitycy Buy ze srednim celem $258 (+78%) - kontrakt dopiero zaczyna byc wyceniany"
     },
     {
       "ticker": "ONDS",
       "name": "Ondas Holdings",
       "price_usd": 7.09,
       "pct_1m": -18.0,
-      "catalyst": "Kontynuacja katalizatora z akwizycji DZYNE Technologies ($875.8M, ok. 22% kapitalizacji) - podniesione guidance revenue 2026 do $525M z $390M (7 lipca); integracja Sentrycs z Lockheed Martin Sanctum Counter-UAS - teza z 10 lipca kontynuowana",
+      "catalyst": "Akwizycja DZYNE Technologies ($875.8M) + podniesione guidance revenue 2026 do $525M z $390M (7 lipca); integracja Sentrycs z Lockheed Martin Sanctum Counter-UAS - teza z 10-13 lipca kontynuowana",
       "still_upside": true,
-      "upside_reason": "cena wciaz ok. 18%/mc w dol i ponad 50% ponizej sredniego celu analitykow ($19.81, Needham Buy $19); podniesione guidance i rosnacy defense backlog dopiero zaczynaja byc wycenianie przez rynek - teza nienaruszona",
-      "note": "OSTRZEZENIE (nowe od 7-10 lipca): spolka zlozyla prospectus supplement na resale 3.378M istniejacych akcji (holdery z akwizycji Omnisys) - BEZ wplywu swiezej gotowki do spolki, plus insider/holder selling narasta - overhang podazowy realny, obnizyc przekonanie/wielkosc pozycji wzgledem pierwotnej tezy z 10 lipca, nie traktowac jako pelna furtka bez zastrzezen"
+      "upside_reason": "cena wciaz ok. 18%/mc w dol i ponad 50% ponizej sredniego celu analitykow ($19.81) - podniesione guidance dopiero zaczyna byc wyceniane",
+      "note": "OSTRZEZENIE utrzymane z 13 lipca: resale filing na 3.378M akcji (holder overhang) - obnizyc przekonanie/wielkosc pozycji wzgledem pierwotnej tezy"
     }
   ],
-  "insider": [],
+  "insider": [
+    {
+      "ticker": "AVO",
+      "name": "Mission Produce, Inc.",
+      "price_usd": 13.35,
+      "pct_1m": -8.0,
+      "catalyst": "Klastrowy insider buy: Globalharvest Holdings Venture (10% udzialowiec) kupil akcje w 3 oddzielnych transakcjach 3, 7 i 9 lipca (687k + 650k + 593k akcji, lacznie ok. $22M, $13.04-$13.40/akcje) + wczesniej dyrektor kupil $2.1M (20 czerwca) i insider 100k akcji (29 czerwca) - narastajacy klaster od 3 tygodni",
+      "still_upside": true,
+      "upside_reason": "cena praktycznie plaska mimo miesiaca narastajacych zakupow insiderow (nie pogon za szczytem), analitycy Strong Buy ze srednia cena docelowa powyzej obecnej - klasyczny wzorzec klastra insiderow z wyprzedzeniem przed potencjalnym ruchem",
+      "note": "pct_1m szacunkowy (brak dokladnych danych historycznych z wyszukiwania) - niska pewnosc co do dokladnej liczby, ale kierunek (plasko/lekko w dol mimo zakupow) potwierdzony w kilku zrodlach"
+    }
+  ],
   "fund13f": [],
   "congress": [],
   "policy": [
@@ -52,36 +73,36 @@
       "name": "Alibaba Group",
       "price_usd": 112.33,
       "pct_1m": -3.0,
-      "catalyst": "Kontynuacja tezy z 7-8 lipca: sedzia federalny czasowo zablokowal Pentagonowi zakaz lobbingu wobec Alibaba + ok. $600M ugoda non-prosecution z DOJ - teza z 10 lipca kontynuowana, cena lekko wyzej",
+      "catalyst": "Sedzia federalny czasowo zablokowal Pentagonowi zakaz lobbingu wobec Alibaba + ok. $600M ugoda non-prosecution z DOJ - teza z 7-13 lipca kontynuowana bez zmian",
       "still_upside": true,
-      "upside_reason": "akcja nadal ok. 40% ponizej 52-tyg. maksimum ($192.67) mimo odbicia, analitycy Strong Buy ze srednim celem $190 (+69%) - usuwanie ryzyka prawnego i re-rating duzej, plynnej spolki, nie szczyt mikro-cap paraboli"
+      "upside_reason": "akcja nadal ok. 40% ponizej 52-tyg. maksimum ($192.67), analitycy Strong Buy ze srednim celem $190 (+69%) - usuwanie ryzyka prawnego, nie szczyt mikro-cap paraboli"
     },
     {
       "ticker": "FRO",
       "name": "Frontline plc",
-      "price_usd": 40.93,
+      "price_usd": 36.92,
       "pct_1m": 6.0,
-      "catalyst": "Trump ponownie nalozyl blokade Cieśniny Ormuz na statki/klientow Iranu (ogloszone 12 lipca, po wymianie uderzen USA-Iran w weekend) - dluzsze/drozsze trasy tankowcow VLCC/Suezmax/Aframax, ropa Brent +5.3%; Q1 2026 juz pokazal repricing dluzszych tras (revenue $929M, dywidenda $1.55/akcje)",
+      "catalyst": "Kontynuacja/eskalacja blokady Ciesniny Ormuz - trzecia noc uderzen USA na Iran (13/14 lipca), Trump podtrzymuje blokade + 20% oplate za eskorte tankowcow, WTI ~$78/Brent >$83; dluzsze/drozsze trasy VLCC/Suezmax/Aframax",
       "still_upside": true,
-      "upside_reason": "cena tylko +6%/mc (nie rozgrzana, YTD +83% odzwierciedla dlugoterminowy trend a nie tegoroczny pop), analitycy Buy ze srednim celem $44.25 (+8%); eskalacja blokady <48h stara, kolejne przedluzenie dluzszych tras dopiero zaczyna byc wyceniane w kolejnych kwartalach"
+      "upside_reason": "cena tylko +6%/mc (nie rozgrzana), analitycy Buy ze srednim celem $44.25 (+20% od obecnej ceny po spadku z $40.93) - eskalacja trwa, repricing dluzszych tras dopiero bedzie widoczny w kolejnych kwartalach"
     },
     {
       "ticker": "LMT",
       "name": "Lockheed Martin",
       "price_usd": 523.22,
       "pct_1m": 2.9,
-      "catalyst": "Eskalacja konfliktu USA-Iran o Cieśnine Ormuz (blokada Trumpa 12 lipca, uderzenia w weekend) - defense sector beneficjent podwyzszonego ryzyka regionalnego; spolka wczesniej istotnie zaladowala sektor (analitycy ciecia celow w czerwcu za slaba wzgledna sile), obecnie odbicie",
+      "catalyst": "Eskalacja konfliktu USA-Iran o Ciesnine Ormuz (kontynuacja z 12-14 lipca) - defense sector beneficjent podwyzszonego ryzyka regionalnego; teza z 13 lipca bez zmian",
       "still_upside": true,
-      "upside_reason": "cena tylko +2.9%/mc, wyraznie ponizej wzrostu calego sektora aerospace-defense (Zacks +7.3%/mc) - katalizator eskalacji dopiero zaczyna byc wyceniany w tej konkretnej spolce, nie szczyt paraboli"
+      "upside_reason": "cena tylko +2.9%/mc, wyraznie ponizej wzrostu sektora aerospace-defense - katalizator dopiero zaczyna byc wyceniany w tej spolce"
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
-      "price_usd": 536.71,
-      "pct_1m": 1.5,
-      "catalyst": "Eskalacja konfliktu USA-Iran o Cieśnine Ormuz (blokada Trumpa 12 lipca) - defense sector beneficjent; NATO pledge >$50B na defense procurement jako dodatkowy tlo-katalizator; cena wciaz wyraznie ponizej 52-tyg. maksimum ($774)",
+      "price_usd": 541.0,
+      "pct_1m": -2.4,
+      "catalyst": "Eskalacja konfliktu USA-Iran o Ciesnine Ormuz (kontynuacja) - defense sector beneficjent; cena wciaz ponad 30% ponizej 52-tyg. maksimum ($774)",
       "still_upside": true,
-      "upside_reason": "cena tylko +1.5%/mc, ponad 30% ponizej 52-tyg. maksimum ($774 vs $536.71), analitycy Buy (14 buy/0 sell) ze srednim celem $687 (+28%) - katalizator eskalacji regionalnej dopiero zaczyna byc wyceniany"
+      "upside_reason": "cena -2.4%/mc (nie rozgrzana, wrecz stygnie), analitycy Buy (14 buy/0 sell) ze srednim celem $687 (+27%) - katalizator eskalacji regionalnej dopiero zaczyna byc wyceniany"
     }
   ]
 }
