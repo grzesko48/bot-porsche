@@ -1,9 +1,23 @@
 [
   {
-    "ticker": "BRAI",
-    "pct": 57.0,
-    "day": "2026-07-13",
-    "presignal": "Brak zidentyfikowanego wyraznego pre-sygnalu dzien wczesniej - australijska micro-cap spolka AI (Braiin, NASDAQ) oglosila premiere agentowej platformy 'ARIA' (Agentic Real Estate Intelligence and Automation) dla rynku nieruchomosci tego samego dnia co spike (globalny rynek software real estate szacowany na $32B do 2033); typowy wzorzec launch-day bez wczesniejszego teasera medialnego",
-    "lesson": "Micro-cap 'vertical AI agent' product launches (np. real estate, legal, healthcare) moga generowac 50%+ jednodniowy pop na samym ogloszeniu bez wczesniejszego pre-sygnalu w mediach - trudne do zlapania z wyprzedzeniem tym samym schematem co inne launch-day katalizatory; monitorowac zapowiedzi/rejestracje produktow (np. trademark filings, teaser posty na LinkedIn/X spolki kilka dni wczesniej) jako ewentualny wczesniejszy trop, ale traktowac jako kategorie wysokiego ryzyka FOMO, nie edge do systematycznego gonienia"
+    "ticker": "NXTC",
+    "pct": 266.0,
+    "day": "2026-07-14",
+    "presignal": "Brak wyraznego pre-sygnalu dzien wczesniej - all-stock reverse merger z prywatna Avere Therapeutics (oral IL-23 psoriaza) + $320M PIPE (Fairmount, Hansoh Pharma) ogloszony premarket tego samego dnia; NextCure byla malym biotechem po nieudanych probach klinicznych raka, klasyczny 'shell/reverse-merger' pattern",
+    "lesson": "Male biotechy z niska kapitalizacja i nieudanymi lekami w pipeline sa czestym celem reverse-merger 'na nowo' z prywatna spolka + duzy PIPE - ruch jest praktycznie niemozliwy do przewidzenia z wyprzedzeniem (brak wyciekow), ale gdy juz sie wydarzy natychmiast ponad prog paraboli +50% - traktowac jako kategorie do UNIKANIA/rejestru, nie gonienia (podobnie jak NextCure sama wskazuje ze pre-merger NXTC holders zostaja z tylko ~1.9% spolki)"
+  },
+  {
+    "ticker": "CLSK",
+    "pct": 20.0,
+    "day": "2026-07-14",
+    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej (nazwa najemcy 'high-investment-grade' tech giant nieujawniona) - CleanSpark (bitcoin miner z nadwyzka mocy energetycznej) podpisal 20-letni lease na kampusie Sandersville, GA (175MW, $6.6B kontraktowanego przychodu, do $11.6B z opcjami) + LOI na dodatkowy portfel w Teksasie (885MW) - dostarczenie dopiero Q4 2027; wzorzec identyczny do WULF/Anthropic z 6-7 lipca (bitcoin miner -> AI data center pivot)",
+    "lesson": "Powtorzenie wzorca WULF: bitcoin minerzy z nadmiarowa infrastruktura energetyczna (CLSK, WULF, i podobne - IREN, CIFR, HUT) regularnie podpisuja wieloletnie lease z anonimowymi 'hyperscalerami' na AI data center - monitorowac 8-K/SEC filing tej grupy spolek jako powtarzalny sektorowy katalizator (nie jednorazowa anomalia); ruch czesto oddaje czesc zysku w ciagu dnia (premarket +20% -> sesja +9%), wiec nie gonic pierwszego printu"
+  },
+  {
+    "ticker": "TSEM",
+    "pct": 17.0,
+    "day": "2026-07-14",
+    "presignal": "Brak pre-sygnalu dzien wczesniej - Tower Semiconductor (izraelski/globalny foundry, NASDAQ) ogloscil $3B rozbudowe mocy produkcyjnych silicon photonics/SiGe w Japonii (przejmuje zasoby po Panasonic Semiconductor) z $1B dotacji rzadu Japonii (METI) na wsparcie lancucha dostaw AI, plus podniesione cele przychodowe/zyskowe na 2028 tego samego dnia",
+    "lesson": "Rzadowe dotacje (nie-USA, np. japonskie METI) na rozbudowe mocy produkcyjnej polprzewodnikow AI to powtarzalny wzorzec globalny (analogicznie do amerykanskich kontraktow DoD/DOE) - warto rozszerzyc monitoring 'kontrakt rzadowy' poza USA (Japonia, Korea, Tajwan) dla foundry/chip-supply-chain spolek notowanych na NASDAQ, zwlaszcza gdy towarzyszy podniesione guidance wieloletnie"
   }
 ]

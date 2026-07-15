@@ -1482,5 +1482,26 @@
     "pct": 26.6,
     "presignal": "Data raportu Q3 FY2026 znana z kalendarza (30 czerwca zamkniecie kwartalu); przyspieszajacy trend AI-driven revenue w poprzednich kwartalach (74% sprzedazy z AI, +104% r/r) + uznanie NVIDIA AI Factory Specialized Partner i Dell Technologies Global Alliances AI Partner of the Year (nagrody/partnerstwa czesto ogłaszane przed earnings) + segment memory rosnacy szybciej niz konsensus (Stifel: +60% k/k vs prognoza +46%)",
     "lesson": "Potwierdzenie wzorca AVAV (accelerating-revenue-before-earnings): AI-infra spolki z przyspieszajacym udzialem przychodow AI (>70% total sales, r/r wzrost >100%) + swiezo przyznane partnerstwo/nagroda (NVIDIA/Dell) w tygodniach przed earnings = pre-sygnal duzego beat & raise; sledz kalendarz earnings dla AI-infra/memory small-mid-cap gdzie ostatni kwartal pokazywal przyspieszenie, a rowniez nowe partner-of-the-year designations jako dodatkowy wskaznik"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "NXTC",
+    "pct": 266.0,
+    "presignal": "Brak wyraznego pre-sygnalu dzien wczesniej - all-stock reverse merger z prywatna Avere Therapeutics (oral IL-23 psoriaza) + $320M PIPE (Fairmount, Hansoh Pharma) ogloszony premarket tego samego dnia; NextCure byla malym biotechem po nieudanych probach klinicznych raka, klasyczny 'shell/reverse-merger' pattern",
+    "lesson": "Male biotechy z niska kapitalizacja i nieudanymi lekami w pipeline sa czestym celem reverse-merger 'na nowo' z prywatna spolka + duzy PIPE - ruch jest praktycznie niemozliwy do przewidzenia z wyprzedzeniem (brak wyciekow), ale gdy juz sie wydarzy natychmiast ponad prog paraboli +50% - traktowac jako kategorie do UNIKANIA/rejestru, nie gonienia (podobnie jak NextCure sama wskazuje ze pre-merger NXTC holders zostaja z tylko ~1.9% spolki)"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "CLSK",
+    "pct": 20.0,
+    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej (nazwa najemcy 'high-investment-grade' tech giant nieujawniona) - CleanSpark (bitcoin miner z nadwyzka mocy energetycznej) podpisal 20-letni lease na kampusie Sandersville, GA (175MW, $6.6B kontraktowanego przychodu, do $11.6B z opcjami) + LOI na dodatkowy portfel w Teksasie (885MW) - dostarczenie dopiero Q4 2027; wzorzec identyczny do WULF/Anthropic z 6-7 lipca (bitcoin miner -> AI data center pivot)",
+    "lesson": "Powtorzenie wzorca WULF: bitcoin minerzy z nadmiarowa infrastruktura energetyczna (CLSK, WULF, i podobne - IREN, CIFR, HUT) regularnie podpisuja wieloletnie lease z anonimowymi 'hyperscalerami' na AI data center - monitorowac 8-K/SEC filing tej grupy spolek jako powtarzalny sektorowy katalizator (nie jednorazowa anomalia); ruch czesto oddaje czesc zysku w ciagu dnia (premarket +20% -> sesja +9%), wiec nie gonic pierwszego printu"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "TSEM",
+    "pct": 17.0,
+    "presignal": "Brak pre-sygnalu dzien wczesniej - Tower Semiconductor (izraelski/globalny foundry, NASDAQ) ogloscil $3B rozbudowe mocy produkcyjnych silicon photonics/SiGe w Japonii (przejmuje zasoby po Panasonic Semiconductor) z $1B dotacji rzadu Japonii (METI) na wsparcie lancucha dostaw AI, plus podniesione cele przychodowe/zyskowe na 2028 tego samego dnia",
+    "lesson": "Rzadowe dotacje (nie-USA, np. japonskie METI) na rozbudowe mocy produkcyjnej polprzewodnikow AI to powtarzalny wzorzec globalny (analogicznie do amerykanskich kontraktow DoD/DOE) - warto rozszerzyc monitoring 'kontrakt rzadowy' poza USA (Japonia, Korea, Tajwan) dla foundry/chip-supply-chain spolek notowanych na NASDAQ, zwlaszcza gdy towarzyszy podniesione guidance wieloletnie"
   }
 ]

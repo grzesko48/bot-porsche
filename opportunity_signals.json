@@ -1,64 +1,56 @@
 {
-  "_date": "2026-07-14",
-  "_run": "srodsesyjny (18:30 CEST), wtorek, rynek USA otwarty. GLOWNY swiezy rozwoj: blokada Cieśniny Ormuz (Trump) wchodzi w realne zycie DZIS o 16:00 ET - US Navy zaczyna egzekwowac blokade wszystkich iranskich portow, 20% oplata reimbursement od ladunku przechodzacego przez ciesnine; to eskalacja z 12-13 lipca (kontynuacja tezy tankowce/obronnosc z poprzedniego biegu), nie nowy pojedynczy news - ceny odswiezone. WULF/AVAV/ONDS/BABA - tezy z 6-13 lipca nienaruszone, ceny odswiezone. Wells Fargo obcial cele LMT ($650->$575) i NOC ($800->$620) w ostatnich tygodniach za slaba wzgledna sile - kontrargument do tezy eskalacyjnej, ryzyko do uwzglednienia przy sizingu (nie ignorowac). Nowe dzis premarket: 3 mikro/small-capy (VEEE, AGEN, QTTB) juz wystrzelily +58-75% na fuzji/placement/danych klinicznych - ekstremalna zmiennosc intraday (ceny niespojne miedzy zrodlami), zdecydowanie ponad prog paraboli +50% - dodane do volume tylko informacyjnie, NIE do kupienia (anti-chase, per lekcje LEGN/BCDA). EQPT usuniete z listy (brak swiezych danych dzis, teza z 10-13 lipca bez zmian, byla juz oznaczona jako 'do obserwacji, nie furtka'). Brak swiezych klastrow insiderow, ruchow 13F (Q2 termin 14 sierpnia dopiero), swiezych zakupow kongresmenow (jedyna dzisiejsza pozycja: drobna sprzedaz BAC przez kongresmena, nie zakup) ani nowego IPO o odpowiedniej skali/jakosci - te grupy puste.",
+  "_date": "2026-07-15",
+  "_run": "przedrynkowy (14:30 CEST), sroda, przed otwarciem USA (dzien CPI). Kontynuacja tez z 6-14 lipca: WULF/AVAV/ONDS (kontrakty obronne/AI data center) i BABA/FRO/LMT/NOC (Hormuz/DOJ) bez zerwania, ceny odswiezone. NOWY dzis: Micron (MU) - IBM CEO w liscie do akcjonariuszy ujawnil, ze klienci IBM gwaltownie przekierowuja budzety enterprise z software na serwery/storage/pamiec (memory) w obawie przed podwyzkami cen w infrastrukturze AI - bezposrednia wzmianka o 'memory' odpalila MU +4.9% dzis na podwyzszonym wolumenie; mimo YTD +212% i ATH $1255 (25 czerwca), miesieczna zmiana to ok. +0.5% (tydzien temu byl spadek -20% do $976) - swiezy katalizator dopiero zaczyna byc wyceniany, NIE parabola w ujeciu 1m. NextCure (NXTC) +199-300% dzis premarket na reverse merger z Avere Therapeutics (biotech IL-23, $320M PIPE, nowy ticker AVRX po zamknieciu) - mocno ponad prog paraboli +50%, do rejestru informacyjnie, NIE do kupienia (anti-chase, wzorzec VEEE/AGEN/QTTB z wczoraj). Kongres: dwoch czlonkow Komisji Sil Zbrojnych (Cisneros, McGuire) ujawnilo zakupy akcji SpaceX (SPCX) po IPO (po $1-15 tys. kazdy) - kwoty symboliczne/immaterialne wobec kapitalizacji $1.85 bln, standardowy dolny prog raportowania STOCK Act, brak realnej przewagi informacyjnej - NIE dodane jako sygnal. Insider: pojedyncze male zakupy (Kronos Worldwide ~$99k, jeden insider) - brak klastra, ponizej progu jakosci. Brak nowego IPO o odpowiedniej skali/jakosci (SK Hynix duzy debiut, ale zagraniczny mega-cap ADR, nie pasuje do profilu). Fund 13F: termin Q2 dopiero 14 sierpnia - pusto. Quantum computing (IonQ/D-Wave/Rigetti/QBTS) spada dzis -6/-8% na risk-off makro (nie firma-specific), a katalizator z EO Trumpa jest juz sprzed 3+ tygodni (22-23 czerwca) - zbyt stary i teraz w trendzie spadkowym, pominiete.",
   "ipo": [],
   "volume": [
     {
-      "ticker": "VEEE",
-      "name": "Twin Vee PowerCats Co.",
-      "price_usd": 39.63,
-      "pct_1m": 74.0,
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "price_usd": 989.47,
+      "pct_1m": 0.5,
       "catalyst": null,
-      "still_upside": false,
-      "note": "Skok dzis premarket/sesja (16x sredni wolumen, ceny w zrodlach niespojne 60-375% w 24h - ekstremalna zmiennosc) po ogloszeniu fuzji i planu prywatyzacji biznesu marine - mocno ponad prog paraboli +50%, klasyczny wzorzec do UNIKANIA, informacyjnie do rejestru"
+      "still_upside": true,
+      "upside_reason": "IBM CEO ujawnil dzis w liscie do akcjonariuszy, ze klienci enterprise gwaltownie przekierowuja budzety na serwery/storage/pamiec (memory) w obawie przed podwyzkami cen AI infra - bezposrednia wzmianka o 'memory' odpalila dzisiejszy ruch +4.9% na podwyzszonym wolumenie; mimo YTD +212%, zmiana 1m to ok. +0.5% (tydzien temu -20% do $976, ATH $1255 25 czerwca juz oddany) - katalizator dopiero dzis zaczyna byc wyceniany, nie parabola w ujeciu miesiecznym",
+      "note": "Duza plynna spolka (nie micro-cap), ryzyko: bardzo wysoka juz baza YTD (+212%) i wysoka zmiennosc (-20% tydzien temu) - sizing ostrozny"
     },
     {
-      "ticker": "AGEN",
-      "name": "Agenus Inc.",
-      "price_usd": 6.12,
-      "pct_1m": 65.0,
+      "ticker": "NXTC",
+      "name": "NextCure Inc. (laczy sie z Avere Therapeutics -> AVRX)",
+      "price_usd": 6.51,
+      "pct_1m": 199.0,
       "catalyst": null,
       "still_upside": false,
-      "note": "Skok dzis (58-82% wg roznych zrodel, 42M akcji wolumenu) po $340M private placement na Phase 3 (rak jelita grubego) - juz ponad prog paraboli, do rejestru bez kupna"
-    },
-    {
-      "ticker": "QTTB",
-      "name": "Q32 Bio Inc.",
-      "price_usd": 15.0,
-      "pct_1m": 50.0,
-      "catalyst": null,
-      "still_upside": false,
-      "note": "Skok dzis na pozytywnych danych z badania klinicznego alopecia areata (premarket +72% do $19.25, potem oddanie czesci zysku do ok. $11-15) - biotech binary event juz zrealizowany, na progu/ponad progiem paraboli, do rejestru bez kupna"
+      "note": "Reverse merger z Avere Therapeutics (oral IL-23 psoriaza) ogloszony dzis premarket, $320M PIPE (Fairmount, Hansoh Pharma), po zamknieciu spolka bedzie AVRX - +199-300% dzis wg roznych zrodel, mocno ponad prog paraboli +50%, klasyczny wzorzec do UNIKANIA (anti-chase), informacyjnie do rejestru"
     }
   ],
   "contract": [
     {
       "ticker": "WULF",
       "name": "TeraWulf Inc.",
-      "price_usd": 21.97,
-      "pct_1m": 24.0,
-      "catalyst": "20-letni lease z Anthropic na kampus AI w Hawesville, Kentucky - ok. $19B kontraktowanego przychodu (kapitalizacja spolki ok. $10.9B, kontrakt znacznie > 50% kapitalizacji), ogloszony 6-7 lipca; teza kontynuowana z 10-13 lipca",
+      "price_usd": 20.83,
+      "pct_1m": 18.0,
+      "catalyst": "20-letni lease z Anthropic na kampus AI w Hawesville, Kentucky - ok. $19B kontraktowanego przychodu, TeraWulf planuje $3.5B dlugu na finansowanie budowy; teza kontynuowana z 6-14 lipca, cena lekko cofnieta z $21.97 wczoraj",
       "still_upside": true,
-      "upside_reason": "cena cofnela sie z lokalnych szczytow (byla $25, teraz ok. $22), Rosenblatt/Needham/Citi/Morgan Stanley podnioslo cele do $30-72 po umowie, CEO sugeruje ze to 'tip of the iceberg' - przychody z kontraktu startuja dopiero w 2027, katalizator dopiero zaczyna byc wyceniany"
+      "upside_reason": "cena nadal ponizej lokalnych szczytow (~$25), analitycy podnosili cele do $30-72 po umowie, przychody z kontraktu startuja dopiero w 2027 - katalizator dopiero zaczyna byc wyceniany"
     },
     {
       "ticker": "AVAV",
       "name": "AeroVironment",
-      "price_usd": 141.76,
+      "price_usd": 141.8,
       "pct_1m": -10.0,
-      "catalyst": "$500M firm-fixed-price US Army na commercial counter-UAS/counter-small-UAS (ogloszony ~8-9 lipca) + 133% revenue beat w Q-wynikach; teza kontynuowana, dodatkowo wzmacniana obecna eskalacja Iran/Hormuz (defense sector beneficjent szerzej)",
+      "catalyst": "$500M kontrakt US Army na commercial counter-UAS (ogloszony ~8-9 lipca) + mocny beat przychodowy w Q; teza kontynuowana, wzmacniana eskalacja Iran/Hormuz",
       "still_upside": true,
-      "upside_reason": "cena nadal ok. 10%/mc w dol (nie rozgrzana), analitycy Buy ze srednim celem $258 - kontrakt dopiero zaczyna byc wyceniany"
+      "upside_reason": "cena nadal ok. 10%/mc w dol, srednia cena docelowa analitykow $258 - kontrakt dopiero zaczyna byc wyceniany"
     },
     {
       "ticker": "ONDS",
       "name": "Ondas Holdings",
-      "price_usd": 7.75,
-      "pct_1m": -15.0,
-      "catalyst": "Akwizycja DZYNE Technologies ($875.8M, ok. 22% kapitalizacji) - podniesione guidance revenue 2026 do $525M z $390M (7 lipca); integracja Sentrycs z Lockheed Martin Sanctum Counter-UAS; teza kontynuowana z 10-13 lipca",
+      "price_usd": 7.36,
+      "pct_1m": -12.0,
+      "catalyst": "Akwizycja DZYNE Technologies (~$876M) + podniesione guidance revenue 2026 do $525M; integracja Sentrycs z Lockheed Martin Sanctum Counter-UAS; teza kontynuowana z 6-14 lipca",
       "still_upside": true,
-      "upside_reason": "cena wciaz ok. 15%/mc w dol i ponad 50% ponizej sredniego celu analitykow ($19.81, Needham Buy $19); podniesione guidance i rosnacy defense backlog dopiero zaczynaja byc wyceniane",
-      "note": "OSTRZEZENIE utrzymane (od 7-10 lipca): resale filing na 3.378M akcji (holdery z akwizycji Omnisys) - overhang podazowy realny, obnizyc przekonanie/wielkosc pozycji wzgledem pierwotnej tezy"
+      "upside_reason": "cena wciaz ponizej sredniego celu analitykow (Needham Buy $19), podniesione guidance dopiero zaczyna byc wyceniane",
+      "note": "OSTRZEZENIE utrzymane: resale filing na 3.378M akcji (holdery Omnisys) - overhang podazowy, mniejsza pozycja"
     }
   ],
   "insider": [],
@@ -68,40 +60,40 @@
     {
       "ticker": "BABA",
       "name": "Alibaba Group",
-      "price_usd": 112.35,
+      "price_usd": 112.32,
       "pct_1m": -3.0,
-      "catalyst": "Kontynuacja tezy z 7-10 lipca: sedzia federalny czasowo zablokowal Pentagonowi zakaz lobbingu wobec Alibaba + ok. $600M ugoda non-prosecution z DOJ",
+      "catalyst": "Kontynuacja tezy z 7-14 lipca: sedzia zablokowal Pentagonowi zakaz lobbingu wobec Alibaba + ugoda ~$600M z DOJ; dzis w premarketie +$3.83",
       "still_upside": true,
-      "upside_reason": "akcja nadal ok. 40% ponizej 52-tyg. maksimum ($192.67), analitycy Strong Buy ze srednim celem $190 (+69%) - usuwanie ryzyka prawnego i re-rating duzej, plynnej spolki, nie szczyt mikro-cap paraboli"
+      "upside_reason": "nadal ok. 40% ponizej 52-tyg. maksimum, analitycy Strong Buy ze srednim celem $190 - re-rating duzej plynnej spolki, nie szczyt mikro-cap paraboli"
     },
     {
       "ticker": "FRO",
       "name": "Frontline plc",
-      "price_usd": 37.66,
+      "price_usd": 37.13,
       "pct_1m": 8.0,
-      "catalyst": "Blokada Cieśniny Ormuz wchodzi w zycie DZIS 14 lipca ok. 16:00 ET (US Navy egzekwuje zakaz dla iranskich portow, 20% toll na ladunek) - dluzsze/drozsze trasy tankowcow VLCC/Suezmax/Aframax (koszt frachtu z wewnatrz ciesniny $8-10M vs $4-5M z zewnatrz); Q1 2026 juz pokazal repricing (revenue $929M, dywidenda $1.55/akcje)",
+      "catalyst": "Blokada Ciesniny Ormuz (US Navy egzekwuje od 14 lipca) - dluzsze/drozsze trasy tankowcow VLCC/Suezmax/Aframax; teza kontynuowana",
       "still_upside": true,
-      "upside_reason": "akcja spadla z lokalnego szczytu ~$41 do $37.66 (realizacja zyskow po run-upie, nie pogon za szczytem), YTD +83% odzwierciedla strukturalny trend a nie jednorazowy pop, cel analitykow $44.25 (+18%); egzekwowanie blokady dopiero zaczyna sie realnie dzis, dlugosc tras i przychody kolejnych kwartalow dopiero zaczynaja byc wyceniane"
+      "upside_reason": "cena ponizej lokalnego szczytu ~$41, cel analitykow $44.25 - egzekwowanie blokady dopiero realnie ruszylo, kolejne kwartaly dopiero zaczynaja byc wyceniane"
     },
     {
       "ticker": "LMT",
       "name": "Lockheed Martin",
-      "price_usd": 520.68,
-      "pct_1m": 1.0,
-      "catalyst": "Eskalacja Iran/Hormuz (blokada wchodzi w zycie dzis) - defense sector beneficjent podwyzszonego ryzyka regionalnego",
+      "price_usd": 515.83,
+      "pct_1m": 0.5,
+      "catalyst": "Eskalacja Iran/Hormuz - defense sector beneficjent podwyzszonego ryzyka regionalnego; teza kontynuowana",
       "still_upside": true,
-      "upside_reason": "cena praktycznie plaska w miesiac (+1%), wyraznie ponizej sektora aerospace-defense - katalizator dopiero zaczyna byc wyceniany w tej spolce",
-      "note": "RYZYKO: Wells Fargo obcial cel z $650 do $575 (-12%) w ostatnich tygodniach za slaba wzgledna sile - kontrargument do tezy, nie ignorowac przy sizingu"
+      "upside_reason": "cena praktycznie plaska w miesiac, wyraznie ponizej sektora aerospace-defense",
+      "note": "RYZYKO utrzymane: Wells Fargo obcial cel z $650 do $575 za slaba wzgledna sile - nie ignorowac przy sizingu"
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
-      "price_usd": 541.82,
-      "pct_1m": 2.5,
-      "catalyst": "Eskalacja Iran/Hormuz (blokada wchodzi w zycie dzis) - defense sector beneficjent; NATO pledge >$50B na defense procurement jako tlo",
+      "price_usd": 528.67,
+      "pct_1m": 1.0,
+      "catalyst": "Eskalacja Iran/Hormuz - defense sector beneficjent; teza kontynuowana",
       "still_upside": true,
-      "upside_reason": "cena tylko +2.5%/mc, ponad 30% ponizej 52-tyg. maksimum ($774), analitycy Buy - katalizator dopiero zaczyna byc wyceniany",
-      "note": "RYZYKO: Wells Fargo obcial cel z $800 do $620 (-23%, najwieksza redukcja w sektorze) za slaba wzgledna sile - powazniejszy kontrargument niz dla LMT, mniejsza pozycja jesli w ogole"
+      "upside_reason": "cena tylko lekko dodatnia w miesiac, ponad 30% ponizej 52-tyg. maksimum ($774)",
+      "note": "RYZYKO utrzymane: Wells Fargo obcial cel z $800 do $620 (-23%) - powazniejszy kontrargument niz dla LMT, mniejsza pozycja jesli w ogole"
     }
   ]
 }
