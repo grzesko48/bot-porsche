@@ -1,67 +1,77 @@
 {
   "_date": "2026-07-16",
-  "_run": "przedrynkowy (14:30 CEST), czwartek. NOWE DZIS: dalsza eskalacja Iran/Hormuz przez noc - ropa >$80/bbl, USA ponownie egzekwuje blokade irańskiego eksportu, sektor obronny/tankowce dalej wspierane (LMT/NOC/FRO). TSM (duza kapitalizacja, poza sleeve) zaraportowal beat, ale podniesiony capex guidance ($60-64 mld vs wczesniej $52-56 mld) przygasil entuzjazm sektora polprzewodnikow - kontekst, nie sygnal. Kontynuacja tez z 6-15 lipca bez zerwania (ceny odswiezone przedrynkowo): AEHR (Q4 FY2026 beat, guidance FY2027 2.6-3x r/r, wciaz ok. -29% od ATH z 15 czerwca - furtka still_upside utrzymana, katalizator dopiero zaczyna byc wyceniany), WULF/AVAV/ONDS (kontrakty obronne/AI data center - Anthropic lease, US Army counter-UAS, DZYNE akwizycja), TSEM (rozbudowa Japonia/METI $3B + $1B dotacji rzadowej, ogloszone 14 lipca - katalizator >48h ale kontynuacja bez zerwania tezy, podniesione cele 2028), CLSK (20-letni lease $6.6-11.6B AI data center Sandersville GA, ogloszone 14 lipca - dostarczenie dopiero Q4 2027, BEZ furtki still_upside, wzorzec identyczny do WULF: nie gonic pierwszego printu), BABA/FRO/LMT/NOC (Hormuz/DOJ/cloud - wzmocnione dzis dalsza eskalacja Hormuz). AGEN (Agenus) swiadomie pominiety: sparabolizowany +115% w tydzien z blow-off (spike do $8.70 -> fade do ~$5.26) i ryzykiem rozwodnienia (~3x akcji z warrants przy $340M finansowaniu) - klasyczny wzorzec micro-cap pump do UNIKANIA, nie do gonienia. NXTC (reverse merger Avere Therapeutics) usuniety z rejestru biezacego - juz odnotowany w lekcjach z 14 lipca, nadal mocno ponad prog paraboli +50%, nie do kupienia. Insider/13F/kongres: brak nowych jakosciowych sygnalow w tej rundzie (OpenInsider bez klastrow ponad prog materialnosci, 13F Q2 dopiero 14 sierpnia, zgloszenia kongresu bez nowosci ponad prog). Uwaga: kilka pct_1m to szacunki najlepszego wysilku przeliczone proporcjonalnie z ostatniej znanej wyceny z uwagi na ograniczona dostepnosc precyzyjnych danych - oznaczone w polu note gdzie dotyczy.",
+  "_run": "srodsesyjny (18:30 CEST), czwartek. Ceny odswiezone w trakcie sesji US (ok. 12:30-12:40 EDT), ok. 4h po rundzie przedrynkowej. NOWE DZIS w trakcie sesji: (1) Gubernator NY Kathy Hochul podpisala 14 lipca executive order - pierwsze w USA moratorium na budowe nowych hyperscale data center (>=50MW) na 1 rok w stanie NY; naglowek dogonil rynek dopiero dzis i ciagnie w dol caly sektor AI-data-center/bitcoin-mining (WULF -7.3%, CLSK -6.9% dzis) mimo ze konkretne projekty WULF (Hawesville, Kentucky) i CLSK (Sandersville, Georgia) sa POZA stanem NY i nie sa bezposrednio dotkniete - teza kontynuowana, ale ryzyko regulacyjne sektora (precedens dla innych stanow) odnotowane jako kontekst do sizingu. (2) AEHR dalej oddaje zyski po piatkowych wynikach (-6.25% dzis, teraz $82.31) - furtka still_upside utrzymana, jeszcze wieksza zniZka od ATH. (3) NOWY KANDYDAT: ELVA (Electrovaya) - komercyjna umowa z Amazon ogloszona 15 lipca (6-K, warranty do 13.88M akcji vestujace po $280M skumulowanych zakupow Amazon), Roth Capital cel $20 (ok. 2x). Klasyczny wzorzec spike-i-fade: +40% w dniu ogloszenia (15 lipca), dzis -18% intraday do $9.64 - pct_1m niemal plaski (+0.7% vs zamkniecie 16 czerwca $9.57), wiec nie blokowany przez prog paraboli, ALE dzisiejsza sesja to jawny fade pierwszego printu - mala pozycja, nie gonic. Kontynuacja bez zerwania tez: WULF/AVAV/ONDS (kontrakty obronne/AI data center), TSEM (Japonia/METI, katalizator >48h, bez zmian), BABA/FRO/LMT/NOC (Hormuz - USA uderzylo w Iran piaty dzien z rzedu w nocy, w tym w tankowiec sankcjonowany kolo Kharg Island; ropa WTI >$80, +11% w 3 sesje). Micro-cap pumpy dzisiejszej sesji SWIADOMIE POMINIETE (wzorzec do UNIKANIA, nie do gonienia): TGHL (+67%, reverse merger z korenskim EnChem, 85% rozwodnienia dla nowych akcjonariuszy), STAK (+59%, kontynuacja parabolicznego pompowania z czerwca - juz w lekcjach), ATPC (+58%, fałszywy sygnal - ujawnienie pasywnego 5% udzialu Jane Street w spolce $2.6-4M mcap, -96% w 12 mies.), LIMN (+52%, penny stock bez jakosciowego katalizatora), IQST (+38%, wiazace MOU na Ultranet jeszcze niezamkniete, cel analityka $18 vs cena $1.22 - podejrzanie promocyjny). Insider/13F/kongres: brak nowych jakosciowych sygnalow ponad prog materialnosci w tej rundzie (13F Q2 dopiero 14 sierpnia). Uwaga: kilka pct_1m to przeliczenia proporcjonalne z porannej wyceny (ta sama metoda co poprzednie rundy) z uwagi na ograniczona dostepnosc precyzyjnych danych historycznych w tej sesji - oznaczone w polu note gdzie dotyczy.",
   "ipo": [],
   "volume": [
     {
       "ticker": "AEHR",
       "name": "Aehr Test Systems",
-      "price_usd": 89.0,
-      "pct_1m": -29.0,
+      "price_usd": 82.31,
+      "pct_1m": -34.0,
       "catalyst": null,
       "still_upside": true,
-      "upside_reason": "Q4 FY2026 beat + guidance FY2027 przychodow $130-150M (2.6-3x r/r, mocno powyzej konsensusu $85M), rekordowe bookingi $60.7M (5x r/r), backlog $100.6M pokrywa ~72% celu, dywersyfikacja z EV/silicon-carbide w strone AI data center/silicon photonics testing - katalizator dopiero zaczyna byc wyceniany, mimo popu wciaz ok. -29% od ATH ($126.62, 15 czerwca)",
-      "note": "Kontynuacja tezy z 15 lipca. Bardzo mala spolka (market cap ok. $2.8B), wysoka zmiennosc (spike do $110.20 -> fade do $87.79 w dniu earnings) - ostrozny sizing"
+      "upside_reason": "Q4 FY2026 beat + guidance FY2027 przychodow $130-150M (2.6-3x r/r, mocno powyzej konsensusu $85M), rekordowe bookingi $60.7M (5x r/r), backlog $80.6M, dywersyfikacja z EV/silicon-carbide w strone AI data center/silicon photonics testing - katalizator dopiero zaczyna byc wyceniany; dzis dalszy fade (-6.25%) pogłębia dyskonto od ATH ($126.62, 15 czerwca)",
+      "note": "Kontynuacja tezy z 15-16 lipca. Mala spolka (mcap ok. $2.67B), bardzo wysoka zmiennosc (beta 3.18) - ostrozny sizing. Cel analitykow $108.33 (+31.6% od obecnej ceny)"
     }
   ],
   "contract": [
     {
       "ticker": "WULF",
       "name": "TeraWulf Inc.",
-      "price_usd": 20.01,
-      "pct_1m": 13.0,
-      "catalyst": "20-letni lease z Anthropic na kampus AI w Hawesville, Kentucky - ok. $19B kontraktowanego przychodu; teza kontynuowana z 6-15 lipca",
+      "price_usd": 17.95,
+      "pct_1m": 1.0,
+      "catalyst": "20-letni lease z Anthropic na kampus AI w Hawesville, Kentucky - ok. $19B kontraktowanego przychodu; teza kontynuowana z 6-16 lipca",
       "still_upside": true,
-      "upside_reason": "cena nadal ponizej lokalnych szczytow (~$25), analitycy podnosili cele do $30-72 po umowie, przychody z kontraktu startuja dopiero w 2027 - katalizator dopiero zaczyna byc wyceniany",
-      "note": "pct_1m przeliczony proporcjonalnie z wczorajszej wyceny"
+      "upside_reason": "cena wyraznie ponizej lokalnych szczytow i celu analitykow $38.59 (+115%), kontrakt Anthropic i przychody z niego startuja dopiero w 2027 - katalizator dopiero zaczyna byc wyceniany; dzisiejszy spadek (-7.3%) to reakcja sektorowa na moratorium NY (Hochul EO z 14 lipca na hyperscale data center >=50MW), a nie na wlasny projekt WULF (Kentucky, poza NY) - teza NIE pekla, ale ryzyko regulacyjne (precedens dla innych stanow) do sledzenia",
+      "note": "pct_1m przeliczony proporcjonalnie z porannej wyceny; mala pozycja z uwagi na podwyzszona zmiennosc sektorowa dzis"
     },
     {
       "ticker": "AVAV",
       "name": "AeroVironment",
-      "price_usd": 141.22,
-      "pct_1m": -10.0,
+      "price_usd": 147.72,
+      "pct_1m": -6.0,
       "catalyst": "$500M kontrakt US Army na commercial counter-UAS + mocny beat przychodowy; teza kontynuowana, wzmacniana eskalacja Iran/Hormuz",
       "still_upside": true,
-      "upside_reason": "cena nadal wyraznie ponizej sredniej ceny docelowej analitykow $258 - kontrakt dopiero zaczyna byc wyceniany",
-      "note": "dzis lekko w dol, spokojna kontynuacja bez paraboli"
+      "upside_reason": "cena nadal wyraznie ponizej sredniej ceny docelowej analitykow $245.38 (+66%) - kontrakt dopiero zaczyna byc wyceniany",
+      "note": "dzis +4.6% - odbicie w trakcie sesji, kontynuacja bez paraboli. pct_1m przeliczony proporcjonalnie"
     },
     {
       "ticker": "ONDS",
       "name": "Ondas Inc.",
-      "price_usd": 7.07,
-      "pct_1m": -14.0,
-      "catalyst": "Akwizycja DZYNE Technologies (~$876M) + podniesione guidance revenue 2026 do $525M; integracja Sentrycs z Lockheed Martin Sanctum Counter-UAS; teza kontynuowana z 6-15 lipca",
+      "price_usd": 6.59,
+      "pct_1m": -20.0,
+      "catalyst": "Akwizycja DZYNE Technologies (~$876M) + podniesione guidance revenue 2026 do $525M; integracja Sentrycs z Lockheed Martin Sanctum Counter-UAS; teza kontynuowana z 6-16 lipca",
       "still_upside": true,
-      "upside_reason": "cena wciaz ponizej sredniego celu analitykow (Needham Buy $19), podniesione guidance dopiero zaczyna byc wyceniane",
-      "note": "OSTRZEZENIE utrzymane: resale filing na 3.378M akcji (holdery Omnisys) - overhang podazowy, mniejsza pozycja. Wolumen dzis podwyzszony (131.7M vs sr. 86.9M)"
+      "upside_reason": "cena wciaz mocno ponizej sredniego celu analitykow $19.81 (+200%), podniesione guidance dopiero zaczyna byc wyceniane",
+      "note": "OSTRZEZENIE utrzymane: resale filing na 3.378M akcji (holdery Omnisys) - overhang podazowy, mniejsza pozycja. Dzis -6.5%, kontynuacja fade z ostatnich sesji. pct_1m przeliczony proporcjonalnie"
     },
     {
       "ticker": "TSEM",
       "name": "Tower Semiconductor",
-      "price_usd": 247.16,
-      "pct_1m": 12.0,
+      "price_usd": 244.30,
+      "pct_1m": 11.0,
       "catalyst": "$3B rozbudowa mocy produkcyjnych silicon photonics/SiGe w Japonii (przejecie zasobow po Panasonic) + $1B dotacji rzadu Japonii (METI) na AI supply chain, plus podniesione cele przychodowe/zyskowe na 2028 - ogloszone 14 lipca",
       "still_upside": false,
-      "note": "Katalizator sprzed >48h (14 lipca), kontynuacja bez zerwania tezy. pct_1m szacunkowy z uwagi na rozbiezne dane cenowe w zrodlach - ostroznosc przy sizingu"
+      "note": "Katalizator sprzed >48h (14 lipca), kontynuacja bez zerwania tezy. Dzis -2.67%. pct_1m przeliczony proporcjonalnie"
     },
     {
       "ticker": "CLSK",
       "name": "CleanSpark Inc.",
-      "price_usd": 13.9,
-      "pct_1m": 22.0,
+      "price_usd": 13.16,
+      "pct_1m": 16.0,
       "catalyst": "20-letni lease $6.6B (do $11.6B z opcjami) AI data center w Sandersville GA (175MW) + LOI na dodatkowy portfel Teksas (885MW) - ogloszone 14 lipca",
       "still_upside": false,
-      "note": "Dostarczenie dopiero Q4 2027 (odlegle w czasie) - BEZ furtki still_upside, wzorzec identyczny do WULF/lekcji z 15 lipca: czesc zysku oddawana w ciagu dnia (premarket +20% -> sesja +9%), nie gonic pierwszego printu"
+      "note": "Dostarczenie dopiero Q4 2027 (odlegle w czasie) - BEZ furtki still_upside, wzorzec identyczny do WULF/lekcji z 15 lipca. Dzis -6.9%, reakcja sektorowa na moratorium NY Hochul (projekt CLSK w Georgii, poza NY) - nie gonic pierwszego printu"
+    },
+    {
+      "ticker": "ELVA",
+      "name": "Electrovaya Inc.",
+      "price_usd": 9.64,
+      "pct_1m": 1.0,
+      "catalyst": "Komercyjna umowa z Amazon (6-K, 15 lipca) - warranty na do 13.88M akcji Electrovaya w pelni vestujace po osiagnieciu przez Amazon skumulowanych zakupow $280M; wsparcie dla wdrozenia Infinity Battery Technology w operacjach magazynowych/robotyce Amazon",
+      "still_upside": true,
+      "upside_reason": "Roth Capital natychmiast podniosl cel do $20 (ok. 2x obecnej ceny) po ogloszeniu; kontrakt/relacja z Amazon dopiero zaczyna byc wyceniana, pct_1m niemal plaski mimo dwoch burzliwych sesji",
+      "note": "OSTRZEZENIE: klasyczny wzorzec spike-i-fade - +40% w dniu ogloszenia (15 lipca), dzis juz -18% intraday (z $11.76 do $9.64). Bardzo mala pozycja jesli w ogole - nie gonic, rozwazyc tylko przy dalszej stabilizacji ceny"
     }
   ],
   "insider": [],
@@ -71,42 +81,42 @@
     {
       "ticker": "BABA",
       "name": "Alibaba Group",
-      "price_usd": 120.0,
-      "pct_1m": 3.0,
-      "catalyst": "Kontynuacja tezy z 7-15 lipca: sedzia zablokowal Pentagonowi zakaz lobbingu wobec Alibaba + ugoda ~$600M z DOJ; nowy watek - chinska zgoda regulacyjna na integracje modelu Qwen z urzadzeniami Apple w Chinach",
+      "price_usd": 118.12,
+      "pct_1m": 1.0,
+      "catalyst": "Kontynuacja tezy z 7-16 lipca: sedzia zablokowal Pentagonowi zakaz lobbingu wobec Alibaba + ugoda ~$600M z DOJ; chinska zgoda regulacyjna na integracje modelu Qwen z urzadzeniami/uslugami Apple w Chinach",
       "still_upside": true,
-      "upside_reason": "nadal ok. 35% ponizej 52-tyg. maksimum, analitycy Strong Buy ze srednim celem $190 - re-rating duzej plynnej spolki, nie szczyt mikro-cap paraboli",
-      "note": "kilka sesji z rzedu w gore - jesli kupno, nie gonic dalszego skoku, czekac na stabilizacje"
+      "upside_reason": "nadal wyraznie ponizej 52-tyg. maksimum ($192.67), analitycy Strong Buy ze srednim celem $189.42 (+60%) - re-rating duzej plynnej spolki, nie szczyt mikro-cap paraboli",
+      "note": "dzis stabilnie (+0.37%) po kilku sesjach wzrostowych - jesli kupno, nie gonic, czekac na stabilizacje. pct_1m przeliczony proporcjonalnie"
     },
     {
       "ticker": "FRO",
       "name": "Frontline plc",
-      "price_usd": 38.04,
-      "pct_1m": 9.0,
-      "catalyst": "Blokada Ciesniny Ormuz (dalsza eskalacja przez noc, USA ponownie egzekwuje) - dluzsze/drozsze trasy tankowcow VLCC/Suezmax/Aframax; teza kontynuowana",
+      "price_usd": 37.81,
+      "pct_1m": 8.0,
+      "catalyst": "Blokada Ciesniny Ormuz - USA uderzylo w Iran piaty dzien z rzedu w nocy, w tym w sankcjonowany tankowiec kolo Kharg Island; ruch tankowcow przez Ormuz spadl do 21 statkow (kolejny dzien spadku); teza kontynuowana i wzmocniona",
       "still_upside": true,
-      "upside_reason": "cena ponizej lokalnego szczytu ~$41, cel analitykow $44.25 - egzekwowanie blokady dopiero realnie ruszylo",
-      "note": "dywidenda 8.48%, P/E 9.08"
+      "upside_reason": "cena ponizej lokalnego szczytu ~$41 i celu analitykow $44.25 (+17%) - egzekwowanie blokady dalej sie zaostrza",
+      "note": "dywidenda 4.66%, P/E 9.30. Dzis stabilnie (-0.24%)"
     },
     {
       "ticker": "LMT",
       "name": "Lockheed Martin",
-      "price_usd": 545.0,
-      "pct_1m": 8.0,
-      "catalyst": "Eskalacja Iran/Hormuz (dalsza noc dzis) - defense sector beneficjent podwyzszonego ryzyka regionalnego, rekordowe tailwinds budzetowe; teza kontynuowana",
+      "price_usd": 515.81,
+      "pct_1m": 2.0,
+      "catalyst": "Eskalacja Iran/Hormuz (USA uderzylo piaty dzien z rzedu w nocy, Iran odpalil rakiety w baze w Kuwejcie i Jordanii) + nowe kontrakty: $10.53 mld/12-letnia umowa z US SOCOM, $1.6 mld zamowienie Navy na czesci F-35; teza kontynuowana",
       "still_upside": true,
-      "upside_reason": "+8% w miesiac potwierdzone zrodlowo, wciaz ponizej wczesniejszych szczytow",
-      "note": "RYZYKO utrzymane z poprzednich rund: Wells Fargo obcial cel z $650 do $575 za slaba wzgledna sile - nie ignorowac przy sizingu"
+      "upside_reason": "cel analitykow $608.42 (+18%) mimo ze wiekszosc analitykow ocenia na 'Hold'",
+      "note": "RYZYKO utrzymane z poprzednich rund: Wells Fargo obcial cel z $650 do $575 za slaba wzgledna sile - nie ignorowac przy sizingu. pct_1m przeliczony proporcjonalnie"
     },
     {
       "ticker": "NOC",
       "name": "Northrop Grumman",
-      "price_usd": 504.6,
-      "pct_1m": -3.0,
-      "catalyst": "Eskalacja Iran/Hormuz - defense sector beneficjent; teza kontynuowana",
+      "price_usd": 523.91,
+      "pct_1m": 1.0,
+      "catalyst": "Eskalacja Iran/Hormuz - defense sector beneficjent; NATO zamowilo do 5 dronow MQ-4C Triton; Morgan Stanley nazwal NOC 'Top Pick' w sektorze obronnym; teza kontynuowana",
       "still_upside": true,
-      "upside_reason": "cena lekko ujemna w miesiac, ponad 30% ponizej 52-tyg. maksimum ($774)",
-      "note": "RYZYKO utrzymane: Wells Fargo obcial cel z $800 do $620 (-23%) - powazniejszy kontrargument niz dla LMT, mniejsza pozycja jesli w ogole. pct_1m szacunkowy"
+      "upside_reason": "cel analitykow $670.48 (+28%), ponad 30% ponizej 52-tyg. maksimum ($774)",
+      "note": "RYZYKO utrzymane: kilku analitykow ostatnio obcina cele za slabsze wyniki sektorowe - mniejsza pozycja jesli w ogole. pct_1m przeliczony proporcjonalnie"
     }
   ]
 }
