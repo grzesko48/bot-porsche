@@ -1503,5 +1503,19 @@
     "pct": 17.0,
     "presignal": "Brak pre-sygnalu dzien wczesniej - Tower Semiconductor (izraelski/globalny foundry, NASDAQ) ogloscil $3B rozbudowe mocy produkcyjnych silicon photonics/SiGe w Japonii (przejmuje zasoby po Panasonic Semiconductor) z $1B dotacji rzadu Japonii (METI) na wsparcie lancucha dostaw AI, plus podniesione cele przychodowe/zyskowe na 2028 tego samego dnia",
     "lesson": "Rzadowe dotacje (nie-USA, np. japonskie METI) na rozbudowe mocy produkcyjnej polprzewodnikow AI to powtarzalny wzorzec globalny (analogicznie do amerykanskich kontraktow DoD/DOE) - warto rozszerzyc monitoring 'kontrakt rzadowy' poza USA (Japonia, Korea, Tajwan) dla foundry/chip-supply-chain spolek notowanych na NASDAQ, zwlaszcza gdy towarzyszy podniesione guidance wieloletnie"
+  },
+  {
+    "date": "2026-07-16",
+    "ticker": "LCID",
+    "pct": 28.8,
+    "presignal": "Brak wyraznego pre-sygnalu dzien wczesniej z tej sesji (OpenInsider/8-K) - Lucid Group odrzucil krazace plotki o bankructwie i przejeciu 'na private' tego samego dnia, co wywolalo gwaltowne odbicie (+28.79%, wolumen ok. 169% powyzej 3-miesiecznej sredniej 20.7M akcji); akcja byla wczesniej pod silna presja spadkowa/duzym short interest przed dementi",
+    "lesson": "Ruchy typu 'dementi plotki o bankructwie/przejeciu' na spolkach EV/growth z wysokim short interest sa praktycznie nieprzewidywalne z wyprzedzeniem (plotka i jej zaprzeczenie pojawiaja sie tego samego dnia/sesji) - traktowac jako kategorie do rejestru obserwacyjnego, nie do gonienia; monitorowac raczej dni z anomalnie wysokim wolumenem opcji put/wzrostem short interest jako mozliwy wczesny sygnal spekulacji o bankructwie, ktora nastepnie moze zostac zdementowana"
+  },
+  {
+    "date": "2026-07-16",
+    "ticker": "PYPL",
+    "pct": 19.0,
+    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej w danych dostepnych w tej sesji - Reuters doniosl o ofercie przejecia PayPal przez Stripe i fundusz private equity Advent za ok. $53 mld, co wywolalo natychmiastowy skok o 19%; typowy 'buyout rumor via wire service' na duzej spolce (nie small/micro-cap)",
+    "lesson": "Plotki o wykupie duzych spolek (mega-cap) raportowane przez agencje (Reuters/Bloomberg) tez potrafia dawac jednodniowe ruchy >15-20%, ale sa poza typowym sleeve spekulacyjnym bota (kapitalizacja zbyt duza, ryzyko/nagroda inne niz micro/small-cap); monitorowac niestandardowy wzrost wolumenu opcji call ATM/OTM na duzych fintechach jako mozliwy wczesny tell przed oficjalnym newsem, ale nie traktowac jako priorytetowy wzorzec dla tego bota"
   }
 ]
