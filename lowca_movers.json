@@ -1,30 +1,9 @@
 [
   {
-    "ticker": "LCID",
-    "pct": 28.79,
-    "day": "2026-07-15",
-    "presignal": "Brak wyraznego pre-sygnalu dzien wczesniej z tej sesji (OpenInsider/8-K) - Lucid Group odrzucil krazace plotki o bankructwie i przejeciu 'na private' tego samego dnia, co wywolalo gwaltowne odbicie (+28.79%, wolumen ok. 169% powyzej 3-miesiecznej sredniej 20.7M akcji); akcja byla wczesniej pod silna presja spadkowa/duzym short interest przed dementi",
-    "lesson": "Ruchy typu 'dementi plotki o bankructwie/przejeciu' na spolkach EV/growth z wysokim short interest sa praktycznie nieprzewidywalne z wyprzedzeniem (plotka i jej zaprzeczenie pojawiaja sie tego samego dnia/sesji) - traktowac jako kategorie do rejestru obserwacyjnego, nie do gonienia; monitorowac raczej dni z anomalnie wysokim wolumenem opcji put/wzrostem short interest jako mozliwy wczesny sygnal spekulacji o bankructwie, ktora nastepnie moze zostac zdementowana"
-  },
-  {
-    "ticker": "PYPL",
-    "pct": 19.0,
-    "day": "2026-07-15",
-    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej w danych dostepnych w tej sesji - Reuters doniosl o ofercie przejecia PayPal przez Stripe i fundusz private equity Advent za ok. $53 mld, co wywolalo natychmiastowy skok o 19%; typowy 'buyout rumor via wire service' na duzej spolce (nie small/micro-cap)",
-    "lesson": "Plotki o wykupie duzych spolek (mega-cap) raportowane przez agencje (Reuters/Bloomberg) tez potrafia dawac jednodniowe ruchy >15-20%, ale sa poza typowym sleeve spekulacyjnym bota (kapitalizacja zbyt duza, ryzyko/nagroda inne niz micro/small-cap); monitorowac niestandardowy wzrost wolumenu opcji call ATM/OTM na duzych fintechach jako mozliwy wczesny tell przed oficjalnym newsem, ale nie traktowac jako priorytetowy wzorzec dla tego bota"
-  },
-  {
-    "ticker": "ELVA",
-    "pct": 40.0,
-    "day": "2026-07-15",
-    "presignal": "Brak wielodniowego pre-sygnalu - Electrovaya (producent baterii litowo-jonowych, TSX+NASDAQ) ogłosila komercyjna umowe z Amazon (warranty na do 13.88M akcji, w pelni vestujace po osiagnieciu przez Amazon skumulowanych zakupow $280M) w formularzu 6-K tego samego dnia co skok +40%; Roth Capital natychmiast podniosl cel do $20 (ok. 2x ponad ceny sprzed ogloszenia); nastepnego dnia (16 lipca) akcja oddala ok. -18% intraday - klasyczny wzorzec spike-i-fade",
-    "lesson": "Umowy komercyjne z Amazon/Big Tech dla malych producentow baterii/hardware (6-K dla zagranicznych emitentow) daja natychmiastowy skok bez lead-time, ale czesc zysku jest oddawana juz nastepnej sesji (spike-and-fade, podobnie jak WULF/CLSK po ogloszeniach data center); monitorowac formularze 6-K/8-K z warrantami powiazanymi z progami zakupow duzego partnera jako sygnal, ale NIE gonic pierwszego dnia - czekac na potwierdzenie ceny po 1-2 sesjach fade"
-  },
-  {
-    "ticker": "SOBR",
-    "pct": 75.2,
-    "day": "2026-07-15",
-    "presignal": "10 lipca: SOBR Safe ujawnil zamiar zaprzestania dzialalnosci hardware/software do wykrywania alkoholu do 31 lipca 2026 (dla zachowania gotowki) w ramach planowanego reverse-merger z Clean World Ventures (CWV); rownolegle repricing warrantow grudniowych z $1.30 do $1.05 - seria dyskretnych sygnalow 5 dni przed glownym skokiem +75.2% (po +219% dzien wczesniej, 13 lipca)",
-    "lesson": "Reverse merger + dyskontynuacja podstawowej dzialalnosci + repricing warrantow w dol = wielodniowy speculative squeeze mozliwy do wylapania z 5-dniowym wyprzedzeniem, ALE naleAy UNIKAC kupna: legacy holdery koncza z ok. 1.7% w polaczonej spolce (ekstremalne rozwodnienie) - to wzorzec czysto promocyjny/headline-driven, nie fundamentalny; dodac do screenera jako watch-only, nigdy buy"
+    "ticker": "ATAI",
+    "pct": 33.0,
+    "day": "2026-07-16",
+    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej dostepnego w tej sesji - Eli Lilly ogłosil przejecie AtaiBeckley za $6.75/akcje w gotowce (premia ok. 26% do zamkniecia ze srody), co wywolalo natychmiastowy skok o 33% w dniu ogloszenia",
+    "lesson": "Definitywne umowy o przejecie (nie plotki) duzych farmaceutykow wobec mniejszych biotechow sa ogloszane i wycenione tego samego dnia - praktycznie niemozliwe do wylapania z wyprzedzeniem bez dostepu do niepublicznych informacji o negocjacjach; monitorowac raczej niestandardowy wzrost wolumenu opcji call OTM na male/srednie biotechy z aktywnym pipeline jako mozliwy wczesny tell przed oficjalnym ogloszeniem M&A, ale traktowac jako kategorie niskiego prawdopodobienstwa wylapania, nie priorytetowy wzorzec"
   }
 ]

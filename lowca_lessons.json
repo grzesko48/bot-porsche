@@ -1517,5 +1517,12 @@
     "pct": 19.0,
     "presignal": "Brak jawnego pre-sygnalu dzien wczesniej w danych dostepnych w tej sesji - Reuters doniosl o ofercie przejecia PayPal przez Stripe i fundusz private equity Advent za ok. $53 mld, co wywolalo natychmiastowy skok o 19%; typowy 'buyout rumor via wire service' na duzej spolce (nie small/micro-cap)",
     "lesson": "Plotki o wykupie duzych spolek (mega-cap) raportowane przez agencje (Reuters/Bloomberg) tez potrafia dawac jednodniowe ruchy >15-20%, ale sa poza typowym sleeve spekulacyjnym bota (kapitalizacja zbyt duza, ryzyko/nagroda inne niz micro/small-cap); monitorowac niestandardowy wzrost wolumenu opcji call ATM/OTM na duzych fintechach jako mozliwy wczesny tell przed oficjalnym newsem, ale nie traktowac jako priorytetowy wzorzec dla tego bota"
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "ATAI",
+    "pct": 33.0,
+    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej dostepnego w tej sesji - Eli Lilly ogłosil przejecie AtaiBeckley za $6.75/akcje w gotowce (premia ok. 26% do zamkniecia ze srody), co wywolalo natychmiastowy skok o 33% w dniu ogloszenia",
+    "lesson": "Definitywne umowy o przejecie (nie plotki) duzych farmaceutykow wobec mniejszych biotechow sa ogloszane i wycenione tego samego dnia - praktycznie niemozliwe do wylapania z wyprzedzeniem bez dostepu do niepublicznych informacji o negocjacjach; monitorowac raczej niestandardowy wzrost wolumenu opcji call OTM na male/srednie biotechy z aktywnym pipeline jako mozliwy wczesny tell przed oficjalnym ogloszeniem M&A, ale traktowac jako kategorie niskiego prawdopodobienstwa wylapania, nie priorytetowy wzorzec"
   }
 ]
