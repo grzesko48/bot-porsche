@@ -1,73 +1,77 @@
 {
-  "generated": "2026-06-24T19:50",
+  "generated": "2026-07-18",
   "freshness_days": 7,
   "signals": [
     {
-      "ticker": "MU",
+      "ticker": "LITE",
       "has_catalyst": true,
       "catalyst_type": "rating",
       "direction": "bullish",
-      "headline": "Stifel i Wedbush ostro podniosly ceny docelowe Micron na popycie AI (DRAM/HBM, 17-18.06, w oknie 7 dni) + wieloletnia umowa dostaw pamieci dla Anthropic. Wyniki fiskalne Q3 wypadaja DZIS 24.06 - event binarny (konsensus oczekuje pobicia wlasnej prognozy ~33,5 mld USD).",
-      "as_of": "2026-06-24",
-      "confidence": 0.7,
+      "headline": "Klaster bullish rekomendacji w oknie 7d: Zacks upgrade do Rank #2 (Buy) po podniesieniu prognoz EPS, Citi dodaje 90-dniowy 'catalyst watch' (15.07), JPMorgan podtrzymuje Overweight i traktuje ~20% przecene jako okazje (popyt AI data-center optics).",
+      "as_of": "2026-07-15",
+      "confidence": 0.55,
       "source_count": 3,
       "sources": [
-        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4604817-micron-jumps-as-wedbush-and-stifel-raise-price-targets-on-ai-driven-demand"},
-        {"label": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/mu-micron-stock-q3-2026-earnings-high-bandwidth-memory"},
-        {"label": "SEC 8-K MU", "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000110465926071845/tm2617112d1_ex99-1.htm"}
+        {"label": "Yahoo Finance (Zacks upgrade)", "url": "https://finance.yahoo.com/technology/ai/articles/lumentum-lite-6-3-zacks-191102026.html"},
+        {"label": "StocksToTrade (JPMorgan Overweight)", "url": "https://stockstotrade.com/news/lumentum-holdings-inc-lite-news-2026_07_09/"},
+        {"label": "GuruFocus (LITE +6.1%)", "url": "https://www.gurufocus.com/news/8958656/lumentum-holdings-inc-lite-shares-surge-61-what-gf-score-of-61-tells-investors"}
+      ]
+    },
+    {
+      "ticker": "MU",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Brak NOWEGO katalizatora w oknie 7d. Duze kontrakty (Anthropic HBM, ~$22B upfront, 16 SCA) sa z 2-7 lipca (poza oknem). Swieze 7 dni: przecena ~8%, presja konkurencyjna po IPO SK Hynix (10 lip).",
+      "as_of": "2026-07-16",
+      "confidence": 0.5,
+      "source_count": 2,
+      "sources": [
+        {"label": "TradingKey (MU pullback)", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262015351-micron-mu-stock-price-prediction-july-2026-anthropic-skhy-tradingkey"},
+        {"label": "Motley Fool (7 lip)", "url": "https://www.fool.com/investing/2026/07/07/micron-technology-just-dropped-a-50-billion-revenu/"}
       ]
     },
     {
       "ticker": "INTC",
-      "has_catalyst": true,
-      "catalyst_type": "contract",
-      "direction": "bullish",
-      "headline": "Ogloszony deal Apple-Intel na produkcje chipow w USA (18.06, w oknie 7 dni), akcje +9% + seria umow foundry (Cadence 14A; raporty Google/Nvidia jako backup wobec ograniczen TSMC). Brak formalnego potwierdzenia stron -> nizsza pewnosc.",
-      "as_of": "2026-06-18",
-      "confidence": 0.7,
-      "source_count": 3,
-      "sources": [
-        {"label": "Investing.com", "url": "https://www.investing.com/analysis/appleintel-chip-manufacturing-deal-reshapes-foundry-race-200682398"},
-        {"label": "indmoney", "url": "https://www.indmoney.com/blog/us-stocks/intel-stock-apple-chip-deal-intc-outlook"},
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/intel-next-chapter-government-backing-152809605.html"}
-      ]
-    },
-    {
-      "ticker": "COHR",
-      "has_catalyst": true,
-      "catalyst_type": "regulatory",
-      "direction": "bullish",
-      "headline": "CHIPS Act list intencyjny do 50 mln USD na rozbudowe fab InP w Sherman TX pod optyke AI - zdarzenie 16.06. UWAGA: dzis to 8 dni, tuz POZA oknem 7 dni -> traktowane jako nieswieze (scalar neutralny).",
-      "as_of": "2026-06-16",
-      "confidence": 0.85,
-      "source_count": 3,
-      "sources": [
-        {"label": "NIST (gov)", "url": "https://www.nist.gov/news-events/news/2026/06/department-commerces-chips-program-announces-letter-intent-coherent-50"},
-        {"label": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/06/16/3312664/11543/en/Coherent-Announces-a-CHIPS-Letter-of-Intent-for-50-Million-to-Expand-World-Leading-Manufacturing-Facility-for-AI-Infrastructure.html"},
-        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4603979-coherent-in-spotlight-as-it-signs-letter-of-intent-for-50m-in-funding-from-chips-act"}
-      ]
-    },
-    {
-      "ticker": "LITE",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z 2 zrodlami. Partnerstwo NVIDIA (marzec) i guidance Q3 (call 6 maja) stare; insiderzy NETTO SPRZEDAJA (dyrektor -1416 akcji 02.06, 10b5-1). Konserwatywnie: brak.",
-      "as_of": "2026-06-24",
-      "confidence": 0.2,
-      "source_count": 0,
-      "sources": []
+      "headline": "Sygnaly sprzeczne w oknie 7d: HSBC podnosi cel do $200 (16 lip) vs konsensus Hold ~$97 i obawy o yieldy 18A; akcja -21% w 7 dni. Q2 wyniki 23 lip (event, nie przeszly katalizator). Brak czystego kierunkowego katalizatora.",
+      "as_of": "2026-07-16",
+      "confidence": 0.5,
+      "source_count": 2,
+      "sources": [
+        {"label": "FXLeaders (HSBC $200)", "url": "https://www.fxleaders.com/news/2026/07/16/intc-200-price-target-alert-hsbc-sees-intel-earnings-expanding-on-server-and-foundry-strength/"},
+        {"label": "TradingKey (INTC -21%)", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262017058-intel-intc-stock-prediction-july-2026-hsbc-200-bubble-risk-tradingkey"}
+      ]
     },
     {
       "ticker": "CIEN",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wyniki Q2 (04.06, +40% r/r, podniesiony guidance FY do 6.3 mld) juz POZA oknem 7 dni (20 dni temu). Insiderzy mocno sprzedaja (41 transakcji, ~53 mln USD, w tym CEO). Brak swiezego katalizatora.",
-      "as_of": "2026-06-24",
-      "confidence": 0.3,
-      "source_count": 0,
-      "sources": []
+      "headline": "Silne podniesienie guidance FY26 do $6.3B (+40% r/r Q2) pochodzi z raportu kwartalnego (~czerwiec, poza oknem 7d). W swiezym oknie tylko drobne premiery produktowe (Blue Planet CCM, PoC Telefonica 5G slicing) — nie material.",
+      "as_of": "2026-07-15",
+      "confidence": 0.5,
+      "source_count": 2,
+      "sources": [
+        {"label": "SEC 8-K Q2 FY2026", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9912026q2earningspressre.htm"},
+        {"label": "Yahoo Finance CIEN", "url": "https://finance.yahoo.com/quote/CIEN/"}
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Brak NOWEGO katalizatora w oknie 7d. Katalizatory (Polariton close 22 kwi, $2B Nvidia, S&P500 22 cze) sa stare. Swieze 7 dni: przecena ~-8.7% w sektorowej wyprzedazy; jedynie ogolna lista 'semis to buy' (17 lip).",
+      "as_of": "2026-07-17",
+      "confidence": 0.5,
+      "source_count": 2,
+      "sources": [
+        {"label": "247WallSt (semis to buy)", "url": "https://247wallst.com/investing/2026/07/17/3-semiconductor-stocks-to-buy-before-ai-demand-explodes-in-july/"},
+        {"label": "MarketBeat MRVL", "url": "https://www.marketbeat.com/instant-alerts/marvell-technology-nasdaqmrvl-stock-price-up-16-whats-next-2026-07-06/"}
+      ]
     }
   ]
 }

@@ -1,15 +1,8 @@
 {
-  "generated": "2026-06-24T19:50",
+  "generated": "2026-07-18",
   "insiders": {},
-  "funds": {
-    "CIEN": [
-      {"manager": "13F agregat (ok. 20 funduszy dolozylo ~1 mln akcji w Q1'26)", "pct_portfolio": 0, "action": "add"}
-    ],
-    "COHR": [
-      {"manager": "WT Asset Management (+443%, ~520 mln USD, Q1'26)", "pct_portfolio": 1.5, "action": "add"}
-    ]
-  },
+  "funds": {},
   "politicians": {},
   "sector_exits": [],
-  "_notes": "Cykl 2026-06-24 (kandydaci: LITE, MU, CIEN, INTC, COHR). INSIDERZY (Form 4 / OpenInsider): brak SWIEZEGO (<=30 dni) KLASTRA ZAKUPOW na otwartym rynku -> fail-CLOSED, wszystkie NEUTRAL. INTC: klaster 4 dyrektorow (Alyssa, Meurice, Novick, Goldsmith) kupil po 2782 akcje @120.29 (~335 tys. USD kazdy) ale 13.05 -> dzis 42 dni, POZA oknem 30 dni -> pomijam (sygnal konwikcji wygasl). CFO Zinsner kupil 26.01 (stare). MU/LITE/CIEN/COHR: insiderzy NETTO SPRZEDAJA (rutyna/10b5-1, w tym CEO CIEN), 0 open-market buy. COHR dodatkowo rozwodnienie +26% r/r. FUNDUSZE (13F/Dataroma Q1'26 - migawka, brak nowych filingow do ~sierpnia): CIEN bullish (ok.20 funduszy dolozylo ~1 mln akcji); COHR bullish (WT Asset Management +443.5%, ~520 mln USD). Utrzymane jako 'add'. POLITYCY (kongres): brak transakcji w oknie <=7 dni -> pomijam (fail-CLOSED). KONKLUZJA: pozytywne sygnaly smart-money tylko z 13F (CIEN, COHR); insiderzy i politycy neutralni; klaster INTC poza oknem czasowym."
+  "_notes": "Cykl 2026-07-18 (kandydaci: LITE, MU, INTC, CIEN, MRVL). INSIDERZY (Form 4/OpenInsider): LIVE engine odpytal OpenInsider dla wszystkich -> strona OK, BRAK transakcji insiderow w oknie -> NEUTRAL (fail-CLOSED). FUNDUSZE (13F/Dataroma): brak NOWYCH filingow 13F (ostatnia migawka Q1'26, kolejne dopiero ~sierpien); nie re-weryfikowalem Dataroma w tym cyklu -> nie przenosze niezweryfikowanych sygnalow. POLITYCY (kongres/STOCK Act): jedyne wzmianki o INTC/MRVL to disclosures z MAJA 2026 (Trump/kongres) - POZA oknem 7 dni i pojedyncze zrodlo -> pomijam (fail-CLOSED). KONKLUZJA: brak zweryfikowanej SWIEZEJ konwergencji smart-money w tym cyklu -> wszystkie warstwy neutralne."
 }

@@ -207,5 +207,82 @@
     "value_pln": 14161.96,
     "pnl_pln": 0.0,
     "reason": "wejście (core, score 7.1)"
+  },
+  {
+    "date": "2026-07-18",
+    "ticker": "TSM",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 9.2596,
+    "price_usd": 398.37,
+    "value_pln": 13980.37,
+    "pnl_pln": -1510.09,
+    "reason": "stop trafiony (zwrot -9.7%)"
+  },
+  {
+    "date": "2026-07-18",
+    "ticker": "GLW",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 6.2333,
+    "price_usd": 154.61,
+    "value_pln": 3652.55,
+    "pnl_pln": -785.98,
+    "reason": "stop trafiony (zwrot -17.7%)"
+  },
+  {
+    "date": "2026-07-18",
+    "ticker": "OXY",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 21.5042,
+    "price_usd": 54.86,
+    "value_pln": 4471.13,
+    "pnl_pln": 32.6,
+    "reason": "time-stop 15d, zysk <3% (+0.7%)"
+  },
+  {
+    "date": "2026-07-18",
+    "ticker": "LITE",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 0.8551,
+    "price_usd": 732.82,
+    "value_pln": 2374.92,
+    "pnl_pln": -727.3,
+    "reason": "time-stop 15d, zysk <3% (-23.4%)"
+  },
+  {
+    "date": "2026-07-18",
+    "ticker": "GOOGL",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 2.5065,
+    "price_usd": 346.77,
+    "value_pln": 3294.2,
+    "pnl_pln": -226.57,
+    "reason": "time-stop 15d, zysk <3% (-6.4%)"
+  },
+  {
+    "date": "2026-07-18",
+    "ticker": "ARM",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 10.6581,
+    "price_usd": 267.19,
+    "value_pln": 10792.96,
+    "pnl_pln": -3481.99,
+    "reason": "stop trafiony (zwrot -24.4%)"
+  },
+  {
+    "date": "2026-07-18",
+    "ticker": "TSM",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 8.9184,
+    "price_usd": 398.37,
+    "value_pln": 13465.15,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.7)"
   }
 ]
