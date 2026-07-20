@@ -1,9 +1,16 @@
 [
   {
-    "ticker": "ATAI",
-    "pct": 33.0,
-    "day": "2026-07-16",
-    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej dostepnego w tej sesji - Eli Lilly ogłosil przejecie AtaiBeckley za $6.75/akcje w gotowce (premia ok. 26% do zamkniecia ze srody), co wywolalo natychmiastowy skok o 33% w dniu ogloszenia",
-    "lesson": "Definitywne umowy o przejecie (nie plotki) duzych farmaceutykow wobec mniejszych biotechow sa ogloszane i wycenione tego samego dnia - praktycznie niemozliwe do wylapania z wyprzedzeniem bez dostepu do niepublicznych informacji o negocjacjach; monitorowac raczej niestandardowy wzrost wolumenu opcji call OTM na male/srednie biotechy z aktywnym pipeline jako mozliwy wczesny tell przed oficjalnym ogloszeniem M&A, ale traktowac jako kategorie niskiego prawdopodobienstwa wylapania, nie priorytetowy wzorzec"
+    "ticker": "SDOT",
+    "pct": 79.0,
+    "day": "2026-07-17",
+    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej - 8-K z 16 lipca ogłosił rownoczesnie trzy zdarzenia: akwizycje TradeIQ za $6M (predictive-intelligence software dla commodity trading), umowe na do $100M senior secured convertible notes (pierwsza transza $4M zamknieta 16 lipca) oraz restrukturyzacje kapitalu; wszystko ogloszone i wycenione w ciagu jednej sesji (+41% w czwartek, kontynuacja do +79-84% w piatek)",
+    "lesson": "Micro-cap 8-K z rownoczesnym stackiem 'akwizycja + duza linia finansowania convertible notes + restrukturyzacja' to natychmiastowy, tego samego dnia katalizator bez realnego okna wejscia przed ruchem; jedyny mozliwy pre-sygnal to nietypowa aktywnosc opcji/wolumenu w dniu przed 8-K (do zweryfikowania czy taka byla) - niski priorytet wylapania, ale warto sledzic seryjne 8-K z convertible note facilities w spolkach o bardzo niskiej kapitalizacji (<$50M) jako marker podwyzszonej zmiennosci na kilka dni"
+  },
+  {
+    "ticker": "SLND",
+    "pct": 60.0,
+    "day": "2026-07-17",
+    "presignal": "Brak pre-sygnalu z dnia wczesniejszego - joint venture (Red River Biosolids Partners, udzial Southland 33.3% przez kanadyjska spolke zalezna) wygrala kontrakt $815M CAD (udzial SLND ok. $272M CAD) od City of Winnipeg na modernizacje oczyszczalni sciekow; ogloszenie i wycena tego samego dnia, kontrakt wielokrotnie wiekszy niz kapitalizacja spolki (mcap ok. $37-63M wg roznych zrodel)",
+    "lesson": "Kontrakty infrastrukturalne/municypalne (progressive design-build, JV z udzialem procentowym) dla bardzo malych wykonawcow budowlanych (penny stock, NYSE American) moga dac wielokrotnosc kapitalizacji w jednym ogloszeniu - takie przetargi publiczne (miejskie/prowincjonalne w Kanadzie, US) czesto majace long lead-time w fazie 'bidding'/'shortlist' przed werdyktem; rozwazyc sledzenie publicznych rejestrow przetargow infrastrukturalnych (RFP shortlists) dla small-cap wykonawcow jako wczesniejszy tell niz sam werdykt"
   }
 ]
