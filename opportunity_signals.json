@@ -1,8 +1,19 @@
 {
   "_date": "2026-07-20",
-  "_run": "poniedzialek, przed otwarciem 14:30 CEST. Kontekst: nowa runda amerykanskich nalotow na Iran w weekend, ropa mieszana (WTI -0.17%, Brent +0.50%), futures lekko na plus (S&P +0.30%, Nasdaq100 +0.64%, Russell2000 +0.31%) przed sezonem wynikow Q2. Runda wyszukiwan IPO/wolumen/insider/13F/kongres nie dala konkretnych, swiezych sygnalow z cena i wyraznym katalizatorem spelniajacych prog materialnosci - screenery (OpenInsider, WhaleWisdom, CapitolTrades) nie pokazuja nic nowego ponad ogolne, nieaktualne przyklady (13F Q2 dopiero 14 sierpnia). Dwa konkretne sygnaly znalezione: kontrakt obronny LGL (Indo-Pacific, HaveQuick) i INFQ na duzym cofnieciu (-32% w skali miesiaca) z wciaz aktywnym katalizatorem polityki kwantowej Trumpa. Wczorajsze/piatkowe najwieksze jednodniowe wzrosty (SDOT +astronomiczne, SLND +57-67%) juz sparabolizowane (>50%) - nie kwalifikuja sie do kupna, tylko do dziennika lekcji (patrz lowca_movers.json).",
+  "_run": "poniedzialek, srodsesyjny 18:30 CEST (rynek USA otwarty od ~15:30 CEST). Kontekst: kontynuacja rajdu z rana (S&P/Nasdaq100/Russell2000 na plusie), sezon wynikow Q2 w toku. Swieza runda wyszukiwan (wolumen/kontrakt/insider/kongres/polityka) namierzyla jeden mocny swiezy katalizator dnia: HUT (Hut 8) - drugi lease $9.8 mld w pelni komercjalizujacy kampus Beacon Point AI data center, ogloszony dzis rano, akcja +12-16% intraday. Doszukano tez insider cluster buy w IPX (IperionX, krytyczne minerly/tytan - obronnosc/lotnictwo) - Executive Chairman kupil ~$1.1M akcji 13 lipca w ramach serii zakupow w 2026, akcja mocno po dyskoncie (-38% w skali miesiaca, -60% od ATH ze stycznia) przy analitykach podtrzymujacych cele 2-3x wyzsze od kursu. LGL (kontrakt obronny Indo-Pacific) i INFQ (polityka kwantowa Trump EO) z porannej rundy - katalizatory nadal aktywne, ceny bez istotnej zmiany, przeniesione bez modyfikacji. Wczorajsze/piatkowe ekstremalne ruchy (SDOT, SLND) nadal tylko w dzienniku lekcji - juz sparabolizowane, nie kwalifikuja sie do kupna.",
   "ipo": [],
-  "volume": [],
+  "volume": [
+    {
+      "ticker": "HUT",
+      "name": "Hut 8 Corp.",
+      "price_usd": 103.5,
+      "pct_1m": 38.0,
+      "catalyst": "Drugi lease (obok istniejacego) w pelni komercjalizujacy 1GW kampus Beacon Point (Teksas) - laczna wartosc kontraktowa kampusu >$19 mld bazowo (do $50.2 mld z opcjami odnowienia), ogloszony dzis rano (20 lipca 2026); Benchmark podniesl PT do $165 z $85 (Buy)",
+      "still_upside": true,
+      "upside_reason": "Kontrakt ogloszony dzis (<24h), wartosc bazowa kampusu (>$19 mld) znaczaco przewyzsza kapitalizacje spolki (~$10-11 mld), a firma dopiero co w pelni skomercjalizowala site - to nie koniec, tylko potwierdzenie modelu (portfolio AI data center juz 949 MW, $26.6 mld skumulowanych przychodow kontraktowych). Analitycy masowo podnosza cele (Benchmark 2x). Ryzyko: pct_1m ~38% (szacunek, dane sprzeczne w zrodlach) - w strefie 'CZEKAJ', furtka tylko dla mniejszej pozycji",
+      "note": "Duza kapitalizacja jak na sleeve spekulacyjny bota (~$10-11 mld, nie mikro/small-cap) - dokladnie ten sam wzorzec sektorowy co WULF/CLSK z lekcji 15 lipca (bitcoin miner -> AI data center pivot); pct_1m to szacunek (dane z wyszukiwania niespojne co do ceny sprzed miesiaca) - traktowac z ostroznoscia, nizszy priorytet niz LGL/IPX z powodu wielkosci i niepewnosci %"
+    }
+  ],
   "contract": [
     {
       "ticker": "LGL",
@@ -11,10 +22,20 @@
       "pct_1m": 8.0,
       "catalyst": "Kontrakt obronny dla spolki portfelowej Precise Time and Frequency (PTF) na dostawe instrumentow czasu/czestotliwosci z zdolnoscia HaveQuick (odpornosc na zaklocanie/jamming) dla partnerskiego programu wojskowego w regionie Indo-Pacyfiku, 24 miesiace, ogloszony 2 lipca 2026",
       "still_upside": false,
-      "note": "Mala kapitalizacja (~$45-47M), niska plynnosc. Po niedawnej rights offering ($6.90/akcja, $41.7M wplywow, pro forma cash >$85M) - silny balans, ale rozmycie akcjonariatu. Cena stabilna, brak paraboli - kontrakt jeszcze nie w pelni wyceniony. Ostrozny sizing z uwagi na plynnosc"
+      "note": "Mala kapitalizacja (~$45-47M), niska plynnosc. Po niedawnej rights offering ($6.90/akcja, $41.7M wplywow, pro forma cash >$85M) - silny balans, ale rozmycie akcjonariatu. Cena stabilna, brak paraboli - kontrakt jeszcze nie w pelni wyceniony. Ostrozny sizing z uwagi na plynnosc. Bez zmian od rundy porannej"
     }
   ],
-  "insider": [],
+  "insider": [
+    {
+      "ticker": "IPX",
+      "name": "IperionX Limited",
+      "price_usd": 23.64,
+      "pct_1m": -38.0,
+      "catalyst": "Executive Chairman Todd Hannigan kupil ~$1.1M akcji w otwartym rynku 13 lipca 2026, kilka dni po $50M podniesieniu kapitalu - kolejny z serii zakupow insiderskich w 2026 (wczesniej rowniez wieksze zakupy, m.in. $2.08M). Spolka: amerykanski producent niskoweglowych proszkow tytanowych wysokiej czystosci (lotnictwo, obronnosc, druk addytywny), zaklad w Wirginii + projekt piaskow mineralnych w Tennessee",
+      "still_upside": false,
+      "note": "Cena mocno po dyskoncie: ATH $60.11 (23 stycznia 2026), teraz $23.64 (-38% w skali miesiaca, ok. -61% od ATH). Konsensus analitykow PT $59.02 (+148% od kursu), Roth Capital PT $75, BTIG PT $55 - ale to spekulacyjny insider-buy-the-dip w krytycznych minerałach/tytanie (temat obronnosc/lancuch dostaw AI-adjacent, ale bez konkretnego swiezego kontraktu rzadowego w ostatnich 48h) - traktowac jako umiarkowana konfluencje (insider + temat krytycznych minerałow), nie pewnik"
+    }
+  ],
   "fund13f": [],
   "congress": [],
   "policy": [
@@ -26,7 +47,7 @@
       "catalyst": "Trump/Biały Dom - dwa executive orders (23 czerwca) na dominacje USA w kwantowych obliczeniach: twarde terminy na 'scientifically relevant' komputer kwantowy + wdrozenie post-quantum cryptography w agencjach federalnych; INFQ pierwsza publicznie notowana firma neutral-atom quantum tech (NYSE, merger SPAC luty 2026, $550M+ wplywow)",
       "still_upside": true,
       "upside_reason": "Mimo poczatkowego popu na EO (+12-13% w dniu ogloszenia) sektor kwantowy silnie sie wycofal (-32% w INFQ w skali miesiaca, -43% YTD) - polityczny katalizator (dominacja USA w quantum, PQC mandate) pozostaje w pelni aktywny i dlugoterminowy, a cena jest teraz na duzym dyskoncie do momentu ogloszenia EO, nie na szczycie paraboli. Analitycy: upgrade do 'strong buy' na atrakcyjnej wycenie",
-      "note": "Wysoka zmiennosc sektora quantum computing, mala plynnosc relatywnie do hype'u. Brak swiezego katalizatora TEGO dnia - teza oparta na utrzymujacej sie polityce, nie na nowym wydarzeniu z ostatnich 48h"
+      "note": "Wysoka zmiennosc sektora quantum computing, mala plynnosc relatywnie do hype'u. Brak swiezego katalizatora TEGO dnia - teza oparta na utrzymujacej sie polityce, nie na nowym wydarzeniu z ostatnich 48h. Bez zmian od rundy porannej"
     }
   ]
 }
