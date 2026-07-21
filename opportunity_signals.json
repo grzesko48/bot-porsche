@@ -1,17 +1,17 @@
 {
   "_date": "2026-07-21",
-  "_run": "wtorek, przed otwarciem 14:30 CEST. Kontekst: rynek wyczekujacy po piatkowych nalotach USA na Iran, futures lekko na plus (S&P +0.37%, Nasdaq100 +1.17%, Russell2000 +0.31%) przed sezonem wynikow (Tesla, Alphabet, Intel w tym tygodniu). Trump podpisal 20 lipca executive order zaostrzajacy zasady waiverow dla dostawcow obronnych kupujacych krytyczne minerały z Chin (MP Materials +1%, duzy cap, brak edge'u spekulacyjnego). Runda IPO/insider/13F/kongres nie dala nowych konkretnych sygnalow z cena (OpenInsider niedostepny - blad 503, Capitol Trades/WhaleWisdom bez swiezych, materialnych ruchow). Dwa konkretne sygnaly: swiezy kontrakt AI compute KIDZ ($44.6M vs mcap $464K, ale JUZ +140% w premarkecie tego samego dnia - parabola, anti-chase zablokuje) oraz kontynuacja tezy politycznej INFQ (Trump quantum EO z czerwca + swiezy $100M CHIPS Act commitment od Dept. of Commerce, cena wciaz mocno ponizej szczytu). Wczorajsze (20 lipca) najwieksze jednodniowe wzrosty (ZYBT, XPON, CANG, MF) to wszystkie reverse-split/rebrand compliance plays bez realnego fundamentu - do dziennika lekcji, NIE do kupna.",
+  "_run": "wtorek, srodsesyjny 18:30 CEST (ok. 12:30 ET, rynek US otwarty ~3h). Kontekst: Nasdaq100 +1.84% dzis, S&P/Russell rowniez na plusie mimo napiec Iran/Bliski Wschod z piatku; sezon wynikow w toku (Tesla, Alphabet, Intel w tym tygodniu). Swiezy news makro: Trump/Biały Dom szykuja nowe cla na dziesiatki krajow (10% global tariff wygasa w piatek) + dodatkowe 50% clo na wybrane towary z Kanady (wino, kije hokejowe, cement) - energia/potas/krytyczne minerały wylaczone; brak konkretnego tickera z edge'em spekulacyjnym z tego newsa. Runda DoD/rzadowa: Air Force $1.9B (3 firmy, advisory), AeroVironment $117M (Army drony), RTX/Raytheon $1.8B (radary SPY-6), Kratos ~$156M (DOE C-UAS) - WSZYSTKIE zbyt duze kapitalizacyjnie (Kratos/AVAV/RTX to multi-mld$ spolki) wzgledem wartosci kontraktu, NIE spelniaja progu >=50% mcap - odrzucone. Dzisiejsi najwieksi gainerzy sesji (CPHI +533%, VIVK +179% pozorne - w rzeczywistosci efekt 1-for-20 reverse split, cena realna $0.18, OMH +116%, SLGB +63%) to wszystko juz w pelni rozgrzane parabole/artefakty reverse-splitow - dokladnie wzorzec z dziennika lekcji (unikac, nie gonic). KIDZ (kontrakt AI compute z rana) kontynuuje sesje: cofnal sie z premarketowego szczytu $0.99 do $0.674 - nadal sparabolizowany w skali dnia, anti-chase nadal blokuje, obserwowac ewentualne dalsze cofniecie na kolejnych sesjach. INFQ (teza polityczna quantum/Trump) stabilna, bez nowego pompowania - teza kontynuowana bez zmian jakosciowych od rana.",
   "ipo": [],
   "volume": [],
   "contract": [
     {
       "ticker": "KIDZ",
       "name": "KIDZ AI Inc.",
-      "price_usd": 0.99,
-      "pct_1m": 180.0,
-      "catalyst": "60-miesieczna umowa enterprise AI compute services z Canopy Wave Inc. o wartosci $44.6M (ogloszona <2h temu, dzis rano), ~96x market cap spolki ($464K); dodatkowo EdTechX Award 2026 i launch platformy robotyki KIDZBot w ostatnich 2 tygodniach",
+      "price_usd": 0.674,
+      "pct_1m": 145.0,
+      "catalyst": "60-miesieczna umowa enterprise AI compute z Canopy Wave Inc. ($44.6M, ~96x mcap $464K) ogloszona dzis rano; cena cofnela sie z premarketowego szczytu $0.99 do $0.674 w trakcie sesji, ale wciaz mocno powyzej poziomu sprzed ogloszenia ($0.41)",
       "still_upside": false,
-      "note": "Nano-cap ($464K mcap, przychody $3.37M, strata netto $7M) - kontrakt realnie ogromny wzgledem wielkosci spolki, ALE cena JUZ wystrzelila +140% w samym premarkecie dzisiaj (z $0.41 do $0.99) - to czysta parabola tego samego dnia, klasyczny wzorzec run-then-dump (LEGN/BCDA z naszych danych). Anti-chase powinien zablokowac - zgloszone do rejestru, NIE do kupna teraz. Ewentualnie obserwowac cofniecie."
+      "note": "Nadal parabola tego samego dnia (nawet po czesciowym cofnieciu) - anti-chase blokuje zgodnie z wczorajsza runda. Obserwowac czy jutro nastapi dalsze, bardziej znaczace cofniecie do poziomu kwalifikujacego do wejscia (kontrakt fundamentalnie realny, ale timing zly)."
     }
   ],
   "insider": [],
@@ -21,12 +21,12 @@
     {
       "ticker": "INFQ",
       "name": "Infleqtion, Inc.",
-      "price_usd": 9.05,
-      "pct_1m": -30.0,
-      "catalyst": "Kontynuacja tezy Trump/Biale Domu ws. dominacji USA w quantum computing (executive orders 22-23 czerwca) - SWIEZE potwierdzenie: $100M commitment od US Department of Commerce (CHIPS Act) ogloszony w ostatnich dniach; CEO Matt Kinsella zeznawal przed komisja Izby Reprezentantow ws. surowcow naturalnych (17h temu)",
+      "price_usd": 9.28,
+      "pct_1m": -28.0,
+      "catalyst": "Kontynuacja tezy Trump/Biale Domu ws. dominacji USA w quantum computing (executive orders czerwiec 2026) + swiezy $100M CHIPS Act commitment od Dept. of Commerce + zeznania CEO przed komisja Izby Reprezentantow w tym tygodniu",
       "still_upside": true,
-      "upside_reason": "Cena wciaz ok. -30% w skali miesiaca i mocno ponizej szczytu z czerwca mimo aktywnego i wzmacnianego katalizatora politycznego (nowy $100M CHIPS Act commitment to konkretne, swieze potwierdzenie tezy, nie stary news); analitycy Strong Buy z celem $21 (132% upside od obecnej ceny $9.05) - teza nie zrealizowana, brak paraboli",
-      "note": "Sektor quantum wysoce zmienny, mala plynnosc wzgledem hype'u. To kontynuacja/wzmocnienie tezy z poprzedniego dnia, nie calkiem nowe wydarzenie - sizing ostrozny."
+      "upside_reason": "Cena stabilna ok. $9.28 (52-tyg. range $8.52-$27.50), wciaz mocno ponizej szczytu z czerwca mimo aktywnego katalizatora politycznego bez oznak paraboli; analitycy Strong Buy, cel $21 - teza niezrealizowana",
+      "note": "Bez zmian jakosciowych vs rano - teza kontynuowana, brak nowego newsa dzis, sizing ostrozny jak poprzednio."
     }
   ]
 }
