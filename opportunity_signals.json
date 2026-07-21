@@ -1,17 +1,17 @@
 {
-  "_date": "2026-07-20",
-  "_run": "poniedzialek, przed otwarciem 14:30 CEST. Kontekst: nowa runda amerykanskich nalotow na Iran w weekend, ropa mieszana (WTI -0.17%, Brent +0.50%), futures lekko na plus (S&P +0.30%, Nasdaq100 +0.64%, Russell2000 +0.31%) przed sezonem wynikow Q2. Runda wyszukiwan IPO/wolumen/insider/13F/kongres nie dala konkretnych, swiezych sygnalow z cena i wyraznym katalizatorem spelniajacych prog materialnosci - screenery (OpenInsider, WhaleWisdom, CapitolTrades) nie pokazuja nic nowego ponad ogolne, nieaktualne przyklady (13F Q2 dopiero 14 sierpnia). Dwa konkretne sygnaly znalezione: kontrakt obronny LGL (Indo-Pacific, HaveQuick) i INFQ na duzym cofnieciu (-32% w skali miesiaca) z wciaz aktywnym katalizatorem polityki kwantowej Trumpa. Wczorajsze/piatkowe najwieksze jednodniowe wzrosty (SDOT +astronomiczne, SLND +57-67%) juz sparabolizowane (>50%) - nie kwalifikuja sie do kupna, tylko do dziennika lekcji (patrz lowca_movers.json).",
+  "_date": "2026-07-21",
+  "_run": "wtorek, przed otwarciem 14:30 CEST. Kontekst: rynek wyczekujacy po piatkowych nalotach USA na Iran, futures lekko na plus (S&P +0.37%, Nasdaq100 +1.17%, Russell2000 +0.31%) przed sezonem wynikow (Tesla, Alphabet, Intel w tym tygodniu). Trump podpisal 20 lipca executive order zaostrzajacy zasady waiverow dla dostawcow obronnych kupujacych krytyczne minerały z Chin (MP Materials +1%, duzy cap, brak edge'u spekulacyjnego). Runda IPO/insider/13F/kongres nie dala nowych konkretnych sygnalow z cena (OpenInsider niedostepny - blad 503, Capitol Trades/WhaleWisdom bez swiezych, materialnych ruchow). Dwa konkretne sygnaly: swiezy kontrakt AI compute KIDZ ($44.6M vs mcap $464K, ale JUZ +140% w premarkecie tego samego dnia - parabola, anti-chase zablokuje) oraz kontynuacja tezy politycznej INFQ (Trump quantum EO z czerwca + swiezy $100M CHIPS Act commitment od Dept. of Commerce, cena wciaz mocno ponizej szczytu). Wczorajsze (20 lipca) najwieksze jednodniowe wzrosty (ZYBT, XPON, CANG, MF) to wszystkie reverse-split/rebrand compliance plays bez realnego fundamentu - do dziennika lekcji, NIE do kupna.",
   "ipo": [],
   "volume": [],
   "contract": [
     {
-      "ticker": "LGL",
-      "name": "The LGL Group, Inc.",
-      "price_usd": 7.21,
-      "pct_1m": 8.0,
-      "catalyst": "Kontrakt obronny dla spolki portfelowej Precise Time and Frequency (PTF) na dostawe instrumentow czasu/czestotliwosci z zdolnoscia HaveQuick (odpornosc na zaklocanie/jamming) dla partnerskiego programu wojskowego w regionie Indo-Pacyfiku, 24 miesiace, ogloszony 2 lipca 2026",
+      "ticker": "KIDZ",
+      "name": "KIDZ AI Inc.",
+      "price_usd": 0.99,
+      "pct_1m": 180.0,
+      "catalyst": "60-miesieczna umowa enterprise AI compute services z Canopy Wave Inc. o wartosci $44.6M (ogloszona <2h temu, dzis rano), ~96x market cap spolki ($464K); dodatkowo EdTechX Award 2026 i launch platformy robotyki KIDZBot w ostatnich 2 tygodniach",
       "still_upside": false,
-      "note": "Mala kapitalizacja (~$45-47M), niska plynnosc. Po niedawnej rights offering ($6.90/akcja, $41.7M wplywow, pro forma cash >$85M) - silny balans, ale rozmycie akcjonariatu. Cena stabilna, brak paraboli - kontrakt jeszcze nie w pelni wyceniony. Ostrozny sizing z uwagi na plynnosc"
+      "note": "Nano-cap ($464K mcap, przychody $3.37M, strata netto $7M) - kontrakt realnie ogromny wzgledem wielkosci spolki, ALE cena JUZ wystrzelila +140% w samym premarkecie dzisiaj (z $0.41 do $0.99) - to czysta parabola tego samego dnia, klasyczny wzorzec run-then-dump (LEGN/BCDA z naszych danych). Anti-chase powinien zablokowac - zgloszone do rejestru, NIE do kupna teraz. Ewentualnie obserwowac cofniecie."
     }
   ],
   "insider": [],
@@ -21,12 +21,12 @@
     {
       "ticker": "INFQ",
       "name": "Infleqtion, Inc.",
-      "price_usd": 9.16,
-      "pct_1m": -32.0,
-      "catalyst": "Trump/Biały Dom - dwa executive orders (23 czerwca) na dominacje USA w kwantowych obliczeniach: twarde terminy na 'scientifically relevant' komputer kwantowy + wdrozenie post-quantum cryptography w agencjach federalnych; INFQ pierwsza publicznie notowana firma neutral-atom quantum tech (NYSE, merger SPAC luty 2026, $550M+ wplywow)",
+      "price_usd": 9.05,
+      "pct_1m": -30.0,
+      "catalyst": "Kontynuacja tezy Trump/Biale Domu ws. dominacji USA w quantum computing (executive orders 22-23 czerwca) - SWIEZE potwierdzenie: $100M commitment od US Department of Commerce (CHIPS Act) ogloszony w ostatnich dniach; CEO Matt Kinsella zeznawal przed komisja Izby Reprezentantow ws. surowcow naturalnych (17h temu)",
       "still_upside": true,
-      "upside_reason": "Mimo poczatkowego popu na EO (+12-13% w dniu ogloszenia) sektor kwantowy silnie sie wycofal (-32% w INFQ w skali miesiaca, -43% YTD) - polityczny katalizator (dominacja USA w quantum, PQC mandate) pozostaje w pelni aktywny i dlugoterminowy, a cena jest teraz na duzym dyskoncie do momentu ogloszenia EO, nie na szczycie paraboli. Analitycy: upgrade do 'strong buy' na atrakcyjnej wycenie",
-      "note": "Wysoka zmiennosc sektora quantum computing, mala plynnosc relatywnie do hype'u. Brak swiezego katalizatora TEGO dnia - teza oparta na utrzymujacej sie polityce, nie na nowym wydarzeniu z ostatnich 48h"
+      "upside_reason": "Cena wciaz ok. -30% w skali miesiaca i mocno ponizej szczytu z czerwca mimo aktywnego i wzmacnianego katalizatora politycznego (nowy $100M CHIPS Act commitment to konkretne, swieze potwierdzenie tezy, nie stary news); analitycy Strong Buy z celem $21 (132% upside od obecnej ceny $9.05) - teza nie zrealizowana, brak paraboli",
+      "note": "Sektor quantum wysoce zmienny, mala plynnosc wzgledem hype'u. To kontynuacja/wzmocnienie tezy z poprzedniego dnia, nie calkiem nowe wydarzenie - sizing ostrozny."
     }
   ]
 }
