@@ -1,17 +1,28 @@
 {
-  "_date": "2026-07-21",
-  "_run": "wtorek, srodsesyjny 18:30 CEST (ok. 12:30 ET, rynek US otwarty ~3h). Kontekst: Nasdaq100 +1.84% dzis, S&P/Russell rowniez na plusie mimo napiec Iran/Bliski Wschod z piatku; sezon wynikow w toku (Tesla, Alphabet, Intel w tym tygodniu). Swiezy news makro: Trump/Biały Dom szykuja nowe cla na dziesiatki krajow (10% global tariff wygasa w piatek) + dodatkowe 50% clo na wybrane towary z Kanady (wino, kije hokejowe, cement) - energia/potas/krytyczne minerały wylaczone; brak konkretnego tickera z edge'em spekulacyjnym z tego newsa. Runda DoD/rzadowa: Air Force $1.9B (3 firmy, advisory), AeroVironment $117M (Army drony), RTX/Raytheon $1.8B (radary SPY-6), Kratos ~$156M (DOE C-UAS) - WSZYSTKIE zbyt duze kapitalizacyjnie (Kratos/AVAV/RTX to multi-mld$ spolki) wzgledem wartosci kontraktu, NIE spelniaja progu >=50% mcap - odrzucone. Dzisiejsi najwieksi gainerzy sesji (CPHI +533%, VIVK +179% pozorne - w rzeczywistosci efekt 1-for-20 reverse split, cena realna $0.18, OMH +116%, SLGB +63%) to wszystko juz w pelni rozgrzane parabole/artefakty reverse-splitow - dokladnie wzorzec z dziennika lekcji (unikac, nie gonic). KIDZ (kontrakt AI compute z rana) kontynuuje sesje: cofnal sie z premarketowego szczytu $0.99 do $0.674 - nadal sparabolizowany w skali dnia, anti-chase nadal blokuje, obserwowac ewentualne dalsze cofniecie na kolejnych sesjach. INFQ (teza polityczna quantum/Trump) stabilna, bez nowego pompowania - teza kontynuowana bez zmian jakosciowych od rana.",
+  "_date": "2026-07-22",
+  "_run": "sroda, srodsesyjny 18:30 CEST (ok. 12:30 ET, rynek US otwarty ~3h). Kontekst: indeksy mieszane, Russell 2000 lekko na minusie w premarket, sezon wynikow w toku (Alphabet, Tesla po zamknieciu dzis). Ropa w gore, napiecia taryfowe kontynuowane. Swiezy EO z 20 lipca (bezpieczenstwo lancuchow dostaw obronnych/krytyczne materialy) - tematyczny re-rating dla molibden/wolfram/rzadkie ziemie (Almonty ALM i in.), ale brak swiezego (<48h), pojedynczego tickera z potwierdzonym kontraktem/8-K i wyrazna cena/konfluencja - zbyt rozmyte, odrzucone z listy. Runda kontraktow DoD/DOE: Kratos $156M NNSA C-UAS (21 lipca) - jak poprzednio, zbyt duza kapitalizacja wzgledem kontraktu, odrzucone. Dzisiejsi gainerzy: ZCMD +456% do $8.18 - calkowicie beznewsowa parabola (brak komunikatow od 25 czerwca, wielokrotne reverse splity 1-for-8/1-for-31/1-for-3, powtarzajace sie wstrzymania handlu) - dokladnie wzorzec z dziennika lekcji, PASS/unikac, NIE kupowac. GES +26% do $16.80 na wykupieniu przez Authentic Brands ($1.4mld) - deal juz w cenie, brak realnego edge'a spekulacyjnego (arbitraz fuzji, nie okazja wzrostowa). RCKT +19.6% do $3.485 na zniesieniu wstrzymania FDA dla Fazy 2 RP-A501 (Danon disease) - realny, swiezy katalizator kliniczny, male mcap $376M, cel analitykow $10 (191% upside) - wciaz wczesnie w reakcji rynku. KIDZ (kontrakt AI compute sprzed 2 dni) kontynuuje parabole: premarket +36% do $0.92 (z zamkniecia $0.68) - juz +124% od poziomu sprzed ogloszenia, dalece powyzej progu +50%, anti-chase nadal blokuje zdecydowanie. INFQ (teza quantum/Trump) odbila do $10.68 (+15% dzien) - katalizator polityczny nadal aktywny, cena wciaz mocno ponizej celow analitykow i szczytu 52-tyg. ($27.50).",
   "ipo": [],
-  "volume": [],
+  "volume": [
+    {
+      "ticker": "RCKT",
+      "name": "Rocket Pharmaceuticals, Inc.",
+      "price_usd": 3.485,
+      "pct_1m": 15.0,
+      "catalyst": "FDA zniosla wstrzymanie kliniczne (clinical hold) na pivotal Faza 2 RP-A501 (terapia genowa, Danon disease) - handel wznowiony z obnizona dawka 3.8x10^13 GC/kg; akcja +19.6% dzis do $3.485 na podwyzszonym wolumenie",
+      "still_upside": true,
+      "upside_reason": "Katalizator dopiero co ogloszony (dzis rano), cel analitykow $10 (191% powyzej obecnej ceny), mcap wciaz male ($376M) - reakcja rynku prawdopodobnie niepelna, ruch 1m umiarkowany (~15%), brak sygnalow paraboli",
+      "note": "Biotech katalizator FDA - watch dalszy przeplyw newsow (harmonogram wznowienia badania z 3 pacjentami sekwencyjnie)."
+    }
+  ],
   "contract": [
     {
       "ticker": "KIDZ",
       "name": "KIDZ AI Inc.",
-      "price_usd": 0.674,
-      "pct_1m": 145.0,
-      "catalyst": "60-miesieczna umowa enterprise AI compute z Canopy Wave Inc. ($44.6M, ~96x mcap $464K) ogloszona dzis rano; cena cofnela sie z premarketowego szczytu $0.99 do $0.674 w trakcie sesji, ale wciaz mocno powyzej poziomu sprzed ogloszenia ($0.41)",
+      "price_usd": 0.92,
+      "pct_1m": 124.0,
+      "catalyst": "Kontynuacja: 60-miesieczna umowa enterprise AI compute z Canopy Wave Inc. ($44.6M, ~96x mcap) sprzed 2 dni; premarket dzis +36% do $0.92 (z $0.68 zamkniecia)",
       "still_upside": false,
-      "note": "Nadal parabola tego samego dnia (nawet po czesciowym cofnieciu) - anti-chase blokuje zgodnie z wczorajsza runda. Obserwowac czy jutro nastapi dalsze, bardziej znaczace cofniecie do poziomu kwalifikujacego do wejscia (kontrakt fundamentalnie realny, ale timing zly)."
+      "note": "Dalsza eskalacja paraboli trzeci dzien z rzedu - juz +124% od poziomu sprzed ogloszenia, mocno powyzej progu +50% (nigdy nie kupowac). Anti-chase blokuje zdecydowanie. Obserwowac wylacznie ewentualne powazne cofniecie w kolejnych dniach/tygodniach."
     }
   ],
   "insider": [],
@@ -21,12 +32,12 @@
     {
       "ticker": "INFQ",
       "name": "Infleqtion, Inc.",
-      "price_usd": 9.28,
-      "pct_1m": -28.0,
-      "catalyst": "Kontynuacja tezy Trump/Biale Domu ws. dominacji USA w quantum computing (executive orders czerwiec 2026) + swiezy $100M CHIPS Act commitment od Dept. of Commerce + zeznania CEO przed komisja Izby Reprezentantow w tym tygodniu",
+      "price_usd": 10.68,
+      "pct_1m": -20.0,
+      "catalyst": "Kontynuacja tezy Trump/Biale Domu ws. dominacji USA w quantum computing (executive orders czerwiec 2026) + $100M CHIPS Act commitment + zeznania CEO przed komisja Izby Reprezentantow w tym tygodniu; akcja +15% dzis do $10.68",
       "still_upside": true,
-      "upside_reason": "Cena stabilna ok. $9.28 (52-tyg. range $8.52-$27.50), wciaz mocno ponizej szczytu z czerwca mimo aktywnego katalizatora politycznego bez oznak paraboli; analitycy Strong Buy, cel $21 - teza niezrealizowana",
-      "note": "Bez zmian jakosciowych vs rano - teza kontynuowana, brak nowego newsa dzis, sizing ostrozny jak poprzednio."
+      "upside_reason": "Mimo odbicia dzis, cena wciaz mocno ponizej szczytu 52-tyg. ($27.50) i celu analitykow ($21, Strong Buy); katalizator polityczny aktywny, bez oznak paraboli",
+      "note": "Teza kontynuowana z poprzednich sesji, sizing ostrozny jak dotychczas."
     }
   ]
 }
