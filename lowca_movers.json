@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "ticker": "SMCI",
+    "pct": 24,
+    "day": "2026-07-22",
+    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej (21.07) w typowych zrodlach (insider/wolumen/8-K) - 22.07 spolka opublikowala preliminarne wyniki Q4 pokazujace podwojenie marzy brutto wzgledem wczesniejszych prognoz, rekordowy backlog >$60mld nowych zamowien oraz zapowiedz budowy centrum danych AI wspolnie ze SpaceX; ogloszenie i reakcja (+24%) tego samego dnia, spillover na Dell/HPE/Western Digital (+12.5%)/Intel (+8.6%)",
+    "lesson": "Nagle 'preliminary earnings guidance' (przed pelnym raportem) na duzych dostawcach infrastruktury AI moga dac >20% ruch jednego dnia bez klasycznego pre-sygnalu; jedyny mozliwy wczesny tell to niestandardowy wzrost wolumenu opcji call w dniach przed zapowiedzia lub plotki o duzych zamowieniach hyperscalerow/partnerow (tu: SpaceX) - warto sledzic kalendarz 'preliminary/guidance update' duzych spolek AI-supply-chain jako kategorie podwyzszonej zmiennosci w dniach przed pelnym raportem, oraz obserwowac spolki spod tego samego sektora (spillover) jako wtorny sygnal"
+  }
+]

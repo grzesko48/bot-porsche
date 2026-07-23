@@ -1545,5 +1545,12 @@
     "pct": 322.0,
     "presignal": "Zarzad zatwierdzil zmiane nazwy z U-BX Technology na MindForge Inc. 10 lipca 2026 (10 dni wczesniej); handel pod nowym tickerem MF ruszyl 20 lipca 2026 - dzien debiutu nowego brandu/tickera zbiegl sie z ekstremalna zmiennoscia (raportowane od +9420% do -98% w zaleznosci od punktu pomiaru, co wskazuje na chaotyczny, mocno spekulacyjny handel pierwszego dnia)",
     "lesson": "Rebranding/zmiana tickera (nazwa + symbol) w small-cap tech/AI z data debiutu znana z wyprzedzeniem (uchwala zarzadu ~10 dni wczesniej) generuje ekstremalna, chaotyczna zmiennosc w dniu debiutu nowego tickera - podobny mechanizm do IPO-momentum ale dla rebrandow; sledzic zapowiedzi zmiany nazwy/tickera w NASDAQ micro-cap jako pre-sygnal zmiennosci na dzien debiutu"
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "SMCI",
+    "pct": 24.0,
+    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej (21.07) w typowych zrodlach (insider/wolumen/8-K) - 22.07 spolka opublikowala preliminarne wyniki Q4 pokazujace podwojenie marzy brutto wzgledem wczesniejszych prognoz, rekordowy backlog >$60mld nowych zamowien oraz zapowiedz budowy centrum danych AI wspolnie ze SpaceX; ogloszenie i reakcja (+24%) tego samego dnia, spillover na Dell/HPE/Western Digital (+12.5%)/Intel (+8.6%)",
+    "lesson": "Nagle 'preliminary earnings guidance' (przed pelnym raportem) na duzych dostawcach infrastruktury AI moga dac >20% ruch jednego dnia bez klasycznego pre-sygnalu; jedyny mozliwy wczesny tell to niestandardowy wzrost wolumenu opcji call w dniach przed zapowiedzia lub plotki o duzych zamowieniach hyperscalerow/partnerow (tu: SpaceX) - warto sledzic kalendarz 'preliminary/guidance update' duzych spolek AI-supply-chain jako kategorie podwyzszonej zmiennosci w dniach przed pelnym raportem, oraz obserwowac spolki spod tego samego sektora (spillover) jako wtorny sygnal"
   }
 ]
