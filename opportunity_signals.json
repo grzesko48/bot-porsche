@@ -1,6 +1,6 @@
 {
   "_date": "2026-07-23",
-  "_run": "czwartek, przed/w trakcie sesji US. Kontekst: sezon wynikow w toku (Alphabet, Tesla raportowaly po zamknieciu 21/22 lipca), Russell 2000 pod lekka presja. SMCI +24% w srode na preliminary wynikach (podwojenie marzy brutto, backlog >$60mld, AI data center ze SpaceX) - spillover na Dell/HPE/WDC/Intel. Swiezy EO z 20 lipca (bezpieczenstwo lancuchow dostaw obronnych/krytyczne materialy) tym razem z konkretnie zmapowanymi tickerami (CRML, UAMY, USAR, MP wymienione wprost w newsach jako beneficjenci) - w odroznieniu od wczorajszego odrzucenia jako 'zbyt rozmyte'. RKLB +4% na kontrakcie Space Force $266M (12 lotow do 2028) - odrzucone, kontrakt to <1% mcap ($41mld), zbyt duza spolka. Kontynuacja tez z poprzedniej sesji: RCKT (FDA clinical hold zniesiony, katalizator wciaz swiezy) i INFQ (teza quantum/Trump) - ceny bez istotnej zmiany. Insider clusters (OpenInsider) i 13F (Q2 filings dopiero ok. 14 sierpnia) - brak swiezych, konkretnych sygnalow z cena w tej rundzie. Congress: jedyne swieze ujawnienia (Moran - Berkshire/Alphabet) to mega-cap, poza sleeve spekulacyjnym bota - pominiete.",
+  "_run": "czwartek, srodsesyjny bieg 18:30 CEST. Kontekst: sesja US w dol (S&P -0.8%, Nasdaq100 -1.2%, Russell2000 pod presja) po Alphabet (-4%, kara UE 890mln EUR) i Tesla (-5.6%, wyzsze R&D). Defense (LMT, RTX) +5%+ na guidance. SMCI kontynuuje ruch z preliminary Q4: teraz ok. $30.4-30.6 (peak +26% w sesji 22.07 z $23.83, dzis w konsolidacji lekko ponizej wczorajszego zamkniecia after-hours $29.75-30ish) - teza bez zmian, katalizator (pelny raport 11 sierpnia) wciaz nieprzedawniony. RCKT, INFQ, CRML, UAMY - kontynuacja tez z biegu 14:30, brak nowych informacji w tej rundzie (ceny bez precyzyjnej aktualizacji, traktowac jako niezmienione). Nowych sygnalow insider/13F/congress/kontrakt w tej rundzie BRAK (powtorzenie wyszukiwan nie ujawnilo nic swiezego ponad to co juz bylo w biegu przedrynkowym). Jedyny nowy istotny ruch dnia: ZCMD (Zhongchao) +456% w miesiac, low-float microcap po dwoch konsolidacjach akcji (1-for-31 8.06, 1-for-3 29.06) - JAWNIE parabola (>>+50%), NIE kwalifikuje sie do sygnalow (anti-chase, brak fundamentalnego katalizatora) - zanotowane tylko do lowca_movers.json jako lekcja.",
   "ipo": [
     {
       "ticker": "CSQR",
@@ -9,29 +9,29 @@
       "pct_1m": -0.5,
       "catalyst": "",
       "still_upside": false,
-      "note": "Debiut IPO 17.07.2026 (NYSE), $21/akcja, $1.01mld pozyskane, data center backed by Brookfield, mcap $3.24mld. Cena wciaz praktycznie na poziomie IPO (~-0.5%) - brak jeszcze wyraznego momentum w gore lub w dol 6 dni po debiucie."
+      "note": "Kontynuacja z biegu 14:30 - brak nowych informacji w tej rundzie. Debiut IPO 17.07.2026 (NYSE), $21/akcja, data center backed by Brookfield."
     }
   ],
   "volume": [
     {
       "ticker": "SMCI",
       "name": "Super Micro Computer, Inc.",
-      "price_usd": 30.56,
+      "price_usd": 30.45,
       "pct_1m": 19.0,
-      "catalyst": "Preliminarne wyniki Q4 (21/22.07): marza brutto ma sie podwoic wzgledem wczesniejszych prognoz, rekordowy backlog >$60mld nowych zamowien, zapowiedz budowy centrum danych AI wspolnie ze SpaceX; akcja +24% w sesji 22.07 na podwyzszonym wolumenie, spillover na Dell/HPE/WDC/Intel",
+      "catalyst": "Preliminarne wyniki Q4: marza brutto ma sie podwoic, rekordowy backlog >$60mld, centrum danych AI ze SpaceX; akcja +26% w sesji 22.07 (z $23.83 do ~$30), dzis w konsolidacji na podwyzszonym poziomie",
       "still_upside": true,
-      "upside_reason": "Katalizator ogloszony jako preliminary (pelny raport dopiero 11 sierpnia) - rynek moze jeszcze nie w pelni wycenic podniesiona marze i rekordowy backlog; pct_1m szacowany na ok. +19% (ponizej progu +25%), spolka 40% ponizej szczytu 52-tyg., brak oznak paraboli",
-      "note": "pct_1m szacunkowy (brak precyzyjnej ceny sprzed 30 dni w dostepnych zrodlach) - ostroznosc przy sizingu."
+      "upside_reason": "Katalizator wciaz preliminary (pelny raport dopiero 11 sierpnia), rynek moze jeszcze nie w pelni wycenic podniesiona marze; pct_1m ok. +19% (ponizej progu +25%), spolka wciaz ~50% ponizej szczytu 52-tyg. ($62.36), brak oznak paraboli mimo wczorajszego skoku",
+      "note": "pct_1m szacunkowy. Kontynuacja tezy z biegu 14:30, cena zaktualizowana."
     },
     {
       "ticker": "RCKT",
       "name": "Rocket Pharmaceuticals, Inc.",
       "price_usd": 3.55,
       "pct_1m": 17.0,
-      "catalyst": "Kontynuacja: FDA zniosla clinical hold na pivotal Faza 2 RP-A501 (terapia genowa, Danon disease) 21-22.07 - handel wznowiony z obnizona dawka; cena stabilna/lekko wyzsza od poprzedniej sesji",
+      "catalyst": "Kontynuacja: FDA zniosla clinical hold na pivotal Faza 2 RP-A501 (terapia genowa, Danon disease) 21-22.07",
       "still_upside": true,
-      "upside_reason": "Katalizator wciaz swiezy (kilka dni), cel analitykow $10 (ok. 180% powyzej ceny), mcap male ($409M), brak paraboli",
-      "note": "Kontynuacja tezy z poprzedniej sesji (18:30 22.07) - watch harmonogram wznowienia badania."
+      "upside_reason": "Katalizator wciaz swiezy, cel analitykow $10 (ok. 180% powyzej ceny), mcap male, brak paraboli",
+      "note": "Kontynuacja tezy z biegu 14:30 - dokladna aktualna cena niedostepna w tej rundzie wyszukiwan, uzyto ostatniej znanej ceny ($3.55)."
     }
   ],
   "contract": [],
@@ -44,30 +44,30 @@
       "name": "Infleqtion, Inc.",
       "price_usd": 10.68,
       "pct_1m": -20.0,
-      "catalyst": "Kontynuacja tezy Trump/Biale Dom ws. dominacji USA w quantum computing (executive orders czerwiec 2026) + zeznania CEO przed komisja Izby Reprezentantow; cena bez istotnej zmiany wzgledem poprzedniej sesji",
+      "catalyst": "Kontynuacja tezy Trump/Biale Dom ws. dominacji USA w quantum computing (executive orders czerwiec 2026)",
       "still_upside": true,
-      "upside_reason": "Cena wciaz mocno ponizej szczytu 52-tyg. ($27.50) i celow analitykow; katalizator polityczny aktywny, brak oznak paraboli",
-      "note": "Kontynuacja tezy z poprzedniej sesji, sizing ostrozny jak dotychczas."
+      "upside_reason": "Cena wciaz mocno ponizej szczytu 52-tyg. ($27.50); katalizator polityczny aktywny, brak oznak paraboli",
+      "note": "Kontynuacja tezy z biegu 14:30 - brak nowych informacji w tej rundzie, cena bez zmian."
     },
     {
       "ticker": "CRML",
       "name": "Critical Metals Corp",
       "price_usd": 6.21,
       "pct_1m": -15.0,
-      "catalyst": "Executive Order z 20.07.2026 ('Securing America's Defense Supply Chains and Ensuring Domestic Acquisition of Critical Materials') - CRML wymieniony wprost wsrod beneficjentow (projekt Tanbreez, rzadkie ziemie) w newsach z 21-22.07",
+      "catalyst": "Executive Order z 20.07.2026 ('Securing America's Defense Supply Chains') - CRML wymieniony wsrod beneficjentow (projekt Tanbreez, rzadkie ziemie)",
       "still_upside": true,
-      "upside_reason": "Mimo braku parabolicznego ruchu (cena w trendzie spadkowym, pct_1m szacowany ok. -15%) katalizator polityczny dopiero co podpisany (3 dni), sredni cel analitykow $17.50 (>180% powyzej ceny), mcap ~$940M - reakcja rynku na EO wciaz minimalna (premarket +0.2-1% w dniu ogloszenia)",
-      "note": "pct_1m szacunkowy - brak precyzyjnej ceny sprzed 30 dni w dostepnych zrodlach. Spolka mala/spekulacyjna, sizing ostrozny."
+      "upside_reason": "Katalizator dopiero co podpisany, sredni cel analitykow $17.50, reakcja rynku wciaz minimalna",
+      "note": "Kontynuacja tezy z biegu 14:30 - brak nowych informacji w tej rundzie, cena bez zmian. pct_1m szacunkowy."
     },
     {
       "ticker": "UAMY",
       "name": "United States Antimony Corp",
       "price_usd": 5.84,
       "pct_1m": -23.79,
-      "catalyst": "Ten sam EO z 20.07.2026 (lancuchy dostaw krytycznych materialow obronnych) - UAMY wymieniony wprost wsrod beneficjentow (antymon, krajowe przetwarzanie) w newsach z 21-22.07; akcja +8.96% w sesji 21.07",
+      "catalyst": "Ten sam EO z 20.07.2026 - UAMY wymieniony wsrod beneficjentow (antymon, krajowe przetwarzanie)",
       "still_upside": true,
-      "upside_reason": "Cena spadla ok. -23.79% w ostatnim miesiacu (blisko dolnej granicy 52-tyg.) mimo aktywnego katalizatora politycznego - brak paraboli, mozliwe odbicie na dalszym flow newsow ws. egzekucji EO",
-      "note": "pct_1m potwierdzony z zrodla (-23.79% w ostatnim miesiacu). Mala kapitalizacja (~$700M), duza zmiennosc historyczna (52-tyg. range $2.80-$19.70) - sizing ostrozny."
+      "upside_reason": "Cena spadla ok. -23.79% w ostatnim miesiacu mimo aktywnego katalizatora - brak paraboli",
+      "note": "Kontynuacja tezy z biegu 14:30 - brak nowych informacji w tej rundzie, cena bez zmian."
     }
   ]
 }

@@ -1,9 +1,9 @@
 [
   {
-    "ticker": "SMCI",
-    "pct": 24,
+    "ticker": "ZCMD",
+    "pct": 30,
     "day": "2026-07-22",
-    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej (21.07) w typowych zrodlach (insider/wolumen/8-K) - 22.07 spolka opublikowala preliminarne wyniki Q4 pokazujace podwojenie marzy brutto wzgledem wczesniejszych prognoz, rekordowy backlog >$60mld nowych zamowien oraz zapowiedz budowy centrum danych AI wspolnie ze SpaceX; ogloszenie i reakcja (+24%) tego samego dnia, spillover na Dell/HPE/Western Digital (+12.5%)/Intel (+8.6%)",
-    "lesson": "Nagle 'preliminary earnings guidance' (przed pelnym raportem) na duzych dostawcach infrastruktury AI moga dac >20% ruch jednego dnia bez klasycznego pre-sygnalu; jedyny mozliwy wczesny tell to niestandardowy wzrost wolumenu opcji call w dniach przed zapowiedzia lub plotki o duzych zamowieniach hyperscalerow/partnerow (tu: SpaceX) - warto sledzic kalendarz 'preliminary/guidance update' duzych spolek AI-supply-chain jako kategorie podwyzszonej zmiennosci w dniach przed pelnym raportem, oraz obserwowac spolki spod tego samego sektora (spillover) jako wtorny sygnal"
+    "presignal": "Brak swiezego pre-sygnalu jednodniowego 21.07 - ruch to kontynuacja wielotygodniowej kompresji low-float po dwoch konsolidacjach akcji (1-for-31 efektywna 08.06.2026, 1-for-3 efektywna 29.06.2026) i $5mln best-efforts offering z warrantami (zamkniete 01.06.2026); od $0.96 (29.06) do $4.18 (22.07) to +456% w miesiac bez pojedynczego katalizatora fundamentalnego - czysto techniczny/low-float squeeze",
+    "lesson": "Share consolidation (reverse split) + mala oferta z warrantami w microcap = ekstremalnie maly float podatny na wielotygodniowy squeeze bez newsow; monitorowac spolki 2-4 tyg. po reverse split pod katem podwyzszonego wolumenu - ALE to wzorzec do UNIKANIA/obserwacji, nie gonienia: ruch juz >+50% (parabola) w momencie identyfikacji, wiec anti-chase i tak zablokowalby kupno; potwierdza lekcje LEGN/BCDA (micro-cap pumpy runa po wzroscie)"
   }
 ]
