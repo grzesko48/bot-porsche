@@ -1,9 +1,1 @@
-[
-  {
-    "ticker": "LVWR",
-    "pct": 58,
-    "day": "2026-07-23",
-    "presignal": "Zaplanowany raport Q2 2026 (data znana z wyprzedzeniem, ogloszona wczesniej w lipcu) + w dniach przed publikacja open interest opcji call na rekordowym poziomie (100 percentyl z ostatnich 252 sesji), call OI +3.6% w tygodniu poprzedzajacym, put/call ratio spadajacy (wiecej callow niz putow) - sugerowalo pozycjonowanie pod duzy ruch w gore przed samym wynikiem (przychod +55% r/r, wezsza strata)",
-    "lesson": "Rekordowe/rosnace open interest na opcjach call + spadajacy put/call ratio w tygodniu przed zaplanowanymi wynikami maloplynnej spolki EV/consumer (small-cap, wysoki short interest) = sygnal pozycjonowania smart-money pod earnings beat; monitorowac unusual options activity (OI percentyl, put/call ratio) na kalendarzu earnings dla small-cap spolek z podwyzszonym short interest - to bylby mierzalny presygnal 2-5 dni przed samym wynikiem, mimo ze kierunek/wielkosc beata pozostaje nieprzewidywalna"
-  }
-]
+[]

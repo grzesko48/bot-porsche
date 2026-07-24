@@ -1,37 +1,47 @@
 {
   "_date": "2026-07-24",
-  "_run": "piatek, przedrynkowy bieg 14:30 CEST. Kontekst: wczoraj (23.07) sesja US mocno na minusie - Dow -0.97%, S&P -1.21%, Nasdaq -2.15% - po slabych wynikach Alphabet (-7%, obawy o wydatki AI) i Tesla (-14%, najgorszy dzien od czerwca 2025) oraz eskalacji na Bliskim Wschodzie (houthi ataki na tankowce, ropa w gore). Defense (LMT +10-11% na kontraktach SOCOM $10.5mld + Navy F-35 spares $1.6mld, ORCL +3% po kontrakcie DoD $3.31mld/Pentagon Enterprise Software) i semiconductory (Intel +3.6% po wynikach) sily kontrastujace ze slabym sentymentem ogolnym. Zaden z duzych kontraktow rzadowych (LMT, ORCL, AVAV $117.3M Army P550) nie kwalifikuje sie do sleeve spekulacyjnego bota (zbyt duza kapitalizacja, kontrakt << 50% mcap). Amaero (AMROF, OTC) dostal $4.5M kontrakt DoW (22.07) ale to <2% jego $224M kapitalizacji - NIE kwalifikuje sie progu >=50%. Brak nowych klastrow insiderow/13F/kongresu ponad szum tla w tej rundzie. Kontynuacja tez z poprzednich biegow z zaktualizowanymi cenami: SMCI (preliminary Q4 guidance), RCKT (FDA hold lifted), INFQ/CRML/UAMY (Trump EO ws. lancuchow dostaw obronnych/quantum) - wszystkie ponizej progu anti-chase +25%/mc lub w korekcie.",
+  "_run": "piatek, srodsesyjny/przedrynkowy bieg 18:30 CEST (drugi bieg dnia, po biegu 14:30). Kontekst: rynek US kontynuuje sesje po slabym czwartku (Alphabet -7%, Tesla -14%). Nowosc w tej rundzie: Ondas Holdings (ONDS) - $875.8M akwizycja DZYNE Technologies + podniesione FY26 revenue guidance do >=$525M (z $390M) + >$150M nowych zamowien Q2 (counter-UAS/loitering munitions dla obrony) - cena wciaz netto ponizej poziomu sprzed miesiaca (-8.69% pct_1m) mimo +15% w tygodniu, wiec bez ryzyka gonienia gorki. V2X $4.3B kontrakt US Air Force T-6 sprawdzony i ODRZUCONY - to kontrakt z lipca 2025 (rok stary), blednie zasugerowany przez jedno zrodlo jako swiezy; nie kwalifikuje sie. Brak nowych klastrow insiderow/13F/kongresu ponad szum tla (Izba przeglosowala 22.07 zakaz handlu akcjami dla kongresmenow - Stop Insider Trading Act - nie generuje konkretnego sygnalu tickerowego). OMH (Ohmyhome) eksplodowal +250%+ w 3 dni na restrukturyzacji kapitalowej - juz daleko powyzej progu paraboli (+50%), pominiety jako okazja, ale odnotowany do lowca_movers jako wzorzec do nauki. Kontynuacja tez z biegu 14:30: SMCI, RCKT, INFQ, CRML, UAMY - ceny zaktualizowane.",
   "ipo": [
     {
       "ticker": "CSQR",
       "name": "Csquare, Inc.",
-      "price_usd": 20.89,
-      "pct_1m": -0.5,
+      "price_usd": 21.81,
+      "pct_1m": 3.9,
       "catalyst": "",
       "still_upside": false,
-      "note": "Kontynuacja - brak nowych informacji w tej rundzie. Debiut IPO 17.07.2026 (NYSE), $21/akcja, data center backed by Brookfield."
+      "note": "Kontynuacja - debiut IPO 17.07.2026 (NYSE), $21/akcja, data center backed by Brookfield. Brak nowych informacji w tej rundzie, cena stabilna nieco powyzej ceny IPO."
     }
   ],
   "volume": [
     {
       "ticker": "SMCI",
       "name": "Super Micro Computer, Inc.",
-      "price_usd": 31.20,
-      "pct_1m": 22.0,
-      "catalyst": "Preliminarne wyniki Q4: marza brutto ma sie podwoic, rekordowy backlog >$60mld, centrum danych AI ze SpaceX; kontynuacja rajdu z 22.07",
+      "price_usd": 29.75,
+      "pct_1m": 24.0,
+      "catalyst": "Preliminarne wyniki Q4: marza brutto ma sie podwoic, rekordowy backlog >$60mld, centrum danych AI ze SpaceX; akcja +16.7% after-hours 22.07 po preliminary update",
       "still_upside": true,
-      "upside_reason": "Katalizator wciaz preliminary (pelny raport dopiero 11 sierpnia), pct_1m szacunkowy ~22% (ponizej progu +25%), spolka wciaz istotnie ponizej szczytu 52-tyg. ($62.36); dane cenowe z tej rundy niespojne miedzy zrodlami - traktowac pct_1m jako przyblizenie z marginesem bledu",
-      "note": "Kontynuacja tezy z poprzednich biegow, cena zaktualizowana (~$31.20 vs ~$30.45 wczoraj)."
+      "upside_reason": "Katalizator wciaz preliminary (pelny raport dopiero 11 sierpnia), pct_1m ~24% - tuz PONIZEJ progu +25% (blisko granicy, uwaga na dalszy ruch), spolka wciaz istotnie ponizej szczytu 52-tyg. ($62.36)",
+      "note": "Kontynuacja z biegu 14:30, cena zaktualizowana po AH popie ($29.75 vs $31.20 - rozbieznosc zrodel, uzyto nowszej danej AH)."
     },
     {
       "ticker": "RCKT",
       "name": "Rocket Pharmaceuticals, Inc.",
-      "price_usd": 3.55,
+      "price_usd": 2.88,
       "pct_1m": 17.0,
       "catalyst": "Kontynuacja: FDA zniosla clinical hold na pivotal Faza 2 RP-A501 (terapia genowa, Danon disease) 21-22.07",
       "still_upside": true,
-      "upside_reason": "Katalizator wciaz swiezy, cel analitykow $10 (ok. 180% powyzej ceny), mcap male (~$409M), brak paraboli",
-      "note": "Kontynuacja tezy z poprzednich biegow - cena bez zmian ($3.55)."
+      "upside_reason": "Katalizator wciaz swiezy, cel analitykow $10 (znaczaco powyzej ceny), mcap male (~$314M), brak paraboli",
+      "note": "Kontynuacja z biegu 14:30, cena lekko nizsza (-1.5% dzis, $2.88 vs $3.55 poprzednio - mozliwa rozbieznosc zrodel danych, ostroznie)."
+    },
+    {
+      "ticker": "ONDS",
+      "name": "Ondas Holdings Inc.",
+      "price_usd": 7.93,
+      "pct_1m": -8.69,
+      "catalyst": "Akwizycja DZYNE Technologies za $875.8M (ogloszona ok. 20.07) + podniesione FY26 revenue guidance do >=$525M (z $390M) + >$150M nowych zamowien w Q2 (counter-UAS, loitering munitions - obrona)",
+      "still_upside": true,
+      "upside_reason": "pct_1m ujemny (-8.69%) mimo swiezych pozytywnych katalizatorow - akcja jeszcze nie odrobila strat z wczesniej w miesiacu (+15.35% w ostatnim tygodniu, ale wciaz netto ponizej poziomu sprzed miesiaca); brak paraboli, mcap ~$4.06mld",
+      "note": "NOWY sygnal w tej rundzie (18:30). Nie kwalifikuje sie do grupy 'contract' (deal <50% mcap), umieszczony w 'volume' jako momentum/re-rating catalyst."
     }
   ],
   "contract": [],
@@ -42,32 +52,32 @@
     {
       "ticker": "INFQ",
       "name": "Infleqtion, Inc.",
-      "price_usd": 9.72,
+      "price_usd": 9.71,
       "pct_1m": -25.0,
-      "catalyst": "Kontynuacja tezy Trump/Biale Dom ws. dominacji USA w quantum computing (executive orders czerwiec 2026)",
+      "catalyst": "Kontynuacja tezy Trump/Biale Dom ws. dominacji USA w quantum computing (executive orders 22-23.06.2026)",
       "still_upside": true,
-      "upside_reason": "Cena kontynuuje spadek (52-tyg. zakres $8.52-$27.50, teraz blisko dolnej granicy), katalizator polityczny nadal aktywny, brak oznak paraboli - to raczej okazja 'na cofnieciu' niz gonienie gorki",
-      "note": "Kontynuacja tezy - cena nizsza niz w poprzednich biegach ($9.72 vs $10.68)."
+      "upside_reason": "Cena blisko dolnej granicy 52-tyg. ($8.52-$27.50), katalizator polityczny nadal aktywny, dzis +3.5% - brak oznak paraboli",
+      "note": "Kontynuacja tezy - cena stabilna ($9.71 vs $9.72 w biegu 14:30)."
     },
     {
       "ticker": "CRML",
       "name": "Critical Metals Corp",
-      "price_usd": 6.21,
-      "pct_1m": -15.0,
+      "price_usd": 5.84,
+      "pct_1m": -18.0,
       "catalyst": "Executive Order z 20.07.2026 ('Securing America's Defense Supply Chains') - CRML wymieniony wsrod beneficjentow (projekt Tanbreez, rzadkie ziemie)",
       "still_upside": true,
-      "upside_reason": "Katalizator wciaz swiezy (4 dni), sredni cel analitykow $17.50, reakcja rynku wciaz minimalna/negatywna (-4.62% dzis) mimo katalizatora",
-      "note": "Kontynuacja tezy - cena bez zmian ($6.21)."
+      "upside_reason": "Katalizator wciaz swiezy (4 dni), sredni cel analitykow $17.50, reakcja rynku wciaz negatywna (-4.4% dzis) mimo katalizatora - moze sugerowac niedowartosciowanie",
+      "note": "Kontynuacja tezy - cena nizsza niz w biegu 14:30 ($5.84 vs $6.21), dalszy spadek mimo katalizatora."
     },
     {
       "ticker": "UAMY",
       "name": "United States Antimony Corp",
-      "price_usd": 5.59,
-      "pct_1m": -25.0,
-      "catalyst": "Ten sam EO z 20.07.2026 - UAMY wymieniony wsrod beneficjentow (antymon, krajowe przetwarzanie); dodatkowo: pierwsze dostawy w Q2 2026 z $245M kontraktu z Defense Logistics Agency (nowy smelter Thompson Falls)",
+      "price_usd": 5.43,
+      "pct_1m": -26.0,
+      "catalyst": "Ten sam EO z 20.07.2026 - UAMY wymieniony wsrod beneficjentow (antymon, krajowe przetwarzanie); dodatkowo pierwsze dostawy w Q2 2026 z $245M kontraktu z Defense Logistics Agency (nowy smelter Thompson Falls)",
       "still_upside": true,
-      "upside_reason": "Cena w trendzie spadkowym mimo dwoch aktywnych katalizatorow (EO + realizacja kontraktu DLA) - brak paraboli, potencjalne niedowartosciowanie na tle katalizatorow",
-      "note": "Kontynuacja tezy - cena zaktualizowana na podstawie EOD 23.07 ($5.51) + szacowane otwarcie ($5.59); w tej rundzie napotkano sprzeczne dane cenowe (jedno zrodlo sugerowalo $7.78) - odrzucone jako niewiarygodne, uzyto spojnej danej EOD."
+      "upside_reason": "Cena w trendzie spadkowym mimo dwoch aktywnych katalizatorow (EO + realizacja kontraktu DLA), dzis +1.9% odbicie - brak paraboli",
+      "note": "Kontynuacja tezy - cena $5.43 (+1.9% dzis vs poprzedniego zamkniecia $5.33)."
     }
   ]
 }
