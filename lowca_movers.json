@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "ticker": "THC",
+    "pct": 21,
+    "day": "2026-07-24",
+    "presignal": "zaplanowane earnings Q2 2026 (znana data z gory), EPS $6.12 vs estymaty $4.26 (+44% beat) + podniesione FY26 guidance do $20.30-$21.69 (vs konsensus $17.85)",
+    "lesson": "to nie jest realny 'miss' dla edge'u bota - Tenet Healthcare to duzy-cap (~$25mld kapitalizacji), poza uniwersum mikro/small-cap spekulacyjnym ktore bot sledzi; duze beaty EPS na scheduled earnings dla mega-capow nie pasuja do wzorca asymetrycznych okazji (8-K/DoD/insider/wolumen) - potwierdza dyscyplinę zakresu, nie wymaga zmiany strategii skanowania"
+  }
+]

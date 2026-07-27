@@ -1,6 +1,6 @@
 {
   "_date": "2026-07-27",
-  "_run": "poniedzialek, bieg wg harmonogramu (14:30/18:30 CEST). Kontekst: rynek US w umiarkowanym optymizmie (Polymarket S&P500 up-open 88%, przerwa w uderzeniach USA-Iran zbila ceny ropy, Services PMI 53.6). ONDS (Ondas) - kontynuacja, $70mln nowych zamowien defense/dronowych, +8% dzis intraday, pct_1m wciaz ujemny (~-8%), wiec bez ryzyka gonienia gorki - najmocniejszy kandydat w tej rundzie. Zmiana tezy nt. sektora krytycznych minerałow (CRML, USAR, UAMY): w biegach z 24.07 mialy still_upside=true (teza 'rynek nie docenia katalizatora EO'), ale DZIS wszystkie trzy SPADAJA -6 do -7% i sa kilkanascie-kilkadziesiat % ponizej szczytu sprzed tygodnia - fakty sie zmienily (ciagla wyprzedaz mimo katalizatora z 20.07), wiec zgodnie z zasada stoicyzmu (dostosuj sie do faktow) teza jest ZMIENIANA na still_upside=false - wyglada na wzorzec pump-i-wyprzedaz z naszych lekcji (LEGN/BCDA), obserwujemy cofniecie, nie gonimy. RGTI (Rigetti/quantum) +44.3% w miesiac - blisko progu paraboli (+50%); domniemany katalizator ($100mln list intencyjny Dept. of Commerce) jest STARY (21.05.2026, nie <48h) - nie kwalifikuje sie jako swiezy kontrakt, do obserwacji/czekania na cofniecie. Oracle (ORCL) wygral $7mld kontrakt Pentagonu (23.07), ale akcja SPADA (z $248 w czerwcu do ok. $115) - rynek ignoruje kontrakt z powodu obaw o erozje legacy software przez AI; mega-cap, brak edge, pominiety. CSQR (IPO data center/Brookfield) - kontynuacja, stabilny +4.45% dzis, wciaz blisko ceny IPO $21, brak nowego katalizatora.",
+  "_run": "poniedzialek, bieg srodsesyjny 18:30 CEST (drugi bieg dnia, po 14:30). Odswiezylem sygnaly niezaleznym researchem - tezy z biegu 14:30 nt. CRML/USAR/UAMY (still_upside=false, kontynuacja wyprzedazy mimo EO z 20.07) oraz ONDS/RGTI/CSQR potwierdzone bez zmian (ceny zgodne w granicach szumu, brak nowych faktow lamiacych teze), wiec zostawiam te wpisy z biegu 14:30 bez zmian. Nowy sygnal znaleziony w tej rundzie: EDBL (Edible Garden AG) - ekstremalny jednodniowy pump (+84% premarket, z ok. $0.10-0.13 na poczatku lipca do $5.41 na zamknieciu dzis) na LOI + budowie zakladu RTD (Prairie Hills, Iowa, Farm-to-Formula pivot). To podrecznikowy przypadek paraboli >>+50%/mc z naszych lekcji (LEGN -41%, BCDA -48%) - dane cenowe z roznych zrodel mocno sprzeczne (widelki $0.12-$9.94), co samo w sobie jest sygnalem ostrzegawczym dla micro-cap. still_upside=false, NIE gonic - dodaje do dziennika obserwacyjnego. Sprawdzilem tez rynek IPO (Quantinuum QNT $15.7mld kapitalizacji - za duzy, brak edge, pominiety), kontrakty DoD (V2X $4.3mld T-6 COMBS - to wznowienie kontraktu z 2025 po wyroku sadu, NIE swiezy <48h, pominiety; BigBear.ai $53mln classified award - za maly wzgledem kapitalizacji ~$1.1mld, pominiety), insider clusters (OpenInsider - brak konkretnych nowych klastrow w wynikach wyszukiwania), congress trades (jedyne swieze ujawnienia to SPRZEDAZE - Meuser NVDA, Jacobs QCOM - nie kupno, pomijam), 13F (Q2 2026 jeszcze nie zlozone, termin 14.08.2026, brak nowych danych).",
   "ipo": [
     {
       "ticker": "CSQR",
@@ -21,6 +21,15 @@
       "catalyst": "",
       "still_upside": false,
       "note": "Quantum computing, +44.3% w miesiac - blisko progu paraboli (+50%). Domniemany katalizator ($100mln LOI z Dept. of Commerce) jest STARY (21.05.2026), nie swiezy <48h - nie kwalifikuje sie jako 'contract'. Anti-chase powinien i tak wstrzymac zakup - do obserwacji na cofniecie."
+    },
+    {
+      "ticker": "EDBL",
+      "name": "Edible Garden AG Incorporated",
+      "price_usd": 5.41,
+      "pct_1m": 4800.0,
+      "catalyst": "",
+      "still_upside": false,
+      "note": "Nowy sygnal z biegu 18:30. Ekstremalny micro-cap pump: +84% premarket dzis na LOI + budowa zakladu RTD (Prairie Hills, Iowa, Farm-to-Formula pivot), z ok. $0.10-0.13 na poczatku lipca do $5.41 dzis (intraday widelki $3.16-$9.94, dane miedzy zrodlami mocno sprzeczne). Podrecznikowa parabola z naszych lekcji (LEGN/BCDA) - anti-chase i tak zablokuje, nie gonic."
     }
   ],
   "contract": [
