@@ -1,9 +1,16 @@
 [
   {
-    "ticker": "THC",
-    "pct": 21,
-    "day": "2026-07-24",
-    "presignal": "zaplanowane earnings Q2 2026 (znana data z gory), EPS $6.12 vs estymaty $4.26 (+44% beat) + podniesione FY26 guidance do $20.30-$21.69 (vs konsensus $17.85)",
-    "lesson": "to nie jest realny 'miss' dla edge'u bota - Tenet Healthcare to duzy-cap (~$25mld kapitalizacji), poza uniwersum mikro/small-cap spekulacyjnym ktore bot sledzi; duze beaty EPS na scheduled earnings dla mega-capow nie pasuja do wzorca asymetrycznych okazji (8-K/DoD/insider/wolumen) - potwierdza dyscyplinę zakresu, nie wymaga zmiany strategii skanowania"
+    "ticker": "ENTX",
+    "pct": 44.5,
+    "day": "2026-07-27",
+    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej - oversubscribed $275mln private placement (cena $2.04/akcje) ogloszony i wyceniony tego samego dnia (27.07), prowadzony przez BVF Partners z udzialem topowych crossover biotech funduszy (RA Capital Management, Perceptive Advisors, Venrock Healthcare Capital Partners, Vivo Capital, TCGX, Longitude Capital) - to niepubliczna negocjacja, niemozliwa do przewidzenia przed 8-K/424B5",
+    "lesson": "Oversubscribed PIPE/private placement z udzialem duzej liczby renomowanych crossover biotech funduszy to silny sygnal smart-money confluence, ale ogloszenie i cena sa ustalane niepublicznie - realny edge to NIE poganianie dnia ogloszenia (kurs juz +44-88% w 1-2 dni, parabola), a monitorowanie 8-K/424B5 tego samego dnia dla mikro-cap biotechow z >=4 znanymi crossover funduszami jako watchlist na EWENTUALNE cofniecie, nie na natychmiastowe wejscie"
+  },
+  {
+    "ticker": "LVWR",
+    "pct": 89.7,
+    "day": "2026-07-27",
+    "presignal": "Kontynuacja - pierwszy pop (+58%) byl 24.07 na zaplanowanym Q2 (juz w dzienniku lekcji z presygnalem: rekordowe open interest opcji call + spadajacy put/call ratio przed wynikami). W poniedziałek 27.07 kolejny +89.7% (mikro-float ~$500mln kapitalizacji) na tym samym katalizatorze (przychod +55% r/r, sprzedaz motocykli elektrycznych +386% r/r) plus dynamika short-squeeze",
+    "lesson": "Post-earnings pop na malo-plynnych mikro-cap (maly float, wysoki short interest) moze sie rozciagac na WIELE sesji (short squeeze continuation), nie tylko dzien ogloszenia - juz zidentyfikowany presygnal (opcje) pozostaje wazny kilka dni po evencie, ale anti-chase i tak blokuje wejscie gdy skumulowany ruch >>+50%/mc - potwierdza, ze wzorzec jest do obserwacji/uczenia, nie do gonienia"
   }
 ]

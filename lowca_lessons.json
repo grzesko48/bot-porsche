@@ -1566,5 +1566,19 @@
     "pct": 58.0,
     "presignal": "Zaplanowany raport Q2 2026 (data znana z wyprzedzeniem, ogloszona wczesniej w lipcu) + w dniach przed publikacja open interest opcji call na rekordowym poziomie (100 percentyl z ostatnich 252 sesji), call OI +3.6% w tygodniu poprzedzajacym, put/call ratio spadajacy (wiecej callow niz putow) - sugerowalo pozycjonowanie pod duzy ruch w gore przed samym wynikiem (przychod +55% r/r, wezsza strata)",
     "lesson": "Rekordowe/rosnace open interest na opcjach call + spadajacy put/call ratio w tygodniu przed zaplanowanymi wynikami maloplynnej spolki EV/consumer (small-cap, wysoki short interest) = sygnal pozycjonowania smart-money pod earnings beat; monitorowac unusual options activity (OI percentyl, put/call ratio) na kalendarzu earnings dla small-cap spolek z podwyzszonym short interest - to bylby mierzalny presygnal 2-5 dni przed samym wynikiem, mimo ze kierunek/wielkosc beata pozostaje nieprzewidywalna"
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "LVWR",
+    "pct": 89.7,
+    "presignal": "Kontynuacja - pierwszy pop (+58%) byl 24.07 na zaplanowanym Q2 (juz w dzienniku lekcji z presygnalem: rekordowe open interest opcji call + spadajacy put/call ratio przed wynikami). W poniedziałek 27.07 kolejny +89.7% (mikro-float ~$500mln kapitalizacji) na tym samym katalizatorze (przychod +55% r/r, sprzedaz motocykli elektrycznych +386% r/r) plus dynamika short-squeeze",
+    "lesson": "Post-earnings pop na malo-plynnych mikro-cap (maly float, wysoki short interest) moze sie rozciagac na WIELE sesji (short squeeze continuation), nie tylko dzien ogloszenia - juz zidentyfikowany presygnal (opcje) pozostaje wazny kilka dni po evencie, ale anti-chase i tak blokuje wejscie gdy skumulowany ruch >>+50%/mc - potwierdza, ze wzorzec jest do obserwacji/uczenia, nie do gonienia"
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "ENTX",
+    "pct": 44.5,
+    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej - oversubscribed $275mln private placement (cena $2.04/akcje) ogloszony i wyceniony tego samego dnia (27.07), prowadzony przez BVF Partners z udzialem topowych crossover biotech funduszy (RA Capital Management, Perceptive Advisors, Venrock Healthcare Capital Partners, Vivo Capital, TCGX, Longitude Capital) - to niepubliczna negocjacja, niemozliwa do przewidzenia przed 8-K/424B5",
+    "lesson": "Oversubscribed PIPE/private placement z udzialem duzej liczby renomowanych crossover biotech funduszy to silny sygnal smart-money confluence, ale ogloszenie i cena sa ustalane niepublicznie - realny edge to NIE poganianie dnia ogloszenia (kurs juz +44-88% w 1-2 dni, parabola), a monitorowanie 8-K/424B5 tego samego dnia dla mikro-cap biotechow z >=4 znanymi crossover funduszami jako watchlist na EWENTUALNE cofniecie, nie na natychmiastowe wejscie"
   }
 ]

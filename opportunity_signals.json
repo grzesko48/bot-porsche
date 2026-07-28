@@ -1,35 +1,25 @@
 {
-  "_date": "2026-07-27",
-  "_run": "poniedzialek, bieg srodsesyjny 18:30 CEST (drugi bieg dnia, po 14:30). Odswiezylem sygnaly niezaleznym researchem - tezy z biegu 14:30 nt. CRML/USAR/UAMY (still_upside=false, kontynuacja wyprzedazy mimo EO z 20.07) oraz ONDS/RGTI/CSQR potwierdzone bez zmian (ceny zgodne w granicach szumu, brak nowych faktow lamiacych teze), wiec zostawiam te wpisy z biegu 14:30 bez zmian. Nowy sygnal znaleziony w tej rundzie: EDBL (Edible Garden AG) - ekstremalny jednodniowy pump (+84% premarket, z ok. $0.10-0.13 na poczatku lipca do $5.41 na zamknieciu dzis) na LOI + budowie zakladu RTD (Prairie Hills, Iowa, Farm-to-Formula pivot). To podrecznikowy przypadek paraboli >>+50%/mc z naszych lekcji (LEGN -41%, BCDA -48%) - dane cenowe z roznych zrodel mocno sprzeczne (widelki $0.12-$9.94), co samo w sobie jest sygnalem ostrzegawczym dla micro-cap. still_upside=false, NIE gonic - dodaje do dziennika obserwacyjnego. Sprawdzilem tez rynek IPO (Quantinuum QNT $15.7mld kapitalizacji - za duzy, brak edge, pominiety), kontrakty DoD (V2X $4.3mld T-6 COMBS - to wznowienie kontraktu z 2025 po wyroku sadu, NIE swiezy <48h, pominiety; BigBear.ai $53mln classified award - za maly wzgledem kapitalizacji ~$1.1mld, pominiety), insider clusters (OpenInsider - brak konkretnych nowych klastrow w wynikach wyszukiwania), congress trades (jedyne swieze ujawnienia to SPRZEDAZE - Meuser NVDA, Jacobs QCOM - nie kupno, pomijam), 13F (Q2 2026 jeszcze nie zlozone, termin 14.08.2026, brak nowych danych).",
-  "ipo": [
-    {
-      "ticker": "CSQR",
-      "name": "Csquare, Inc.",
-      "price_usd": 22.08,
-      "pct_1m": 5.1,
-      "catalyst": "",
-      "still_upside": false,
-      "note": "Kontynuacja - debiut IPO 17.07.2026 (NYSE), $21/akcja, data center backed by Brookfield. +4.45% dzis, wciaz blisko ceny IPO, brak nowego katalizatora w tej rundzie."
-    }
-  ],
+  "_date": "2026-07-28",
+  "_run": "wtorek, bieg 14:30 CEST (przed otwarciem). Odswiezylem ceny kontynuowanych tez z biegu 18:30 (27.07): CRML $6.02 (plasko), USAR $14.93 (+5.5% dzis, wciaz pct_1m silnie ujemny), UAMY $5.45 (+5.4% dzis), ONDS $9.97 (+8.1% dzis, teza bez zmian - backlog rosnie po EO 20.07 i akwizycji DZYNE). Wszystkie trzy metale krytyczne odbijaja dzis (+5%+) po tygodniach wyprzedazy, ale to jeden zielony dzien - niedostateczne by zmienic teze 'run-i-wyprzedaz', still_upside zostaje false. EDBL z poprzedniego biegu usunieta z aktywnej listy (nadal ekstremalna parabola, brak nowego faktu). Nowe sygnaly z tej rundy: (1) RGTI - kontynuacja rajdu quantum (Trump EO 22.06), dzis $15.83 (+11.7% intraday), pct_1m juz >50% - PARABOLA, definitywnie nie gonic. (2) ENTX (Entera Bio) - oversubscribed $275mln private placement (cena $2.04/akcje) ogloszony 27.07, prowadzony przez BVF Partners z udzialem topowych crossover biotech funduszy (RA Capital, Perceptive Advisors, Venrock, Vivo Capital, TCGX) - realna konfluencja smart-money, ALE kurs juz $3.87 (+88% od ogloszenia, +90% od ceny placementu) - czysta parabola, wzorzec LEGN/BCDA, nie gonic mimo jakosci inwestorow. (3) LVWR (LiveWire) - kontynuacja rajdu Q2 (pierwszy dzien 24.07 juz w dzienniku lekcji z presygnalem opcyjnym) - w poniedzialek 27.07 kolejny +89.7% (kurs $2.43, mikro-float $500mln kapitalizacji) - ekstremalna wielodniowa parabola, nie gonic, pominiete z listy aktywnej (tylko retro w lowca_movers.json). Sprawdzone i odrzucone: Voyager Technologies (VOYG) NASA $298mln kontrakt - stary (30.06, nie <48h) i tylko ~16% kapitalizacji (nie kwalifikuje), Rocket Lab $266mln Space Force - kontrakt <48h ale kapitalizacja ~$40-50mld, kontrakt to <1% kapitalizacji, brak edge. Insider clusters (OpenInsider) - brak konkretnych nowych klastrow w small/microcap w wynikach wyszukiwania. Congress trades - jedyne swieze ujawnienie kupna to McKesson (MCK, mega-cap ~$90mld, poza uniwersum) i SpaceX (spolka prywatna, brak tickera dla retail). 13F Q2 2026 - termin zlozenia 14.08.2026, brak nowych danych. IPO - brak swiezych malych debiutow z realnym momentum w wynikach (rynek zdominowany przez mega-deale AI/space).",
+  "ipo": [],
   "volume": [
     {
       "ticker": "RGTI",
       "name": "Rigetti Computing, Inc.",
-      "price_usd": 15.30,
-      "pct_1m": 44.3,
+      "price_usd": 15.83,
+      "pct_1m": 55.0,
       "catalyst": "",
       "still_upside": false,
-      "note": "Quantum computing, +44.3% w miesiac - blisko progu paraboli (+50%). Domniemany katalizator ($100mln LOI z Dept. of Commerce) jest STARY (21.05.2026), nie swiezy <48h - nie kwalifikuje sie jako 'contract'. Anti-chase powinien i tak wstrzymac zakup - do obserwacji na cofniecie."
+      "note": "Quantum computing, kontynuacja rajdu po EO Trumpa (22.06) - dzis +11.7% intraday, pct_1m juz >50% - PARABOLA, anti-chase blokuje definitywnie (regula '>+50% nigdy'), nie kupowac."
     },
     {
-      "ticker": "EDBL",
-      "name": "Edible Garden AG Incorporated",
-      "price_usd": 5.41,
-      "pct_1m": 4800.0,
+      "ticker": "ENTX",
+      "name": "Entera Bio Ltd.",
+      "price_usd": 3.87,
+      "pct_1m": 250.0,
       "catalyst": "",
       "still_upside": false,
-      "note": "Nowy sygnal z biegu 18:30. Ekstremalny micro-cap pump: +84% premarket dzis na LOI + budowa zakladu RTD (Prairie Hills, Iowa, Farm-to-Formula pivot), z ok. $0.10-0.13 na poczatku lipca do $5.41 dzis (intraday widelki $3.16-$9.94, dane miedzy zrodlami mocno sprzeczne). Podrecznikowa parabola z naszych lekcji (LEGN/BCDA) - anti-chase i tak zablokuje, nie gonic."
+      "note": "Oversubscribed $275mln private placement (27.07) po $2.04/akcje, prowadzony przez BVF Partners + crossover biotech funds (RA Capital, Perceptive, Venrock, Vivo Capital, TCGX) - realna smart-money confluencja, ale kurs juz +88% od ogloszenia / +90% od ceny placementu w 1-2 dni. Podrecznikowa parabola (LEGN/BCDA), nie gonic mimo jakosci inwestorow."
     }
   ],
   "contract": [
@@ -38,9 +28,9 @@
       "name": "Ondas Holdings Inc.",
       "price_usd": 9.97,
       "pct_1m": -8.0,
-      "catalyst": "Trump/DoD - $70mln nowych zamowien defense/counter-UAS + kontynuacja akwizycji DZYNE Technologies ($875.8mln) z podniesionym guidance FY26",
+      "catalyst": "Trump/DoD - $70mln nowych zamowien defense/counter-UAS + akwizycja DZYNE Technologies ($875.8mln) z podniesionym guidance FY26 (z $390mln do >=$525mln)",
       "still_upside": true,
-      "upside_reason": "pct_1m wciaz ujemny (~-8%), wiec brak ryzyka gonienia gorki mimo +8% dzis intraday; katalizator (nowe zamowienia obronne) swiezy i backlog rosnie, spolka jeszcze nie zdyskontowala pelnego guidance FY26 podniesionego z $390mln do >=$525mln"
+      "upside_reason": "pct_1m wciaz ujemny (~-8%), dzis +8.1% ale to odbicie od dna, nie parabola; katalizator (nowe zamowienia obronne + podniesione guidance) swiezy i backlog rosnie, spolka jeszcze nie zdyskontowala pelnego guidance FY26 - teza bez zmian z poprzednich biegow"
     }
   ],
   "insider": [],
@@ -50,29 +40,29 @@
     {
       "ticker": "CRML",
       "name": "Critical Metals Corp.",
-      "price_usd": 6.21,
-      "pct_1m": -20.0,
+      "price_usd": 6.02,
+      "pct_1m": -22.0,
       "catalyst": "Trump/DoD - EO z 20.07.2026 zaostrzajace regoly waiver na zaopatrzenie kontraktorow obronnych w krytyczne minerały z Chin (Wolfsberg/Tanbreez lithium)",
       "still_upside": false,
-      "note": "Silny pop ok. 21.07 po EO, ale DZIS -6.29% (kontynuacja spadku z poprzednich biegow); dane 1-mies. mocno sprzeczne miedzy zrodlami (od -37% do +48%) - zbyt szumne by ufac pct_1m. Zmiana tezy vs. bieg 24.07 (byl still_upside=true) - ciagla wyprzedaz mimo katalizatora sugeruje wzorzec pump-i-wyprzedaz z naszych lekcji, NIE gonic."
+      "note": "Kurs plasko dzis vs 27.07 ($6.21->$6.02), kontynuacja slabosci po popie z 21.07. Wzorzec pump-i-wyprzedaz, nie gonic - teza bez zmian."
     },
     {
       "ticker": "USAR",
       "name": "USA Rare Earth, Inc.",
-      "price_usd": 14.15,
-      "pct_1m": -23.6,
+      "price_usd": 14.93,
+      "pct_1m": -22.0,
       "catalyst": "Trump/DoD - ten sam EO z 20.07.2026 (zaopatrzenie w krytyczne minerały spoza Chin)",
       "still_upside": false,
-      "note": "DZIS -6.54%; pct_1m -23.6% (52-tyg. szczyt $43.98 vs teraz $14.15) - wzorzec run-i-wyprzedaz, nie gonic."
+      "note": "Dzis +5.5% (odbicie), ale pct_1m wciaz silnie ujemny (52-tyg. szczyt $43.98 vs teraz $14.93) - jeden zielony dzien nie zmienia wzorca run-i-wyprzedaz, nie gonic."
     },
     {
       "ticker": "UAMY",
       "name": "United States Antimony Corporation",
-      "price_usd": 5.51,
-      "pct_1m": -16.8,
+      "price_usd": 5.45,
+      "pct_1m": -15.0,
       "catalyst": "Trump/DoD - ten sam EO z 20.07.2026 (zaopatrzenie w krytyczne minerały spoza Chin, antymon strategiczny metal obronny)",
       "still_upside": false,
-      "note": "Spadek 6 z ostatnich 10 sesji (-16.77% w tym okresie), 52-tyg. szczyt $19.70 vs teraz $5.51. Zmiana tezy vs. bieg 24.07 (byl still_upside=true) - dalsza wyprzedaz mimo katalizatora, nie gonic."
+      "note": "Dzis +5.4% (odbicie), 52-tyg. szczyt $19.70 vs teraz $5.45. Nadal wzorzec wyprzedazy mimo katalizatora, nie gonic - teza bez zmian."
     }
   ]
 }
