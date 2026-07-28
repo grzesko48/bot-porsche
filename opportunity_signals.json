@@ -1,7 +1,17 @@
 {
   "_date": "2026-07-28",
-  "_run": "wtorek, bieg 14:30 CEST (przed otwarciem). Odswiezylem ceny kontynuowanych tez z biegu 18:30 (27.07): CRML $6.02 (plasko), USAR $14.93 (+5.5% dzis, wciaz pct_1m silnie ujemny), UAMY $5.45 (+5.4% dzis), ONDS $9.97 (+8.1% dzis, teza bez zmian - backlog rosnie po EO 20.07 i akwizycji DZYNE). Wszystkie trzy metale krytyczne odbijaja dzis (+5%+) po tygodniach wyprzedazy, ale to jeden zielony dzien - niedostateczne by zmienic teze 'run-i-wyprzedaz', still_upside zostaje false. EDBL z poprzedniego biegu usunieta z aktywnej listy (nadal ekstremalna parabola, brak nowego faktu). Nowe sygnaly z tej rundy: (1) RGTI - kontynuacja rajdu quantum (Trump EO 22.06), dzis $15.83 (+11.7% intraday), pct_1m juz >50% - PARABOLA, definitywnie nie gonic. (2) ENTX (Entera Bio) - oversubscribed $275mln private placement (cena $2.04/akcje) ogloszony 27.07, prowadzony przez BVF Partners z udzialem topowych crossover biotech funduszy (RA Capital, Perceptive Advisors, Venrock, Vivo Capital, TCGX) - realna konfluencja smart-money, ALE kurs juz $3.87 (+88% od ogloszenia, +90% od ceny placementu) - czysta parabola, wzorzec LEGN/BCDA, nie gonic mimo jakosci inwestorow. (3) LVWR (LiveWire) - kontynuacja rajdu Q2 (pierwszy dzien 24.07 juz w dzienniku lekcji z presygnalem opcyjnym) - w poniedzialek 27.07 kolejny +89.7% (kurs $2.43, mikro-float $500mln kapitalizacji) - ekstremalna wielodniowa parabola, nie gonic, pominiete z listy aktywnej (tylko retro w lowca_movers.json). Sprawdzone i odrzucone: Voyager Technologies (VOYG) NASA $298mln kontrakt - stary (30.06, nie <48h) i tylko ~16% kapitalizacji (nie kwalifikuje), Rocket Lab $266mln Space Force - kontrakt <48h ale kapitalizacja ~$40-50mld, kontrakt to <1% kapitalizacji, brak edge. Insider clusters (OpenInsider) - brak konkretnych nowych klastrow w small/microcap w wynikach wyszukiwania. Congress trades - jedyne swieze ujawnienie kupna to McKesson (MCK, mega-cap ~$90mld, poza uniwersum) i SpaceX (spolka prywatna, brak tickera dla retail). 13F Q2 2026 - termin zlozenia 14.08.2026, brak nowych danych. IPO - brak swiezych malych debiutow z realnym momentum w wynikach (rynek zdominowany przez mega-deale AI/space).",
-  "ipo": [],
+  "_run": "wtorek, bieg 18:30 CEST (srodek sesji US). UWAGA WAZNA: najnowszy plik PLN_*.xlsx na Google Drive to nadal 2026-06-09 (~7 tygodni stary, ten sam co w biegu 27.07 18:30) - Krok D (pipeline z --cash) NIE uruchomiony z tego powodu, wyslano osobny mail alertowy (stale Drive data), zgodnie z precedensem z 27.07 (commit c0d70eb: 'unikam zgadywania kwoty --cash'). Dodatkowo w lowca_decisions_log.json widac zakupy TSM/GLW/RKLB zasugerowane PO 09.06 (bought=true, nigdy nie zrekoncyliowane z wyciagiem), wiec figura 1595.38 PLN z portfolio.json/Drive jest prawdopodobnie ZAWYZONA wzgledem realnej wolnej gotowki - dodatkowy powod by nie zgadywac. Ponizej swiezy research sygnalow (Krok B) niezaleznie od Kroku D.\n\nKontynuacja tez z biegu 14:30: ONDS (still_upside=true, backlog rosnie po DZYNE+DoD, bez zmian), CRML/USAR/UAMY (run-i-wyprzedaz, nie gonic, bez zmian), RGTI/ENTX (parabole >50%/>200%, definitywnie nie gonic, bez zmian) - ceny nieodswiezone w tej rundzie (bez nowego odczytu), teza fundamentalna bez zmian.\n\nNOWE z tej rundy: (1) OKLO (Oklo Inc) - Trump admin + Microsoft/Nvidia $200mln program przyspieszenia reaktorow jadrowych dla AI data centers (21.07), Oklo/X-Energy wybrane jako partnerzy; kurs $39.90, pct_1m ok. -28% (spolka spadla, NIE jest rozgrzana - anti-chase nie blokuje). Katalizator ma ~7 dni (lekko poza oknem 48-72h dla 'kontrakt', ale to pierwszy raz na radarze bota, spolka nie jest w paraboli). (2) WBX (Wallbox) - klaster insiderow (CEO + 2 dyrektorow, ten sam dzien 30.06, Form 4 z 02.07) - ZASTRZEZENIE: to obowiazkowa subskrypcja w ramach zatwierdzonej restrukturyzacji, NIE czysty rynkowy odkup, sygnal slaby jakosciowo, kurs $3.60, pct_1m ok. -5%. (3) FMAO (Farmers & Merchants Bancorp) - kongresmen Robert Latta (R-OH) kupil trzeci raz w tym roku (20.07, ujawnione 24.07) te sama mala spolke bankowa - moze byc reinwestycja dywidendy, kurs $29.81 (blisko 52-tyg. szczytu), pct_1m ok. +7%. (4) SCTX (Scribe Therapeutics) - swieze IPO (debiut 24.07, $128.7mln, upsized), kurs $18.88, ok. +26% od ceny IPO ale juz -13% od szczytu 1. dnia (konsolidacja) - pct_1m to de facto 'od debiutu' (4 dni), nie pelny miesiac.\n\nSprawdzone i ODRZUCONE (dane niepewne/juz po skoku/brak edge): DFNS (T3 Defense) - ekstremalnie sprzeczne ceny w tym samym dniu ($13-27), mikrofloat po reverse split 1:125 + kontrakt niepotwierdzony w oficjalnych zrodlach, JUZ w paraboli (+59-99% wczoraj wg retro) - wzorzec do UNIKANIA (patrz lowca_movers.json), nie dodaje jako kandydat z powodu niewiarygodnych danych cenowych. NIPG i BIYA - identyczny wzorzec reverse-split-squeeze, juz po skoku wczoraj, dane cenowe sprzeczne - pominiete z tego samego powodu. FIRY (dawniej Skillz) - duza zmiennosc wewnatrzdniowa bez jasnego katalizatora, dane sprzeczne - pominiete. EDBL (Edible Garden) - kontrakt dystrybucji Walmart (26-27.07) ciekawy, ale spolka to nano-cap (~$300tys-2mln kapitalizacji), ceny mocno rozbiezne miedzy zrodlami, zbyt niepewne do ujecia. DJT (Trump Media) - +11.6% 27.07 na temacie 'Truth API', ale brak wiarygodnych danych pct_1m (rozne zrodla myla YTD z 1m) - pominiete, zeby nie podac zlej liczby do krytycznego pola anti-chase. LEU (Centrus Energy) - realny kontrakt DOE HALEU $1.07mld (~32% kapitalizacji), ale news ma ~4 tygodnie (spoza okna swiezosci dla kategorii kontrakt), pct_1m tylko +3% (nie rozgrzany) - warto sledzic w kolejnych biegach jesli pojawi sie nowy fakt. ORCL (Pentagon $7mld) - kontrakt to <1% kapitalizacji Oracle (mega-cap $348mld), brak edge. CENX (Century Aluminum, EO 20.07 cla aluminium) - news 8 dni, ruch plaski, poza oknem. 13F - termin zlozenia Q2 dopiero 14.08, brak nowych danych (bez zmian).",
+  "ipo": [
+    {
+      "ticker": "SCTX",
+      "name": "Scribe Therapeutics",
+      "price_usd": 18.88,
+      "pct_1m": 26.0,
+      "catalyst": "",
+      "still_upside": false,
+      "note": "Swiezy debiut 24.07.2026 (upsized IPO $128.7mln, cena IPO $15.00) - dzis ok. +26% od ceny IPO, ale juz -13% od szczytu pierwszej sesji (otwarcie $25) - konsolidacja/pullback. pct_1m to de facto ruch 'od debiutu' (4 dni), nie pelny miesiac - traktowac ostroznie."
+    }
+  ],
   "volume": [
     {
       "ticker": "RGTI",
@@ -10,7 +20,7 @@
       "pct_1m": 55.0,
       "catalyst": "",
       "still_upside": false,
-      "note": "Quantum computing, kontynuacja rajdu po EO Trumpa (22.06) - dzis +11.7% intraday, pct_1m juz >50% - PARABOLA, anti-chase blokuje definitywnie (regula '>+50% nigdy'), nie kupowac."
+      "note": "Bez zmian z biegu 14:30 - quantum computing, kontynuacja rajdu po EO Trumpa (22.06), pct_1m >50% - PARABOLA, anti-chase blokuje definitywnie, nie kupowac. Cena nieodswiezona w tej rundzie."
     },
     {
       "ticker": "ENTX",
@@ -19,7 +29,7 @@
       "pct_1m": 250.0,
       "catalyst": "",
       "still_upside": false,
-      "note": "Oversubscribed $275mln private placement (27.07) po $2.04/akcje, prowadzony przez BVF Partners + crossover biotech funds (RA Capital, Perceptive, Venrock, Vivo Capital, TCGX) - realna smart-money confluencja, ale kurs juz +88% od ogloszenia / +90% od ceny placementu w 1-2 dni. Podrecznikowa parabola (LEGN/BCDA), nie gonic mimo jakosci inwestorow."
+      "note": "Bez zmian z biegu 14:30 - oversubscribed $275mln private placement (27.07, BVF Partners + crossover biotech funds), ale kurs juz +88-90% w 1-2 dni - podrecznikowa parabola (LEGN/BCDA), nie gonic. Cena nieodswiezona w tej rundzie."
     }
   ],
   "contract": [
@@ -30,12 +40,32 @@
       "pct_1m": -8.0,
       "catalyst": "Trump/DoD - $70mln nowych zamowien defense/counter-UAS + akwizycja DZYNE Technologies ($875.8mln) z podniesionym guidance FY26 (z $390mln do >=$525mln)",
       "still_upside": true,
-      "upside_reason": "pct_1m wciaz ujemny (~-8%), dzis +8.1% ale to odbicie od dna, nie parabola; katalizator (nowe zamowienia obronne + podniesione guidance) swiezy i backlog rosnie, spolka jeszcze nie zdyskontowala pelnego guidance FY26 - teza bez zmian z poprzednich biegow"
+      "upside_reason": "pct_1m wciaz ujemny (~-8%), katalizator swiezy i backlog rosnie, spolka jeszcze nie zdyskontowala pelnego guidance FY26 - teza bez zmian z poprzednich biegow. Cena nieodswiezona w tej rundzie."
     }
   ],
-  "insider": [],
+  "insider": [
+    {
+      "ticker": "WBX",
+      "name": "Wallbox N.V.",
+      "price_usd": 3.60,
+      "pct_1m": -5.0,
+      "catalyst": "",
+      "still_upside": false,
+      "note": "Klaster insiderow - CEO Enric Asuncion + 2 dyrektorow kupili tego samego dnia (30.06, Form 4 z 02.07). ZASTRZEZENIE: to obowiazkowa subskrypcja akcji w ramach zatwierdzonej sadownie restrukturyzacji kapitalu, nie czysty rynkowy odkup z przekonania - sygnal SLABY jakosciowo, mikro-cap ~$82mln. Brak swiezego katalizatora poza tym."
+    }
+  ],
   "fund13f": [],
-  "congress": [],
+  "congress": [
+    {
+      "ticker": "FMAO",
+      "name": "Farmers & Merchants Bancorp, Inc.",
+      "price_usd": 29.81,
+      "pct_1m": 7.0,
+      "catalyst": "",
+      "still_upside": false,
+      "note": "Kongresmen Robert Latta (R-OH) kupil FMAO 20.07 (ujawnione 24.07) - trzeci raz w 2026 (20.01, 04.06, 20.07) w tej samej malej spolce bankowej. Moze byc reinwestycja dywidendy, nie swiezy przekonaniowy zakup. Kurs blisko 52-tyg. szczytu ($29.83), small-cap bank ~$379mln kapitalizacji."
+    }
+  ],
   "policy": [
     {
       "ticker": "CRML",
@@ -44,7 +74,7 @@
       "pct_1m": -22.0,
       "catalyst": "Trump/DoD - EO z 20.07.2026 zaostrzajace regoly waiver na zaopatrzenie kontraktorow obronnych w krytyczne minerały z Chin (Wolfsberg/Tanbreez lithium)",
       "still_upside": false,
-      "note": "Kurs plasko dzis vs 27.07 ($6.21->$6.02), kontynuacja slabosci po popie z 21.07. Wzorzec pump-i-wyprzedaz, nie gonic - teza bez zmian."
+      "note": "Bez zmian z biegu 14:30 - wzorzec pump-i-wyprzedaz, nie gonic. Cena nieodswiezona w tej rundzie."
     },
     {
       "ticker": "USAR",
@@ -53,7 +83,7 @@
       "pct_1m": -22.0,
       "catalyst": "Trump/DoD - ten sam EO z 20.07.2026 (zaopatrzenie w krytyczne minerały spoza Chin)",
       "still_upside": false,
-      "note": "Dzis +5.5% (odbicie), ale pct_1m wciaz silnie ujemny (52-tyg. szczyt $43.98 vs teraz $14.93) - jeden zielony dzien nie zmienia wzorca run-i-wyprzedaz, nie gonic."
+      "note": "Bez zmian z biegu 14:30 - 52-tyg. szczyt $43.98 vs teraz $14.93, wzorzec run-i-wyprzedaz. Cena nieodswiezona w tej rundzie."
     },
     {
       "ticker": "UAMY",
@@ -62,7 +92,16 @@
       "pct_1m": -15.0,
       "catalyst": "Trump/DoD - ten sam EO z 20.07.2026 (zaopatrzenie w krytyczne minerały spoza Chin, antymon strategiczny metal obronny)",
       "still_upside": false,
-      "note": "Dzis +5.4% (odbicie), 52-tyg. szczyt $19.70 vs teraz $5.45. Nadal wzorzec wyprzedazy mimo katalizatora, nie gonic - teza bez zmian."
+      "note": "Bez zmian z biegu 14:30 - wzorzec wyprzedazy mimo katalizatora. Cena nieodswiezona w tej rundzie."
+    },
+    {
+      "ticker": "OKLO",
+      "name": "Oklo Inc.",
+      "price_usd": 39.90,
+      "pct_1m": -28.0,
+      "catalyst": "Trump/DOE/Microsoft/Nvidia - $200mln program przyspieszenia reaktorow jadrowych dla AI data centers (21.07.2026), Oklo i X-Energy wybrane jako partnerzy programu",
+      "still_upside": false,
+      "note": "Nowy kandydat na radarze bota (pierwszy raz). Katalizator ma ok. 7 dni (lekko poza oknem 48-72h), ale spolka NIE jest rozgrzana - pct_1m ujemny (-28%), wiec anti-chase nie blokuje kupna z tego powodu; nalezy jednak zweryfikowac aktualnosc/sile tezy w kolejnym biegu."
     }
   ]
 }

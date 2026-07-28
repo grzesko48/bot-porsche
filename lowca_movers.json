@@ -12,5 +12,26 @@
     "day": "2026-07-27",
     "presignal": "Kontynuacja - pierwszy pop (+58%) byl 24.07 na zaplanowanym Q2 (juz w dzienniku lekcji z presygnalem: rekordowe open interest opcji call + spadajacy put/call ratio przed wynikami). W poniedziałek 27.07 kolejny +89.7% (mikro-float ~$500mln kapitalizacji) na tym samym katalizatorze (przychod +55% r/r, sprzedaz motocykli elektrycznych +386% r/r) plus dynamika short-squeeze",
     "lesson": "Post-earnings pop na malo-plynnych mikro-cap (maly float, wysoki short interest) moze sie rozciagac na WIELE sesji (short squeeze continuation), nie tylko dzien ogloszenia - juz zidentyfikowany presygnal (opcje) pozostaje wazny kilka dni po evencie, ale anti-chase i tak blokuje wejscie gdy skumulowany ruch >>+50%/mc - potwierdza, ze wzorzec jest do obserwacji/uczenia, nie do gonienia"
+  },
+  {
+    "ticker": "BIYA",
+    "pct": 107.8,
+    "day": "2026-07-27",
+    "presignal": "Reverse split 1-for-10 ogloszony 8.07, efektywny 10/13.07 - zmniejszyl liczbe akcji w obrocie z ok. 27mln do ok. 2.7mln (mikro-cap chinski emitent, kapitalizacja ~$8.2mln). Brak nowego katalizatora informacyjnego 27.07 - czysty low-float momentum/short squeeze bez newsa fundamentalnego.",
+    "lesson": "Skrining pod katem niedawno zakonczonych reverse splitow (zwlaszcza zagraniczni prywatni emitenci, chinskie small-capy) z wynikowym floatem <5mln akcji to gotowy, publiczny (6-K/8-K, komunikat gieldy) sygnal wyprzedzajacy podwyzszone ryzyko gwaltownej zmiennosci w kolejnych 1-3 tygodniach - budowac watchlist 'recent reverse split + tiny float' jako osobna kategorie ryzyka/obserwacji."
+  },
+  {
+    "ticker": "DFNS",
+    "pct": 79.0,
+    "day": "2026-07-27",
+    "presignal": "Reverse split 1-for-125 zakonczony tydzien wczesniej (float spadl z ok. 139.8mln do ok. 1.12mln akcji) + Schedule 13D zlozony 24.07 (piatek, 3 dni przed skokiem) ujawniajacy 16.67% udzialu strategicznego inwestora (X S.E. Security and Defense) powiazanego z umowa nabycia 60% Project35 (przechwytywacze dronow, ogloszona 10.07).",
+    "lesson": "Monitoring SEC EDGAR pod katem nowych filingow 13D/13D-A na mikro-capach (zwlaszcza defense/drony) zlozonych tuz przed weekendem, w polaczeniu ze swiezym reverse splitem, to silny wykrywalny pre-sygnal - warto zbudowac alert 'nowy 13D + float <5mln po niedawnym reverse split'. Potwierdza wzorzec BIYA/NIPG: reverse split -> tiny float -> spontaniczny squeeze w kolejnych tygodniach."
+  },
+  {
+    "ticker": "NIPG",
+    "pct": 37.55,
+    "day": "2026-07-27",
+    "presignal": "Zmiana ratio ADS z 1:2 na 1:60 (efektywnie reverse split 1-for-30) ogloszona 15.06, weszla w zycie 6.07 - identyczny mechanizm redukcji floatu jak BIYA/DFNS. Brak swiezego katalizatora fundamentalnego 27.07 - ruch to kontynuacja low-float momentum.",
+    "lesson": "Trzeci przypadek tego samego dnia (obok BIYA, DFNS) potwierdza, ze 'niedawny reverse split/ADS ratio change -> drastycznie mniejszy float -> spontaniczny squeeze w kolejnych tygodniach' to powtarzalne, systematyczne zjawisko, nie przypadek - rekomendacja: stala watchlist spolek po reverse splitach z ostatnich 30 dni i floatem <5mln jako grupa podwyzszonego ryzyka/szansy, niezalezna od klasycznych sygnalow (insider/8-K/wolumen bez kontekstu splitu)."
   }
 ]
