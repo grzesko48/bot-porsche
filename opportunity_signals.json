@@ -1,6 +1,6 @@
 {
   "_date": "2026-07-29",
-  "_run": "sroda, bieg 14:30 CEST (przed otwarciem USA). UWAGA WAZNA (3. raz z rzedu): najnowszy plik PLN_*.xlsx na Google Drive to nadal PLN_54820945_2006-01-01_2026-06-09.xlsx (modifiedTime 2026-06-09, ~7.5 tygodnia stary) - sprawdzone search_files + list_recent_files posortowane po lastModified, brak jakiegokolwiek nowszego eksportu w calym Drive. To ten sam stan co w biegach 27.07 i 28.07 (18:30) - Krok D (pipeline z --cash) ponownie NIE uruchomiony z tego powodu, zgodnie z ustalonym precedensem (commit c0d70eb: 'unikam zgadywania kwoty --cash'; portfolio.json tez niewiarygodny - widac w lowca_decisions_log.json sugerowane zakupy TSM/GLW/RKLB PO 09.06 nigdy nie zrekoncyliowane z wyciagiem). To juz 3. kolejny bieg bez swiezego eksportu - warto, zeby uzytkownik recznie pobral nowy PLN_*.xlsx z XTB i wgral na Drive, bo inaczej Krok D bedzie sie zawieszal w nieskonczonosc. Wyslano mail alertowy (Resend) z tym ostrzezeniem. Ponizej swiezy research sygnalow (Krok B) niezaleznie od Kroku D.\n\nKontynuacja tez bez zmian (ceny NIE odswiezone w tej rundzie, chyba ze zaznaczono): ONDS (still_upside=true, backlog rosnie po DZYNE+DoD), WBX (klaster insiderow slaby jakosciowo - obowiazkowa subskrypcja), FMAO (kongresmen Latta, mozliwa reinwestycja dywidendy), SCTX (IPO 24.07, teraz 5 dni po debiucie - konsolidacja), RGTI/ENTX (parabole >50%/>200%, definitywnie nie gonic), CRML/USAR/UAMY (run-i-wyprzedaz po EO 20.07, nie gonic - PRZY PROBIE odswiezenia ceny w tej rundzie wyszukiwarka zwrocila identyczna cene $15.23 dla CRML i USAR co jest niewiarygodne/sprzeczne z poprzednimi odczytami (CRML $6.02, USAR $14.93) - potraktowane jako blad zrodla, ceny NIE zaktualizowane, temat bez zmian).\n\nNOWE z tej rundy: (1) SPCX (Space Exploration Technologies / SpaceX) - podwojny sygnal IPO+congress: debiut na NASDAQ 12.06.2026 (IPO $135/akcja), obecnie $116.41 (-13.7% od IPO, spolka NIE jest rozgrzana - anti-chase nie blokuje); 24/7 Wall St. + CNBC (28.07.2026) ujawnily, ze co najmniej 6 czlonkow Izby Reprezentantow (w tym Timmons z komisji ds. wojskowych/Pentagonu) kupilo akcje SpaceX w ciagu 6 dni od IPO (do $245tys. lacznie) - klasyczny sygnal insider-political z bezposrednim nadzorem nad najwiekszym klientem SpaceX (Pentagon/NASA). Dodane do grup ipo ORAZ congress (bot policzy konfluencje). Ryzyko: mega-cap wycena, plynnosc/dostepnosc na XTB do zweryfikowania przez bota. (2) IGC (IGC Pharma Inc.) - CEO Ram Mukunda + CFO Claudia Grimaldi kupili 4 274 853 akcji 07.07.2026 (konwersja ok. $1.15mln dlugu na akcje po $0.27) - ZASTRZEZENIE: to NIE gotowkowy zakup rynkowy z przekonania tylko konwersja zaleglego wynagrodzenia/dlugu na equity, sygnal SLABY jakosciowo (podobnie jak WBX), nano-cap $27mln kapitalizacji, kurs $0.27 blisko 52-tyg. minimum ($0.24) - pct_1m ok. 0% (plaski, w poblizu dna od dawna, brak swiezego momentum).\n\nKROK C retro (wczoraj = 28.07.2026): NIE znaleziono wiarygodnego micro-cap/small-cap movera z ruchem jednodniowym >=15-20% pasujacego do wzorca bota. Duzi gainerzy 28.07 to wylacznie oczekiwane, zaplanowane wyniki kwartalne duzych spolek (IQV +13.7% beat&raise, SHW +8.5% beat&raise, CRL +7.7% na budowie pozycji przez fundusze hedgingowe przed wynikami 05.08, Ford +4.9% beat) - to nie pasuje do edge'u bota (harmonogram earnings jest publiczny, nie 'przeoczenie'). Sprawdzono tez doniesienia o IBIO (lek na zachowanie masy miesniowej) - okazalo sie, ze artykul z 28.07 recyklingowal stara wiadomosc z kwietnia 2026, brak swiezego katalizatora. MIGI (Mawson/Big Digital Energy) wspomniany jako 'top gainer wsrod spolek crypto' ale brak wiarygodnych danych cenowych/procentowych. Brak solidnej podstawy do wpisu do lowca_movers.json w tej rundzie -> zapisano [].",
+  "_run": "sroda, bieg 18:30 CEST (srodek sesji US, kontynuacja biegu 14:30 tego samego dnia). Krok D bedzie ponownie sprawdzony pod katem swiezosci PLN_*.xlsx na Drive (ostatni znany stan: nadal 2026-06-09, 3 kolejne biegi pominiete) - jesli nadal brak swiezego eksportu, Krok D zostanie pominiety zgodnie z ustalonym precedensem.\n\nKontynuacja tez bez zmian od 14:30 (ceny nieodswiezone w tej rundzie, chyba ze zaznaczono): SCTX, RGTI, ENTX (parabole, nie gonic), WBX, IGC (insider slaby jakosciowo), FMAO (mozliwa reinwestycja dywidendy), SPCX (IPO+congress confluencja, -13.7% od IPO), CRML/USAR/UAMY (run-i-wyprzedaz po EO 20.07 - DZIS POTWIERDZONE newsem Reuters 'rare earth stocks slide as Trump administration backs off critical mineral price floors', 28.07 - dodatkowe potwierdzenie tezy 'nie gonic', teza bez zmian), OKLO (DOE/Microsoft/Nvidia reactor program, nadal wazny).\n\nZAKTUALIZOWANE w tej rundzie: ONDS - cena spadla dalej do $7.65 (z $9.97 w biegu 14:30, wczesniej $8.02 27.07), krotki interes wzrosl do >44% float przed wynikami 11.08 - teza still_upside=true WZMOCNIONA (spolka spada mimo backlogu/guidance FY26 podniesionego, potencjal short squeeze przy wynikach).\n\nNOWE z tej rundy (grupa volume) - DWIE micro-cap parabole z reverse-split/float-contraction, PRZYKLAD wzorca do unikania (NIE kupowac, tylko do nauki): (1) STKH (Steakholder Foods) +166.67% 28.07 (z $1.35 do $3.60, dzis ok. $3.66) po zmianie ratio ADS 1:4000->1:12000 (efektywne 27.07, dzien przed spike'iem) - engineering nizszego floatu jak reverse split; retail frenzy, wielokrotne trading halts. (2) DFNS (T3 Defense) - reverse split 1-for-125 (efektywny 20.07, float z 139.8mln do 1.12mln akcji) + akwizycja 60% Project35 (counter-drone/aerial interceptor) - kurs +58.9% 27.07 i +42% dalej 28.07 (2-dniowy kontynuowany squeeze); UWAGA: zrodla cenowe SPRZECZNE dzis (widziano $13-37 w roznych serwisach jednoczesnie) - cena NIEPEWNA/niewiarygodna, pct_1m szacowany na >100% na podstawie potwierdzonych dziennych ruchow z 2 sesji, obie spolki definitywnie POWYZEJ +50% progu - parabola, nie kupowac.\n\nKROK C retro (wczoraj = 28.07.2026, POGLEBIONA analiza w tej rundzie wzgledem biegu 14:30): znaleziono STKH i DFNS jako prawdziwe jednodniowe movery z identyfikowalnym pre-sygnalem (patrz lowca_movers.json) - to sa realne przeoczenia tego typu wzorca (reverse split/ADS ratio change dzien przed spike'iem), ktorych bieg 14:30 nie zlapal. Rowniez VRCA (+33.28%, $9.13) i ADIL (+27.47%, $6.31) mialy duze ruchy 28.07 ale BEZ jednoznacznego swiezego katalizatora dnia (VRCA: ostatni news to partnerstwo Israel z 21.07, tydzien wczesniej; ADIL: ostatni news to Azora acquisition+PIPE z poczatku lipca) - presygnal NIEZNANY, wymaga dalszego zbadania w kolejnych biegach, nie dopisano jako pewna lekcja.",
   "ipo": [
     {
       "ticker": "SCTX",
@@ -9,7 +9,7 @@
       "pct_1m": 26.0,
       "catalyst": "",
       "still_upside": false,
-      "note": "Bez zmian z biegu 28.07 - swiezy debiut 24.07.2026 (upsized IPO $128.7mln), teraz 5 dni po debiucie - konsolidacja/pullback -13% od szczytu 1. sesji. pct_1m to de facto ruch 'od debiutu', nie pelny miesiac. Cena nieodswiezona w tej rundzie."
+      "note": "Bez zmian z biegu 14:30 - debiut 24.07.2026, konsolidacja po pullbacku. Cena nieodswiezona w tej rundzie."
     },
     {
       "ticker": "SPCX",
@@ -18,7 +18,7 @@
       "pct_1m": -13.7,
       "catalyst": "",
       "still_upside": false,
-      "note": "NOWY. Debiut NASDAQ 12.06.2026, IPO $135/akcja (upsized, jeden z najwiekszych IPO 2026). Kurs dzis $116.41 = -13.7% od ceny IPO, spolka NIE jest rozgrzana (anti-chase nie blokuje z powodu przecenienia od debiutu). Patrz tez grupa congress - ten sam ticker, silniejsza konfluencja przez klaster kongresmenow kupujacych tuz po IPO. Ryzyko: ogromna wycena/mega-cap charakter mimo swiezego IPO, do zweryfikowania dostepnosc/plynnosc na XTB."
+      "note": "Bez zmian z biegu 14:30 - debiut 12.06.2026, -13.7% od IPO, nie rozgrzana. Patrz tez grupa congress (klaster kongresmenow). Cena nieodswiezona w tej rundzie."
     }
   ],
   "volume": [
@@ -29,7 +29,7 @@
       "pct_1m": 55.0,
       "catalyst": "",
       "still_upside": false,
-      "note": "Bez zmian - quantum computing, kontynuacja rajdu po EO Trumpa (22.06), pct_1m >50% - PARABOLA, anti-chase blokuje definitywnie, nie kupowac. Cena nieodswiezona w tej rundzie."
+      "note": "Bez zmian - parabola po EO Trumpa quantum computing, anti-chase blokuje definitywnie. Cena nieodswiezona."
     },
     {
       "ticker": "ENTX",
@@ -38,18 +38,36 @@
       "pct_1m": 250.0,
       "catalyst": "",
       "still_upside": false,
-      "note": "Bez zmian - oversubscribed $275mln private placement (27.07, BVF Partners + crossover biotech funds), kurs juz +88-90% w 1-2 dni - podrecznikowa parabola (LEGN/BCDA), nie gonic. Cena nieodswiezona w tej rundzie."
+      "note": "Bez zmian - podrecznikowa parabola po private placement, nie gonic. Cena nieodswiezona."
+    },
+    {
+      "ticker": "STKH",
+      "name": "Steakholder Foods Ltd.",
+      "price_usd": 3.66,
+      "pct_1m": 171.0,
+      "catalyst": "",
+      "still_upside": false,
+      "note": "NOWY, DO NAUKI NIE DO KUPNA. +166.67% w 1 dniu (28.07, $1.35->$3.60) po zmianie ratio ADS 1:4000->1:12000 (float contraction jak reverse split, efektywna 27.07). Retail frenzy, wielokrotne trading halts, 52-tyg. zakres $0.36-$6.97 - ekstremalna zmiennosc niskiego floatu. Definitywnie >+50%, parabola, anti-chase blokuje. Patrz lowca_movers.json."
+    },
+    {
+      "ticker": "DFNS",
+      "name": "T3 Defense Inc.",
+      "price_usd": 24.00,
+      "pct_1m": 130.0,
+      "catalyst": "",
+      "still_upside": false,
+      "note": "NOWY, DO NAUKI NIE DO KUPNA. Reverse split 1-for-125 (efektywny 20.07, float 139.8mln->1.12mln akcji) + akwizycja 60% Project35 (counter-drone) = 2-dniowy squeeze +58.9% (27.07) i +42% dalej (28.07). UWAGA: cena DZIS niepewna - zrodla sprzeczne ($13-37 rownoczesnie), podano wartosc przyblizona $24 (srodek zakresu), pct_1m to szacunek z potwierdzonych dziennych ruchow. Definitywnie >+50%, parabola, anti-chase blokuje. Patrz lowca_movers.json."
     }
   ],
   "contract": [
     {
       "ticker": "ONDS",
       "name": "Ondas Holdings Inc.",
-      "price_usd": 9.97,
-      "pct_1m": -8.0,
-      "catalyst": "Trump/DoD - $70mln nowych zamowien defense/counter-UAS + akwizycja DZYNE Technologies ($875.8mln) z podniesionym guidance FY26 (z $390mln do >=$525mln)",
+      "price_usd": 7.65,
+      "pct_1m": -22.0,
+      "catalyst": "Trump/DoD - $70mln nowych zamowien defense/counter-UAS + akwizycja DZYNE Technologies z podniesionym guidance FY26 (>=$525mln)",
       "still_upside": true,
-      "upside_reason": "Bez zmian z poprzednich biegow - pct_1m wciaz ujemny (~-8%), katalizator swiezy i backlog rosnie, spolka jeszcze nie zdyskontowala pelnego guidance FY26. Cena nieodswiezona w tej rundzie."
+      "upside_reason": "ZAKTUALIZOWANE w tej rundzie - cena spadla dalej do $7.65 (z $9.97 rano, $8.02 27.07) mimo niezmienionego pozytywnego katalizatora (backlog/guidance). Short interest >44% floatu przed wynikami 11.08.2026 - potencjal short squeeze. Needham obnizyl cel do $19 (nadal Buy) - nadal 2x+ obecnej ceny. Spolka jeszcze bardziej niedowartosciowana wzgledem tezy niz rano."
     }
   ],
   "insider": [
@@ -60,7 +78,7 @@
       "pct_1m": -5.0,
       "catalyst": "",
       "still_upside": false,
-      "note": "Bez zmian - klaster insiderow (CEO + 2 dyrektorow, 30.06/Form 4 z 02.07), ale to obowiazkowa subskrypcja w ramach restrukturyzacji, NIE rynkowy odkup z przekonania - sygnal SLABY. Cena nieodswiezona w tej rundzie."
+      "note": "Bez zmian - obowiazkowa subskrypcja restrukturyzacyjna, sygnal slaby. Cena nieodswiezona."
     },
     {
       "ticker": "IGC",
@@ -69,7 +87,7 @@
       "pct_1m": 0.0,
       "catalyst": "",
       "still_upside": false,
-      "note": "NOWY. CEO Ram Mukunda + CFO Claudia Grimaldi nabyli 4 274 853 akcji 07.07.2026 po $0.27 poprzez konwersje ok. $1.15mln zaleglego wynagrodzenia/dlugu na equity. ZASTRZEZENIE: to NIE gotowkowy zakup z przekonania, tylko rozliczenie dlugu - sygnal SLABY jakosciowo (analogicznie do WBX). Nano-cap $27mln kapitalizacji, kurs blisko 52-tyg. minimum ($0.24), plaski od tygodni - brak swiezego momentum/katalizatora poza samym insider filing."
+      "note": "Bez zmian - konwersja dlugu na equity, sygnal slaby, plaski kurs. Cena nieodswiezona."
     }
   ],
   "fund13f": [],
@@ -81,7 +99,7 @@
       "pct_1m": 7.0,
       "catalyst": "",
       "still_upside": false,
-      "note": "Bez zmian - kongresmen Robert Latta (R-OH) kupil FMAO 20.07 (ujawnione 24.07), trzeci raz w 2026 - moze byc reinwestycja dywidendy, nie swiezy przekonaniowy zakup. Cena nieodswiezona w tej rundzie."
+      "note": "Bez zmian - mozliwa reinwestycja dywidendy, nie swiezy zakup z przekonania. Cena nieodswiezona."
     },
     {
       "ticker": "SPCX",
@@ -90,7 +108,7 @@
       "pct_1m": -13.7,
       "catalyst": "",
       "still_upside": false,
-      "note": "NOWY. 24/7 Wall St. + CNBC (28.07.2026): co najmniej 6 czlonkow Izby Reprezentantow (Timmons R-SC z podkomisji ds. wojskowych/zagranicznych - bezposredni nadzor nad Pentagonem, najwiekszym klientem SpaceX; plus McGuire, Meuser, Cisneros, James, Moskowitz) kupilo akcje SPCX w ciagu 6 dni od IPO (12.06), lacznie $83-245tys. Ujawnione dopiero teraz (STOCK Act, opoznienie ujawnien). Silny sygnal insider-polityczny + swiezy IPO w tej samej spolce (patrz grupa ipo) - podwojna konfluencja na tym samym tickerze. Kurs dzis -13.7% od IPO, wiec anti-chase nie blokuje."
+      "note": "Bez zmian - klaster 6 kongresmenow kupil w ciagu 6 dni od IPO, w tym Timmons z nadzorem nad Pentagonem. Patrz tez grupa ipo. Cena nieodswiezona."
     }
   ],
   "policy": [
@@ -99,36 +117,36 @@
       "name": "Critical Metals Corp.",
       "price_usd": 6.02,
       "pct_1m": -22.0,
-      "catalyst": "Trump/DoD - EO z 20.07.2026 zaostrzajace regoly waiver na zaopatrzenie kontraktorow obronnych w krytyczne minerały z Chin (Wolfsberg/Tanbreez lithium)",
+      "catalyst": "Trump/DoD - EO 20.07.2026 ws. krytycznych mineralow z Chin",
       "still_upside": false,
-      "note": "Bez zmian - wzorzec pump-i-wyprzedaz, nie gonic. Cena NIE zaktualizowana w tej rundzie (patrz uwaga w _run o niewiarygodnym odczycie $15.23 identycznym dla CRML i USAR)."
+      "note": "Bez zmian, DODATKOWO POTWIERDZONE dzis (Reuters 28.07): 'rare earth stocks slide as Trump administration backs off critical mineral price floors' - administracja wycofuje sie z price floors, negatywne dla sektora, teza run-i-wyprzedaz wzmocniona. Nie gonic."
     },
     {
       "ticker": "USAR",
       "name": "USA Rare Earth, Inc.",
       "price_usd": 14.06,
       "pct_1m": -22.0,
-      "catalyst": "Trump/DoD - ten sam EO z 20.07.2026 (zaopatrzenie w krytyczne minerały spoza Chin)",
+      "catalyst": "Trump/DoD - ten sam EO 20.07.2026",
       "still_upside": false,
-      "note": "Cena zaktualizowana z wiarygodnego zrodla (zamkniecie 28.07 = $14.06, spojne z poprzednim odczytem $14.93) - 52-tyg. szczyt $43.98 vs teraz $14.06, wzorzec run-i-wyprzedaz kontynuuje sie (nowa tranzycja CEO, bessowe technikalia RSI ~30). Nie gonic."
+      "note": "Bez zmian, patrz uwaga przy CRML - negatywny news sektorowy 28.07 (wycofanie price floors) dodatkowo potwierdza teze run-i-wyprzedaz. Nie gonic. Cena nieodswiezona w tej rundzie."
     },
     {
       "ticker": "UAMY",
       "name": "United States Antimony Corporation",
       "price_usd": 5.36,
       "pct_1m": -15.0,
-      "catalyst": "Trump/DoD - ten sam EO z 20.07.2026 (zaopatrzenie w krytyczne minerały spoza Chin, antymon strategiczny metal obronny)",
+      "catalyst": "Trump/DoD - ten sam EO 20.07.2026",
       "still_upside": false,
-      "note": "Cena zaktualizowana ($5.36, spojna z poprzednim odczytem $5.45) - wzorzec wyprzedazy mimo katalizatora, bez zmian tezy."
+      "note": "Bez zmian, patrz uwaga przy CRML. Cena nieodswiezona w tej rundzie."
     },
     {
       "ticker": "OKLO",
       "name": "Oklo Inc.",
       "price_usd": 38.49,
       "pct_1m": -15.0,
-      "catalyst": "Trump/DOE/Microsoft/Nvidia - $200mln program przyspieszenia reaktorow jadrowych dla AI data centers (21.07.2026), Oklo i X-Energy wybrane jako partnerzy programu",
+      "catalyst": "Trump/DOE/Microsoft/Nvidia - $200mln program przyspieszenia reaktorow jadrowych dla AI data centers (21.07.2026)",
       "still_upside": false,
-      "note": "Cena zaktualizowana (dzis $38.49, +3.9% dziennie, w okolicy wczorajszego $39.90). pct_1m to szacunek - spolka spadla 21.8% w samym czerwcu (obawy o rozwodnienie po $1mld emisji akcji), lipiec czesciowo stabilizuje sie na tezie DOE/Microsoft/Nvidia. Nadal NIE rozgrzana wiec anti-chase nie blokuje. Katalizator ma juz ok. 8 dni - waznosc do zweryfikowania w kolejnych biegach."
+      "note": "Bez zmian - nie rozgrzana, anti-chase nie blokuje, katalizator wciaz aktualny (8 dni). Cena nieodswiezona w tej rundzie."
     }
   ]
 }

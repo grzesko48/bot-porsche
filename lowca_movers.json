@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "ticker": "STKH",
+    "pct": 166.67,
+    "day": "2026-07-28",
+    "presignal": "zmiana ratio ADS 1:4000 -> 1:12000 (Steakholder Foods, izraelska spolka food-tech) ogloszona efektywna od 27.07.2026, dzien przed spike'iem +166.67%; mechanizm identyczny jak reverse split - drastyczne zmniejszenie floatu handlowego dla ADR",
+    "lesson": "sledz ogloszenia zmian ratio ADS (American Depositary Shares) dla zagranicznych micro-cap ADR na NASDAQ - to funkcjonalny odpowiednik reverse split (float contraction) i moze wywolac spekulacyjny spike nastepnej sesji, szczegolnie gdy low-float + brak pokrycia analitykow + retail frenzy; dodac do tego samego wzorca co STI/BGMS (float engineering = pre-sygnal)"
+  },
+  {
+    "ticker": "DFNS",
+    "pct": 42.0,
+    "day": "2026-07-28",
+    "presignal": "T3 Defense: reverse split 1-for-125 efektywny 20.07.2026 (float z 139.8mln do 1.12mln akcji) + akwizycja 60% udzialow w Project35 (counter-drone/aerial interceptor tech) ogloszona przed spike'iem; kurs juz +58.9% dzien wczesniej (27.07), kontynuacja +42% 28.07 - dwudniowy narastajacy squeeze widoczny z gory",
+    "lesson": "reverse split z drastycznym zmniejszeniem floatu (>100x) w micro-cap defense/counter-drone + swieza akwizycja rozszerzajaca dzialalnosc = wielodniowy squeeze mozliwy do zlapania juz pierwszego dnia ruchu (27.07, +58.9%), nie trzeba czekac na dzien drugi; sledz reverse split filings (float redukcja) rownolegle z DoD/defense catalyst stacking jako podwojny wyzwalacz"
+  }
+]
