@@ -1,152 +1,59 @@
 {
-  "_date": "2026-07-29",
-  "_run": "sroda, bieg 18:30 CEST (srodek sesji US, kontynuacja biegu 14:30 tego samego dnia). Krok D bedzie ponownie sprawdzony pod katem swiezosci PLN_*.xlsx na Drive (ostatni znany stan: nadal 2026-06-09, 3 kolejne biegi pominiete) - jesli nadal brak swiezego eksportu, Krok D zostanie pominiety zgodnie z ustalonym precedensem.\n\nKontynuacja tez bez zmian od 14:30 (ceny nieodswiezone w tej rundzie, chyba ze zaznaczono): SCTX, RGTI, ENTX (parabole, nie gonic), WBX, IGC (insider slaby jakosciowo), FMAO (mozliwa reinwestycja dywidendy), SPCX (IPO+congress confluencja, -13.7% od IPO), CRML/USAR/UAMY (run-i-wyprzedaz po EO 20.07 - DZIS POTWIERDZONE newsem Reuters 'rare earth stocks slide as Trump administration backs off critical mineral price floors', 28.07 - dodatkowe potwierdzenie tezy 'nie gonic', teza bez zmian), OKLO (DOE/Microsoft/Nvidia reactor program, nadal wazny).\n\nZAKTUALIZOWANE w tej rundzie: ONDS - cena spadla dalej do $7.65 (z $9.97 w biegu 14:30, wczesniej $8.02 27.07), krotki interes wzrosl do >44% float przed wynikami 11.08 - teza still_upside=true WZMOCNIONA (spolka spada mimo backlogu/guidance FY26 podniesionego, potencjal short squeeze przy wynikach).\n\nNOWE z tej rundy (grupa volume) - DWIE micro-cap parabole z reverse-split/float-contraction, PRZYKLAD wzorca do unikania (NIE kupowac, tylko do nauki): (1) STKH (Steakholder Foods) +166.67% 28.07 (z $1.35 do $3.60, dzis ok. $3.66) po zmianie ratio ADS 1:4000->1:12000 (efektywne 27.07, dzien przed spike'iem) - engineering nizszego floatu jak reverse split; retail frenzy, wielokrotne trading halts. (2) DFNS (T3 Defense) - reverse split 1-for-125 (efektywny 20.07, float z 139.8mln do 1.12mln akcji) + akwizycja 60% Project35 (counter-drone/aerial interceptor) - kurs +58.9% 27.07 i +42% dalej 28.07 (2-dniowy kontynuowany squeeze); UWAGA: zrodla cenowe SPRZECZNE dzis (widziano $13-37 w roznych serwisach jednoczesnie) - cena NIEPEWNA/niewiarygodna, pct_1m szacowany na >100% na podstawie potwierdzonych dziennych ruchow z 2 sesji, obie spolki definitywnie POWYZEJ +50% progu - parabola, nie kupowac.\n\nKROK C retro (wczoraj = 28.07.2026, POGLEBIONA analiza w tej rundzie wzgledem biegu 14:30): znaleziono STKH i DFNS jako prawdziwe jednodniowe movery z identyfikowalnym pre-sygnalem (patrz lowca_movers.json) - to sa realne przeoczenia tego typu wzorca (reverse split/ADS ratio change dzien przed spike'iem), ktorych bieg 14:30 nie zlapal. Rowniez VRCA (+33.28%, $9.13) i ADIL (+27.47%, $6.31) mialy duze ruchy 28.07 ale BEZ jednoznacznego swiezego katalizatora dnia (VRCA: ostatni news to partnerstwo Israel z 21.07, tydzien wczesniej; ADIL: ostatni news to Azora acquisition+PIPE z poczatku lipca) - presygnal NIEZNANY, wymaga dalszego zbadania w kolejnych biegach, nie dopisano jako pewna lekcja.",
+  "_date": "2026-07-30",
+  "_run": "czwartek, automatyczny bieg (skan swiezych okazji dnia). Jedna runda rownoleglych web_search na grupe zgodnie z zasadami. NOWE tickery znalezione w tej rundzie: HYLN, MOBX (grupa contract), RCAT, UMAC (grupa policy), XLAB/BCAR (grupa ipo, de-SPAC tuz przed zamknieciem). Pozostale grupy (insider/fund13f/congress) - brak swiezych, konkretnych sygnalow z cenami w tej rundzie (13F za Q2 2026 dopiero 14.08.2026; OpenInsider/Capitol Trades zwrocily tylko strony ogolne, bez konkretnego swiezego tickera z przekonaniem) - pozostawione puste zamiast zgadywania. Sygnaly z poprzedniego biegu (29.07, 18:30) bez potwierdzenia swiezosci w tej rundzie NIE zostaly przepisane - ten plik zawiera wylacznie to, co potwierdzono DZIS.",
   "ipo": [
     {
-      "ticker": "SCTX",
-      "name": "Scribe Therapeutics",
-      "price_usd": 18.88,
-      "pct_1m": 26.0,
-      "catalyst": "",
+      "ticker": "XLAB",
+      "name": "Exascale Labs Holdings Inc. (obecnie D. Boral ARC Acquisition I Corp., NASDAQ: BCAR)",
+      "price_usd": 10.4,
+      "pct_1m": 2.0,
+      "catalyst": "SPAC merger - shareholder approval uzyskane 29.07.2026, zamkniecie polaczenia 'wkrotce'; po zamknieciu spolka notowana jako XLAB (AI infrastructure/GPU compute). Dodatkowo: $71.4mln 3-letni kontrakt compute z Dimension AI ogloszony 16.07.2026 (kapitalizacja post-merger niewielka, ~$12mln w trust)",
       "still_upside": false,
-      "note": "Bez zmian z biegu 14:30 - debiut 24.07.2026, konsolidacja po pullbacku. Cena nieodswiezona w tej rundzie."
-    },
-    {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies Corp. (SpaceX)",
-      "price_usd": 116.41,
-      "pct_1m": -13.7,
-      "catalyst": "",
-      "still_upside": false,
-      "note": "Bez zmian z biegu 14:30 - debiut 12.06.2026, -13.7% od IPO, nie rozgrzana. Patrz tez grupa congress (klaster kongresmenow). Cena nieodswiezona w tej rundzie."
+      "note": "Jeszcze notowana pod BCAR ($10.39-10.68, blisko wartosci trust), nie rozgrzana - typowy pre-debiut de-SPAC. Sledzic dzien faktycznego przejscia na ticker XLAB (potencjalny IPO-momentum pattern jak MF/rebranding z dziennika lekcji)."
     }
   ],
-  "volume": [
-    {
-      "ticker": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "price_usd": 15.83,
-      "pct_1m": 55.0,
-      "catalyst": "",
-      "still_upside": false,
-      "note": "Bez zmian - parabola po EO Trumpa quantum computing, anti-chase blokuje definitywnie. Cena nieodswiezona."
-    },
-    {
-      "ticker": "ENTX",
-      "name": "Entera Bio Ltd.",
-      "price_usd": 3.87,
-      "pct_1m": 250.0,
-      "catalyst": "",
-      "still_upside": false,
-      "note": "Bez zmian - podrecznikowa parabola po private placement, nie gonic. Cena nieodswiezona."
-    },
-    {
-      "ticker": "STKH",
-      "name": "Steakholder Foods Ltd.",
-      "price_usd": 3.66,
-      "pct_1m": 171.0,
-      "catalyst": "",
-      "still_upside": false,
-      "note": "NOWY, DO NAUKI NIE DO KUPNA. +166.67% w 1 dniu (28.07, $1.35->$3.60) po zmianie ratio ADS 1:4000->1:12000 (float contraction jak reverse split, efektywna 27.07). Retail frenzy, wielokrotne trading halts, 52-tyg. zakres $0.36-$6.97 - ekstremalna zmiennosc niskiego floatu. Definitywnie >+50%, parabola, anti-chase blokuje. Patrz lowca_movers.json."
-    },
-    {
-      "ticker": "DFNS",
-      "name": "T3 Defense Inc.",
-      "price_usd": 24.00,
-      "pct_1m": 130.0,
-      "catalyst": "",
-      "still_upside": false,
-      "note": "NOWY, DO NAUKI NIE DO KUPNA. Reverse split 1-for-125 (efektywny 20.07, float 139.8mln->1.12mln akcji) + akwizycja 60% Project35 (counter-drone) = 2-dniowy squeeze +58.9% (27.07) i +42% dalej (28.07). UWAGA: cena DZIS niepewna - zrodla sprzeczne ($13-37 rownoczesnie), podano wartosc przyblizona $24 (srodek zakresu), pct_1m to szacunek z potwierdzonych dziennych ruchow. Definitywnie >+50%, parabola, anti-chase blokuje. Patrz lowca_movers.json."
-    }
-  ],
+  "volume": [],
   "contract": [
     {
-      "ticker": "ONDS",
-      "name": "Ondas Holdings Inc.",
-      "price_usd": 7.65,
-      "pct_1m": -22.0,
-      "catalyst": "Trump/DoD - $70mln nowych zamowien defense/counter-UAS + akwizycja DZYNE Technologies z podniesionym guidance FY26 (>=$525mln)",
-      "still_upside": true,
-      "upside_reason": "ZAKTUALIZOWANE w tej rundzie - cena spadla dalej do $7.65 (z $9.97 rano, $8.02 27.07) mimo niezmienionego pozytywnego katalizatora (backlog/guidance). Short interest >44% floatu przed wynikami 11.08.2026 - potencjal short squeeze. Needham obnizyl cel do $19 (nadal Buy) - nadal 2x+ obecnej ceny. Spolka jeszcze bardziej niedowartosciowana wzgledem tezy niz rano."
-    }
-  ],
-  "insider": [
-    {
-      "ticker": "WBX",
-      "name": "Wallbox N.V.",
-      "price_usd": 3.60,
-      "pct_1m": -5.0,
-      "catalyst": "",
+      "ticker": "HYLN",
+      "name": "Hyliion Holdings Corp.",
+      "price_usd": 3.29,
+      "pct_1m": -25.5,
+      "catalyst": "Trump/DoD - kontrakt Office of Naval Research (US Navy) $41.7mln (cost-plus-fixed-fee, program HELMUR - jednostki generujace 2-3MW), ogloszony 22.07.2026",
       "still_upside": false,
-      "note": "Bez zmian - obowiazkowa subskrypcja restrukturyzacyjna, sygnal slaby. Cena nieodswiezona."
+      "note": "Kontrakt swiezy (8 dni) i znaczacy wzgledem malej kapitalizacji, ALE spolka spada -25.5% w miesiacu (nie rozgrzana, anti-chase NIE blokuje) - powod: krotkosprzedajacy (Pelican Way Research, 23.06) zakwestionowal niezalezna nie-wiazaca LOI, kancelarie (Johnson Fistel, Pomerantz) prowadza dochodzenia ws. mozliwego naruszenia przepisow. Wynik Q2 dopiero 12.08. Ryzyko podwyzszone - do oceny przez bota z pelnym kontekstem."
     },
     {
-      "ticker": "IGC",
-      "name": "IGC Pharma, Inc.",
-      "price_usd": 0.27,
-      "pct_1m": 0.0,
-      "catalyst": "",
+      "ticker": "MOBX",
+      "name": "Mobix Labs, Inc.",
+      "price_usd": 2.63,
+      "pct_1m": 40.0,
+      "catalyst": "Trump/obronnosc - definitywna umowa akwizycji Vision Aerial (NDAA-compliant drony dla US Air Force/Navy) za ok. $15mln, ogloszona ok. 29-30.07.2026 (eskalacja z wczesniejszego niewiazacego LOI)",
       "still_upside": false,
-      "note": "Bez zmian - konwersja dlugu na equity, sygnal slaby, plaski kurs. Cena nieodswiezona."
+      "note": "Micro-cap NASDAQ, wpisuje sie w segment obronny (drony NDAA-compliant) podnoszony przez administracje Trumpa (critical minerals EO, defense manufacturing push). pct_1m to szacunek (dane sprzeczne w zrodlach) - ok. +40% w miesiacu, powyzej progu 25% ale ponizej 50% - bot powinien dac 'czekaj na cofniecie' bez furtki (brak mocnych przeslanek na dalszy wzrost ponad juz wyceniona akwizycje)."
     }
   ],
+  "insider": [],
   "fund13f": [],
-  "congress": [
-    {
-      "ticker": "FMAO",
-      "name": "Farmers & Merchants Bancorp, Inc.",
-      "price_usd": 29.81,
-      "pct_1m": 7.0,
-      "catalyst": "",
-      "still_upside": false,
-      "note": "Bez zmian - mozliwa reinwestycja dywidendy, nie swiezy zakup z przekonania. Cena nieodswiezona."
-    },
-    {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies Corp. (SpaceX)",
-      "price_usd": 116.41,
-      "pct_1m": -13.7,
-      "catalyst": "",
-      "still_upside": false,
-      "note": "Bez zmian - klaster 6 kongresmenow kupil w ciagu 6 dni od IPO, w tym Timmons z nadzorem nad Pentagonem. Patrz tez grupa ipo. Cena nieodswiezona."
-    }
-  ],
+  "congress": [],
   "policy": [
     {
-      "ticker": "CRML",
-      "name": "Critical Metals Corp.",
-      "price_usd": 6.02,
-      "pct_1m": -22.0,
-      "catalyst": "Trump/DoD - EO 20.07.2026 ws. krytycznych mineralow z Chin",
-      "still_upside": false,
-      "note": "Bez zmian, DODATKOWO POTWIERDZONE dzis (Reuters 28.07): 'rare earth stocks slide as Trump administration backs off critical mineral price floors' - administracja wycofuje sie z price floors, negatywne dla sektora, teza run-i-wyprzedaz wzmocniona. Nie gonic."
+      "ticker": "RCAT",
+      "name": "Red Cat Holdings, Inc.",
+      "price_usd": 7.86,
+      "pct_1m": -26.0,
+      "catalyst": "Trump/Pentagon - rozwazane objecie udzialow kapitalowych rzadu w ramach programu 'Drone Dominance' ($1.1mld), decyzja jeszcze NIE zapadla (talks in progress)",
+      "still_upside": true,
+      "upside_reason": "Katalizator (rzadowe equity stake) jeszcze nierozstrzygniety - dopiero na etapie rozmow, nie faktu dokonanego; spolka spadla -26% w miesiacu (China export curbs + insider sale w tym okresie zbily kurs), wiec wejscie byloby PRZED ewentualnym pozytywnym rozstrzygnieciem, nie pogonia za juz zaksiegowanym zyskiem."
     },
     {
-      "ticker": "USAR",
-      "name": "USA Rare Earth, Inc.",
-      "price_usd": 14.06,
-      "pct_1m": -22.0,
-      "catalyst": "Trump/DoD - ten sam EO 20.07.2026",
+      "ticker": "UMAC",
+      "name": "Unusual Machines, Inc.",
+      "price_usd": 19.92,
+      "pct_1m": 25.0,
+      "catalyst": "Trump/Pentagon - ten sam program 'Drone Dominance' $1.1mld (rozwazane finansowanie/equity stake); Donald Trump Jr. w radzie doradczej i akcjonariusz spolki",
       "still_upside": false,
-      "note": "Bez zmian, patrz uwaga przy CRML - negatywny news sektorowy 28.07 (wycofanie price floors) dodatkowo potwierdza teze run-i-wyprzedaz. Nie gonic. Cena nieodswiezona w tej rundzie."
-    },
-    {
-      "ticker": "UAMY",
-      "name": "United States Antimony Corporation",
-      "price_usd": 5.36,
-      "pct_1m": -15.0,
-      "catalyst": "Trump/DoD - ten sam EO 20.07.2026",
-      "still_upside": false,
-      "note": "Bez zmian, patrz uwaga przy CRML. Cena nieodswiezona w tej rundzie."
-    },
-    {
-      "ticker": "OKLO",
-      "name": "Oklo Inc.",
-      "price_usd": 38.49,
-      "pct_1m": -15.0,
-      "catalyst": "Trump/DOE/Microsoft/Nvidia - $200mln program przyspieszenia reaktorow jadrowych dla AI data centers (21.07.2026)",
-      "still_upside": false,
-      "note": "Bez zmian - nie rozgrzana, anti-chase nie blokuje, katalizator wciaz aktualny (8 dni). Cena nieodswiezona w tej rundzie."
+      "note": "pct_1m to szacunek ostrozny (dane historyczne niepelne w tej rundzie) - kurs stabilizuje sie w okolicach $19-20 od kilku sesji po duzym ruchu z konca maja (+57% w dniu ogloszenia programu, poza oknem 1m). Na granicy progu 25% - bez furtki, niech bot zdecyduje na podstawie wlasnych danych cenowych."
     }
   ]
 }
