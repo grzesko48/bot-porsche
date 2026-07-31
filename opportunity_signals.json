@@ -1,36 +1,52 @@
 {
-  "_date": "2026-07-30",
-  "_run": "czwartek, automatyczny bieg (skan swiezych okazji dnia). Jedna runda rownoleglych web_search na grupe zgodnie z zasadami. NOWE tickery znalezione w tej rundzie: HYLN, MOBX (grupa contract), RCAT, UMAC (grupa policy), XLAB/BCAR (grupa ipo, de-SPAC tuz przed zamknieciem). Pozostale grupy (insider/fund13f/congress) - brak swiezych, konkretnych sygnalow z cenami w tej rundzie (13F za Q2 2026 dopiero 14.08.2026; OpenInsider/Capitol Trades zwrocily tylko strony ogolne, bez konkretnego swiezego tickera z przekonaniem) - pozostawione puste zamiast zgadywania. Sygnaly z poprzedniego biegu (29.07, 18:30) bez potwierdzenia swiezosci w tej rundzie NIE zostaly przepisane - ten plik zawiera wylacznie to, co potwierdzono DZIS.",
+  "_date": "2026-07-31",
+  "_run": "piatek, przedotwarciowy bieg 14:30 CEST. Jedna runda rownoleglych web_search na grupe. NOWE tickery znalezione w tej rundzie: APMD (grupa ipo, debiut dzisiaj), CYCU/KUST (grupa volume + CYCU tez contract, ale JUZ silnie rozgrzane/paraboliczne - wpisane dla kompletnosci, nie do pogoni), VVX (grupa contract, swiezy kontrakt DoD dzis), UAMY/MP (grupa policy, executive order ws. surowcow krytycznych z 24.07). Grupy insider/fund13f/congress - brak swiezych, konkretnych sygnalow z przekonujaca wartoscia w tej rundzie (Q2 13F dopiero 14.08.2026; OpenInsider cluster buys zwrocily tylko drobne pozycje <$1.7mln w bankach/duzych spolkach, Capitol Trades bez konkretnych swiezych transakcji z ta runda) - pozostawione puste zamiast zgadywania.",
   "ipo": [
     {
-      "ticker": "XLAB",
-      "name": "Exascale Labs Holdings Inc. (obecnie D. Boral ARC Acquisition I Corp., NASDAQ: BCAR)",
-      "price_usd": 10.4,
-      "pct_1m": 2.0,
-      "catalyst": "SPAC merger - shareholder approval uzyskane 29.07.2026, zamkniecie polaczenia 'wkrotce'; po zamknieciu spolka notowana jako XLAB (AI infrastructure/GPU compute). Dodatkowo: $71.4mln 3-letni kontrakt compute z Dimension AI ogloszony 16.07.2026 (kapitalizacja post-merger niewielka, ~$12mln w trust)",
-      "still_upside": false,
-      "note": "Jeszcze notowana pod BCAR ($10.39-10.68, blisko wartosci trust), nie rozgrzana - typowy pre-debiut de-SPAC. Sledzic dzien faktycznego przejscia na ticker XLAB (potencjalny IPO-momentum pattern jak MF/rebranding z dziennika lekcji)."
+      "ticker": "APMD",
+      "name": "Apnimed, Inc.",
+      "price_usd": 16.0,
+      "pct_1m": 0.0,
+      "note": "Swiezy debiut na Nasdaq Global Select 31.07.2026 (dzisiaj), upsized IPO 12mln akcji po $16, $192mln wplywow. Lead product AD109 (oral therapy na obturacyjny bezdech senny) po 2 zakonczonych badaniach Fazy 3. Brak jeszcze historii notowan - pct_1m=0, cena to cena emisyjna; kurs otwarcia moze odbiegac."
     }
   ],
-  "volume": [],
-  "contract": [
+  "volume": [
     {
-      "ticker": "HYLN",
-      "name": "Hyliion Holdings Corp.",
-      "price_usd": 3.29,
-      "pct_1m": -25.5,
-      "catalyst": "Trump/DoD - kontrakt Office of Naval Research (US Navy) $41.7mln (cost-plus-fixed-fee, program HELMUR - jednostki generujace 2-3MW), ogloszony 22.07.2026",
+      "ticker": "CYCU",
+      "name": "Cycurion, Inc.",
+      "price_usd": 1.61,
+      "pct_1m": 500.0,
+      "catalyst": "10-letni kontrakt cyberbezpieczenstwo ($54.6mln, >$5mln rocznie) z partnerstwa z globalna firma doradcza top-5, ogloszony 30.07.2026",
       "still_upside": false,
-      "note": "Kontrakt swiezy (8 dni) i znaczacy wzgledem malej kapitalizacji, ALE spolka spada -25.5% w miesiacu (nie rozgrzana, anti-chase NIE blokuje) - powod: krotkosprzedajacy (Pelican Way Research, 23.06) zakwestionowal niezalezna nie-wiazaca LOI, kancelarie (Johnson Fistel, Pomerantz) prowadza dochodzenia ws. mozliwego naruszenia przepisow. Wynik Q2 dopiero 12.08. Ryzyko podwyzszone - do oceny przez bota z pelnym kontekstem."
+      "note": "Wolumen 443mln akcji vs srednia 1.16mln (>380x normy), ale kurs juz +496% jednego dnia (30.07) po wczesniejszym +410%. Skrajnie paraboliczne - lekcja LEGN/BCDA: UNIKAC, nie gonic. Wpisane dla kompletnosci/widocznosci, bot i tak zablokuje (>>+50%)."
     },
     {
-      "ticker": "MOBX",
-      "name": "Mobix Labs, Inc.",
-      "price_usd": 2.63,
-      "pct_1m": 40.0,
-      "catalyst": "Trump/obronnosc - definitywna umowa akwizycji Vision Aerial (NDAA-compliant drony dla US Air Force/Navy) za ok. $15mln, ogloszona ok. 29-30.07.2026 (eskalacja z wczesniejszego niewiazacego LOI)",
+      "ticker": "KUST",
+      "name": "Kustom Entertainment, Inc.",
+      "price_usd": 1.68,
+      "pct_1m": 70.0,
       "still_upside": false,
-      "note": "Micro-cap NASDAQ, wpisuje sie w segment obronny (drony NDAA-compliant) podnoszony przez administracje Trumpa (critical minerals EO, defense manufacturing push). pct_1m to szacunek (dane sprzeczne w zrodlach) - ok. +40% w miesiacu, powyzej progu 25% ale ponizej 50% - bot powinien dac 'czekaj na cofniecie' bez furtki (brak mocnych przeslanek na dalszy wzrost ponad juz wyceniona akwizycje)."
+      "note": "Krotki interes 50.6% floatu; +42% premarket dzis (31.07) po aneksie umowy z Cycurion (CYCU) podnoszacym wycene do $6.1mln + $250k cash + zamiana warrantow na uprzywilejowane akcje. pct_1m to szacunek (silny ruch skumulowany w ostatnim tygodniu) - juz rozgrzane, nie gonic."
+    }
+  ],
+  "contract": [
+    {
+      "ticker": "VVX",
+      "name": "V2X, Inc.",
+      "price_usd": 86.75,
+      "pct_1m": 19.0,
+      "catalyst": "Trump/DoD - kontrakt IDIQ $4.32mld (10 lat, obsluga/utrzymanie floty samolotow szkoleniowych T-6) ogloszony 31.07.2026 (dzisiaj) vs kapitalizacja $2.72mld (~159% kapitalizacji)",
+      "still_upside": false,
+      "note": "Kontrakt swiezy (<48h) i bardzo duzy wzgledem kapitalizacji - mocna konfluencja rzadowa. pct_1m to szacunek na podstawie niedawnego dolka ~$73 (poczatek lipca) do biezacych $86.75. Ponizej progu 25%, wiec bez potrzeby furtki."
+    },
+    {
+      "ticker": "CYCU",
+      "name": "Cycurion, Inc.",
+      "price_usd": 1.61,
+      "pct_1m": 500.0,
+      "catalyst": "10-letni kontrakt cyberbezpieczenstwo ($54.6mln) z partnerstwa z globalna firma doradcza top-5, ogloszony 30.07.2026",
+      "still_upside": false,
+      "note": "Duplikat z grupy volume dla konfluencji. Kontrakt realny, ale kurs juz w pelni/nadmiernie odzwierciedla news (+496% w 1 dzien) - anti-chase powinien zablokowac."
     }
   ],
   "insider": [],
@@ -38,22 +54,22 @@
   "congress": [],
   "policy": [
     {
-      "ticker": "RCAT",
-      "name": "Red Cat Holdings, Inc.",
-      "price_usd": 7.86,
-      "pct_1m": -26.0,
-      "catalyst": "Trump/Pentagon - rozwazane objecie udzialow kapitalowych rzadu w ramach programu 'Drone Dominance' ($1.1mld), decyzja jeszcze NIE zapadla (talks in progress)",
-      "still_upside": true,
-      "upside_reason": "Katalizator (rzadowe equity stake) jeszcze nierozstrzygniety - dopiero na etapie rozmow, nie faktu dokonanego; spolka spadla -26% w miesiacu (China export curbs + insider sale w tym okresie zbily kurs), wiec wejscie byloby PRZED ewentualnym pozytywnym rozstrzygnieciem, nie pogonia za juz zaksiegowanym zyskiem."
+      "ticker": "UAMY",
+      "name": "United States Antimony Corporation",
+      "price_usd": 5.22,
+      "pct_1m": 15.0,
+      "catalyst": "Trump executive order (24.07.2026) - zaostrzenie regul waiver dla surowcow krytycznych z Chin, wzmocnienie krajowego lancucha dostaw obronnego (antymon kluczowy surowiec obronny)",
+      "still_upside": false,
+      "note": "+6.3% dzis na fali newsa. pct_1m to szacunek ostrozny (brak precyzyjnych danych historycznych w tej rundzie) - ponizej progu 25%, bez potrzeby furtki. Mala kapitalizacja $805mln, plynne, czesc szerszego tematu critical minerals (razem z CRML/MP/USAR, ktore pominieto - w trendzie spadkowym w tym tygodniu)."
     },
     {
-      "ticker": "UMAC",
-      "name": "Unusual Machines, Inc.",
-      "price_usd": 19.92,
-      "pct_1m": 25.0,
-      "catalyst": "Trump/Pentagon - ten sam program 'Drone Dominance' $1.1mld (rozwazane finansowanie/equity stake); Donald Trump Jr. w radzie doradczej i akcjonariusz spolki",
+      "ticker": "MP",
+      "name": "MP Materials Corp.",
+      "price_usd": 41.66,
+      "pct_1m": -5.0,
+      "catalyst": "Trump executive order (24.07.2026) - zaostrzenie regul waiver dla surowcow krytycznych z Chin, wzmocnienie krajowego lancucha dostaw pierwiastkow ziem rzadkich",
       "still_upside": false,
-      "note": "pct_1m to szacunek ostrozny (dane historyczne niepelne w tej rundzie) - kurs stabilizuje sie w okolicach $19-20 od kilku sesji po duzym ruchu z konca maja (+57% w dniu ogloszenia programu, poza oknem 1m). Na granicy progu 25% - bez furtki, niech bot zdecyduje na podstawie wlasnych danych cenowych."
+      "note": "+9.3% dzis, ale wciaz znaczaco ponizej 52-tyg. maksimum ($100.25) po spadku w ostatnim tygodniu (-8.6%) - pct_1m szacunkowo lekko ujemny/plaski, NIE rozgrzane pomimo duzej kapitalizacji ($6.78mld, wieksza niz typowy profil bota, do oceny)."
     }
   ]
 }

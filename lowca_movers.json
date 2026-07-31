@@ -5,5 +5,19 @@
     "day": "2026-07-29",
     "presignal": "Trzeci kwartal z rzedu rekordowych bookings + przyspieszenie q/q top-line + wieksze niz zwykle przebicie subskrypcji cloud + podniesiony outlook na caly rok - trend przyspieszajacych wynikow byl widoczny juz w 2 poprzednich kwartalach przed samym ogloszeniem",
     "lesson": "Sledz spolki software/enterprise z 2+ kwartalami z rzedu przyspieszajacego wzrostu bookings/guidance raise (trend, nie jednorazowy beat) - seria pozytywnych zaskoczen zwieksza prawdopodobienstwo kolejnego duzego beat przy nastepnych wynikach; rozwazyc monitoring unusual options activity (call OI, put/call ratio) w tygodniu przed earnings jako mierzalny pre-sygnal (analogicznie do wzorca LVWR juz w dzienniku) - mega/mid-cap earnings beat to jednak niska-priorytetowa kategoria (poza typowym sleeve spekulacyjnym bota, ryzyko/nagroda inne niz small/micro-cap)"
+  },
+  {
+    "ticker": "CYCU",
+    "pct": 399.6,
+    "day": "2026-07-30",
+    "presignal": "BRAK realnego pre-sygnalu z wyprzedzeniem - $54.6mln 10-letni kontrakt cyberbezpieczenstwo (partnerstwo z globalna firma doradcza top-5) ogloszony rano tego samego dnia, natychmiastowa reakcja rynku (+410% czwartek, kolejne +37-40% piatek); wolumen 443mln vs srednia 1.16mln (>380x)",
+    "lesson": "Duze kontrakty B2B (wartosc >>10x roczny przychod spolki) ogloszone rano w cyberbezpieczenstwie/micro-cap moga dac >400% jednego dnia bez realnego okna wejscia przed ruchem - jedyna mozliwa obrona to niestandardowa aktywnosc wolumenu/opcji dzien wczesniej (do zweryfikowania w kolejnych rundach), poza tym pozostaje poza edge'em przedotwarciowego skanu"
+  },
+  {
+    "ticker": "PN",
+    "pct": 67.8,
+    "day": "2026-07-30",
+    "presignal": "Czyste wybicie wolumenowe BEZ zidentyfikowanego newsa/katalizatora, zaczete juz 24.07.2026 (6 dni wczesniej) - kurs z ok. $4 do $10 na spiku wolumenu/zmiennosci ('textbook momentum play'), kontynuacja do $17.99 30.07.2026; solar/clean energy micro-cap (przychod ~$63mln, P/S 0.38, P/B 0.96)",
+    "lesson": "Czyste momentum-wolumenowe wybicia bez identyfikowalnego newsa w small-cap solar/clean energy moga kontynuowac sie przez wiele dni/tygodni (analogicznie do wielosesyjnej kontynuacji post-earnings LVWR) - warto wpisywac na radar wolumenowy sam fakt utrzymujacego sie ponadnormatywnego wolumenu, bez wymogu identyfikowalnego katalizatora newsowego"
   }
 ]
