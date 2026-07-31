@@ -1,6 +1,6 @@
 {
   "_date": "2026-07-31",
-  "_run": "piatek, przedotwarciowy bieg 14:30 CEST. Jedna runda rownoleglych web_search na grupe. NOWE tickery znalezione w tej rundzie: APMD (grupa ipo, debiut dzisiaj), CYCU/KUST (grupa volume + CYCU tez contract, ale JUZ silnie rozgrzane/paraboliczne - wpisane dla kompletnosci, nie do pogoni), VVX (grupa contract, swiezy kontrakt DoD dzis), UAMY/MP (grupa policy, executive order ws. surowcow krytycznych z 24.07). Grupy insider/fund13f/congress - brak swiezych, konkretnych sygnalow z przekonujaca wartoscia w tej rundzie (Q2 13F dopiero 14.08.2026; OpenInsider cluster buys zwrocily tylko drobne pozycje <$1.7mln w bankach/duzych spolkach, Capitol Trades bez konkretnych swiezych transakcji z ta runda) - pozostawione puste zamiast zgadywania.",
+  "_run": "piatek, srodsesyjny bieg 18:30 CEST (uzupelnienie biegu 14:30). Jedna dodatkowa runda rownoleglych web_search na grupe, szukajac swiezych katalizatorow ktore pojawily sie w trakcie sesji US. NOWY tycker: REPL (Replimune) - grupa volume, FDA advisory committee 10-3 na korzysc RP1 w czerniaku 30.07, PDUFA (target FDA) 02.08.2026 - realny drugi katalizator (decyzja FDA) wciaz przed nami, ale kurs juz +93.7% W JEDNYM DNIU (30-31.07) - ponad prog +50% (parabola), bot i tak zablokuje kupno dzisiaj niezaleznie od furtki. Pozostale z biegu 14:30 (APMD, CYCU, KUST, VVX, UAMY, MP) pozostaja aktualne (<48h) - przepisane bez zmian. Sprawdzono tez nowe mikro-cap pumpy dnia (FCUV +560%, FMFC +356%, WETO +200%, MGRX +121%, NWGL +55%) - pominiete jako zbyt plytkie/spekulacyjne bez realnego, wieloetapowego katalizatora (typowe jednodniowe pump'y na skrajnie niskiej kapitalizacji <$20mln, analogiczne do juz opisanej lekcji CYCU/LEGN/BCDA - do obserwacji, nie do zapisu). Insider/fund13f/congress: brak nowych, konkretnych sygnalow z przekonujaca wartoscia (13F z 30.06 dot. duzych spolek jak HON - poza typowym sleeve; OpenInsider/Capitol Trades bez dostepu do konkretnych swiezych wpisow w tej rundzie) - pozostawione puste.",
   "ipo": [
     {
       "ticker": "APMD",
@@ -11,6 +11,15 @@
     }
   ],
   "volume": [
+    {
+      "ticker": "REPL",
+      "name": "Replimune Group, Inc.",
+      "price_usd": 10.48,
+      "pct_1m": 90.0,
+      "catalyst": "FDA Cellular, Tissue and Gene Therapies Advisory Committee zaglosowal 10-3 na korzysc efficacy RP1 (vusolimogene oderparepvec) + nivolumab w zaawansowanym czerniaku (30.07.2026); FDA target action date (PDUFA) pod resubmisja klasy 1 to 02.08.2026 - decyzja FDA wciaz przed nami",
+      "still_upside": false,
+      "note": "Trzecie podejscie do BLA (dwukrotnie odrzucone wczesniej) - panel doradczy poparl dane z badania IGNYTE (ORR ok. 33.6%, mediana odpowiedzi 24.8 mies.). Kurs +93.7% W JEDNYM DNIU (30-31.07, z ok. $5.41 do $10.48) - PONAD prog +50% (parabola), bot i tak zablokuje kupno mimo prawdziwego, wciaz otwartego drugiego katalizatora (formalna decyzja FDA za ~3 dni). Wpisane dla kompletnosci/uczenia (wzorzec: pozytywny panel doradczy juz w duzej mierze wycenia oczekiwana aprobate, realne ryzyko/nagroda przesuwa sie na sama decyzje FDA, ktora moze isc w obie strony)."
+    },
     {
       "ticker": "CYCU",
       "name": "Cycurion, Inc.",
