@@ -1,16 +1,16 @@
 {
   "_date": "2026-08-03",
-  "_run": "poniedzialek, bieg przed-otwarciowy/srodsesyjny. Jedna runda rownoleglych web_search na grupe. Rynkowe: brak swiezego, przekonujacego IPO z realnym momentum w tym tygodniu (kalendarz US IPO na tydzien 3-9.08 bez konkretnych, potwierdzonych nazw z cena) - ipo puste. Wolumen/pump: DFNS (T3 Defense) i BIYA (Baiya International) - oba po reverse split, ekstremalna zmiennosc (DFNS: -67% w jeden dzien 31.07 po wielokrotnych trading halts, +37% premarket dzis; BIYA: z <$1 do $9.89 intraday i z powrotem do $3-4) - klasyczny wzorzec pump/reverse-split z lekcji STI/LEGN/BCDA, DALEKO ponad prog +50% (parabola) - wpisane dla kompletnosci/nauki, bot i tak zablokuje. Kontrakt/polityka: INFQ (Infleqtion) - realny, swiezy rzadowy katalizator (3 projekty DOE w ramach Genesis Mission, ogloszenie ekspansji misji na $5mld z udzialem DOD/NASA/NSF), NIE rozgrzany (pct_1m ~+2%), plus swiezy analyst initiation (Wedbush Outperform, cel $20 vs biezace $9.83 - ~2x) - najciekawszy kandydat tej rundy. Insider/fund13f/congress: bez konkretnych, swiezych, przekonujacych trafien z realna wartoscia dla profilu bota (kongresmeni kupujacy SPCX/SpaceX to duzy cap, IPO sprzed ~7 tyg., poza sleeve; insider cluster buys z tej rundy dotyczyly duzych/mid-cap value spolek (MasterBrand, Investar, Mission Produce) bez katalizatora momentum) - pozostawione puste.",
+  "_run": "poniedzialek, bieg srodsesyjny (18:30 CEST). Odswiezona runda rownoleglych web_search - ten sam obraz co bieg 14:30, ceny zaktualizowane mid-session. Rynkowe: brak nowego, przekonujacego IPO z momentum (Swarmer/SWMR mialo duzy pop, ale IPO z marca 2026 - PRZED startem bota 28.05, pomijam zgodnie z zasada). Wolumen: DFNS (T3 Defense) kontynuuje ekstremalna zmiennosc post-reverse-split (dzis w przedziale $25.60-$39.50, +51.2% na dzien, obecnie $34.00) - dalej far ponad prog +50% (parabola), bot i tak zablokuje, wpisane dla nauki/kompletnosci. BIYA bez nowych danych mid-session - pozostawione z porannym stanem. Nowy kontrakt: T1 Energy (TE) podpisalo dzis rano umowe na dostawe 641MW modulow solarnych dla Clearway Energy - realny swiezy kontrakt (<48h), ALE wartosc $ nieujawniona (nie mozna potwierdzic progu >=50% kapitalizacji $1.04mld) i akcja spada dzis -2.34% mimo newsa (brak konwiktcji rynku) - pominiete jako niewystarczajaco potwierdzone. Kontrakt/polityka: INFQ (Infleqtion) - ten sam katalizator co rano (Genesis Mission DOE/DOD/NASA, Wedbush initiation $20 cel), cena mid-session $9.72 (~plasko wzgledem porannych $9.83), wciaz NIE rozgrzany, wciaz najciekawszy kandydat. Insider/fund13f/congress: bez nowych, konkretnych trafien - Q2 13F jeszcze nie splynely (termin ok. 14.08), kongresmen Thanedar kupil MSTR (duzy cap, poza profilem), brak swiezych klastrow insiderow w small/mid-cap z katalizatorem - pozostawione puste.",
   "ipo": [],
   "volume": [
     {
       "ticker": "DFNS",
       "name": "T3 Defense, Inc.",
-      "price_usd": 38.00,
-      "pct_1m": 400.0,
-      "catalyst": "60% udzial w Project35 (counter-drone/aerial interceptor tech) + dostawa linii produkcyjnej kompozytow dla duzego izraelskiego producenta + kontrakt na oswietlenie obronne $1.1mln",
+      "price_usd": 34.00,
+      "pct_1m": 450.0,
+      "catalyst": "60% udzial w Project35 (counter-drone/aerial interceptor tech) + kontrakty na kompozyty i oswietlenie obronne",
       "still_upside": false,
-      "note": "Reverse split 1-for-125 (16.07.2026) zredukowal akcje z ~81.3mln do ~650.6tys. -67.4% w jeden dzien (31.07, wielokrotne trading halts), +37.3% premarket dzis (03.08) do $38. Ekstremalnie paraboliczne, whipsaw - wzorzec identyczny z lekcji LEGN/BCDA/STI: mala plynnosc po reverse split + spekulacyjny wolumen = unikac, nie gonic. Realne kontrakty istnieja, ale cena juz w pelni (i nadmiernie) je odzwierciedla."
+      "note": "Reverse split 1-for-125 (16.07.2026). Dzis (03.08, srodsesyjnie) zakres $25.60-$39.50, +51.2% na dzien, obecnie $34.00 - kontynuacja whipsaw z rana (premarket +37% do $38). Ekstremalnie paraboliczne, wzorzec identyczny z lekcji LEGN/BCDA/STI - unikac, nie gonic."
     },
     {
       "ticker": "BIYA",
@@ -18,18 +18,18 @@
       "price_usd": 4.00,
       "pct_1m": 300.0,
       "still_upside": false,
-      "note": "Reverse split 1-for-10 (lipiec 2026). Z <$1 do intraday high $9.89, kolaps z powrotem do $3-4. Chinska spolka HR-tech (cloud platform), brak realnego katalizatora biznesowego - czysty spekulacyjny pump na niskim floacie po reverse split. Wzorzec do unikania, nie gonienia."
+      "note": "Bez nowych danych mid-session (stan z rana): reverse split 1-for-10 (lipiec 2026), z <$1 do intraday high $9.89, kolaps z powrotem do $3-4. Brak realnego katalizatora biznesowego - czysty spekulacyjny pump. Wzorzec do unikania, nie gonienia."
     }
   ],
   "contract": [
     {
       "ticker": "INFQ",
       "name": "Infleqtion, Inc.",
-      "price_usd": 9.83,
+      "price_usd": 9.72,
       "pct_1m": 2.0,
-      "catalyst": "Trump/DOE - 3 projekty badawcze przyznane w ramach ekspansji Genesis Mission ($5mld, DOE+DOD+NASA+NSF+HHS+Interior+Transportation) na neutral-atom quantum computing/sensing, ogloszone na Genesis Mission 2026 Summit",
+      "catalyst": "Trump/DOE - 3 projekty badawcze w ramach ekspansji Genesis Mission ($5mld, DOE+DOD+NASA+NSF) na neutral-atom quantum computing/sensing",
       "still_upside": false,
-      "note": "NIE rozgrzany (pct_1m ~+2%, dzis -1.5%) - ponizej progu, bez potrzeby furtki. Swiezy analyst initiation: Wedbush Outperform, cel $20 (~2x biezacej ceny $9.83). Q2 2026 earnings 12.08.2026 - kolejny katalizator przed nami. Kapitalizacja $2.78mld, IPO luty 2026 (nie 'swiezy' IPO wg progu <=18mies ale wciaz mlody debiut)."
+      "note": "Bez zmian wzgledem porannego sygnalu - NIE rozgrzany (pct_1m ~+2%), Wedbush Outperform cel $20 (~2x), Q2 earnings 12.08.2026 jako kolejny katalizator. Kapitalizacja ~$2.3-2.8mld."
     }
   ],
   "insider": [],
@@ -39,11 +39,11 @@
     {
       "ticker": "INFQ",
       "name": "Infleqtion, Inc.",
-      "price_usd": 9.83,
+      "price_usd": 9.72,
       "pct_1m": 2.0,
-      "catalyst": "Trump administration Genesis Mission (DOE-led, $5mld) - AI/quantum/HPC narodowa inicjatywa, Infleqtion jeden z trzech nazwanych beneficjentow (obok HPE, Wiley) w ogloszeniu ekspansji",
+      "catalyst": "Trump administration Genesis Mission (DOE-led, $5mld) - Infleqtion jeden z nazwanych beneficjentow",
       "still_upside": false,
-      "note": "Duplikat z grupy contract dla konfluencji polityka+kontrakt. Nie rozgrzany, realny rzadowy katalizator + otwarty katalizator analityczny (Wedbush $20 cel) + earnings 12.08."
+      "note": "Duplikat z grupy contract dla konfluencji polityka+kontrakt."
     }
   ]
 }
