@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "ticker": "AXTI",
+    "pct": 26.94,
+    "day": "2026-07-31",
+    "presignal": "8-K z 29.07.2026 (2 dni wczesniej): definitywna umowa dlugoterminowa z Lumentum na dostawy indium phosphide wafers do 2031, z dwoma zaliczkami po $43.5mln ($87mln lacznie) - kwota bardzo duza wzgledem malej kapitalizacji AXT; nastepnego dnia (30.07) wyniki Q2 mocno pobily oczekiwania (EPS $0.19 vs $0.07, przychody $47.6mln vs $34.1mln) + podniesiony guidance Q3; kurs +26.94% w piatek 31.07",
+    "lesson": "Sledz 8-K material supplier/capacity-reservation agreements w small/mid-cap materials/semiconductor suppliers (np. wafer/substrate producenci) zlozone 1-2 dni przed zaplanowanymi wynikami kwartalnymi - duza zaliczka gotowkowa vs kapitalizacja to sygnal, ze nadchodzace wyniki i guidance moga mocno zaskoczyc w gore; polaczenie 'swiezy duzy kontrakt tuz przed earnings' to wzorzec do dodania obok istniejacych (DoD qualifier, BCA merger, warrant repricing)"
+  }
+]

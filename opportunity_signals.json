@@ -1,61 +1,35 @@
 {
-  "_date": "2026-07-31",
-  "_run": "piatek, srodsesyjny bieg 18:30 CEST (uzupelnienie biegu 14:30). Jedna dodatkowa runda rownoleglych web_search na grupe, szukajac swiezych katalizatorow ktore pojawily sie w trakcie sesji US. NOWY tycker: REPL (Replimune) - grupa volume, FDA advisory committee 10-3 na korzysc RP1 w czerniaku 30.07, PDUFA (target FDA) 02.08.2026 - realny drugi katalizator (decyzja FDA) wciaz przed nami, ale kurs juz +93.7% W JEDNYM DNIU (30-31.07) - ponad prog +50% (parabola), bot i tak zablokuje kupno dzisiaj niezaleznie od furtki. Pozostale z biegu 14:30 (APMD, CYCU, KUST, VVX, UAMY, MP) pozostaja aktualne (<48h) - przepisane bez zmian. Sprawdzono tez nowe mikro-cap pumpy dnia (FCUV +560%, FMFC +356%, WETO +200%, MGRX +121%, NWGL +55%) - pominiete jako zbyt plytkie/spekulacyjne bez realnego, wieloetapowego katalizatora (typowe jednodniowe pump'y na skrajnie niskiej kapitalizacji <$20mln, analogiczne do juz opisanej lekcji CYCU/LEGN/BCDA - do obserwacji, nie do zapisu). Insider/fund13f/congress: brak nowych, konkretnych sygnalow z przekonujaca wartoscia (13F z 30.06 dot. duzych spolek jak HON - poza typowym sleeve; OpenInsider/Capitol Trades bez dostepu do konkretnych swiezych wpisow w tej rundzie) - pozostawione puste.",
-  "ipo": [
-    {
-      "ticker": "APMD",
-      "name": "Apnimed, Inc.",
-      "price_usd": 16.0,
-      "pct_1m": 0.0,
-      "note": "Swiezy debiut na Nasdaq Global Select 31.07.2026 (dzisiaj), upsized IPO 12mln akcji po $16, $192mln wplywow. Lead product AD109 (oral therapy na obturacyjny bezdech senny) po 2 zakonczonych badaniach Fazy 3. Brak jeszcze historii notowan - pct_1m=0, cena to cena emisyjna; kurs otwarcia moze odbiegac."
-    }
-  ],
+  "_date": "2026-08-03",
+  "_run": "poniedzialek, bieg przed-otwarciowy/srodsesyjny. Jedna runda rownoleglych web_search na grupe. Rynkowe: brak swiezego, przekonujacego IPO z realnym momentum w tym tygodniu (kalendarz US IPO na tydzien 3-9.08 bez konkretnych, potwierdzonych nazw z cena) - ipo puste. Wolumen/pump: DFNS (T3 Defense) i BIYA (Baiya International) - oba po reverse split, ekstremalna zmiennosc (DFNS: -67% w jeden dzien 31.07 po wielokrotnych trading halts, +37% premarket dzis; BIYA: z <$1 do $9.89 intraday i z powrotem do $3-4) - klasyczny wzorzec pump/reverse-split z lekcji STI/LEGN/BCDA, DALEKO ponad prog +50% (parabola) - wpisane dla kompletnosci/nauki, bot i tak zablokuje. Kontrakt/polityka: INFQ (Infleqtion) - realny, swiezy rzadowy katalizator (3 projekty DOE w ramach Genesis Mission, ogloszenie ekspansji misji na $5mld z udzialem DOD/NASA/NSF), NIE rozgrzany (pct_1m ~+2%), plus swiezy analyst initiation (Wedbush Outperform, cel $20 vs biezace $9.83 - ~2x) - najciekawszy kandydat tej rundy. Insider/fund13f/congress: bez konkretnych, swiezych, przekonujacych trafien z realna wartoscia dla profilu bota (kongresmeni kupujacy SPCX/SpaceX to duzy cap, IPO sprzed ~7 tyg., poza sleeve; insider cluster buys z tej rundy dotyczyly duzych/mid-cap value spolek (MasterBrand, Investar, Mission Produce) bez katalizatora momentum) - pozostawione puste.",
+  "ipo": [],
   "volume": [
     {
-      "ticker": "REPL",
-      "name": "Replimune Group, Inc.",
-      "price_usd": 10.48,
-      "pct_1m": 90.0,
-      "catalyst": "FDA Cellular, Tissue and Gene Therapies Advisory Committee zaglosowal 10-3 na korzysc efficacy RP1 (vusolimogene oderparepvec) + nivolumab w zaawansowanym czerniaku (30.07.2026); FDA target action date (PDUFA) pod resubmisja klasy 1 to 02.08.2026 - decyzja FDA wciaz przed nami",
+      "ticker": "DFNS",
+      "name": "T3 Defense, Inc.",
+      "price_usd": 38.00,
+      "pct_1m": 400.0,
+      "catalyst": "60% udzial w Project35 (counter-drone/aerial interceptor tech) + dostawa linii produkcyjnej kompozytow dla duzego izraelskiego producenta + kontrakt na oswietlenie obronne $1.1mln",
       "still_upside": false,
-      "note": "Trzecie podejscie do BLA (dwukrotnie odrzucone wczesniej) - panel doradczy poparl dane z badania IGNYTE (ORR ok. 33.6%, mediana odpowiedzi 24.8 mies.). Kurs +93.7% W JEDNYM DNIU (30-31.07, z ok. $5.41 do $10.48) - PONAD prog +50% (parabola), bot i tak zablokuje kupno mimo prawdziwego, wciaz otwartego drugiego katalizatora (formalna decyzja FDA za ~3 dni). Wpisane dla kompletnosci/uczenia (wzorzec: pozytywny panel doradczy juz w duzej mierze wycenia oczekiwana aprobate, realne ryzyko/nagroda przesuwa sie na sama decyzje FDA, ktora moze isc w obie strony)."
+      "note": "Reverse split 1-for-125 (16.07.2026) zredukowal akcje z ~81.3mln do ~650.6tys. -67.4% w jeden dzien (31.07, wielokrotne trading halts), +37.3% premarket dzis (03.08) do $38. Ekstremalnie paraboliczne, whipsaw - wzorzec identyczny z lekcji LEGN/BCDA/STI: mala plynnosc po reverse split + spekulacyjny wolumen = unikac, nie gonic. Realne kontrakty istnieja, ale cena juz w pelni (i nadmiernie) je odzwierciedla."
     },
     {
-      "ticker": "CYCU",
-      "name": "Cycurion, Inc.",
-      "price_usd": 1.61,
-      "pct_1m": 500.0,
-      "catalyst": "10-letni kontrakt cyberbezpieczenstwo ($54.6mln, >$5mln rocznie) z partnerstwa z globalna firma doradcza top-5, ogloszony 30.07.2026",
+      "ticker": "BIYA",
+      "name": "Baiya International Group Inc.",
+      "price_usd": 4.00,
+      "pct_1m": 300.0,
       "still_upside": false,
-      "note": "Wolumen 443mln akcji vs srednia 1.16mln (>380x normy), ale kurs juz +496% jednego dnia (30.07) po wczesniejszym +410%. Skrajnie paraboliczne - lekcja LEGN/BCDA: UNIKAC, nie gonic. Wpisane dla kompletnosci/widocznosci, bot i tak zablokuje (>>+50%)."
-    },
-    {
-      "ticker": "KUST",
-      "name": "Kustom Entertainment, Inc.",
-      "price_usd": 1.68,
-      "pct_1m": 70.0,
-      "still_upside": false,
-      "note": "Krotki interes 50.6% floatu; +42% premarket dzis (31.07) po aneksie umowy z Cycurion (CYCU) podnoszacym wycene do $6.1mln + $250k cash + zamiana warrantow na uprzywilejowane akcje. pct_1m to szacunek (silny ruch skumulowany w ostatnim tygodniu) - juz rozgrzane, nie gonic."
+      "note": "Reverse split 1-for-10 (lipiec 2026). Z <$1 do intraday high $9.89, kolaps z powrotem do $3-4. Chinska spolka HR-tech (cloud platform), brak realnego katalizatora biznesowego - czysty spekulacyjny pump na niskim floacie po reverse split. Wzorzec do unikania, nie gonienia."
     }
   ],
   "contract": [
     {
-      "ticker": "VVX",
-      "name": "V2X, Inc.",
-      "price_usd": 86.75,
-      "pct_1m": 19.0,
-      "catalyst": "Trump/DoD - kontrakt IDIQ $4.32mld (10 lat, obsluga/utrzymanie floty samolotow szkoleniowych T-6) ogloszony 31.07.2026 (dzisiaj) vs kapitalizacja $2.72mld (~159% kapitalizacji)",
+      "ticker": "INFQ",
+      "name": "Infleqtion, Inc.",
+      "price_usd": 9.83,
+      "pct_1m": 2.0,
+      "catalyst": "Trump/DOE - 3 projekty badawcze przyznane w ramach ekspansji Genesis Mission ($5mld, DOE+DOD+NASA+NSF+HHS+Interior+Transportation) na neutral-atom quantum computing/sensing, ogloszone na Genesis Mission 2026 Summit",
       "still_upside": false,
-      "note": "Kontrakt swiezy (<48h) i bardzo duzy wzgledem kapitalizacji - mocna konfluencja rzadowa. pct_1m to szacunek na podstawie niedawnego dolka ~$73 (poczatek lipca) do biezacych $86.75. Ponizej progu 25%, wiec bez potrzeby furtki."
-    },
-    {
-      "ticker": "CYCU",
-      "name": "Cycurion, Inc.",
-      "price_usd": 1.61,
-      "pct_1m": 500.0,
-      "catalyst": "10-letni kontrakt cyberbezpieczenstwo ($54.6mln) z partnerstwa z globalna firma doradcza top-5, ogloszony 30.07.2026",
-      "still_upside": false,
-      "note": "Duplikat z grupy volume dla konfluencji. Kontrakt realny, ale kurs juz w pelni/nadmiernie odzwierciedla news (+496% w 1 dzien) - anti-chase powinien zablokowac."
+      "note": "NIE rozgrzany (pct_1m ~+2%, dzis -1.5%) - ponizej progu, bez potrzeby furtki. Swiezy analyst initiation: Wedbush Outperform, cel $20 (~2x biezacej ceny $9.83). Q2 2026 earnings 12.08.2026 - kolejny katalizator przed nami. Kapitalizacja $2.78mld, IPO luty 2026 (nie 'swiezy' IPO wg progu <=18mies ale wciaz mlody debiut)."
     }
   ],
   "insider": [],
@@ -63,22 +37,13 @@
   "congress": [],
   "policy": [
     {
-      "ticker": "UAMY",
-      "name": "United States Antimony Corporation",
-      "price_usd": 5.22,
-      "pct_1m": 15.0,
-      "catalyst": "Trump executive order (24.07.2026) - zaostrzenie regul waiver dla surowcow krytycznych z Chin, wzmocnienie krajowego lancucha dostaw obronnego (antymon kluczowy surowiec obronny)",
+      "ticker": "INFQ",
+      "name": "Infleqtion, Inc.",
+      "price_usd": 9.83,
+      "pct_1m": 2.0,
+      "catalyst": "Trump administration Genesis Mission (DOE-led, $5mld) - AI/quantum/HPC narodowa inicjatywa, Infleqtion jeden z trzech nazwanych beneficjentow (obok HPE, Wiley) w ogloszeniu ekspansji",
       "still_upside": false,
-      "note": "+6.3% dzis na fali newsa. pct_1m to szacunek ostrozny (brak precyzyjnych danych historycznych w tej rundzie) - ponizej progu 25%, bez potrzeby furtki. Mala kapitalizacja $805mln, plynne, czesc szerszego tematu critical minerals (razem z CRML/MP/USAR, ktore pominieto - w trendzie spadkowym w tym tygodniu)."
-    },
-    {
-      "ticker": "MP",
-      "name": "MP Materials Corp.",
-      "price_usd": 41.66,
-      "pct_1m": -5.0,
-      "catalyst": "Trump executive order (24.07.2026) - zaostrzenie regul waiver dla surowcow krytycznych z Chin, wzmocnienie krajowego lancucha dostaw pierwiastkow ziem rzadkich",
-      "still_upside": false,
-      "note": "+9.3% dzis, ale wciaz znaczaco ponizej 52-tyg. maksimum ($100.25) po spadku w ostatnim tygodniu (-8.6%) - pct_1m szacunkowo lekko ujemny/plaski, NIE rozgrzane pomimo duzej kapitalizacji ($6.78mld, wieksza niz typowy profil bota, do oceny)."
+      "note": "Duplikat z grupy contract dla konfluencji polityka+kontrakt. Nie rozgrzany, realny rzadowy katalizator + otwarty katalizator analityczny (Wedbush $20 cel) + earnings 12.08."
     }
   ]
 }
