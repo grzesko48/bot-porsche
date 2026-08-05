@@ -1,27 +1,37 @@
 {
-  "_date": "2026-08-04",
-  "_run": "wtorek, bieg przed-otwarciowy 14:30 CEST. Jedna runda rownoleglych web_search na grupe (plus doprecyzowanie cen/katalizatorow tam gdzie dane byly niespojne). Rynkowe: IPO - kalendarz US na tydzien 2-8.08 pokazuje kilka pricingow, ale brak konkretnych, potwierdzonych nazw z cena i realnym momentum na dzis - ipo puste. Wolumen: PRSO (Peraso) - Mobix Labs (MOBX) zlozyl podwyzszona, niewiazaca oferte przejecia $1.30/akcje gotowka (53% premii do 20-dniowej VWAP $0.85), trwa due diligence, brak formalnej umowy - merger-arb, nie momentum-chase; dane cenowe w zrodlach byly niespojne (jedno zrodlo sugerowalo premarket spike do $1.50) - uzyto najbardziej spojnej ceny ($0.83) i oznaczono niepewnosc/ryzyko upadku dealu. Kontrakt/polityka: INFQ (Infleqtion) - kontynuacja wczorajszego sygnalu (nadal aktualny, nie zdezaktualizowany): Trump/DOE Genesis Mission ($5mld, DOD+NASA+NSF), Infleqtion nazwany beneficjent, cena wzrosla z $9.83 do $10.92 (+11% dzien) ale wciaz NIE rozgrzany w horyzoncie miesiecznym i wciaz daleko ponizej celu analitykow Wedbush $20; Q2 earnings 12.08.2026 pozostaje katalizatorem przed nami - zaktualizowano cene i utrzymano jako najciekawszy kandydat. Sprawdzono dodatkowo ONDS (Ondas, $80mln+ demining/military engineering) i PDYN (Palladyne AI/IAI HARPY-HAROP) - zaden nie spelnil progu swiezosci (<48h) ani wielkosci kontraktu wzgledem kapitalizacji (ONDS mcap juz $4.27mld) - pominiete. Insider/fund13f/congress: 13F Q2 2026 jeszcze nie zlozone (termin 14.08.2026, za wczesnie); insider cluster buys z tej rundy dotyczyly niewielkich/symbolicznych zakupow bez wyraznego katalizatora momentum; congress trading disclosures (Tuberville - glownie sprzedaz, Pelosi - starsze dane ze stycznia) bez swiezych, konkretnych zakupow pasujacych do profilu bota - wszystkie trzy grupy puste, uczciwie zamiast wymuszania slabych kandydatow.",
+  "_date": "2026-08-05",
+  "_run": "sroda, bieg srodsesyjny ok. 18:30 CEST (druga runda dnia, po 14:30). Jedna runda rownoleglych web_search + doprecyzowanie cen dla znalezionych kandydatow. Rynkowe/wolumen: AMRC (Ameresco) - Q2 2026 earnings 03.08, rekordowy backlog $6.73mld (+32% r/r), $1.8mld nowych zamowien w kwartale w tym $1.2mld data centers, podniesione guidance EPS ($1.06-1.28 -> $1.15-1.35) - cena z $22.73 do $28.86 (+27% dzien), pct_1m juz >25% wiec normalnie WAIT, ale ustawiono still_upside (furtka) bo katalizator (AI data center power buildout) dopiero przyspiesza, segment Power Infrastructure +65% r/r, guidance realnie podniesione. PAY (Paymentus) - Q2 beat-and-raise 03.08 (EPS $0.25 vs $0.18 est, revenue +7.8% powyzej prognoz), kurs +24.9% w sesji do ok. $38.50; pct_1m szacunkowo >25% (to juz DRUGI silny pop earningsowy w 2026 po majowym +29%), wiec bez furtki - historia w duzej mierze juz wyceniona, zostawiono do decyzji bota (prawdopodobnie WAIT na cofniecie). Kontrakt/polityka: INFQ (Infleqtion) - kontynuacja sygnalu z wczoraj (Trump/DOE Genesis Mission $5mld, neutral-atom quantum), cena zaktualizowana do $11.28 (z $10.92), wciaz NIE rozgrzany, Q2 earnings 12.08.2026 wciaz przed nami - podtrzymano jako najsolidniejszy kandydat polityczny. PRSO (Peraso/Mobix Labs merger-arb) sprawdzony ponownie - BRAK swiezych wiadomosci od stycznia 2026, deal wciaz niesfinalizowany bez postepu - pominiety jako nieaktualny (nie jest to juz swiezy sygnal). Defense small-caps sprawdzone (BBAI $53mln kontrakt vs $1.43mld mcap = 3.7%, ONDS $148mln kontraktow vs $4.32mld mcap = 3.4%) - zaden nie spelnil progu >=50% kapitalizacji - pominiete. Insider cluster buys, 13F (termin dopiero 14.08.2026 - za wczesnie), congress trades (Pelosi - dane tylko do maja, brak swiezych) - bez konkretnych, swiezych kandydatow pasujacych do profilu bota - trzy grupy puste, uczciwie zamiast wymuszania slabych sygnalow.",
   "ipo": [],
   "volume": [
     {
-      "ticker": "PRSO",
-      "name": "Peraso Inc.",
-      "price_usd": 0.83,
-      "pct_1m": 15.0,
-      "catalyst": "Mobix Labs (MOBX) zlozyl podwyzszona, niewiazaca oferte przejecia $1.30/akcje w gotowce (53% premii do 20-dniowej VWAP); trwaja rozmowy due diligence, brak formalnej umowy",
+      "ticker": "PAY",
+      "name": "Paymentus Holdings, Inc.",
+      "price_usd": 38.5,
+      "pct_1m": 27.0,
+      "catalyst": "Q2 2026 beat-and-raise (03.08) - EPS $0.25 vs $0.18 est., revenue $360.7mln (+7.8% powyzej prognoz), podniesione guidance na caly rok; kurs +24.9% w sesji na duzym wolumenie",
       "still_upside": false,
-      "note": "Merger-arb sytuacja, nie momentum-chase - cena wciaz znaczaco ponizej oferty ($0.83 vs $1.30), ale deal niewiazacy i moze upasc (jak wczesniejsze rundy tej samej oferty od czerwca 2025). Dane cenowe w zrodlach byly niespojne (jedno zrodlo sugerowalo premarket spike do $1.50) - potraktowac z ostroznoscia, zweryfikowac cene przed dzialaniem. Mala kapitalizacja (~$12.5mln) = wysoka zmiennosc i ryzyko upadku dealu."
+      "note": "Drugi silny earningsowy pop w 2026 (po majowym +29% po Q1) - historia w duzej mierze juz znana/wyceniona, bez wyraznych przeslanek ze szczyt jeszcze nie osiagniety. Mkt cap ok. $4.6mld. pct_1m powyzej progu +25% - normalnie WAIT na cofniecie, bez furtki."
     }
   ],
   "contract": [
     {
+      "ticker": "AMRC",
+      "name": "Ameresco, Inc.",
+      "price_usd": 28.86,
+      "pct_1m": 28.0,
+      "catalyst": "Q2 2026 (03.08): $1.8mld nowych zamowien w kwartale (w tym $1.2mld data centers), rekordowy backlog $6.73mld (+32% r/r), segment Power Infrastructure +65% r/r, podniesione guidance EPS ($1.06-1.28 -> $1.15-1.35)",
+      "still_upside": true,
+      "upside_reason": "Guidance realnie podniesione (nie tylko potwierdzone), backlog rekordowy i rosnacy, katalizator (popyt na power infrastructure dla AI data centers) dopiero przyspiesza - segment +65% r/r sugeruje wczesna faza cyklu, nie szczyt",
+      "note": "pct_1m powyzej +25% - furtka Wniosek #4 zastosowana oszczednie, tylko dla tego kandydata w tej rundzie. Mkt cap ok. $1.5mld."
+    },
+    {
       "ticker": "INFQ",
       "name": "Infleqtion, Inc.",
-      "price_usd": 10.92,
-      "pct_1m": 13.0,
-      "catalyst": "Trump/DOE - projekty badawcze w ramach ekspansji Genesis Mission ($5mld, DOE+DOD+NASA+NSF+HHS+Interior+Transportation) na neutral-atom quantum computing/sensing, Infleqtion nazwany beneficjent",
+      "price_usd": 11.28,
+      "pct_1m": 16.0,
+      "catalyst": "Trump/DOE - Genesis Mission ($5mld, DOE+DOD+NASA+NSF+HHS+Interior+Transportation) na neutral-atom quantum computing/sensing, Infleqtion nazwany beneficjent",
       "still_upside": false,
-      "note": "Kontynuacja sygnalu z wczoraj (03.08) - nadal aktualny. NIE rozgrzany (pct_1m ~13%) - ponizej progu +25%, bez potrzeby furtki. Analyst initiation Wedbush Outperform, cel $20 (~1.8x biezacej ceny). Q2 2026 earnings 12.08.2026 - kolejny katalizator przed nami. Kapitalizacja $2.38mld."
+      "note": "Kontynuacja sygnalu z wczoraj (04.08), cena zaktualizowana z $10.92 do $11.28. Nadal NIE rozgrzany (pct_1m ~16%, ponizej progu +25%), bez potrzeby furtki. Analyst initiation Wedbush Outperform, cel $20. Q2 2026 earnings 12.08.2026 - kolejny katalizator przed nami. Kapitalizacja $2.79mld."
     }
   ],
   "insider": [],
@@ -31,8 +41,8 @@
     {
       "ticker": "INFQ",
       "name": "Infleqtion, Inc.",
-      "price_usd": 10.92,
-      "pct_1m": 13.0,
+      "price_usd": 11.28,
+      "pct_1m": 16.0,
       "catalyst": "Trump administration Genesis Mission (DOE-led, $5mld) - AI/quantum/HPC narodowa inicjatywa, Infleqtion jeden z nazwanych beneficjentow ogloszenia ekspansji",
       "still_upside": false,
       "note": "Duplikat z grupy contract dla konfluencji polityka+kontrakt. Nie rozgrzany, realny rzadowy katalizator + otwarty katalizator analityczny (Wedbush $20 cel) + earnings 12.08."

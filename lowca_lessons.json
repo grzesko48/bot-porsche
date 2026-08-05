@@ -1601,5 +1601,26 @@
     "pct": 23.0,
     "presignal": "Trzeci kwartal z rzedu rekordowych bookings + przyspieszenie q/q top-line + wieksze niz zwykle przebicie subskrypcji cloud + podniesiony outlook na caly rok - trend przyspieszajacych wynikow byl widoczny juz w 2 poprzednich kwartalach przed samym ogloszeniem",
     "lesson": "Sledz spolki software/enterprise z 2+ kwartalami z rzedu przyspieszajacego wzrostu bookings/guidance raise (trend, nie jednorazowy beat) - seria pozytywnych zaskoczen zwieksza prawdopodobienstwo kolejnego duzego beat przy nastepnych wynikach; rozwazyc monitoring unusual options activity (call OI, put/call ratio) w tygodniu przed earnings jako mierzalny pre-sygnal (analogicznie do wzorca LVWR juz w dzienniku) - mega/mid-cap earnings beat to jednak niska-priorytetowa kategoria (poza typowym sleeve spekulacyjnym bota, ryzyko/nagroda inne niz small/micro-cap)"
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "AMRC",
+    "pct": 27.0,
+    "presignal": "Zaplanowane Q2 2026 earnings (znana data, 03.08 po sesji) - dzien wczesniej dostepne byly tylko ogolne 'what to expect' analizy bez konkretnego edge'u; realny presygnal to sekularny trend (rosnacy popyt na power infrastructure dla AI data centers, widoczny juz w poprzednich kwartalach spolki) + rekordowy backlog rosnacy od kilku kwartalow.",
+    "lesson": "Sledzic spolki power-infrastructure/energy z rosnacym backlogiem i ekspozycja na AI data center buildout przed ich zaplanowanymi earnings - accelerating backlog przez 2-3 kwartale z rzedu to wskaznik prawdopodobnego guidance-raise (podobny wzorzec jak MANH 31.07)."
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "PAY",
+    "pct": 26.0,
+    "presignal": "Zaplanowane Q2 2026 earnings (03.08 po sesji) - dzien wczesniej brak jawnego presygnalu insider/wolumen. Realny presygnal to trend: poprzedni kwartal (Q1 2026) juz pokazal +30% wzrost przychodow i wywolal +29% pop po wynikach - kontynuacja przyspieszajacego wzrostu byla wysoce prawdopodobna.",
+    "lesson": "Gdy spolka SaaS/fintech dala 'beat-and-raise' w poprzednim kwartale z przyspieszajacym wzrostem, wpisac ja na watchlist przed kolejnymi earnings - seria przyspieszajacych kwartalow to powtarzalny wzorzec momentum, nie pojedynczy przypadek."
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "INSP",
+    "pct": 21.0,
+    "presignal": "Zaplanowane Q2 2026 earnings - przychody lekko powyzej oczekiwan i podniesiony outlook na 2026. Brak jawnego presygnalu dzien wczesniej w zrodlach dostepnych w tej rundzie (insider/wolumen/8-K).",
+    "lesson": "Medtech z powtarzalna historia podnoszenia guidance po mocnych kwartalach zasluguje na miejsce na liscie obserwacyjnej przed earnings, zwlaszcza gdy poprzednie kwartaly pokazywaly podobny wzorzec."
   }
 ]
