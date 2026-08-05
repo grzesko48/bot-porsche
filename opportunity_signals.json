@@ -1,37 +1,45 @@
 {
   "_date": "2026-08-05",
-  "_run": "sroda, bieg srodsesyjny ok. 18:30 CEST (druga runda dnia, po 14:30). Jedna runda rownoleglych web_search + doprecyzowanie cen dla znalezionych kandydatow. Rynkowe/wolumen: AMRC (Ameresco) - Q2 2026 earnings 03.08, rekordowy backlog $6.73mld (+32% r/r), $1.8mld nowych zamowien w kwartale w tym $1.2mld data centers, podniesione guidance EPS ($1.06-1.28 -> $1.15-1.35) - cena z $22.73 do $28.86 (+27% dzien), pct_1m juz >25% wiec normalnie WAIT, ale ustawiono still_upside (furtka) bo katalizator (AI data center power buildout) dopiero przyspiesza, segment Power Infrastructure +65% r/r, guidance realnie podniesione. PAY (Paymentus) - Q2 beat-and-raise 03.08 (EPS $0.25 vs $0.18 est, revenue +7.8% powyzej prognoz), kurs +24.9% w sesji do ok. $38.50; pct_1m szacunkowo >25% (to juz DRUGI silny pop earningsowy w 2026 po majowym +29%), wiec bez furtki - historia w duzej mierze juz wyceniona, zostawiono do decyzji bota (prawdopodobnie WAIT na cofniecie). Kontrakt/polityka: INFQ (Infleqtion) - kontynuacja sygnalu z wczoraj (Trump/DOE Genesis Mission $5mld, neutral-atom quantum), cena zaktualizowana do $11.28 (z $10.92), wciaz NIE rozgrzany, Q2 earnings 12.08.2026 wciaz przed nami - podtrzymano jako najsolidniejszy kandydat polityczny. PRSO (Peraso/Mobix Labs merger-arb) sprawdzony ponownie - BRAK swiezych wiadomosci od stycznia 2026, deal wciaz niesfinalizowany bez postepu - pominiety jako nieaktualny (nie jest to juz swiezy sygnal). Defense small-caps sprawdzone (BBAI $53mln kontrakt vs $1.43mld mcap = 3.7%, ONDS $148mln kontraktow vs $4.32mld mcap = 3.4%) - zaden nie spelnil progu >=50% kapitalizacji - pominiete. Insider cluster buys, 13F (termin dopiero 14.08.2026 - za wczesnie), congress trades (Pelosi - dane tylko do maja, brak swiezych) - bez konkretnych, swiezych kandydatow pasujacych do profilu bota - trzy grupy puste, uczciwie zamiast wymuszania slabych sygnalow.",
+  "_run": "sroda, bieg srodsesyjny ok. 18:30 CEST (rzeczywisty drugi bieg dnia - poprzedni commit z dzisiaj ok. 14:52 CEST mial etykiete 'srodsesyjny 18:30' ale wg czasu odpowiadal raczej biegowi 14:30; ten bieg to realne uzupelnienie po ~3h sesji US). Jedna runda rownoleglych web_search, ceny zaktualizowane na zywo w polowie sesji. AMRC (Ameresco) - cena kontynuowala wzrost z $28.86 (rano) do ok. $33.00 w polowie sesji; pct_1m przeliczony w gore do ok. 46%, bardzo blisko progu parabola +50%. STOICKA DECYZJA: usunieto furtke still_upside ustawiona rano - teza fundamentalna (rekordowy backlog, podniesiony guidance) sie nie zmienila, ale dalsze naganianie ceny w tej samej sesji to sygnal do NIE gonienia gorki (anti-chase), nie do rozszerzania furtki; zostawiono do zwyklej decyzji bota (prawdopodobnie WAIT/PASS, blisko blokady 50%). PAY (Paymentus) - kontynuacja wzrostu z $38.50 do nowego 52-tyg. szczytu $43.92 w trakcie sesji; pct_1m przeliczony w gore do ok. 40%; podtrzymano bez furtki (rano zdecydowano bez furtki, kontynuacja intraday tylko potwierdza ryzyko gonienia gorki). Nowy kandydat: OESX (Orion Energy Systems) - wyniki Q1 FY2027 (raport rano 05.08 przed otwarciem): przychod $25.7mln (+32% r/r), zysk netto $2.0mln (vs strata $1.2mln rok wczesniej), 7. z rzedu kwartal dodatniej skorygowanej EBITDA ($2.5mln), plynnosc $18.1mln (vs $9.8mln rok wczesniej) - kurs +41% w sesji do $14.67; pct_1m szacunkowo ok. 37% (miesiac wczesniej stabilny w okolicach $9-11) - powyzej progu +25%, bez furtki (jeden dobry kwartal to za malo na Wniosek #4, poczekac na potwierdzenie trendu). Polityka/kontrakt: INFQ (Infleqtion) - bez zmian wobec rannego sygnalu, cena wciaz ok. $11.28, pct_1m ~16%, DOE Genesis Mission (3 nowe projekty: quantum computing/sensing/AI z Argonne/Brookhaven/Lawrence Livermore) - katalizator sprzed >2 tygodni, wciaz nie rozgrzany, najsolidniejszy kandydat polityczny bez ryzyka pogoni. Sprawdzono dzisiejszych najwiekszych jednodniowych 'gainers' (YXT +501%, ZYBT +128%, INLF +103%, JLHL +97%, RITR +83%, BJDX +59%) - wszystkie juz DALEKO powyzej progu parabola +50% W SAMYM DNIU, wiekszosc to chinskie mikro-capy bez weryfikowalnego katalizatora (JLHL to znany z dziennika lekcji wzorzec Form-3-cluster squeeze z czerwca) - swiadomie POMINIETE jako niekwalifikujace sie kandydaci, uczciwie zamiast wymuszania gonienia gorki. Insider cluster buys, 13F (termin 14.08.2026, za wczesnie), congress trades (brak swiezych ujawnien od maja) - bez konkretnych swiezych kandydatow, trzy grupy puste.",
   "ipo": [],
   "volume": [
     {
       "ticker": "PAY",
       "name": "Paymentus Holdings, Inc.",
-      "price_usd": 38.5,
-      "pct_1m": 27.0,
-      "catalyst": "Q2 2026 beat-and-raise (03.08) - EPS $0.25 vs $0.18 est., revenue $360.7mln (+7.8% powyzej prognoz), podniesione guidance na caly rok; kurs +24.9% w sesji na duzym wolumenie",
+      "price_usd": 43.92,
+      "pct_1m": 40.0,
+      "catalyst": "Q2 2026 beat-and-raise (03.08) - EPS $0.25 vs $0.18 est., revenue $360.7mln (+28.8% r/r), adjusted EBITDA +54% r/r (marza rekordowa 41.3%), podniesione guidance FY2026 revenue do $1.443-1.458mld; kontynuacja wzrostu w polowie sesji do nowego 52-tyg. szczytu",
       "still_upside": false,
-      "note": "Drugi silny earningsowy pop w 2026 (po majowym +29% po Q1) - historia w duzej mierze juz znana/wyceniona, bez wyraznych przeslanek ze szczyt jeszcze nie osiagniety. Mkt cap ok. $4.6mld. pct_1m powyzej progu +25% - normalnie WAIT na cofniecie, bez furtki."
+      "note": "Drugi silny earningsowy pop w 2026, teraz na nowym szczycie 52-tyg., pct_1m juz ok. 40% - wyrazny przyklad anti-chase: dalsze naganianie ceny w trakcie tej samej sesji to sygnal do WAIT, nie do furtki. Mkt cap ok. $5.2mld."
+    },
+    {
+      "ticker": "OESX",
+      "name": "Orion Energy Systems, Inc.",
+      "price_usd": 14.67,
+      "pct_1m": 37.0,
+      "catalyst": "Q1 FY2027 (raport rano 05.08): przychod $25.7mln (+32% r/r), zysk netto $2.0mln (vs strata $1.2mln rok wczesniej), 7. z rzedu kwartal dodatniej skorygowanej EBITDA ($2.5mln), plynnosc $18.1mln (vs $9.8mln rok wczesniej); kurs +41% w sesji",
+      "still_upside": false,
+      "note": "Pierwszy wyrazny kwartal turnaround (przychod+marza+zysk jednoczesnie) w micro-cap LED lighting/EV charging (mcap ok. $60mln); pct_1m powyzej progu +25% - bez furtki, poczekac na potwierdzenie trendu w kolejnym kwartale zanim rozwazyc Wniosek #4."
     }
   ],
   "contract": [
     {
       "ticker": "AMRC",
       "name": "Ameresco, Inc.",
-      "price_usd": 28.86,
-      "pct_1m": 28.0,
+      "price_usd": 33.0,
+      "pct_1m": 46.0,
       "catalyst": "Q2 2026 (03.08): $1.8mld nowych zamowien w kwartale (w tym $1.2mld data centers), rekordowy backlog $6.73mld (+32% r/r), segment Power Infrastructure +65% r/r, podniesione guidance EPS ($1.06-1.28 -> $1.15-1.35)",
-      "still_upside": true,
-      "upside_reason": "Guidance realnie podniesione (nie tylko potwierdzone), backlog rekordowy i rosnacy, katalizator (popyt na power infrastructure dla AI data centers) dopiero przyspiesza - segment +65% r/r sugeruje wczesna faza cyklu, nie szczyt",
-      "note": "pct_1m powyzej +25% - furtka Wniosek #4 zastosowana oszczednie, tylko dla tego kandydata w tej rundzie. Mkt cap ok. $1.5mld."
+      "still_upside": false,
+      "note": "Furtka z rannego biegu USUNIETA w tej rundzie: cena kontynuowala wzrost z $28.86 do ok. $33.00 w ciagu tej samej sesji, pct_1m ok. 46% - bardzo blisko progu parabola +50%. Teza fundamentalna nie zmieniona, ale dalsze naganianie tej samej okazji w polowie sesji to sygnal anti-chase, nie powod do rozszerzania furtki. Mkt cap ok. $1.5mld."
     },
     {
       "ticker": "INFQ",
       "name": "Infleqtion, Inc.",
       "price_usd": 11.28,
       "pct_1m": 16.0,
-      "catalyst": "Trump/DOE - Genesis Mission ($5mld, DOE+DOD+NASA+NSF+HHS+Interior+Transportation) na neutral-atom quantum computing/sensing, Infleqtion nazwany beneficjent",
+      "catalyst": "Trump/DOE - Genesis Mission ($5mld+), 3 nowe projekty DOE dla Infleqtion (quantum computing, quantum sensing, AI-driven research) z Argonne/Brookhaven/Lawrence Livermore National Labs",
       "still_upside": false,
-      "note": "Kontynuacja sygnalu z wczoraj (04.08), cena zaktualizowana z $10.92 do $11.28. Nadal NIE rozgrzany (pct_1m ~16%, ponizej progu +25%), bez potrzeby furtki. Analyst initiation Wedbush Outperform, cel $20. Q2 2026 earnings 12.08.2026 - kolejny katalizator przed nami. Kapitalizacja $2.79mld."
+      "note": "Bez zmian wobec biegu rannego dzisiaj - cena stabilna ok. $11.28, pct_1m ~16% (ponizej progu +25%), bez potrzeby furtki. Analyst initiation Wedbush Outperform, cel $20. Q2 2026 earnings 12.08.2026 - kolejny katalizator przed nami. Kapitalizacja $2.79mld."
     }
   ],
   "insider": [],
@@ -43,7 +51,7 @@
       "name": "Infleqtion, Inc.",
       "price_usd": 11.28,
       "pct_1m": 16.0,
-      "catalyst": "Trump administration Genesis Mission (DOE-led, $5mld) - AI/quantum/HPC narodowa inicjatywa, Infleqtion jeden z nazwanych beneficjentow ogloszenia ekspansji",
+      "catalyst": "Trump administration Genesis Mission (DOE-led, $5mld+) - AI/quantum/HPC narodowa inicjatywa, Infleqtion jeden z nazwanych beneficjentow ogloszenia ekspansji",
       "still_upside": false,
       "note": "Duplikat z grupy contract dla konfluencji polityka+kontrakt. Nie rozgrzany, realny rzadowy katalizator + otwarty katalizator analityczny (Wedbush $20 cel) + earnings 12.08."
     }
