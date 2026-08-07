@@ -1622,5 +1622,12 @@
     "pct": 21.0,
     "presignal": "Zaplanowane Q2 2026 earnings - przychody lekko powyzej oczekiwan i podniesiony outlook na 2026. Brak jawnego presygnalu dzien wczesniej w zrodlach dostepnych w tej rundzie (insider/wolumen/8-K).",
     "lesson": "Medtech z powtarzalna historia podnoszenia guidance po mocnych kwartalach zasluguje na miejsce na liscie obserwacyjnej przed earnings, zwlaszcza gdy poprzednie kwartaly pokazywaly podobny wzorzec."
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "SONN",
+    "pct": 61.7,
+    "presignal": "Kontynuacja szalu wokol transformacji spolki w krypto-treasury (Hyperliquid Strategies Inc, $888mln business combination z ekspozycja na token HYPE, spolka notowana obecnie takze pod PURR) - dokladny trigger z samego 06.08 niejasny w dostepnych zrodlach (mogla to byc kolejna fala zmiennosci po wczesniejszym ogloszeniu deala, a nie nowy news), micro-cap biotech-shell z ekstremalna plynnoscia po reverse-merger.",
+    "lesson": "Reverse-merger / 'crypto treasury' conversion ogloszenia w mikro-cap shellach (dawny biotech/spolka bez realnego biznesu przejmujaca ekspozycje na token krypto) daje wielodniowa, ekstremalna zmiennosc bez pojedynczego identyfikowalnego katalizatora dnia - praktycznie niemozliwe do zlapania z wyprzedzeniem bez sledzenia 8-K/ogloszen deala w dniu jego publikacji; traktowac jako wzorzec do obserwacji/unikania (analogiczny do low-float squeeze), nie do gonienia po fakcie."
   }
 ]
