@@ -1629,5 +1629,19 @@
     "pct": 61.7,
     "presignal": "Kontynuacja szalu wokol transformacji spolki w krypto-treasury (Hyperliquid Strategies Inc, $888mln business combination z ekspozycja na token HYPE, spolka notowana obecnie takze pod PURR) - dokladny trigger z samego 06.08 niejasny w dostepnych zrodlach (mogla to byc kolejna fala zmiennosci po wczesniejszym ogloszeniu deala, a nie nowy news), micro-cap biotech-shell z ekstremalna plynnoscia po reverse-merger.",
     "lesson": "Reverse-merger / 'crypto treasury' conversion ogloszenia w mikro-cap shellach (dawny biotech/spolka bez realnego biznesu przejmujaca ekspozycje na token krypto) daje wielodniowa, ekstremalna zmiennosc bez pojedynczego identyfikowalnego katalizatora dnia - praktycznie niemozliwe do zlapania z wyprzedzeniem bez sledzenia 8-K/ogloszen deala w dniu jego publikacji; traktowac jako wzorzec do obserwacji/unikania (analogiczny do low-float squeeze), nie do gonienia po fakcie."
+  },
+  {
+    "date": "2026-08-10",
+    "ticker": "TWLO",
+    "pct": 25.0,
+    "presignal": "Zaplanowane Q2 2026 earnings (znana data, 07.08 przed sesja) - dzien wczesniej brak jawnego presygnalu insider/wolumen, ale realny presygnal to trend: poprzednie kwartaly pokazywaly przyspieszajaca rentownosc i sekwencyjne podnoszenie guidance; 07.08 podniesiono adj. EPS guidance do $1.42-1.47 i wzrost przychodow FY do 18-18.5% (z 14-15%), premarket +17%, zamkniecie dnia +25%.",
+    "lesson": "Software/SaaS z 2+ kwartalami z rzedu przyspieszajacego wzrostu i podnoszonego guidance zasluguje na miejsce na liscie obserwacyjnej przed zaplanowanymi wynikami - wzorzec powtarzalny (patrz tez MANH, AMRC, PAY, INSP w dzienniku)."
+  },
+  {
+    "date": "2026-08-10",
+    "ticker": "FROG",
+    "pct": 15.0,
+    "presignal": "Zaplanowane Q2 2026 earnings (07.08) w ramach szerszej fali wynikow software/DevOps (TEAM, NET, MCHP, AKAM tez podwojnocyfrowe wzrosty tego dnia) na fali odbicia sektora po obawach o zaklocenia AI - sektorowy katalizator wynikowy, nie pojedynczy news dnia wczesniejszego.",
+    "lesson": "Gdy caly sektor (tu: enterprise software/DevOps) ma skupiony tydzien wynikowy, warto przed sezonem wynikow zbudowac krotka liste tickerow z tego sektora i cenami, zamiast reagowac dopiero po fakcie na pojedyncze nazwy."
   }
 ]
