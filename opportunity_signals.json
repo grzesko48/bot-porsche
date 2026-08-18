@@ -1,19 +1,12 @@
 {
-  "_date": "2026-08-17",
-  "_run": "poniedzialek, bieg srodsesyjny 18:30 CEST (rynek US otwarty). Sprawdzone i POMINIETE: IPST (IP Strategy Holdings) - jednodniowy ruch +220% dzis (z $2 do $7), czysta ekstremalna parabola bez fundamentu, wzorzec do unikania jak LEGN/BCDA - NIE dodany. Peraton (kontrakt DISA $280mln) - spolka prywatna (Veritas Capital), brak tickera - pominiety. Insider/Fund13F/Congress: brak nowych konkretnych klastrow z cenami i jednoznaczna konfluencja tickerowa w tej rundzie (ogolne strony narzedzi bez konkretnych dzisiejszych transakcji) - grupy puste. Ceny z web-search moga byc z opoznieniem (nie real-time feed) - traktowac jako orientacyjne.",
+  "_date": "2026-08-18",
+  "_run": "wtorek, bieg przedotwarciowy 14:30 CEST (rynek US jeszcze zamkniety, premarket). Sygnaly rynkowe skromne w tej rundzie: RKLB (Space Force $397mln) i wczesniejszy HIVE/Nvidia news z 17.08 sprawdzone - RKLB kontrakt >48h (ok. 04-14.08), wiec pominiety z grupy 'contract' (niespelnia <48h), premarket dzis -3.4% (mozliwe schodzenie z gorki, do obserwacji nastepnym razem). SGML (Sigma Lithium) sprawdzony - stock DOL -44.75% od ostatnich wynikow mimo unusual call activity, nie spelnia kryterium 'wolumen+przebicie' (spadkowy trend, nie wybicie) - pominiety. AEHR sprawdzony - juz +24% w krotkim czasie na swiezym follow-on order (13.08), blisko progu anti-chase, niepewne dane co do 1m% - pominiety z ostroznosci. Insider/Fund13F/Congress: w tej rundzie brak konkretnych, swiezych, tickerowych klastrow z cenami w dostepnych zrodlach (ogolne strony narzedzi bez danych transakcyjnych) - grupy puste, jak wczoraj. Ceny z web-search/stockanalysis moga byc opoznione o 1 sesje - traktowac jako orientacyjne.",
   "ipo": [
-    {"ticker": "QNT", "price_usd": 66.00, "pct_1m": 27, "catalyst": ""},
-    {"ticker": "FLY", "price_usd": 27.00, "pct_1m": 5, "catalyst": "Trump/DoD (Defense Innovation Unit + Space Development Agency): kontrakt projektowy Elytra Deorbit System, wartosc nieujawniona, kurs lekko spadl na newsie 13.08"}
+    {"ticker": "BRVE", "price_usd": 27.66, "pct_1m": 54, "catalyst": ""}
   ],
-  "volume": [
-    {"ticker": "SNDK", "price_usd": 1641.11, "pct_1m": -4, "catalyst": ""}
-  ],
+  "volume": [],
   "contract": [
-    {"ticker": "RKLB", "price_usd": 80.13, "pct_1m": 24, "catalyst": "Trump/US Space Force: $397mln kontrakt Flatellites (Neutron), najwiekszy tegoroczny kontrakt obronny RKLB; wspiera tez rekordowy Q2 przychod $234mln"},
-    {"ticker": "VVX", "price_usd": 83.00, "pct_1m": -10, "catalyst": "Trump/US Marine Corps: kontrakt logistyczny do $500mln (baza ok. $391mln) na wsparcie Secondary Repairable program"},
-    {"ticker": "NPK", "price_usd": 140.00, "pct_1m": 8, "catalyst": "Trump/US Army: AMTEC (segment Defense NPK) opcje w 5-letnim kontrakcie 40mm + Spectra Technologies subkontrakt na glowice SDB, razem $159.1mln vs kapitalizacja ~$1.03mld"},
-    {"ticker": "FLY", "price_usd": 27.00, "pct_1m": 5, "catalyst": "Trump/DoD (Defense Innovation Unit + Space Development Agency): kontrakt projektowy Elytra Deorbit System, wartosc nieujawniona, kurs lekko spadl na newsie 13.08"},
-    {"ticker": "HIVE", "price_usd": 6.45, "pct_1m": 30, "catalyst": "Nvidia: $350mln 5-letni komercyjny kontrakt AI cloud (najwiekszy dotychczasowy dla HIVE), ogloszony dzis 17.08, premarket +13-14%, w ciagu dnia oddal czesc zysku"}
+    {"ticker": "HIVE", "price_usd": 3.07, "pct_1m": 8, "catalyst": "Nvidia: $350mln 5-letni kontrakt AI cloud (GPU, BUZZ HPC/Bell AI Fabric), najwiekszy dotychczasowy dla HIVE, ogloszony 17.08 (dodaje ok. $70mln ARR, cel $200mln ARR), akcje +13-14% na newsie"}
   ],
   "insider": [],
   "fund13f": [],
