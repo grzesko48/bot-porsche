@@ -1,5 +1,44 @@
 [
-  {"ticker": "MRNA", "pct": 176.97, "day": "2026-08-19", "presignal": "Faza 3 badania spersonalizowanej szczepionki mRNA na czerniaka (Moderna + Merck Keytruda) - odczyt wynikow ogloszony po sesji 19.08, pierwszy udany late-stage trial szczepionki mRNA na raka w historii. Brak jawnego presygnalu wolumenowego dzien wczesniej - data odczytu wynikow trial nie byla publicznie znana z wyprzedzeniem co do dnia. Wolumen w dniu ruchu: 1819% powyzej sredniej 3-miesiecznej.", "lesson": "Odczyty wynikow duzych, wieloletnich badan klinicznych fazy 3 dla znanych, szeroko sledzonych spolek (partnerstwo z duzym farma jak Merck) moga dac ruch +100%+ w jeden dzien bez mozliwosci wczesniejszego zlapania - jedyna realna wartosc to sledzenie kalendarza odczytow duzych trial (biotech catalyst calendars) i obserwacja spolek POWIAZANYCH (dostawcy, konkurenci w tej samej technologii) pod katem ruchow sympatii tego samego dnia, zamiast probowac zgadnac dzien samego odczytu."},
-  {"ticker": "MRVI", "pct": 25.78, "day": "2026-08-19", "presignal": "Ruch sympatii w dniu przelomowego sukcesu szczepionki mRNA na raka Moderny (MRNA +177%) - Maravai LifeSciences to dostawca kluczowych surowcow/reagentow (mRNA capping, plasmid DNA) dla producentow terapii mRNA, w tym m.in. dla Moderny. Podobny ruch sympatii mial ARCT (Arcturus Therapeutics, rowniez platforma mRNA) +25.21% tego samego dnia.", "lesson": "Gdy duzy, zdefiniowany dla calego sektora katalizator uderza w lidera technologii (tu: walidacja platformy mRNA w onkologii), male/srednie spolki z tego samego lancucha wartosci (dostawcy surowcow, mniejsi konkurenci o tej samej platformie) czesto dostaja jednodniowy ruch sympatii rzedu +20-30% - warto w dniu duzego newsa sektorowego szybko przeskanowac liste spolek-dostawcow/peers pod katem podobnego, mniej zdyskontowanego ruchu (potencjalnie mniej rozgrzanego niz lider, wiec latwiej przechodzi bramke anti-chase)."},
-  {"ticker": "TNON", "pct": 109.36, "day": "2026-08-19", "presignal": "Lancuch zdarzen w ciagu ok. 2 tygodni: FDA 510(k) clearance dla systemu Catamaran SI Joint Fusion (02.07), nastepnie wyniki Q2 2026 opublikowane 13.08 po sesji (przychod +127% r/r do $1.3mln, marza brutto 64%, mimo straty netto $4.1mln), a nastepnie reverse split 1:35 efektywny od 10.08 (podniesienie kursu ponad prog $1 wymagany przez Nasdaq). Kurs wzrosl z ponizej $0.20 (koniec lipca, przed splitem) do ponad $11 - skumulowany efekt splitu + realnego przyspieszenia przychodow.", "lesson": "Mikro-cap medtech po (1) uzyskaniu FDA clearance, (2) mocnym przyspieszeniu przychodow w kwartalnym raporcie i (3) reverse split w celu utrzymania listingu na Nasdaq - taka trojka zdarzen w ciagu 2-3 tygodni to znany wzorzec 'squeeze' na niskim floacie (analogicznie do TRUG/IVF z poprzednich lekcji), ale ZBYT rozgrzany i zbyt niski float, by bezpiecznie gonic - wartosc jest w rozpoznaniu wzorca WCZESNIEJ (np. w dniu clearance lub raportu), nie w gonieniu po fakcie."}
+  {
+    "ticker": "SMTK",
+    "pct": 5777.29,
+    "day": "2026-08-20",
+    "presignal": "SmartKem (mikro-cap, polprzewodniki) zawarl na poczatku sierpnia 2026 umowe business combination (all-stock) z Ferrox Critical Minerals - pre-sygnal byl PUBLICZNY z kilkunastodniowym wyprzedzeniem (ogloszenie na poczatku miesiaca), ale kurs przed 20.08 byl w okolicach $0.089 (14.08) - klasyczny penny-stock reverse-merger do goracego sektora (critical minerals, zbiega sie z aktywnym katalizatorem politycznym Trump/critical minerals push).",
+    "lesson": "Mikro-cap penny stock (<$0.10) ogłaszający reverse-merger/business combination w GORĄCY sektor tematyczny (tu: critical minerals, zbieżny z aktywną polityką Trumpa) to wzorzec ekstremalnego, wielotygodniowego rozgrzania kursu przy pierwszym realnym newsie o postępie transakcji - warto wpisywać takie ogłoszenia na watchlist (jako obserwację/unikanie, bo start jest z ceny groszowej i ruch jest paraboliczny/niehandlowy z rozsądnym ryzykiem), nie gonić po fakcie."
+  },
+  {
+    "ticker": "SCNI",
+    "pct": 972.99,
+    "day": "2026-08-20",
+    "presignal": "19.08.2026 spolka oglosila zmiane wspolczynnika ADS 1-za-10 (reverse split) jako srodek zgodnosci z minimalna cena Nasdaq (compliance deadline 08.09.2026) - ogloszenie bylo jawne DZIEN PRZED ruchem, split efektywny 21.08.2026.",
+    "lesson": "Ogloszenie reverse split/ADS ratio change 'dla zgodnosci z Nasdaq' (cena ponizej $1 przez 30+ sesji) w mikro-cap biotechu to mierzalny, jednodniowy presygnal na spekulacyjny pop w dniach miedzy ogloszeniem a efektywna data splitu - warto skanowac swiezef 6-K/8-K z fraza 'reverse split'/'ADS ratio' jako kategorie podwyzszonej zmiennosci na 1-3 dni przed efektywna data."
+  },
+  {
+    "ticker": "BTOG",
+    "pct": 320.74,
+    "day": "2026-08-20",
+    "presignal": "Bit Origin oglosil reverse split 1-za-5 efektywny 21.08.2026 - podobny wzorzec jak SCNI: jawne ogloszenie splitu z wyprzedzeniem, pop dzien przed efektywna data.",
+    "lesson": "Potwierdza wzorzec z SCNI tego samego dnia: reverse split w mikro-cap (tu: krypto-miner) generuje spekulacyjny wolumen/pop w sesji BEZPOŚREDNIO przed efektywna data splitu - dwa niezalezne przypadki tego samego dnia (SCNI, BTOG) podnosza wiarygodnosc wzorca jako powtarzalnego, warty stalego miejsca na checklist wolumenowej."
+  },
+  {
+    "ticker": "BTCT",
+    "pct": 75.69,
+    "day": "2026-08-20",
+    "presignal": "BTC Digital (dawny miner bitcoina) oglosil 20.08 mianowanie Wei Sun na stanowisko Chief AI Business Growth Officer i strategiczny pivot w infrastrukture obliczeniowa AI (repurposing istniejacej mocy/data center pod AI compute) - ogloszenie i reakcja tego samego dnia, brak jawnego presygnalu dzien wczesniej.",
+    "lesson": "Mali gornicy bitcoina ogłaszający pivot strategiczny w AI/HPC compute (nowy 'Chief AI' executive + repurposing infrastruktury) to powtarzalny sektorowy wzorzec (analogiczny do wiekszych minerow jak CORZ/CIFR w poprzednich latach) - warto wpisac 'crypto miner -> AI pivot' jako kategorie na radar 8-K/PR z executive appointment, poniewaz rynek reaguje natychmiast i mocno na sam news o strategicznej zmianie modelu biznesowego."
+  },
+  {
+    "ticker": "BRLS",
+    "pct": 91.89,
+    "day": "2026-08-20",
+    "presignal": "Borealis Foods (food-tech, wysokoproteinowy ramen) - $17mln refinansowanie z glownym akcjonariuszem splacajace restrykcyjny dlug, ogloszone w dniach poprzedzajacych - kontynuacja wielosesyjnego ruchu (kurs $0.912 do $1.50, +64% jednego dnia wedlug jednego zrodla, +91.89% wedlug drugiego - rozbieznosc danych miedzy zrodlami). Rownolegle 14.08 spolka ogłosila opoznienie w zlozeniu 10-Q - sygnal mieszany (positive refinancing vs. negatywny compliance issue).",
+    "lesson": "Refinansowanie/splata restrykcyjnego dlugu przez glownego akcjonariusza w zadluzonym small-cap food/consumer to mierzalny presygnal poprawy plynnosci, ktory rynek nagradza wielosesyjnym rajdem (+60-90% w ciagu kilku dni) - ALE rownolegle opoznienie w raportowaniu (10-Q late filing) to sygnal ostrzegawczy jakosci ksiegowej, warto traktowac takie 'debt relief pop' jako wysokiego ryzyka mimo pozytywnej reakcji cenowej."
+  },
+  {
+    "ticker": "ELAB",
+    "pct": 988.70,
+    "day": "2026-08-20",
+    "presignal": "PMGC Holdings (roll-up mikro-cap) - piata akwizycja w ciagu roku (A&B Aerospace, $4.5mln, $5mln przychodu) ogloszona wczesniej, plus reverse split 1-za-10 efektywny 21.08.2026 (analogiczny presygnal jak SCNI/BTOG tego samego dnia).",
+    "lesson": "Kolejne potwierdzenie wzorca 'reverse split efektywny nastepnego dnia = pop dzien wczesniej' (trzeci przypadek tego samego dnia: SCNI, BTOG, ELAB) - warto zbudowac systematyczny skan zapowiedzianych reverse splitow na 1-2 dni przed efektywna data jako osobna kategorie wolumenowa, niezaleznie od branzy spolki."
+  }
 ]
