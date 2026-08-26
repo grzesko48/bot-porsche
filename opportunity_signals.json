@@ -1,6 +1,6 @@
 {
   "_date": "2026-08-26",
-  "_run": "sroda, bieg PRZED OTWARCIEM 14:30 CEST (lub najblizszy biezacy). Volume/catalyst: CAPR (Capricor Therapeutics) odbija z dna po miesiacu spadkow (-66% wzgledem 24.07) na potrojnym stosie katalizatorow: FDA przedluzyla PDUFA dla deramiocel do 22.11.2026 (nie odrzucila), The Lancet opublikowal niezalezne dane HOPE-3 (spowolnienie spadku funkcji konczyny gornej o 54% vs placebo), Cantor podniosl rating do Overweight i cel z $3.50 do $28 (24-25.08) - wolumen ~3.6x sredniej, kurs +58% w jeden dzien do $6.65. Poniewaz pct_1m jest mocno ujemny (odbicie z dolka, nie pogon za gorka), bezpiecznik paraboli NIE blokuje - czysty kandydat do oceny przez rdzen. Contract: RUM (dawniej Rumble) - kontrakt GPU cloud $13.7mld (3.3x kapitalizacji) nadal aktualny (ujawniony 23-24.08), ale kurs juz +~60% w miesiac (szacunek) - ponad prog +50% paraboli, bezpiecznik prawdopodobnie zablokuje mimo furtki (kontrakt sie dopiero rozliczy). Policy: USAR (USA Rare Earth) - $1.55mld rzadowe sfinansowanie SPV dla Serra Verde domkniete 24.08, glosowanie akcjonariuszy ws. przejecia 28.08.2026 tuz przed nami, kurs spadl 5% mimo dobrej wiadomosci (sell-the-news), pct_1m ok. +29% (strefa 25-40%, furtka still_upside aktywna - polityka metali krytycznych Trumpa nadal sie rozwija, transakcja niedomknieta). NNE (Nano Nuclear Energy) - sektorowy sygnal tematyczny (renesans atomowy/polityka energetyczna), swieze male umowy komercyjne (Tillman framework 23.08, HALEU MOU z Quadrant Nuclear 17.08), pct_1m tylko +7% (nierozgrzany), ale BRAK pojedynczego kontraktu z potwierdzona wartoscia $ - sam nie generuje twardego kandydata kontraktowego, tylko kontekst sektorowy. Fund13F: Duquesne/Druckenmiller (13F Q2 2026) - NOWE pozycje w BTDR (Bitdeer, pct_1m ok. -20%, nierozgrzany, dobry kandydat do akumulacji za funduszem) i PURR/Hyperliquid Strategies (pct_1m ok. +72-90%, mocno ponad prog +50% paraboli - bezpiecznik zablokuje, dodatkowo wyniki roczne 27.08 = ryzyko binarne w obie strony, brak still_upside). IPO, Insider (dzisiejsza runda), Congress: brak swiezych, konkretnych sygnalow z wiarygodna cena i realnym katalizatorem w tej rundzie (znaleziono tylko rutynowe/duze-kapitalizacyjne transakcje kongresmenow bez wyraznego katalizatora - pominieto). WAZNE: KASA - folder Google Drive 'aktualny' nadal ma tylko eksport PLN sprzed 2026-06-06 (ponad 2.5 miesiaca nieaktualny, bez zmian od poprzednich 2 biegow) - Krok D ponownie wstrzymany, alert wyslany.",
+  "_run": "sroda, bieg SRODSESYJNY 18:30 CEST (aktualizacja biegu 14:30). Odswiezono ceny i wykonano nowa runde wyszukiwan - brak nowych, twardych kandydatow ponad juz zidentyfikowane rano. CAPR kontynuuje odbicie: kurs $7.90 (+8.1% od otwarcia, +18.8% od porannego $6.65) - katalizatory (FDA PDUFA 22.11, Lancet HOPE-3, Cantor upgrade) bez zmian, pct_1m nadal mocno ujemny (odbicie z dolka), bezpiecznik paraboli nie blokuje. RUM: kurs ok. $9.19 (dalsze lekkie cofniecie z porannych $9.30, przedzial dnia niepewny w zrodlach) - kontrakt GPU $13.7mld bez zmian, nadal ponad prog +50% paraboli mimo furtki. USAR, NNE, BTDR, PURR - bez nowych informacji, ceny/katalizatory jak w biegu porannym, wciaz aktualne (glosowanie USAR 28.08, wyniki PURR 27.08 nadal przed nami). Popoludniowe skanowanie (unusual volume, 8-K/kontrakty, insiderzy, Trump/EO, Congress) nie wykazalo nowych >=15-20% ruchow z jasnym, swiezym katalizatorem ponad juz ujete - rynek szeroki plus 0.3-0.6%, NVIDIA earnings po sesji jako glowny katalizator makro (nie spolka z naszego uniwersum). WAZNE: KASA - folder Google Drive 'aktualny' nadal ma tylko eksport PLN sprzed 2026-06-06 - Krok D w tym biegu ponownie zalezny od sprawdzenia najnowszego pliku PLN_*.xlsx przed uruchomieniem pipeline.",
   "ipo": [],
   "volume": [
     {
@@ -9,9 +9,9 @@
       "volume_mult": 3.6,
       "pct_today": 57.96,
       "broke_high": false,
-      "price_usd": 6.65,
-      "pct_1m": -66.2,
-      "source": "Benzinga / Yahoo Finance / StocksToTrade / TimothySykes (24-26.08.2026)",
+      "price_usd": 7.90,
+      "pct_1m": -59.9,
+      "source": "Benzinga / Yahoo Finance / StocksToTrade / TimothySykes / Investing.com (24-26.08.2026, aktualizacja popoludniowa)",
       "catalyst": "FDA przedluzyla PDUFA dla deramiocel do 22.11.2026 (nie odrzucila) + The Lancet: niezalezne, recenzowane dane HOPE-3 potwierdzajace spowolnienie spadku funkcji konczyny gornej o 54% vs placebo + Cantor podnosi rating do Overweight, cel z $3.50 do $28 (24-25.08.2026)",
       "note": "Kurs spadl z $19.70 (24.07) do ok. $3-4 po negatywnym glosowaniu panelu doradczego FDA ws. wskazania kardiomiopatii (koniec lipca), teraz odbija na serii pozytywnych wiadomosci. To odbicie z dna, nie pogon za gorka - pct_1m ujemny, bezpiecznik paraboli nie dotyczy. Ryzyko: BLA przeorientowane na funkcje konczyny gornej, ostateczna decyzja FDA dopiero w listopadzie - ryzyko binarne pozostaje."
     }
@@ -23,9 +23,9 @@
       "contract_usd": 13700000000,
       "market_cap_usd": 4120000000,
       "source": "Yahoo Finance / Investing.com / Benzinga (23-26.08.2026)",
-      "hours_ago": 72,
-      "price_usd": 9.30,
-      "pct_1m": 59.5,
+      "hours_ago": 76,
+      "price_usd": 9.19,
+      "pct_1m": 58.2,
       "catalyst": "6-letnia umowa na uslugi GPU $13.7mld (ok. 3.3x kapitalizacji) z nieujawnionym amerykanskim klientem cloud, ujawniona 23-24.08.2026; platnosc w 3 transzach (trzecia warunkowa)",
       "still_upside": true,
       "upside_reason": "Kontrakt dopiero podpisany, realizacja przychodu sie zaczyna, znaczna czesc wartosci jeszcze niewyceniona - ALE pct_1m juz szacunkowo ok. +60%, ponad twardy prog +50% (parabola) - bezpiecznik prawdopodobnie zablokuje zakup mimo furtki, dopoki kurs sie nie cofnie",
