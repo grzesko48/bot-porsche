@@ -1,5 +1,5 @@
 {
-  "cash_pln": 31757.849209839027,
+  "cash_pln": 24059.849209839027,
   "start_capital_pln": 100000.0,
   "start_date": "2026-06-16",
   "positions": [
@@ -12,7 +12,7 @@
       "peak_usd": 159.0399932861328,
       "stop_usd": 140.4,
       "target_usd": 194.246,
-      "days_held": 19.0,
+      "days_held": 20.0,
       "kind": "CORE",
       "score": 7.4
     },
@@ -25,7 +25,7 @@
       "peak_usd": 1749.62,
       "stop_usd": 1613.08,
       "target_usd": 2273.791,
-      "days_held": 18.0,
+      "days_held": 19.0,
       "kind": "CORE",
       "score": 7.7
     },
@@ -38,7 +38,7 @@
       "peak_usd": 94.8499984741211,
       "stop_usd": 86.91,
       "target_usd": 122.811,
-      "days_held": 18.0,
+      "days_held": 19.0,
       "kind": "CORE",
       "score": 7.1
     },
@@ -51,10 +51,36 @@
       "peak_usd": 398.37,
       "stop_usd": 374.3,
       "target_usd": 517.881,
-      "days_held": 8.0,
+      "days_held": 9.0,
       "kind": "CORE",
       "score": 7.7
+    },
+    {
+      "ticker": "CAPR",
+      "tag": "sleeve",
+      "shares": 147.839846,
+      "entry_usd": 7.9,
+      "entry_date": "2026-08-26",
+      "peak_usd": 7.9,
+      "stop_usd": 6.71,
+      "target_usd": 10.27,
+      "days_held": 0,
+      "kind": "WOLUMEN",
+      "score": 6.5
+    },
+    {
+      "ticker": "BTDR",
+      "tag": "sleeve",
+      "shares": 100.425331,
+      "entry_usd": 9.2,
+      "entry_date": "2026-08-26",
+      "peak_usd": 9.2,
+      "stop_usd": 7.36,
+      "target_usd": 12.88,
+      "days_held": 0,
+      "kind": "FUND13F",
+      "score": 6.5
     }
   ],
-  "updated": "2026-08-22"
+  "updated": "2026-08-26"
 }
