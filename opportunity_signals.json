@@ -1,18 +1,19 @@
 {
-  "_date": "2026-08-25",
-  "_run": "wtorek, bieg SRODSESYJNY 18:30 CEST. Volume: DAIC (CID HoldCo) +306% w pon. 24.08 na wolumenie ~25x sredniej (102mln vs 4mln akcji) - dystresowany microcap zagrozony delistingiem z Nasdaq, BRAK potwierdzonego katalizatora fundamentalnego, typowy short-squeeze/pump (pct_1m +322% -> bezpiecznik paraboli zablokuje, materiał do jutrzejszej retro, NIE do gonienia). Contract: RUM (dawniej Rumble) ujawnil 23-24.08.2026 6-letni kontrakt GPU cloud $13.7mld = 3.3x kapitalizacji ($4.12mld) - rzadka skala transformacyjna, ale pct_1m juz +76% (ponad prog paraboli +50%, bezpiecznik zablokuje mimo furtki still_upside - kontrakt dopiero sie rozliczy w 3 transzach). Fund13F: Duquesne/Druckenmiller (13F Q2 2026, ujawnione sierpien) - NOWE pozycje w BTDR (Bitdeer, pct_1m -12%, nie rozgrzane) i PURR/Hyperliquid Strategies (pct_1m +74%, ponad prog paraboli). Congress: Nancy Pelosi (malzonek) pierwszy zakup Bloom Energy (BE) ujawniony 21.08.2026 (transakcje 24-28.07.2026), ale BE to duzy large-cap ($63.8mld) - do oceny przez filtr ryzyka, pct_1m plaski (-0.3%). Policy: USAR (USA Rare Earth) na fali polityki metali krytycznych Trumpa (Defense Production Act, $3mld inwestycji), pct_1m +34% (strefa 'rozgrzane'), furtka still_upside=true bo glosowanie akcjonariuszy ws. przejecia Cerro Verde 28.08.2026 blisko i polityka nadal sie rozwija - ALE brak bezposredniego kontraktu/tickera w innej grupie, wiec sam nie wygeneruje kandydata (tylko kontekst). IPO i Insider: brak w tej rundzie konkretnych, swiezych sygnalow z wiarygodna cena/data. WAZNE: KASA - Google Drive folder 'aktualny' (id 1YRH_...) nadal ma tylko eksport PLN z 2026-06-09 (Total 1595.38 zl), ponad 2.5 miesiaca nieaktualny (bez zmian od wczorajszego biegu) - Krok D pipeline ponownie wstrzymany, alert wyslany.",
+  "_date": "2026-08-26",
+  "_run": "sroda, bieg PRZED OTWARCIEM 14:30 CEST (lub najblizszy biezacy). Volume/catalyst: CAPR (Capricor Therapeutics) odbija z dna po miesiacu spadkow (-66% wzgledem 24.07) na potrojnym stosie katalizatorow: FDA przedluzyla PDUFA dla deramiocel do 22.11.2026 (nie odrzucila), The Lancet opublikowal niezalezne dane HOPE-3 (spowolnienie spadku funkcji konczyny gornej o 54% vs placebo), Cantor podniosl rating do Overweight i cel z $3.50 do $28 (24-25.08) - wolumen ~3.6x sredniej, kurs +58% w jeden dzien do $6.65. Poniewaz pct_1m jest mocno ujemny (odbicie z dolka, nie pogon za gorka), bezpiecznik paraboli NIE blokuje - czysty kandydat do oceny przez rdzen. Contract: RUM (dawniej Rumble) - kontrakt GPU cloud $13.7mld (3.3x kapitalizacji) nadal aktualny (ujawniony 23-24.08), ale kurs juz +~60% w miesiac (szacunek) - ponad prog +50% paraboli, bezpiecznik prawdopodobnie zablokuje mimo furtki (kontrakt sie dopiero rozliczy). Policy: USAR (USA Rare Earth) - $1.55mld rzadowe sfinansowanie SPV dla Serra Verde domkniete 24.08, glosowanie akcjonariuszy ws. przejecia 28.08.2026 tuz przed nami, kurs spadl 5% mimo dobrej wiadomosci (sell-the-news), pct_1m ok. +29% (strefa 25-40%, furtka still_upside aktywna - polityka metali krytycznych Trumpa nadal sie rozwija, transakcja niedomknieta). NNE (Nano Nuclear Energy) - sektorowy sygnal tematyczny (renesans atomowy/polityka energetyczna), swieze male umowy komercyjne (Tillman framework 23.08, HALEU MOU z Quadrant Nuclear 17.08), pct_1m tylko +7% (nierozgrzany), ale BRAK pojedynczego kontraktu z potwierdzona wartoscia $ - sam nie generuje twardego kandydata kontraktowego, tylko kontekst sektorowy. Fund13F: Duquesne/Druckenmiller (13F Q2 2026) - NOWE pozycje w BTDR (Bitdeer, pct_1m ok. -20%, nierozgrzany, dobry kandydat do akumulacji za funduszem) i PURR/Hyperliquid Strategies (pct_1m ok. +72-90%, mocno ponad prog +50% paraboli - bezpiecznik zablokuje, dodatkowo wyniki roczne 27.08 = ryzyko binarne w obie strony, brak still_upside). IPO, Insider (dzisiejsza runda), Congress: brak swiezych, konkretnych sygnalow z wiarygodna cena i realnym katalizatorem w tej rundzie (znaleziono tylko rutynowe/duze-kapitalizacyjne transakcje kongresmenow bez wyraznego katalizatora - pominieto). WAZNE: KASA - folder Google Drive 'aktualny' nadal ma tylko eksport PLN sprzed 2026-06-06 (ponad 2.5 miesiaca nieaktualny, bez zmian od poprzednich 2 biegow) - Krok D ponownie wstrzymany, alert wyslany.",
   "ipo": [],
   "volume": [
     {
-      "ticker": "DAIC",
-      "name": "CID HoldCo, Inc.",
-      "volume_mult": 25.0,
-      "pct_today": 126.0,
-      "broke_high": true,
-      "price_usd": 2.95,
-      "pct_1m": 322.0,
-      "source": "Benzinga / StocksToTrade / Timothy Sykes / TradingView (24-25.08.2026)",
-      "note": "Wolumen ~102.2mln akcji vs śr. ~4.06mln (~25x). Z $0.41-0.45 (poł. sierpnia) do $1.73 w pon. 24.08 (+306% sesja), po sesji do $3.90, premarket wt. ~$2.95. BRAK potwierdzonego katalizatora fundamentalnego — dystresowany microcap zagrożony delistingiem z Nasdaq (niespełnione minimum market value), ryzyko default na pożyczce. Wygląda na spekulacyjny short-squeeze/pump, nie wybicie wsparte biznesowo."
+      "ticker": "CAPR",
+      "name": "Capricor Therapeutics, Inc.",
+      "volume_mult": 3.6,
+      "pct_today": 57.96,
+      "broke_high": false,
+      "price_usd": 6.65,
+      "pct_1m": -66.2,
+      "source": "Benzinga / Yahoo Finance / StocksToTrade / TimothySykes (24-26.08.2026)",
+      "catalyst": "FDA przedluzyla PDUFA dla deramiocel do 22.11.2026 (nie odrzucila) + The Lancet: niezalezne, recenzowane dane HOPE-3 potwierdzajace spowolnienie spadku funkcji konczyny gornej o 54% vs placebo + Cantor podnosi rating do Overweight, cel z $3.50 do $28 (24-25.08.2026)",
+      "note": "Kurs spadl z $19.70 (24.07) do ok. $3-4 po negatywnym glosowaniu panelu doradczego FDA ws. wskazania kardiomiopatii (koniec lipca), teraz odbija na serii pozytywnych wiadomosci. To odbicie z dna, nie pogon za gorka - pct_1m ujemny, bezpiecznik paraboli nie dotyczy. Ryzyko: BLA przeorientowane na funkcje konczyny gornej, ostateczna decyzja FDA dopiero w listopadzie - ryzyko binarne pozostaje."
     }
   ],
   "contract": [
@@ -21,13 +22,14 @@
       "name": "RUM Group Inc. (dawniej Rumble Inc.)",
       "contract_usd": 13700000000,
       "market_cap_usd": 4120000000,
-      "source": "Yahoo Finance / Benzinga / 247wallst.com (23-25.08.2026)",
-      "hours_ago": 36,
-      "price_usd": 10.30,
-      "pct_1m": 76.4,
-      "catalyst": "6-letnia umowa na usługi GPU $13.7mld (≈3.3x kapitalizacji) z niepowiązanym amerykańskim klientem cloud, ujawniona 23-24.08.2026",
+      "source": "Yahoo Finance / Investing.com / Benzinga (23-26.08.2026)",
+      "hours_ago": 72,
+      "price_usd": 9.30,
+      "pct_1m": 59.5,
+      "catalyst": "6-letnia umowa na uslugi GPU $13.7mld (ok. 3.3x kapitalizacji) z nieujawnionym amerykanskim klientem cloud, ujawniona 23-24.08.2026; platnosc w 3 transzach (trzecia warunkowa)",
       "still_upside": true,
-      "upside_reason": "Kontrakt dopiero podpisany, płatność w 3 transzach (trzecia warunkowa — wymaga akceptacji harmonogramu klienta), realizacja przychodu dopiero się zaczyna, znaczna część wartości jeszcze niewyceniona"
+      "upside_reason": "Kontrakt dopiero podpisany, realizacja przychodu sie zaczyna, znaczna czesc wartosci jeszcze niewyceniona - ALE pct_1m juz szacunkowo ok. +60%, ponad twardy prog +50% (parabola) - bezpiecznik prawdopodobnie zablokuje zakup mimo furtki, dopoki kurs sie nie cofnie",
+      "note": "Kurs spadl z ok. $10.30 (25.08) do ok. $9.30 (zakres dnia 8.98-9.79) - czesciowe cofniecie, warto obserwowac czy wejdzie w widelki 25-50% gdzie furtka realnie zadziala"
     }
   ],
   "insider": [],
@@ -37,42 +39,40 @@
       "fund": "Duquesne Family Office (Stanley Druckenmiller)",
       "action": "NEW",
       "pct_portfolio": 0,
-      "price_usd": 11.10,
-      "pct_1m": -12.0,
-      "note": "Nowa pozycja ~4.1mln akcji za ok. $64.7mln (śr. cena $12.26), ujawniona w 13F za Q2 2026 (stan 30.06.2026, opublikowane sierpień 2026)"
+      "price_usd": 9.20,
+      "pct_1m": -20.0,
+      "note": "Nowa pozycja ~4.1mln akcji za ok. $64.7mln (sr. cena $12.26), ujawniona w 13F za Q2 2026 (stan 30.06.2026, opublikowane sierpien 2026); kurs nadal ponizej sredniej ceny wejscia funduszu - nie rozgrzany, mozliwa akumulacja za smart money. Wzmianka o $4.7mld kontrakcie AI data center juz wczesniej znana rynkowi (nie <48h, nie kwalifikuje sie do grupy contract)."
     },
     {
       "ticker": "PURR",
       "fund": "Duquesne Family Office (Stanley Druckenmiller)",
       "action": "NEW",
       "pct_portfolio": 0.44,
-      "price_usd": 10.80,
-      "pct_1m": 73.9,
-      "note": "Nowa pozycja ~2.9mln akcji za ok. $23.1mln w Hyperliquid Strategies Inc (~0.44% portfela), kurs blisko 52-tyg. maksimum ($11.62), z $6.21 (31.07) do $10.80 (25.08)"
+      "price_usd": 10.66,
+      "pct_1m": 71.7,
+      "note": "Nowa pozycja ~2.9mln akcji za ok. $23.1mln w Hyperliquid Strategies Inc (~0.44% portfela). Kurs juz ponad prog +50% (parabola) - bezpiecznik zablokuje bez wzgledu na furtke. Wyniki roczne (webcast) zaplanowane na 27.08.2026 - ryzyko binarne tuz przed nami, NIE ustawiam still_upside."
     }
   ],
-  "congress": [
-    {
-      "ticker": "BE",
-      "member": "Nancy Pelosi (transakcja małżonka)",
-      "amount_usd": 7500000,
-      "days_ago": 30,
-      "committee_relevant": false,
-      "price_usd": 216.65,
-      "pct_1m": -0.3,
-      "note": "Pierwszy w historii zakup BE: 15 000 akcji (24 i 28.07.2026) + 200 opcji call (strike $100, exp 06/2027), wartość $3-12mln (ujawnione 21.08.2026 razem z dokupieniem INTC). UWAGA: large-cap ($63.8mld kapitalizacji), pct_1m liczone koniec-do-końca mylące przez dużą zmienność w miesiącu (szczyt ~$290+ na pocz. lipca, dołek ~$160 pod koniec lipca)."
-    }
-  ],
+  "congress": [],
   "policy": [
     {
       "ticker": "USAR",
       "name": "USA Rare Earth, Inc.",
-      "price_usd": 19.02,
-      "pct_1m": 34.4,
-      "catalyst": "Trump/Biały Dom — polityka metali krytycznych (07.2026 Executive Order + Presidential Determination/Defense Production Act, 07.08.2026 okrągły stół w Białym Domu z ~$3mld inwestycji w grafit/bor/tytan/baterie)",
+      "price_usd": 18.26,
+      "pct_1m": 29.1,
+      "catalyst": "Trump/Bialy Dom - polityka metali krytycznych (07.2026 Executive Order + Defense Production Act, 07.08.2026 okragly stol w Bialym Domu ~$3mld inwestycji); 24.08.2026 zakonczono upsized $1.55mld rzadowo-wspierane finansowanie SPV dla przejecia Serra Verde",
       "still_upside": true,
-      "upside_reason": "Głosowanie akcjonariuszy ws. przejęcia Cerro Verde zaplanowane na 28.08.2026 (bliski katalizator); szerszy pakiet polityki rządowej (DPA, dotacje, kontrakty z Pentagonem dla sektora) wciąż się rozwija, nie jest w pełni zdyskontowany",
-      "note": "21.08.2026 sektorowa fala: USAR +8%, Critical Metals +10%, MP Materials +5% w jeden dzień. Brak bezpośredniego, świeżego kontraktu rządowego dla USAR — sam nie generuje kandydata (grupa policy = kontekst), chyba że pojawi się konkretny kontrakt."
+      "upside_reason": "Glosowanie akcjonariuszy ws. przejecia Serra Verde (unikalne zloze rare earth poza Azja, Brazylia) zaplanowane na 28.08.2026 - bliski, konkretny katalizator; kurs spadl 5% pomimo pozytywnej wiadomosci o sfinansowaniu (sell-the-news na niedomknietej transakcji), pct_1m w strefie 25-40% gdzie furtka ma sens",
+      "note": "21.08.2026 sektorowa fala (USAR, Critical Metals, MP Materials w gorę); brak bezposredniego, swiezego kontraktu rzadowego z konkretna kwota - dlatego w grupie policy, nie contract"
+    },
+    {
+      "ticker": "NNE",
+      "name": "NANO Nuclear Energy Inc.",
+      "price_usd": 18.25,
+      "pct_1m": 7.4,
+      "catalyst": "Sektorowa polityka energetyczna (renesans atomowy, uranowy rajd sierpniowy) + swieze male umowy komercyjne: commercial framework z Tillman (23.08.2026) i MOU ws. dostaw HALEU z Quadrant Nuclear (17.08.2026)",
+      "still_upside": false,
+      "note": "Kronos MMR posuwa sie w licencjonowaniu NRC (Q3 earnings 12.08.2026). Brak pojedynczego kontraktu z potwierdzona wartoscia $ vs kapitalizacja - sygnal tematyczny/sektorowy, nie samodzielny kandydat kontraktowy. pct_1m nierozgrzany, bez blokady paraboli."
     }
   ]
 }

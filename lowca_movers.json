@@ -1,5 +1,9 @@
 [
-  {"ticker": "BTCT", "pct": 54, "day": "2026-08-24", "presignal": "W piątek 21.08 kurs BTC Digital spadł ok. 22% po filingu SEC rejestrującym 18,42 mln akcji do odsprzedaży (rozwodnienie) — nietypowy spadek i podwyższony wolumen były widoczne jeszcze przed poniedziałkowym komunikatem o ukończeniu instalacji kopalniczej w Georgii.", "lesson": "Gwałtowny spadek na filingu rejestrującym akcje do sprzedaży (dilution 6-K/S-1) warto traktować jako sygnał do obserwacji spółki na kolejne sesje, bo odreagowanie w drugą stronę na dobrej wiadomości bywa równie gwałtowne."},
-  {"ticker": "XPON", "pct": 97, "day": "2026-08-24", "presignal": "Prywatna emisja akcji (ok. 8-9 mln USD) formalnie zamknęła się już w piątek 21.08, choć rynek dowiedział się o tym dopiero w poniedziałek razem z przejęciem aktywów naftowo-gazowych w Luizjanie i zmianą nazwy spółki na Expion Energy.", "lesson": "Warto skanować świeże filingi o zamkniętych rundach finansowania (Form D/8-K) u mikro-spółek publikowane w piątek — często poprzedzają transformacyjne ogłoszenie strategiczne w najbliższy poniedziałek."},
-  {"ticker": "PMI", "pct": 40, "day": "2026-08-24", "presignal": "Data publikacji wyników Q2 (24.08) była znana z wyprzedzeniem z kalendarza raportów, a w piątek 21.08 krążyły newsy o pogarszającej się płynności spółki, co mocno zbiło oczekiwania rynku — stąd tak silna reakcja na 39-proc. wzrost przychodów.", "lesson": "Warto pilnować kalendarza wyników małych, zmiennych spółek i sprawdzać dzień wcześniej sentyment/płynność — mocno zaniżone oczekiwania tuż przed raportem zwiększają szansę na dużą pozytywną niespodziankę."}
+  {
+    "ticker": "KURA",
+    "pct": 11,
+    "day": "2026-08-25",
+    "presignal": "CEO Troy Edward Wilson kupil 100 000 akcji za ok. $1.24mln (sr. cena $12.39) 24.08.2026, ujawnione tego samego dnia/nastepnego ranka przed sesja; kurs +11% w premarket 25.08 i osiagnal nowy roczny szczyt tego samego dnia.",
+    "lesson": "Duzy, jednorazowy zakup insidera (CEO/prezes, kwota >$1mln) ujawniony wieczorem lub tuz przed otwarciem to niemal natychmiastowy (T+1) sygnal momentum w mid/small-cap biotech - warto sprawdzac OpenInsider/Form 4 zlozone po godzinach z kwota >$500K od CEO, nie tylko klastry wielu insiderow naraz. Ten wzorzec jest szybszy do zlapania niz katalizatory kontraktowe (reakcja tego samego dnia, nie za kilka dni)."
+  }
 ]
