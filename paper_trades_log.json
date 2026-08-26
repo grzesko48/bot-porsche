@@ -284,5 +284,27 @@
     "value_pln": 13465.15,
     "pnl_pln": 0.0,
     "reason": "wejście (core, score 7.7)"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "CAPR",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 147.8398,
+    "price_usd": 7.9,
+    "value_pln": 4298.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.5)"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "BTDR",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 100.4253,
+    "price_usd": 9.2,
+    "value_pln": 3400.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.5)"
   }
 ]
