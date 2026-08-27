@@ -1,19 +1,19 @@
 {
-  "_date": "2026-08-26",
-  "_run": "sroda, bieg SRODSESYJNY 18:30 CEST (aktualizacja biegu 14:30). Odswiezono ceny i wykonano nowa runde wyszukiwan - brak nowych, twardych kandydatow ponad juz zidentyfikowane rano. CAPR kontynuuje odbicie: kurs $7.90 (+8.1% od otwarcia, +18.8% od porannego $6.65) - katalizatory (FDA PDUFA 22.11, Lancet HOPE-3, Cantor upgrade) bez zmian, pct_1m nadal mocno ujemny (odbicie z dolka), bezpiecznik paraboli nie blokuje. RUM: kurs ok. $9.19 (dalsze lekkie cofniecie z porannych $9.30, przedzial dnia niepewny w zrodlach) - kontrakt GPU $13.7mld bez zmian, nadal ponad prog +50% paraboli mimo furtki. USAR, NNE, BTDR, PURR - bez nowych informacji, ceny/katalizatory jak w biegu porannym, wciaz aktualne (glosowanie USAR 28.08, wyniki PURR 27.08 nadal przed nami). Popoludniowe skanowanie (unusual volume, 8-K/kontrakty, insiderzy, Trump/EO, Congress) nie wykazalo nowych >=15-20% ruchow z jasnym, swiezym katalizatorem ponad juz ujete - rynek szeroki plus 0.3-0.6%, NVIDIA earnings po sesji jako glowny katalizator makro (nie spolka z naszego uniwersum). WAZNE: KASA - folder Google Drive 'aktualny' nadal ma tylko eksport PLN sprzed 2026-06-06 - Krok D w tym biegu ponownie zalezny od sprawdzenia najnowszego pliku PLN_*.xlsx przed uruchomieniem pipeline.",
+  "_date": "2026-08-27",
+  "_run": "czwartek, bieg PRZEDSESYJNY 14:30 CEST. Odswiezono ceny i wykonano nowa runde wyszukiwan wg zasad (rynkowe/smart-money/polityka). Kontynuacja tez z 26.08 - brak nowych, twardych kandydatow spoza juz sledzonej listy: CAPR nadal odbija (kurs po sesji 24-25.08 w okolicach $7.90, dzisiejszy zakres dnia $7.25-8.60, po godzinach $8.24 / +21% - katalizatory FDA PDUFA 22.11 + Lancet HOPE-3 + Cantor upgrade bez zmian, pct_1m nadal mocno ujemny, bezpiecznik paraboli nie blokuje). RUM: kurs $9.33 (+3.1%, zakres dnia 8.98-9.79), kontrakt GPU $13.7mld bez zmian, pct_1m ok. 57% - w strefie ponad +50%, bezpiecznik prawdopodobnie zablokuje mimo furtki. USAR: kurs $19.52 (26.08, zakres 19.37-20.52), pct_1m ok. 38% - glosowanie akcjonariuszy ws. przejecia Serra Verde JUTRO (28.08.2026), to ostatni warunek zamkniecia transakcji - furtka wciaz zasadna (wynik glosowania nieznany, katalizator nie zdyskontowany). PURR: SWIEZY katalizator DZIS - webcast wynikow rocznych (FY2026) o 8:00 ET + $30mln program skupu akcji wlasnych ogloszony, kurs wybil nowe roczne maksimum (po godzinach $11.88 wobec zamkniecia $10.66, 52-tyg. high $11.62 przelamane); pct_1m szacunkowo ok. 90% - ZDECYDOWANIE ponad twardy prog +50% (parabola), bot NIE kupuje niezaleznie od furtki - odnotowane tylko dla konfluencji/monitoringu, nie jako kandydat do zakupu. NNE: bez swiezej ceny/newsa ponad juz znane (Kronos MMR NRC licensing, male komercyjne umowy Tillman/Quadrant Nuclear), pct_1m nadal ok. 7%, nierozgrzany. Retro (KROK C): SMMT +27.7% na Phase III Akeso (ivonescimab, HARMONi-GI1), NURO +58.7% na japonskiej aprobacie regulacyjnej DPNCheck, PVAC +27.8% i ALDX +27.8% bez jednoznacznego pojedynczego triggera w dostepnych zrodlach - lekcje zapisane w lowca_movers.json. WAZNE: KASA - status eksportu PLN na Google Drive do weryfikacji w Kroku D przed uruchomieniem pipeline.",
   "ipo": [],
   "volume": [
     {
       "ticker": "CAPR",
       "name": "Capricor Therapeutics, Inc.",
       "volume_mult": 3.6,
-      "pct_today": 57.96,
+      "pct_today": 4.3,
       "broke_high": false,
-      "price_usd": 7.90,
-      "pct_1m": -59.9,
-      "source": "Benzinga / Yahoo Finance / StocksToTrade / TimothySykes / Investing.com (24-26.08.2026, aktualizacja popoludniowa)",
-      "catalyst": "FDA przedluzyla PDUFA dla deramiocel do 22.11.2026 (nie odrzucila) + The Lancet: niezalezne, recenzowane dane HOPE-3 potwierdzajace spowolnienie spadku funkcji konczyny gornej o 54% vs placebo + Cantor podnosi rating do Overweight, cel z $3.50 do $28 (24-25.08.2026)",
-      "note": "Kurs spadl z $19.70 (24.07) do ok. $3-4 po negatywnym glosowaniu panelu doradczego FDA ws. wskazania kardiomiopatii (koniec lipca), teraz odbija na serii pozytywnych wiadomosci. To odbicie z dna, nie pogon za gorka - pct_1m ujemny, bezpiecznik paraboli nie dotyczy. Ryzyko: BLA przeorientowane na funkcje konczyny gornej, ostateczna decyzja FDA dopiero w listopadzie - ryzyko binarne pozostaje."
+      "price_usd": 8.24,
+      "pct_1m": -52.0,
+      "source": "Yahoo Finance / CNBC / WallStreetZen (26-27.08.2026)",
+      "catalyst": "FDA przedluzyla PDUFA dla deramiocel do 22.11.2026 (nie odrzucila) + The Lancet: niezalezne, recenzowane dane HOPE-3 potwierdzajace spowolnienie spadku funkcji konczyny gornej o 54% vs placebo + Cantor podnosi rating do Overweight, cel z $3.50 do $28; Oppenheimer podnosi do Outperform, cel $54 (24-26.08.2026)",
+      "note": "Kurs spadl z $19.70 (24.07) do ok. $3-4 po negatywnym glosowaniu panelu doradczego FDA ws. wskazania kardiomiopatii (koniec lipca), teraz kontynuuje odbicie na serii pozytywnych wiadomosci (po godzinach $8.24). To odbicie z dna, nie pogon za gorka - pct_1m ujemny, bezpiecznik paraboli nie dotyczy. Ryzyko: BLA przeorientowane na funkcje konczyny gornej, ostateczna decyzja FDA dopiero w listopadzie - ryzyko binarne pozostaje."
     }
   ],
   "contract": [
@@ -22,14 +22,28 @@
       "name": "RUM Group Inc. (dawniej Rumble Inc.)",
       "contract_usd": 13700000000,
       "market_cap_usd": 4120000000,
-      "source": "Yahoo Finance / Investing.com / Benzinga (23-26.08.2026)",
-      "hours_ago": 76,
-      "price_usd": 9.19,
-      "pct_1m": 58.2,
+      "source": "Yahoo Finance / CNN / Investing.com (23-27.08.2026)",
+      "hours_ago": 96,
+      "price_usd": 9.33,
+      "pct_1m": 57.0,
       "catalyst": "6-letnia umowa na uslugi GPU $13.7mld (ok. 3.3x kapitalizacji) z nieujawnionym amerykanskim klientem cloud, ujawniona 23-24.08.2026; platnosc w 3 transzach (trzecia warunkowa)",
       "still_upside": true,
-      "upside_reason": "Kontrakt dopiero podpisany, realizacja przychodu sie zaczyna, znaczna czesc wartosci jeszcze niewyceniona - ALE pct_1m juz szacunkowo ok. +60%, ponad twardy prog +50% (parabola) - bezpiecznik prawdopodobnie zablokuje zakup mimo furtki, dopoki kurs sie nie cofnie",
-      "note": "Kurs spadl z ok. $10.30 (25.08) do ok. $9.30 (zakres dnia 8.98-9.79) - czesciowe cofniecie, warto obserwowac czy wejdzie w widelki 25-50% gdzie furtka realnie zadziala"
+      "upside_reason": "Kontrakt dopiero podpisany, realizacja przychodu sie zaczyna, znaczna czesc wartosci jeszcze niewyceniona - ALE pct_1m juz ok. +57%, ponad twardy prog +50% (parabola) - bezpiecznik prawdopodobnie zablokuje zakup mimo furtki, dopoki kurs sie nie cofnie",
+      "note": "Zakres dnia $8.98-9.79 - kurs stabilizuje sie w okolicy $9-9.5, warto obserwowac czy wejdzie w widelek 25-50% gdzie furtka realnie zadziala"
+    },
+    {
+      "ticker": "USAR",
+      "name": "USA Rare Earth, Inc.",
+      "contract_usd": 1550000000,
+      "market_cap_usd": null,
+      "source": "247wallst.com / TradingNews / TS2 / Blockonomi / CoinCentral (24-26.08.2026)",
+      "hours_ago": 60,
+      "price_usd": 19.52,
+      "pct_1m": 38.0,
+      "catalyst": "Zakonczono upsized $1.55mld rzadowo-wspierane finansowanie SPV dla przejecia Serra Verde (jedyne zloze rare earth magnetycznych poza Azja, na skale przemyslowa); Trump/Bialy Dom - polityka metali krytycznych (Executive Order + Defense Production Act, lipcowy okragly stol w Bialym Domu ~$3mld inwestycji)",
+      "still_upside": true,
+      "upside_reason": "Glosowanie akcjonariuszy ws. przejecia Serra Verde ZAPLANOWANE NA JUTRO 28.08.2026 - to ostatni pozostaly warunek zamkniecia transakcji, wynik nieznany i nie zdyskontowany w pelni (kurs spadl 5% mimo pozytywnej wiadomosci o sfinansowaniu - sell-the-news na niedomknietej transakcji); pct_1m w strefie 25-40% gdzie furtka ma najwiecej sensu",
+      "note": "Ryzyko binarne przed samym glosowaniem - w razie odrzucenia mozliwe gwaltowne cofniecie. Sell Stop powinien byc ciasniejszy niz standardowy do czasu wyniku glosowania."
     }
   ],
   "insider": [],
@@ -39,40 +53,30 @@
       "fund": "Duquesne Family Office (Stanley Druckenmiller)",
       "action": "NEW",
       "pct_portfolio": 0,
-      "price_usd": 9.20,
-      "pct_1m": -20.0,
-      "note": "Nowa pozycja ~4.1mln akcji za ok. $64.7mln (sr. cena $12.26), ujawniona w 13F za Q2 2026 (stan 30.06.2026, opublikowane sierpien 2026); kurs nadal ponizej sredniej ceny wejscia funduszu - nie rozgrzany, mozliwa akumulacja za smart money. Wzmianka o $4.7mld kontrakcie AI data center juz wczesniej znana rynkowi (nie <48h, nie kwalifikuje sie do grupy contract)."
+      "price_usd": 9.39,
+      "pct_1m": -25.0,
+      "note": "Nowa pozycja ~4.1mln akcji za ok. $64.7mln (sr. cena $12.26), ujawniona w 13F za Q2 2026; kurs dalej ponizej sredniej ceny wejscia funduszu (spadl z $11.37 21.08 do $9.39) mimo $4.7mld, 16-letniej umowy na lease AI/HPC w Norwegii (Cantor podnosi PT do $18) - rozjazd miedzy fundamentami a cena, ale brak swiezego, potwierdzonego katalizatora <48h w tej rundzie, wiec nie w grupie contract."
     },
     {
       "ticker": "PURR",
       "fund": "Duquesne Family Office (Stanley Druckenmiller)",
       "action": "NEW",
       "pct_portfolio": 0.44,
-      "price_usd": 10.66,
-      "pct_1m": 71.7,
-      "note": "Nowa pozycja ~2.9mln akcji za ok. $23.1mln w Hyperliquid Strategies Inc (~0.44% portfela). Kurs juz ponad prog +50% (parabola) - bezpiecznik zablokuje bez wzgledu na furtke. Wyniki roczne (webcast) zaplanowane na 27.08.2026 - ryzyko binarne tuz przed nami, NIE ustawiam still_upside."
+      "price_usd": 11.88,
+      "pct_1m": 90.0,
+      "note": "Nowa pozycja ~2.9mln akcji za ok. $23.1mln w Hyperliquid Strategies Inc (~0.44% portfela) ujawniona w 13F. DZIS (27.08.2026) webcast wynikow rocznych + ogloszony $30mln buyback - kurs wybil nowe roczne maksimum po godzinach ($11.88 vs 52-tyg. high $11.62). Kurs GLEBOKO ponad twardy prog +50% (parabola, pct_1m ok. +90%) - bot NIE kupuje niezaleznie od furtki. Odnotowane wylacznie do monitoringu/konfluencji."
     }
   ],
   "congress": [],
   "policy": [
     {
-      "ticker": "USAR",
-      "name": "USA Rare Earth, Inc.",
-      "price_usd": 18.26,
-      "pct_1m": 29.1,
-      "catalyst": "Trump/Bialy Dom - polityka metali krytycznych (07.2026 Executive Order + Defense Production Act, 07.08.2026 okragly stol w Bialym Domu ~$3mld inwestycji); 24.08.2026 zakonczono upsized $1.55mld rzadowo-wspierane finansowanie SPV dla przejecia Serra Verde",
-      "still_upside": true,
-      "upside_reason": "Glosowanie akcjonariuszy ws. przejecia Serra Verde (unikalne zloze rare earth poza Azja, Brazylia) zaplanowane na 28.08.2026 - bliski, konkretny katalizator; kurs spadl 5% pomimo pozytywnej wiadomosci o sfinansowaniu (sell-the-news na niedomknietej transakcji), pct_1m w strefie 25-40% gdzie furtka ma sens",
-      "note": "21.08.2026 sektorowa fala (USAR, Critical Metals, MP Materials w gorę); brak bezposredniego, swiezego kontraktu rzadowego z konkretna kwota - dlatego w grupie policy, nie contract"
-    },
-    {
       "ticker": "NNE",
       "name": "NANO Nuclear Energy Inc.",
       "price_usd": 18.25,
-      "pct_1m": 7.4,
-      "catalyst": "Sektorowa polityka energetyczna (renesans atomowy, uranowy rajd sierpniowy) + swieze male umowy komercyjne: commercial framework z Tillman (23.08.2026) i MOU ws. dostaw HALEU z Quadrant Nuclear (17.08.2026)",
+      "pct_1m": 7.0,
+      "catalyst": "Sektorowa polityka energetyczna (renesans atomowy, uranowy rajd) + swieze male umowy komercyjne: commercial framework z Tillman (23.08.2026) i MOU ws. dostaw HALEU z Quadrant Nuclear (17.08.2026)",
       "still_upside": false,
-      "note": "Kronos MMR posuwa sie w licencjonowaniu NRC (Q3 earnings 12.08.2026). Brak pojedynczego kontraktu z potwierdzona wartoscia $ vs kapitalizacja - sygnal tematyczny/sektorowy, nie samodzielny kandydat kontraktowy. pct_1m nierozgrzany, bez blokady paraboli."
+      "note": "Kronos MMR posuwa sie w licencjonowaniu NRC (Q3 earnings 12.08.2026, EPS lepszy niz oczekiwano, przychod ponizej oczekiwan). Brak pojedynczego kontraktu z potwierdzona wartoscia $ vs kapitalizacja - sygnal tematyczny/sektorowy, nie samodzielny kandydat kontraktowy. pct_1m nierozgrzany, bez blokady paraboli."
     }
   ]
 }

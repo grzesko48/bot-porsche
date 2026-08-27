@@ -1,9 +1,30 @@
 [
   {
-    "ticker": "KURA",
-    "pct": 11,
-    "day": "2026-08-25",
-    "presignal": "CEO Troy Edward Wilson kupil 100 000 akcji za ok. $1.24mln (sr. cena $12.39) 24.08.2026, ujawnione tego samego dnia/nastepnego ranka przed sesja; kurs +11% w premarket 25.08 i osiagnal nowy roczny szczyt tego samego dnia.",
-    "lesson": "Duzy, jednorazowy zakup insidera (CEO/prezes, kwota >$1mln) ujawniony wieczorem lub tuz przed otwarciem to niemal natychmiastowy (T+1) sygnal momentum w mid/small-cap biotech - warto sprawdzac OpenInsider/Form 4 zlozone po godzinach z kwota >$500K od CEO, nie tylko klastry wielu insiderow naraz. Ten wzorzec jest szybszy do zlapania niz katalizatory kontraktowe (reakcja tego samego dnia, nie za kilka dni)."
+    "ticker": "SMMT",
+    "pct": 27.7,
+    "day": "2026-08-26",
+    "presignal": "Chinski partner Akeso Inc. ogłosił pozytywne wyniki Phase III (HARMONi-GI1, ivonescimab + chemio vs durvalumab + chemio w zaawansowanym raku drog zolciowych) rano 26.08 - istotny statystycznie i klinicznie efekt na przezycie calkowite oraz sekundarne punkty koncowe. Decyzja FDA ws. ivonescimab oczekiwana do polowy listopada 2026 (znany katalizator w kalendarzu).",
+    "lesson": "Male/srednie biotechy z chinskim partnerem klinicznym (Akeso) maja regularnie zaplanowane odczyty badan Phase III - warto prowadzic kalendarz nadchodzacych readoutow partnerskich (nie tylko wlasnych spolki) i traktowac je jak znane, terminowe katalizatory, mimo ze dokladny dzien publikacji wynikow bywa nieprzewidywalny."
+  },
+  {
+    "ticker": "NURO",
+    "pct": 58.7,
+    "day": "2026-08-26",
+    "presignal": "NeuroMetrix uzyskal japonska aprobate regulacyjna dla NC-stat DPNCheck (urzadzenie do wykrywania neuropatii cukrzycowej) - pozytywna decyzja zagranicznego regulatora dla malego medtechu, wczesniej niezapowiedziana z konkretna data w zrodlach dostepnych w tej rundzie.",
+    "lesson": "Male medtechy czekajace na aprobaty regulacyjne POZA USA (np. Japonia, PMDA) moga dac skokowy ruch ceny porownywalny z FDA - warto sledzic pipeline zagranicznych zgloszen regulacyjnych malych spolek medycznych, nie tylko amerykanski FDA."
+  },
+  {
+    "ticker": "PVAC",
+    "pct": 27.8,
+    "day": "2026-08-26",
+    "presignal": "Brak jednoznacznego, pojedynczego katalizatora zidentyfikowanego w dostepnych zrodlach w tej rundzie - Penn Virginia to producent ropy/gazu (Eagle Ford), ruch mogl byc powiazany z szerszym sektorem energetycznym/cenami ropy tego dnia, a nie spolkowym newsem.",
+    "lesson": "Nie kazdy duzy ruch ma czytelny presygnal spolkowy - male producenci ropy/gazu z niska plynnoscia potrafia poruszac sie mocniej niz szeroki sektor przy wahaniach cen surowca; traktowac jako beta do ropy, nie jako lekcje o konkretnym wzorcu do lapania z wyprzedzeniem."
+  },
+  {
+    "ticker": "ALDX",
+    "pct": 27.8,
+    "day": "2026-08-26",
+    "presignal": "Brak jednoznacznego newsa z 26.08 w dostepnych zrodlach - najblizszy zidentyfikowany katalizator to publikacja wynikow Q2 2026 trzy tygodnie wczesniej (06.08); mozliwe kontynuacja reakcji na wczesniejsze dane/komentarze analitykow (12-miesieczny target $6.60 wg konsensusu wg jednego zrodla).",
+    "lesson": "Gdy najblizszy znany katalizator (earnings) jest juz kilka tygodni za nami, a mimo to spolka rusza o >25% - sprawdzic czy nie doszlo do biezacej aktualizacji rekomendacji analitykow lub cichej publikacji danych klinicznych bez szerokiego echa medialnego; w tej rundzie nie udalo sie ustalic dokladnego triggera."
   }
 ]
