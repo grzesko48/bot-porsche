@@ -1,9 +1,9 @@
 [
   {
-    "ticker": "KURA",
-    "pct": 11,
-    "day": "2026-08-25",
-    "presignal": "CEO Troy Edward Wilson kupil 100 000 akcji za ok. $1.24mln (sr. cena $12.39) 24.08.2026, ujawnione tego samego dnia/nastepnego ranka przed sesja; kurs +11% w premarket 25.08 i osiagnal nowy roczny szczyt tego samego dnia.",
-    "lesson": "Duzy, jednorazowy zakup insidera (CEO/prezes, kwota >$1mln) ujawniony wieczorem lub tuz przed otwarciem to niemal natychmiastowy (T+1) sygnal momentum w mid/small-cap biotech - warto sprawdzac OpenInsider/Form 4 zlozone po godzinach z kwota >$500K od CEO, nie tylko klastry wielu insiderow naraz. Ten wzorzec jest szybszy do zlapania niz katalizatory kontraktowe (reakcja tego samego dnia, nie za kilka dni)."
+    "ticker": "SATS",
+    "pct": 75,
+    "day": "2026-08-26",
+    "presignal": "FCC dochodzenie ws. niewykorzystanego widma EchoStar bylo znane od miesiecy (temat publiczny), ale konkretna, nowa umowa sprzedazy widma do AT&T za $23mld zostala ogloszona/zamknieta tego samego dnia (26.08) - w dostepnych zrodlach brak jasnego, mozliwego do zlapania presygnalu z dnia wczesniejszego (25.08). Duza spolka large-cap (rynek satelitarny/DTH), poza typowym uniwersum mikro/small-cap bota.",
+    "lesson": "Zadluzone spolki telekom/satelitarne z przewleklym dochodzeniem FCC ws. 'hoardingu' widma sa kandydatami na nagly katalizator monetyzacji aktywow (sprzedaz licencji spektrum) - warto raz na jakis czas sprawdzac newsflow FCC/spektrum jako wczesne ostrzezenie, choc dokladny dzien ogloszenia trudny do przewidzenia z wyprzedzeniem 1 dnia. Ten ruch byl w duzej spolce (poza sleeve bota) - mniej praktyczna lekcja niz zwykle mikro-cap wzorce."
   }
 ]
