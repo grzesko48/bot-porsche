@@ -1,31 +1,29 @@
 {
-  "_date": "2026-08-27",
-  "_run": "czwartek, bieg SRODSESYJNY 18:30 CEST (12:36-12:37 ET, rynek otwarty od ok. 3h). Odswiezono ceny calego watchlista: CAPR $10.31 (+10.1% dzis, kontynuacja odbicia z dna - katalizatory FDA/Lancet/Cantor bez zmian, pct_1m nadal mocno ujemny ok. -47.6%), RUM $9.97 (+6.3% dzis, kontrakt GPU $13.7mld bez zmian, pct_1m szacunkowo ok. +71.6% - ponad twardy prog +50%, bezpiecznik nadal blokuje mimo furtki), USAR $18.83 (~plasko dzis, glosowanie akcjonariuszy ws. przejecia Serra Verde JUTRO 28.08 - blizej katalizatora, pct_1m ok. +33.1%, nadal w strefie furtki), NNE $19.32 (+4.4% dzis, pct_1m ok. +13.6%, bez zmian tematycznie), BTDR $11.41 (+6.9% dzis, pct_1m ok. -0.8% - Druckenmiller NEW pozycja nadal nierozgrzana), PURR $13.87 (+20.0% dzis, pct_1m szacunkowo >+120%, mocno ponad prog paraboli - wyniki roczne (webcast) dzis 27.08, ryzyko binarne przed nami, nie kupowac). NOWY kandydat z popoludniowego skanu: VNRX (VolitionRx) +66.8% W JEDNYM DNIU po walidacji testu sepsy (Nu.Q NETs H3.1, The Lancet-poziom recenzowane dane) - klasyczny mikro-cap pump na FDA/klinicznym newsie, cena $0.57 - zgodnie z lekcja (LEGN -41%, BCDA -48%) NIE gonic, wpisuje sie jako przyklad do unikania, nie do kupna (pct_1m szacunkowo >90%, ponad prog paraboli). Sprawdzono tez Navitas Semiconductor (NVTS, przejecie Claros $232.8mln) - transakcja to tylko ok. 10-12% kapitalizacji NVTS (nie >=50%), NIE kwalifikuje sie do grupy kontraktowej, pominieto. Brak nowych, twardych sygnalow insider/13F/congress ponad juz znane (BTDR/PURR Druckenmiller). WAZNE: KASA - folder Google Drive 'aktualny' nadal ma tylko eksport PLN sprzed 2026-06-06 (Total=5.73 zl, ten sam znany blad '6 zl') - Krok D w tym biegu WSTRZYMANY, wyslano alert, PIPELINE NIE URUCHOMIONY z tego powodu (brak aktualnej gotowki).",
-  "ipo": [],
+  "_date": "2026-08-28",
+  "_run": "piatek, bieg PRZEDSESYJNY 14:30 CEST (08:42 ET, przed otwarciem rynku US). Ceny odczytane z Finnhub/stockanalysis.com ok. 12:40 UTC (08:40 ET, premarket). Kontynuacja watchlisty z 27.08: USAR $19.25 (glosowanie akcjonariuszy ws. przejecia Serra Verde DZIS 28.08 - katalizator juz na dzisiaj, pct_1m przeliczony scisle 30-dniowo ok. +36.9%, nadal w strefie furtki 25-50%), NNE $19.24 (pct_1m ok. +19.8%, nierozgrzany), CAPR $10.06 zamkniecie 27.08 (pct_1m przeliczony scisle 30-dniowo ok. +53.0% - UWAGA: to odbicie z dna po panelu FDA, 30 dni temu kurs byl juz mocno zbity po krachu, nie pogon za nowym szczytem, ale mechanicznie ponad twardy prog +50% - bezpiecznik prawdopodobnie zablokuje), BTDR $11.33 (pct_1m ok. +10.2%, Druckenmiller NEW nadal nierozgrzany), RUM $9.43 (pct_1m przeliczony scisle 30-dniowo ok. +56.2% - ponad prog +50%, kontrakt GPU $13.7mld bez zmian, kurs lekko schladza sie z $9.97 do $9.43), PURR $12.83 (pct_1m ok. +108% - mocno parabola, wyniki roczne za nami 27.08, NIE kupowac). NOWE kandydaty z dzisiejszego skanu: TTM Technologies (TTMI) - insider CEO Roks Edwin kupil 10000 akcji za ok. $1.12mln 25.08.2026, pct_1m ok. +14.7% (nierozgrzany), spolka po rekordowym Q2 ($1.0mld przychodu, AI/data center) i akwizycji EPIQ Solutions $1.1mld (17.08.2026); Infleqtion (INFQ) - NASA $20mln kontrakt na kwantowy grawimetr ogloszony 27.08.2026 (ale to tylko ok. 0.6% kapitalizacji $3.1mld, NIE kwalifikuje sie do grupy kontraktowej), swiezy debiut gieldowy (polaczenie z Churchill Capital Corp X, notowanie od 17.02.2026, <18mies.), sektor quantum computing pod wplywem czerwcowych rozporzadzen Trumpa (starsza wiadomosc, tylko tlo), analitycy Strong Buy cel $21 (+46% od obecnej ceny), pct_1m ok. +49.9% - TUZ PRZY twardym progu +50%, ryzyko przekroczenia progu w kazdej chwili, NIE ustawiam furtki mimo kontraktu i ratingow - zbyt blisko paraboli; Enhanced Group (ENHA) - klastrowe zakupy insidera Apeiron Investment Group (Christian Angermayer, 10% wlasciciel/dyrektor), 5 zakupow w 6 mies., najnowszy 200000 akcji po $1.65 (17.08.2026), ALE kurs spadl -43.0% w miesiac (spadek -21.6% w dniu wynikow Q2 13.08.2026) - to zakup insidera W DOL, nie momentum, wysokie ryzyko dalszego spadku, pct_1m ujemny wiec bez blokady paraboli, ale fundamentalnie slaby kwartal.",
+  "ipo": [
+    {
+      "ticker": "INFQ",
+      "name": "Infleqtion, Inc.",
+      "price_usd": 14.32,
+      "pct_1m": 49.9,
+      "ipo_date": "2026-02-17",
+      "catalyst": "NASA $20mln kontrakt na kwantowy grawimetr (Quantum Gravity Gradiometer Program), ogloszony 27.08.2026; szerszy watek: sektor quantum computing pod wplywem rozporzadzen Trumpa z czerwca 2026 (starsza wiadomosc)",
+      "note": "Debiut przez polaczenie z SPAC Churchill Capital Corp X, notowanie od 17.02.2026 (<18 mies.). Analitycy Strong Buy, cel $21 (+46%). pct_1m ok. +49.9% - TUZ PONIZEJ twardego progu +50%, bardzo blisko paraboli. NIE ustawiam still_upside mimo realnego katalizatora - zbyt ryzykowne przy tak bliskim progu, czekac na ewentualne cofniecie."
+    }
+  ],
   "volume": [
     {
       "ticker": "CAPR",
       "name": "Capricor Therapeutics, Inc.",
-      "volume_mult": 3.6,
-      "pct_today": 10.1,
+      "volume_mult": 3.0,
+      "pct_today": 7.5,
       "broke_high": false,
-      "price_usd": 10.31,
-      "pct_1m": -47.6,
-      "source": "stockanalysis.com (27.08.2026, 12:37 ET)",
-      "catalyst": "FDA przedluzyla PDUFA dla deramiocel do 22.11.2026 (nie odrzucila) + The Lancet: niezalezne, recenzowane dane HOPE-3 potwierdzajace spowolnienie spadku funkcji konczyny gornej o 54% vs placebo + Cantor podnosi rating do Overweight, cel z $3.50 do $28 (24-25.08.2026)",
-      "note": "Kontynuacja odbicia z dna (spadek z $19.70 24.07 do $3-4 po negatywnym panelu FDA ws. kardiomiopatii, teraz seria pozytywnych wiadomosci). To nadal odbicie, nie pogon za gorka - pct_1m mocno ujemny. Ryzyko: ostateczna decyzja FDA dopiero w listopadzie."
-    },
-    {
-      "ticker": "VNRX",
-      "name": "VolitionRx Limited",
-      "volume_mult": 10.0,
-      "pct_today": 66.75,
-      "broke_high": true,
-      "price_usd": 0.5656,
-      "pct_1m": 95.0,
-      "source": "stockanalysis.com / ts2.tech (27.08.2026)",
-      "catalyst": "Critical Care Medicine (recenzowane czasopismo) opublikowalo niezalezne dane potwierdzajace, ze biomarker Nu.Q NETs H3.1 przewiduje 28-dniowa smiertelnosc w ciezkiej sepsie (rynek $2.8mld) + H1 2026 przychody +112% r/r",
-      "note": "PRZYKLAD DO UNIKANIA, nie do kupna: klasyczny mikro-cap pump (+97.5% premarket, 10x wolumen) na pojedynczym newsie klinicznym u spolki penny-stock ($0.57). Zgodnie z lekcja z danych bota (LEGN -41%, BCDA -48% po podobnych pumpach) - pct_1m szacunkowo >90%, ponad twardy prog paraboli +50% - bezpiecznik bota powinien to zablokowac. Wpisuje do dziennika jako obserwacja wzorca, nie jako kandydat do BUY."
+      "price_usd": 10.06,
+      "pct_1m": 53.0,
+      "source": "stockanalysis.com (zamkniecie 27.08.2026)",
+      "catalyst": "FDA przedluzyla PDUFA dla deramiocel do 22.11.2026 (nie odrzucila) + The Lancet: dane HOPE-3 (spowolnienie spadku funkcji konczyny gornej o 54% vs placebo) + Cantor podnosi cel z $3.50 do $28",
+      "note": "Kontynuacja z wczoraj. UWAGA metodologiczna: pct_1m liczony scisle 30 dni wstecz wychodzi +53% (bo punkt odniesienia sprzed miesiaca to juz zbity kurs po negatywnym panelu FDA), WIEC formalnie ponad twardy prog +50% - mimo ze to odbicie z dna, nie pogon za nowym szczytem. Zostawiam bez furtki still_upside - niech bezpiecznik parabolii zdecyduje zgodnie z regulami, ryzyko: finalna decyzja FDA dopiero w listopadzie."
     }
   ],
   "contract": [
@@ -34,35 +32,56 @@
       "name": "RUM Group Inc. (dawniej Rumble Inc.)",
       "contract_usd": 13700000000,
       "market_cap_usd": 4120000000,
-      "source": "stockanalysis.com (27.08.2026, 12:37 ET)",
-      "hours_ago": 100,
-      "price_usd": 9.97,
-      "pct_1m": 71.6,
-      "catalyst": "6-letnia umowa na uslugi GPU $13.7mld (ok. 3.3x kapitalizacji) z nieujawnionym amerykanskim klientem cloud, ujawniona 23-24.08.2026; platnosc w 3 transzach (trzecia warunkowa)",
-      "still_upside": true,
-      "upside_reason": "Kontrakt dopiero podpisany, realizacja przychodu sie zaczyna, znaczna czesc wartosci jeszcze niewyceniona - ALE pct_1m szacunkowo ok. +71.6%, mocno ponad twardy prog +50% (parabola) - bezpiecznik zablokuje zakup mimo furtki, dopoki kurs sie nie cofnie",
-      "note": "Kurs kontynuuje wzrost od porannych $9.19 (dzis +6.3%) - jeszcze dalej od widelek 25-50% niz wczoraj, nie cofa sie."
+      "source": "stockanalysis.com (zamkniecie 27.08.2026)",
+      "hours_ago": 124,
+      "price_usd": 9.43,
+      "pct_1m": 56.2,
+      "catalyst": "6-letnia umowa GPU $13.7mld (ok. 3.3x kapitalizacji) z nieujawnionym amerykanskim klientem cloud, ujawniona 23-24.08.2026, platnosc w 3 transzach",
+      "note": "Kurs schladza sie (z $9.97 wczoraj do $9.43, -5.4%). pct_1m scisle 30-dniowo ok. +56.2% - nadal ponad twardy prog +50%, bezpiecznik zablokuje mimo furtki, dopoki nie bedzie wiekszego cofniecia."
     }
   ],
-  "insider": [],
+  "insider": [
+    {
+      "ticker": "TTMI",
+      "name": "TTM Technologies, Inc.",
+      "insider": "Roks Edwin (President & CEO)",
+      "shares": 10000,
+      "value_usd": 1117700,
+      "date": "2026-08-25",
+      "price_usd": 124.73,
+      "pct_1m": 14.7,
+      "note": "Pojedynczy, ale wysoki-konwikcji zakup CEO tuz po rekordowym Q2 (przychod $1.0mld, popyt AI/data center) i ogloszeniu akwizycji EPIQ Solutions za $1.1mld (17.08.2026). Truist podniosl cel do $224 (Buy). pct_1m nierozgrzany, spolka duza/plynna (nie micro-cap)."
+    },
+    {
+      "ticker": "ENHA",
+      "name": "Enhanced Group Inc.",
+      "insider": "Apeiron Investment Group Ltd. (nominee dla Enhanced Holdings LP, Christian Angermayer - 10% wlasciciel/dyrektor)",
+      "shares": 200000,
+      "value_usd": 330420,
+      "date": "2026-08-17",
+      "price_usd": 1.58,
+      "pct_1m": -43.0,
+      "note": "Klaster: 5 zakupow w ostatnich 6 mies. za lacznie ok. $3.56mln. ALE kurs spadl -43% w miesiac (w tym -21.6% w dniu wynikow Q2, 13-14.08.2026) - to zakup insidera W DOL po slabym kwartale, nie potwierdzenie momentum. Wysokie ryzyko, mala plynnosc (52-tyg. zakres $1.51-$14.00 pokazuje skale wczesniejszego zjazdu)."
+    }
+  ],
   "fund13f": [
     {
       "ticker": "BTDR",
       "fund": "Duquesne Family Office (Stanley Druckenmiller)",
       "action": "NEW",
       "pct_portfolio": 0,
-      "price_usd": 11.41,
-      "pct_1m": -0.8,
-      "note": "Nowa pozycja ~4.1mln akcji za ok. $64.7mln (sr. cena $12.26), ujawniona w 13F za Q2 2026; kurs nadal ponizej sredniej ceny wejscia funduszu, pct_1m ok. plaski - dalej nie rozgrzany, mozliwa akumulacja za smart money. Kontrakt AI data center $4.7mld juz wczesniej znany rynkowi (nie <48h)."
+      "price_usd": 11.33,
+      "pct_1m": 10.2,
+      "note": "Nowa pozycja ~4.1mln akcji za ok. $64.7mln (sr. cena $12.26) z 13F za Q2 2026; kurs nadal ponizej sredniej ceny wejscia funduszu. pct_1m nierozgrzany, mozliwa dalsza akumulacja."
     },
     {
       "ticker": "PURR",
       "fund": "Duquesne Family Office (Stanley Druckenmiller)",
       "action": "NEW",
       "pct_portfolio": 0.44,
-      "price_usd": 13.87,
-      "pct_1m": 123.0,
-      "note": "Nowa pozycja ~2.9mln akcji za ok. $23.1mln w Hyperliquid Strategies Inc. Kurs dalej rosnie (+20% dzis) - daleko ponad prog +50% (parabola), bezpiecznik zablokuje bez wzgledu na furtke. Wyniki roczne (webcast) zaplanowane na DZIS 27.08.2026 - ryzyko binarne aktywne w tej chwili, zdecydowanie NIE kupowac przed/w trakcie."
+      "price_usd": 12.83,
+      "pct_1m": 108.3,
+      "note": "Nowa pozycja ~2.9mln akcji za ok. $23.1mln w Hyperliquid Strategies Inc. Wyniki roczne byly 27.08 (za nami). pct_1m ok. +108% - mocno parabola, bezpiecznik zablokuje bez wzgledu na furtke. NIE kupowac."
     }
   ],
   "congress": [],
@@ -70,21 +89,21 @@
     {
       "ticker": "USAR",
       "name": "USA Rare Earth, Inc.",
-      "price_usd": 18.83,
-      "pct_1m": 33.1,
-      "catalyst": "Trump/Bialy Dom - polityka metali krytycznych (07.2026 Executive Order + Defense Production Act, 07.08.2026 okragly stol w Bialym Domu ~$3mld inwestycji); 24.08.2026 zakonczono upsized $1.55mld rzadowo-wspierane finansowanie SPV dla przejecia Serra Verde",
+      "price_usd": 19.25,
+      "pct_1m": 36.9,
+      "catalyst": "Trump/Bialy Dom polityka metali krytycznych (07.2026 Executive Order + Defense Production Act, 07.08.2026 okragly stol w Bialym Domu ~$3mld inwestycji); 24.08.2026 zakonczono upsized $1.55mld rzadowo-wspierane finansowanie SPV dla przejecia Serra Verde",
       "still_upside": true,
-      "upside_reason": "Specjalne zgromadzenie akcjonariuszy ws. zatwierdzenia emisji ~126.8mln akcji na przejecie Serra Verde odbywa sie JUTRO 28.08.2026 - bardzo bliski, konkretny katalizator (przejecie unikalnego zloza rare earth poza Azja, Brazylia, juz w produkcji komercyjnej); kurs plaski dzisiaj mimo zblizajacego sie glosowania, pct_1m w strefie 25-40% gdzie furtka ma sens",
-      "note": "21.08.2026 sektorowa fala (USAR, Critical Metals, MP Materials w gorę); brak bezposredniego, swiezego kontraktu rzadowego z konkretna kwota - dlatego w grupie policy, nie contract. Ryzyko: wynik glosowania nieznany, mozliwa zmiennosc jutro."
+      "upside_reason": "Specjalne zgromadzenie akcjonariuszy ws. zatwierdzenia emisji akcji na przejecie Serra Verde odbywa sie DZIS 28.08.2026 - katalizator jest AKTUALNY, wynik jeszcze nieznany. pct_1m w strefie 25-50% gdzie furtka ma sens.",
+      "note": "Ryzyko: wynik glosowania moze byc zmienny w obie strony jeszcze dzis. Kontynuacja z wczoraj."
     },
     {
       "ticker": "NNE",
       "name": "NANO Nuclear Energy Inc.",
-      "price_usd": 19.32,
-      "pct_1m": 13.6,
-      "catalyst": "Sektorowa polityka energetyczna (renesans atomowy, uranowy rajd sierpniowy) + swieze male umowy komercyjne: commercial framework z Tillman (23.08.2026) i MOU ws. dostaw HALEU z Quadrant Nuclear (17.08.2026)",
+      "price_usd": 19.24,
+      "pct_1m": 19.8,
+      "catalyst": "Sektorowa polityka energetyczna (renesans atomowy, uranowy rajd sierpniowy) + swieze male umowy komercyjne: commercial framework z Tillman (23.08.2026) i MOU ws. HALEU z Quadrant Nuclear (17.08.2026)",
       "still_upside": false,
-      "note": "Kronos MMR posuwa sie w licencjonowaniu NRC. Brak pojedynczego kontraktu z potwierdzona wartoscia $ vs kapitalizacja - sygnal tematyczny/sektorowy, nie samodzielny kandydat kontraktowy. pct_1m nierozgrzany, bez blokady paraboli."
+      "note": "Brak pojedynczego duzego kontraktu z potwierdzona wartoscia $ vs kapitalizacja - sygnal tematyczny/sektorowy. pct_1m nierozgrzany, bez blokady paraboli."
     }
   ]
 }
