@@ -1,37 +1,30 @@
 [
   {
-    "ticker": "OKTA",
-    "pct": 28.9,
-    "day": "2026-08-27",
-    "presignal": "Zaplanowane wyniki Q2 FY2027 (znana data z wyprzedzeniem, 26.08 po sesji) - przychod $805mln (+10.6% r/r, powyzej konsensusu $792.8mln), EPS $1.05 vs $0.96 oczek., marza operacyjna skoczyla do 13.3% z 5.6% rok wczesniej, podniesiona prognoza roczna. Ten sam dzien rownolegle CrowdStrike (CRWD) mial najlepszy dzien w historii - cala branza cyberbezpieczenstwa zyskala na narracji 'AI agent threat' (wzrost wydatkow firm na zabezpieczenie autonomicznych agentow AI).",
-    "lesson": "Software/cyberbezpieczenstwo z przyspieszajaca marza operacyjna i nowym segmentem produktowym (tu: Identity Governance + zabezpieczenia agentow AI) przed zaplanowanymi wynikami zasluguje na miejsce na liscie obserwacyjnej - zwlaszcza gdy sektorowy peer (CRWD) rowniez raportuje tego samego okresu, co wzmacnia tezę sektorowa."
+    "ticker": "FNGR",
+    "pct": 129.53,
+    "day": "2026-08-28",
+    "presignal": "BRAK realnego pre-sygnalu z wyprzedzeniem - w piatek rano naglosniono strategiczny zwrot nowego zarzadu ku 'behind-the-meter' AI/HPC data center (alians z BlueFlare Energy Solutions, zasilanie z gazu ziemnego w zachodniej Kanadzie, omijanie kolejek na przylacza sieciowe). Ogloszenie i reakcja rynku ten sam dzien, mikro-cap (grosze).",
+    "lesson": "Powtarzalny wzorzec 2026: mikro-cap ogloszajacy pivot do 'behind-the-meter power + AI data center' potrafi zrobic wielokrotnosc w jeden dzien na czystym newsie/8-K, bez wczesniejszego sygnalu wolumenowego. Nie da sie tego zlapac z wyprzedzeniem - jedyna obrona to szybkie rozpoznanie wzorca w dniu ogloszenia i NIE gonienie po fakcie (klasyczna micro-cap pompa, ryzyko szybkiego zjazdu)."
   },
   {
-    "ticker": "PPCB",
-    "pct": 108.4,
-    "day": "2026-08-27",
-    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej w typowych zrodlach (insider/wolumen/8-K) - ogloszenie danych przedklinicznych PRP (>90% zahamowania wzrostu guza trzustki, >2.5x korzysc przezycia) i sama reakcja rynku nastapily tego samego dnia. Mikro-cap biotech po niedawnym reverse splicie.",
-    "lesson": "Dane przedkliniczne (nie kliniczne) na mikro-cap biotech po reverse splicie to klasyczny wzorzec pump-and-fade bez twardego pre-sygnalu - zgodnie z wczesniejsza lekcja (LEGN -41%, BCDA -48%) NIE gonic, traktowac jako przyklad do unikania."
+    "ticker": "CHAI",
+    "pct": 51.8,
+    "day": "2026-08-28",
+    "presignal": "Zaplanowane wyniki Q2 2026 (znana data z wyprzedzeniem) - przychod +56% r/r do $22.4mln, strata brutto skurczyla sie o 97% (niemal break-even marza brutto), dodatni operacyjny cash flow za H1 ($5.5mln) vs zuzycie gotowki rok wczesniej. Dzien wczesniej brak jawnego presygnalu insider/wolumen w dostepnych zrodlach.",
+    "lesson": "Nano-cap ($6.5mln kapitalizacji) z przyspieszajacym wzrostem przychodow i szybko poprawiajaca sie marza brutto przed zaplanowanymi wynikami zasluguje na miejsce na liscie obserwacyjnej z wyprzedzeniem (podobnie jak MANH/OKTA/AMRC z wczesniejszych lekcji) - warto skanowac kalendarz wynikow mikro-cap AI/tech pod katem przyspieszajacego trendu przychodow."
   },
   {
-    "ticker": "CELU",
-    "pct": 137.4,
-    "day": "2026-08-27",
-    "presignal": "Brak jawnego pre-sygnalu dzien wczesniej - ogloszenie partnerstwa produkcyjnego z MuseCell Innovations (produkcja Dezawa MuseCells w USA, potencjal >$300mln zakupow w 5 lat) i reakcja rynku tego samego dnia. Zaden z produktow nie ma jeszcze zatwierdzenia FDA.",
-    "lesson": "Ogloszenia partnerstw z duza, ale odlegla w czasie projekcja przychodow ($300mln/5 lat) na mikro-cap biotech bez zatwierdzenia FDA generuja gwaltowne pumpy na samym newsie - bez pre-sygnalu do zlapania, wpisac jako wzorzec do obserwacji/unikania, nie do pogoni."
+    "ticker": "SWVL",
+    "pct": 41.18,
+    "day": "2026-08-28",
+    "presignal": "Dzien wczesniej (27.08.2026) Swvl ogłosilo $13-14.5mln strategiczna runde finansowania (private placement wyceniona PO CENIE RYNKOWEJ, bez dyskonta, prowadzona przez Coefficient LP + dodatkowa transza od Sofico Holdings) z zamknieciem 27-28.08 - to byl realny, publicznie dostepny presygnal jeden dzien przed glownym ruchem.",
+    "lesson": "Private placement/PIPE wyceniony PRZY cenie rynkowej (bez dyskonta) to silniejszy sygnal zaufania inwestorow instytucjonalnych niz standardowa runda z dyskontem - takie 8-K/ogloszenia warto flagowac tego samego dnia jako kandydata na kontynuacje nastepnej sesji, zwlaszcza gdy nakladaja sie na juz istniejacy pozytywny momentum operacyjny."
   },
   {
-    "ticker": "CHOW",
-    "pct": 88.1,
-    "day": "2026-08-27",
-    "presignal": "Ogloszenie zwolania nadzwyczajnego zgromadzenia (14.09.2026) ws. scalenia akcji 10-za-1, struktury dwuklasowej i znaczacego podniesienia kapitalu docelowego - ogloszone tego samego dnia. Spolka o slabej kondycji finansowej (strata netto w 2025, pogorszenie cash flow).",
-    "lesson": "Ogloszenia restrukturyzacji struktury akcji (reverse split, dual-class) na slabych fundamentalnie mikro-cap czesto wywoluja spekulacyjne pumpy oderwane od biznesu - wysokie ryzyko whipsaw, nie traktowac jako okazje inwestycyjna nawet z duzym ruchem."
-  },
-  {
-    "ticker": "ESTC",
-    "pct": 23.1,
-    "day": "2026-08-27",
-    "presignal": "Zaplanowane wyniki Q2 CY2026 (znana data z wyprzedzeniem, 27.08 przed/w trakcie sesji) - przychod $478.1mln (+15.1% r/r, powyzej konsensusu $470.1mln), EPS $0.70 vs $0.58 oczek. (+19.9% beat), zysk operacyjny +17.6% powyzej oczekiwan, podniesiona prognoza roczna do $2.00mld z $1.99mld. Ten sam dzien rownolegle OKTA i CRWD tez mialy mocne wyniki - cala branza software/cyberbezpieczenstwo zyskiwala na sektorowej narracji AI/enterprise spend.",
-    "lesson": "Analogicznie do OKTA z tego samego dnia: software/dane-infrastruktura z przyspieszajaca marza operacyjna i podniesiona prognoza roczna przed zaplanowanymi wynikami zasluguje na miejsce na liscie obserwacyjnej, zwlaszcza gdy kilku sektorowych peerow raportuje w tym samym oknie czasowym (potwierdzenie tezy sektorowej, nie pojedynczy przypadek)."
+    "ticker": "NCPL",
+    "pct": 28.41,
+    "day": "2026-08-28",
+    "presignal": "Niejednoznaczne - tego samego dnia spolka ujawnila NEGATYWNA informacje (nasdaq delinquency notice za spozniony 10-K, notice otrzymane juz 24.08) jednoczesnie z narracja o nowej strategii w tokenizowanych aktywach/cyfrowej ekspansji. Kurs mimo to wystrzelil - reakcja wyglada na spekulacyjna/sentymentalna, nie na twardym pozytywnym katalizatorze.",
+    "lesson": "Nano-cap moze wystrzelic nawet na pozornie negatywnej informacji (compliance notice) jesli towarzyszy jej rownolegle spekulacyjna narracja (tu: crypto/tokenizacja) - tego typu ruchy sa nieprzewidywalne i nie nadaja sie do systematycznego lapania; traktowac jako szum, nie wzorzec do powielania."
   }
 ]

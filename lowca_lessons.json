@@ -1650,5 +1650,33 @@
     "pct": 48.3,
     "presignal": "BRAK zidentyfikowanego newsa/katalizatora tego dnia - czysty ruch wolumenowo-plynnosciowy (zakres sesji $1.45-$3.81) na malo-plynnym, niedawno zrestrukturyzowanym mikro-cap (Malezja, produkcja FRP): w lipcu 2026 spolka ustanowila $30mln standby equity facility z inwestorem instytucjonalnym oraz akcjonariusze zatwierdzili restrukturyzacje akcji i nowy uklad corporate governance (17.07.2026).",
     "lesson": "Mikro-cap po niedawnej restrukturyzacji kapitalowej/akcyjnej (standby equity facility, share restructuring) z bardzo niskim floatem moze dac gwaltowny ruch BEZ zadnego swiezego newsa (czysto techniczny/plynnosciowy squeeze) - warto wpisywac na radar wolumenowy spolki po niedawnych (2-4 tygodnie) ogloszeniach finansowania/restrukturyzacji akcji jako podwyzszone ryzyko nagłego, nieprzewidywalnego wybicia."
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "FNGR",
+    "pct": 129.5,
+    "presignal": "BRAK realnego pre-sygnalu z wyprzedzeniem - w piatek rano naglosniono strategiczny zwrot nowego zarzadu ku 'behind-the-meter' AI/HPC data center (alians z BlueFlare Energy Solutions, zasilanie z gazu ziemnego w zachodniej Kanadzie, omijanie kolejek na przylacza sieciowe). Ogloszenie i reakcja rynku ten sam dzien, mikro-cap (grosze).",
+    "lesson": "Powtarzalny wzorzec 2026: mikro-cap ogloszajacy pivot do 'behind-the-meter power + AI data center' potrafi zrobic wielokrotnosc w jeden dzien na czystym newsie/8-K, bez wczesniejszego sygnalu wolumenowego. Nie da sie tego zlapac z wyprzedzeniem - jedyna obrona to szybkie rozpoznanie wzorca w dniu ogloszenia i NIE gonienie po fakcie (klasyczna micro-cap pompa, ryzyko szybkiego zjazdu)."
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "CHAI",
+    "pct": 51.8,
+    "presignal": "Zaplanowane wyniki Q2 2026 (znana data z wyprzedzeniem) - przychod +56% r/r do $22.4mln, strata brutto skurczyla sie o 97% (niemal break-even marza brutto), dodatni operacyjny cash flow za H1 ($5.5mln) vs zuzycie gotowki rok wczesniej. Dzien wczesniej brak jawnego presygnalu insider/wolumen w dostepnych zrodlach.",
+    "lesson": "Nano-cap ($6.5mln kapitalizacji) z przyspieszajacym wzrostem przychodow i szybko poprawiajaca sie marza brutto przed zaplanowanymi wynikami zasluguje na miejsce na liscie obserwacyjnej z wyprzedzeniem (podobnie jak MANH/OKTA/AMRC z wczesniejszych lekcji) - warto skanowac kalendarz wynikow mikro-cap AI/tech pod katem przyspieszajacego trendu przychodow."
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "SWVL",
+    "pct": 41.2,
+    "presignal": "Dzien wczesniej (27.08.2026) Swvl ogłosilo $13-14.5mln strategiczna runde finansowania (private placement wyceniona PO CENIE RYNKOWEJ, bez dyskonta, prowadzona przez Coefficient LP + dodatkowa transza od Sofico Holdings) z zamknieciem 27-28.08 - to byl realny, publicznie dostepny presygnal jeden dzien przed glownym ruchem.",
+    "lesson": "Private placement/PIPE wyceniony PRZY cenie rynkowej (bez dyskonta) to silniejszy sygnal zaufania inwestorow instytucjonalnych niz standardowa runda z dyskontem - takie 8-K/ogloszenia warto flagowac tego samego dnia jako kandydata na kontynuacje nastepnej sesji, zwlaszcza gdy nakladaja sie na juz istniejacy pozytywny momentum operacyjny."
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "NCPL",
+    "pct": 28.4,
+    "presignal": "Niejednoznaczne - tego samego dnia spolka ujawnila NEGATYWNA informacje (nasdaq delinquency notice za spozniony 10-K, notice otrzymane juz 24.08) jednoczesnie z narracja o nowej strategii w tokenizowanych aktywach/cyfrowej ekspansji. Kurs mimo to wystrzelil - reakcja wyglada na spekulacyjna/sentymentalna, nie na twardym pozytywnym katalizatorze.",
+    "lesson": "Nano-cap moze wystrzelic nawet na pozornie negatywnej informacji (compliance notice) jesli towarzyszy jej rownolegle spekulacyjna narracja (tu: crypto/tokenizacja) - tego typu ruchy sa nieprzewidywalne i nie nadaja sie do systematycznego lapania; traktowac jako szum, nie wzorzec do powielania."
   }
 ]

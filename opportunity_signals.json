@@ -1,89 +1,56 @@
 {
-  "_date": "2026-08-28",
-  "_run": "piatek, bieg SRODSESYJNY 18:30 CEST (12:40 ET, srodek sesji US). Ceny odczytane z stockanalysis.com ok. 16:40 UTC (12:40 ET). Aktualizacja watchlisty z biegu przedsesyjnego 14:30: wszystkie kandydaci CHLODZA SIE w trakcie sesji (szeroki rynek plaski, Fed Warsh przemawia w Jackson Hole) - anti-chase dziala zgodnie z zalozeniem, nikt nie przebil nowych szczytow. USAR $18.11 (-5.92% dzis, glosowanie akcjonariuszy ws. Serra Verde odbywa sie DZIS ale WYNIK WCIAZ NIEZNANY w dostepnych zrodlach o tej porze, pct_1m przeliczony na nowo z ceny bazowej ok. +28.8% - nadal w strefie furtki 25-50%), INFQ $12.90 (-9.95% dzis, mocne schlodzenie z premarketowego +49.9%, pct_1m przeliczony na nowo ok. +35.1% - oddalilo sie od progu +50%, mniejsze ryzyko paraboli), NNE $18.20 (-5.41% dzis, pct_1m przeliczony na nowo ok. +13.3%, nadal nierozgrzany). CAPR/RUM/BTDR/PURR/TTMI/ENHA - ceny bez ponownej weryfikacji w tej rundzie (brak istotnych nowych newsow od 14:30), pozostawione z poprzedniego odczytu, traktowac jako orientacyjne z dzisiejszego poludnia. NOWOSC z retro Kroku C: Elastic (ESTC) +23.1% wczoraj (27.08) na wynikach Q2 (przychod $478.1mln +15.1% r/r, EPS beat +19.9%, podniesiona prognoza roczna) - typowy wzorzec zaplanowanych earnings z przyspieszajacym wzrostem (analogia do OKTA/CRWD z wczoraj), ale ruch juz za nami (dzis kontynuacja/konsolidacja), NIE dodaje do sygnalow z cena - to material do lekcji w Kroku C, nie do kupna z pogonia.",
-  "ipo": [
-    {
-      "ticker": "INFQ",
-      "name": "Infleqtion, Inc.",
-      "price_usd": 12.90,
-      "pct_1m": 35.1,
-      "ipo_date": "2026-02-17",
-      "catalyst": "NASA $20mln kontrakt na kwantowy grawimetr (Quantum Gravity Gradiometer Program), ogloszony 27.08.2026; szerszy watek: sektor quantum computing pod wplywem rozporzadzen Trumpa z czerwca 2026 (starsza wiadomosc)",
-      "note": "Silne schlodzenie w trakcie dzisiejszej sesji (-9.95% do $12.90 z premarketowego szczytu). pct_1m przeliczony na nowo z ceny bazowej sprzed miesiaca wychodzi ok. +35.1% - oddalilo sie od twardego progu +50% z rana. Analitycy Strong Buy, cel $21 (+62.8% od obecnej ceny). Kontrakt NASA to tylko ok. 0.6% kapitalizacji - nie kwalifikuje sie do grupy kontraktowej. Bez furtki still_upside - zostawiam bezpiecznikowi standardowa regule +25-50% (czekaj na cofniecie), schlodzenie samo w sobie moze byc tym cofnieciem."
-    }
-  ],
-  "volume": [
-    {
-      "ticker": "CAPR",
-      "name": "Capricor Therapeutics, Inc.",
-      "volume_mult": 3.0,
-      "pct_today": 7.5,
-      "broke_high": false,
-      "price_usd": 10.06,
-      "pct_1m": 53.0,
-      "source": "stockanalysis.com (zamkniecie 27.08.2026, bez ponownej weryfikacji w tej rundzie)",
-      "catalyst": "FDA przedluzyla PDUFA dla deramiocel do 22.11.2026 (nie odrzucila) + The Lancet: dane HOPE-3 (spowolnienie spadku funkcji konczyny gornej o 54% vs placebo) + Cantor podnosi cel z $3.50 do $28",
-      "note": "Kontynuacja z 14:30. pct_1m liczony scisle 30 dni wstecz ponad twardy prog +50% (odbicie z dna po negatywnym panelu FDA, nie pogon za nowym szczytem) - zostawiam bez furtki, niech bezpiecznik parabolii zdecyduje, finalna decyzja FDA dopiero w listopadzie."
-    }
-  ],
-  "contract": [
-    {
-      "ticker": "RUM",
-      "name": "RUM Group Inc. (dawniej Rumble Inc.)",
-      "contract_usd": 13700000000,
-      "market_cap_usd": 4120000000,
-      "source": "stockanalysis.com (zamkniecie 27.08.2026, bez ponownej weryfikacji w tej rundzie)",
-      "hours_ago": 148,
-      "price_usd": 9.43,
-      "pct_1m": 56.2,
-      "catalyst": "6-letnia umowa GPU $13.7mld (ok. 3.3x kapitalizacji) z nieujawnionym amerykanskim klientem cloud, ujawniona 23-24.08.2026, platnosc w 3 transzach",
-      "note": "Kontynuacja z 14:30, kurs schladzal sie juz od kilku dni. pct_1m scisle 30-dniowo nadal ponad twardy prog +50% - bezpiecznik zablokuje mimo realnego katalizatora, dopoki nie bedzie wiekszego cofniecia."
-    }
-  ],
+  "_date": "2026-08-31",
+  "_run": "poniedzialek, bieg PRZEDSESYJNY 14:30 CEST (08:30 ET, przed otwarciem US). Ceny zbierane przez web search (stockanalysis.com/finviz/tradingeconomics, agregowane) w trakcie rundy, wiec traktowac jako orientacyjne z piatku 28.08 wieczor / weekendu - do zweryfikowania przez pipeline na biezaco. Rynek byl zamkniety w weekend, wiec 'ostatnie 48h' dla kontraktow liczone od piatku. Sprawdzone grupy bez solidnego, swiezego kandydata z realna cena i katalizatorem: IPO (najgoretszy swiezy debiut, VOGX, jest juz +161% od IPO 12.08 - daleko ponad prog paraboli +50%, bez przeslanek na furtke, pomijam), volume (piatkowa lista top-gainerow to czyste mikro-cap grosze bez katalizatora - FNGR/CHAI/WCT/CYAB/SWVL itp. - dokladnie wzorzec do UNIKANIA z lekcji, nie dodaje), contract (najswiezszy konkretny $ kontrakt z realna cena, AEVEX $50mln USAF, pochodzi z 30.06.2026 - zdecydowanie za stary na <48h), fund13f (Q2 13F wyszly ok. 14.08, glowne ruchy to mega-cap: Pershing Square nowe pozycje w Visa/Mastercard/S&P Global/Netflix - nie pasuje do profilu spekulacyjnego bota, pomijam). GLOWNY TEMAT DNIA: Trump podpisal 26.08.2026 emergency Executive Order 14420 zakazujacy zakupu zagranicznych (m.in. chinskich) transformatorow/inwerterow/wylacznikow/BESS dla amerykanskiej sieci elektroenergetycznej (bulk-power system) - katalizator swiezy (5 dni), sektor solar/grid dopiero zaczyna reagowac (male ruchy +0.4-2% w dniu ogloszenia), analitycy podnosza cele. To furtka #4 (swiezy katalizator polityczny, analitycy dopiero podnosza cele, ruch jeszcze nie w pelni w cenie).",
+  "ipo": [],
+  "volume": [],
+  "contract": [],
   "insider": [
     {
-      "ticker": "TTMI",
-      "name": "TTM Technologies, Inc.",
-      "insider": "Roks Edwin (President & CEO)",
-      "shares": 10000,
-      "value_usd": 1117700,
-      "date": "2026-08-25",
-      "price_usd": 124.73,
-      "pct_1m": 14.7,
-      "note": "Bez ponownej weryfikacji ceny w tej rundzie. Pojedynczy, ale wysoki-konwikcji zakup CEO tuz po rekordowym Q2 (przychod $1.0mld, popyt AI/data center) i ogloszeniu akwizycji EPIQ Solutions za $1.1mld (17.08.2026). Truist podniosl cel do $224 (Buy). pct_1m nierozgrzany, spolka duza/plynna (nie micro-cap)."
+      "ticker": "BAER",
+      "name": "Bridger Aerospace Group Holdings, Inc.",
+      "insider": "Jeffrey E. Kelter (Director)",
+      "shares": 150000,
+      "value_usd": 354050,
+      "date": "2026-08-19/20",
+      "price_usd": 1.90,
+      "pct_1m": -26.83,
+      "note": "Zakup dyrektora rozlozony na 3 podmioty (bezposrednio + K5 Equity Capital Holdings + Windy Point Investments) w ciagu 2 dni - wysoka konwikcja, choc to jeden insider a nie klasyczny klaster wielu roznych osob. Kurs po -26.8% w miesiac, blisko dolkow, sezon pozarow (aerial firefighting) wciaz trwa. Micro-cap $1.90 - bardzo plynnosciowo ryzykowny, mala pozycja jesli w ogole."
     }
   ],
-  "fund13f": [
+  "fund13f": [],
+  "congress": [
     {
-      "ticker": "BTDR",
-      "fund": "Duquesne Family Office (Stanley Druckenmiller)",
-      "action": "NEW",
-      "pct_portfolio": 0,
-      "price_usd": 11.33,
-      "pct_1m": 10.2,
-      "note": "Bez ponownej weryfikacji ceny w tej rundzie. Nowa pozycja ~4.1mln akcji za ok. $64.7mln (sr. cena $12.26) z 13F za Q2 2026; kurs nadal ponizej sredniej ceny wejscia funduszu. pct_1m nierozgrzany, mozliwa dalsza akumulacja."
+      "ticker": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "politician": "Jared Moskowitz (D-FL)",
+      "action": "BUY",
+      "value_usd": 15000,
+      "date": "2026-08-28",
+      "price_usd": 463.15,
+      "pct_1m": -8.0,
+      "note": "Male ujawnienie (przedzial $1,001-$15,000, raport 28.08.2026). AMAT to mega-cap ($366mld kapitalizacji) po spadku ok. -8 do -12% w miesiac (obawy o konkurencje mimo dobrego outlooku), wiec sam sygnal kongresowy jest slaby konfluencyjnie - traktowac jako drugorzedny, nie glowna teze."
     }
   ],
-  "congress": [],
   "policy": [
     {
-      "ticker": "USAR",
-      "name": "USA Rare Earth, Inc.",
-      "price_usd": 18.11,
-      "pct_1m": 28.8,
-      "catalyst": "Trump/Bialy Dom polityka metali krytycznych (07.2026 Executive Order + Defense Production Act, 07.08.2026 okragly stol w Bialym Domu ~$3mld inwestycji); 24.08.2026 zakonczono upsized $1.55mld rzadowo-wspierane finansowanie SPV dla przejecia Serra Verde",
+      "ticker": "SEDG",
+      "name": "SolarEdge Technologies, Inc.",
+      "price_usd": 33.51,
+      "pct_1m": -25.60,
+      "catalyst": "Trump Executive Order 14420 (26.08.2026) - zakaz zakupu zagranicznych (chinskich) inwerterow/transformatorow/BESS dla amerykanskiej sieci energetycznej; tego samego dnia UBS podniosl rekomendacje SEDG do Buy z celem implikujacym ok. +40% upside",
       "still_upside": true,
-      "upside_reason": "Specjalne zgromadzenie akcjonariuszy ws. zatwierdzenia emisji akcji na przejecie Serra Verde odbywa sie DZIS 28.08.2026 - katalizator jest AKTUALNY, wynik glosowania WCIAZ NIEZNANY o tej porze sesji. pct_1m po przeliczeniu ok. +28.8%, dalej w strefie 25-50% gdzie furtka ma sens. Dzisiejszy spadek -5.92% to raczej niepewnosc przed wynikiem glosowania niz negatywny news.",
-      "note": "Ryzyko: wynik glosowania moze wyjsc jeszcze dzis wieczorem lub jutro i poruszyc kurs w obie strony. Trzecia runda z rzedu na watchliscie (kontynuacja z 27.08 i 14:30 28.08)."
+      "upside_reason": "Katalizator ma zaledwie 5 dni, rynek dopiero zaczyna to wyceniac (w dniu ogloszenia kurs ruszyl tylko ok. +0.4%), a UBS WLASNIE podniosl cel o +40% - to poczatek reakcji, nie koniec. Dodatkowo pct_1m jest UJEMNY (-25.6%), wiec to nie pogon za gorka tylko odbicie z dna na swiezym katalizatorze - furtka tu wlasciwie niepotrzebna (bot i tak by kupil), ale zaznaczam dla jasnosci konfluencji.",
+      "note": "Bezpiecznik paraboli nie ma tu zastosowania (kurs ponizej sredniej sprzed miesiaca). Ryzyko: SEDG ma cieżka historie fundamentalna (marze, dlug), to gra na sektorowym katalizatorze politycznym + rerating analitykow, nie na jakosci samego biznesu."
     },
     {
-      "ticker": "NNE",
-      "name": "NANO Nuclear Energy Inc.",
-      "price_usd": 18.20,
-      "pct_1m": 13.3,
-      "catalyst": "Sektorowa polityka energetyczna (renesans atomowy, uranowy rajd sierpniowy) + swieze male umowy komercyjne: commercial framework z Tillman (23.08.2026) i MOU ws. HALEU z Quadrant Nuclear (17.08.2026)",
-      "still_upside": false,
-      "note": "Brak pojedynczego duzego kontraktu z potwierdzona wartoscia $ vs kapitalizacja - sygnal tematyczny/sektorowy. Dzis -5.41%, pct_1m po przeliczeniu nierozgrzany, bez blokady paraboli."
+      "ticker": "FSLR",
+      "name": "First Solar, Inc.",
+      "price_usd": 219.38,
+      "pct_1m": 14.08,
+      "catalyst": "Trump Executive Order 14420 (26.08.2026) - zakaz zakupu zagranicznych inwerterow/transformatorow/BESS dla sieci energetycznej (chroni amerykanskich producentow paneli/modulow przed tanszym importem); Deutsche Bank podniosl cel do $299 (ok. +45% upside od obecnej ceny)",
+      "still_upside": true,
+      "upside_reason": "Ten sam swiezy (5-dniowy) katalizator co SEDG, ale FSLR to lepszej jakosci biznes (najwiekszy amerykanski producent paneli, produkcja krajowa - bezposredni beneficjent 'Buy American' w energetyce). pct_1m +14% to nadal nierozgrzana strefa (ponizej progu +25%), Deutsche Bank WLASNIE podniosl cel - reakcja rynku (+3.78% dzis) dopiero sie zaczyna.",
+      "note": "Nie wymaga furtki do przejscia bezpiecznika (pct_1m ponizej +25%), ale zostawiam still_upside=true bo teza to swiezy katalizator + podniesione cele analitykow, nie tylko techniczny ruch."
     }
   ]
 }
