@@ -1,56 +1,11 @@
 {
   "_date": "2026-08-31",
-  "_run": "poniedzialek, bieg PRZEDSESYJNY 14:30 CEST (08:30 ET, przed otwarciem US). Ceny zbierane przez web search (stockanalysis.com/finviz/tradingeconomics, agregowane) w trakcie rundy, wiec traktowac jako orientacyjne z piatku 28.08 wieczor / weekendu - do zweryfikowania przez pipeline na biezaco. Rynek byl zamkniety w weekend, wiec 'ostatnie 48h' dla kontraktow liczone od piatku. Sprawdzone grupy bez solidnego, swiezego kandydata z realna cena i katalizatorem: IPO (najgoretszy swiezy debiut, VOGX, jest juz +161% od IPO 12.08 - daleko ponad prog paraboli +50%, bez przeslanek na furtke, pomijam), volume (piatkowa lista top-gainerow to czyste mikro-cap grosze bez katalizatora - FNGR/CHAI/WCT/CYAB/SWVL itp. - dokladnie wzorzec do UNIKANIA z lekcji, nie dodaje), contract (najswiezszy konkretny $ kontrakt z realna cena, AEVEX $50mln USAF, pochodzi z 30.06.2026 - zdecydowanie za stary na <48h), fund13f (Q2 13F wyszly ok. 14.08, glowne ruchy to mega-cap: Pershing Square nowe pozycje w Visa/Mastercard/S&P Global/Netflix - nie pasuje do profilu spekulacyjnego bota, pomijam). GLOWNY TEMAT DNIA: Trump podpisal 26.08.2026 emergency Executive Order 14420 zakazujacy zakupu zagranicznych (m.in. chinskich) transformatorow/inwerterow/wylacznikow/BESS dla amerykanskiej sieci elektroenergetycznej (bulk-power system) - katalizator swiezy (5 dni), sektor solar/grid dopiero zaczyna reagowac (male ruchy +0.4-2% w dniu ogloszenia), analitycy podnosza cele. To furtka #4 (swiezy katalizator polityczny, analitycy dopiero podnosza cele, ruch jeszcze nie w pelni w cenie).",
+  "_run": "poniedzialek, bieg SRODSESYJNY 18:30 CEST (12:30-13:00 ET, ok. 3h po otwarciu US). Rynek dzis lekko czerwony (Russell 2000 ok. -0.2%), tlo: napiecia na Bliskim Wschodzie ciaza sentymentowi. Skan swiezych okazji: RYNKOWE (IPO/wolumen/kontrakt) i SMART-MONEY (insider/13F/kongres) + POLITYKA - bez mocnego nowego kandydata. EPOW (+38% w czwartek 27.08 na kontrakcie $51mln Shandong Fusion vs mcap $25.2mln) dzis JUZ CZERWONE (-7.6%) - kontrakt ma teraz >48h (4 dni), pop wygasa, pct_1m tylko +7-8% mimo whipsawu ($0.35->$0.56->$0.46) - pomijam, nie dodaje jako 'swiezy kontrakt' (przekroczony prog 48h + wygasajace momentum, klasyczny wzorzec do UNIKANIA nie gonienia). QNRX (Quoin Pharma) +45% pct_1m po pozytywnych danych fazy 2/3 (Nethertona) + $50mln private placement (28.08, ogloszenie sprzed >48h) - blisko progu paraboli +50%, a $50mln raise przy $13mln kapitalizacji to ekstremalne rozwodnienie (>3x mcap) - analogiczny wzorzec do ENTX z dziennika lekcji (PIPE juz w cenie, nie gonic, tylko obserwowac ewentualne cofniecie) - NIE dodaje, zbyt rozgrzane i zbyt duze ryzyko rozwodnienia. SEDG/FSLR (Trump EO 14420, temat z rannego biegu) - sprawdzone ponownie sroddziennie: SEDG $31.96 (rano bylo $33.51), FSLR $204.34 (rano bylo $219.38 +3.78% na dniu) - OBIE COFNELY SIE sroddziennie zamiast kontynuowac reakcje na podniesione cele analitykow, teza 'reakcja dopiero sie zaczyna' NIE potwierdza sie w danych sroddziennych (raczej wygaszanie porannego popu) - NIE ponawiam jako swiezy sygnal w tym biegu, zeby nie gonic cofajacego sie ruchu; jesli jutro rano bedzie kontynuacja w gore, wroci na radar. Brak nowych kontraktow rzadowych <48h, brak swiezych IPO z dzisiejszym momentum, brak potwierdzonych klastrow insiderow ani 13F w tej rundzie, brak swiezych zakupow kongresmenow w small/micro-cap (jedyne ujawnienie: Cleo Fields w Magnificent 7 mega-cap, nie pasuje do profilu). Stoicko: PASS na ten bieg, czekamy na twardsze potwierdzenie.",
   "ipo": [],
   "volume": [],
   "contract": [],
-  "insider": [
-    {
-      "ticker": "BAER",
-      "name": "Bridger Aerospace Group Holdings, Inc.",
-      "insider": "Jeffrey E. Kelter (Director)",
-      "shares": 150000,
-      "value_usd": 354050,
-      "date": "2026-08-19/20",
-      "price_usd": 1.90,
-      "pct_1m": -26.83,
-      "note": "Zakup dyrektora rozlozony na 3 podmioty (bezposrednio + K5 Equity Capital Holdings + Windy Point Investments) w ciagu 2 dni - wysoka konwikcja, choc to jeden insider a nie klasyczny klaster wielu roznych osob. Kurs po -26.8% w miesiac, blisko dolkow, sezon pozarow (aerial firefighting) wciaz trwa. Micro-cap $1.90 - bardzo plynnosciowo ryzykowny, mala pozycja jesli w ogole."
-    }
-  ],
+  "insider": [],
   "fund13f": [],
-  "congress": [
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "politician": "Jared Moskowitz (D-FL)",
-      "action": "BUY",
-      "value_usd": 15000,
-      "date": "2026-08-28",
-      "price_usd": 463.15,
-      "pct_1m": -8.0,
-      "note": "Male ujawnienie (przedzial $1,001-$15,000, raport 28.08.2026). AMAT to mega-cap ($366mld kapitalizacji) po spadku ok. -8 do -12% w miesiac (obawy o konkurencje mimo dobrego outlooku), wiec sam sygnal kongresowy jest slaby konfluencyjnie - traktowac jako drugorzedny, nie glowna teze."
-    }
-  ],
-  "policy": [
-    {
-      "ticker": "SEDG",
-      "name": "SolarEdge Technologies, Inc.",
-      "price_usd": 33.51,
-      "pct_1m": -25.60,
-      "catalyst": "Trump Executive Order 14420 (26.08.2026) - zakaz zakupu zagranicznych (chinskich) inwerterow/transformatorow/BESS dla amerykanskiej sieci energetycznej; tego samego dnia UBS podniosl rekomendacje SEDG do Buy z celem implikujacym ok. +40% upside",
-      "still_upside": true,
-      "upside_reason": "Katalizator ma zaledwie 5 dni, rynek dopiero zaczyna to wyceniac (w dniu ogloszenia kurs ruszyl tylko ok. +0.4%), a UBS WLASNIE podniosl cel o +40% - to poczatek reakcji, nie koniec. Dodatkowo pct_1m jest UJEMNY (-25.6%), wiec to nie pogon za gorka tylko odbicie z dna na swiezym katalizatorze - furtka tu wlasciwie niepotrzebna (bot i tak by kupil), ale zaznaczam dla jasnosci konfluencji.",
-      "note": "Bezpiecznik paraboli nie ma tu zastosowania (kurs ponizej sredniej sprzed miesiaca). Ryzyko: SEDG ma cieżka historie fundamentalna (marze, dlug), to gra na sektorowym katalizatorze politycznym + rerating analitykow, nie na jakosci samego biznesu."
-    },
-    {
-      "ticker": "FSLR",
-      "name": "First Solar, Inc.",
-      "price_usd": 219.38,
-      "pct_1m": 14.08,
-      "catalyst": "Trump Executive Order 14420 (26.08.2026) - zakaz zakupu zagranicznych inwerterow/transformatorow/BESS dla sieci energetycznej (chroni amerykanskich producentow paneli/modulow przed tanszym importem); Deutsche Bank podniosl cel do $299 (ok. +45% upside od obecnej ceny)",
-      "still_upside": true,
-      "upside_reason": "Ten sam swiezy (5-dniowy) katalizator co SEDG, ale FSLR to lepszej jakosci biznes (najwiekszy amerykanski producent paneli, produkcja krajowa - bezposredni beneficjent 'Buy American' w energetyce). pct_1m +14% to nadal nierozgrzana strefa (ponizej progu +25%), Deutsche Bank WLASNIE podniosl cel - reakcja rynku (+3.78% dzis) dopiero sie zaczyna.",
-      "note": "Nie wymaga furtki do przejscia bezpiecznika (pct_1m ponizej +25%), ale zostawiam still_upside=true bo teza to swiezy katalizator + podniesione cele analitykow, nie tylko techniczny ruch."
-    }
-  ]
+  "congress": [],
+  "policy": []
 }
