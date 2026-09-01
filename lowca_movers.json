@@ -1,30 +1,30 @@
 [
   {
-    "ticker": "FNGR",
-    "pct": 129.53,
-    "day": "2026-08-28",
-    "presignal": "BRAK realnego pre-sygnalu z wyprzedzeniem - w piatek rano naglosniono strategiczny zwrot nowego zarzadu ku 'behind-the-meter' AI/HPC data center (alians z BlueFlare Energy Solutions, zasilanie z gazu ziemnego w zachodniej Kanadzie, omijanie kolejek na przylacza sieciowe). Ogloszenie i reakcja rynku ten sam dzien, mikro-cap (grosze).",
-    "lesson": "Powtarzalny wzorzec 2026: mikro-cap ogloszajacy pivot do 'behind-the-meter power + AI data center' potrafi zrobic wielokrotnosc w jeden dzien na czystym newsie/8-K, bez wczesniejszego sygnalu wolumenowego. Nie da sie tego zlapac z wyprzedzeniem - jedyna obrona to szybkie rozpoznanie wzorca w dniu ogloszenia i NIE gonienie po fakcie (klasyczna micro-cap pompa, ryzyko szybkiego zjazdu)."
+    "ticker": "GPRO",
+    "pct": 46.06,
+    "day": "2026-08-31",
+    "presignal": "Brak formalnego 8-K/13D dostepnego przed otwarciem - w niedziele wieczorem/rano 31.08 Bloomberg ujawnil, ze YouTuber Mark Fischbach ('Markiplier') zbudowal 8.5% stake (~$9.3mln) w GoPro, czyniac go najwiekszym akcjonariuszem. Kurs +46% w sesji regularnej, dodatkowe +55% po sesji (do $1.37) na wolumenie 142.5mln akcji (~20x sredniej z 5 sesji). Kontynuacja nastepnego dnia (1.09 premarket nadal +67.8% do $1.47).",
+    "lesson": "Celebryci/influencerzy (YouTuberzy, streamerzy) ujawniajacy przez media (Bloomberg) duzy pakiet akcji w mocno przecenionej spolce consumer/tech (GPRO -37% YTD przed newsem) moga wywolac >100% skumulowany ruch w 2 sesje (retail FOMO + short squeeze) bez formalnego 13D/8-K widocznego z wyprzedzeniem - jedyna mozliwa obrona to sledzenie w czasie rzeczywistym newsow finansowych (Bloomberg/Reuters) o nietypowych stake'ach w weekend/przed otwarciem; ruch typowo kontynuuje sie na kolejnej sesji (analogicznie do LVWR), ale anti-chase i tak blokuje wejscie po +46-128%."
   },
   {
-    "ticker": "CHAI",
-    "pct": 51.8,
-    "day": "2026-08-28",
-    "presignal": "Zaplanowane wyniki Q2 2026 (znana data z wyprzedzeniem) - przychod +56% r/r do $22.4mln, strata brutto skurczyla sie o 97% (niemal break-even marza brutto), dodatni operacyjny cash flow za H1 ($5.5mln) vs zuzycie gotowki rok wczesniej. Dzien wczesniej brak jawnego presygnalu insider/wolumen w dostepnych zrodlach.",
-    "lesson": "Nano-cap ($6.5mln kapitalizacji) z przyspieszajacym wzrostem przychodow i szybko poprawiajaca sie marza brutto przed zaplanowanymi wynikami zasluguje na miejsce na liscie obserwacyjnej z wyprzedzeniem (podobnie jak MANH/OKTA/AMRC z wczesniejszych lekcji) - warto skanowac kalendarz wynikow mikro-cap AI/tech pod katem przyspieszajacego trendu przychodow."
+    "ticker": "AEHL",
+    "pct": 83.33,
+    "day": "2026-08-31",
+    "presignal": "Brak pojedynczego newsa 30.08 - kontynuacja cyklu low-float microcap: reverse split 1-for-16 (5.08), trading halt z oczekujacym newsem (7.08), $18.99mln private placement z warrantami (24.08). Ruch +83% 31.08 i dalsza kontynuacja 1.09 premarket (+78%, rowniez bez nowego newsa) to czysty retail momentum/squeeze.",
+    "lesson": "Potwierdza wzorzec juz w dzienniku (ZCMD, WFF): reverse split + swiezy private placement z warrantami w china-adjacent microcap generuje wielosesyjny, wieloTYGODNIOWY squeeze bez identyfikowalnego katalizatora newsowego kazdego dnia z osobna - flagowac spolki 2-4 tyg. po reverse split jako podwyzszone ryzyko nagłego wybicia, ale NIE gonic (ruch juz w strefie paraboli >+50%/mc)."
   },
   {
-    "ticker": "SWVL",
-    "pct": 41.18,
-    "day": "2026-08-28",
-    "presignal": "Dzien wczesniej (27.08.2026) Swvl ogłosilo $13-14.5mln strategiczna runde finansowania (private placement wyceniona PO CENIE RYNKOWEJ, bez dyskonta, prowadzona przez Coefficient LP + dodatkowa transza od Sofico Holdings) z zamknieciem 27-28.08 - to byl realny, publicznie dostepny presygnal jeden dzien przed glownym ruchem.",
-    "lesson": "Private placement/PIPE wyceniony PRZY cenie rynkowej (bez dyskonta) to silniejszy sygnal zaufania inwestorow instytucjonalnych niz standardowa runda z dyskontem - takie 8-K/ogloszenia warto flagowac tego samego dnia jako kandydata na kontynuacje nastepnej sesji, zwlaszcza gdy nakladaja sie na juz istniejacy pozytywny momentum operacyjny."
+    "ticker": "NCRA",
+    "pct": 49.74,
+    "day": "2026-08-31",
+    "presignal": "Brak pojedynczego triggera 30.08 w dostepnych zrodlach - narracja budowala sie od 11.08, gdy Nocera ogłosila przejecie 30% efektywnej kontroli w tajwanskiej Qmax Technology (pamiec/storage dla AI, VIE) i wtedy kurs zareagowal tylko +12%. Kulminacyjny skok +49.7% nastapil 3 tygodnie pozniej, bez nowego pojedynczego ogloszenia tego dnia - wyglada na opoznione/kumulowane przetrawienie narracji AI-infrastructure przez rynek.",
+    "lesson": "Mikro-cap z wczesniejszym (2-3 tyg.) ogloszeniem akwizycji/JV w goracym temacie (AI memory/storage) moze dac opozniona, silnie kumulowana reakcje rynku tygodnie po pierwotnym, stosunkowo spokojnym ogloszeniu - warto trzymac takie spolki na DLUZSZEJ watchliscie (nie tylko 24-48h po evencie), analogicznie do wzorca opoznionej reakcji TRUG po piatkowych earnings."
   },
   {
-    "ticker": "NCPL",
-    "pct": 28.41,
-    "day": "2026-08-28",
-    "presignal": "Niejednoznaczne - tego samego dnia spolka ujawnila NEGATYWNA informacje (nasdaq delinquency notice za spozniony 10-K, notice otrzymane juz 24.08) jednoczesnie z narracja o nowej strategii w tokenizowanych aktywach/cyfrowej ekspansji. Kurs mimo to wystrzelil - reakcja wyglada na spekulacyjna/sentymentalna, nie na twardym pozytywnym katalizatorze.",
-    "lesson": "Nano-cap moze wystrzelic nawet na pozornie negatywnej informacji (compliance notice) jesli towarzyszy jej rownolegle spekulacyjna narracja (tu: crypto/tokenizacja) - tego typu ruchy sa nieprzewidywalne i nie nadaja sie do systematycznego lapania; traktowac jako szum, nie wzorzec do powielania."
+    "ticker": "RDHL",
+    "pct": 36.16,
+    "day": "2026-08-31",
+    "presignal": "Narracja rozwijala sie przez caly sierpien (rozwoj Opaganibu w kontekscie pogarszajacej sie epidemii Eboli, ogloszony na poczatku miesiaca) bez jednego czystego 8-K/danych klinicznych 30.08. Kulminacja 31.08: kurs whipsawowal miedzy $1.01 a $1.60 na 947k akcji, zamkniecie $1.07 (+36% dziennie) - opisywane jako reakcja na 'pozytywne dane rozwoju leku', ale bez jednoznacznego pojedynczego triggera identyfikowalnego dzien wczesniej.",
+    "lesson": "Nano-cap biotech (35 pracownikow, wysoka dzwignia) z rozwijajaca sie przez caly miesiac narracja (eksperymentalny lek na epidemie) moze dac nagly, bardzo zmienny ruch pod koniec miesiaca bez jednego czystego katalizatora dnia - ekstremalny spread intraday (spike i mocny odwrot w tej samej sesji) czyni realne zlapanie ruchu trudnym/ryzykownym nawet przy wczesniejszej identyfikacji watchlisty."
   }
 ]
