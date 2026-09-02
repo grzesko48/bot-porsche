@@ -1,30 +1,51 @@
 [
   {
+    "ticker": "SSM",
+    "pct": 77.4,
+    "day": "2026-09-01",
+    "presignal": "31.08 (dzien wczesniej) Sono Group i Sports One ogłosily niewiazacy LOI ws. reverse-merger (Sono ma stac sie 'Sports One' - inwestor w mniejszosciowe udzialy klubow NFL/NBA/MLB/NHL), a rownoczesnie grupa inwestorow powiazanych ze Sports One kupila 19.9% akcji Sono po cenie rynkowej (registered direct offering) - jawny, silny presygnal dzien przed glownym ruchem.",
+    "lesson": "Ogloszenie LOI reverse-merger polaczone z rownoczesnym zakupem duzego pakietu (~20%) przez strone przejmujaca po cenie rynkowej to wzorzec insider-like conviction - czesto zapowiada kontynuacje pompy w kolejnej sesji. Sledzic takie LOI+stake newsy w mikro-cap shellach."
+  },
+  {
+    "ticker": "FLYE",
+    "pct": 61.8,
+    "day": "2026-09-01",
+    "presignal": "Brak jawnego newsa/katalizatora zidentyfikowanego w dostepnych zrodlach na 01.09 ani dzien wczesniej - mikro-cap EV/e-bike (Fly-E Group) o niskiej plynnosci i wysokiej zmiennosci.",
+    "lesson": "Mikro-cap produkty konsumenckie (e-bike/EV) o niskiej kapitalizacji potrafia ruszac sie gwaltownie bez jawnego katalizatora - czysty wolumenowy pop, trudny do zlapania z wyprzedzeniem; niski priorytet bez potwierdzonego newsa."
+  },
+  {
+    "ticker": "BIAF",
+    "pct": 46.3,
+    "day": "2026-09-01",
+    "presignal": "Brak jawnego presygnalu dzien wczesniej (31.08). Kontekst: spolka 24.08 przeszla reverse split 1-za-15 (zgodnosc z minimalna cena Nasdaq), a 01.09 opublikowala komunikat rozszerzajacy zastosowanie testu CyPath Lung na monitorowanie ozdrowiencow po leczeniu raka pluc (nowy segment rynku) - katalizator ujawniony tego samego dnia.",
+    "lesson": "Mikro-cap diagnostyka/biotech tuz po reverse split (kompensacja podazy) czesto publikuje serie komunikatow rozszerzajacych wskazania produktu - warto obserwowac kalendarz komunikatow spolki w tygodniach po resplicie pod katem kolejnych pop-ow."
+  },
+  {
+    "ticker": "RDAC",
+    "pct": 41.5,
+    "day": "2026-09-01",
+    "presignal": "Brak jawnego, swiezego presygnalu z 31.08 w dostepnych zrodlach - SPAC (Rising Dragon Acquisition) z umowa polaczenia (HZJL Cayman, od stycznia 2025) i niedawnym przedluzeniem terminu/redemptions (koniec lipca 2026).",
+    "lesson": "SPAC-y blisko terminow glosowan nad przedluzeniem/redemption bywaja bardzo zmienne bez jawnego newsa fundamentalnego (mechanika NAV/arbitrazu) - niski edge do lapania z wyprzedzeniem, pomijac w typowym skanie okazji."
+  },
+  {
     "ticker": "GPRO",
-    "pct": 46.06,
-    "day": "2026-08-31",
-    "presignal": "Brak formalnego 8-K/13D dostepnego przed otwarciem - w niedziele wieczorem/rano 31.08 Bloomberg ujawnil, ze YouTuber Mark Fischbach ('Markiplier') zbudowal 8.5% stake (~$9.3mln) w GoPro, czyniac go najwiekszym akcjonariuszem. Kurs +46% w sesji regularnej, dodatkowe +55% po sesji (do $1.37) na wolumenie 142.5mln akcji (~20x sredniej z 5 sesji). Kontynuacja nastepnego dnia (1.09 premarket nadal +67.8% do $1.47).",
-    "lesson": "Celebryci/influencerzy (YouTuberzy, streamerzy) ujawniajacy przez media (Bloomberg) duzy pakiet akcji w mocno przecenionej spolce consumer/tech (GPRO -37% YTD przed newsem) moga wywolac >100% skumulowany ruch w 2 sesje (retail FOMO + short squeeze) bez formalnego 13D/8-K widocznego z wyprzedzeniem - jedyna mozliwa obrona to sledzenie w czasie rzeczywistym newsow finansowych (Bloomberg/Reuters) o nietypowych stake'ach w weekend/przed otwarciem; ruch typowo kontynuuje sie na kolejnej sesji (analogicznie do LVWR), ale anti-chase i tak blokuje wejscie po +46-128%."
+    "pct": 40.4,
+    "day": "2026-09-01",
+    "presignal": "Brak presygnalu dzien wczesniej - zaskakujace tego samego dnia ogloszenie fuzji GoPro ze Starman Optical.",
+    "lesson": "Nagle ogloszenia M&A dla spolek turnaround sa z natury nieprzewidywalne dzien wczesniej - brak realnego edge'u poza ogolnym monitoringiem newsflow o poranku sesji."
   },
   {
-    "ticker": "AEHL",
-    "pct": 83.33,
-    "day": "2026-08-31",
-    "presignal": "Brak pojedynczego newsa 30.08 - kontynuacja cyklu low-float microcap: reverse split 1-for-16 (5.08), trading halt z oczekujacym newsem (7.08), $18.99mln private placement z warrantami (24.08). Ruch +83% 31.08 i dalsza kontynuacja 1.09 premarket (+78%, rowniez bez nowego newsa) to czysty retail momentum/squeeze.",
-    "lesson": "Potwierdza wzorzec juz w dzienniku (ZCMD, WFF): reverse split + swiezy private placement z warrantami w china-adjacent microcap generuje wielosesyjny, wieloTYGODNIOWY squeeze bez identyfikowalnego katalizatora newsowego kazdego dnia z osobna - flagowac spolki 2-4 tyg. po reverse split jako podwyzszone ryzyko nagłego wybicia, ale NIE gonic (ruch juz w strefie paraboli >+50%/mc)."
+    "ticker": "FRVO",
+    "pct": 28.4,
+    "day": "2026-09-01",
+    "presignal": "Brak jawnego presygnalu dzien wczesniej - komunikat o 396 MW PPA (geotermalna umowa) z Google opublikowany tego samego dnia (01.09, 08:00 ET).",
+    "lesson": "Fervo Energy ma powtarzalny wzorzec katalizatora: kolejne PPA z hyperscalerami (wczesniej Google/NV Energy w Nevadzie, teraz 396MW w Utah + opcja rozszerzenia do ~1GW do 2030) - spolki geotermalne/czystej energii z istniejacymi relacjami z hyperscalerami warto miec na radarze pod katem nastepnych ogloszen ekspansji umow."
   },
   {
-    "ticker": "NCRA",
-    "pct": 49.74,
-    "day": "2026-08-31",
-    "presignal": "Brak pojedynczego triggera 30.08 w dostepnych zrodlach - narracja budowala sie od 11.08, gdy Nocera ogłosila przejecie 30% efektywnej kontroli w tajwanskiej Qmax Technology (pamiec/storage dla AI, VIE) i wtedy kurs zareagowal tylko +12%. Kulminacyjny skok +49.7% nastapil 3 tygodnie pozniej, bez nowego pojedynczego ogloszenia tego dnia - wyglada na opoznione/kumulowane przetrawienie narracji AI-infrastructure przez rynek.",
-    "lesson": "Mikro-cap z wczesniejszym (2-3 tyg.) ogloszeniem akwizycji/JV w goracym temacie (AI memory/storage) moze dac opozniona, silnie kumulowana reakcje rynku tygodnie po pierwotnym, stosunkowo spokojnym ogloszeniu - warto trzymac takie spolki na DLUZSZEJ watchliscie (nie tylko 24-48h po evencie), analogicznie do wzorca opoznionej reakcji TRUG po piatkowych earnings."
-  },
-  {
-    "ticker": "RDHL",
-    "pct": 36.16,
-    "day": "2026-08-31",
-    "presignal": "Narracja rozwijala sie przez caly sierpien (rozwoj Opaganibu w kontekscie pogarszajacej sie epidemii Eboli, ogloszony na poczatku miesiaca) bez jednego czystego 8-K/danych klinicznych 30.08. Kulminacja 31.08: kurs whipsawowal miedzy $1.01 a $1.60 na 947k akcji, zamkniecie $1.07 (+36% dziennie) - opisywane jako reakcja na 'pozytywne dane rozwoju leku', ale bez jednoznacznego pojedynczego triggera identyfikowalnego dzien wczesniej.",
-    "lesson": "Nano-cap biotech (35 pracownikow, wysoka dzwignia) z rozwijajaca sie przez caly miesiac narracja (eksperymentalny lek na epidemie) moze dac nagly, bardzo zmienny ruch pod koniec miesiaca bez jednego czystego katalizatora dnia - ekstremalny spread intraday (spike i mocny odwrot w tej samej sesji) czyni realne zlapanie ruchu trudnym/ryzykownym nawet przy wczesniejszej identyfikacji watchlisty."
+    "ticker": "LIDR",
+    "pct": 27.8,
+    "day": "2026-09-01",
+    "presignal": "Brak jawnego presygnalu dzien wczesniej - kontrakt z Lunar Outpost (Apollo Lidar do Pegasus Lunar Terrain Vehicle, ekosystem NASA Artemis) ogloszony tego samego dnia.",
+    "lesson": "AEye wchodzi w nowa kategorie rynku (space mobility) kontraktem znaczaco przewyzszajacym kapitalizacje ($68mln) - warto sledzic kolejne ogloszenia kontraktow kosmicznych/Artemis-adjacent u dostawcow sensorow/lidaru jako powtarzalny wzorzec katalizatora."
   }
 ]

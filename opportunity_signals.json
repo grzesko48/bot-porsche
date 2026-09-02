@@ -1,8 +1,21 @@
 {
-  "_date": "2026-09-01",
-  "_run": "wtorek, bieg SRODSESYJNY 18:30 CEST. Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA) - brak mocnego swiezego kandydata spelniajacego kryteria. Dzisiejsi premarket/sesyjni liderzy: PRSO +85% do $1.50 (Mobix Labs MOBX podniosl wrogа oferte przejecia z cash+stock, deadline odpowiedzi zarzadu 8.09) - ruch ograniczony przez wartosc oferty (merger-arb, nie momentum, gonienie bez sensu). HOUR (Hour Loop) +58% do $3 - brak konkretnego newsa/katalizatora poza ogolnym 'wzrostem e-commerce', czysty wolumenowy pop. VEEE (Twin Vee) - skok na uruchomieniu niszowej apki wyceny lodzi przez spolke-zaleznosc, watly katalizator. ISPC (iSpecimen) +47% do $1.00 na newsie o rozmowach ws. $200mln Solana-based crypto treasury - dokladnie wzorzec 'crypto-treasury pivot w micro-cap shellu' juz wielokrotnie w dzienniku lekcji (SONN, NCPL) - do obserwacji/unikania, NIE do gonienia (klasyczna pompa dnia, brak edge'u wejscia). Wszystkie 4 juz mocno rozgrzane w ramach jednej sesji (+47% do +85%), zdecydowanie ponad prog +25%/mc i bez przeslanek 'jeszcze nie szczyt' (brak podniesionego guidance/celu analitykow/kontraktu > kapitalizacji) - furtka Wniosek #4 NIE ma zastosowania. Kontrakty rzadowe dzis: NASA/Amentum $974mln Langley Center Ops, NOAA $8mld ProTech SBEM IDIQ, FAA/AT&T wieloletni FENS - wszystko duze/mega-cap kontrahentow, kontrakt nie stanowi >=50% kapitalizacji, nie pasuje do profilu spekulacyjnego. Insider cluster buys / 13F / kongres - w tej rundzie brak swiezych (<=2 dni), konkretnych, potwierdzonych sygnalow na malych spolkach spekulacyjnych (dostepne wyniki wyszukiwania to albo ogolne artykuly 'undervalued small caps' bez konkretnej daty/klastra, albo starsze niz tydzien pojedyncze zakupy kongresmenow na duzych/mid-cap spolkach). Brak swiezych IPO z momentum poza juz znanymi (SpaceX, Anthropic - nie pasuja do mikro/spekulacyjnego sleeve'u). Stoicko: PASS na ten bieg, brak twardego, nieprzegrzanego potwierdzenia.",
+  "_date": "2026-09-02",
+  "_run": "sroda, bieg PRZEDSESYJNY 14:30 CEST. Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA). Jedyny mocny, potwierdzony kandydat: LIDR (AEye) - kontrakt Lunar Outpost (Apollo Lidar do Pegasus Lunar Terrain Vehicle, ekosystem NASA Artemis) ogloszony 01.09, wolumen ~148x sredniej, +27.8% w dniu ogloszenia, kapitalizacja tylko $68mln - nowa kategoria rynku (space mobility) dla spolki, wiec furtka Wniosek #4 (still_upside) uzasadniona mimo przekroczenia progu +25%/mc. Inne dzisiejsze 'unusual volume' z ekranow (JACS, GHXI - SPAC-y kolo NAV bez ruchu; AMBR, ZEO, KALA - spadki, nie kupno) odsiane. CCEC (Capital Clean Energy Carriers, $22.61, kapitalizacja $1.36mld) i SOPH (SOPHiA Genetics, $5.79, kapitalizacja $486mln) maja swiezy beat Q2 2026 i podwyzszony popyt, ale bez potwierdzonego konkretnego wolumen-mult >=3x w tej rundzie - pominiete jako niepotwierdzone (SOPH dodatkowo juz +46%/mc, w strefie CZEKAJ). FRVO (Fervo Energy) ma swiezy katalizator (396MW PPA z Google, najwieksza umowa geotermalna EGS, 01.09) ale kapitalizacja $5.82mld (> pulapu $5mld) i notowanie ponizej ceny IPO (-27% od debiutu 14.05.2026) - nie spelnia progow IPO/kontrakt, pominiete. Kontrakty rzadowe dzis (Amentum $974mln NASA Langley, Leonardo DRS/Space Force) - kontrahenci zbyt duzi wzgledem kontraktu (<50% kapitalizacji), nie pasuja do profilu spekulacyjnego. Insider cluster buys / 13F / kongres - w tej rundzie brak swiezych (<=2 dni), konkretnych, potwierdzonych sygnalow na malych spolkach spekulacyjnych (OpenInsider/Capitol Trades niedostepne przez blokady 503/429; ogolne artykuly bez konkretnej swiezej daty klastra). Brak swiezych IPO z pozytywnym momentum <=18 mies. spelniajacych prog (Karman Holdings na granicy wieku IPO i juz -7%/mc). Brak swiezej polityki/Trump bez juz wycenionego katalizatora.",
   "ipo": [],
-  "volume": [],
+  "volume": [
+    {
+      "ticker": "LIDR",
+      "company": "AEye Inc",
+      "price_usd": 1.47,
+      "pct_1m": 27,
+      "pct_today": 27.8,
+      "volume_mult": 148.6,
+      "broke_high": false,
+      "catalyst": "Kontrakt: Apollo Lidar wybrany przez Lunar Outpost do Pegasus Lunar Terrain Vehicle (program NASA Artemis) - pierwszy kontrakt AEye w nowej kategorii space mobility, ogloszony 01.09.2026",
+      "still_upside": true,
+      "upside_reason": "Multi-milionowy kontrakt vs kapitalizacja tylko $68mln - otwiera nowy rynek (space mobility) dla AEye poza dotychczasowym core (automotive/defense/industrial); katalizator dopiero na starcie, mozliwe kolejne kontrakty Artemis-adjacent"
+    }
+  ],
   "contract": [],
   "insider": [],
   "fund13f": [],
