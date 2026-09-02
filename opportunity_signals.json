@@ -1,19 +1,31 @@
 {
   "_date": "2026-09-02",
-  "_run": "sroda, bieg PRZEDSESYJNY 14:30 CEST. Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA). Jedyny mocny, potwierdzony kandydat: LIDR (AEye) - kontrakt Lunar Outpost (Apollo Lidar do Pegasus Lunar Terrain Vehicle, ekosystem NASA Artemis) ogloszony 01.09, wolumen ~148x sredniej, +27.8% w dniu ogloszenia, kapitalizacja tylko $68mln - nowa kategoria rynku (space mobility) dla spolki, wiec furtka Wniosek #4 (still_upside) uzasadniona mimo przekroczenia progu +25%/mc. Inne dzisiejsze 'unusual volume' z ekranow (JACS, GHXI - SPAC-y kolo NAV bez ruchu; AMBR, ZEO, KALA - spadki, nie kupno) odsiane. CCEC (Capital Clean Energy Carriers, $22.61, kapitalizacja $1.36mld) i SOPH (SOPHiA Genetics, $5.79, kapitalizacja $486mln) maja swiezy beat Q2 2026 i podwyzszony popyt, ale bez potwierdzonego konkretnego wolumen-mult >=3x w tej rundzie - pominiete jako niepotwierdzone (SOPH dodatkowo juz +46%/mc, w strefie CZEKAJ). FRVO (Fervo Energy) ma swiezy katalizator (396MW PPA z Google, najwieksza umowa geotermalna EGS, 01.09) ale kapitalizacja $5.82mld (> pulapu $5mld) i notowanie ponizej ceny IPO (-27% od debiutu 14.05.2026) - nie spelnia progow IPO/kontrakt, pominiete. Kontrakty rzadowe dzis (Amentum $974mln NASA Langley, Leonardo DRS/Space Force) - kontrahenci zbyt duzi wzgledem kontraktu (<50% kapitalizacji), nie pasuja do profilu spekulacyjnego. Insider cluster buys / 13F / kongres - w tej rundzie brak swiezych (<=2 dni), konkretnych, potwierdzonych sygnalow na malych spolkach spekulacyjnych (OpenInsider/Capitol Trades niedostepne przez blokady 503/429; ogolne artykuly bez konkretnej swiezej daty klastra). Brak swiezych IPO z pozytywnym momentum <=18 mies. spelniajacych prog (Karman Holdings na granicy wieku IPO i juz -7%/mc). Brak swiezej polityki/Trump bez juz wycenionego katalizatora.",
+  "_run": "sroda, bieg SRODSESYJNY 18:30 CEST (~12:30 ET). Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA). Potwierdzenie konfluencji z biegiem przedsesyjnym: LIDR (AEye) - kontrakt Lunar Outpost (Apollo Lidar do Pegasus Lunar Terrain Vehicle, ekosystem NASA Artemis) ogloszony 01.09, nadal aktywny katalizator, kurs $1.45 (lekko schlodzony wzgledem porannego $1.47, -1.36% dzis) - NIE ucieka wyzej, wciaz w rozsadnej strefie. Furtka Wniosek #4 (still_upside) podtrzymana: multi-milionowy kontrakt vs kapitalizacja ~$67mln, nowa kategoria rynku (space mobility) dopiero na starcie. Dodatkowo: PPBT (Purple Biotech) +37.95% dzis na realnym katalizatorze (nowe zezwolenie patentowe USA wzmacniajace ochrone platformy CAPTN-3), kurs $2.29 - ale bez mocnych przeslanek na dalszy wzrost (samo zezwolenie patentowe nie gwarantuje bliskich przychodow), wiec BEZ furtki still_upside - zostawione botowi jako 'CZEKAJ na cofniecie' (strefa +25-40%/mc). Odsiane jako pompy bez realnego katalizatora (klasyczny wzorzec z lekcji - unikac, nie gonic): FAMI (+52-68% dzis, brak newsa), VIOT (+62-64% dzis, brak newsa), BIAF (+60% dzis, brak newsa, 52-tyg. zakres $4.56-202.50 wskazuje na wczesniejszy reverse split/rozpad - wysokie ryzyko), NCPL (+31-40% dzis, brak newsa), GYGY (+29% dzis, brak newsa), FCUV (+26% dzis, brak newsa), MNTK (+20% dzis, brak newsa, ponizej progu), LHSW (+31% dzis, katalizator to $11mln follow-on offering - rozwadniajacy, NIE bull), LHAI (+28% dzis, katalizator zbyt cienki/spekulacyjny - 'ewaluacja' projektu 144 GPU, brak podpisanej umowy). FRVO (Fervo Energy, 396MW PPA z Google, najwieksza umowa geotermalna EGS, ogloszona 01.09 ale podpisana juz 26.08 - katalizator lekko 'starzejacy sie') ponownie odsiane: kapitalizacja $5.82mld (> pulapu spekulacyjnego) i notowanie ponizej ceny IPO. Insider cluster buys (OpenInsider) / 13F (Dataroma/WhaleWisdom) / kongres (Capitol Trades) - brak swiezych, konkretnych, potwierdzonych sygnalow na malych spolkach w tej rundzie (zrodla bez mozliwosci filtrowania po dacie na poziomie wyszukiwarki). Brak swiezych IPO z pozytywnym momentum <=18 mies. (HawkEye 360 -8.6%/mc, Jersey Mike's -11%/mc ponizej ceny IPO - oba spadkowe, nie pasuja). INFQ (Infleqtion, kwantowe czujniki, kontrakt NASA $20mln z 27.08 - juz 6 dni, nie <48h) zbyt maly kontrakt wzgledem kapitalizacji $2.78mld (<<50%) i pct_1m -2.92% (nie rozgrzana, ale i brak swiezego wyzwalacza) - pominiete jako niepotwierdzone w tej rundzie.",
   "ipo": [],
   "volume": [
     {
       "ticker": "LIDR",
       "company": "AEye Inc",
-      "price_usd": 1.47,
-      "pct_1m": 27,
-      "pct_today": 27.8,
+      "price_usd": 1.45,
+      "pct_1m": 25,
+      "pct_today": -1.36,
       "volume_mult": 148.6,
       "broke_high": false,
-      "catalyst": "Kontrakt: Apollo Lidar wybrany przez Lunar Outpost do Pegasus Lunar Terrain Vehicle (program NASA Artemis) - pierwszy kontrakt AEye w nowej kategorii space mobility, ogloszony 01.09.2026",
+      "catalyst": "Kontrakt: Apollo Lidar wybrany przez Lunar Outpost do Pegasus Lunar Terrain Vehicle (program NASA Artemis) - pierwszy kontrakt AEye w nowej kategorii space mobility, ogloszony 01.09.2026, katalizator nadal aktywny",
       "still_upside": true,
-      "upside_reason": "Multi-milionowy kontrakt vs kapitalizacja tylko $68mln - otwiera nowy rynek (space mobility) dla AEye poza dotychczasowym core (automotive/defense/industrial); katalizator dopiero na starcie, mozliwe kolejne kontrakty Artemis-adjacent"
+      "upside_reason": "Multi-milionowy kontrakt vs kapitalizacja tylko ~$67mln - otwiera nowy rynek (space mobility) dla AEye poza dotychczasowym core (automotive/defense/industrial); kurs sie NIE oddalil od porannego poziomu (lekko schlodzony), katalizator dopiero na starcie"
+    },
+    {
+      "ticker": "PPBT",
+      "company": "Purple Biotech Ltd",
+      "price_usd": 2.29,
+      "pct_1m": 38,
+      "pct_today": 37.95,
+      "volume_mult": null,
+      "broke_high": false,
+      "catalyst": "Nowe zezwolenie patentowe USA wzmacniajace ochrone platformy modularnych przeciwcial CAPTN-3, ogloszone 02.09.2026",
+      "still_upside": false,
+      "upside_reason": null
     }
   ],
   "contract": [],
