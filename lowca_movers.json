@@ -1,51 +1,16 @@
 [
   {
-    "ticker": "SSM",
-    "pct": 77.4,
-    "day": "2026-09-01",
-    "presignal": "31.08 (dzien wczesniej) Sono Group i Sports One ogłosily niewiazacy LOI ws. reverse-merger (Sono ma stac sie 'Sports One' - inwestor w mniejszosciowe udzialy klubow NFL/NBA/MLB/NHL), a rownoczesnie grupa inwestorow powiazanych ze Sports One kupila 19.9% akcji Sono po cenie rynkowej (registered direct offering) - jawny, silny presygnal dzien przed glownym ruchem.",
-    "lesson": "Ogloszenie LOI reverse-merger polaczone z rownoczesnym zakupem duzego pakietu (~20%) przez strone przejmujaca po cenie rynkowej to wzorzec insider-like conviction - czesto zapowiada kontynuacje pompy w kolejnej sesji. Sledzic takie LOI+stake newsy w mikro-cap shellach."
+    "ticker": "DELL",
+    "pct": 15,
+    "day": "2026-09-02",
+    "presignal": "Zaplanowane wyniki kwartalne (znana data z wyprzedzeniem) - dzien wczesniej (01.09) brak jawnego presygnalu insider/wolumen w dostepnych zrodlach. Realny presygnal to sekularny trend: rosnacy popyt na sprzet datacenter/AI infrastructure widoczny juz w poprzednich kwartalach (analogiczny do trendu AMRC/backlog power infrastructure z wczesniejszej lekcji), ktory podnosil prawdopodobienstwo kolejnego mocnego printu na segmencie datacenter.",
+    "lesson": "Sledzic spolki hardware/infrastruktura AI datacenter (serwery, storage, sieci) z rosnacym udzialem segmentu datacenter w przychodach przed ich zaplanowanymi earnings - przyspieszajacy popyt AI capex w poprzednich kwartalach to powtarzalny wskaznik prawdopodobnego beat (wzorzec jak MANH/AMRC/PAY w dzienniku), nawet dla wiekszych spolek poza typowym micro-cap sleeve."
   },
   {
-    "ticker": "FLYE",
-    "pct": 61.8,
-    "day": "2026-09-01",
-    "presignal": "Brak jawnego newsa/katalizatora zidentyfikowanego w dostepnych zrodlach na 01.09 ani dzien wczesniej - mikro-cap EV/e-bike (Fly-E Group) o niskiej plynnosci i wysokiej zmiennosci.",
-    "lesson": "Mikro-cap produkty konsumenckie (e-bike/EV) o niskiej kapitalizacji potrafia ruszac sie gwaltownie bez jawnego katalizatora - czysty wolumenowy pop, trudny do zlapania z wyprzedzeniem; niski priorytet bez potwierdzonego newsa."
-  },
-  {
-    "ticker": "BIAF",
-    "pct": 46.3,
-    "day": "2026-09-01",
-    "presignal": "Brak jawnego presygnalu dzien wczesniej (31.08). Kontekst: spolka 24.08 przeszla reverse split 1-za-15 (zgodnosc z minimalna cena Nasdaq), a 01.09 opublikowala komunikat rozszerzajacy zastosowanie testu CyPath Lung na monitorowanie ozdrowiencow po leczeniu raka pluc (nowy segment rynku) - katalizator ujawniony tego samego dnia.",
-    "lesson": "Mikro-cap diagnostyka/biotech tuz po reverse split (kompensacja podazy) czesto publikuje serie komunikatow rozszerzajacych wskazania produktu - warto obserwowac kalendarz komunikatow spolki w tygodniach po resplicie pod katem kolejnych pop-ow."
-  },
-  {
-    "ticker": "RDAC",
-    "pct": 41.5,
-    "day": "2026-09-01",
-    "presignal": "Brak jawnego, swiezego presygnalu z 31.08 w dostepnych zrodlach - SPAC (Rising Dragon Acquisition) z umowa polaczenia (HZJL Cayman, od stycznia 2025) i niedawnym przedluzeniem terminu/redemptions (koniec lipca 2026).",
-    "lesson": "SPAC-y blisko terminow glosowan nad przedluzeniem/redemption bywaja bardzo zmienne bez jawnego newsa fundamentalnego (mechanika NAV/arbitrazu) - niski edge do lapania z wyprzedzeniem, pomijac w typowym skanie okazji."
-  },
-  {
-    "ticker": "GPRO",
-    "pct": 40.4,
-    "day": "2026-09-01",
-    "presignal": "Brak presygnalu dzien wczesniej - zaskakujace tego samego dnia ogloszenie fuzji GoPro ze Starman Optical.",
-    "lesson": "Nagle ogloszenia M&A dla spolek turnaround sa z natury nieprzewidywalne dzien wczesniej - brak realnego edge'u poza ogolnym monitoringiem newsflow o poranku sesji."
-  },
-  {
-    "ticker": "FRVO",
-    "pct": 28.4,
-    "day": "2026-09-01",
-    "presignal": "Brak jawnego presygnalu dzien wczesniej - komunikat o 396 MW PPA (geotermalna umowa) z Google opublikowany tego samego dnia (01.09, 08:00 ET).",
-    "lesson": "Fervo Energy ma powtarzalny wzorzec katalizatora: kolejne PPA z hyperscalerami (wczesniej Google/NV Energy w Nevadzie, teraz 396MW w Utah + opcja rozszerzenia do ~1GW do 2030) - spolki geotermalne/czystej energii z istniejacymi relacjami z hyperscalerami warto miec na radarze pod katem nastepnych ogloszen ekspansji umow."
-  },
-  {
-    "ticker": "LIDR",
-    "pct": 27.8,
-    "day": "2026-09-01",
-    "presignal": "Brak jawnego presygnalu dzien wczesniej - kontrakt z Lunar Outpost (Apollo Lidar do Pegasus Lunar Terrain Vehicle, ekosystem NASA Artemis) ogloszony tego samego dnia.",
-    "lesson": "AEye wchodzi w nowa kategorie rynku (space mobility) kontraktem znaczaco przewyzszajacym kapitalizacje ($68mln) - warto sledzic kolejne ogloszenia kontraktow kosmicznych/Artemis-adjacent u dostawcow sensorow/lidaru jako powtarzalny wzorzec katalizatora."
+    "ticker": "TLYS",
+    "pct": 31.4,
+    "day": "2026-09-02",
+    "presignal": "Zaplanowane fiscal Q2 earnings (znana data z wyprzedzeniem, po sesji 02.09) - dzien wczesniej brak jawnego presygnalu insider/wolumen w dostepnych zrodlach. Realny presygnal to trend: poprzednie 2 kwartaly z rzedu juz pokazywaly dwucyfrowy wzrost comp sales i poprawe rentownosci (retailer w turnaround) - kontynuacja przyspieszajacego wzrostu (3. kwartal z rzedu) i piaty z rzedu kwartal poprawy zysku r/r byla wysoce prawdopodobna na bazie tego trendu.",
+    "lesson": "Gdy maly retailer 'w turnaround' pokazal 2+ kwartaly z rzedu przyspieszajacego wzrostu comp sales i poprawy marzy/zysku, wpisac go na watchlist przed kolejnymi zaplanowanymi earnings - seria przyspieszajacych kwartalow (nie pojedynczy przypadek) to powtarzalny wzorzec 'beat-and-continue', analogiczny do PAY/MANH/CHAI w dzienniku. UWAGA: po samym printie kurs moze bardzo szybko wejsc w strefe parabolii (tu +198%/mc) - wejscie ma sens tylko PRZED wynikami na bazie trendu, nie po fakcie."
   }
 ]

@@ -1,29 +1,28 @@
 {
-  "_date": "2026-09-02",
-  "_run": "sroda, bieg SRODSESYJNY 18:30 CEST (~12:30 ET). Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA). Potwierdzenie konfluencji z biegiem przedsesyjnym: LIDR (AEye) - kontrakt Lunar Outpost (Apollo Lidar do Pegasus Lunar Terrain Vehicle, ekosystem NASA Artemis) ogloszony 01.09, nadal aktywny katalizator, kurs $1.45 (lekko schlodzony wzgledem porannego $1.47, -1.36% dzis) - NIE ucieka wyzej, wciaz w rozsadnej strefie. Furtka Wniosek #4 (still_upside) podtrzymana: multi-milionowy kontrakt vs kapitalizacja ~$67mln, nowa kategoria rynku (space mobility) dopiero na starcie. Dodatkowo: PPBT (Purple Biotech) +37.95% dzis na realnym katalizatorze (nowe zezwolenie patentowe USA wzmacniajace ochrone platformy CAPTN-3), kurs $2.29 - ale bez mocnych przeslanek na dalszy wzrost (samo zezwolenie patentowe nie gwarantuje bliskich przychodow), wiec BEZ furtki still_upside - zostawione botowi jako 'CZEKAJ na cofniecie' (strefa +25-40%/mc). Odsiane jako pompy bez realnego katalizatora (klasyczny wzorzec z lekcji - unikac, nie gonic): FAMI (+52-68% dzis, brak newsa), VIOT (+62-64% dzis, brak newsa), BIAF (+60% dzis, brak newsa, 52-tyg. zakres $4.56-202.50 wskazuje na wczesniejszy reverse split/rozpad - wysokie ryzyko), NCPL (+31-40% dzis, brak newsa), GYGY (+29% dzis, brak newsa), FCUV (+26% dzis, brak newsa), MNTK (+20% dzis, brak newsa, ponizej progu), LHSW (+31% dzis, katalizator to $11mln follow-on offering - rozwadniajacy, NIE bull), LHAI (+28% dzis, katalizator zbyt cienki/spekulacyjny - 'ewaluacja' projektu 144 GPU, brak podpisanej umowy). FRVO (Fervo Energy, 396MW PPA z Google, najwieksza umowa geotermalna EGS, ogloszona 01.09 ale podpisana juz 26.08 - katalizator lekko 'starzejacy sie') ponownie odsiane: kapitalizacja $5.82mld (> pulapu spekulacyjnego) i notowanie ponizej ceny IPO. Insider cluster buys (OpenInsider) / 13F (Dataroma/WhaleWisdom) / kongres (Capitol Trades) - brak swiezych, konkretnych, potwierdzonych sygnalow na malych spolkach w tej rundzie (zrodla bez mozliwosci filtrowania po dacie na poziomie wyszukiwarki). Brak swiezych IPO z pozytywnym momentum <=18 mies. (HawkEye 360 -8.6%/mc, Jersey Mike's -11%/mc ponizej ceny IPO - oba spadkowe, nie pasuja). INFQ (Infleqtion, kwantowe czujniki, kontrakt NASA $20mln z 27.08 - juz 6 dni, nie <48h) zbyt maly kontrakt wzgledem kapitalizacji $2.78mld (<<50%) i pct_1m -2.92% (nie rozgrzana, ale i brak swiezego wyzwalacza) - pominiete jako niepotwierdzone w tej rundzie.",
-  "ipo": [],
+  "_date": "2026-09-03",
+  "_run": "czwartek, bieg PRZEDSESYJNY 14:30 CEST (~08:30 ET). Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA) + druga runda doprecyzowujaca ceny/pct_1m dla znalezionych kandydatow. TLYS (Tilly's) - fiscal Q2 earnings 02.09 po sesji: EPS $0.27 vs oczek. $0.17, przychod $163.5mln (+8.1% r/r), trzeci kwartal z rzedu dwucyfrowego wzrostu comp sales (12.1% w Q2, 14.6% w sierpniu), piaty kwartal z rzedu poprawy zysku r/r, powrot do rentownosci - ALE kurs juz +198.6%/mc (parabola, mocno powyzej progu +50%, NIE kupowac, bez furtki still_upside - to klasyczny wzorzec 'juz zrobil swoje', analogiczny do ostrzezen z dziennika lekcji o gonieniu po fakcie). FLY (Firefly Aerospace, IPO 08.2025, w oknie <=18mies) - rekordowy Q2 backlog $1.5mld, podtrzymane guidance FY26 $420-450mln, kontrakt NASA Spacecraft Processing Operations + $75mln kontrakt na 4 drony ksiezycowe (Artemis), KeyBanc podniosl rating po kontrakcie NASA - kurs $27.18, pct_1m +41% (strefa 25-50%, furtka Wniosek #4 zastosowana: backlog rosnie kwartal do kwartalu, kontrakty Artemis dopiero na starcie, wzorzec analogiczny do AMRC/MANH z dziennika). Odsiane: SNOW (+24% dzis na wynikach, ale mega-cap ~$70mld, poza sleeve spekulacyjnym), AVGO (spadek, nie pasuje), HUT (Hut 8) - swiezy kontrakt Anthropic/Lambda $19.6mld (2x kapitalizacja $9.78mld, mocna konfluencja kontraktowa) i kurs schlodzony (pct_1m -31.7%, brak przegrzania) wygladal obiecujaco, ALE kapitalizacja $9.78mld przekracza dotychczasowy pulap spekulacyjny bota (por. FRVO $5.82mld odsiane wczoraj) - pominiete jako zbyt duza spolka dla tego sleeve'u. CCEC (Capital Clean Energy Carriers) - wzrost kontraktowanego wolumenu LNG i backlog $2.9mld, ale to fundamentalny trend z raportu Q2 sprzed tygodni, nie swiezy wolumenowy/kontraktowy trigger <48h (pct_1m tylko +8.4%, brak wyraznego katalizatora dnia) - pominiete jako zbyt slabe/nieswieze. Insider cluster buys (OpenInsider), 13F (Q3 2026 filings dopiero 14.11.2026, za wczesnie), kongres (Capitol Trades/Quiver) - brak swiezych, konkretnych, potwierdzonych sygnalow na malych spolkach w tej rundzie (zrodla bez mozliwosci filtrowania po dacie na poziomie wyszukiwarki, dane albo zbiorcze/roczne albo nieaktualne). Polityka/Trump - najnowsze executive orders z konkretnym wplywem sektorowym (quantum computing) z czerwca 2026, nie swieze; brak nowych ogloszen politycznych z ostatnich dni wskazujacych konkretne tickery.",
+  "ipo": [
+    {
+      "ticker": "FLY",
+      "company": "Firefly Aerospace Inc",
+      "price_usd": 27.18,
+      "pct_1m": 41.0,
+      "ipo_date": "2025-08-07",
+      "catalyst": "Kontrakt NASA Spacecraft Processing Operations + $75mln kontrakt na 4 drony ksiezycowe (misja Artemis), rekordowy Q2 przychod $117.7mln i backlog $1.5mld, podtrzymane guidance FY26 $420-450mln, KeyBanc podniosl rating po kontrakcie NASA",
+      "still_upside": true,
+      "upside_reason": "Backlog rosnie kwartal do kwartalu (rekordowy $1.5mld), guidance podtrzymane mimo juz solidnego wzrostu, kontrakty programu Artemis dopiero na starcie wieloletniego cyklu - wzorzec analogiczny do AMRC/MANH z dziennika lekcji (seria przyspieszajacych kwartalow + rosnacy backlog jako wskaznik dalszego guidance-raise)"
+    }
+  ],
   "volume": [
     {
-      "ticker": "LIDR",
-      "company": "AEye Inc",
-      "price_usd": 1.45,
-      "pct_1m": 25,
-      "pct_today": -1.36,
-      "volume_mult": 148.6,
-      "broke_high": false,
-      "catalyst": "Kontrakt: Apollo Lidar wybrany przez Lunar Outpost do Pegasus Lunar Terrain Vehicle (program NASA Artemis) - pierwszy kontrakt AEye w nowej kategorii space mobility, ogloszony 01.09.2026, katalizator nadal aktywny",
-      "still_upside": true,
-      "upside_reason": "Multi-milionowy kontrakt vs kapitalizacja tylko ~$67mln - otwiera nowy rynek (space mobility) dla AEye poza dotychczasowym core (automotive/defense/industrial); kurs sie NIE oddalil od porannego poziomu (lekko schlodzony), katalizator dopiero na starcie"
-    },
-    {
-      "ticker": "PPBT",
-      "company": "Purple Biotech Ltd",
-      "price_usd": 2.29,
-      "pct_1m": 38,
-      "pct_today": 37.95,
+      "ticker": "TLYS",
+      "company": "Tilly's Inc",
+      "price_usd": 4.96,
+      "pct_1m": 198.6,
+      "pct_today": 30.2,
       "volume_mult": null,
       "broke_high": false,
-      "catalyst": "Nowe zezwolenie patentowe USA wzmacniajace ochrone platformy modularnych przeciwcial CAPTN-3, ogloszone 02.09.2026",
+      "catalyst": "Fiscal Q2 2026 earnings 02.09 po sesji: EPS $0.27 vs oczek. $0.17, przychod $163.5mln (+8.1% r/r), trzeci kwartal z rzedu dwucyfrowego wzrostu comp sales, piaty kwartal z rzedu poprawy zysku r/r - powrot do rentownosci",
       "still_upside": false,
       "upside_reason": null
     }
