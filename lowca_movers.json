@@ -12,5 +12,19 @@
     "day": "2026-09-02",
     "presignal": "Zaplanowane fiscal Q2 earnings (znana data z wyprzedzeniem, po sesji 02.09) - dzien wczesniej brak jawnego presygnalu insider/wolumen w dostepnych zrodlach. Realny presygnal to trend: poprzednie 2 kwartaly z rzedu juz pokazywaly dwucyfrowy wzrost comp sales i poprawe rentownosci (retailer w turnaround) - kontynuacja przyspieszajacego wzrostu (3. kwartal z rzedu) i piaty z rzedu kwartal poprawy zysku r/r byla wysoce prawdopodobna na bazie tego trendu.",
     "lesson": "Gdy maly retailer 'w turnaround' pokazal 2+ kwartaly z rzedu przyspieszajacego wzrostu comp sales i poprawy marzy/zysku, wpisac go na watchlist przed kolejnymi zaplanowanymi earnings - seria przyspieszajacych kwartalow (nie pojedynczy przypadek) to powtarzalny wzorzec 'beat-and-continue', analogiczny do PAY/MANH/CHAI w dzienniku. UWAGA: po samym printie kurs moze bardzo szybko wejsc w strefe parabolii (tu +198%/mc) - wejscie ma sens tylko PRZED wynikami na bazie trendu, nie po fakcie."
+  },
+  {
+    "ticker": "DH",
+    "pct": 15.3,
+    "day": "2026-09-02",
+    "presignal": "Komitet specjalny zarzadu potwierdzil otrzymanie propozycji wykupu (going-private) od Advent International - typowa premia wykupowa, ogloszenie tego samego dnia, brak jawnego presygnalu dzien wczesniej w dostepnych zrodlach.",
+    "lesson": "Propozycje wykupu (going-private, buyout) od funduszy PE generuja natychmiastowa premie w cenie akcji tego samego dnia - trudne do wylapania z wyprzedzeniem bez plotek rynkowych/13D; jedyny realny presygnal to wczesniejsze aktywistyczne 13D/13G na spolce lub plotki o zainteresowaniu PE - warto monitorowac takie zgloszenia na malych/srednich spolkach jako wczesny wskaznik podwyzszonego ryzyka/szansy na buyout."
+  },
+  {
+    "ticker": "IRD",
+    "pct": 16.2,
+    "day": "2026-09-02",
+    "presignal": "Zaplanowana prezentacja danych klinicznych w leczeniu okulistycznym (data znana z wyprzedzeniem z kalendarza konferencji) - dzien wczesniej brak jawnego presygnalu insider/wolumen w dostepnych zrodlach.",
+    "lesson": "Male spolki biotech/medtech ze znanym z wyprzedzeniem terminem prezentacji danych klinicznych na konferencji (podobnie jak zaplanowane earnings) to powtarzalne okno podwyzszonego ryzyka/szansy ruchu - wpisywac takie daty na watchlist z wyprzedzeniem, analogicznie do wzorca 'beat-and-continue' z zaplanowanych earnings."
   }
 ]
