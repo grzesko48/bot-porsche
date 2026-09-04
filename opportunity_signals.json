@@ -1,28 +1,65 @@
 {
-  "_date": "2026-09-03",
-  "_run": "czwartek, bieg SRODSESYJNY 18:30 CEST (~12:30 ET). Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA) + doprecyzowanie cen dla kandydatow. FLY (Firefly Aerospace) - kontynuacja z biegu 14:30: kontrakt NASA Artemis nadal aktywny, ALE kurs mocno oschlodzony w ciagu dnia - z porannego $27.18 do $20.83 (brak jednoznacznego newsa negatywnego w zrodlach, wyglada na realizacje zyskow po porannym skoku), miesieczna zmiana ok. -2.3% (sierpien 2026) - a wiec NIE jest juz rozgrzany, furtka Wniosek #4 niepotrzebna, katalizator (wieloletni cykl Artemis, rekordowy backlog $1.5mld) nadal aktualny przy normalnej (nieprzegrzanej) cenie. CHPT (ChargePoint) - fiscal Q2 FY2027 earnings 03.09 rano: przychod $116.1mln (+18% r/r) vs oczek. $105.2mln, strata $0.35 vs oczek. $0.85, CEO komentuje 'to dopiero poczatek momentum' - kurs +50-57% W JEDNYM DNIU do $8.16 (mala kapitalizacja ok. $250mln przed skokiem) - real katalizator (beat+guidance), ale jednodniowy ruch >+50% to juz parabola (proba analogiczna do TLYS z rana) - NIE kupowac, bez furtki still_upside (zbyt swiezy, jednodniowy skok, brak przeslanek ze rynek nie wycenil juz beatu w calosci). Odsiane jako pompy bez realnego/swiezego katalizatora: SPWR (+72% ale to dystresowana spolka - 4-dniowy tydzien pracy, 115 zwolnien, $9.9mln ciec kosztow, rozwadniajaca runda $26.2mln - brak tezy bull), CBIO (+19.6% - jedyny news to zapowiedz udzialu w konferencjach inwestorskich 10-14.09, brak twardego katalizatora), CAN (Canaan, +20.7% - najwiekszy news o zamowieniu 50k koparek Bitcoin jest NIEAKTUALNY, sprzed miesiecy, dostawa mial byc w Q4 2025 - dzisiejszy ruch bez potwierdzonego swiezego triggera, choc warto obserwowac przed earnings 08.09), SNOW (+21.9% dzis, ale mega-cap, poza sleeve). Recurring pump bez katalizatora (jak w poprzednich dniach - unikac): FAMI, VIOT, NCPL, GYGY, FCUV, GELS, LHAI, LHSW, MNTK, BIAF, SWVL (SWVL kontynuuje ruch z 27.08 - juz nie swiezy, kurs uciekl dalej, anti-chase). PLTR (Palantir) - $127-192mln kontrakt Army TITAN (01-02.09) potwierdzony, ale mega-cap (~$400mld), kontrakt to promil kapitalizacji - poza progiem >=50% i poza sleeve. Insider cluster buys (OpenInsider zwrocil 403/503 - zrodlo niedostepne w tej rundzie), 13F (Q3 2026 filings dopiero 14.11.2026, za wczesnie), kongres (Capitol Trades) - brak swiezych, konkretnych sygnalow na malych spolkach w tej rundzie. Polityka/Trump - brak nowych ogloszen z ostatnich dni poza znanymi z wczesniej (quantum EO z czerwca, nieaktualne).",
-  "ipo": [
-    {
-      "ticker": "FLY",
-      "company": "Firefly Aerospace Inc",
-      "price_usd": 20.83,
-      "pct_1m": -2.3,
-      "ipo_date": "2025-08-07",
-      "catalyst": "Kontrakt NASA Spacecraft Processing Operations + $75mln kontrakt na 4 drony ksiezycowe (misja Artemis), rekordowy Q2 przychod $117.7mln i backlog $1.5mld - kurs oschlodzony po dzisiejszej realizacji zyskow (z $27.18 rano do $20.83), NIE w strefie przegrzania",
-      "still_upside": false,
-      "upside_reason": null
-    }
-  ],
+  "_date": "2026-09-04",
+  "_run": "piatek, bieg SRODSESYJNY 18:30 CEST (~12:30 ET). Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA) + doprecyzowanie cen/katalizatorow dla kandydatow z dzisiejszej listy top gainers. AOUT (American Outdoor Brands) - fiscal Q1 FY2027 earnings dzis rano: EPS adj $0.13 vs oczek. strata $0.01, EBITDA >2x konsensusu, podniesione guidance na caly rok - ALE przychod $47.06mln spadl -24% r/r i nie spelnil oczekiwan (rynek zignorowal, skupil sie na marzy) - kurs +41% W JEDNYM DNIU do $14.16, blisko 52-tyg. maksimum - to juz parabola jednodniowa, mimo ze guidance podniesione NIE dodaje still_upside (jakosc bitu mieszana - spadajacy przychod, ryzyko ze rynek juz w pelni wycenil marze). NX (Quanex Building Products) - fiscal Q3 earnings 03.09: EPS $0.79 vs oczek $0.65, przychod $501.8mln (lekko ponizej konsensusu $512.4mln), splata $42.25mln dlugu - kurs +20.36% do $22.58, kapitalizacja $1.03mld (na granicy typowego sleeve, wieksza spolka budowlana/przemyslowa) - solidny, ale nie parabola. BBCP (Concrete Pumping Holdings) - fiscal Q3 earnings 03.09 po sesji: beat na zysku i przychodzie ($116.8mln, +13% r/r), PODNIESIONE guidance na caly rok ($425-435mln) ORAZ nowa kwartalna dywidenda $0.13/akcje (rentownosc ok. 5.65%) - kurs +16.8% do $10.57, kapitalizacja $532mln - realny, wieloczynnikowy katalizator (beat+guidance+dywidenda), ruch umiarkowany, NIE w strefie zakazu. PDEX (Pro-Dex) - fiscal Q3 earnings: EPS $1.20 vs oczek $0.62 (+93% beat), zysk netto +322% r/r - kurs +15.95% do $71.60, mala kapitalizacja $228.6mln, mocny i czysty beat. GRI (GRI Bio) - kontynuacja ruchu z sierpniowej prezentacji danych klinicznych fazy 2a (ERS 2026, IPF) - dzis +14.4% do $2.62, nano-cap biotech, ruch bardziej techniczny/plynnosciowy niz swiezy news dzisiejszy - potraktowane ostroznie (brak dzisiejszego twardego katalizatora, wpisane z niskim naciskiem). Odsiane jako pompy bez swiezego/twardego katalizatora: IMRN (+53%, biotech bez jasnego newsa w zrodlach), BIAF (+49%, powtarzalny wzorzec mikro-cap pompy jak BCDA/LEGN z dziennika lekcji - UNIKAC), CDTG (+47%, nano-cap $4mln, brak newsa), BAOS/OFAL/NWGL/MTEX/NRSN/VRXA/CIIT (nano/micro-cap pompy bez potwierdzonego katalizatora w tej rundzie). GPRO (+30%, ale brak jasnego swiezego katalizatora w zrodlach - do sprawdzenia pozniej). IONQ - Investor Day dopiero 08.09 (SkyWater acquisition w centrum uwagi), ale dzis ruch praktycznie plaski (+0.31%) i mega-cap ($15.5mld) - poza progiem/sleeve, katalizator jeszcze nie zaszedl (wydarzenie przyszle, nie <48h). Kontrakty rzadowe (DoD/DOE/NASA) - w tej rundzie tylko duze, znane nazwy (Northrop $862mln, Amentum $974mln NASA) - kontrakty to promil ich kapitalizacji, poza progiem >=50%; brak swiezego (<48h) kontraktu na malej spolce. Polityka/Trump - brak nowych ogloszen z ostatnich 48h poza znanymi z wczesniej (critical minerals push z sierpnia, quantum EO z czerwca - nieaktualne, juz odsiane w poprzednich biegach). Insider cluster buys (OpenInsider), 13F (Q3 2026 filings dopiero 14.11.2026), kongres (Capitol Trades) - brak konkretnych, swiezych sygnalow na malych spolkach mozliwych do potwierdzenia w tej rundzie wyszukiwan.",
+  "ipo": [],
   "volume": [
     {
-      "ticker": "CHPT",
-      "company": "ChargePoint Holdings Inc",
-      "price_usd": 8.16,
-      "pct_1m": 57.2,
-      "pct_today": 57.2,
+      "ticker": "AOUT",
+      "company": "American Outdoor Brands, Inc.",
+      "price_usd": 14.16,
+      "pct_1m": 41.0,
+      "pct_today": 41.46,
       "volume_mult": null,
       "broke_high": true,
-      "catalyst": "Fiscal Q2 FY2027 earnings 03.09: przychod $116.1mln (+18% r/r) vs oczek. $105.2mln, strata na akcje $0.35 vs oczek. $0.85, CEO: 'to dopiero poczatek momentum'",
+      "catalyst": "Fiscal Q1 FY2027: EPS adj. $0.13 vs oczek. strata $0.01, EBITDA >2x konsensusu, podniesione guidance - ALE przychod -24% r/r (miss) - jednodniowa parabola blisko 52-tyg. maksimum",
+      "still_upside": false,
+      "upside_reason": null
+    },
+    {
+      "ticker": "NX",
+      "company": "Quanex Building Products Corporation",
+      "price_usd": 22.58,
+      "pct_1m": 20.0,
+      "pct_today": 20.36,
+      "volume_mult": null,
+      "broke_high": false,
+      "catalyst": "Fiscal Q3 2026: EPS $0.79 vs oczek. $0.65, splata $42.25mln dlugu - solidny beat, kapitalizacja $1.03mld",
+      "still_upside": false,
+      "upside_reason": null
+    },
+    {
+      "ticker": "BBCP",
+      "company": "Concrete Pumping Holdings, Inc.",
+      "price_usd": 10.57,
+      "pct_1m": 17.0,
+      "pct_today": 16.8,
+      "volume_mult": null,
+      "broke_high": true,
+      "catalyst": "Fiscal Q3 2026 beat (przychod $116.8mln, +13% r/r), PODNIESIONE guidance na caly rok ($425-435mln) + nowa kwartalna dywidenda $0.13/akcje - wieloczynnikowy realny katalizator",
+      "still_upside": true,
+      "upside_reason": "Swiezy (03.09 po sesji) beat+guidance+inicjacja dywidendy jednoczesnie, ruch wciaz umiarkowany (<20%/mc), infrastructure/budowlany backlog rosnie - katalizator dopiero rozpoczety, nie widac oznak wyczerpania"
+    },
+    {
+      "ticker": "PDEX",
+      "company": "Pro-Dex, Inc.",
+      "price_usd": 71.60,
+      "pct_1m": 16.0,
+      "pct_today": 15.95,
+      "volume_mult": null,
+      "broke_high": false,
+      "catalyst": "Fiscal Q3 2026: EPS $1.20 vs oczek. $0.62 (+93% beat), zysk netto +322% r/r - bardzo czysty, mocny beat",
+      "still_upside": false,
+      "upside_reason": null
+    },
+    {
+      "ticker": "GRI",
+      "company": "GRI Bio, Inc.",
+      "price_usd": 2.62,
+      "pct_1m": 31.0,
+      "pct_today": 14.4,
+      "volume_mult": null,
+      "broke_high": false,
+      "catalyst": "Kontynuacja sierpniowej prezentacji danych fazy 2a (GRI-0621, ERS 2026, IPF) - brak twardego swiezego newsa dzisiejszego, ruch bardziej plynnosciowy na nano-cap",
       "still_upside": false,
       "upside_reason": null
     }
