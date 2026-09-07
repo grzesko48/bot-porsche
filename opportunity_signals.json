@@ -1,32 +1,8 @@
 {
-  "_date": "2026-09-03",
-  "_run": "czwartek, bieg SRODSESYJNY 18:30 CEST (~12:30 ET). Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA) + doprecyzowanie cen dla kandydatow. FLY (Firefly Aerospace) - kontynuacja z biegu 14:30: kontrakt NASA Artemis nadal aktywny, ALE kurs mocno oschlodzony w ciagu dnia - z porannego $27.18 do $20.83 (brak jednoznacznego newsa negatywnego w zrodlach, wyglada na realizacje zyskow po porannym skoku), miesieczna zmiana ok. -2.3% (sierpien 2026) - a wiec NIE jest juz rozgrzany, furtka Wniosek #4 niepotrzebna, katalizator (wieloletni cykl Artemis, rekordowy backlog $1.5mld) nadal aktualny przy normalnej (nieprzegrzanej) cenie. CHPT (ChargePoint) - fiscal Q2 FY2027 earnings 03.09 rano: przychod $116.1mln (+18% r/r) vs oczek. $105.2mln, strata $0.35 vs oczek. $0.85, CEO komentuje 'to dopiero poczatek momentum' - kurs +50-57% W JEDNYM DNIU do $8.16 (mala kapitalizacja ok. $250mln przed skokiem) - real katalizator (beat+guidance), ale jednodniowy ruch >+50% to juz parabola (proba analogiczna do TLYS z rana) - NIE kupowac, bez furtki still_upside (zbyt swiezy, jednodniowy skok, brak przeslanek ze rynek nie wycenil juz beatu w calosci). Odsiane jako pompy bez realnego/swiezego katalizatora: SPWR (+72% ale to dystresowana spolka - 4-dniowy tydzien pracy, 115 zwolnien, $9.9mln ciec kosztow, rozwadniajaca runda $26.2mln - brak tezy bull), CBIO (+19.6% - jedyny news to zapowiedz udzialu w konferencjach inwestorskich 10-14.09, brak twardego katalizatora), CAN (Canaan, +20.7% - najwiekszy news o zamowieniu 50k koparek Bitcoin jest NIEAKTUALNY, sprzed miesiecy, dostawa mial byc w Q4 2025 - dzisiejszy ruch bez potwierdzonego swiezego triggera, choc warto obserwowac przed earnings 08.09), SNOW (+21.9% dzis, ale mega-cap, poza sleeve). Recurring pump bez katalizatora (jak w poprzednich dniach - unikac): FAMI, VIOT, NCPL, GYGY, FCUV, GELS, LHAI, LHSW, MNTK, BIAF, SWVL (SWVL kontynuuje ruch z 27.08 - juz nie swiezy, kurs uciekl dalej, anti-chase). PLTR (Palantir) - $127-192mln kontrakt Army TITAN (01-02.09) potwierdzony, ale mega-cap (~$400mld), kontrakt to promil kapitalizacji - poza progiem >=50% i poza sleeve. Insider cluster buys (OpenInsider zwrocil 403/503 - zrodlo niedostepne w tej rundzie), 13F (Q3 2026 filings dopiero 14.11.2026, za wczesnie), kongres (Capitol Trades) - brak swiezych, konkretnych sygnalow na malych spolkach w tej rundzie. Polityka/Trump - brak nowych ogloszen z ostatnich dni poza znanymi z wczesniej (quantum EO z czerwca, nieaktualne).",
-  "ipo": [
-    {
-      "ticker": "FLY",
-      "company": "Firefly Aerospace Inc",
-      "price_usd": 20.83,
-      "pct_1m": -2.3,
-      "ipo_date": "2025-08-07",
-      "catalyst": "Kontrakt NASA Spacecraft Processing Operations + $75mln kontrakt na 4 drony ksiezycowe (misja Artemis), rekordowy Q2 przychod $117.7mln i backlog $1.5mld - kurs oschlodzony po dzisiejszej realizacji zyskow (z $27.18 rano do $20.83), NIE w strefie przegrzania",
-      "still_upside": false,
-      "upside_reason": null
-    }
-  ],
-  "volume": [
-    {
-      "ticker": "CHPT",
-      "company": "ChargePoint Holdings Inc",
-      "price_usd": 8.16,
-      "pct_1m": 57.2,
-      "pct_today": 57.2,
-      "volume_mult": null,
-      "broke_high": true,
-      "catalyst": "Fiscal Q2 FY2027 earnings 03.09: przychod $116.1mln (+18% r/r) vs oczek. $105.2mln, strata na akcje $0.35 vs oczek. $0.85, CEO: 'to dopiero poczatek momentum'",
-      "still_upside": false,
-      "upside_reason": null
-    }
-  ],
+  "_date": "2026-09-07",
+  "_run": "poniedzialek, bieg PRZEDSESYJNY 14:30 CEST. Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA) + doprecyzowanie. Krok D WSTRZYMANY w tym biegu (eksport PLN na Drive nadal z 06.06.2026, alert wyslany) - ponizsze sygnaly zebrane mimo to, do wykorzystania w kolejnym biegu gdy gotowka bedzie znana. AVEX (AEVEX Corp, drone/UAS defense) - IPO 17.04.2026 (w oknie <=18 mies.), ale kurs $16.56 (04.09), ponizej ceny IPO $20 i mocno ponizej szczytu ~$40 z kwietnia - BRAK swiezego momentum wzrostowego (trend spadkowy od miesiecy), nie kwalifikuje sie jako 'swieze IPO z momentum'. RKLB (Rocket Lab) - liczne kontrakty Space Force (266mln, 397mln, 981mln NITE-STAR w 2026) ale to duza kapitalizacja (multi-mld $), kontrakty to promil kapitalizacji - poza progiem >=50% i poza sleeve. Kontrakty DoD z 03.09 poszly do duzych primow (Northrop, General Dynamics, Dynetics, Boeing) - nie tradowalne jako small-cap plej. CDTG (CDT Environmental, chinski microcap sewage treatment) +43-49% w piatek 04.09, ale BRAK jednoznacznego swiezego katalizatora (wspominany Q3 report bez szczegolow) - wyglada na recurring China-microcap pump bez tezy (wzorzec jak FAMI/VIOT/NCPL/GYGY z poprzednich biegow) - odrzucone, zapisane w lowca_movers.json do dziennika. OpenInsider (cluster buys) - strona niedostepna (HTTP 503) w tej rundzie. 13F (Q3 2026 filings dopiero 14.11.2026, za wczesnie). Kongres (Capitol Trades) - brak swiezych konkretnych sygnalow na malych spolkach w tej rundzie (dane ogolne, disclosure lag do 45 dni). Polityka/Trump - brak nowych ogloszen sektorowych/spolkowych z ostatnich dni poza znanym EO ws. defense contracting (styczen 2026, nieaktualne). Brak spelniajacych kryteria kandydatow w tej rundzie.",
+  "ipo": [],
+  "volume": [],
   "contract": [],
   "insider": [],
   "fund13f": [],
