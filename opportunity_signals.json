@@ -1,9 +1,32 @@
 {
   "_date": "2026-09-08",
-  "_run": "wtorek, bieg PRZEDSESYJNY 14:30 CEST (pierwszy dzien sesyjny po Labor Day 07.09, ktory byl swietem gieldowym - rynek zamkniety). Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA) + doprecyzowanie. Krok D WSTRZYMANY w tym biegu (eksport PLN na Drive nadal z 06.06.2026, ponad 3 miesiace nieaktualny, alert wyslany) - sygnaly ponizej zebrane mimo to, do wykorzystania gdy gotowka bedzie znana. Premarket 08.09: Roivant Sciences (ROIV) +24% na wynikach fazy 2 (Pulmovant/mosliciguat, PH-ILD) - ale to duza kapitalizacja (~$9mld), nie mikro/small-cap spekulacyjny, brak kwalifikujacej sie grupy (nie IPO/kontrakt/wolumen-breakout w rozumieniu progu). IonQ (investor day), Bloom Energy (Q2 earnings), SanDisk (NAND shortage) - wszystkie duze/mid-cap, juz szeroko znane, nie 'swieze' odkrycia. Lockheed Martin upgrade do Buy (UBS) - mega-cap, nietradowalny w tej strategii. Vertiv $1.45mld przejecie Utility Innovation Group - mega-cap. Kontrakty DoD 02-03.09: AeroVironment (AVAV) ~$500mln kontrakt Counter-UAS (E-HEL) - ale AVAV ma kapitalizacje ~$10mld, kontrakt to <5% kapitalizacji, poza progiem >=50%. Northrop Grumman $862mln, SSA Atlantic $72.7mln, Dynetics $40.7mln, SupplyCore $90mln - wszystko duzi primowie/prywatne, nietradowalne jako small-cap plej. APFIT FY26 finalna runda (24 projekty, ~$2mld lacznie, sredni grant ~$30mln) oglaszona przez War Department, ale nazwy firm-wykonawcow NIE zostaly ujawnione w komunikacie - brak mozliwosci zmapowania na konkretny ticker w jednej rundzie wyszukiwan. OpenInsider - strona zwrocila tylko ogolne strony narzedzia, bez konkretnych danych cluster-buy z tego tygodnia w tej rundzie. 13F Q2 2026 (deadline 14.08) - dane juz strawione w sierpniu (Pershing Square itp.), same duze spolki, Q3 2026 filings dopiero 14.11 (za wczesnie). Kongres (Capitol Trades/TrendLyne) - ogolne strony trackera, brak konkretnego swiezego zakupu na malej spolce w tej rundzie. Polityka/Trump - EO z 04.09 ws. ranczerow/przetworstwa miesa (Packers and Stockyards Act, nowe programy pozyczkowe dla malych przetworcow) - kierunek polityczny jasny (wsparcie dla malych, niezaleznych przetworcow miesa wzgledem duzych 'packerow'), ale brak jednoznacznego, konkretnego beneficjenta-tickera z wystarczajaca pewnoscia w tej rundzie (efekt posredni/regulacyjny, nie bezposredni kontrakt/dotacja). Brak spelniajacych kryteria kandydatow w tej rundzie.",
+  "_run": "wtorek, bieg SRODSESYJNY 18:30 CEST (drugi bieg dnia; pierwszy o 14:30 nie znalazl kwalifikujacych sie kandydatow). Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA) + doprecyzowanie cen dla znalezionych kandydatow. Krok D (uruchomienie pipeline z --cash) do potwierdzenia osobno - eksport PLN na Drive wedlug ostatniego sprawdzenia nadal z 06.06.2026 (patrz alert). GLOWNE ZNALEZISKO: Departament Handlu USA (administracja Trumpa) sfinalizowal 08.09.2026 (dzis) umowy CHIPS Act po $100mln dla trzech firm kwantowych (Rigetti, D-Wave, Quantinuum) w zamian za mniejszosciowy, niekontrolujacy udzial rzadu - to swiezy (dzis), potwierdzony w 8-K i mediach kontrakt/dotacja rzadowa -> grupa 'contract'. UWAGA: $100mln to relatywnie MALY procent kapitalizacji obu spolek (RGTI ~$5mld, QBTS ~$5-6mld, tj. ok. 2% kapitalizacji) - NIE spelnia progu >=50% kapitalizacji z zasad rynkowych dla 'swiezego kontraktu', ale trafia do grupy contract zgodnie z zasada 'kontrakt rzadowy -> zawsze contract z catalyst' (polityczny/DoC, nie czysto rynkowy kontrakt operacyjny) - konfluencja i waga do oceny przez Lowce. Quantinuum jest prywatna (brak tickera), pominieta. RGTI: kurs ~plaski w ostatnim miesiacu (brak przegrzania), QBTS: ostatni miesiac slaby (Q2 miss + odejscie CFO w sierpniu), dzisiejszy news to odbicie. SOPH (SOPHiA Genetics) - mikro-cap, Q2 2026 (04.08) beat + podniesione guidance (przychod $94-96mln), kurs oceniany na ok. +70-75% w ostatnim miesiacu (z ok. $4.7-4.8 przed wynikami do ok. $8.2-8.4 dzis, szacunek - brak jednej pewnej ceny historycznej) - to JUZ parabola (>+50%), zgodnie z lekcja 'micro-cap pumpy runa po wzroscie (LEGN/BCDA)' NIE gonic, wpisane do 'volume' wylacznie dla petli uczenia/odrzucenia przez bota, bez furtki still_upside (katalizator juz w pelni w cenie, sprzed >1 tyg.). Sprawdzone i ODRZUCONE: Red Cat Holdings (RCAT) - $35mln kontrakt Army SRR Black Widow to stare info (lipiec-listopad 2025, nie <48h), dodatkowo sporny raport short-sellera (Fuzzy Panda) ws. zawyzonej wartosci kontraktu - brak swiezosci i wiarygodnosci. Capital Clean Energy Carriers (CCEC) - wzmiankowany 'nietypowy wolumen' w artykule, ale kurs praktycznie plaski w miesiacu (~22.47 -> 22.71, +1%), brak potwierdzonej metryki >=3x wolumenu ani przebicia - odrzucone jako zbyt slabe/niepotwierdzone. IonQ investor day, Bloom Energy earnings - duze/mid-cap, poza zakresem strategii. OpenInsider/13F/kongres - jak w biegu 14:30, brak konkretnego swiezego cluster-buy na malej spolce mozliwego do zweryfikowania w jednej rundzie.",
   "ipo": [],
-  "volume": [],
-  "contract": [],
+  "volume": [
+    {
+      "ticker": "SOPH",
+      "name": "SOPHiA GENETICS SA",
+      "price_usd": 8.3,
+      "pct_1m": 73,
+      "note": "Q2 2026 (04.08) revenue +27% r/r, podniesione full-year guidance $94-96mln, cel analitykow podniesiony do $14. Ruch szacowany na >70% w ostatnim miesiacu - juz sparabolizowany, katalizator w pelni w cenie sprzed >miesiaca. Zgodnie z zasada anti-chase i lekcja o micro-cap pumpach (LEGN/BCDA) - NIE kupowac, tylko do petli uczenia/PASS."
+    }
+  ],
+  "contract": [
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "price_usd": 16.33,
+      "pct_1m": 2,
+      "catalyst": "Trump admin/Departament Handlu (Commerce) - finalna umowa CHIPS Act, $100mln dofinansowania + mniejszosciowy udzial rzadu w spolce, ogloszone dzis (08.09.2026), akcje +7.4% w premarket. Kwota to ok. 2% kapitalizacji (~$5mld) - ponizej progu 50% dla typowego kontraktu rynkowego, ale to swiezy, potwierdzony (8-K) kontrakt/dotacja rzadowa."
+    },
+    {
+      "ticker": "QBTS",
+      "name": "D-Wave Quantum",
+      "price_usd": 17.48,
+      "pct_1m": -9,
+      "catalyst": "Trump admin/Departament Handlu (Commerce) - finalna umowa CHIPS Act, $100mln dofinansowania (100 000-kubitowy system annealing + 10 000-kubitowy gate-model) + mniejszosciowy udzial rzadu, ogloszone dzis (08.09.2026), akcje +5.4% w premarket po slabym sierpniu (Q2 miss, odejscie CFO). Kwota to ok. 1.5-2% kapitalizacji (~$5-6mld) - ponizej progu 50%, ale swiezy, potwierdzony (8-K) kontrakt/dotacja rzadowa; brak przegrzania (miesiac na minusie), odbicie dopiero dzis."
+    }
+  ],
   "insider": [],
   "fund13f": [],
   "congress": [],
