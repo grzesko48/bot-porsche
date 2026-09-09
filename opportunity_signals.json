@@ -1,6 +1,6 @@
 {
   "_date": "2026-09-09",
-  "_run": "sroda, bieg PRZEDSESYJNY 14:30 CEST. Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA) + doprecyzowanie cen i pct_1m dla znalezionych kandydatow. GLOWNE ZNALEZISKA: (1) Orion Energy Systems (OESX) - 08.09.2026 ogloszylo DRUGIE (po czerwcowym pierwszym) wielomilionowe zamowienie LED-lighting dla data center od globalnego hyperscalera, akcje +16.4% do 4.5-letniego maksimum; kontrakt to niewielki % kapitalizacji (~$102mln) wiec NIE spelnia progu 50% dla grupy 'contract', wpisane do 'volume' (przebicie + powtarzalny biznes, nie jednorazowy news); pct_1m ok. +16% (Aug26 ~$25.02 -> dzis ~$29) - PONIZEJ progu 25%, nie zablokowane przez anti-chase. (2) SUNation Energy (SUNE) - premarket dzis (09.09) +26% po tym jak partner fuzji Suniva zamknal $835mln rundy finansowania na budowe 4.5GW fabryki ogniw solarnych w Poludniowej Karolinie (onshoring produkcji solarnej, offtake juz zakontraktowany) - swiezy news <24h, pct_1m ok. +11% (Aug7 ~$2.68 -> dzis ~$2.98), ponizej progu. (3) Arbe Robotics (ARBE) - 08.09.2026 kontynuacja newsa o powtarzalnych zamowieniach radarow Phoenix od klientow robotaxi + podniesiony cel analitykow do $1.50 z $1.25, pct_1m ok. +25% (Aug26 $0.67 -> $0.84) - GRANICZNIE na progu anti-chase, bez furtki still_upside (niepewnosc danych 1m, cena groszowa <$1 = podwyzszone ryzyko). (4) RGTI/QBTS - kontynuacja wczorajszego (08.09) znaleziska: finalna umowa Departamentu Handlu (Commerce/CHIPS Act) $100mln + mniejszosciowy udzial rzadu dla obu spolek kwantowych, wciaz <48h (ogloszone wczoraj), Krok D w obu poprzednich biegach (14:30 i 18:30 08.09) byl WSTRZYMANY (eksport PLN nieaktualny) wiec bot jeszcze nie mial szansy tego ocenic - odswiezone ceny/pct_1m. Sprawdzone i ODRZUCONE z retro Sept 8 (SST +30.5% ticker-metric PR bez twardego katalizatora biznesowego, TTRX +29.2% samo powolanie do zarzadu - zbyt slaby katalizator na tak duzy ruch, prawdopodobnie low-float squeeze, SWVL +30.2% powtorka wzorca z 31.08 tylko z mniejsza kwota (facility kredytowy $1.4mln) - juz w dzienniku, HVII/SATL - patrz lowca_movers.json retro). OpenInsider/13F/kongres - brak konkretnego, zweryfikowanego swiezego cluster-buy/nowej pozycji funduszu/kongresmena na malej spolce mozliwego do potwierdzenia w jednej rundzie wyszukiwan (narzedzia wymagaja bezposredniego dostepu do platformy, wyniki wyszukiwania dawaly tylko ogolne opisy metodologii). Polityka bez konkretnego kontraktu: EO14421 (26.08, national emergency ws. bulk-power grid, dot. sprzetu sieciowego) i tarify farmaceutyczne (Section 232, pelne wdrozenie 29.09 dla mniejszych spolek) - zbyt ogolne, brak konkretnego zweryfikowanego tickera z jasnym mapowaniem w tej rundzie, pominiete (grupa 'policy' pusta).",
+  "_run": "sroda, bieg SRODSESYJNY 18:30 CEST (drugi bieg dnia, po przedsesyjnym 14:30). Jedna runda rownoleglych wyszukiwan odswiezajaca sygnaly z rynku w trakcie sesji US (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA). GLOWNE ZMIANY WZGLEDEM BIEGU 14:30: (1) SUNE - odswiezona cena w trakcie sesji (bardzo zmienna: premarket +27.5%, sesja $2.11 (+2.4%), po sesji $2.43 (+15%) - ekstremalna zmiennosc na tym samym katalizatorze co rano (Suniva $835mln financing), pct_1m nadal ok. +12-15%, ponizej progu 25%. (2) NOWY: Opus Genetics (IRD) - dzis rano pozytywne dane Phase 1/2 (OPGx-BEST1, Cohort 1) - kurs skoczyl z $3.69 (31.08) do $5.98 (zakres dnia $4.15-$7.07), pct_1m ok. +62% - POWYZEJ progu +50% ('parabola', bot NIE kupuje nigdy), brak still_upside (klasyczny biotech binary-data pop, brak przeslanek ze katalizator dopiero sie zaczyna - kolejny katalizator LCA5 Phase 3 dopiero pozniej w 2026), wpisane dla kompletnosci/nauki (PASS oczekiwany). (3) OESX/ARBE - bez istotnych nowych newsow w tej rundzie, ceny/pct_1m przeniesione z biegu 14:30 bez zmian (rynek nie dal nowych informacji o tych tickerach w ciagu dnia). (4) RGTI/QBTS - kontynuacja kontraktu Commerce/CHIPS Act z 08.09, WCIAZ <48h (ok. 30-34h od ogloszenia), Krok D nadal nie ocenil tej okazji w zadnym z 3 poprzednich biegow (eksport PLN nieaktualny) - kontynuowane bez zmian cen (brak nowych danych w tej rundzie). OpenInsider/13F/kongres - jak rano, brak swiezego (<48h) potwierdzonego cluster-buy/nowej pozycji na malej spolce; znalezione wzmianki o kongresmenach (McCormick/LHX czerwiec, Mullin/styczen, Moore/GNPX luty) zbyt stare (miesiace), nie spelniaja kryterium 'swiezy'. Polityka: brak nowego, konkretnego kontraktu/tickera ponad to co juz w grupie 'contract'; Helio Corp (HLEO, OTC, mcap $69.7mln) 'podswietlilo' istniejace SBIR/DOE plany ale to PR o zamiarze aplikowania o granty, NIE swiezy podpisany kontrakt >=50% kapitalizacji - odrzucone, zbyt slaby katalizator (ryzyko podobne do SST/TTRX z retro - PR bez twardego newsa).",
   "ipo": [],
   "volume": [
     {
@@ -8,21 +8,28 @@
       "name": "Orion Energy Systems",
       "price_usd": 29.1,
       "pct_1m": 16,
-      "note": "08.09.2026: drugie wielomilionowe zamowienie LED-lighting dla data center od globalnego hyperscalera (po pierwszym w czerwcu) - akcje +16.4% do 4.5-letniego maksimum. Powtarzalny biznes (nie jednorazowy news), Q1 FY27 przychod +32% r/r, guidance FY27 $95-97mln z dodatnim adj. EBITDA. Ponizej progu anti-chase (+16% w miesiacu)."
+      "note": "Bez zmian od biegu 14:30: 08.09.2026 drugie wielomilionowe zamowienie LED-lighting dla data center od globalnego hyperscalera, akcje +16.4% do 4.5-letniego maksimum. Powtarzalny biznes, Q1 FY27 przychod +32% r/r. Ponizej progu anti-chase."
     },
     {
       "ticker": "SUNE",
       "name": "SUNation Energy",
-      "price_usd": 2.98,
-      "pct_1m": 11,
-      "note": "Premarket dzis (09.09) +26% po zamknieciu przez partnera fuzji (Suniva) rundy finansowania $835mln na 4.5GW fabryke ogniw solarnych w USA (Poludniowa Karolina), offtake juz zakontraktowany. Ekspozycja na onshoring produkcji solarnej. pct_1m ~+11% - ponizej progu 25%."
+      "price_usd": 2.15,
+      "pct_1m": 13,
+      "note": "Odswiezone w trakcie sesji 09.09: ekstremalna zmiennosc na newsie o zamknieciu przez partnera fuzji (Suniva) rundy $835mln na fabryke ogniw solarnych (premarket +27.5%, sesja $2.11, po sesji $2.43 +15%). Uzyto sredniej sesyjnej ~$2.15. pct_1m ok. +13% - ponizej progu 25%."
     },
     {
       "ticker": "ARBE",
       "name": "Arbe Robotics",
       "price_usd": 0.84,
       "pct_1m": 25,
-      "note": "Powtarzalne zamowienia radarow Phoenix od klientow robotaxi (defense+automotive), cel analitykow podniesiony do $1.50 z $1.25, guidance 2026 podtrzymane. pct_1m ~+25% - dokladnie na progu anti-chase ('czekaj na cofniecie'), cena groszowa <$1 = podwyzszone ryzyko, brak furtki still_upside z powodu niepewnosci danych."
+      "note": "Bez zmian od biegu 14:30: powtarzalne zamowienia radarow Phoenix, cel analitykow $1.50. pct_1m ~+25% - dokladnie na progu anti-chase, cena groszowa <$1, brak still_upside."
+    },
+    {
+      "ticker": "IRD",
+      "name": "Opus Genetics",
+      "price_usd": 5.98,
+      "pct_1m": 62,
+      "note": "NOWY dzis (09.09): pozytywne dane Phase 1/2 OPGx-BEST1 (Cohort 1) - kurs z $3.69 (31.08) do $5.98, zakres dnia $4.15-$7.07 (bardzo zmienny). pct_1m ok. +62% - POWYZEJ progu +50% (parabola), bez still_upside - klasyczny jednorazowy biotech data-pop, kolejny katalizator (LCA5 Phase 3) dopiero pozniej w roku. Oczekiwane PASS/CZEKAJ na bota."
     }
   ],
   "contract": [
@@ -31,14 +38,14 @@
       "name": "Rigetti Computing",
       "price_usd": 17.0,
       "pct_1m": 5,
-      "catalyst": "Trump admin/Departament Handlu (Commerce) - finalna umowa CHIPS Act, $100mln dofinansowania + mniejszosciowy udzial rzadu w spolce, ogloszone 08.09.2026, wciaz <48h. Kontynuacja z poprzedniego biegu - Krok D byl wstrzymany w obu biegach 08.09 (nieaktualny eksport PLN), bot jeszcze nie ocenil tej okazji."
+      "catalyst": "Trump admin/Departament Handlu (Commerce) - finalna umowa CHIPS Act, $100mln dofinansowania + mniejszosciowy udzial rzadu w spolce, ogloszone 08.09.2026, wciaz <48h (ok. 30-34h). Kontynuacja z 2 poprzednich biegow - Krok D wciaz nie ocenil tej okazji (nieaktualny eksport PLN)."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
       "price_usd": 16.5,
       "pct_1m": -9,
-      "catalyst": "Trump admin/Departament Handlu (Commerce) - finalna umowa CHIPS Act, $100mln dofinansowania + mniejszosciowy udzial rzadu, ogloszone 08.09.2026, wciaz <48h. Miesiac na minusie (Q2 miss + odejscie CFO w sierpniu) - brak przegrzania. Kontynuacja z poprzedniego biegu, Krok D byl wstrzymany."
+      "catalyst": "Trump admin/Departament Handlu (Commerce) - finalna umowa CHIPS Act, $100mln dofinansowania + mniejszosciowy udzial rzadu, ogloszone 08.09.2026, wciaz <48h. Miesiac na minusie (Q2 miss + odejscie CFO) - brak przegrzania. Kontynuacja z 2 poprzednich biegow, Krok D wciaz wstrzymany."
     }
   ],
   "insider": [],
