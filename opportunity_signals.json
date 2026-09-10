@@ -1,55 +1,71 @@
 {
-  "_date": "2026-09-09",
-  "_run": "sroda, bieg SRODSESYJNY 18:30 CEST (drugi bieg dnia, po przedsesyjnym 14:30). Jedna runda rownoleglych wyszukiwan odswiezajaca sygnaly z rynku w trakcie sesji US (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA). GLOWNE ZMIANY WZGLEDEM BIEGU 14:30: (1) SUNE - odswiezona cena w trakcie sesji (bardzo zmienna: premarket +27.5%, sesja $2.11 (+2.4%), po sesji $2.43 (+15%) - ekstremalna zmiennosc na tym samym katalizatorze co rano (Suniva $835mln financing), pct_1m nadal ok. +12-15%, ponizej progu 25%. (2) NOWY: Opus Genetics (IRD) - dzis rano pozytywne dane Phase 1/2 (OPGx-BEST1, Cohort 1) - kurs skoczyl z $3.69 (31.08) do $5.98 (zakres dnia $4.15-$7.07), pct_1m ok. +62% - POWYZEJ progu +50% ('parabola', bot NIE kupuje nigdy), brak still_upside (klasyczny biotech binary-data pop, brak przeslanek ze katalizator dopiero sie zaczyna - kolejny katalizator LCA5 Phase 3 dopiero pozniej w 2026), wpisane dla kompletnosci/nauki (PASS oczekiwany). (3) OESX/ARBE - bez istotnych nowych newsow w tej rundzie, ceny/pct_1m przeniesione z biegu 14:30 bez zmian (rynek nie dal nowych informacji o tych tickerach w ciagu dnia). (4) RGTI/QBTS - kontynuacja kontraktu Commerce/CHIPS Act z 08.09, WCIAZ <48h (ok. 30-34h od ogloszenia), Krok D nadal nie ocenil tej okazji w zadnym z 3 poprzednich biegow (eksport PLN nieaktualny) - kontynuowane bez zmian cen (brak nowych danych w tej rundzie). OpenInsider/13F/kongres - jak rano, brak swiezego (<48h) potwierdzonego cluster-buy/nowej pozycji na malej spolce; znalezione wzmianki o kongresmenach (McCormick/LHX czerwiec, Mullin/styczen, Moore/GNPX luty) zbyt stare (miesiace), nie spelniaja kryterium 'swiezy'. Polityka: brak nowego, konkretnego kontraktu/tickera ponad to co juz w grupie 'contract'; Helio Corp (HLEO, OTC, mcap $69.7mln) 'podswietlilo' istniejace SBIR/DOE plany ale to PR o zamiarze aplikowania o granty, NIE swiezy podpisany kontrakt >=50% kapitalizacji - odrzucone, zbyt slaby katalizator (ryzyko podobne do SST/TTRX z retro - PR bez twardego newsa).",
+  "_date": "2026-09-10",
+  "_run": "czwartek, bieg PRZEDSESYJNY 14:30 CEST. Jedna runda rownoleglych wyszukiwan (rynkowe: wolumen/IPO/kontrakt <48h; smart-money: OpenInsider/13F/kongres; polityka: Trump/DoD/DOE/NASA/krytyczne minerały) + doprecyzowanie cen dla kazdego kandydata. RYNKOWE: (1) OESX - dzis rano +19.2% do $24.70 (z $20.95), kontynuacja tematu LED-lighting dla data center/hyperscalerow (dwa duze zamowienia w tym miesiacu), ale pct_1m spadl do ok. -2% (cena par tygodni temu byla wyzsza, ostatnie dni korekta przed dzisiejszym odbiciem) - ponizej progu anti-chase mimo mocnego dnia. (2) SUNE - kontynuacja zmiennosci na temacie financingu Suniva ($835mln), kurs ok. $2.20, pct_1m ok. +16%, ponizej progu. (3) ARBE - kolejny dzien +19% do $0.88 (powtarzalne zamowienia radarow Phoenix, cel analitykow $1.50), pct_1m WZROSL do ok. +31% - PRZEKROCZYL prog anti-chase +25% (dwa dni temu byl dokladnie na progu), brak still_upside (silny katalizator juz byl znany wczesniej, nie ma nowej informacji uzasadniajacej furtke) - oczekiwane CZEKAJ na cofniecie. (4) IRD (Opus Genetics) - kontynuacja biotech data-pop z 09.09 (Phase 1/2 OPGx-BEST1), ostatni kurs $6.535 (z $3.69 31.08), pct_1m ok. +77% - GLEBOKO powyzej progu +50% (parabola), bez still_upside (kolejny katalizator LCA5 Phase 3 dopiero pozniej w roku) - PASS oczekiwany, wpisane dla kompletnosci/nauki. SMART-MONEY: brak swiezego (<48h), potwierdzonego cluster-buy insiderow na malej spolce ani nowej pozycji 13F w dostepnych zrodlach (OpenInsider/Dataroma/WhaleWisdom nie udostepniaja przez wyszukiwarke biezacych list, trzeba by wejsc bezposrednio na strone). Kongres: jedyne swieze ujawnienie (Rep. Gil Cisneros, 08.09) dotyczylo duzych spolek (Palantir, Microsoft, Macom, SPX Technologies), nie male/mikro-cap i handel byl spozniony/z przeszlosci (miesiace/lata wczesniej) - nie spelnia kryterium 'swiezy sygnal'. POLITYKA/KONTRAKT: RGTI/QBTS - kontrakt Commerce/CHIPS Act z 08.09 jest teraz JUZ POWYZEJ 48h (ok. 54-56h od ogloszenia), Krok D w 3 poprzednich biegach nie zdazyl tego ocenic (nieaktualny eksport PLN) - odswiezone ceny: RGTI $15.43 (pct_1m ok. -3%), QBTS $17.05 (pct_1m ok. -6%), oba ponizej progu anti-chase, ale katalizator traci swiezosc - wpisane z zastrzezeniem starzenia sie <48h. USAR (USA Rare Earth) - silne wsparcie rzadowe/tematyka bezpieczenstwa surowcow krytycznych (rare earth), ale BRAK potwierdzonego konkretnego swiezego kontraktu <48h w dostepnych zrodlach - wpisane do grupy 'policy' (nie 'contract'), cena $17.86, pct_1m -3.8% (potwierdzone dane), brak przegrzania. CRML (Critical Metals Corp) - temat krytycznych minerałow/gornictwa (Trump roundtable $2mld+ deali z sierpnia 2026, EO ze stycznia 2026), nie swiezy news <48h, cena $6.28, pct_1m +46% (blisko ale ponizej progu +50%, powyzej +25% anti-chase) - bez still_upside (brak nowego katalizatora w oknie 48h uzasadniajacego furtke), oczekiwane CZEKAJ na cofniecie. RETRO (Krok C): brak dostepu przez wyszukiwarke do konkretnej listy indywidualnych liderow wzrostu >=15-20% z 09.09.2026 (ogolne dane pokazuja tylko duze spolki NCNO +12.5% i SIG +10% na planowanych wynikach, ponizej progu/nie mikro-cap) - lowca_movers.json zapisany jako [].",
   "ipo": [],
   "volume": [
     {
       "ticker": "OESX",
       "name": "Orion Energy Systems",
-      "price_usd": 29.1,
-      "pct_1m": 16,
-      "note": "Bez zmian od biegu 14:30: 08.09.2026 drugie wielomilionowe zamowienie LED-lighting dla data center od globalnego hyperscalera, akcje +16.4% do 4.5-letniego maksimum. Powtarzalny biznes, Q1 FY27 przychod +32% r/r. Ponizej progu anti-chase."
+      "price_usd": 24.70,
+      "pct_1m": -2,
+      "note": "Dzis rano +19.2% do $24.70 (z $20.95) - kontynuacja tematu powtarzalnych duzych zamowien LED-lighting dla data center/hyperscalerow. Mimo mocnego dnia pct_1m spadl do ok. -2% (korekta w ostatnich tygodniach przed dzisiejszym odbiciem) - ponizej progu anti-chase."
     },
     {
       "ticker": "SUNE",
       "name": "SUNation Energy",
-      "price_usd": 2.15,
-      "pct_1m": 13,
-      "note": "Odswiezone w trakcie sesji 09.09: ekstremalna zmiennosc na newsie o zamknieciu przez partnera fuzji (Suniva) rundy $835mln na fabryke ogniw solarnych (premarket +27.5%, sesja $2.11, po sesji $2.43 +15%). Uzyto sredniej sesyjnej ~$2.15. pct_1m ok. +13% - ponizej progu 25%."
+      "price_usd": 2.20,
+      "pct_1m": 16,
+      "note": "Kontynuacja zmiennosci na katalizatorze Suniva $835mln financing z 09.09. pct_1m ok. +16%, ponizej progu 25%."
     },
     {
       "ticker": "ARBE",
       "name": "Arbe Robotics",
-      "price_usd": 0.84,
-      "pct_1m": 25,
-      "note": "Bez zmian od biegu 14:30: powtarzalne zamowienia radarow Phoenix, cel analitykow $1.50. pct_1m ~+25% - dokladnie na progu anti-chase, cena groszowa <$1, brak still_upside."
+      "price_usd": 0.88,
+      "pct_1m": 31,
+      "note": "Kolejny dzien +19% do $0.88, powtarzalne zamowienia radarow Phoenix, cel analitykow $1.50. pct_1m WZROSL do ok. +31% - PRZEKROCZYL prog anti-chase +25% (2 dni temu byl dokladnie na progu). Brak still_upside - katalizator znany od dawna, brak nowej informacji uzasadniajacej furtke. Oczekiwane CZEKAJ na cofniecie."
     },
     {
       "ticker": "IRD",
       "name": "Opus Genetics",
-      "price_usd": 5.98,
-      "pct_1m": 62,
-      "note": "NOWY dzis (09.09): pozytywne dane Phase 1/2 OPGx-BEST1 (Cohort 1) - kurs z $3.69 (31.08) do $5.98, zakres dnia $4.15-$7.07 (bardzo zmienny). pct_1m ok. +62% - POWYZEJ progu +50% (parabola), bez still_upside - klasyczny jednorazowy biotech data-pop, kolejny katalizator (LCA5 Phase 3) dopiero pozniej w roku. Oczekiwane PASS/CZEKAJ na bota."
+      "price_usd": 6.535,
+      "pct_1m": 77,
+      "note": "Kontynuacja biotech data-pop z 09.09 (pozytywne dane Phase 1/2 OPGx-BEST1, Cohort 1). Ostatni kurs $6.535 (z bazy $3.69 31.08). pct_1m ok. +77% - GLEBOKO powyzej progu +50% (parabola), bez still_upside (nastepny katalizator LCA5 Phase 3 dopiero pozniej w roku, klasyczny jednorazowy biotech data-pop). Wpisane dla kompletnosci/nauki - PASS oczekiwany."
     }
   ],
   "contract": [
     {
       "ticker": "RGTI",
       "name": "Rigetti Computing",
-      "price_usd": 17.0,
-      "pct_1m": 5,
-      "catalyst": "Trump admin/Departament Handlu (Commerce) - finalna umowa CHIPS Act, $100mln dofinansowania + mniejszosciowy udzial rzadu w spolce, ogloszone 08.09.2026, wciaz <48h (ok. 30-34h). Kontynuacja z 2 poprzednich biegow - Krok D wciaz nie ocenil tej okazji (nieaktualny eksport PLN)."
+      "price_usd": 15.43,
+      "pct_1m": -3,
+      "catalyst": "Trump admin/Departament Handlu (Commerce) - finalna umowa CHIPS Act, $100mln dofinansowania + mniejszosciowy udzial rzadu, ogloszone 08.09.2026. UWAGA: katalizator jest juz POWYZEJ 48h (ok. 54-56h od ogloszenia) - Krok D w 3 poprzednich biegach nie zdazyl ocenic tej okazji z powodu nieaktualnego eksportu PLN. pct_1m ok. -3%, ponizej progu anti-chase."
     },
     {
       "ticker": "QBTS",
       "name": "D-Wave Quantum",
-      "price_usd": 16.5,
-      "pct_1m": -9,
-      "catalyst": "Trump admin/Departament Handlu (Commerce) - finalna umowa CHIPS Act, $100mln dofinansowania + mniejszosciowy udzial rzadu, ogloszone 08.09.2026, wciaz <48h. Miesiac na minusie (Q2 miss + odejscie CFO) - brak przegrzania. Kontynuacja z 2 poprzednich biegow, Krok D wciaz wstrzymany."
+      "price_usd": 17.05,
+      "pct_1m": -6,
+      "catalyst": "Trump admin/Departament Handlu (Commerce) - finalna umowa CHIPS Act, $100mln dofinansowania + mniejszosciowy udzial rzadu, ogloszone 08.09.2026. UWAGA: katalizator juz POWYZEJ 48h. pct_1m ok. -6% (miesiac na minusie, Q2 miss + odejscie CFO) - brak przegrzania."
     }
   ],
   "insider": [],
   "fund13f": [],
   "congress": [],
-  "policy": []
+  "policy": [
+    {
+      "ticker": "USAR",
+      "name": "USA Rare Earth",
+      "price_usd": 17.86,
+      "pct_1m": -3.8,
+      "catalyst": "Trump admin - polityka bezpieczenstwa surowcow krytycznych/rare earth, ciagle wsparcie rzadowe dla krajowej produkcji. Brak potwierdzonego konkretnego SWIEZEGO (<48h) podpisanego kontraktu w dostepnych zrodlach - stad grupa 'policy', nie 'contract'. pct_1m -3.8% (potwierdzone dane) - brak przegrzania, dobry kandydat bez ryzyka paraboli."
+    },
+    {
+      "ticker": "CRML",
+      "name": "Critical Metals Corp",
+      "price_usd": 6.28,
+      "pct_1m": 46,
+      "catalyst": "Trump admin - temat krytycznych minerałow/gornictwa (roundtable i $2mld+ nowych deali z sierpnia 2026, EO ws. krytycznych minerałow ze stycznia 2026) - temat kontynuowany, NIE swiezy news w oknie 48h.",
+      "note": "pct_1m +46% - blisko ale ponizej progu +50% (parabola), POWYZEJ progu anti-chase +25%. Brak still_upside (brak nowej informacji z ostatnich 48h uzasadniajacej furtke, mimo ze spolka wciaz daleko ponizej 52-tyg. maksimum $32.15). Oczekiwane CZEKAJ na cofniecie."
+    }
+  ]
 }
