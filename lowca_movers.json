@@ -1,16 +1,9 @@
 [
   {
-    "ticker": "SUNE",
-    "pct": 90.3,
-    "day": "2026-09-09",
-    "presignal": "SUNation Energy (SUNE) mialo juz wczesniej podpisana definitywna umowe reverse merger z Suniva (producent ogniw solarnych) oraz zapowiedziana, ale niesfinalizowana duza runde finansowania. 08.09 Suniva ogłosila ZAKONCZENIE $835mln rundy (dlug+equity, m.in. Goldman Sachs, Lion Point Capital, I Squared Capital) na budowe drugiej fabryki (docelowo 5.5 GW mocy) - dzien zamkniecia finansowania byl znanym z gory, oczekiwanym katalizatorem (nie newsem znikad), spolka juz byla na radarze bota z racji tematu merger+financing.",
-    "lesson": "Gdy spolka ma OGLOSZONY, ale NIEZAMKNIETY duzy merger/financing (szczegolnie z udzialem powaznych funduszy typu Goldman Sachs), traktuj DATE ZAMKNIECIA rundy jako osobny, przewidywalny katalizator dnia - podobnie jak date wynikow. Trzymac taki ticker na liscie az do zamkniecia transakcji."
-  },
-  {
-    "ticker": "IRD",
-    "pct": 32.0,
-    "day": "2026-09-09",
-    "presignal": "Opus Genetics (IRD) mialo zaplanowana prezentacje danych topline z Cohort 1 (Phase I/II, terapia genowa OPGx-BEST1) - dzien wczesniej analitycy juz podtrzymywali rating Kupuj 'w oczekiwaniu na dane z badania' (ahead of trial data), czyli sama data odczytu byla znana z wyprzedzeniem, tylko WYNIK byl niewiadoma.",
-    "lesson": "Male biotechy z zapowiedziana data odczytu wczesnej fazy klinicznej (Phase I/II) nalezy trzymac na liscie obserwacyjnej DZIEN WCZESNIEJ, dokladnie jak przy earnings - to katalizator 'na zegarze', mozliwy do zlapania z wyprzedzeniem (choc kierunek wyniku pozostaje niepewny, samo wejscie na liste obserwacyjna jest mozliwe)."
+    "ticker": "TNON",
+    "pct": 117,
+    "day": "2026-09-10",
+    "presignal": "09.09.2026 (dzien wczesniej) Tenon Medical ogłosilo wczesniejsza, calkowita splate $5.16mln obligacji zamiennych (przed terminem zapadalnosci 11.09) - usuwajac ryzyko rozwodnienia przez konwersje po zanizonej cenie. To byl publicznie dostepny, konkretny 8-K presygnal jeden dzien przed glownym ruchem (+117% w czwartek 10.09), wzmocniony wczesniejszym (13.08) raportem Q2 pokazujacym +127% r/r wzrostu przychodow i rozwoj chirurgicznej adopcji systemu Catamaran SI Joint Fusion.",
+    "lesson": "Male, nisko-plynne spolki medtech/biotech z ogloszeniem wczesniejszej splaty/eliminacji instrumentu dluznego zamiennego (usuniecie overhangu rozwodnienia) - szczegolnie gdy towarzyszy temu niedawny mocny wzrost przychodow - zasluguja na miejsce na liscie obserwacyjnej NASTEPNEGO dnia sesyjnego jako kandydat na duzy ruch. Sledzic 8-K/press release ze slowami kluczowymi 'early repayment', 'convertible notes', 'eliminates dilution'."
   }
 ]
