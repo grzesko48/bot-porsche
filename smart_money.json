@@ -1,8 +1,12 @@
 {
-  "generated": "2026-07-18",
+  "as_of_run": "2026-09-14",
+  "note": "Brak potwierdzonych klastrow zakupow insiderow (Form 4) ani nowych pozycji funduszy w oknie. DELL: duzy holder Silver Lake redukuje pozycje (13D/A, poczatek wrzesnia 2026) — sygnal dystrybucji, nie akumulacji.",
   "insiders": {},
-  "funds": {},
+  "funds": {
+    "DELL": [
+      {"manager": "Silver Lake Partners", "pct_portfolio": 0, "action": "trim"}
+    ]
+  },
   "politicians": {},
-  "sector_exits": [],
-  "_notes": "Cykl 2026-07-18 (kandydaci: LITE, MU, INTC, CIEN, MRVL). INSIDERZY (Form 4/OpenInsider): LIVE engine odpytal OpenInsider dla wszystkich -> strona OK, BRAK transakcji insiderow w oknie -> NEUTRAL (fail-CLOSED). FUNDUSZE (13F/Dataroma): brak NOWYCH filingow 13F (ostatnia migawka Q1'26, kolejne dopiero ~sierpien); nie re-weryfikowalem Dataroma w tym cyklu -> nie przenosze niezweryfikowanych sygnalow. POLITYCY (kongres/STOCK Act): jedyne wzmianki o INTC/MRVL to disclosures z MAJA 2026 (Trump/kongres) - POZA oknem 7 dni i pojedyncze zrodlo -> pomijam (fail-CLOSED). KONKLUZJA: brak zweryfikowanej SWIEZEJ konwergencji smart-money w tym cyklu -> wszystkie warstwy neutralne."
+  "sector_exits": []
 }

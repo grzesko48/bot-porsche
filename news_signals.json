@@ -1,76 +1,77 @@
 {
-  "generated": "2026-07-18",
-  "freshness_days": 7,
+  "as_of_run": "2026-09-14",
   "signals": [
-    {
-      "ticker": "LITE",
-      "has_catalyst": true,
-      "catalyst_type": "rating",
-      "direction": "bullish",
-      "headline": "Klaster bullish rekomendacji w oknie 7d: Zacks upgrade do Rank #2 (Buy) po podniesieniu prognoz EPS, Citi dodaje 90-dniowy 'catalyst watch' (15.07), JPMorgan podtrzymuje Overweight i traktuje ~20% przecene jako okazje (popyt AI data-center optics).",
-      "as_of": "2026-07-15",
-      "confidence": 0.55,
-      "source_count": 3,
-      "sources": [
-        {"label": "Yahoo Finance (Zacks upgrade)", "url": "https://finance.yahoo.com/technology/ai/articles/lumentum-lite-6-3-zacks-191102026.html"},
-        {"label": "StocksToTrade (JPMorgan Overweight)", "url": "https://stockstotrade.com/news/lumentum-holdings-inc-lite-news-2026_07_09/"},
-        {"label": "GuruFocus (LITE +6.1%)", "url": "https://www.gurufocus.com/news/8958656/lumentum-holdings-inc-lite-shares-surge-61-what-gf-score-of-61-tells-investors"}
-      ]
-    },
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak NOWEGO katalizatora w oknie 7d. Duze kontrakty (Anthropic HBM, ~$22B upfront, 16 SCA) sa z 2-7 lipca (poza oknem). Swieze 7 dni: przecena ~8%, presja konkurencyjna po IPO SK Hynix (10 lip).",
-      "as_of": "2026-07-16",
-      "confidence": 0.5,
-      "source_count": 2,
+      "headline": "Brak swiezego katalizatora; wyniki dopiero 30.09, ostatnie newsy to analizy cen docelowych",
+      "as_of": "2026-09-07",
+      "confidence": 0.3,
+      "source_count": 1,
       "sources": [
-        {"label": "TradingKey (MU pullback)", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262015351-micron-mu-stock-price-prediction-july-2026-anthropic-skhy-tradingkey"},
-        {"label": "Motley Fool (7 lip)", "url": "https://www.fool.com/investing/2026/07/07/micron-technology-just-dropped-a-50-billion-revenu/"}
+        {"label": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/09/07/micron-has-skyrocketed-256-in-2026-what-would-it-take-to-get-mu-stock-up-to-1250/"}
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "has_catalyst": true,
+      "catalyst_type": "contract",
+      "direction": "bullish",
+      "headline": "NVIDIA inwestuje 2 mld USD w optyke AI Lumentum + mocna prognoza Q1 FY27",
+      "as_of": "2026-09-10",
+      "confidence": 0.75,
+      "source_count": 3,
+      "sources": [
+        {"label": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology"},
+        {"label": "Simply Wall St", "url": "https://simplywall.st/stocks/us/tech/nasdaq-lite/lumentum-holdings/news/lumentum-holdings-lite-secured-a-2-billion-ai-optics-partner"},
+        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/article/4935162-lumentum-strike-while-the-iron-is-hot"}
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "has_catalyst": true,
+      "catalyst_type": "earnings_guidance",
+      "direction": "bullish",
+      "headline": "Rekordowe 60,9 mld USD zamowien serwerow AI, backlog 95 mld, podniesiona prognoza FY27 do ~192 mld",
+      "as_of": "2026-09-11",
+      "confidence": 0.82,
+      "source_count": 4,
+      "sources": [
+        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/article/dell-stock-surges-on-record-orders-for-ai-servers-205629050.html"},
+        {"label": "StocksToTrade", "url": "https://stockstotrade.com/news/dell-technologies-inc-class-c-dell-news-2026_09_11/"},
+        {"label": "Vantage Markets", "url": "https://www.vantagemarkets.com/market-news/dell-ai-server-backlog-on-premise-september-9-2026/"},
+        {"label": "Kalkine Media", "url": "https://kalkinemedia.com/us/stocks/artificial-intelligence/why-is-dell-technologies-nysedell-surging-on-record-ai-server-orders-and-raised-guidance"}
       ]
     },
     {
       "ticker": "INTC",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Sygnaly sprzeczne w oknie 7d: HSBC podnosi cel do $200 (16 lip) vs konsensus Hold ~$97 i obawy o yieldy 18A; akcja -21% w 7 dni. Q2 wyniki 23 lip (event, nie przeszly katalizator). Brak czystego kierunkowego katalizatora.",
-      "as_of": "2026-07-16",
-      "confidence": 0.5,
+      "has_catalyst": true,
+      "catalyst_type": "other",
+      "direction": "bullish",
+      "headline": "NVIDIA obejmuje ~30 mld USD udzialu w Intelu wspierajac zwrot ku AI; zainteresowanie foundry (SK Hynix)",
+      "as_of": "2026-09-08",
+      "confidence": 0.68,
       "source_count": 2,
       "sources": [
-        {"label": "FXLeaders (HSBC $200)", "url": "https://www.fxleaders.com/news/2026/07/16/intc-200-price-target-alert-hsbc-sees-intel-earnings-expanding-on-server-and-foundry-strength/"},
-        {"label": "TradingKey (INTC -21%)", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262017058-intel-intc-stock-prediction-july-2026-hsbc-200-bubble-risk-tradingkey"}
+        {"label": "Timothy Sykes", "url": "https://www.timothysykes.com/news/intel-corporation-intc-news-2026_09_08-2/"},
+        {"label": "Timothy Sykes", "url": "https://www.timothysykes.com/news/intel-corporation-intc-news-2026_09_10/"}
       ]
     },
     {
       "ticker": "CIEN",
       "has_catalyst": false,
-      "catalyst_type": "none",
+      "catalyst_type": "earnings_guidance",
       "direction": "neutral",
-      "headline": "Silne podniesienie guidance FY26 do $6.3B (+40% r/r Q2) pochodzi z raportu kwartalnego (~czerwiec, poza oknem 7d). W swiezym oknie tylko drobne premiery produktowe (Blue Planet CCM, PoC Telefonica 5G slicing) — nie material.",
-      "as_of": "2026-07-15",
-      "confidence": 0.5,
-      "source_count": 2,
+      "headline": "Rekordowe Q3 i podniesiona prognoza, ale wynik sprzed ~11 dni — poza oknem 7 dni",
+      "as_of": "2026-09-03",
+      "confidence": 0.4,
+      "source_count": 3,
       "sources": [
-        {"label": "SEC 8-K Q2 FY2026", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9912026q2earningspressre.htm"},
-        {"label": "Yahoo Finance CIEN", "url": "https://finance.yahoo.com/quote/CIEN/"}
-      ]
-    },
-    {
-      "ticker": "MRVL",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak NOWEGO katalizatora w oknie 7d. Katalizatory (Polariton close 22 kwi, $2B Nvidia, S&P500 22 cze) sa stare. Swieze 7 dni: przecena ~-8.7% w sektorowej wyprzedazy; jedynie ogolna lista 'semis to buy' (17 lip).",
-      "as_of": "2026-07-17",
-      "confidence": 0.5,
-      "source_count": 2,
-      "sources": [
-        {"label": "247WallSt (semis to buy)", "url": "https://247wallst.com/investing/2026/07/17/3-semiconductor-stocks-to-buy-before-ai-demand-explodes-in-july/"},
-        {"label": "MarketBeat MRVL", "url": "https://www.marketbeat.com/instant-alerts/marvell-technology-nasdaqmrvl-stock-price-up-16-whats-next-2026-07-06/"}
+        {"label": "Ciena IR", "url": "https://investor.ciena.com/news/news-details/2026/Ciena-Reports-Fiscal-Third-Quarter-2026-Financial-Results/default.aspx"},
+        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4640053-ciena-projects-at-least-30-percent-revenue-growth-in-fiscal-2027-with-10b-backlog-and-25"},
+        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-corp-cien-q3-2026-210126576.html"}
       ]
     }
   ]

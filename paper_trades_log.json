@@ -306,5 +306,60 @@
     "value_pln": 3400.0,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.5)"
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "SAP",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 6.5873,
+    "price_usd": 218.08,
+    "value_pln": 5358.39,
+    "pnl_pln": 1688.26,
+    "reason": "take-profit +46% — realizuj 25%, stop->BE"
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "ASML",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 2.1527,
+    "price_usd": 1592.39,
+    "value_pln": 12786.41,
+    "pnl_pln": -1262.55,
+    "reason": "stop trafiony (zwrot -9.0%)"
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "MSTR",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 10.0172,
+    "price_usd": 136.25,
+    "value_pln": 5090.88,
+    "pnl_pln": 1578.64,
+    "reason": "take-profit +45% — realizuj 25%, stop->BE"
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "BTDR",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 25.1063,
+    "price_usd": 11.61,
+    "value_pln": 1087.71,
+    "pnl_pln": 226.16,
+    "reason": "take-profit +26% — realizuj 25%, stop->BE"
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "ASML",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 2.5734,
+    "price_usd": 1592.39,
+    "value_pln": 15284.85,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 8.0)"
   }
 ]
