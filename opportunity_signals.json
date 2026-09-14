@@ -1,37 +1,37 @@
 {
-  "_date": "2026-09-11",
-  "_run": "piatek, bieg SRODSESYJNY 18:30 CEST (uruchomiony ok. 18:36 CEST, srodek sesji NYSE/Nasdaq, ok. 12:36 ET). Odswiezono ceny mid-session vs bieg 14:30. NOWE w tej rundzie: ACV Auctions (ACVA) - Copart (CPRT) ogłosił przejęcie za $10.50/akcję gotówką (definitive agreement), kurs skoczyl +44% do ok. $10.42 - swiezy (<24h) katalizator M&A, ALE to zamknieta transakcja gotowkowa (spread arbitrazowy do ceny oferty ~0.8%, zamkniecie dopiero do konca 2026) - BRAK dalszego upside w duchu tego bota (nie momentum/spekulacja, tylko waski merger-arb z ryzykiem regulacyjnym) - swiadomie POMINIETE jako sygnal (nie pasuje do zadnej grupy: nie momentum, nie kontrakt rzadowy, nie insider/fund/kongres/polityka). TNON kontynuuje ekstremalny, niespojny miedzy zrodlami skok (jedno zrodlo: $8.52, inne: nizej) - jeszcze glebiej w parabolii niz rano, PASS utrzymany. AENT i FEIM kontynuuja ranny ruch bez nowego katalizatora (male dalsze przesuniecie w gore w trakcie sesji). USAR $15.78-16.36 dzis (kontynuacja slabszej tezy z rana, cena w tym samym zakresie). CRML - brak wiarygodnej swiezej ceny mid-session w tej rundzie (jedno znalezione zrodlo z cena bylo z 21.08 - odrzucone jako nieaktualne), pozostawiono cene z rannej rundy z zastrzezeniem. Rynek ogolnie: Oracle +7.5% na cloud, Nvidia/Micron w gore, chlodniejsze dane o inflacji wspieraja rajd tech - kontekst makro neutralny/pozytywny, bez nowego mikro-cap katalizatora ponad to, co juz zidentyfikowano rano. Insider/fund13f/congress - jak rano, brak konkretnych, swiezych wierszy transakcyjnych w dostepnych zrodlach (ogolne opisy narzedzi OpenInsider/Capitol Trades/Quiver bez danych transakcyjnych) - puste. Brak nowego swiezego kontraktu rzadowego <48h istotnego wzgledem kapitalizacji (DoD kontrakty z 09-10.09 trafily do duzych, ugruntowanych firm - Rolls-Royce modyfikacja, Ernst & Young audyt - nieistotne dla malych spolek).",
+  "_date": "2026-09-14",
+  "_run": "poniedzialek, bieg PRZEDSESYJNY 14:30 CEST (uruchomiony ok. 14:36 CEST / ok. 08:36 ET, premarket, przed otwarciem NYSE/Nasdaq). Weekend bez sesji (piatek 11.09 byl ostatnim dniem handlu). Odswiezono ceny watchlisty z piatku: AENT wyraznie COFNELO SIE z $7.53 (piatek mid-session) do ok. $5.66-5.94 dzis - pct_1m spadl z +37% do ok. +6%, WYSZLO ponizej progu anti-chase (+25%) - furtka still_upside NIE jest juz potrzebna, normalna kwalifikacja mozliwa. CRML natomiast WZROSLO z $6.72 (niepewne, z zastrzezeniem) do $7.34 potwierdzonego dzis - pct_1m szacunkowo wzrosl do ok. +62%, PRZEKROCZYL prog paraboli +50% - podwyzszona ostroznosc, PASS oczekiwany, bez still_upside. USAR w waskim zakresie $15.63-17.61 (zrodla rozbiezne) - w przyblizeniu bez zmian wzgledem piatku, pct_1m nadal ujemny (~-12%), teza rare-earth osłabiona headwindem thaw USA-Chiny z 10.09, bez odbicia. TNON i FEIM - dane cenowe z wielu zrodel wewnetrznie sprzeczne (TNON: $1.02 vs $8.99 vs wczesniejsze $8.52; FEIM: $81.05 vs $72.79 vs $50.06) - typowe dla nisko-plynnych mikro-cap/thin-float tickerow, przyjeto wartosc najblizsza ostatniemu spojnemu odczytowi z piatku z wyraznym zastrzezeniem niepewnosci. TNON pozostaje w glebokiej paraboli (pct_1m >>50%) - zdecydowany PASS/UNIKAC. FEIM bez zmiany tezy (pct_1m ok. +31%, katalizator kontraktowy z lipca >48h, brak nowego triggera). TRUG bez swiezej ceny w tej rundzie, bez katalizatora - PASS utrzymany. Ogolny rynek premarket: S&P i Nasdaq lekko na minusie (obawy o wzrost/AI-cloud, Nebius -7% premarket), zaden nowy mikro-cap katalizator rynkowy/insider/13F/kongres nie zidentyfikowany w tej rundzie mimo dwoch rund wyszukiwan (IPO, wolumen, kontrakty rzadowe, OpenInsider, Capitol Trades, 13F - wszystkie puste lub zbyt ogolne). Jedyny znaleziony swiezy kongresowy trade (Fetterman, TransCanada Pipelines/TRP, ujawniony 09.09, transakcja z 18.08) pominiety swiadomie: duzy, nisko-zmienny holding infrastrukturalny spoza playbooka spekulacyjnego bota, transakcja tez juz >3 tyg. stara.",
   "ipo": [],
   "volume": [
+    {
+      "ticker": "AENT",
+      "name": "Alliance Entertainment Holding",
+      "price_usd": 5.8,
+      "pct_1m": 6,
+      "note": "Wyrazne cofniecie z piatkowego $7.53 (mid-session po earnings-beat 10.09: przychod +8% r/r, EPS +24%, nowe umowy Paramount/Amazon MGM) do ok. $5.66-5.94 dzis w premarkecie - typowy fade po pumpie na cienkim floacie. pct_1m spadl z +37% do ok. +6%, wyszedl PONIZEJ progu anti-chase +25% - juz NIE wymaga furtki still_upside. Glowny przyszly katalizator (premiera GTA VI + winylowy soundtrack Atlantic Records) wciaz przed nami, jeszcze nie zrealizowany w cenie - obecny poziom wyglada jak potencjalna strefa wejscia po korekcie, nie gonienie gorki.",
+      "still_upside": true,
+      "upside_reason": "Po cofnieciu z $7.53 do ok. $5.80 (pct_1m spadl do ok. +6%, ponizej progu anti-chase) glowny katalizator (premiera GTA VI, umowy Paramount/Amazon MGM) wciaz nie zrealizowany - to nie gonienie gorki tylko wejscie po korekcie z nadal aktualna teza wzrostowa."
+    },
+    {
+      "ticker": "FEIM",
+      "name": "Frequency Electronics",
+      "price_usd": 81.05,
+      "pct_1m": 31,
+      "note": "Bez zmiany tezy wzgledem piatku (rekordowe wyniki Q1 FY2027 10.09: przychod +70% r/r, backlog +82% r/r do $129mln). Dane cenowe dzis rozbiezne miedzy zrodlami (81.05 vs 72.79 vs 50.06 USD) - przyjeto wartosc najblizsza spojnemu odczytowi z piatku ($81.47) z zastrzezeniem niepewnosci danych premarket. Kontrakty napedzajace backlog ogloszone w lipcu (>48h) - stad grupa 'volume', nie 'contract'. Bez nowego triggera w tej rundzie."
+    },
     {
       "ticker": "TNON",
       "name": "Tenon Medical",
       "price_usd": 8.52,
       "pct_1m": 180,
-      "note": "Kontynuacja z rana - wczesniejsza splata $5.16mln obligacji zamiennych (09.09) + wzrost przychodow Q2 (+127% r/r) wywolaly seryjne wielokrotne +50-100%+ ruchy w kilka dni. Mid-session dalszy skok wzgledem porannej ceny $5.30 (zrodla nadal rozbiezne/whipsaw, jedno z 11.09 podaje $8.52). pct_1m grubo POWYZEJ progu paraboli +50%. Zdecydowany PASS/UNIKAC - podrecznikowy wzorzec mikro-cap runa po pumpie (LEGN/BCDA z lekcji bota)."
-    },
-    {
-      "ticker": "AENT",
-      "name": "Alliance Entertainment Holding",
-      "price_usd": 7.53,
-      "pct_1m": 37,
-      "note": "Kontynuacja porannego katalizatora (FY2026 earnings-beat 10.09 po sesji: przychod +8% r/r, EPS +24%, nowe umowy z Paramount/Amazon MGM, zapowiedziany katalizator GTA VI). Mid-session $7.53 (+37% wg swiezego zrodla), lekko wyzej niz premarket $7.25. Wciaz swiezy (<24h temu ogloszone wyniki), przyszly katalizator GTA VI jeszcze nie zrealizowany - still_upside=true utrzymane, ale pct_1m zblizone do gornej czesci progu 25-40% - mniejsza pozycja jesli bot kupi.",
-      "still_upside": true,
-      "upside_reason": "Earnings-beat dopiero wczoraj po sesji, rynek wciaz absorbuje informacje (cena rosla z $5.51 do $7.25 do $7.53 w ciagu dnia), a glowny przyszly katalizator (premiera GTA VI i winylowy soundtrack Atlantic Records) jeszcze przed nami - nie zrealizowany w cenie."
-    },
-    {
-      "ticker": "FEIM",
-      "name": "Frequency Electronics",
-      "price_usd": 81.47,
-      "pct_1m": 31,
-      "note": "Kontynuacja porannego katalizatora (rekordowe wyniki Q1 FY2027 10.09 po sesji: przychod +70% r/r, backlog +82% r/r do $129mln, EPS $0.41 vs $0.07 rok wczesniej). Mid-session $81.47, minimalna zmiana wzgledem premarket $81.00. Kontrakty napedzajace backlog ogloszone jeszcze w lipcu (>48h) - stad grupa 'volume', nie 'contract'."
+      "note": "Kontynuacja glebokiej paraboli po splacie obligacji zamiennych (09.09) i wzroscie przychodow Q2 (+127% r/r). Dane cenowe dzis skrajnie rozbiezne miedzy zrodlami (1.02 vs 8.99 vs wczesniejsze 8.52 USD, market cap $6mln wyglada na blad danych) - typowe dla thin-float mikro-cap po ekstremalnym pumpie. Cena z piatku ($8.52) utrzymana jako najbardziej wiarygodna. pct_1m grubo powyzej progu paraboli +50%. Zdecydowany PASS/UNIKAC - podrecznikowy wzorzec mikro-cap runa po pumpie (LEGN/BCDA z lekcji bota)."
     },
     {
       "ticker": "TRUG",
       "name": "TruGolf Holdings",
       "price_usd": 0.49,
       "pct_1m": -25,
-      "note": "Brak swiezej ceny mid-session w tej rundzie - bez zmian wzgledem rannego zapisu. Mocno zdegradowany mikro-cap (52-tyg. zakres $0.36-$38.70, patrz TRUG 18.08 +58.8% w lowca_lessons.json). Brak jasnego katalizatora - PASS/UNIKAC utrzymany."
+      "note": "Brak swiezej ceny w tej rundzie - bez zmian wzgledem piatku. Mocno zdegradowany mikro-cap, brak jasnego katalizatora - PASS/UNIKAC utrzymany."
     }
   ],
   "contract": [],
@@ -42,17 +42,17 @@
     {
       "ticker": "USAR",
       "name": "USA Rare Earth",
-      "price_usd": 15.85,
-      "pct_1m": -15,
-      "catalyst": "Trump admin - polityka bezpieczenstwa surowcow krytycznych/rare earth (mine-to-magnet, fabryka magnesow Blacksburg SC). Headwind z 10.09 ('thaw' USA-Chiny oslabiajacy premie za deficytowosc) utrzymuje sie - dzis kurs w wąskim zakresie $15.78-16.36, bez odbicia. pct_1m ok. -15%, daleko od przegrzania, ale teza katalizatora nadal osłabiona - nizsza konwikcja, bez still_upside."
+      "price_usd": 16.5,
+      "pct_1m": -12,
+      "catalyst": "Trump admin - polityka bezpieczenstwa surowcow krytycznych/rare earth (mine-to-magnet, fabryka magnesow Blacksburg SC, wczesniejsza inwestycja rzadu $1.6mld ze stycznia). Headwind z 10.09 (nadzieje na 'thaw' USA-Chiny oslabiajace premie za deficytowosc) utrzymuje sie - dzis kurs w szerokim, rozbieznym miedzy zrodlami zakresie $15.63-17.61, bez wyraznego odbicia. pct_1m nadal ujemny, daleko od przegrzania, ale teza katalizatora osłabiona - nizsza konwikcja, bez still_upside."
     },
     {
       "ticker": "CRML",
       "name": "Critical Metals Corp",
-      "price_usd": 6.72,
-      "pct_1m": 48,
-      "catalyst": "Trump admin - temat krytycznych mineralow/gornictwa (deale z sierpnia, EO ze stycznia). Ten sam headwind co USAR z 10.09 (nadzieje na thaw USA-Chiny).",
-      "note": "Brak wiarygodnej swiezej ceny mid-session w tej rundzie (jedyne znalezione zrodlo z konkretna cena okazalo sie nieaktualne, z 21.08) - cena przeniesiona z rannego zapisu ($6.72) z zastrzezeniem niepewnosci. pct_1m wciaz blisko progu +50% (parabola). Bez still_upside - traktowac ostroznie, oczekiwane PASS/CZEKAJ."
+      "price_usd": 7.34,
+      "pct_1m": 62,
+      "catalyst": "Trump admin - temat krytycznych mineralow/gornictwa (deale z sierpnia, EO ze stycznia). Ten sam headwind co USAR z 10.09, ale mimo to kurs dzis wyrazniej wyzej niz piatek (potwierdzone $7.34 vs niepewne $6.72).",
+      "note": "Cena dzis potwierdzona z wiarygodnego zrodla ($7.34, zakres dnia $7.21-7.46), w gore wzgledem niepewnego odczytu z piatku. Szacunkowy pct_1m PRZEKROCZYL prog paraboli +50% (~+62%) - powyzej progu, w ktorym bot nigdy nie kupuje. Bez still_upside - oczekiwane PASS/UNIKAC, nie gonic gorki."
     }
   ]
 }
