@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "ticker": "ACVA",
+    "pct": 44,
+    "day": "2026-09-11",
+    "presignal": "Brak realnego pre-sygnalu wolumenowego/insiderskiego dzien wczesniej - tego samego dnia (11.09) Copart oglosilo przejecie ACV Auctions gotowka po $10.50/akcje, kurs natychmiast doskoczyl do ceny oferty (z $7.22 do $10.41).",
+    "lesson": "Jednodniowy skok na ogloszeniu przejecia gotowkowego (M&A) to nie okazja momentum tylko zamkniety merger-arb ze skromnym spreadem (tu ok. 0.8% do ceny oferty) - nie da sie tego zlapac z wyprzedzeniem i nie nadaje sie do strategii spekulacyjnej lowcy; nie gonic po fakcie, traktowac jako szum a nie przeoczenie."
+  }
+]

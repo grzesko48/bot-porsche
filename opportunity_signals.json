@@ -1,58 +1,96 @@
 {
   "_date": "2026-09-14",
-  "_run": "poniedzialek, bieg PRZEDSESYJNY 14:30 CEST (uruchomiony ok. 14:36 CEST / ok. 08:36 ET, premarket, przed otwarciem NYSE/Nasdaq). Weekend bez sesji (piatek 11.09 byl ostatnim dniem handlu). Odswiezono ceny watchlisty z piatku: AENT wyraznie COFNELO SIE z $7.53 (piatek mid-session) do ok. $5.66-5.94 dzis - pct_1m spadl z +37% do ok. +6%, WYSZLO ponizej progu anti-chase (+25%) - furtka still_upside NIE jest juz potrzebna, normalna kwalifikacja mozliwa. CRML natomiast WZROSLO z $6.72 (niepewne, z zastrzezeniem) do $7.34 potwierdzonego dzis - pct_1m szacunkowo wzrosl do ok. +62%, PRZEKROCZYL prog paraboli +50% - podwyzszona ostroznosc, PASS oczekiwany, bez still_upside. USAR w waskim zakresie $15.63-17.61 (zrodla rozbiezne) - w przyblizeniu bez zmian wzgledem piatku, pct_1m nadal ujemny (~-12%), teza rare-earth osłabiona headwindem thaw USA-Chiny z 10.09, bez odbicia. TNON i FEIM - dane cenowe z wielu zrodel wewnetrznie sprzeczne (TNON: $1.02 vs $8.99 vs wczesniejsze $8.52; FEIM: $81.05 vs $72.79 vs $50.06) - typowe dla nisko-plynnych mikro-cap/thin-float tickerow, przyjeto wartosc najblizsza ostatniemu spojnemu odczytowi z piatku z wyraznym zastrzezeniem niepewnosci. TNON pozostaje w glebokiej paraboli (pct_1m >>50%) - zdecydowany PASS/UNIKAC. FEIM bez zmiany tezy (pct_1m ok. +31%, katalizator kontraktowy z lipca >48h, brak nowego triggera). TRUG bez swiezej ceny w tej rundzie, bez katalizatora - PASS utrzymany. Ogolny rynek premarket: S&P i Nasdaq lekko na minusie (obawy o wzrost/AI-cloud, Nebius -7% premarket), zaden nowy mikro-cap katalizator rynkowy/insider/13F/kongres nie zidentyfikowany w tej rundzie mimo dwoch rund wyszukiwan (IPO, wolumen, kontrakty rzadowe, OpenInsider, Capitol Trades, 13F - wszystkie puste lub zbyt ogolne). Jedyny znaleziony swiezy kongresowy trade (Fetterman, TransCanada Pipelines/TRP, ujawniony 09.09, transakcja z 18.08) pominiety swiadomie: duzy, nisko-zmienny holding infrastrukturalny spoza playbooka spekulacyjnego bota, transakcja tez juz >3 tyg. stara.",
+  "_run": "poniedzialek, bieg SRODSESYJNY 18:30 CEST (uruchomiony ok. 18:39 CEST / ok. 12:39 ET, w trakcie sesji NYSE/Nasdaq). Odswiezono ceny watchlisty z biegu 14:30 jednym spojnym zrodlem (Yahoo Finance) - poprzednie rozbieznosci miedzy zrodlami (szczegolnie TNON, FEIM, CRML) w duzej mierze sie wyjasnily: TNON $5.61/pct_1m +8.91% (znacznie nizej i spokojniej niz wczesniejsze niespojne 1.02/8.99/8.52 z sugestia paraboli >>50% - najwyrazniej blad danych premarket), FEIM $86.84/pct_1m +10.29% (nizej niz wczesniejsze 81.05/+31%, teza defense/backlog bez zmian), CRML $6.63/pct_1m -0.45% (WYRAZNIE cofnelo sie z porannego odczytu $7.34/+62% - wyszlo calkowicie ponizej progu anti-chase, mozliwa strefa obserwacji zamiast PASS), USAR $15.97/pct_1m -20.16% (headwind trwa, poglebil sie), TRUG $0.5875/pct_1m -39.36% (dalsza degradacja, PASS utrzymany), AENT $5.73/pct_1m +1.24% (spojne z rana, GTA VI katalizator wciaz przed nami). NOWE w tej rundzie: kontrakty obronne z dzisiaj - Satellogic (SATL) rozszerzenie umowy z Innovative Defense Technologies dla programu ONR Slingshot III (marine intel dla US Navy) oraz Arbe Robotics (ARBE) wejscie w obszar obrony/homeland security z systemem radarowym Alerion C-UAS do wykrywania dronow (ogloszone dzis, plus wczesniejszy 08.09 kontrakt automotive Level 3 z duza grupa motoryzacyjna via Hirain) - oba ponizej progu anti-chase. Insider: swiezy klastrowy zakup CEO+CFO w Relmada Therapeutics (RLMD, ~$1.67mln 11.09), kontynuacja zakupow CEO Star Equity Holdings (STRR, ok. 660k akcji) oraz CEO Energy Vault (NRGV, ok. 67.5k akcji w tym miesiacu) - wszystkie ponizej progu anti-chase. Ticker ATEX (Anterix) z insider $100k odrzucony jako zbyt maly sygnal wzgledem $1.55mld kapitalizacji i juz mocno rozgrzanej ceny. Fund13F, congress, IPO - brak konkretnych, swiezych trafien z cenami w tej rundzie (openinsider.com i capitoltrades.com zwracaly bledy 503/429/405, dane pochodza z artykulow/agregatorow).",
   "ipo": [],
   "volume": [
     {
       "ticker": "AENT",
       "name": "Alliance Entertainment Holding",
-      "price_usd": 5.8,
-      "pct_1m": 6,
-      "note": "Wyrazne cofniecie z piatkowego $7.53 (mid-session po earnings-beat 10.09: przychod +8% r/r, EPS +24%, nowe umowy Paramount/Amazon MGM) do ok. $5.66-5.94 dzis w premarkecie - typowy fade po pumpie na cienkim floacie. pct_1m spadl z +37% do ok. +6%, wyszedl PONIZEJ progu anti-chase +25% - juz NIE wymaga furtki still_upside. Glowny przyszly katalizator (premiera GTA VI + winylowy soundtrack Atlantic Records) wciaz przed nami, jeszcze nie zrealizowany w cenie - obecny poziom wyglada jak potencjalna strefa wejscia po korekcie, nie gonienie gorki.",
-      "still_upside": true,
-      "upside_reason": "Po cofnieciu z $7.53 do ok. $5.80 (pct_1m spadl do ok. +6%, ponizej progu anti-chase) glowny katalizator (premiera GTA VI, umowy Paramount/Amazon MGM) wciaz nie zrealizowany - to nie gonienie gorki tylko wejscie po korekcie z nadal aktualna teza wzrostowa."
+      "price_usd": 5.73,
+      "pct_1m": 1.2,
+      "note": "Bez zmian wzgledem rana - po fade z piatkowego szczytu $7.53 (earnings-beat 10.09: przychod +8% r/r, EPS +24%, umowy Paramount/Amazon MGM) kurs ustabilizowal sie ok. $5.7-5.9. pct_1m glboko ponizej progu anti-chase +25%. Glowny katalizator (premiera GTA VI + winylowy soundtrack Atlantic Records) wciaz nie zrealizowany."
     },
     {
       "ticker": "FEIM",
       "name": "Frequency Electronics",
-      "price_usd": 81.05,
-      "pct_1m": 31,
-      "note": "Bez zmiany tezy wzgledem piatku (rekordowe wyniki Q1 FY2027 10.09: przychod +70% r/r, backlog +82% r/r do $129mln). Dane cenowe dzis rozbiezne miedzy zrodlami (81.05 vs 72.79 vs 50.06 USD) - przyjeto wartosc najblizsza spojnemu odczytowi z piatku ($81.47) z zastrzezeniem niepewnosci danych premarket. Kontrakty napedzajace backlog ogloszone w lipcu (>48h) - stad grupa 'volume', nie 'contract'. Bez nowego triggera w tej rundzie."
+      "price_usd": 86.84,
+      "pct_1m": 10.3,
+      "note": "Rekordowe wyniki Q1 FY2027 (10.09): przychod +70% r/r, backlog +82% r/r do $129mln (precyzyjne systemy czasu/czestotliwosci dla obronnosci i satelitow). Cena dzis spojna z jednego zrodla (Yahoo), nizsza niz rozbiezne odczyty z rana - traktowac jako korekte danych, nie realny spadek. Katalizator kontraktowy >48h, stad grupa 'volume' a nie 'contract'."
     },
     {
       "ticker": "TNON",
       "name": "Tenon Medical",
-      "price_usd": 8.52,
-      "pct_1m": 180,
-      "note": "Kontynuacja glebokiej paraboli po splacie obligacji zamiennych (09.09) i wzroscie przychodow Q2 (+127% r/r). Dane cenowe dzis skrajnie rozbiezne miedzy zrodlami (1.02 vs 8.99 vs wczesniejsze 8.52 USD, market cap $6mln wyglada na blad danych) - typowe dla thin-float mikro-cap po ekstremalnym pumpie. Cena z piatku ($8.52) utrzymana jako najbardziej wiarygodna. pct_1m grubo powyzej progu paraboli +50%. Zdecydowany PASS/UNIKAC - podrecznikowy wzorzec mikro-cap runa po pumpie (LEGN/BCDA z lekcji bota)."
+      "price_usd": 5.61,
+      "pct_1m": 8.9,
+      "note": "Po splacie obligacji zamiennych (09.09) i wzroscie przychodow Q2 (+127% r/r) kurs dzis wyraznie SPOKOJNIEJSZY niz sugerowaly wczesniejsze rozbiezne odczyty (jeden konsekwentny odczyt z Yahoo: $5.61, pct_1m ok. +9%, NIE parabola). Thin-float mikro-cap - nadal ostroznie, ale juz nie w strefie bezwzglednego PASS z rana."
     },
     {
       "ticker": "TRUG",
       "name": "TruGolf Holdings",
-      "price_usd": 0.49,
-      "pct_1m": -25,
-      "note": "Brak swiezej ceny w tej rundzie - bez zmian wzgledem piatku. Mocno zdegradowany mikro-cap, brak jasnego katalizatora - PASS/UNIKAC utrzymany."
+      "price_usd": 0.5875,
+      "pct_1m": -39.4,
+      "note": "Dalsza degradacja mikro-cap, brak katalizatora - PASS/UNIKAC utrzymany."
     }
   ],
-  "contract": [],
-  "insider": [],
+  "contract": [
+    {
+      "ticker": "SATL",
+      "name": "Satellogic Inc.",
+      "price_usd": 4.96,
+      "pct_1m": -14.6,
+      "catalyst": "Kontrakt obronny - dzis rozszerzona umowa z Innovative Defense Technologies wspierajaca program US Office of Naval Research 'Slingshot III' (morskie wywiad/intel z konstelacji satelitow Merlin); rownolegle nowa umowa maritime intelligence z SynMax (Theia platform).",
+      "note": "Swiezy (<48h), ponizej progu anti-chase, bez still_upside - normalna kwalifikacja mozliwa jesli bot potwierdzi konfluencje."
+    },
+    {
+      "ticker": "ARBE",
+      "name": "Arbe Robotics Ltd.",
+      "price_usd": 0.7377,
+      "pct_1m": 16.0,
+      "catalyst": "Kontrakt/ekspansja obronna - dzis (14.09) ogloszenie wejscia w obszar defense/homeland security z systemem radarowym Alerion C-UAS do wykrywania dronow (po polowych testach, w ewaluacji na swiecie); dodatkowo 08.09 duzy kontrakt automotive Level 3 z jedna z najwiekszych grup motoryzacyjnych swiata (przez Hirain Technologies), produkcja od Q4 2027.",
+      "note": "Kapitalizacja $93.8mln - kontrakt automotive L3 potencjalnie znaczacy wzgledem wielkosci spolki. pct_1m ok. +16%, ponizej progu anti-chase +25%. Ten sam ticker pojawial sie wczesniej w grupie 'volume' (10.09) - teraz swiezy katalizator kontraktowy uzasadnia grupe 'contract'."
+    }
+  ],
+  "insider": [
+    {
+      "ticker": "RLMD",
+      "name": "Relmada Therapeutics",
+      "price_usd": 4.505,
+      "pct_1m": -6.2,
+      "note": "Klastrowy zakup insiderow 11.09 - CEO i CFO razem kupili ok. $1.67mln akcji na otwartym rynku, jeden z mocniejszych sygnalow klastrowych w tym tygodniu wg zrodel (Fintool/OpenInsider). Kapitalizacja ok. $480mln, pct_1m ujemny (-6%), daleko ponizej progu anti-chase."
+    },
+    {
+      "ticker": "STRR",
+      "name": "Star Equity Holdings",
+      "price_usd": 9.82,
+      "pct_1m": -6.6,
+      "note": "CEO kontynuowal zakupy akcji wlasnych w trakcie wrzesnia, obecnie posiadajac ok. 660k akcji STRR (multi-industry holding: building solutions, business services, energy). Mikro-cap ok. $36mln kapitalizacji - insider concentration wysoka wzgledem wielkosci spolki. pct_1m ujemny, ponizej progu anti-chase."
+    },
+    {
+      "ticker": "NRGV",
+      "name": "Energy Vault Holdings",
+      "price_usd": 4.165,
+      "pct_1m": 9.9,
+      "note": "CEO kupil w tym miesiacu ok. 67.5k akcji NRGV (magazynowanie energii/battery storage). pct_1m +9.9%, ponizej progu anti-chase."
+    }
+  ],
   "fund13f": [],
   "congress": [],
   "policy": [
     {
       "ticker": "USAR",
       "name": "USA Rare Earth",
-      "price_usd": 16.5,
-      "pct_1m": -12,
-      "catalyst": "Trump admin - polityka bezpieczenstwa surowcow krytycznych/rare earth (mine-to-magnet, fabryka magnesow Blacksburg SC, wczesniejsza inwestycja rzadu $1.6mld ze stycznia). Headwind z 10.09 (nadzieje na 'thaw' USA-Chiny oslabiajace premie za deficytowosc) utrzymuje sie - dzis kurs w szerokim, rozbieznym miedzy zrodlami zakresie $15.63-17.61, bez wyraznego odbicia. pct_1m nadal ujemny, daleko od przegrzania, ale teza katalizatora osłabiona - nizsza konwikcja, bez still_upside."
+      "price_usd": 15.97,
+      "pct_1m": -20.2,
+      "catalyst": "Trump admin - polityka bezpieczenstwa surowcow krytycznych/rare earth (mine-to-magnet, fabryka magnesow Blacksburg SC, wczesniejsza inwestycja rzadu $1.6mld ze stycznia).",
+      "note": "Headwind z 10.09 (nadzieje na 'thaw' USA-Chiny oslabiajace premie za deficytowosc surowcow) poglebil sie - pct_1m spadl do ok. -20%. Teza dlugoterminowa bez zmian, ale bez sygnalow odbicia w tej rundzie."
     },
     {
       "ticker": "CRML",
       "name": "Critical Metals Corp",
-      "price_usd": 7.34,
-      "pct_1m": 62,
-      "catalyst": "Trump admin - temat krytycznych mineralow/gornictwa (deale z sierpnia, EO ze stycznia). Ten sam headwind co USAR z 10.09, ale mimo to kurs dzis wyrazniej wyzej niz piatek (potwierdzone $7.34 vs niepewne $6.72).",
-      "note": "Cena dzis potwierdzona z wiarygodnego zrodla ($7.34, zakres dnia $7.21-7.46), w gore wzgledem niepewnego odczytu z piatku. Szacunkowy pct_1m PRZEKROCZYL prog paraboli +50% (~+62%) - powyzej progu, w ktorym bot nigdy nie kupuje. Bez still_upside - oczekiwane PASS/UNIKAC, nie gonic gorki."
+      "price_usd": 6.63,
+      "pct_1m": -0.5,
+      "catalyst": "Trump admin - temat krytycznych mineralow/gornictwa (deale z sierpnia, EO ze stycznia).",
+      "note": "WYRAZNE cofniecie z porannego odczytu $7.34 (pct_1m ok. +62%, parabola) do $6.63 (pct_1m ok. -0.5%) w ciagu dnia - kurs wyszedl calkowicie ponizej progu anti-chase. Ten sam headwind co USAR, ale mniejsze przereagowanie. Warto obserwowac jako mozliwe wejscie po korekcie, bez still_upside (brak silnej przeslanki na nowy szczyt w tej rundzie)."
     }
   ]
 }
