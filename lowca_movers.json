@@ -1,9 +1,9 @@
 [
   {
-    "ticker": "ACVA",
-    "pct": 44,
-    "day": "2026-09-11",
-    "presignal": "Brak realnego pre-sygnalu wolumenowego/insiderskiego dzien wczesniej - tego samego dnia (11.09) Copart oglosilo przejecie ACV Auctions gotowka po $10.50/akcje, kurs natychmiast doskoczyl do ceny oferty (z $7.22 do $10.41).",
-    "lesson": "Jednodniowy skok na ogloszeniu przejecia gotowkowego (M&A) to nie okazja momentum tylko zamkniety merger-arb ze skromnym spreadem (tu ok. 0.8% do ceny oferty) - nie da sie tego zlapac z wyprzedzeniem i nie nadaje sie do strategii spekulacyjnej lowcy; nie gonic po fakcie, traktowac jako szum a nie przeoczenie."
+    "ticker": "ELMT",
+    "pct": 32.8,
+    "day": "2026-09-14",
+    "presignal": "Brak realnego pre-sygnalu z wyprzedzeniem dzien wczesniej (13.09 to niedziela, brak sesji) - Department of War oglosil rano 14.09 zobowiazana inwestycje $450mln (preferred equity, warranty do 19.9% akcji, miejsce w radzie) w The Elmet Group ORAZ rownolegle IDIQ kontrakt na tungsten do $2mld dla National Defense Stockpile (gwarantowane min. $150mln do 2031) - to niepubliczna negocjacja rzadowa, niemozliwa do przewidzenia przed samym ogloszeniem/8-K.",
+    "lesson": "Bezposrednie inwestycje kapitalowe Department of War/DoD w krajowe lancuchy dostaw krytycznych surowcow obronnych (tungsten, rare earth, itp.) z warrantami i miejscem w radzie to powtarzalny wzorzec administracji Trumpa w 2025-2026 (analogicznie do wczesniejszych dealow typu MP Materials) - male/mid-cap spolki wydobywczo-przetworcze z ekspozycja na krytyczne minerały dla obronnosci sa kandydatami na taki news. WAZNE: taki kontrakt czesto ZNACZNIE przewyzsza kapitalizacje spolki (tu $2mld kontrakt vs ~$655mln kapitalizacji = >300%) i moze byc dopiero na starcie realizacji (tylko czesc srodkow uruchomiona) - mimo jednodniowego +30%+ miesieczna zmiana ceny moze wciaz byc ponizej progu anti-chase (tu ok. +20%), wiec warto flagowac takie spolki do dalszej obserwacji i ew. wejscia PO dniu ogloszenia, nie tylko przed nim (uzyto furtki still_upside w dzisiejszym skanie)."
   }
 ]
