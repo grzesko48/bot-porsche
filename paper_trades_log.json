@@ -361,5 +361,16 @@
     "value_pln": 15284.85,
     "pnl_pln": 0.0,
     "reason": "wejście (core, score 8.0)"
+  },
+  {
+    "date": "2026-09-15",
+    "ticker": "ARM",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 16.5857,
+    "price_usd": 243.4,
+    "value_pln": 15178.96,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 8.0)"
   }
 ]

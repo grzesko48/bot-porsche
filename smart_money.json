@@ -1,10 +1,14 @@
 {
-  "as_of_run": "2026-09-14",
-  "note": "Brak potwierdzonych klastrow zakupow insiderow (Form 4) ani nowych pozycji funduszy w oknie. DELL: duzy holder Silver Lake redukuje pozycje (13D/A, poczatek wrzesnia 2026) — sygnal dystrybucji, nie akumulacji.",
-  "insiders": {},
+  "as_of_run": "2026-09-15",
+  "note": "Brak swiezych (<=7 dni) potwierdzonych klastrow zakupow insiderow (Form 4) ani nowych pozycji funduszy. DELL: kontynuacja dystrybucji — Silver Lake redukuje (Form 4 z 03.09 i 08.09), CHRO J. Saavedra sprzedaz Class C (04.09). INTC: prezes Lip-Bu Tan kupil ~10 mln USD (105263 akcji @ 95), ale transakcja z 13.08 — POZA swiezym oknem, nie liczona jako biezacy sygnal.",
+  "insiders": {
+    "INTC": [
+      {"person": "Lip-Bu Tan (CEO)", "action": "buy", "usd": 10000000, "date": "2026-08-13", "fresh": false}
+    ]
+  },
   "funds": {
     "DELL": [
-      {"manager": "Silver Lake Partners", "pct_portfolio": 0, "action": "trim"}
+      {"manager": "Silver Lake Partners", "pct_portfolio": 0, "action": "trim", "date": "2026-09-08"}
     ]
   },
   "politicians": {},
