@@ -1,5 +1,5 @@
 {
-  "cash_pln": 33098.376977477674,
+  "cash_pln": 17919.416477477673,
   "start_capital_pln": 100000.0,
   "start_date": "2026-06-16",
   "positions": [
@@ -12,7 +12,7 @@
       "peak_usd": 218.0800018310547,
       "stop_usd": 191.9104,
       "target_usd": 194.246,
-      "days_held": 21.0,
+      "days_held": 22.0,
       "kind": "CORE",
       "score": 7.4,
       "tp_taken": true
@@ -26,7 +26,7 @@
       "peak_usd": 136.25,
       "stop_usd": 119.9,
       "target_usd": 122.811,
-      "days_held": 20.0,
+      "days_held": 21.0,
       "kind": "CORE",
       "score": 7.1,
       "tp_taken": true
@@ -40,7 +40,7 @@
       "peak_usd": 423.5849914550781,
       "stop_usd": 374.3,
       "target_usd": 517.881,
-      "days_held": 10.0,
+      "days_held": 11.0,
       "kind": "CORE",
       "score": 7.7
     },
@@ -53,7 +53,7 @@
       "peak_usd": 8.729999542236328,
       "stop_usd": 7.6824,
       "target_usd": 10.27,
-      "days_held": 1.0,
+      "days_held": 2.0,
       "kind": "WOLUMEN",
       "score": 6.5
     },
@@ -66,7 +66,7 @@
       "peak_usd": 11.614999771118164,
       "stop_usd": 10.2212,
       "target_usd": 12.88,
-      "days_held": 1.0,
+      "days_held": 2.0,
       "kind": "FUND13F",
       "score": 6.5,
       "tp_taken": true
@@ -77,13 +77,26 @@
       "shares": 2.573383,
       "entry_usd": 1592.385,
       "entry_date": "2026-09-14",
-      "peak_usd": 1592.385,
+      "peak_usd": 1592.97998046875,
       "stop_usd": 1527.62,
       "target_usd": 2069.899,
+      "days_held": 1.0,
+      "kind": "CORE",
+      "score": 8.0
+    },
+    {
+      "ticker": "ARM",
+      "tag": "core",
+      "shares": 16.585651,
+      "entry_usd": 243.4006,
+      "entry_date": "2026-09-15",
+      "peak_usd": 243.4006,
+      "stop_usd": 226.39,
+      "target_usd": 316.615,
       "days_held": 0,
       "kind": "CORE",
       "score": 8.0
     }
   ],
-  "updated": "2026-09-14"
+  "updated": "2026-09-15"
 }

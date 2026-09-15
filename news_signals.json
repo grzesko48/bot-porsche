@@ -1,17 +1,18 @@
 {
-  "as_of_run": "2026-09-14",
+  "as_of_run": "2026-09-15",
   "signals": [
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego katalizatora; wyniki dopiero 30.09, ostatnie newsy to analizy cen docelowych",
-      "as_of": "2026-09-07",
+      "headline": "Brak swiezego katalizatora; wyniki fiskalne dopiero 30.09 (przyszlosc), akcja wyhamowala -22% od szczytu roku, biezace newsy to ceny docelowe analitykow",
+      "as_of": "2026-09-11",
       "confidence": 0.3,
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        {"label": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/09/07/micron-has-skyrocketed-256-in-2026-what-would-it-take-to-get-mu-stock-up-to-1250/"}
+        {"label": "Motley Fool", "url": "https://www.fool.com/investing/2026/09/09/prediction-microns-earnings-could-be-catalyst-ai/"},
+        {"label": "Benzinga", "url": "https://www.benzinga.com/markets/equities/26/09/61755503/micron-stock-has-stalled-but-one-catalyst-could-bring-the-momentum-back"}
       ]
     },
     {
@@ -19,59 +20,56 @@
       "has_catalyst": true,
       "catalyst_type": "contract",
       "direction": "bullish",
-      "headline": "NVIDIA inwestuje 2 mld USD w optyke AI Lumentum + mocna prognoza Q1 FY27",
+      "headline": "NVIDIA strategiczne partnerstwo optyki AI + do 2 mld USD inwestycji i zobowiazanie zakupowe; guidance Q1 FY27 1.23-1.28 mld USD",
       "as_of": "2026-09-10",
-      "confidence": 0.75,
+      "confidence": 0.7,
       "source_count": 3,
       "sources": [
         {"label": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology"},
         {"label": "Simply Wall St", "url": "https://simplywall.st/stocks/us/tech/nasdaq-lite/lumentum-holdings/news/lumentum-holdings-lite-secured-a-2-billion-ai-optics-partner"},
-        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/article/4935162-lumentum-strike-while-the-iron-is-hot"}
+        {"label": "TIKR", "url": "https://www.tikr.com/blog/lumentum-stock-has-more-than-doubled-in-2026-the-ai-optics-trade-explains-why"}
       ]
     },
     {
       "ticker": "DELL",
-      "has_catalyst": true,
+      "has_catalyst": false,
       "catalyst_type": "earnings_guidance",
       "direction": "bullish",
-      "headline": "Rekordowe 60,9 mld USD zamowien serwerow AI, backlog 95 mld, podniesiona prognoza FY27 do ~192 mld",
-      "as_of": "2026-09-11",
-      "confidence": 0.82,
-      "source_count": 4,
+      "headline": "Rekordowy Q2 + podniesiony guidance FY27 (~192 mld) i backlog AI 95 mld — ale event z 01.09 jest POZA oknem 7 dni; insiderzy dystrybuuja (Silver Lake, CHRO)",
+      "as_of": "2026-09-01",
+      "confidence": 0.4,
+      "source_count": 2,
       "sources": [
         {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/article/dell-stock-surges-on-record-orders-for-ai-servers-205629050.html"},
-        {"label": "StocksToTrade", "url": "https://stockstotrade.com/news/dell-technologies-inc-class-c-dell-news-2026_09_11/"},
-        {"label": "Vantage Markets", "url": "https://www.vantagemarkets.com/market-news/dell-ai-server-backlog-on-premise-september-9-2026/"},
-        {"label": "Kalkine Media", "url": "https://kalkinemedia.com/us/stocks/artificial-intelligence/why-is-dell-technologies-nysedell-surging-on-record-ai-server-orders-and-raised-guidance"}
+        {"label": "Simply Wall St", "url": "https://simplywall.st/stocks/us/tech/nyse-dell/dell-technologies/news/dell-technologies-dell-is-up-149-after-record-q2-higher-guid"}
       ]
     },
     {
       "ticker": "INTC",
-      "has_catalyst": true,
+      "has_catalyst": false,
       "catalyst_type": "other",
-      "direction": "bullish",
-      "headline": "NVIDIA obejmuje ~30 mld USD udzialu w Intelu wspierajac zwrot ku AI; zainteresowanie foundry (SK Hynix)",
-      "as_of": "2026-09-08",
-      "confidence": 0.68,
+      "direction": "neutral",
+      "headline": "Upsized emisja akcji 20 mld USD (rozwodnienie) ~08-10.09; poglaski o foundry Apple/Google niepotwierdzone; 10% udzialu rzadu USA — brak twardego bullish katalizatora, sygnal mieszany",
+      "as_of": "2026-09-10",
+      "confidence": 0.35,
       "source_count": 2,
       "sources": [
-        {"label": "Timothy Sykes", "url": "https://www.timothysykes.com/news/intel-corporation-intc-news-2026_09_08-2/"},
-        {"label": "Timothy Sykes", "url": "https://www.timothysykes.com/news/intel-corporation-intc-news-2026_09_10/"}
+        {"label": "TimothySykes", "url": "https://www.timothysykes.com/news/intel-corporation-intc-news-2026_09_10/"},
+        {"label": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/09/14/intel-is-stuck-in-neutral-there-is-exactly-one-thing-that-should-change-your-mind/"}
       ]
     },
     {
       "ticker": "CIEN",
       "has_catalyst": false,
       "catalyst_type": "earnings_guidance",
-      "direction": "neutral",
-      "headline": "Rekordowe Q3 i podniesiona prognoza, ale wynik sprzed ~11 dni — poza oknem 7 dni",
+      "direction": "bullish",
+      "headline": "Rekordowy Q3 (rev +37%, EPS +215%, backlog 8.5 mld, pierwsze zamowienie multi-rail od hyperscalera) 03.09 — POZA oknem 7 dni; akcja spadla mimo wynikow",
       "as_of": "2026-09-03",
-      "confidence": 0.4,
-      "source_count": 3,
+      "confidence": 0.35,
+      "source_count": 2,
       "sources": [
         {"label": "Ciena IR", "url": "https://investor.ciena.com/news/news-details/2026/Ciena-Reports-Fiscal-Third-Quarter-2026-Financial-Results/default.aspx"},
-        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4640053-ciena-projects-at-least-30-percent-revenue-growth-in-fiscal-2027-with-10b-backlog-and-25"},
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-corp-cien-q3-2026-210126576.html"}
+        {"label": "Simply Wall St", "url": "https://simplywall.st/stocks/us/tech/nyse-cien/ciena/news/ciena-cien-is-up-242-after-strong-q3-earnings-and-16-tbps-ne/amp"}
       ]
     }
   ]
