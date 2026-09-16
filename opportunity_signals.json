@@ -1,71 +1,69 @@
 {
-  "_date": "2026-09-15",
-  "_run": "wtorek, bieg PRZEDOTWARCIOWY 14:30 CEST. Pelna nowa runda wyszukiwan (poprzedni plik z 14.09 byl nieaktualny). Najmocniejszy trop: The Elmet Group (ELMT) - wczoraj (14.09) Department of War (dawny DoD) oglosil $450mln zobowiazanej inwestycji (preferred equity + warranty do 19.9% akcji + miejsce w radzie, na razie draw $200mln z $450mln) ORAZ rownolegle IDIQ kontrakt na tungsten dla National Defense Stockpile do $2mld (gwarantowane min. $150mln do 08.2031) - kapitalizacja spolki to tylko ok. $655mln, wiec sam kontrakt to >300% kapitalizacji. Kurs skoczyl +32.8% jednego dnia (14.09), ale miesieczna zmiana (od $18.64 14.08 do ok. $22.50 dzis) to wciaz tylko ok. +20% - PONIZEJ progu anti-chase +25%, mimo ogromnego jednodniowego ruchu. Furtka still_upside uzyta (uzasadnienie w polu upside_reason) bo kontrakt dopiero startuje (tylko czesc srodkow uruchomiona) i to wieloletnia relacja z rzadem, nie jednorazowy pop. Drugi kontrakt obronny: AeroVironment (AVAV) +30.5% we wrzesniu po $499mln kontrakcie USAF + $240mln na systemy laserowej komunikacji - JUZ powyzej progu anti-chase (bot powinien dac CZEKAJ, bez furtki - brak twardych przeslanek na dalszy szczyt poza juz wycenionym kontraktem). Wolumen/catalyst: Rackspace (RXT) - jednodniowy skok o ok. +10% (14.09) na ogloszeniu partnerstwa Nvidia Blackwell AI infra ('Institutional Sovereign Pod' pod klientow rzadowych/regulowanych), ALE spolka wciaz gleboko ponizej z powodu wrzesniowych pozwow zbiorowych po -33.6% spadku wczesniej w miesiacu (pct_1m szacunkowo ok. -34%, bardzo spekulacyjne, wysokie ryzyko prawne). Insider: klastrowy zakup CEO+CFO w PVH Corp (~$1.25mln, 11.09, duza spolka odziezowa, pct_1m -16.9%) oraz kontynuacja zakupow CEO w mikro-cap biotechu NeOnc Technologies (NTHI, $135k w tej rundzie + $664k w 6 miesiecy) - NTHI juz pct_1m +28.8%, powyzej progu anti-chase, bez furtki (za maly/niepewny sygnal na wyjatek). Fund13F: brak swiezych danych - kolejne 13F (Q3) dopiero 14.11.2026, wiec grupa pusta. Congress/IPO: brak konkretnych, swiezo wycenionych trafien w tej rundzie wyszukiwan.",
-  "ipo": [],
-  "volume": [
+  "_date": "2026-09-16",
+  "_run": "sroda, bieg PRZEDOTWARCIOWY 14:30 CEST. Najmocniejszy trop: AEVEX Corp (AVEX) - producent bezzalogowcow/ISR dla obronnosci (IPO 04.2026, $320mln), aktywny pipeline kontraktow DoD (one-way attack systems $41mln z 18-20.08 + kolejne $20.5mln nowych zamowien), ALE kurs cofnal sie -22.8% w ostatnim miesiacu (z 52-tyg. szczytu $42.34 do $16.43) - NIE rozgrzany, raczej okazja na cofnieciu z dzialajacym katalizatorem kontraktowym niz pogon za gorka. Polityka/critical minerals: Ivanhoe Electric (IE) - US EXIM Bank wydal Preliminary Project Letter na $1.1mld potencjalnego finansowania dluznego Santa Cruz Copper Project (Arizona, 24.08), kontynuacja serii rzadowych zastrzykow w krajowe lancuchy dostaw surowcow krytycznych (miedz jako mineral krytyczny, analogicznie do wczesniejszych ELMT/MP Materials) - kurs $10.40, pct_1m -7.72% (rowniez niepodgrzany). Insider: swiezy klaster CEO+CFO w PVH Corp (10.09-11.09, ~$1.25mln lacznie, spolka odziezowa beaten-down, pct_1m ok. -16.9%), pojedynczy duzy zakup CEO Alphatec Holdings (ATEC, $1.01mln, 10.09, spolka medtech/spine, pct_1m ok. +12%, ponizej progu anti-chase), oraz mniejszy klaster CEO+Prezes Dominari Holdings (DOMH, ~$209k kazdy, 14.09, mikro-cap finansowy, wysoka zmiennosc historyczna 52wk $2.19-$8.40). Wolumen/spekulacja (do rejestru, NIE do kupna - juz mocno powyzej progu anti-chase +50%, klasyczne micro-cap pompy): Veea Inc (VEEA) +3700%/mc na spekulacyjnym term sheet fuzji z NovaGen Group (reverse merger w ochrone zdrowia) + wolumen ok. 270x sredniej; PDS Biotechnology (PDSB) +180%/mc na PIPE financing $22.55mln (Nant Capital, Dr. Soon-Shiong dolacza do zarzadu) - obie spolki to podrecznikowy wzorzec do UNIKANIA (run juz nastapil), nie do gonienia. Congress: dyscyplinarne naruszenie STOCK Act przez Rep. Gil Cisneros (czlonek House Armed Services Committee) ujawnione z opoznieniem - zakupy Palantir/Macom/SPX Technologies/Microsoft w przedziale $95k-900k lacznie bez podzialu per spolka - zbyt niejasne kwotowo, aby wpisac konkretny tyker (pominieto, podobnie jak w poprzednich biegach). Fund13F: brak swiezych danych - kolejne 13F (Q3) dopiero 14.11.",
+  "ipo": [
     {
-      "ticker": "RXT",
-      "name": "Rackspace Technology",
-      "price_usd": 3.22,
-      "pct_1m": -34.0,
-      "note": "Jednodniowy +9.94% (14.09) po ogloszeniu partnerstwa Nvidia Blackwell AI infra ('Institutional Sovereign Pod' pod klientow rzadowych/regulowanych). Miesieczny trend nadal mocno ujemny - spolka spadla -33.6% na poczatku wrzesnia po pozwach zbiorowych (securities class action). Wysokie ryzyko prawne/dilution, nie klasyczny czysty momentum play - traktowac ostroznie."
+      "ticker": "AVEX",
+      "company": "AEVEX Corp",
+      "age_months": 5,
+      "price_usd": 16.43,
+      "pct_1m": -22.8,
+      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + kolejne $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs -22.8%/mc od szczytu $42.34 mimo aktywnego katalizatora"
     }
   ],
-  "contract": [
+  "volume": [
     {
-      "ticker": "ELMT",
-      "name": "The Elmet Group Co.",
-      "price_usd": 22.5,
-      "pct_1m": 20.0,
-      "catalyst": "Trump/Department of War: $450mln zobowiazanej inwestycji (preferred equity, warranty do 19.9% akcji, miejsce w radzie, $200mln draw na starcie) + IDIQ kontrakt Defense Logistics Agency na tungsten do $2mld dla National Defense Stockpile (gwarantowane min. $150mln do 08.2031). Ogloszone 14.09.2026.",
-      "still_upside": true,
-      "upside_reason": "Kontrakt ($2mld) to ponad 300% kapitalizacji spolki (~$655mln) i dopiero na starcie realizacji (uruchomiono na razie tylko $200mln z $450mln inwestycji) - wieloletnia, dopiero rozpoczynajaca sie relacja z rzadem (do 2031) z udzialem kapitalowym i miejscem w radzie, nie jednorazowy news. Mimo +32.8% w jeden dzien, pct_1m to wciaz tylko ok. +20% (ponizej progu anti-chase) - rynek jeszcze nie zdazyl w pelni wycenic wieloletniego kontraktu.",
-      "note": "Kurs bardzo zmienny dzis (zakres $20.22-$25.03), 52-tyg. szczyt $25.03 wlasnie dotkniety. Uzyto ceny srodkowej z zakresu."
+      "ticker": "VEEA",
+      "company": "Veea Inc",
+      "price_usd": 5.71,
+      "pct_1m": 3700,
+      "volume_mult": 270,
+      "catalyst": "Spekulacyjny term sheet fuzji z NovaGen Group (reverse merger, connected-health platform) - klasyczna micro-cap parabola, DO UNIKANIA nie do kupna (juz daleko powyzej progu anti-chase +50%)"
     },
     {
-      "ticker": "AVAV",
-      "name": "AeroVironment",
-      "price_usd": 146.71,
-      "pct_1m": 30.0,
-      "catalyst": "Trump/USAF: $499mln kontrakt + $240mln zamowienie na systemy laserowej komunikacji, wrzesien 2026.",
-      "note": "JUZ powyzej progu anti-chase (+25%) - kontrakt wyglada juz w duzej mierze wyceniony w miesiecznym ruchu. Brak twardych przeslanek na dalszy, nowy szczyt (brak podniesionego guidance/nowych analiz w tej rundzie) - BEZ furtki still_upside, oczekiwane 'CZEKAJ na cofniecie'."
+      "ticker": "PDSB",
+      "company": "PDS Biotechnology",
+      "price_usd": 0.585,
+      "pct_1m": 180,
+      "catalyst": "PIPE financing $22.55mln (Nant Capital, Dr. Patrick Soon-Shiong dolacza do zarzadu) na PDS0301 w onkologii - run juz nastapil, powyzej progu anti-chase, do rejestru/unikania"
     }
   ],
   "insider": [
     {
       "ticker": "PVH",
-      "name": "PVH Corp.",
-      "price_usd": 70.64,
-      "pct_1m": -16.9,
-      "note": "Klastrowy zakup 11.09: CEO Stefan Larsson (~$1.0mln) + CFO Robert Kraft (~$0.25mln) na otwartym rynku. Duza spolka odziezowa (~$3.7mld kapitalizacji), pct_1m mocno ujemny - daleko ponizej progu anti-chase, ale niskoprioretowa kategoria wzgledem typowego sleeve'u spekulacyjnego (mega-cap, niska zmiennosc)."
+      "company": "PVH Corp",
+      "buyers": 2,
+      "usd_total": 1248501,
+      "days_ago": 5,
+      "price_usd": 72.01,
+      "pct_1m": -16.9
     },
     {
-      "ticker": "NTHI",
-      "name": "NeOnc Technologies Holdings",
-      "price_usd": 5.32,
-      "pct_1m": 28.8,
-      "note": "CEO Amir Heshmatpour kupil 37k akcji (~$135k) 11.09, kontynuacja: 12 zakupow / 141k akcji / ok. $664k w ostatnie 6 miesiecy, 0 sprzedazy. Mikro-cap biotech (klinika terapii nowotworow mozgu). pct_1m juz powyzej progu anti-chase (+28.8%) - bez furtki still_upside (za slaby/niepewny katalizator fundamentalny na wyjatek, sam insider trend to za malo)."
+      "ticker": "ATEC",
+      "company": "Alphatec Holdings",
+      "buyers": 1,
+      "usd_total": 1013150,
+      "days_ago": 6,
+      "price_usd": 9.68,
+      "pct_1m": 12.0
+    },
+    {
+      "ticker": "DOMH",
+      "company": "Dominari Holdings",
+      "buyers": 2,
+      "usd_total": 418000,
+      "days_ago": 2,
+      "price_usd": 4.31,
+      "pct_1m": 6.0
     }
   ],
-  "fund13f": [],
-  "congress": [],
   "policy": [
     {
-      "ticker": "ELMT",
-      "name": "The Elmet Group Co.",
-      "price_usd": 22.5,
-      "pct_1m": 20.0,
-      "catalyst": "Trump/Department of War - bezposrednia inwestycja kapitalowa rzadu w krajowy lancuch dostaw tungsten (krytyczny surowiec obronny), z warrantami i miejscem w radzie - ten sam news co w grupie 'contract', dla konfluencji.",
-      "still_upside": true,
-      "upside_reason": "Jak w grupie 'contract' - kontrakt/inwestycja dopiero na starcie realizacji, wieloletnia relacja z rzadem."
-    },
-    {
-      "ticker": "AVAV",
-      "name": "AeroVironment",
-      "price_usd": 146.71,
-      "pct_1m": 30.0,
-      "catalyst": "Trump admin - szerszy push wydatkow obronnych/dronowych, konkretny kontrakt USAF - ten sam news co w grupie 'contract', dla konfluencji.",
-      "note": "Powyzej progu anti-chase, bez furtki (patrz grupa 'contract')."
+      "ticker": "IE",
+      "company": "Ivanhoe Electric",
+      "price_usd": 10.40,
+      "pct_1m": -7.72,
+      "catalyst": "Trump/DFC-EXIM - US EXIM Bank Preliminary Project Letter na $1.1mld potencjalnego finansowania Santa Cruz Copper Project (Arizona, 24.08.2026) - kontynuacja rzadowych inwestycji w krajowe lancuchy dostaw surowcow krytycznych (miedz), nie jest jeszcze wiazace finansowanie"
     }
   ]
 }

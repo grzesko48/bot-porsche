@@ -1,9 +1,23 @@
 [
   {
-    "ticker": "ELMT",
-    "pct": 32.8,
-    "day": "2026-09-14",
-    "presignal": "Brak realnego pre-sygnalu z wyprzedzeniem dzien wczesniej (13.09 to niedziela, brak sesji) - Department of War oglosil rano 14.09 zobowiazana inwestycje $450mln (preferred equity, warranty do 19.9% akcji, miejsce w radzie) w The Elmet Group ORAZ rownolegle IDIQ kontrakt na tungsten do $2mld dla National Defense Stockpile (gwarantowane min. $150mln do 2031) - to niepubliczna negocjacja rzadowa, niemozliwa do przewidzenia przed samym ogloszeniem/8-K.",
-    "lesson": "Bezposrednie inwestycje kapitalowe Department of War/DoD w krajowe lancuchy dostaw krytycznych surowcow obronnych (tungsten, rare earth, itp.) z warrantami i miejscem w radzie to powtarzalny wzorzec administracji Trumpa w 2025-2026 (analogicznie do wczesniejszych dealow typu MP Materials) - male/mid-cap spolki wydobywczo-przetworcze z ekspozycja na krytyczne minerały dla obronnosci sa kandydatami na taki news. WAZNE: taki kontrakt czesto ZNACZNIE przewyzsza kapitalizacje spolki (tu $2mld kontrakt vs ~$655mln kapitalizacji = >300%) i moze byc dopiero na starcie realizacji (tylko czesc srodkow uruchomiona) - mimo jednodniowego +30%+ miesieczna zmiana ceny moze wciaz byc ponizej progu anti-chase (tu ok. +20%), wiec warto flagowac takie spolki do dalszej obserwacji i ew. wejscia PO dniu ogloszenia, nie tylko przed nim (uzyto furtki still_upside w dzisiejszym skanie)."
+    "ticker": "VEEA",
+    "pct": 149.3,
+    "day": "2026-09-15",
+    "presignal": "Ruch NIE byl jednorazowy - w poniedzialek 14.09 spolka byla juz +46.79% na pierwszych plotkach/ogloszeniu term sheet fuzji z NovaGen Group B.V. (+$10mln cornerstone investment od GeoNova Capital, plan launch NovaGen Health Networks laczacego edge computing Veea z 'cellular reprogramming' NovaGen). Wolumen skoczyl do ok. 270x sredniej 3-miesiecznej. Presygnal z poniedzialku byl publicznie dostepny i widoczny (ogloszenie prasowe + wolumen), ale kontynuacja we wtorek (+149%) byla juz druga noga ruchu.",
+    "lesson": "Mikro-cap reverse-merger/term-sheet ogloszenia (szczegolnie laczace niepowiazane branze typu 'edge computing + biotech/cellular reprogramming') potrafia dac wielodniowa parabole z ekstremalnym wolumenem (>100x). Dzien 1 (+46.79%, wolumen already elevated) to teoretycznie mozliwy do zlapania presygnal na wolumenowy radar, ale wejscie po dniu 1 to juz gonienie paraboli - zgodnie z zasada anti-chase, NIE kupowac, tylko wpisac na liste obserwacyjna 'unikaj' (analogicznie do LEGN/BCDA)."
+  },
+  {
+    "ticker": "PDSB",
+    "pct": 46.65,
+    "day": "2026-09-15",
+    "presignal": "Realny publiczny presygnal 7 dni wczesniej: 08.09.2026 PDS Biotechnology oglosilo PIPE financing do $22.55mln prowadzone przez Nant Capital (z udzialem Dr. Patrick Soon-Shiong, ktory dolaczyl do zarzadu) na rozwoj PDS0301 w terapii rakowej - w dniu ogloszenia akcje od razu skoczyly +128% premarket / +183% w sesji. Ruch z 15.09 to KONTYNUACJA po pierwszym zamknieciu transzy PIPE (11.3mln USD, 14.09), nie nowy niezalezny katalizator.",
+    "lesson": "PIPE/private placement prowadzony przez rozpoznawalnego inwestora instytucjonalnego (tu Nant Capital / Soon-Shiong) w mikro-cap biotechu to mocny jednodniowy katalizator w dniu ogloszenia - warto flagowac spolke od razu w dniu 8-K/ogloszenia PIPE, a nie dopiero przy nastepnych transzach zamkniecia finansowania (ktore czesto daja mniejsza, ale wciaz spora, druga noge ruchu)."
+  },
+  {
+    "ticker": "VRA",
+    "pct": 34.54,
+    "day": "2026-09-15",
+    "presignal": "Zaplanowane wyniki Q2 (znana data z wyprzedzeniem, wiec teoretycznie mozliwe do umieszczenia na watchliscie) - Vera Bradley pokazala drugi z rzedu kwartal wzrostu przychodow (+1.1% r/r, pierwszy wzrost od Q4 FY2022), segment indirect +26.6%, poprawiajace sie marze i gotowka w ramach turnaroundu 'Project Sunshine'. Brak jawnego presygnalu insider/wolumen dzien wczesniej w dostepnych zrodlach.",
+    "lesson": "Detaliczne turnaroundy (poprawiajace sie r/r trendy przychodow/marzy po dluzszym okresie spadkow) czesto daja duzy jednodniowy pop na wynikach kwartalnych, mimo ze nie sa 'gorace' tematy AI/obronne - warto skanowac kalendarz wynikow malych spolek retail z widoczna, przyspieszajaca poprawa fundamentow kwartal do kwartalu jako kandydatow na watchliste przed data wynikow."
   }
 ]
