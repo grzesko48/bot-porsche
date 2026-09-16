@@ -1,14 +1,14 @@
 {
   "_date": "2026-09-16",
-  "_run": "sroda, bieg PRZEDOTWARCIOWY 14:30 CEST. Najmocniejszy trop: AEVEX Corp (AVEX) - producent bezzalogowcow/ISR dla obronnosci (IPO 04.2026, $320mln), aktywny pipeline kontraktow DoD (one-way attack systems $41mln z 18-20.08 + kolejne $20.5mln nowych zamowien), ALE kurs cofnal sie -22.8% w ostatnim miesiacu (z 52-tyg. szczytu $42.34 do $16.43) - NIE rozgrzany, raczej okazja na cofnieciu z dzialajacym katalizatorem kontraktowym niz pogon za gorka. Polityka/critical minerals: Ivanhoe Electric (IE) - US EXIM Bank wydal Preliminary Project Letter na $1.1mld potencjalnego finansowania dluznego Santa Cruz Copper Project (Arizona, 24.08), kontynuacja serii rzadowych zastrzykow w krajowe lancuchy dostaw surowcow krytycznych (miedz jako mineral krytyczny, analogicznie do wczesniejszych ELMT/MP Materials) - kurs $10.40, pct_1m -7.72% (rowniez niepodgrzany). Insider: swiezy klaster CEO+CFO w PVH Corp (10.09-11.09, ~$1.25mln lacznie, spolka odziezowa beaten-down, pct_1m ok. -16.9%), pojedynczy duzy zakup CEO Alphatec Holdings (ATEC, $1.01mln, 10.09, spolka medtech/spine, pct_1m ok. +12%, ponizej progu anti-chase), oraz mniejszy klaster CEO+Prezes Dominari Holdings (DOMH, ~$209k kazdy, 14.09, mikro-cap finansowy, wysoka zmiennosc historyczna 52wk $2.19-$8.40). Wolumen/spekulacja (do rejestru, NIE do kupna - juz mocno powyzej progu anti-chase +50%, klasyczne micro-cap pompy): Veea Inc (VEEA) +3700%/mc na spekulacyjnym term sheet fuzji z NovaGen Group (reverse merger w ochrone zdrowia) + wolumen ok. 270x sredniej; PDS Biotechnology (PDSB) +180%/mc na PIPE financing $22.55mln (Nant Capital, Dr. Soon-Shiong dolacza do zarzadu) - obie spolki to podrecznikowy wzorzec do UNIKANIA (run juz nastapil), nie do gonienia. Congress: dyscyplinarne naruszenie STOCK Act przez Rep. Gil Cisneros (czlonek House Armed Services Committee) ujawnione z opoznieniem - zakupy Palantir/Macom/SPX Technologies/Microsoft w przedziale $95k-900k lacznie bez podzialu per spolka - zbyt niejasne kwotowo, aby wpisac konkretny tyker (pominieto, podobnie jak w poprzednich biegach). Fund13F: brak swiezych danych - kolejne 13F (Q3) dopiero 14.11.",
+  "_run": "sroda, bieg SRODSESYJNY 18:30 CEST (US w trakcie sesji). Kontynuacja tropow z porannego biegu 14:30 + jedno nowe swieze smart-money trafienie: GameStop (GME) - CEO/Prezes Ryan Cohen kupil 1,000,000 akcji za ok. $20.4mln (10.09.2026, srednia cena $20.38) po podniesieniu prognozy zysku przez spolke - to duzy, rozpoznawalny insider buy (nie micro-cap), kurs $21.56, pct_1m ok. +19.2% (z ok. $18.09 25.08 do $21.56 dzis) - PONIZEJ progu anti-chase +25%, wiec kwalifikuje sie normalnie. AEVEX Corp (AVEX) - kurs dalej $16.11 (bez istotnej zmiany od rana), kontrakt DoD nadal aktualny, pct_1m ok. -23% (okazja na cofnieciu). Ivanhoe Electric (IE) - bez swiezej ceny z popoludnia, utrzymuje dane z rana (US EXIM $1.1mld Santa Cruz Copper). Insider PVH/ATEC/DOMH z rana nadal aktualne (bez nowych zdarzen w ciagu dnia). Wolumen/do unikania: VEEA i PDSB nadal daleko powyzej progu anti-chase (bez zmian w podejsciu - rejestr, nie kupno). Fund13F/congress: brak nowych konkretnych trafien z kwotami per spolka (jak rano).",
   "ipo": [
     {
       "ticker": "AVEX",
       "company": "AEVEX Corp",
       "age_months": 5,
-      "price_usd": 16.43,
-      "pct_1m": -22.8,
-      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + kolejne $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs -22.8%/mc od szczytu $42.34 mimo aktywnego katalizatora"
+      "price_usd": 16.11,
+      "pct_1m": -23.0,
+      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + kolejne $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs -23%/mc od szczytu $42.34 mimo aktywnego katalizatora, bez istotnej zmiany ceny od rana"
     }
   ],
   "volume": [
@@ -29,6 +29,15 @@
     }
   ],
   "insider": [
+    {
+      "ticker": "GME",
+      "company": "GameStop Corp",
+      "buyers": 1,
+      "usd_total": 20375900,
+      "days_ago": 6,
+      "price_usd": 21.56,
+      "pct_1m": 19.2
+    },
     {
       "ticker": "PVH",
       "company": "PVH Corp",
