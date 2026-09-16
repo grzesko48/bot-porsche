@@ -372,5 +372,27 @@
     "value_pln": 15178.96,
     "pnl_pln": 0.0,
     "reason": "wejście (core, score 8.0)"
+  },
+  {
+    "date": "2026-09-16",
+    "ticker": "PVH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 16.5291,
+    "price_usd": 71.5,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.9)"
+  },
+  {
+    "date": "2026-09-16",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 332.219,
+    "price_usd": 2.19,
+    "value_pln": 2735.62,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.8)"
   }
 ]

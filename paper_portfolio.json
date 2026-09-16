@@ -1,5 +1,5 @@
 {
-  "cash_pln": 17919.416477477673,
+  "cash_pln": 10739.79265433243,
   "start_capital_pln": 100000.0,
   "start_date": "2026-06-16",
   "positions": [
@@ -12,7 +12,7 @@
       "peak_usd": 218.0800018310547,
       "stop_usd": 191.9104,
       "target_usd": 194.246,
-      "days_held": 22.0,
+      "days_held": 23.0,
       "kind": "CORE",
       "score": 7.4,
       "tp_taken": true
@@ -26,7 +26,7 @@
       "peak_usd": 136.25,
       "stop_usd": 119.9,
       "target_usd": 122.811,
-      "days_held": 21.0,
+      "days_held": 22.0,
       "kind": "CORE",
       "score": 7.1,
       "tp_taken": true
@@ -40,7 +40,7 @@
       "peak_usd": 423.5849914550781,
       "stop_usd": 374.3,
       "target_usd": 517.881,
-      "days_held": 11.0,
+      "days_held": 12.0,
       "kind": "CORE",
       "score": 7.7
     },
@@ -53,7 +53,7 @@
       "peak_usd": 8.729999542236328,
       "stop_usd": 7.6824,
       "target_usd": 10.27,
-      "days_held": 2.0,
+      "days_held": 3.0,
       "kind": "WOLUMEN",
       "score": 6.5
     },
@@ -66,7 +66,7 @@
       "peak_usd": 11.614999771118164,
       "stop_usd": 10.2212,
       "target_usd": 12.88,
-      "days_held": 2.0,
+      "days_held": 3.0,
       "kind": "FUND13F",
       "score": 6.5,
       "tp_taken": true
@@ -80,7 +80,7 @@
       "peak_usd": 1592.97998046875,
       "stop_usd": 1527.62,
       "target_usd": 2069.899,
-      "days_held": 1.0,
+      "days_held": 2.0,
       "kind": "CORE",
       "score": 8.0
     },
@@ -93,10 +93,36 @@
       "peak_usd": 243.4006,
       "stop_usd": 226.39,
       "target_usd": 316.615,
-      "days_held": 0,
+      "days_held": 1.0,
       "kind": "CORE",
       "score": 8.0
+    },
+    {
+      "ticker": "PVH",
+      "tag": "sleeve",
+      "shares": 16.529123,
+      "entry_usd": 71.505,
+      "entry_date": "2026-09-16",
+      "peak_usd": 71.505,
+      "stop_usd": 59.05,
+      "target_usd": 100.81,
+      "days_held": 0,
+      "kind": "INSIDER",
+      "score": 6.9
+    },
+    {
+      "ticker": "DOMH",
+      "tag": "sleeve",
+      "shares": 332.218954,
+      "entry_usd": 2.19,
+      "entry_date": "2026-09-16",
+      "peak_usd": 2.19,
+      "stop_usd": 3.53,
+      "target_usd": 6.03,
+      "days_held": 0,
+      "kind": "INSIDER",
+      "score": 6.8
     }
   ],
-  "updated": "2026-09-15"
+  "updated": "2026-09-16"
 }
