@@ -1,75 +1,74 @@
 {
-  "generated": "2026-09-16",
+  "generated": "2026-09-17T19:20",
+  "as_of_run": "2026-09-17",
   "signals": [
-    {
-      "ticker": "LITE",
-      "has_catalyst": true,
-      "catalyst_type": "earnings_guidance",
-      "direction": "bullish",
-      "headline": "CEO podniósł długoterminową prognozę (uptick zamówień), inicjacje Buy z celami $1100-1200",
-      "as_of": "2026-09-16",
-      "confidence": 0.65,
-      "source_count": 3,
-      "sources": [
-        {"label": "StocksToTrade", "url": "https://stockstotrade.com/news/lumentum-holdings-inc-lite-news-2026_09_16/"},
-        {"label": "Public.com", "url": "https://public.com/stocks/lite/forecast-price-target"},
-        {"label": "CNN Markets", "url": "https://www.cnn.com/markets/stocks/LITE"}
-      ]
-    },
     {
       "ticker": "MU",
       "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak świeżego (<=7d) twardego katalizatora; wyniki fiskalne dopiero 30 wrzesnia, reszta to komentarz analityków",
-      "as_of": "2026-09-16",
-      "confidence": 0.3,
+      "catalyst_type": "product",
+      "direction": "bullish",
+      "headline": "Modul pamieci ultra-gestej + nowy szef Micron Research (15.09); wyniki FQ4 dopiero 30.09 — brak twardego swiezego katalizatora potwierdzonego 2 zrodlami.",
+      "as_of": "2026-09-15",
+      "confidence": 0.4,
+      "source_count": 1,
+      "sources": [
+        {"label": "Micron IR", "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx"}
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "has_catalyst": true,
+      "catalyst_type": "partnership",
+      "direction": "bullish",
+      "headline": "Strategiczne partnerstwo z NVIDIA: inwestycja ~2 mld USD w optyke AI + wieloletnie zobowiazanie zakupowe. Katalizator realny, ale sprzed ~2 tygodni (poza oknem 7 dni).",
+      "as_of": "2026-09-03",
+      "confidence": 0.85,
       "source_count": 2,
       "sources": [
-        {"label": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/09/07/micron-has-skyrocketed-256-in-2026-what-would-it-take-to-get-mu-stock-up-to-1250/"},
-        {"label": "stockanalysis", "url": "https://stockanalysis.com/stocks/mu/"}
+        {"label": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology"},
+        {"label": "Simply Wall St", "url": "https://simplywall.st/stocks/us/tech/nasdaq-lite/lumentum-holdings/news/lumentum-holdings-lite-secured-a-2-billion-ai-optics-partner"}
       ]
     },
     {
       "ticker": "DELL",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Rekordowe wyniki i podniesiona prognoza, ale z 2 wrzesnia (>7 dni) — poza oknem świeżości; teraz tylko komentarz",
-      "as_of": "2026-09-02",
-      "confidence": 0.3,
+      "has_catalyst": true,
+      "catalyst_type": "guidance",
+      "direction": "bullish",
+      "headline": "Podniesiona prognoza roczna o ~25 mld USD (do ~192 mld) na mocnej sprzedazy serwerow AI; kontrakt wojskowy 9,7 mld i zamowienie Iren 1,6 mld. Data ~1.09 (poza oknem 7 dni).",
+      "as_of": "2026-09-01",
+      "confidence": 0.9,
       "source_count": 2,
       "sources": [
-        {"label": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/09/02/stock-market-today-sept-2-dell-surges-16-on-soaring-ai-backlog/"},
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/article/dell-stock-surges-on-record-orders-for-ai-servers-205629050.html"}
+        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-01/dell-raises-annual-revenue-outlook-on-sustained-ai-server-sales"},
+        {"label": "CNBC", "url": "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html"}
       ]
     },
     {
       "ticker": "CIEN",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Wyniki Q3 i podniesiona prognoza z 3 wrzesnia (>7 dni) — poza oknem świeżości",
+      "has_catalyst": true,
+      "catalyst_type": "guidance",
+      "direction": "bullish",
+      "headline": "Wyniki FQ3 powyzej oczekiwan (adj. EPS 2,11 vs 1,72), przychod 1,67 mld (+37% r/r), podniesiona prognoza FY26 do 6,42 mld, backlog 8,5 mld. Data ~3.09 (poza oknem 7 dni).",
       "as_of": "2026-09-03",
-      "confidence": 0.3,
+      "confidence": 0.85,
       "source_count": 2,
       "sources": [
-        {"label": "Ciena IR", "url": "https://investor.ciena.com/news/news-details/2026/Ciena-Reports-Fiscal-Third-Quarter-2026-Financial-Results/default.aspx"},
-        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4640053-ciena-projects-at-least-30-percent-revenue-growth-in-fiscal-2027-with-10b-backlog-and-25"}
+        {"label": "Newsquawk", "url": "https://www.newsquawk.com/headlines/ciena-cien-q3-2026-usd-adj-eps-211-exp-172-revenue-167bln-exp-163bln"},
+        {"label": "Motley Fool", "url": "https://www.fool.com/investing/2026/09/01/cienas-next-earnings-report-on-september-3-could-send-the-stock-soaring-heres-why/"}
       ]
     },
     {
       "ticker": "INTC",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Rozmowy SK Hynix o dzierżawie fabu Ohio — plotka/niepotwierdzone; nie twardy katalizator",
-      "as_of": "2026-09-16",
-      "confidence": 0.4,
+      "has_catalyst": true,
+      "catalyst_type": "government",
+      "direction": "bullish",
+      "headline": "Umowa z rzadem USA: usuniete kamienie milowe CHIPS, przyspieszona wyplata 5,7 mld USD, udzialy dla rzadu; dodatkowo rozmowy z SK Hynix (rumor) i planowana podwyzka cen CPU ~10% od 5.10. Glowny katalizator sprzed >7 dni.",
+      "as_of": "2026-08-22",
+      "confidence": 0.7,
       "source_count": 2,
       "sources": [
-        {"label": "Motley Fool", "url": "https://www.fool.com/investing/2026/09/16/intel-stock-investors-should-pay-attention-to-this-potential-sk-hynix-deal/"},
-        {"label": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/09/16/intc-stock-reclaims-100-but-can-intel-extend-to-140-as-sk-hynix-deal-rumors-lift-turnaround-hopes/"}
+        {"label": "SEC 8-K INTC", "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000119312526346806/d117670dex992.htm"},
+        {"label": "Intel IR", "url": "https://www.intc.com/news-events"}
       ]
     }
   ]
