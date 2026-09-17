@@ -1,8 +1,26 @@
 {
-  "generated": "2026-09-16",
-  "note": "Brak świeżej konfluencji smart money dla kandydatów (MU/LITE/DELL/CIEN/INTC). Brak klastra zakupów insiderów. DELL: pojedyncza rutynowa sprzedaż GC 15.09 (nie klaster). CIEN: zakupy kongresmenów Cisneros/Armstrong stare (03-05.2026, poza oknem), 13F T.Rowe redukcja -22.3% Q2. LITE: insiderzy per saldo sprzedają. Wynik: neutralny.",
-  "insiders": {},
-  "funds": {},
-  "politicians": {},
+  "generated": "2026-09-17T19:20",
+  "as_of_run": "2026-09-17",
+  "insiders": {
+    "INTC": {
+      "n_insiders": 1,
+      "n_directors": 0,
+      "total_usd": 10000000,
+      "price_vs_52wh_pct": -29,
+      "cluster_sell": false,
+      "note": "CEO Lip-Bu Tan kupil 105263 akcji @ 95 USD (~10 mln) 11.08.2026 przez rodzinny trust."
+    }
+  },
+  "funds": {
+    "MU": [
+      {"manager": "Goldman Sachs", "pct_portfolio": 0.5, "action": "add", "note": "+5,53 mln akcji (+44%) w Q2 2026 (13F)."}
+    ]
+  },
+  "politicians": {
+    "MU": [
+      {"name": "Sheldon Whitehouse", "days_to_disclose": 20, "top_tier": true, "committee_match": false},
+      {"name": "Dan Newhouse", "days_to_disclose": 15, "top_tier": false, "committee_match": false}
+    ]
+  },
   "sector_exits": []
 }
