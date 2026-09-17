@@ -1,6 +1,6 @@
 {
   "_date": "2026-09-17",
-  "_run": "sroda->czwartek, bieg PRZEDSESYJNY 14:30 CEST. Krok D WSTRZYMANY (15. bieg z rzedu) - eksport PLN na Drive (folder 1YRH_4DO8f1SA565miyZcjVA8_5zkaqBV) wciaz z 2026-06-09 (>3 mies.), sprawdzono cala historie folderu - brak nowszego; alert Resend wyslany, selftest 50 OK/0 FAIL. Kontynuacja tropow: AEVEX Corp (AVEX) - kontrakt DoD nadal aktualny, cena stabilizuje sie ok. $16.5 (z widelek $15.11-$19.00 w roznych zrodlach danego dnia), pct_1m nadal ok. -23% (cofniecie z ATH, nie rozgrzany, kwalifikuje sie tez jako fresh IPO - dublujemy w obu grupach dla konfluencji). Ivanhoe Electric (IE) odbil do $11.19 (z $10.40 przedwczoraj), pct_1m poprawil sie do ok. 0% (szacunek, bez twardej ceny sprzed miesiaca). GameStop (GME) - Ryan Cohen insider buy nadal aktualny, cena $21.44, pct_1m ok. +18.5% (ponizej progu anti-chase). Do unikania/rejestru (powyzej progu anti-chase, bez zmian): VEEA i PDSB. Fund13F/congress: brak nowych konkretnych trafien z kwota per spolka (13F Q3 dopiero 14.11; dane Capitol Trades dla tego tygodnia bez konkretnych kwot per-ticker poza megacapami MSFT/AAPL/NVDA).",
+  "_run": "bieg SRODSESYJNY 18:30 CEST (US w trakcie sesji). NOWY silny trop CONTRACT: The Elmet Group (ELMT) - Defense Logistics Agency kontrakt na tungsten (National Defense Stockpile) o pulapie do $2mld (5-letni okres bazowy do 2031 + opcja 2 lata) plus $450mln zadeklarowanej inwestycji od Dept. of War/US gov ($150mln gwarantowanego finansowania), ogloszone 14-15.09.2026. Kurs $19.88 (Sept 16 close, po ATH $25.03 w dniu ogloszenia +48% w jeden dzien), kapitalizacja ok. $594mln - kontrakt >3x kapitalizacji, wieloletnia widocznosc przychodow, katalizator ma dopiero 2-3 dni. pct_1m szacunkowo ok. +45-48% (powyzej progu anti-chase +25%, ale ponizej +50%) - ustawiono still_upside=true (furtka #4: kontrakt znacznie > kapitalizacji + dopiero poczatek realizacji, nie stary hype). NOWY trop POLICY: Pentagon/Space Force oficjalnie potwierdzil w tym tygodniu (15-16.09) uzycie broni orbitalnych i przyspiesza plany Golden Dome - RKLB ($67.63, pct_1m ok. -16% po korekcie z $85 w sierpniu, NIE rozgrzany - swiezy katalizator na wychlodzonej cenie) i RDW ($11.45, pct_1m ok. -3%, tez ma realne kontrakty Space Force). Volume: SOPH (SOPHiA Genetics, $8.15-8.28, pct_1m +46% na mocnych wynikach Q2 - blisko progu paraboli +50%, do obserwacji nie pelnej pozycji). Kontynuacja z biegu 14:30 bez zmian cen (nie re-sprawdzano w tej rundzie): AVEX kontrakt DoD $16.50/-23%, IE US EXIM copper $11.19/~0%, GME insider Ryan Cohen $21.44/+18.5%, PVH/ATEC/DOMH insider, do unikania VEEA/PDSB. Fund13F/congress: brak nowych konkretnych trafien z kwota per spolka w tej rundzie.",
   "ipo": [
     {
       "ticker": "AVEX",
@@ -26,6 +26,13 @@
       "price_usd": 0.585,
       "pct_1m": 180,
       "catalyst": "PIPE financing $22.55mln (Nant Capital/Soon-Shiong) w onkologii - run juz nastapil, powyzej progu anti-chase, do rejestru/unikania"
+    },
+    {
+      "ticker": "SOPH",
+      "company": "SOPHiA Genetics",
+      "price_usd": 8.15,
+      "pct_1m": 46.0,
+      "catalyst": "Wolumen na mocnym Q2 (przychod USA +64% r/r, liquid biopsy +80% r/r) - blisko progu paraboli +50%, do obserwacji/malej probnej, nie pelnej pozycji"
     }
   ],
   "contract": [
@@ -35,6 +42,15 @@
       "price_usd": 16.50,
       "pct_1m": -23.0,
       "catalyst": "Trump/DoD kontrakt na bezzalogowce (one-way attack systems) - $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien, kontrakt istotny wzgledem kapitalizacji, kurs po cofnieciu z ATH -23%/mc"
+    },
+    {
+      "ticker": "ELMT",
+      "company": "The Elmet Group",
+      "price_usd": 19.88,
+      "pct_1m": 47.0,
+      "catalyst": "Trump/DoD - Defense Logistics Agency kontrakt na tungsten (National Defense Stockpile), pulap do $2mld (5 lat do 2031 + opcja 2 lata) + $450mln zadeklarowanej inwestycji Dept. of War ($150mln gwarantowanego finansowania), ogloszone 14-15.09.2026",
+      "still_upside": true,
+      "upside_reason": "Pulap kontraktu (do $2mld) >3x kapitalizacji (~$594mln), wieloletnia widocznosc przychodow (baza do 2031), katalizator ma dopiero 2-3 dni - realizacja dopiero sie zaczyna, nie stary hype"
     }
   ],
   "insider": [
@@ -84,6 +100,20 @@
       "price_usd": 11.19,
       "pct_1m": 0.0,
       "catalyst": "Trump/DFC-EXIM - US EXIM Bank Preliminary Project Letter na $1.1mld potencjalnego finansowania Santa Cruz Copper Project (Arizona, 24.08.2026) - krajowe lancuchy dostaw miedzi, jeszcze niewiazace finansowanie; kurs odbil z $10.40 do $11.19"
+    },
+    {
+      "ticker": "RKLB",
+      "company": "Rocket Lab Corp",
+      "price_usd": 67.63,
+      "pct_1m": -16.0,
+      "catalyst": "Pentagon/Space Force oficjalnie potwierdzil (15-16.09.2026) uzycie broni orbitalnych, przyspiesza Golden Dome - katalizator swiezy, kurs NIE rozgrzany (cofniecie z $85 w sierpniu)"
+    },
+    {
+      "ticker": "RDW",
+      "company": "Redwire Corp",
+      "price_usd": 11.45,
+      "pct_1m": -3.0,
+      "catalyst": "Pentagon/Space Force potwierdzenie broni orbitalnych + Golden Dome, Redwire ma aktywne kontrakty Space Force - kurs plaski/lekko cofniety, nie rozgrzany"
     }
   ]
 }
