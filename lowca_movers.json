@@ -1,30 +1,23 @@
 [
   {
-    "ticker": "VEEA",
-    "pct": 149.3,
-    "day": "2026-09-15",
-    "presignal": "Ruch NIE byl jednorazowy - w poniedzialek 14.09 spolka byla juz +46.79% na pierwszych plotkach/ogloszeniu term sheet fuzji z NovaGen Group B.V. (+$10mln cornerstone investment od GeoNova Capital, plan launch NovaGen Health Networks laczacego edge computing Veea z 'cellular reprogramming' NovaGen). Wolumen skoczyl do ok. 270x sredniej 3-miesiecznej. Presygnal z poniedzialku byl publicznie dostepny i widoczny (ogloszenie prasowe + wolumen), ale kontynuacja we wtorek (+149%) byla juz druga noga ruchu.",
-    "lesson": "Mikro-cap reverse-merger/term-sheet ogloszenia (szczegolnie laczace niepowiazane branze typu 'edge computing + biotech/cellular reprogramming') potrafia dac wielodniowa parabole z ekstremalnym wolumenem (>100x). Dzien 1 (+46.79%, wolumen already elevated) to teoretycznie mozliwy do zlapania presygnal na wolumenowy radar, ale wejscie po dniu 1 to juz gonienie paraboli - zgodnie z zasada anti-chase, NIE kupowac, tylko wpisac na liste obserwacyjna 'unikaj' (analogicznie do LEGN/BCDA)."
+    "ticker": "RETO",
+    "pct": 676.27,
+    "day": "2026-09-16",
+    "presignal": "BRAK jawnego presygnalu w dostepnych zrodlach - ReTo Eco-Solutions to ultra-niski float, mikro-cap (sub-$0.40 przed spike'iem) bez press release ani SEC filing w dniu ruchu; krazyly niepotwierdzone spekulacje o powiazaniu z Igrzyskami Olimpijskimi, ale bez zrodla. Wolumen 232.79mln vs typowy dzienny (~258x normy).",
+    "lesson": "Nie kazdy ekstremalny squeeze ma czytelny presygnal - czesc ruchow w ultra-low-float penny stocks (< $0.50) jest czysto mechaniczna (short squeeze/retail momentum) bez zadnego weryfikowalnego katalizatora ani wczesniejszego wolumenu. To POTWIERDZA zasade anti-chase i lekcje 'micro-cap pumpy runa po wzroscie' - takich ruchow NIE da sie systematycznie zlapac z wyprzedzeniem, wiec nie warto ich gonic ani proboway retrospektywnie wyciagac wzorca tam, gdzie go nie bylo."
   },
   {
-    "ticker": "PDSB",
-    "pct": 46.65,
-    "day": "2026-09-15",
-    "presignal": "Realny publiczny presygnal 7 dni wczesniej: 08.09.2026 PDS Biotechnology oglosilo PIPE financing do $22.55mln prowadzone przez Nant Capital (z udzialem Dr. Patrick Soon-Shiong, ktory dolaczyl do zarzadu) na rozwoj PDS0301 w terapii rakowej - w dniu ogloszenia akcje od razu skoczyly +128% premarket / +183% w sesji. Ruch z 15.09 to KONTYNUACJA po pierwszym zamknieciu transzy PIPE (11.3mln USD, 14.09), nie nowy niezalezny katalizator.",
-    "lesson": "PIPE/private placement prowadzony przez rozpoznawalnego inwestora instytucjonalnego (tu Nant Capital / Soon-Shiong) w mikro-cap biotechu to mocny jednodniowy katalizator w dniu ogloszenia - warto flagowac spolke od razu w dniu 8-K/ogloszenia PIPE, a nie dopiero przy nastepnych transzach zamkniecia finansowania (ktore czesto daja mniejsza, ale wciaz spora, druga noge ruchu)."
+    "ticker": "TPST",
+    "pct": 44.1,
+    "day": "2026-09-16",
+    "presignal": "Form 8-K zlozony 15.09.2026 (dzien wczesniej) - Tempest Therapeutics oglosilo exclusive option agreement z Hebei Senlang Biotechnology na platforme CD7-targeted lentiviral in vivo CAR-T + portfolio kandydatow (w tym dual-target BCMA/GPRC5D juz w Fazie 1). 8-K byl publicznie dostepny na EDGAR wieczorem 15.09, ruch nastapil na otwarciu 16.09.",
+    "lesson": "Kolejne potwierdzenie wzorca BGMS/VACH: 8-K z istotna umowa licencyjna/partnerska (szczegolnie in-licensing chinskiej technologii CAR-T do amerykanskiej mikro-cap biotech) zlozony po zamknieciu sesji = czytelny presygnal na nastepna sesje. Warto rozszerzyc skan EDGAR 8-K wieczorny rowniez o slowa kluczowe 'exclusive option agreement', 'in-license', 'CAR-T platform' dla mikro-cap biotech."
   },
   {
-    "ticker": "VRA",
-    "pct": 34.54,
-    "day": "2026-09-15",
-    "presignal": "Zaplanowane wyniki Q2 (znana data z wyprzedzeniem, wiec teoretycznie mozliwe do umieszczenia na watchliscie) - Vera Bradley pokazala drugi z rzedu kwartal wzrostu przychodow (+1.1% r/r, pierwszy wzrost od Q4 FY2022), segment indirect +26.6%, poprawiajace sie marze i gotowka w ramach turnaroundu 'Project Sunshine'. Brak jawnego presygnalu insider/wolumen dzien wczesniej w dostepnych zrodlach.",
-    "lesson": "Detaliczne turnaroundy (poprawiajace sie r/r trendy przychodow/marzy po dluzszym okresie spadkow) czesto daja duzy jednodniowy pop na wynikach kwartalnych, mimo ze nie sa 'gorace' tematy AI/obronne - warto skanowac kalendarz wynikow malych spolek retail z widoczna, przyspieszajaca poprawa fundamentow kwartal do kwartalu jako kandydatow na watchliste przed data wynikow."
-  },
-  {
-    "ticker": "FBDT",
-    "pct": 55.98,
-    "day": "2026-09-15",
-    "presignal": "Brak wczesniejszego jawnego presygnalu insider/wolumen dzien wczesniej w dostepnych zrodlach - katalizator (federalna licencja na wybuchowe do produkcji dronow 'attritable') pojawil sie i zadzialal tego samego dnia. Grosz-spolka (kurs $0.64-0.85), wolumen 5.18mln vs srednia 899.71k (~5.8x).",
-    "lesson": "Federalne licencje/zezwolenia (np. na materialy wybuchowe, eksport, produkcje dla obronnosci) dla mikro-cap producentow dronow/amunicji to nowy typ katalizatora obok kontraktow DoD - warto dodac do skanu slowa kluczowe typu 'federal license', 'explosives license', 'export license' przy male-cap spolkach obronnych, bo dzialaja jak zapowiedz przyszlych kontraktow i moga wywolac jednodniowa parabole na niskiej cenie akcji (efekt penny-stock)."
+    "ticker": "NAMI",
+    "pct": 19.3,
+    "day": "2026-09-16",
+    "presignal": "Zaplanowana data wynikow (znana z wyprzedzeniem z kalendarza earnings) - Jinxin Technology Holding pokazalo mocne przychody (~$413mln) w raporcie, choc rentownosc kapitalu pozostaje mocno ujemna; ruch byl bardzo zmienny (premarket parabola do $3.98, potem odjazd do ~$2.70).",
+    "lesson": "Male chinskie ADR-y/holdingi na NASDAQ z duzym przychodem ale slaba rentownoscia potrafia dac silny, lecz bardzo niestabilny pop na wynikach - warto miec je na watchliscie earnings, ale wchodzic ostroznie (wysoka zmiennosc intraday, szybkie oddanie zyskow) - nie nadaje sie do pelnej pozycji, raczej obserwacja/mala probna."
   }
 ]

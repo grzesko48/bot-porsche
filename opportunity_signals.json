@@ -1,14 +1,14 @@
 {
-  "_date": "2026-09-16",
-  "_run": "sroda, bieg SRODSESYJNY 18:30 CEST (US w trakcie sesji). Kontynuacja tropow z porannego biegu 14:30 + jedno nowe swieze smart-money trafienie: GameStop (GME) - CEO/Prezes Ryan Cohen kupil 1,000,000 akcji za ok. $20.4mln (10.09.2026, srednia cena $20.38) po podniesieniu prognozy zysku przez spolke - to duzy, rozpoznawalny insider buy (nie micro-cap), kurs $21.56, pct_1m ok. +19.2% (z ok. $18.09 25.08 do $21.56 dzis) - PONIZEJ progu anti-chase +25%, wiec kwalifikuje sie normalnie. AEVEX Corp (AVEX) - kurs dalej $16.11 (bez istotnej zmiany od rana), kontrakt DoD nadal aktualny, pct_1m ok. -23% (okazja na cofnieciu). Ivanhoe Electric (IE) - bez swiezej ceny z popoludnia, utrzymuje dane z rana (US EXIM $1.1mld Santa Cruz Copper). Insider PVH/ATEC/DOMH z rana nadal aktualne (bez nowych zdarzen w ciagu dnia). Wolumen/do unikania: VEEA i PDSB nadal daleko powyzej progu anti-chase (bez zmian w podejsciu - rejestr, nie kupno). Fund13F/congress: brak nowych konkretnych trafien z kwotami per spolka (jak rano).",
+  "_date": "2026-09-17",
+  "_run": "sroda->czwartek, bieg PRZEDSESYJNY 14:30 CEST. Krok D WSTRZYMANY (15. bieg z rzedu) - eksport PLN na Drive (folder 1YRH_4DO8f1SA565miyZcjVA8_5zkaqBV) wciaz z 2026-06-09 (>3 mies.), sprawdzono cala historie folderu - brak nowszego; alert Resend wyslany, selftest 50 OK/0 FAIL. Kontynuacja tropow: AEVEX Corp (AVEX) - kontrakt DoD nadal aktualny, cena stabilizuje sie ok. $16.5 (z widelek $15.11-$19.00 w roznych zrodlach danego dnia), pct_1m nadal ok. -23% (cofniecie z ATH, nie rozgrzany, kwalifikuje sie tez jako fresh IPO - dublujemy w obu grupach dla konfluencji). Ivanhoe Electric (IE) odbil do $11.19 (z $10.40 przedwczoraj), pct_1m poprawil sie do ok. 0% (szacunek, bez twardej ceny sprzed miesiaca). GameStop (GME) - Ryan Cohen insider buy nadal aktualny, cena $21.44, pct_1m ok. +18.5% (ponizej progu anti-chase). Do unikania/rejestru (powyzej progu anti-chase, bez zmian): VEEA i PDSB. Fund13F/congress: brak nowych konkretnych trafien z kwota per spolka (13F Q3 dopiero 14.11; dane Capitol Trades dla tego tygodnia bez konkretnych kwot per-ticker poza megacapami MSFT/AAPL/NVDA).",
   "ipo": [
     {
       "ticker": "AVEX",
       "company": "AEVEX Corp",
       "age_months": 5,
-      "price_usd": 16.11,
+      "price_usd": 16.50,
       "pct_1m": -23.0,
-      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + kolejne $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs -23%/mc od szczytu $42.34 mimo aktywnego katalizatora, bez istotnej zmiany ceny od rana"
+      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs -23%/mc od szczytu $42.34 mimo aktywnego katalizatora - bez istotnej zmiany od poprzednich biegow"
     }
   ],
   "volume": [
@@ -18,14 +18,23 @@
       "price_usd": 5.71,
       "pct_1m": 3700,
       "volume_mult": 270,
-      "catalyst": "Spekulacyjny term sheet fuzji z NovaGen Group (reverse merger, connected-health platform) - klasyczna micro-cap parabola, DO UNIKANIA nie do kupna (juz daleko powyzej progu anti-chase +50%)"
+      "catalyst": "Spekulacyjny term sheet fuzji z NovaGen Group (reverse merger) - DO UNIKANIA, daleko powyzej progu anti-chase +50%, rejestr nie kupno"
     },
     {
       "ticker": "PDSB",
       "company": "PDS Biotechnology",
       "price_usd": 0.585,
       "pct_1m": 180,
-      "catalyst": "PIPE financing $22.55mln (Nant Capital, Dr. Patrick Soon-Shiong dolacza do zarzadu) na PDS0301 w onkologii - run juz nastapil, powyzej progu anti-chase, do rejestru/unikania"
+      "catalyst": "PIPE financing $22.55mln (Nant Capital/Soon-Shiong) w onkologii - run juz nastapil, powyzej progu anti-chase, do rejestru/unikania"
+    }
+  ],
+  "contract": [
+    {
+      "ticker": "AVEX",
+      "company": "AEVEX Corp",
+      "price_usd": 16.50,
+      "pct_1m": -23.0,
+      "catalyst": "Trump/DoD kontrakt na bezzalogowce (one-way attack systems) - $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien, kontrakt istotny wzgledem kapitalizacji, kurs po cofnieciu z ATH -23%/mc"
     }
   ],
   "insider": [
@@ -34,16 +43,16 @@
       "company": "GameStop Corp",
       "buyers": 1,
       "usd_total": 20375900,
-      "days_ago": 6,
-      "price_usd": 21.56,
-      "pct_1m": 19.2
+      "days_ago": 7,
+      "price_usd": 21.44,
+      "pct_1m": 18.5
     },
     {
       "ticker": "PVH",
       "company": "PVH Corp",
       "buyers": 2,
       "usd_total": 1248501,
-      "days_ago": 5,
+      "days_ago": 6,
       "price_usd": 72.01,
       "pct_1m": -16.9
     },
@@ -52,7 +61,7 @@
       "company": "Alphatec Holdings",
       "buyers": 1,
       "usd_total": 1013150,
-      "days_ago": 6,
+      "days_ago": 7,
       "price_usd": 9.68,
       "pct_1m": 12.0
     },
@@ -61,18 +70,20 @@
       "company": "Dominari Holdings",
       "buyers": 2,
       "usd_total": 418000,
-      "days_ago": 2,
+      "days_ago": 3,
       "price_usd": 4.31,
       "pct_1m": 6.0
     }
   ],
+  "fund13f": [],
+  "congress": [],
   "policy": [
     {
       "ticker": "IE",
       "company": "Ivanhoe Electric",
-      "price_usd": 10.40,
-      "pct_1m": -7.72,
-      "catalyst": "Trump/DFC-EXIM - US EXIM Bank Preliminary Project Letter na $1.1mld potencjalnego finansowania Santa Cruz Copper Project (Arizona, 24.08.2026) - kontynuacja rzadowych inwestycji w krajowe lancuchy dostaw surowcow krytycznych (miedz), nie jest jeszcze wiazace finansowanie"
+      "price_usd": 11.19,
+      "pct_1m": 0.0,
+      "catalyst": "Trump/DFC-EXIM - US EXIM Bank Preliminary Project Letter na $1.1mld potencjalnego finansowania Santa Cruz Copper Project (Arizona, 24.08.2026) - krajowe lancuchy dostaw miedzi, jeszcze niewiazace finansowanie; kurs odbil z $10.40 do $11.19"
     }
   ]
 }
