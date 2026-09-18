@@ -427,5 +427,38 @@
     "value_pln": 3889.44,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.8)"
+  },
+  {
+    "date": "2026-09-18",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 418.625,
+    "price_usd": 2.45,
+    "value_pln": 3905.35,
+    "pnl_pln": 15.91,
+    "reason": "stop trafiony (zwrot +0.4%)"
+  },
+  {
+    "date": "2026-09-18",
+    "ticker": "ABBV",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 10.947,
+    "price_usd": 264.49,
+    "value_pln": 11002.39,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 8.0)"
+  },
+  {
+    "date": "2026-09-18",
+    "ticker": "GME",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 48.6005,
+    "price_usd": 22.62,
+    "value_pln": 4178.42,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
   }
 ]

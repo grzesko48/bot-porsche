@@ -1,25 +1,33 @@
 {
-  "generated": "2026-09-17T19:20",
-  "as_of_run": "2026-09-17",
+  "generated": "2026-09-18T19:15",
+  "as_of_run": "2026-09-18",
   "insiders": {
     "INTC": {
       "n_insiders": 1,
       "n_directors": 0,
       "total_usd": 10000000,
-      "price_vs_52wh_pct": -29,
+      "price_vs_52wh_pct": -20,
       "cluster_sell": false,
-      "note": "CEO Lip-Bu Tan kupil 105263 akcji @ 95 USD (~10 mln) 11.08.2026 przez rodzinny trust."
+      "note": "CEO Lip-Bu Tan kupil ~105 tys akcji @ 95 USD (~10 mln) po cenie oferty wtornej 20 mld. Sygnal zaufania insidera."
+    },
+    "LITE": {
+      "n_insiders": 1,
+      "n_directors": 0,
+      "total_usd": 0,
+      "price_vs_52wh_pct": -18,
+      "cluster_sell": true,
+      "note": "Insiderzy mocno sprzedaja: 71 sprzedazy / 0 zakupow w 6m. President Global Bus. Units Yuen Wupen sprzedal 1500 akcji 15.09. Kontra-sygnal do hossy na kursie."
     }
   },
   "funds": {
-    "MU": [
-      {"manager": "Goldman Sachs", "pct_portfolio": 0.5, "action": "add", "note": "+5,53 mln akcji (+44%) w Q2 2026 (13F)."}
+    "LITE": [
+      {"manager": "WT Asset Management", "pct_portfolio": 0.0, "action": "add", "note": "+881 726 akcji (+176,9%) w Q1 2026 (13F). Ogolnie 6 dodaje / 11 trymuje wsrod guru."}
     ]
   },
   "politicians": {
-    "MU": [
-      {"name": "Sheldon Whitehouse", "days_to_disclose": 20, "top_tier": true, "committee_match": false},
-      {"name": "Dan Newhouse", "days_to_disclose": 15, "top_tier": false, "committee_match": false}
+    "LITE": [
+      {"name": "Josh Gottheimer", "days_to_disclose": 30, "top_tier": false, "committee_match": false},
+      {"name": "Gilbert Ray Cisneros Jr.", "days_to_disclose": 30, "top_tier": false, "committee_match": false}
     ]
   },
   "sector_exits": []
