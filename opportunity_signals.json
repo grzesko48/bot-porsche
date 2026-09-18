@@ -1,14 +1,14 @@
 {
   "_date": "2026-09-18",
-  "_run": "bieg PRZEDSESYJNY 14:30 CEST. NOWE w volume: MEDS (DataMeds AI) - po przejeciu Helomics (AI cancer diagnostics lab, $1.5mln) kurs poszedl z $0.89 (11.09) do $6.48 (16.09) do dalszego +33.6% w piatek 18.09 - ekstremalna parabola (>500% w tydzien, mcap tylko ok. $20mln), zdecydowanie POWYZEJ progu +50% - do rejestru/unikania, NIE kupowac. IMCC (IM Cannabis) +100.65% dzis - ale to mechanika 30-za-1 consolidation (obrona przed delistingiem Nasdaq) + rozprzedaz aktywow europejskich + ujemny kapital wlasny, BRAK realnego katalizatora biznesowego - do unikania (spekulacyjny szum, nie fundamentalna okazja). Kontynuacja bez zmian cen (nie re-sprawdzano w tej rundzie - jedna runda/grupe): AVEX kontrakt DoD $16.50/-23%, ELMT tungsten DLA kontrakt $19.88/+47% still_upside=true (katalizator ma juz ok. 4 dni), IE US EXIM copper $11.19/0%, RKLB $67.63/-16%, RDW $11.45/-3%, SOPH $8.15/+46% (blisko progu paraboli), GME/PVH/ATEC/DOMH insider bez zmian, do unikania VEEA/PDSB (z poprzednich biegow, daleko powyzej progu). Insider dzis: sprawdzono OpenInsider top buys (RSG/GPI/QVCG) ale to megacap rutynowe zakupy programowe (Cascade Investment/GoldenTree, ciagle od miesiecy) bez swiezego katalizatora - NIE dodano, nie pasuje do profilu spekulacyjnego sleeve. Fund13F/congress: brak konkretnych nowych trafien z kwota per-ticker w tej rundzie (Capitol Trades/OpenInsider cluster-buys niedostepne - blad 429/503 przy probie pobrania). IPO: brak nowego silnego tropu w tej rundzie poza kontynuacja AVEX.",
+  "_run": "bieg SRODSESYJNY 18:30 CEST (dzialanie jak przedsesyjne - skan swiezych okazji, anti-chase i tak blokuje gonienie gorki). Odswiezono ceny mid-session (rynek otwarty, ok. 12:30-13:00 ET) dla kontynuacji z biegu 14:30: AVEX $16.50->$16.05 (pct_1m przeliczone ok. -25%, bez istotnej zmiany tezy kontraktu DoD), ELMT $19.88->$22.20 (pct_1m przeliczone WZROSLO do ok. +64% - PRZEKROCZYLO prog paraboli +50%, still_upside pozostawione bo teza kontraktu $2mld/5-letnia widocznosc sie nie zmienila, ale bot ma twardy blok >=+50% wiec oczekiwane PASS/bardzo mala pozycja - flagowane do obserwacji), IE $11.19->$11.82 (pct_1m ok. +5.6%, wciaz ponizej progu), RKLB $67.63->$64.39 (pct_1m ok. -20%, kontynuacja niezalozonego katalizatora Golden Dome), RDW $11.45->$8.73 (WYRAZNY spadek -9.5% dzis, pct_1m przeliczone ok. -26% - teza Pentagon/Golden Dome NIE zrealizowana cenowo, mozliwa okazja na cofnieciu ale bez swiezego pozytywnego katalizatora dzis, do obserwacji nie pospiesznego kupna), GME $21.44->$22.51 (pct_1m ok. +24.4%, zblizone do progu anti-chase +25%), SOPH utrzymane $8.15/+46% (rozbiezne kwotowania $7.96-$8.43 w zrodlach, blisko progu paraboli). Nowe sygnaly volume dzis (poza juz znanymi MEDS/IMCC z biegu 14:30, ceny bez zmian): zauwazone ale SWIADOMIE POMINIETE jako czyste low-float squeeze bez realnego katalizatora biznesowego (zgodnie z lekcja anti-FOMO) - CPOP (Pop Culture Group, sub-$1 do $3+, 'classic low-float momentum'), TCRT (Alaunos Therapeutics +40.6%, spekulacyjny news pipeline bez konkretu), ZTG (Zenta Group +11.7%, 'ripped off lows' bez katalizatora), MGN (Megan Holdings +27.7%, 'low-float squeeze behavior'). Insider/fund13f/congress: bez nowych trafien w tej rundzie (OpenInsider cluster-buys 503, Capitol Trades 429 - ten sam blad co w biegu 14:30). Policy/kontrakty: brak nowego swiezego (<48h) tropu ponad kontynuacje AVEX/ELMT/IE/RKLB/RDW - sprawdzono EO Trump (quantum computing z czerwca, defense buyback z stycznia - oba nieaktualne/nie swieze) i kontrakty Dept. of War z tygodnia (Northrop Grumman $862mln M1156, Dynetics $40.7mln MRADR - obie zbyt duze/prywatne wzgledem profilu spekulacyjnego sleeve, bez wyraznego %kapitalizacji jak ELMT/AVEX).",
   "ipo": [
     {
       "ticker": "AVEX",
       "company": "AEVEX Corp",
       "age_months": 5,
-      "price_usd": 16.50,
-      "pct_1m": -23.0,
-      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs -23%/mc od szczytu $42.34 mimo aktywnego katalizatora - bez istotnej zmiany od poprzednich biegow"
+      "price_usd": 16.05,
+      "pct_1m": -25.0,
+      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs dalej -25%/mc od szczytu $42.34, bez istotnej zmiany tezy"
     }
   ],
   "volume": [
@@ -31,25 +31,25 @@
       "company": "SOPHiA Genetics",
       "price_usd": 8.15,
       "pct_1m": 46.0,
-      "catalyst": "Wolumen na mocnym Q2 (przychod USA +64% r/r, liquid biopsy +80% r/r) - blisko progu paraboli +50%, do obserwacji/malej probnej, nie pelnej pozycji (kontynuacja bez zmian ceny)"
+      "catalyst": "Wolumen na mocnym Q2 (przychod USA +64% r/r, liquid biopsy +80% r/r) - blisko progu paraboli +50%, do obserwacji/malej probnej, nie pelnej pozycji (kontynuacja bez istotnej zmiany ceny)"
     }
   ],
   "contract": [
     {
       "ticker": "AVEX",
       "company": "AEVEX Corp",
-      "price_usd": 16.50,
-      "pct_1m": -23.0,
-      "catalyst": "Trump/DoD kontrakt na bezzalogowce (one-way attack systems) - $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien, kontrakt istotny wzgledem kapitalizacji, kurs po cofnieciu z ATH -23%/mc"
+      "price_usd": 16.05,
+      "pct_1m": -25.0,
+      "catalyst": "Trump/DoD kontrakt na bezzalogowce (one-way attack systems) - $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien, kontrakt istotny wzgledem kapitalizacji, kurs po cofnieciu z ATH dalej -25%/mc"
     },
     {
       "ticker": "ELMT",
       "company": "The Elmet Group",
-      "price_usd": 19.88,
-      "pct_1m": 47.0,
-      "catalyst": "Trump/DoD - Defense Logistics Agency kontrakt na tungsten (National Defense Stockpile), pulap do $2mld (5 lat do 2031 + opcja 2 lata) + $450mln zadeklarowanej inwestycji Dept. of War ($150mln gwarantowanego finansowania), ogloszone 14-15.09.2026",
+      "price_usd": 22.20,
+      "pct_1m": 64.0,
+      "catalyst": "Trump/DoD - Defense Logistics Agency kontrakt na tungsten (National Defense Stockpile), pulap do $2mld (5 lat do 2031 + opcja 2 lata) + $450mln zadeklarowanej inwestycji Dept. of War ($150mln gwarantowanego finansowania), ogloszone 14-15.09.2026. UWAGA: kurs kontynuowal wzrost i pct_1m przekroczyl prog paraboli +50% - teza fundamentalna niezmieniona, ale oczekiwac nalezy twardego PASS z bota (blok >=50%) mimo furtki",
       "still_upside": true,
-      "upside_reason": "Pulap kontraktu (do $2mld) >3x kapitalizacji (~$594mln), wieloletnia widocznosc przychodow (baza do 2031), katalizator ma juz ok. 4 dni ale realizacja dopiero sie zaczyna (5-letni okres bazowy do 2031) - nie stary hype"
+      "upside_reason": "Pulap kontraktu (do $2mld) wciaz >3x kapitalizacji, wieloletnia widocznosc przychodow (baza do 2031), realizacja dopiero sie zaczyna - teza aktualna, ale flaga tylko na rekord/obserwacje, nie oczekiwanie zakupu pelnej pozycji przy pct_1m>50%"
     }
   ],
   "insider": [
@@ -59,8 +59,8 @@
       "buyers": 1,
       "usd_total": 20375900,
       "days_ago": 8,
-      "price_usd": 21.44,
-      "pct_1m": 18.5
+      "price_usd": 22.51,
+      "pct_1m": 24.4
     },
     {
       "ticker": "PVH",
@@ -96,23 +96,23 @@
     {
       "ticker": "IE",
       "company": "Ivanhoe Electric",
-      "price_usd": 11.19,
-      "pct_1m": 0.0,
-      "catalyst": "Trump/DFC-EXIM - US EXIM Bank Preliminary Project Letter na $1.1mld potencjalnego finansowania Santa Cruz Copper Project (Arizona, 24.08.2026) - krajowe lancuchy dostaw miedzi, jeszcze niewiazace finansowanie; kurs odbil z $10.40 do $11.19"
+      "price_usd": 11.82,
+      "pct_1m": 5.6,
+      "catalyst": "Trump/DFC-EXIM - US EXIM Bank Preliminary Project Letter na $1.1mld potencjalnego finansowania Santa Cruz Copper Project (Arizona, 24.08.2026) - krajowe lancuchy dostaw miedzi, jeszcze niewiazace finansowanie; kurs dalej odbija, $10.40 -> $11.19 -> $11.82"
     },
     {
       "ticker": "RKLB",
       "company": "Rocket Lab Corp",
-      "price_usd": 67.63,
-      "pct_1m": -16.0,
-      "catalyst": "Pentagon/Space Force oficjalnie potwierdzil (15-16.09.2026) uzycie broni orbitalnych, przyspiesza Golden Dome - katalizator swiezy, kurs NIE rozgrzany (cofniecie z $85 w sierpniu)"
+      "price_usd": 64.39,
+      "pct_1m": -20.0,
+      "catalyst": "Pentagon/Space Force oficjalnie potwierdzil (15-16.09.2026) uzycie broni orbitalnych, przyspiesza Golden Dome - katalizator sprzed kilku dni, kurs dalej cofniety z $85 w sierpniu, nie rozgrzany"
     },
     {
       "ticker": "RDW",
       "company": "Redwire Corp",
-      "price_usd": 11.45,
-      "pct_1m": -3.0,
-      "catalyst": "Pentagon/Space Force potwierdzenie broni orbitalnych + Golden Dome, Redwire ma aktywne kontrakty Space Force - kurs plaski/lekko cofniety, nie rozgrzany"
+      "price_usd": 8.73,
+      "pct_1m": -26.0,
+      "catalyst": "Pentagon/Space Force potwierdzenie broni orbitalnych + Golden Dome, Redwire ma aktywne kontrakty Space Force i rekordowy backlog $542.1mln - ALE kurs dzis spadl -9.5%, teza nie potwierdza sie cenowo w krotkim terminie, do obserwacji na dalszym cofnieciu, nie pospiesznego wejscia"
     }
   ]
 }
