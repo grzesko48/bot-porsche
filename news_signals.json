@@ -1,19 +1,19 @@
 {
-  "generated": "2026-09-18T19:15",
-  "as_of_run": "2026-09-18",
+  "generated": "2026-09-20T19:20",
+  "as_of_run": "2026-09-20",
   "signals": [
     {
       "ticker": "MRNA",
-      "has_catalyst": false,
-      "catalyst_type": "regulatory",
-      "direction": "neutral",
-      "headline": "Zatwierdzenie szczepionki mRNA na gryp (mFLUSIVA, sierpien) i pozytywne dane melanoma z Merck (19.08) to katalizatory sprzed >7 dni. W oknie 7 dni brak twardego, swiezego katalizatora potwierdzonego 2 zrodlami.",
-      "as_of": "2026-08-19",
-      "confidence": 0.3,
+      "has_catalyst": true,
+      "catalyst_type": "clinical",
+      "direction": "bullish",
+      "headline": "Re-rating onkologiczny: pozytywne dane Phase 3 czerniak (intismeran + Keytruda) i zatwierdzenie sezonowych szczepionek COVID 2026-2027 -> Argus podniosl do Buy PT 180. Momentum w oknie 7 dni (relacje 11 i 17.09). UWAGA kontra-sygnal: insiderzy sprzedaja w spike (Prezes Hoge 80 575 akcji 14-15.09, CFO Mock ~35 tys 10.09).",
+      "as_of": "2026-09-17",
+      "confidence": 0.5,
       "source_count": 2,
       "sources": [
-        {"label": "AJMC", "url": "https://www.ajmc.com/view/fda-approves-moderna-s-mrna-flu-vaccine-after-phase-3-success"},
-        {"label": "Drug Discovery News", "url": "https://www.drugdiscoverynews.com/moderna-and-merck-say-personalized-melanoma-cancer-vaccine-worked-in-late-stage-trial-17470"}
+        {"label": "Timothy Sykes (17.09)", "url": "https://www.timothysykes.com/news/moderna-inc-mrna-news-2026_09_17/"},
+        {"label": "Timothy Sykes (11.09)", "url": "https://www.timothysykes.com/news/moderna-inc-mrna-news-2026_09_11/"}
       ]
     },
     {
@@ -21,13 +21,13 @@
       "has_catalyst": false,
       "catalyst_type": "guidance",
       "direction": "bullish",
-      "headline": "Wyniki FQ4 dopiero 30.09 (przed nami). HBM4 wyprzedany do 2026 pod kontraktami to stan ciagly, nie swiezy katalizator w oknie 7 dni. Czekam na raport.",
-      "as_of": "2026-09-18",
+      "headline": "Wyniki FQ4 dopiero 30.09 (przed nami) — guidance ~50 mld USD przychodu, EPS ~31. HBM4 ramp i ponad 1 mld USD zabookowanych to stan ciagly, nie swiezy twardy katalizator w oknie 7 dni. Decyzja Fed wrzesien moze ruszyc kurs bardziej niz sam raport. Czekam na raport.",
+      "as_of": "2026-09-20",
       "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/micron-raised-guidance-surging-memory-053500017.html"},
-        {"label": "Micron IR", "url": "https://investors.micron.com/static-files/631b1a32-5537-46ae-8f40-82e42fc79dfe"}
+        {"label": "FX Leaders (15.09)", "url": "https://www.fxleaders.com/news/2026/09/15/micron-stock-forecast-mu-earnings-september-2026/"},
+        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/MU/"}
       ]
     },
     {
@@ -35,13 +35,13 @@
       "has_catalyst": true,
       "catalyst_type": "rating",
       "direction": "bullish",
-      "headline": "Klaster inicjacji rekomendacji (16.09): Deutsche Bank Buy PT 1200 USD, Evercore ISI Outperform PT 1100, Rothschild Redburn Buy. Katalizator w oknie 7 dni. UWAGA kontra-sygnal: insiderzy mocno sprzedaja (71 sprzedazy / 0 zakupow 6m), baza partnerstwa NVIDIA sprzed >2 tyg.",
+      "headline": "Klaster inicjacji rekomendacji 16.09: Deutsche Bank Buy PT 1200, Evercore ISI Outperform PT 1100; wejscie do Nasdaq-100; partnerstwo z NVIDIA (2 mld USD) w tle. Kurs +9,4% 16.09. UWAGA silny kontra-sygnal: insiderzy sprzedaja seryjnie (Prezes GBU Wupen Yuen po 500 akcji niemal codziennie 02-18.09, plan 10b5-1; ~39 mln USD sprzedazy insiderow).",
       "as_of": "2026-09-16",
       "confidence": 0.5,
       "source_count": 2,
       "sources": [
-        {"label": "StocksToTrade", "url": "https://stockstotrade.com/news/lumentum-holdings-inc-lite-news-2026_09_16/"},
-        {"label": "Timothy Sykes", "url": "https://www.timothysykes.com/news/lumentum-holdings-inc-lite-news-2026_09_16-3/"}
+        {"label": "StocksToTrade (16.09)", "url": "https://stockstotrade.com/news/lumentum-holdings-inc-lite-news-2026_09_16-3/"},
+        {"label": "Simply Wall St", "url": "https://simplywall.st/stocks/us/tech/nasdaq-lite/lumentum-holdings"}
       ]
     },
     {
@@ -49,13 +49,13 @@
       "has_catalyst": false,
       "catalyst_type": "guidance",
       "direction": "bullish",
-      "headline": "Rekordowe zamowienia AI (60,9 mld) i podniesiona prognoza do ~192 mld byly 1-2.09 (poza oknem 7 dni). Swieze artykuly 10-17.09 to komentarz analitykow, nie nowy twardy katalizator.",
+      "headline": "Rekordowe zamowienia AI (60,9 mld), backlog 95 mld i podniesiona prognoza FY do ~192 mld byly 1-2.09 (POZA oknem 7 dni). Swieze materialy 11-17.09 to komentarz analitykow (PT do 600), nie nowy twardy katalizator. Sygnal jest, ale nieswiezy.",
       "as_of": "2026-09-01",
       "confidence": 0.35,
       "source_count": 2,
       "sources": [
-        {"label": "Motley Fool", "url": "https://www.fool.com/investing/2026/09/10/dells-ai-server-orders-reached-61-billion-in-the/"},
-        {"label": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/09/17/dells-ai-backlog-surge-positions-stock-for-600-as-server-revenue-doubles/"}
+        {"label": "Motley Fool (02.09)", "url": "https://www.fool.com/coverage/stock-market-today/2026/09/02/stock-market-today-sept-2-dell-surges-16-on-soaring-ai-backlog/"},
+        {"label": "24/7 Wall St (17.09)", "url": "https://247wallst.com/investing/2026/09/17/dells-ai-backlog-surge-positions-stock-for-600-as-server-revenue-doubles/"}
       ]
     },
     {
@@ -63,13 +63,13 @@
       "has_catalyst": true,
       "catalyst_type": "partnership",
       "direction": "bullish",
-      "headline": "Rozmowy z SK Hynix o produkcji pamieci w fabryce Intela w Ohio; kurs skoczyl powyzej 110 USD (16-17.09, w oknie 7 dni). UWAGA: to wstepne rozmowy (nie umowa), moliwa kontrola koreanskiego rzadu. Wsparcie: CEO Lip-Bu Tan kupil ~10 mln USD akcji.",
+      "headline": "Rozmowy z SK Hynix o produkcji pamieci w fabryce Intela w Ohio; kurs +7-8% powyzej 110 USD (16-17.09, w oknie 7 dni), 2+ zrodla. UWAGA: rozmowy WSTEPNE (nie umowa) — SK Hynix potwierdza brak finalnych ustalen. Wsparcie: CEO Lip-Bu Tan kupil ~10 mln USD akcji (11.08).",
       "as_of": "2026-09-17",
-      "confidence": 0.55,
+      "confidence": 0.5,
       "source_count": 2,
       "sources": [
-        {"label": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/09/16/stock-market-today-sept-16-intel-jumps-on-sk-hynix-memory-chip-manufacturing-talks/"},
-        {"label": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/09/17/intc-stock-soars-above-110-as-intel-sk-hynix-deal-offers-fresh-turnaround-catalyst/"}
+        {"label": "Motley Fool (17.09)", "url": "https://www.fool.com/coverage/stock-market-today/2026/09/17/stock-market-today-sept-17-intel-surges-8-on-rumored-sk-hynix-talks/"},
+        {"label": "FX Leaders (17.09)", "url": "https://www.fxleaders.com/news/2026/09/17/intc-stock-soars-above-110-as-intel-sk-hynix-deal-offers-fresh-turnaround-catalyst/"}
       ]
     }
   ]

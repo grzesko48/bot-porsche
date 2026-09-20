@@ -12,7 +12,7 @@
       "peak_usd": 218.0800018310547,
       "stop_usd": 191.9104,
       "target_usd": 194.246,
-      "days_held": 25.0,
+      "days_held": 26.0,
       "kind": "CORE",
       "score": 7.4,
       "tp_taken": true
@@ -23,10 +23,10 @@
       "shares": 30.051683,
       "entry_usd": 94.0,
       "entry_date": "2026-06-24",
-      "peak_usd": 153.50999450683594,
-      "stop_usd": 135.0888,
+      "peak_usd": 153.9199981689453,
+      "stop_usd": 135.4496,
       "target_usd": 122.811,
-      "days_held": 24.0,
+      "days_held": 25.0,
       "kind": "CORE",
       "score": 7.1,
       "tp_taken": true
@@ -37,10 +37,10 @@
       "shares": 8.918371,
       "entry_usd": 398.37,
       "entry_date": "2026-07-18",
-      "peak_usd": 430.3999938964844,
-      "stop_usd": 378.752,
+      "peak_usd": 434.6700134277344,
+      "stop_usd": 382.5096,
       "target_usd": 517.881,
-      "days_held": 14.0,
+      "days_held": 15.0,
       "kind": "CORE",
       "score": 7.7
     },
@@ -53,7 +53,7 @@
       "peak_usd": 9.529999732971191,
       "stop_usd": 8.3864,
       "target_usd": 10.27,
-      "days_held": 5.0,
+      "days_held": 6.0,
       "kind": "WOLUMEN",
       "score": 6.5,
       "tp_taken": true
@@ -64,10 +64,10 @@
       "shares": 75.318998,
       "entry_usd": 9.2,
       "entry_date": "2026-08-26",
-      "peak_usd": 12.819999694824219,
-      "stop_usd": 11.2816,
+      "peak_usd": 12.970000267028809,
+      "stop_usd": 11.4136,
       "target_usd": 12.88,
-      "days_held": 5.0,
+      "days_held": 6.0,
       "kind": "FUND13F",
       "score": 6.5,
       "tp_taken": true
@@ -78,10 +78,10 @@
       "shares": 2.573383,
       "entry_usd": 1592.385,
       "entry_date": "2026-09-14",
-      "peak_usd": 1651.4000244140625,
+      "peak_usd": 1679.9200439453125,
       "stop_usd": 1527.62,
       "target_usd": 2069.899,
-      "days_held": 4.0,
+      "days_held": 5.0,
       "kind": "CORE",
       "score": 8.0
     },
@@ -91,10 +91,10 @@
       "shares": 16.585651,
       "entry_usd": 243.4006,
       "entry_date": "2026-09-15",
-      "peak_usd": 268.5801086425781,
-      "stop_usd": 236.3505,
+      "peak_usd": 275.6099853515625,
+      "stop_usd": 242.5368,
       "target_usd": 316.615,
-      "days_held": 3.0,
+      "days_held": 4.0,
       "kind": "CORE",
       "score": 8.0
     },
@@ -107,7 +107,7 @@
       "peak_usd": 74.1500015258789,
       "stop_usd": 65.252,
       "target_usd": 100.81,
-      "days_held": 2.0,
+      "days_held": 3.0,
       "kind": "INSIDER",
       "score": 6.9
     },
@@ -120,7 +120,7 @@
       "peak_usd": 264.49,
       "stop_usd": 259.45,
       "target_usd": 343.98,
-      "days_held": 0,
+      "days_held": 1.0,
       "kind": "CORE",
       "score": 8.0
     },
@@ -130,13 +130,13 @@
       "shares": 48.600457,
       "entry_usd": 22.625,
       "entry_date": "2026-09-18",
-      "peak_usd": 22.625,
-      "stop_usd": 17.58,
+      "peak_usd": 22.639999389648438,
+      "stop_usd": 19.9232,
       "target_usd": 30.02,
-      "days_held": 0,
+      "days_held": 1.0,
       "kind": "INSIDER",
       "score": 6.6
     }
   ],
-  "updated": "2026-09-18"
+  "updated": "2026-09-20"
 }

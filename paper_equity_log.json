@@ -246,5 +246,13 @@
     "n_positions": 10,
     "ret_since_start_pct": 8.18,
     "date": "2026-09-18"
+  },
+  {
+    "equity_pln": 109133.15,
+    "cash_pln": 0.0,
+    "invested_pln": 109133.15,
+    "n_positions": 10,
+    "ret_since_start_pct": 9.13,
+    "date": "2026-09-20"
   }
 ]
