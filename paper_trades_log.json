@@ -460,5 +460,27 @@
     "value_pln": 4178.42,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "ARM",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 4.1464,
+    "price_usd": 322.05,
+    "value_pln": 5074.34,
+    "pnl_pln": 1239.23,
+    "reason": "take-profit +32% — realizuj 25%, stop->BE"
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "ATEC",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 18.3455,
+    "price_usd": 10.27,
+    "value_pln": 716.3,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
   }
 ]
