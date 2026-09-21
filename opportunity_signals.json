@@ -1,6 +1,6 @@
 {
-  "_date": "2026-09-18",
-  "_run": "bieg PRZEDSESYJNY 14:30 CEST. NOWE w volume: MEDS (DataMeds AI) - po przejeciu Helomics (AI cancer diagnostics lab, $1.5mln) kurs poszedl z $0.89 (11.09) do $6.48 (16.09) do dalszego +33.6% w piatek 18.09 - ekstremalna parabola (>500% w tydzien, mcap tylko ok. $20mln), zdecydowanie POWYZEJ progu +50% - do rejestru/unikania, NIE kupowac. IMCC (IM Cannabis) +100.65% dzis - ale to mechanika 30-za-1 consolidation (obrona przed delistingiem Nasdaq) + rozprzedaz aktywow europejskich + ujemny kapital wlasny, BRAK realnego katalizatora biznesowego - do unikania (spekulacyjny szum, nie fundamentalna okazja). Kontynuacja bez zmian cen (nie re-sprawdzano w tej rundzie - jedna runda/grupe): AVEX kontrakt DoD $16.50/-23%, ELMT tungsten DLA kontrakt $19.88/+47% still_upside=true (katalizator ma juz ok. 4 dni), IE US EXIM copper $11.19/0%, RKLB $67.63/-16%, RDW $11.45/-3%, SOPH $8.15/+46% (blisko progu paraboli), GME/PVH/ATEC/DOMH insider bez zmian, do unikania VEEA/PDSB (z poprzednich biegow, daleko powyzej progu). Insider dzis: sprawdzono OpenInsider top buys (RSG/GPI/QVCG) ale to megacap rutynowe zakupy programowe (Cascade Investment/GoldenTree, ciagle od miesiecy) bez swiezego katalizatora - NIE dodano, nie pasuje do profilu spekulacyjnego sleeve. Fund13F/congress: brak konkretnych nowych trafien z kwota per-ticker w tej rundzie (Capitol Trades/OpenInsider cluster-buys niedostepne - blad 429/503 przy probie pobrania). IPO: brak nowego silnego tropu w tej rundzie poza kontynuacja AVEX.",
+  "_date": "2026-09-21",
+  "_run": "bieg PONIEDZIALEK 2026-09-21 (pierwszy bieg tygodnia po weekendzie, brak biegu lowcy 19-20.09). NOWE w volume: MXL (MaxLinear) $81.12 - dwudniowy rajd optyczny/AI-infra w polprzewodnikach (+8% w piatek 18.09 na sektorowej fali Broadcom+3%/Micron+3.9%, kolejne +8.17% dzis), pct_1m szacowane ok. +35% (POWYZEJ progu anti-chase +25%, ponizej paraboli +50% - bot powinien czekac na cofniecie, bez still_upside bo to szeroka fala sektorowa a nie pojedynczy kontrakt). ICHR (Ichor Holdings) $56.38 +6.74% dzis na swiezym upgradzie Wall Street Zen do Buy (21.09) w kontekscie popytu AI/foundry na sprzet polprzewodnikowy, pct_1m ok. -19% (NIE rozgrzany, ponizej progu). GIPR (Generation Income Properties) $0.67, ekstremalny spike +167% dzis na niezwyklym wolumenie (296mln vs srednia 23mln) ale BEZ swiezego potwierdzonego katalizatora biznesowego (jedyny insider buy z 11.2024, cofniecie -61% od szczytu sesji) - do unikania, czysty mechaniczny pump. TCRT (Alaunos Therapeutics) ok. $1.50, +40-45% dzis na niejasnym 'pozytywnym sentymencie do naglowkow biotechowych' bez konkretnego 8-K/wyniku - ekstremalna zmiennosc intraday (1-3 USD), spekulacyjny szum, do unikania (nano-cap biotech bez twardego katalizatora - wzorzec podobny do AEMD/RETO z przeszlosci). NOWE w policy: USAR (USA Rare Earth) ok. $15.50, pct_1m ok. +29% (blisko progu +25%) na partnerstwie z Pasqal+Riven Systems (17.09, separacja pierwiastkow ziem rzadkich metoda quantum ML) ORAZ swiezej kapitalizacji $1.55mld rzadowo wspieranego SPV powiazanego z offtake Serra Verde - silny watek polityki krytycznych surowcow (Dept. of War/critical minerals independence), still_upside=true (dwa niezalezne swieze katalizatory w tym tygodniu, temat dopiero nabiera tempa). EMAT (Evolution Metals & Technologies) $3.99 (dane cenowe niespojne miedzy zrodlami, ostroznie), pct_1m szacowane ok. +10% (NIE rozgrzany) - preliminary inclusion do Russell 2000/3000 (efektywne dzis 21.09, telegrafowane od ok. miesiaca) + rozbudowa platformy magnesow ziem rzadkich (non-China feedstock, cel 10k ton/rok do 11.2026) - krytyczne surowce/magnesy, watek Trump/critical minerals. Kontrakty obronne z tego tygodnia (Boeing $16.2mln ICBM door launchers, Pratt&Whitney $19.3mln IDIQ) ZA MALE wzgledem kapitalizacji mega-cap - pominiete, nie pasuja do progu >=50% kapitalizacji. Kontynuacja bez zmian cen (jedna runda/grupe, nie re-sprawdzano w tym biegu): AVEX (ipo+contract, DoD dron kontrakt), ELMT (contract, tungsten DLA still_upside=true), IE (policy, US EXIM copper), RKLB/RDW (policy, Pentagon/Golden Dome), GME/PVH/ATEC/DOMH (insider). Fund13F: puste (Q3 13F dopiero 14.11.2026, brak danych). Congress: puste (Capitol Trades pokazuje tylko zagregowane dane bez konkretnych kwot per-ticker z realnym katalizatorem - 120 transakcji/10 kongresmenow do 07.09, najczesciej handlowane to megacapy MSFT/AAPL/NVDA/AMZN, rutynowe, bez sygnalu).",
   "ipo": [
     {
       "ticker": "AVEX",
@@ -8,30 +8,37 @@
       "age_months": 5,
       "price_usd": 16.50,
       "pct_1m": -23.0,
-      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs -23%/mc od szczytu $42.34 mimo aktywnego katalizatora - bez istotnej zmiany od poprzednich biegow"
+      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs -23%/mc od szczytu $42.34 - bez istotnej zmiany od poprzednich biegow (kontynuacja, nie re-sprawdzano w tej rundzie)"
     }
   ],
   "volume": [
     {
-      "ticker": "MEDS",
-      "company": "DataMeds AI Inc",
-      "price_usd": 6.48,
-      "pct_1m": 500.0,
-      "catalyst": "Przejecie Helomics (AI cancer diagnostics lab, CLIA/CAP-certified, $1.5mln) - kurs z $0.89 (11.09) do $6.48+ (16.09), dalszy wzrost +33.6% 18.09, mcap ok. $20mln. DALEKO powyzej progu anti-chase +50% - do unikania, NIE kupowac, czysta parabola"
+      "ticker": "MXL",
+      "company": "MaxLinear Inc",
+      "price_usd": 81.12,
+      "pct_1m": 35.0,
+      "catalyst": "Dwudniowy rajd na sektorowej fali polprzewodnikow AI/optical infra (+8% piatek 18.09 na tle Broadcom+3%/Micron+3.9%, +8.17% dzis 21.09). POWYZEJ progu anti-chase +25% - do obserwacji/czekania na cofniecie, brak pojedynczego kontraktu (szeroka fala sektorowa), bez still_upside"
     },
     {
-      "ticker": "IMCC",
-      "company": "IM Cannabis Corp",
-      "price_usd": 1.90,
-      "pct_1m": 100.65,
-      "catalyst": "30-za-1 consolidation akcji (obrona przed delistingiem Nasdaq, min. $1.00) + rozprzedaz aktywow europejskich + ujemny kapital wlasny (Q2 straty). Ruch mechaniczny/spekulacyjny bez realnego katalizatora biznesowego - do unikania"
+      "ticker": "ICHR",
+      "company": "Ichor Holdings Ltd",
+      "price_usd": 56.38,
+      "pct_1m": -19.0,
+      "catalyst": "Swiezy upgrade Wall Street Zen do Buy (21.09.2026) w kontekscie popytu foundry/memory/AI na sprzet do produkcji polprzewodnikow, +6.74% dzis. NIE rozgrzany (pct_1m ujemny) - dobry profil wejscia"
     },
     {
-      "ticker": "SOPH",
-      "company": "SOPHiA Genetics",
-      "price_usd": 8.15,
-      "pct_1m": 46.0,
-      "catalyst": "Wolumen na mocnym Q2 (przychod USA +64% r/r, liquid biopsy +80% r/r) - blisko progu paraboli +50%, do obserwacji/malej probnej, nie pelnej pozycji (kontynuacja bez zmian ceny)"
+      "ticker": "GIPR",
+      "company": "Generation Income Properties",
+      "price_usd": 0.67,
+      "pct_1m": 150.0,
+      "catalyst": "Ekstremalny spike +167% dzis na wolumenie 296mln (srednia 23mln), ale BRAK swiezego potwierdzonego katalizatora biznesowego (ostatni insider buy z 11.2024), cofniecie -61% od szczytu sesji - czysty mechaniczny pump, do unikania"
+    },
+    {
+      "ticker": "TCRT",
+      "company": "Alaunos Therapeutics Inc",
+      "price_usd": 1.50,
+      "pct_1m": 45.0,
+      "catalyst": "+40-45% dzis na niejasnym 'pozytywnym sentymencie biotechowym' bez konkretnego 8-K/wyniku, ekstremalna zmiennosc intraday ($1.02-$3+), spekulacyjny szum nano-cap - do unikania"
     }
   ],
   "contract": [
@@ -40,16 +47,16 @@
       "company": "AEVEX Corp",
       "price_usd": 16.50,
       "pct_1m": -23.0,
-      "catalyst": "Trump/DoD kontrakt na bezzalogowce (one-way attack systems) - $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien, kontrakt istotny wzgledem kapitalizacji, kurs po cofnieciu z ATH -23%/mc"
+      "catalyst": "Trump/DoD kontrakt na bezzalogowce (one-way attack systems) - $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien - kontynuacja bez zmian"
     },
     {
       "ticker": "ELMT",
       "company": "The Elmet Group",
       "price_usd": 19.88,
       "pct_1m": 47.0,
-      "catalyst": "Trump/DoD - Defense Logistics Agency kontrakt na tungsten (National Defense Stockpile), pulap do $2mld (5 lat do 2031 + opcja 2 lata) + $450mln zadeklarowanej inwestycji Dept. of War ($150mln gwarantowanego finansowania), ogloszone 14-15.09.2026",
+      "catalyst": "Trump/DoD - Defense Logistics Agency kontrakt na tungsten (National Defense Stockpile), pulap do $2mld + $450mln inwestycji Dept. of War - kontynuacja bez zmian",
       "still_upside": true,
-      "upside_reason": "Pulap kontraktu (do $2mld) >3x kapitalizacji (~$594mln), wieloletnia widocznosc przychodow (baza do 2031), katalizator ma juz ok. 4 dni ale realizacja dopiero sie zaczyna (5-letni okres bazowy do 2031) - nie stary hype"
+      "upside_reason": "Pulap kontraktu (do $2mld) >3x kapitalizacji, wieloletnia widocznosc przychodow do 2031, realizacja dopiero sie zaczyna"
     }
   ],
   "insider": [
@@ -58,7 +65,7 @@
       "company": "GameStop Corp",
       "buyers": 1,
       "usd_total": 20375900,
-      "days_ago": 8,
+      "days_ago": 11,
       "price_usd": 21.44,
       "pct_1m": 18.5
     },
@@ -67,7 +74,7 @@
       "company": "PVH Corp",
       "buyers": 2,
       "usd_total": 1248501,
-      "days_ago": 7,
+      "days_ago": 10,
       "price_usd": 72.01,
       "pct_1m": -16.9
     },
@@ -76,7 +83,7 @@
       "company": "Alphatec Holdings",
       "buyers": 1,
       "usd_total": 1013150,
-      "days_ago": 8,
+      "days_ago": 11,
       "price_usd": 9.68,
       "pct_1m": 12.0
     },
@@ -85,7 +92,7 @@
       "company": "Dominari Holdings",
       "buyers": 2,
       "usd_total": 418000,
-      "days_ago": 4,
+      "days_ago": 7,
       "price_usd": 4.31,
       "pct_1m": 6.0
     }
@@ -94,25 +101,41 @@
   "congress": [],
   "policy": [
     {
+      "ticker": "USAR",
+      "company": "USA Rare Earth Inc",
+      "price_usd": 15.50,
+      "pct_1m": 29.0,
+      "catalyst": "Trump/critical minerals - partnerstwo z Pasqal+Riven Systems (17.09.2026, separacja ziem rzadkich metoda quantum ML) + swieza kapitalizacja $1.55mld rzadowo wspieranego SPV powiazanego z offtake Serra Verde - temat krajowej niezaleznosci od Chin w ziemiach rzadkich",
+      "still_upside": true,
+      "upside_reason": "Dwa niezalezne swieze katalizatory w tym samym tygodniu (partnerstwo technologiczne + rzadowo wspierane finansowanie SPV), pct_1m dopiero na granicy progu +25%, temat dopiero nabiera tempa"
+    },
+    {
+      "ticker": "EMAT",
+      "company": "Evolution Metals & Technologies Corp",
+      "price_usd": 3.99,
+      "pct_1m": 10.0,
+      "catalyst": "Trump/critical minerals - preliminary inclusion do Russell 2000/3000 (efektywne dzis 21.09, telegrafowane od ok. miesiaca) + rozbudowa platformy magnesow ziem rzadkich (non-China feedstock, cel 10k ton/rok do 11.2026). UWAGA: dane cenowe niespojne miedzy zrodlami (2.37mld mcap przy cenie ~4 USD budzi watpliwosci) - male zaufanie do ceny, male/ostrozne pozycjonowanie jesli w ogole"
+    },
+    {
       "ticker": "IE",
       "company": "Ivanhoe Electric",
       "price_usd": 11.19,
       "pct_1m": 0.0,
-      "catalyst": "Trump/DFC-EXIM - US EXIM Bank Preliminary Project Letter na $1.1mld potencjalnego finansowania Santa Cruz Copper Project (Arizona, 24.08.2026) - krajowe lancuchy dostaw miedzi, jeszcze niewiazace finansowanie; kurs odbil z $10.40 do $11.19"
+      "catalyst": "Trump/DFC-EXIM - US EXIM Bank Preliminary Project Letter $1.1mld na Santa Cruz Copper Project - kontynuacja bez zmian"
     },
     {
       "ticker": "RKLB",
       "company": "Rocket Lab Corp",
       "price_usd": 67.63,
       "pct_1m": -16.0,
-      "catalyst": "Pentagon/Space Force oficjalnie potwierdzil (15-16.09.2026) uzycie broni orbitalnych, przyspiesza Golden Dome - katalizator swiezy, kurs NIE rozgrzany (cofniecie z $85 w sierpniu)"
+      "catalyst": "Pentagon/Space Force potwierdzenie broni orbitalnych, przyspiesza Golden Dome - kontynuacja bez zmian"
     },
     {
       "ticker": "RDW",
       "company": "Redwire Corp",
       "price_usd": 11.45,
       "pct_1m": -3.0,
-      "catalyst": "Pentagon/Space Force potwierdzenie broni orbitalnych + Golden Dome, Redwire ma aktywne kontrakty Space Force - kurs plaski/lekko cofniety, nie rozgrzany"
+      "catalyst": "Pentagon/Space Force broni orbitalnych + Golden Dome, aktywne kontrakty Space Force - kontynuacja bez zmian"
     }
   ]
 }
