@@ -1,33 +1,35 @@
 {
-  "generated": "2026-09-20T19:20",
-  "as_of_run": "2026-09-20",
+  "generated": "2026-09-21",
   "insiders": {
-    "INTC": {
-      "n_insiders": 1,
-      "n_directors": 0,
-      "total_usd": 10000000,
-      "price_vs_52wh_pct": -5,
-      "cluster_sell": false,
-      "note": "CEO Lip-Bu Tan kupil 105 263 akcji @ 95 USD (~10 mln) 11.08 przez family trust, po cenie oferty wtornej 20 mld. Zakup ~2x wiekszy niz cala sprzedaz insiderow za 12m. Sygnal zaufania. Uwaga: transakcja sprzed ~40 dni."
-    },
-    "LITE": {
-      "n_insiders": 1,
-      "n_directors": 0,
-      "total_usd": 0,
-      "price_vs_52wh_pct": -8,
-      "cluster_sell": true,
-      "note": "President Global Business Units Wupen Yuen sprzedaje seryjnie po ~500 akcji niemal codziennie 02-18.09 (plan 10b5-1 z 19.05). Lacznie ~39 mln USD sprzedazy insiderow w ost. miesiacach. Kontra-sygnal do hossy na kursie (choc plan pre-arranged lagodzi wymowe)."
-    },
-    "MRNA": {
-      "n_insiders": 2,
-      "n_directors": 0,
-      "total_usd": 0,
-      "price_vs_52wh_pct": -2,
-      "cluster_sell": true,
-      "note": "Insiderzy sprzedaja w spike: Prezes Stephen Hoge wykonal opcje i sprzedal 80 575 akcji @ ~144-146 (14-15.09); CFO James Mock sprzedal 15 000 akcji (~2 mln) + 19 836 z opcji (10.09). Kontra-sygnal do bullish newsu onkologicznego."
-    }
+    "MRNA": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "13 sprzedazy / 0 kupna 6m, ale rutynowe 10b5-1 (Hoge, Mock) — nie traktuje jak klaster"},
+    "MRVL": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "netto sprzedaz 3m, rutynowe transakcje opcyjne"},
+    "DELL": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "Silver Lake (sponsor PE) konwersja/sprzedaz 16 wrz — nie sygnal insidera"},
+    "LITE": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "13 sprzedazy dominuje, rutynowe"}
   },
-  "funds": {},
-  "politicians": {},
+  "funds": {
+    "MU": [
+      {"manager": "Trivest Advisors", "pct_portfolio": 19.1, "action": "add"},
+      {"manager": "Lountzis Asset Management", "pct_portfolio": null, "action": "new"}
+    ],
+    "LITE": [
+      {"manager": "WT Asset Management", "pct_portfolio": null, "action": "add"},
+      {"manager": "Sixth Street Partners", "pct_portfolio": null, "action": "add"}
+    ],
+    "MRNA": [
+      {"manager": "Waverly Advisors", "pct_portfolio": null, "action": "new"},
+      {"manager": "Baillie Gifford", "pct_portfolio": null, "action": "trim"}
+    ],
+    "MRVL": [
+      {"manager": "Congress Asset Management", "pct_portfolio": null, "action": "add"}
+    ],
+    "DELL": []
+  },
+  "politicians": {
+    "LITE": [
+      {"name": "Josh Gottheimer", "days_to_disclose": null, "top_tier": false, "committee_match": false},
+      {"name": "Gilbert Ray Cisneros Jr", "days_to_disclose": null, "top_tier": false, "committee_match": false},
+      {"name": "Alan Armstrong", "days_to_disclose": null, "top_tier": false, "committee_match": false}
+    ]
+  },
   "sector_exits": []
 }

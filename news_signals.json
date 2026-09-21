@@ -1,75 +1,74 @@
 {
-  "generated": "2026-09-20T19:20",
-  "as_of_run": "2026-09-20",
+  "generated": "2026-09-21",
   "signals": [
-    {
-      "ticker": "MRNA",
-      "has_catalyst": true,
-      "catalyst_type": "clinical",
-      "direction": "bullish",
-      "headline": "Re-rating onkologiczny: pozytywne dane Phase 3 czerniak (intismeran + Keytruda) i zatwierdzenie sezonowych szczepionek COVID 2026-2027 -> Argus podniosl do Buy PT 180. Momentum w oknie 7 dni (relacje 11 i 17.09). UWAGA kontra-sygnal: insiderzy sprzedaja w spike (Prezes Hoge 80 575 akcji 14-15.09, CFO Mock ~35 tys 10.09).",
-      "as_of": "2026-09-17",
-      "confidence": 0.5,
-      "source_count": 2,
-      "sources": [
-        {"label": "Timothy Sykes (17.09)", "url": "https://www.timothysykes.com/news/moderna-inc-mrna-news-2026_09_17/"},
-        {"label": "Timothy Sykes (11.09)", "url": "https://www.timothysykes.com/news/moderna-inc-mrna-news-2026_09_11/"}
-      ]
-    },
     {
       "ticker": "MU",
       "has_catalyst": false,
-      "catalyst_type": "guidance",
-      "direction": "bullish",
-      "headline": "Wyniki FQ4 dopiero 30.09 (przed nami) — guidance ~50 mld USD przychodu, EPS ~31. HBM4 ramp i ponad 1 mld USD zabookowanych to stan ciagly, nie swiezy twardy katalizator w oknie 7 dni. Decyzja Fed wrzesien moze ruszyc kurs bardziej niz sam raport. Czekam na raport.",
-      "as_of": "2026-09-20",
-      "confidence": 0.3,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Wyniki FQ4 zaplanowane na 30 wrzesnia — brak swiezego katalizatora w oknie 7 dni",
+      "as_of": "2026-09-18",
+      "confidence": 0.5,
       "source_count": 2,
       "sources": [
-        {"label": "FX Leaders (15.09)", "url": "https://www.fxleaders.com/news/2026/09/15/micron-stock-forecast-mu-earnings-september-2026/"},
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/MU/"}
+        {"label": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/"},
+        {"label": "Motley Fool", "url": "https://www.fool.com/investing/2026/09/18/micron-is-poised-to-surge-after-its-fiscal-year-en/"}
       ]
     },
     {
       "ticker": "LITE",
-      "has_catalyst": true,
-      "catalyst_type": "rating",
-      "direction": "bullish",
-      "headline": "Klaster inicjacji rekomendacji 16.09: Deutsche Bank Buy PT 1200, Evercore ISI Outperform PT 1100; wejscie do Nasdaq-100; partnerstwo z NVIDIA (2 mld USD) w tle. Kurs +9,4% 16.09. UWAGA silny kontra-sygnal: insiderzy sprzedaja seryjnie (Prezes GBU Wupen Yuen po 500 akcji niemal codziennie 02-18.09, plan 10b5-1; ~39 mln USD sprzedazy insiderow).",
-      "as_of": "2026-09-16",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Partnerstwo NVIDIA $2 mld ogloszone 2 marca 2026 — stare, poza oknem 7 dni",
+      "as_of": "2026-03-02",
+      "confidence": 0.6,
+      "source_count": 2,
+      "sources": [
+        {"label": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology"},
+        {"label": "Globe and Mail", "url": "https://www.theglobeandmail.com/investing/markets/stocks/LITE/pressreleases/545805/lumentum-raises-2-billion-deepens-nvidia-strategic-partnership/"}
+      ]
+    },
+    {
+      "ticker": "MRNA",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Aprobata FDA mFLUSIVA z ~19 sierpnia — poza oknem 7 dni; insiderzy netto sprzedaja",
+      "as_of": "2026-08-19",
       "confidence": 0.5,
       "source_count": 2,
       "sources": [
-        {"label": "StocksToTrade (16.09)", "url": "https://stockstotrade.com/news/lumentum-holdings-inc-lite-news-2026_09_16-3/"},
-        {"label": "Simply Wall St", "url": "https://simplywall.st/stocks/us/tech/nasdaq-lite/lumentum-holdings"}
+        {"label": "PharmExec", "url": "https://www.pharmexec.com/view/fda-moderna-mrna-based-flu-vaccine"},
+        {"label": "Timothy Sykes", "url": "https://www.timothysykes.com/news/moderna-inc-mrna-news-2026_08_19-2/"}
       ]
     },
     {
       "ticker": "DELL",
       "has_catalyst": false,
-      "catalyst_type": "guidance",
-      "direction": "bullish",
-      "headline": "Rekordowe zamowienia AI (60,9 mld), backlog 95 mld i podniesiona prognoza FY do ~192 mld byly 1-2.09 (POZA oknem 7 dni). Swieze materialy 11-17.09 to komentarz analitykow (PT do 600), nie nowy twardy katalizator. Sygnal jest, ale nieswiezy.",
-      "as_of": "2026-09-01",
-      "confidence": 0.35,
-      "source_count": 2,
-      "sources": [
-        {"label": "Motley Fool (02.09)", "url": "https://www.fool.com/coverage/stock-market-today/2026/09/02/stock-market-today-sept-2-dell-surges-16-on-soaring-ai-backlog/"},
-        {"label": "24/7 Wall St (17.09)", "url": "https://247wallst.com/investing/2026/09/17/dells-ai-backlog-surge-positions-stock-for-600-as-server-revenue-doubles/"}
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "has_catalyst": true,
-      "catalyst_type": "partnership",
-      "direction": "bullish",
-      "headline": "Rozmowy z SK Hynix o produkcji pamieci w fabryce Intela w Ohio; kurs +7-8% powyzej 110 USD (16-17.09, w oknie 7 dni), 2+ zrodla. UWAGA: rozmowy WSTEPNE (nie umowa) — SK Hynix potwierdza brak finalnych ustalen. Wsparcie: CEO Lip-Bu Tan kupil ~10 mln USD akcji (11.08).",
-      "as_of": "2026-09-17",
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Rekordowe zamowienia AI i podwyzka prognoz z poczatku wrzesnia — poza oknem 7 dni",
+      "as_of": "2026-09-11",
       "confidence": 0.5,
       "source_count": 2,
       "sources": [
-        {"label": "Motley Fool (17.09)", "url": "https://www.fool.com/coverage/stock-market-today/2026/09/17/stock-market-today-sept-17-intel-surges-8-on-rumored-sk-hynix-talks/"},
-        {"label": "FX Leaders (17.09)", "url": "https://www.fxleaders.com/news/2026/09/17/intc-stock-soars-above-110-as-intel-sk-hynix-deal-offers-fresh-turnaround-catalyst/"}
+        {"label": "StocksToTrade", "url": "https://stockstotrade.com/news/dell-technologies-inc-class-c-dell-news-2026_09_11/"},
+        {"label": "Vantage Markets", "url": "https://www.vantagemarkets.com/market-news/dell-ai-server-backlog-on-premise-september-9-2026/"}
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Umowa custom silicon z Google (warrant 18 sierpnia) — poza oknem 7 dni",
+      "as_of": "2026-08-19",
+      "confidence": 0.5,
+      "source_count": 2,
+      "sources": [
+        {"label": "CNBC", "url": "https://www.cnbc.com/2026/08/19/marvell-google-ai-chips.html"},
+        {"label": "SEC 8-K", "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526134462/d113606dex991.htm"}
       ]
     }
   ]
