@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "ticker": "SRFM",
+    "pct": 40.5,
+    "day": "2026-09-18",
+    "presignal": "Swiezy kontrakt (pierwszy komercyjny klient operatorski na platforme OperatorOS) ogloszony premarket 17.09, dzien przed/w dniu glownego ruchu.",
+    "lesson": "Sledzic 8-K/PR o pierwszych komercyjnych kontraktach SaaS w niszowych sektorach (np. lotnictwo) w dniu ogloszenia - katalizator typu 'pierwszy klient/dowod koncepcji' moze dac jednodniowy skok nawet bez duzej kwoty USD."
+  },
+  {
+    "ticker": "LUXE",
+    "pct": 41.0,
+    "day": "2026-09-18",
+    "presignal": "Wyniki Q4 FY2026 z wyrazna poprawa rentownosci ogloszone premarket 16.09 - glowny ruch nastapil z opoznieniem (dzien+2), kontynuacja momentum po pierwszej reakcji rynku.",
+    "lesson": "Silne wyniki z szybko poprawiajaca sie marza moga miec wielodniowe follow-through - nie odrzucac spolki na liscie obserwacyjnej tylko dlatego, ze pierwsza sesja po wynikach juz minela."
+  },
+  {
+    "ticker": "CLNN",
+    "pct": 32.6,
+    "day": "2026-09-18",
+    "presignal": "Rejestrowana oferta bezposrednia (dilutive) $4mln ujawniona 15.09 - zwykle sygnal negatywny/rozwadniajacy, ale ruch mimo to byl mocno dodatni 3 dni pozniej, prawdopodobnie w gre wchodzil inny, niewychwycony katalizator kliniczny/biotechowy.",
+    "lesson": "Nie odrzucac automatycznie mikro-cap biotechow po ujawnieniu dilutive offering - zweryfikowac rownolegle katalizatory kliniczne/regulacyjne przed skreslaniem tickera z radaru."
+  },
+  {
+    "ticker": "VICR",
+    "pct": 21.1,
+    "day": "2026-09-18",
+    "presignal": "Licencja technologii zasilania (VPD) dla wiodacego producenta AI OEM ogloszona po sesji 16.09 - kontynuacja ruchu wystapila dopiero dzien+2.",
+    "lesson": "Umowy licencyjne w lancuchu dostaw AI/data center (zasilanie/moc) moga miec wielodniowa kontynuacje - obserwowac nie tylko dzien ogloszenia, ale i kolejna sesje na wypadek opoznionej reakcji rynku."
+  },
+  {
+    "ticker": "SDGR",
+    "pct": 21.27,
+    "day": "2026-09-18",
+    "presignal": "Jedyny znaleziony katalizator to rutynowe zgloszenie inducement grants (Nasdaq listing rules) z 17.09 - slaby/niefundamentalny sygnal, prawdziwy powod ruchu prawdopodobnie inny i niezidentyfikowany w dostepnych zrodlach.",
+    "lesson": "Gdy jedyny znaleziony katalizator to rutynowe zgloszenie SEC (grants/compensation), potraktowac go jako niewystarczajacy - doszukac sie realnego powodu ruchu (fala sektorowa, nota analityczna) zanim wyciagnie sie wnioski o przeoczeniu."
+  }
+]
