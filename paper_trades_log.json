@@ -482,5 +482,16 @@
     "value_pln": 716.3,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "ABT",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 11.0068,
+    "price_usd": 104.19,
+    "value_pln": 4358.04,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.7)"
   }
 ]
