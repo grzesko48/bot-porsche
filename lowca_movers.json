@@ -1,37 +1,34 @@
 [
   {
-    "ticker": "SRFM",
-    "pct": 40.5,
-    "day": "2026-09-18",
-    "presignal": "Swiezy kontrakt (pierwszy komercyjny klient operatorski na platforme OperatorOS) ogloszony premarket 17.09, dzien przed/w dniu glownego ruchu.",
-    "lesson": "Sledzic 8-K/PR o pierwszych komercyjnych kontraktach SaaS w niszowych sektorach (np. lotnictwo) w dniu ogloszenia - katalizator typu 'pierwszy klient/dowod koncepcji' moze dac jednodniowy skok nawet bez duzej kwoty USD."
+    "ticker": "GRML",
+    "company": "Greenland Mines Ltd",
+    "pct": 206.5,
+    "day": "2026-09-21",
+    "presignal": "Realny presygnal istnial juz w piatek 18.09 wieczorem (po zamknieciu USA) - Trump oglosil przelomowy pakt bezpieczenstwa USA-Dania-Grenlandia (USA dostaje kontrole nad kim wolno inwestowac/wydobywac na Grenlandii). Rynek nie mogl zareagowac do poniedzialkowego otwarcia (weekend). Dodatkowo w poniedzialek rano spolka oglosila podwojenie ziemi w dystrykcie rzadkich ziem Sarfartoq - drugi, wzmacniajacy katalizator tego samego dnia.",
+    "lesson": "Po duzych geopolitycznych ogloszeniach w piatek wieczorem/weekend (zwlaszcza dot. surowcow krytycznych/bezpieczenstwa), w poniedzialek PRZED otwarciem przeskanuj tematycznie powiazane micro-capy (tu: 'Greenland-linked' male spolki) - czesto gapuja mocno na otwarciu, a temat bywa znany juz 2-3 dni wczesniej."
   },
   {
-    "ticker": "LUXE",
-    "pct": 41.0,
-    "day": "2026-09-18",
-    "presignal": "Wyniki Q4 FY2026 z wyrazna poprawa rentownosci ogloszone premarket 16.09 - glowny ruch nastapil z opoznieniem (dzien+2), kontynuacja momentum po pierwszej reakcji rynku.",
-    "lesson": "Silne wyniki z szybko poprawiajaca sie marza moga miec wielodniowe follow-through - nie odrzucac spolki na liscie obserwacyjnej tylko dlatego, ze pierwsza sesja po wynikach juz minela."
+    "ticker": "GLND",
+    "company": "Greenland Energy Company",
+    "pct": 140.0,
+    "day": "2026-09-21",
+    "presignal": "Ten sam presygnal co GRML - pakt bezpieczenstwa USA-Dania-Grenlandia oglaszony w piatek 18.09 wieczorem, plus dodatkowy watek: propozycja fuzji all-share z 80 Mile Plc utrzymujaca zainteresowanie aktywami w Grenlandii.",
+    "lesson": "Potwierdza wzorzec z GRML - koszykowy ruch calego sektora 'Greenland-linked' na jednym katalizatorze politycznym. Warto przy takich ogloszeniach szukac calej grupy powiazanych tickerow, nie tylko jednego."
   },
   {
-    "ticker": "CLNN",
-    "pct": 32.6,
-    "day": "2026-09-18",
-    "presignal": "Rejestrowana oferta bezposrednia (dilutive) $4mln ujawniona 15.09 - zwykle sygnal negatywny/rozwadniajacy, ale ruch mimo to byl mocno dodatni 3 dni pozniej, prawdopodobnie w gre wchodzil inny, niewychwycony katalizator kliniczny/biotechowy.",
-    "lesson": "Nie odrzucac automatycznie mikro-cap biotechow po ujawnieniu dilutive offering - zweryfikowac rownolegle katalizatory kliniczne/regulacyjne przed skreslaniem tickera z radaru."
+    "ticker": "VEEE",
+    "company": "Twin Vee Powercats Co",
+    "pct": 68.4,
+    "day": "2026-09-21",
+    "presignal": "Ogloszenie umowy fuzji laczacej spolke publiczna z podmiotem zaleznym USFM Corporation - klasyczny 'merger pop' w low-float nazwie (spolka miala wczesniej spadek z $10+ do $8-9 w sierpniu, wiec ruch to odwrocenie trendu na newsie, nie kontynuacja momentum).",
+    "lesson": "Ogloszenia fuzji/przejec w bardzo malych, niskoplynnych spolkach (low-float) potrafia dac ekstremalny jednodniowy ruch - warto miec osobny sygnal 'merger/combination announcement' obok kontraktow i insider buys."
   },
   {
-    "ticker": "VICR",
-    "pct": 21.1,
-    "day": "2026-09-18",
-    "presignal": "Licencja technologii zasilania (VPD) dla wiodacego producenta AI OEM ogloszona po sesji 16.09 - kontynuacja ruchu wystapila dopiero dzien+2.",
-    "lesson": "Umowy licencyjne w lancuchu dostaw AI/data center (zasilanie/moc) moga miec wielodniowa kontynuacje - obserwowac nie tylko dzien ogloszenia, ale i kolejna sesje na wypadek opoznionej reakcji rynku."
-  },
-  {
-    "ticker": "SDGR",
-    "pct": 21.27,
-    "day": "2026-09-18",
-    "presignal": "Jedyny znaleziony katalizator to rutynowe zgloszenie inducement grants (Nasdaq listing rules) z 17.09 - slaby/niefundamentalny sygnal, prawdziwy powod ruchu prawdopodobnie inny i niezidentyfikowany w dostepnych zrodlach.",
-    "lesson": "Gdy jedyny znaleziony katalizator to rutynowe zgloszenie SEC (grants/compensation), potraktowac go jako niewystarczajacy - doszukac sie realnego powodu ruchu (fala sektorowa, nota analityczna) zanim wyciagnie sie wnioski o przeoczeniu."
+    "ticker": "VRME",
+    "company": "VerifyMe Inc",
+    "pct": 78.6,
+    "day": "2026-09-21",
+    "presignal": "Brak jednoznacznego, potwierdzonego katalizatora z samego dnia w dostepnych zrodlach - jedynie kontekst przedluzonej (do 31.10.2026) umowy fuzji z Open World oraz rosnace zainteresowanie wyszukiwaniem spolki (+139% w 30 dni). Prawdopodobnie czysty low-float momentum/short squeeze bez twardego newsa.",
+    "lesson": "Nie kazdy duzy ruch ma czytelny presygnal - male, niskoplynne spolki z toczaca sie, przedluzana transakcja fuzji moga generowac powtarzajaca sie zmiennosc bez nowego newsa danego dnia. Traktowac jako szum, nie gonic bez konkretnego katalizatora."
   }
 ]

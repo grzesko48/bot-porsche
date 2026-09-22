@@ -1,6 +1,6 @@
 {
-  "_date": "2026-09-21",
-  "_run": "bieg PONIEDZIALEK 2026-09-21 (pierwszy bieg tygodnia po weekendzie, brak biegu lowcy 19-20.09). NOWE w volume: MXL (MaxLinear) $81.12 - dwudniowy rajd optyczny/AI-infra w polprzewodnikach (+8% w piatek 18.09 na sektorowej fali Broadcom+3%/Micron+3.9%, kolejne +8.17% dzis), pct_1m szacowane ok. +35% (POWYZEJ progu anti-chase +25%, ponizej paraboli +50% - bot powinien czekac na cofniecie, bez still_upside bo to szeroka fala sektorowa a nie pojedynczy kontrakt). ICHR (Ichor Holdings) $56.38 +6.74% dzis na swiezym upgradzie Wall Street Zen do Buy (21.09) w kontekscie popytu AI/foundry na sprzet polprzewodnikowy, pct_1m ok. -19% (NIE rozgrzany, ponizej progu). GIPR (Generation Income Properties) $0.67, ekstremalny spike +167% dzis na niezwyklym wolumenie (296mln vs srednia 23mln) ale BEZ swiezego potwierdzonego katalizatora biznesowego (jedyny insider buy z 11.2024, cofniecie -61% od szczytu sesji) - do unikania, czysty mechaniczny pump. TCRT (Alaunos Therapeutics) ok. $1.50, +40-45% dzis na niejasnym 'pozytywnym sentymencie do naglowkow biotechowych' bez konkretnego 8-K/wyniku - ekstremalna zmiennosc intraday (1-3 USD), spekulacyjny szum, do unikania (nano-cap biotech bez twardego katalizatora - wzorzec podobny do AEMD/RETO z przeszlosci). NOWE w policy: USAR (USA Rare Earth) ok. $15.50, pct_1m ok. +29% (blisko progu +25%) na partnerstwie z Pasqal+Riven Systems (17.09, separacja pierwiastkow ziem rzadkich metoda quantum ML) ORAZ swiezej kapitalizacji $1.55mld rzadowo wspieranego SPV powiazanego z offtake Serra Verde - silny watek polityki krytycznych surowcow (Dept. of War/critical minerals independence), still_upside=true (dwa niezalezne swieze katalizatory w tym tygodniu, temat dopiero nabiera tempa). EMAT (Evolution Metals & Technologies) $3.99 (dane cenowe niespojne miedzy zrodlami, ostroznie), pct_1m szacowane ok. +10% (NIE rozgrzany) - preliminary inclusion do Russell 2000/3000 (efektywne dzis 21.09, telegrafowane od ok. miesiaca) + rozbudowa platformy magnesow ziem rzadkich (non-China feedstock, cel 10k ton/rok do 11.2026) - krytyczne surowce/magnesy, watek Trump/critical minerals. Kontrakty obronne z tego tygodnia (Boeing $16.2mln ICBM door launchers, Pratt&Whitney $19.3mln IDIQ) ZA MALE wzgledem kapitalizacji mega-cap - pominiete, nie pasuja do progu >=50% kapitalizacji. Kontynuacja bez zmian cen (jedna runda/grupe, nie re-sprawdzano w tym biegu): AVEX (ipo+contract, DoD dron kontrakt), ELMT (contract, tungsten DLA still_upside=true), IE (policy, US EXIM copper), RKLB/RDW (policy, Pentagon/Golden Dome), GME/PVH/ATEC/DOMH (insider). Fund13F: puste (Q3 13F dopiero 14.11.2026, brak danych). Congress: puste (Capitol Trades pokazuje tylko zagregowane dane bez konkretnych kwot per-ticker z realnym katalizatorem - 120 transakcji/10 kongresmenow do 07.09, najczesciej handlowane to megacapy MSFT/AAPL/NVDA/AMZN, rutynowe, bez sygnalu).",
+  "_date": "2026-09-22",
+  "_run": "bieg WTOREK 2026-09-22 14:30 CEST (przed otwarciem USA). NOWE w volume: QNME (Quanome Technologies, dawniej Lakeside Holding) $1.37 (premarket, ostatnie zamkniecie $0.64) - ekstremalny pump na 'breakthrough AI-chip partnership' newsie (Nasdaq rebranding z logistyki na 'quantum/AI' 05.08.2026), pct_1m szacowane ok. +400% (z sub-$0.30 miesiac temu). Spolka bez realnych przychodow quantum/AI (baza przychodow ok. $22mln to nadal stary biznes logistyczny), juz raz spadla -10.71% dzien po poprzednim spike'u - klasyczny wzorzec micro-cap pump do UNIKANIA (jak LEGN/BCDA w naszych danych), bez still_upside. Sprawdzono i POMINIETO jako za male wzgledem kapitalizacji (analogicznie do Boeing/Pratt&Whitney wczoraj): MDWD (MediWound) $13.31, swiezy dzisiejszy $3.3mln kontrakt Dept. of War na NexoBrid, ale to tylko ok. 2% kapitalizacji $172mln - brak istotnego wplywu na wycene, pct_1m ok. -2% (nie rozgrzany, ale sygnal za slaby by dodac). Sprawdzono i POMINIETO: RCAT (Red Cat) - najswiezsze kontrakty (Air Force $2.49mln z 30.07, NATO z marca) NIE sa swieze (<48h), a dane cenowe/pct_1m skrajnie niespojne miedzy zrodlami (+28% do -33% w zaleznosci od zrodla) + kontrowersje wokol zawyzania wartosci kontraktu (Fuzzy Panda short report) - zbyt ryzykowne/niepewne dane. BKSY (BlackSky) +6.92% dzis, ale flagowy $99mln kontrakt USAF jest z marca 2026 (nie swiezy) - brak jasnego swiezego katalizatora, pominieto. Insider (OpenInsider) i congress (Capitol Trades) - strony niedostepne w tej rundzie (503/429), brak nowych danych - kontynuacja poprzednich list bez zmian. Fund13F: nadal puste (Q3 13F dopiero 14.11.2026). Kontynuacja bez zmian cen (jedna runda/grupe, nie re-sprawdzano w tym biegu): AVEX (ipo+contract, DoD dron kontrakt), ELMT (contract, tungsten DLA still_upside=true), MXL/ICHR/GIPR/TCRT (volume z poniedzialku), USAR/EMAT/IE/RKLB/RDW (policy), GME/PVH/ATEC/DOMH (insider).",
   "ipo": [
     {
       "ticker": "AVEX",
@@ -8,37 +8,44 @@
       "age_months": 5,
       "price_usd": 16.50,
       "pct_1m": -23.0,
-      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs -23%/mc od szczytu $42.34 - bez istotnej zmiany od poprzednich biegow (kontynuacja, nie re-sprawdzano w tej rundzie)"
+      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs -23%/mc od szczytu $42.34 - kontynuacja bez zmian, nie re-sprawdzano w tej rundzie"
     }
   ],
   "volume": [
+    {
+      "ticker": "QNME",
+      "company": "Quanome Technologies Inc (dawniej Lakeside Holding)",
+      "price_usd": 1.37,
+      "pct_1m": 400.0,
+      "catalyst": "Ekstremalny pump (+142% wczoraj, dalsze +114% premarket dzis) na newsie o 'przelomowym partnerstwie AI-chip' po rebrandingu z logistyki na 'quantum/AI' (05.08.2026). Brak realnych przychodow z quantum/AI, dzien po poprzednim spike'u spadla -10.71% - czysty pump do UNIKANIA, wzorzec jak LEGN/BCDA, bez still_upside"
+    },
     {
       "ticker": "MXL",
       "company": "MaxLinear Inc",
       "price_usd": 81.12,
       "pct_1m": 35.0,
-      "catalyst": "Dwudniowy rajd na sektorowej fali polprzewodnikow AI/optical infra (+8% piatek 18.09 na tle Broadcom+3%/Micron+3.9%, +8.17% dzis 21.09). POWYZEJ progu anti-chase +25% - do obserwacji/czekania na cofniecie, brak pojedynczego kontraktu (szeroka fala sektorowa), bez still_upside"
+      "catalyst": "Dwudniowy rajd na sektorowej fali polprzewodnikow AI/optical infra (+8% piatek 18.09 na tle Broadcom+3%/Micron+3.9%, +8.17% w poniedzialek 21.09). POWYZEJ progu anti-chase +25% - do obserwacji/czekania na cofniecie, brak pojedynczego kontraktu (szeroka fala sektorowa), bez still_upside - kontynuacja bez zmian"
     },
     {
       "ticker": "ICHR",
       "company": "Ichor Holdings Ltd",
       "price_usd": 56.38,
       "pct_1m": -19.0,
-      "catalyst": "Swiezy upgrade Wall Street Zen do Buy (21.09.2026) w kontekscie popytu foundry/memory/AI na sprzet do produkcji polprzewodnikow, +6.74% dzis. NIE rozgrzany (pct_1m ujemny) - dobry profil wejscia"
+      "catalyst": "Swiezy upgrade Wall Street Zen do Buy (21.09.2026) w kontekscie popytu foundry/memory/AI na sprzet do produkcji polprzewodnikow. NIE rozgrzany (pct_1m ujemny) - dobry profil wejscia - kontynuacja bez zmian"
     },
     {
       "ticker": "GIPR",
       "company": "Generation Income Properties",
       "price_usd": 0.67,
       "pct_1m": 150.0,
-      "catalyst": "Ekstremalny spike +167% dzis na wolumenie 296mln (srednia 23mln), ale BRAK swiezego potwierdzonego katalizatora biznesowego (ostatni insider buy z 11.2024), cofniecie -61% od szczytu sesji - czysty mechaniczny pump, do unikania"
+      "catalyst": "Ekstremalny spike +167% w poniedzialek na wolumenie 296mln (srednia 23mln), ale BRAK swiezego potwierdzonego katalizatora biznesowego (ostatni insider buy z 11.2024), cofniecie -61% od szczytu sesji - czysty mechaniczny pump, do unikania - kontynuacja bez zmian"
     },
     {
       "ticker": "TCRT",
       "company": "Alaunos Therapeutics Inc",
       "price_usd": 1.50,
       "pct_1m": 45.0,
-      "catalyst": "+40-45% dzis na niejasnym 'pozytywnym sentymencie biotechowym' bez konkretnego 8-K/wyniku, ekstremalna zmiennosc intraday ($1.02-$3+), spekulacyjny szum nano-cap - do unikania"
+      "catalyst": "+40-45% w poniedzialek na niejasnym 'pozytywnym sentymencie biotechowym' bez konkretnego 8-K/wyniku, ekstremalna zmiennosc intraday, spekulacyjny szum nano-cap - do unikania - kontynuacja bez zmian"
     }
   ],
   "contract": [
@@ -65,7 +72,7 @@
       "company": "GameStop Corp",
       "buyers": 1,
       "usd_total": 20375900,
-      "days_ago": 11,
+      "days_ago": 12,
       "price_usd": 21.44,
       "pct_1m": 18.5
     },
@@ -74,7 +81,7 @@
       "company": "PVH Corp",
       "buyers": 2,
       "usd_total": 1248501,
-      "days_ago": 10,
+      "days_ago": 11,
       "price_usd": 72.01,
       "pct_1m": -16.9
     },
@@ -83,7 +90,7 @@
       "company": "Alphatec Holdings",
       "buyers": 1,
       "usd_total": 1013150,
-      "days_ago": 11,
+      "days_ago": 12,
       "price_usd": 9.68,
       "pct_1m": 12.0
     },
@@ -92,7 +99,7 @@
       "company": "Dominari Holdings",
       "buyers": 2,
       "usd_total": 418000,
-      "days_ago": 7,
+      "days_ago": 8,
       "price_usd": 4.31,
       "pct_1m": 6.0
     }
@@ -105,16 +112,16 @@
       "company": "USA Rare Earth Inc",
       "price_usd": 15.50,
       "pct_1m": 29.0,
-      "catalyst": "Trump/critical minerals - partnerstwo z Pasqal+Riven Systems (17.09.2026, separacja ziem rzadkich metoda quantum ML) + swieza kapitalizacja $1.55mld rzadowo wspieranego SPV powiazanego z offtake Serra Verde - temat krajowej niezaleznosci od Chin w ziemiach rzadkich",
+      "catalyst": "Trump/critical minerals - partnerstwo z Pasqal+Riven Systems (17.09.2026, separacja ziem rzadkich metoda quantum ML) + swieza kapitalizacja $1.55mld rzadowo wspieranego SPV powiazanego z offtake Serra Verde - kontynuacja bez zmian",
       "still_upside": true,
-      "upside_reason": "Dwa niezalezne swieze katalizatory w tym samym tygodniu (partnerstwo technologiczne + rzadowo wspierane finansowanie SPV), pct_1m dopiero na granicy progu +25%, temat dopiero nabiera tempa"
+      "upside_reason": "Dwa niezalezne swieze katalizatory w tym samym tygodniu (partnerstwo technologiczne + rzadowo wspierane finansowanie SPV), pct_1m na granicy progu +25%, temat dopiero nabiera tempa"
     },
     {
       "ticker": "EMAT",
       "company": "Evolution Metals & Technologies Corp",
       "price_usd": 3.99,
       "pct_1m": 10.0,
-      "catalyst": "Trump/critical minerals - preliminary inclusion do Russell 2000/3000 (efektywne dzis 21.09, telegrafowane od ok. miesiaca) + rozbudowa platformy magnesow ziem rzadkich (non-China feedstock, cel 10k ton/rok do 11.2026). UWAGA: dane cenowe niespojne miedzy zrodlami (2.37mld mcap przy cenie ~4 USD budzi watpliwosci) - male zaufanie do ceny, male/ostrozne pozycjonowanie jesli w ogole"
+      "catalyst": "Trump/critical minerals - preliminary inclusion do Russell 2000/3000 (efektywne 21.09) + rozbudowa platformy magnesow ziem rzadkich (non-China feedstock). UWAGA: dane cenowe niespojne miedzy zrodlami - male zaufanie do ceny, male/ostrozne pozycjonowanie - kontynuacja bez zmian"
     },
     {
       "ticker": "IE",
