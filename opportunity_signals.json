@@ -1,6 +1,6 @@
 {
   "_date": "2026-09-22",
-  "_run": "bieg WTOREK 2026-09-22 14:30 CEST (przed otwarciem USA). NOWE w volume: QNME (Quanome Technologies, dawniej Lakeside Holding) $1.37 (premarket, ostatnie zamkniecie $0.64) - ekstremalny pump na 'breakthrough AI-chip partnership' newsie (Nasdaq rebranding z logistyki na 'quantum/AI' 05.08.2026), pct_1m szacowane ok. +400% (z sub-$0.30 miesiac temu). Spolka bez realnych przychodow quantum/AI (baza przychodow ok. $22mln to nadal stary biznes logistyczny), juz raz spadla -10.71% dzien po poprzednim spike'u - klasyczny wzorzec micro-cap pump do UNIKANIA (jak LEGN/BCDA w naszych danych), bez still_upside. Sprawdzono i POMINIETO jako za male wzgledem kapitalizacji (analogicznie do Boeing/Pratt&Whitney wczoraj): MDWD (MediWound) $13.31, swiezy dzisiejszy $3.3mln kontrakt Dept. of War na NexoBrid, ale to tylko ok. 2% kapitalizacji $172mln - brak istotnego wplywu na wycene, pct_1m ok. -2% (nie rozgrzany, ale sygnal za slaby by dodac). Sprawdzono i POMINIETO: RCAT (Red Cat) - najswiezsze kontrakty (Air Force $2.49mln z 30.07, NATO z marca) NIE sa swieze (<48h), a dane cenowe/pct_1m skrajnie niespojne miedzy zrodlami (+28% do -33% w zaleznosci od zrodla) + kontrowersje wokol zawyzania wartosci kontraktu (Fuzzy Panda short report) - zbyt ryzykowne/niepewne dane. BKSY (BlackSky) +6.92% dzis, ale flagowy $99mln kontrakt USAF jest z marca 2026 (nie swiezy) - brak jasnego swiezego katalizatora, pominieto. Insider (OpenInsider) i congress (Capitol Trades) - strony niedostepne w tej rundzie (503/429), brak nowych danych - kontynuacja poprzednich list bez zmian. Fund13F: nadal puste (Q3 13F dopiero 14.11.2026). Kontynuacja bez zmian cen (jedna runda/grupe, nie re-sprawdzano w tym biegu): AVEX (ipo+contract, DoD dron kontrakt), ELMT (contract, tungsten DLA still_upside=true), MXL/ICHR/GIPR/TCRT (volume z poniedzialku), USAR/EMAT/IE/RKLB/RDW (policy), GME/PVH/ATEC/DOMH (insider).",
+  "_run": "bieg WTOREK 2026-09-22 18:30 CEST (srodek sesji US, drugi bieg dnia). AKTUALIZACJA vs biegiem 14:30: RKLB (policy) $67.63->$71.47 (+5.7% w trakcie sesji), pct_1m -16%->+10.77% - dzisiejsze (22.09) artykuly o ulozonych kontraktach naraz: $190mln HASTE/MACH-TB 2.0 (20 lotow hipersonicznych) + $266mln Space Force multi-launch + GEO satellite bus dla Viasat + umowa z Iridium. Suma kontraktow (~$456mln) to jednak tylko ok. 1.3% kapitalizacji (~$34mld) - za malo wzgledem cap by dopisac do grupy 'contract' (analogicznie do MDWD wczesniej), zostaje w 'policy' z odswiezona cena/katalizatorem. QNME (volume) dalszy pump w trakcie sesji: $1.37->ok. $1.70 (kolejne +20-24% intraday na tym samym GPU/AI newsie z 16.09 - zakup serwerow GPU od Compal Electronics za $18.8mln), pct_1m szacowane teraz >450% - zdecydowanie ponad prog parabola +50%, kontynuacja UNIKANIA (wzorzec LEGN/BCDA), bez still_upside. NOWE: FIGR (Figure Technology Solutions) dodane do ipo - debiut 10.09.2026 (cena IPO $25), dzien 1 zamkniecie $31.11 (+24.4%), dzis $27.59 (nadal +10.4% od ceny IPO, juz cofnieta z dnia 1) - swiezy debiut <1mc. Sprawdzono i POMINIETO: AVAV (AeroVironment) - $464.8mln kontrakt Armii USA na system laserowy LOCUST X3, ale ogloszony juz na poczatku wrzesnia (NIE swiezy <48h) i to tylko ok. 6% kapitalizacji ($7-8mld) - za slaby/nieswiezy sygnal, jak MDWD/BKSY wczesniej. BBAI (BigBear.ai) wspomniany ogolnie w artykule o trendach kongresowych AI/defense, ale BEZ konkretnej daty/nazwiska kongresmena - zbyt slabe potwierdzenie, pominieto (congress nadal puste). Insider/fund13f - bez nowych danych w tej rundzie (jedna runda/grupe), kontynuacja list z 14:30 bez zmian. Kontynuacja bez zmian cen (nie re-sprawdzano w tej rundzie): AVEX, ELMT (contract), MXL/ICHR/GIPR/TCRT (volume), USAR/EMAT/IE/RDW (policy), GME/PVH/ATEC/DOMH (insider).",
   "ipo": [
     {
       "ticker": "AVEX",
@@ -9,15 +9,23 @@
       "price_usd": 16.50,
       "pct_1m": -23.0,
       "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs -23%/mc od szczytu $42.34 - kontynuacja bez zmian, nie re-sprawdzano w tej rundzie"
+    },
+    {
+      "ticker": "FIGR",
+      "company": "Figure Technology Solutions Inc",
+      "age_months": 0,
+      "price_usd": 27.59,
+      "pct_1m": 10.4,
+      "catalyst": "Swiezy debiut 10.09.2026 (IPO $25/akcja, $788mln), dzien 1 zamkniecie $31.11 (+24.4%), dzis $27.59 - juz cofnieta z dnia 1, nadal +10.4% od ceny IPO. Blockchain/HELOC lending (crypto+mortgage marketplace), duze zainteresowanie IPO 2026. Pod progiem anti-chase +25%, bez still_upside na razie"
     }
   ],
   "volume": [
     {
       "ticker": "QNME",
       "company": "Quanome Technologies Inc (dawniej Lakeside Holding)",
-      "price_usd": 1.37,
-      "pct_1m": 400.0,
-      "catalyst": "Ekstremalny pump (+142% wczoraj, dalsze +114% premarket dzis) na newsie o 'przelomowym partnerstwie AI-chip' po rebrandingu z logistyki na 'quantum/AI' (05.08.2026). Brak realnych przychodow z quantum/AI, dzien po poprzednim spike'u spadla -10.71% - czysty pump do UNIKANIA, wzorzec jak LEGN/BCDA, bez still_upside"
+      "price_usd": 1.70,
+      "pct_1m": 480.0,
+      "catalyst": "Dalszy ekstremalny pump w trakcie sesji (+142% wczoraj, kolejne +20-24% dzis) na newsie o zakupie serwerow GPU od Compal Electronics ($18.8mln, 16.09) po rebrandingu z logistyki na 'quantum/AI' (05.08.2026). Brak realnych przychodow z quantum/AI, juz raz spadla -10.71% dzien po poprzednim spike'u - czysty pump ZDECYDOWANIE powyzej progu parabola +50%, do UNIKANIA (wzorzec LEGN/BCDA), bez still_upside"
     },
     {
       "ticker": "MXL",
@@ -133,9 +141,9 @@
     {
       "ticker": "RKLB",
       "company": "Rocket Lab Corp",
-      "price_usd": 67.63,
-      "pct_1m": -16.0,
-      "catalyst": "Pentagon/Space Force potwierdzenie broni orbitalnych, przyspiesza Golden Dome - kontynuacja bez zmian"
+      "price_usd": 71.47,
+      "pct_1m": 10.77,
+      "catalyst": "Pentagon/Space Force - dzisiejsze (22.09) ulozenie kilku swiezych kontraktow naraz: $190mln HASTE/MACH-TB 2.0 (20 lotow hipersonicznych), $266mln Space Force multi-launch, GEO satellite bus dla Viasat, umowa z Iridium. Golden Dome nadal w tle - kurs odbil w trakcie dzisiejszej sesji ($67.63 rano -> $71.47), pct_1m z ujemnego na dodatni"
     },
     {
       "ticker": "RDW",
