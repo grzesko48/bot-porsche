@@ -1,23 +1,23 @@
 [
   {
     "ticker": "ABBV",
-    "entry_usd": 265.36,
-    "stop_usd": 260.73,
-    "target_usd": 344.968,
+    "entry_usd": 265.3,
+    "stop_usd": 260.67,
+    "target_usd": 344.89,
     "score": 8.0
   },
   {
     "ticker": "ABT",
-    "entry_usd": 104.11,
-    "stop_usd": 102.02,
-    "target_usd": 135.343,
+    "entry_usd": 103.35,
+    "stop_usd": 101.37,
+    "target_usd": 134.355,
     "score": 7.7
   },
   {
     "ticker": "NVO",
-    "entry_usd": 39.4,
-    "stop_usd": 37.35,
-    "target_usd": 51.22,
+    "entry_usd": 38.3,
+    "stop_usd": 36.1,
+    "target_usd": 49.79,
     "score": 7.4
   }
 ]
