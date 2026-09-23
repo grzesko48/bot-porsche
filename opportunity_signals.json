@@ -1,86 +1,103 @@
 {
-  "_date": "2026-09-22",
-  "_run": "bieg WTOREK 2026-09-22 18:30 CEST (srodek sesji US, drugi bieg dnia). AKTUALIZACJA vs biegiem 14:30: RKLB (policy) $67.63->$71.47 (+5.7% w trakcie sesji), pct_1m -16%->+10.77% - dzisiejsze (22.09) artykuly o ulozonych kontraktach naraz: $190mln HASTE/MACH-TB 2.0 (20 lotow hipersonicznych) + $266mln Space Force multi-launch + GEO satellite bus dla Viasat + umowa z Iridium. Suma kontraktow (~$456mln) to jednak tylko ok. 1.3% kapitalizacji (~$34mld) - za malo wzgledem cap by dopisac do grupy 'contract' (analogicznie do MDWD wczesniej), zostaje w 'policy' z odswiezona cena/katalizatorem. QNME (volume) dalszy pump w trakcie sesji: $1.37->ok. $1.70 (kolejne +20-24% intraday na tym samym GPU/AI newsie z 16.09 - zakup serwerow GPU od Compal Electronics za $18.8mln), pct_1m szacowane teraz >450% - zdecydowanie ponad prog parabola +50%, kontynuacja UNIKANIA (wzorzec LEGN/BCDA), bez still_upside. NOWE: FIGR (Figure Technology Solutions) dodane do ipo - debiut 10.09.2026 (cena IPO $25), dzien 1 zamkniecie $31.11 (+24.4%), dzis $27.59 (nadal +10.4% od ceny IPO, juz cofnieta z dnia 1) - swiezy debiut <1mc. Sprawdzono i POMINIETO: AVAV (AeroVironment) - $464.8mln kontrakt Armii USA na system laserowy LOCUST X3, ale ogloszony juz na poczatku wrzesnia (NIE swiezy <48h) i to tylko ok. 6% kapitalizacji ($7-8mld) - za slaby/nieswiezy sygnal, jak MDWD/BKSY wczesniej. BBAI (BigBear.ai) wspomniany ogolnie w artykule o trendach kongresowych AI/defense, ale BEZ konkretnej daty/nazwiska kongresmena - zbyt slabe potwierdzenie, pominieto (congress nadal puste). Insider/fund13f - bez nowych danych w tej rundzie (jedna runda/grupe), kontynuacja list z 14:30 bez zmian. Kontynuacja bez zmian cen (nie re-sprawdzano w tej rundzie): AVEX, ELMT (contract), MXL/ICHR/GIPR/TCRT (volume), USAR/EMAT/IE/RDW (policy), GME/PVH/ATEC/DOMH (insider).",
+  "_date": "2026-09-23",
+  "_run": "bieg SRODA 2026-09-23 14:30 CEST (przed otwarciem USA, pierwszy bieg dnia). NOWE dzis: BFRG (Bullfrog AI Holdings) - CEO Vininder Singh ($45K, 75000 akcji) + CFO Joshua Blacher ($26.5K, 50000 akcji) obaj kupili akcje 22.09 po $0.53-0.60; jednoczesnie wolumen 46.86mln vs srednia 4.45mln (~10.5x) i +21.7% w sesji 22.09 - klastrowy insider buy + wolumen anomalia w tym samym dniu, dodano do insider ORAZ volume (konfluencja). RKLB (policy) - ARK Investment (Cathie Wood) kupil ok. 360000 akcji za $25.1mln w dniu 22.09 - dodano rowniez do fund13f jako proxy smart-money (brak swiezych danych 13F kwartalnych w tej rundzie, ARK codzienne ujawnienie transakcji jako najlepszy dostepny substytut). Odswiezono ceny: QNME $0.85->premarket $1.00 (+17% dalej, pct_1m nadal >500% - PARABOLA, kontynuacja UNIKANIA), USAR $15.50->$16.99 (pct_1m rosnie do ok. 38%, coraz cieplej ale still_upside podtrzymany - merger z Serra Verde domkniety + nowa fabryka), ELMT $19.88->$20.82 (dzis -4.63%, lekkie cofniecie, pct_1m ok. 40%, still_upside podtrzymany - kontrakt $450mln dopiero startuje), RKLB $67.63->$71.98 (pct_1m ok. 12%, dobry, nierozgrzany profil), AVEX $16.50->$15.90 (pct_1m ok. -25%, dalej dobry punkt wejscia, nie rozgrzany), FIGR $27.59->$37.11 (przeskok +34% w jedna sesje 22.09 na newsie o domknieciu akwizycji Kiavi - pct_1m teraz ok. +48%, blisko progu paraboli +50%, bez still_upside - czekac na cofniecie, nie gonic). SPRAWDZONO retro (KROK C, nie do kupienia - juz wybuchly): JAGX +1191% (reverse split 1:15 + FDA fee waiver, mikrofloat po splicie) i VKTX +25-35% (dane Fazy 2 VK2735 otylosc) - oba zdecydowanie w strefie paraboli/nie do gonienia, nie dodano do sygnalow. Bez zmian (nie re-sprawdzano w tej rundzie): GIPR, TCRT, MXL, ICHR (volume), GME, PVH, ATEC, DOMH (insider), IE, RDW (policy). Congress - brak konkretnych, swiezych, imiennych transakcji z data w tej rundzie (Capitol Trades/Trendlyne zwrocily blad 429/405) - pozostaje puste.",
   "ipo": [
     {
       "ticker": "AVEX",
       "company": "AEVEX Corp",
       "age_months": 5,
-      "price_usd": 16.50,
-      "pct_1m": -23.0,
-      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien; IPO 04.2026 ($320mln), kurs -23%/mc od szczytu $42.34 - kontynuacja bez zmian, nie re-sprawdzano w tej rundzie"
+      "price_usd": 15.90,
+      "pct_1m": -25.0,
+      "catalyst": "Trump/DoD kontrakt - producent bezzalogowcow (one-way attack systems) dla US gov, $92.2mln wieloletni kontrakt z Dept. of War + $20.5mln zamowien na one-way attack systems; IPO 04.2026 ($320mln), kurs dalej w -25%/mc od szczytu $42.34 - dobry, nierozgrzany punkt wejscia"
     },
     {
       "ticker": "FIGR",
       "company": "Figure Technology Solutions Inc",
       "age_months": 0,
-      "price_usd": 27.59,
-      "pct_1m": 10.4,
-      "catalyst": "Swiezy debiut 10.09.2026 (IPO $25/akcja, $788mln), dzien 1 zamkniecie $31.11 (+24.4%), dzis $27.59 - juz cofnieta z dnia 1, nadal +10.4% od ceny IPO. Blockchain/HELOC lending (crypto+mortgage marketplace), duze zainteresowanie IPO 2026. Pod progiem anti-chase +25%, bez still_upside na razie"
+      "price_usd": 37.11,
+      "pct_1m": 48.0,
+      "catalyst": "Swiezy debiut 10.09.2026 (IPO $25/akcja). Skok +34% w sesji 22.09 na newsie o domknieciu akwizycji Kiavi (loan origination + marketplace, Q2 wolumen pozyczek +132% r/r, zysk netto +283%). Blisko progu paraboli +50% - CZEKAC na cofniecie, nie gonic, bez still_upside"
     }
   ],
   "volume": [
     {
+      "ticker": "BFRG",
+      "company": "Bullfrog AI Holdings",
+      "price_usd": 0.60,
+      "pct_1m": 18.0,
+      "catalyst": "Wolumen 46.86mln vs srednia 4.45mln (~10.5x) w sesji 22.09, +21.7% dzien, rownolegle z klastrowym insider buy CEO+CFO (patrz insider) - swieza anomalia wolumenowa z konkretnym uzasadnieniem (nie czysty mechaniczny pump)"
+    },
+    {
       "ticker": "QNME",
       "company": "Quanome Technologies Inc (dawniej Lakeside Holding)",
-      "price_usd": 1.70,
-      "pct_1m": 480.0,
-      "catalyst": "Dalszy ekstremalny pump w trakcie sesji (+142% wczoraj, kolejne +20-24% dzis) na newsie o zakupie serwerow GPU od Compal Electronics ($18.8mln, 16.09) po rebrandingu z logistyki na 'quantum/AI' (05.08.2026). Brak realnych przychodow z quantum/AI, juz raz spadla -10.71% dzien po poprzednim spike'u - czysty pump ZDECYDOWANIE powyzej progu parabola +50%, do UNIKANIA (wzorzec LEGN/BCDA), bez still_upside"
+      "price_usd": 1.00,
+      "pct_1m": 520.0,
+      "catalyst": "Dalszy pump w premarket 23.09 (+17.5%) na starym newsie o zakupie serwerow GPU (Compal Electronics, $18.8mln, 16.09) po rebrandingu logistyka->'quantum/AI'. Brak realnych przychodow. ZDECYDOWANIE powyzej progu parabola +50% (juz >500%) - do UNIKANIA (wzorzec LEGN/BCDA), bez still_upside"
     },
     {
       "ticker": "MXL",
       "company": "MaxLinear Inc",
       "price_usd": 81.12,
       "pct_1m": 35.0,
-      "catalyst": "Dwudniowy rajd na sektorowej fali polprzewodnikow AI/optical infra (+8% piatek 18.09 na tle Broadcom+3%/Micron+3.9%, +8.17% w poniedzialek 21.09). POWYZEJ progu anti-chase +25% - do obserwacji/czekania na cofniecie, brak pojedynczego kontraktu (szeroka fala sektorowa), bez still_upside - kontynuacja bez zmian"
+      "catalyst": "Kontynuacja z poprzedniego biegu (nie re-sprawdzano): rajd sektorowy polprzewodniki AI/optical infra. Powyzej progu anti-chase +25% - czekac na cofniecie, bez still_upside"
     },
     {
       "ticker": "ICHR",
       "company": "Ichor Holdings Ltd",
       "price_usd": 56.38,
       "pct_1m": -19.0,
-      "catalyst": "Swiezy upgrade Wall Street Zen do Buy (21.09.2026) w kontekscie popytu foundry/memory/AI na sprzet do produkcji polprzewodnikow. NIE rozgrzany (pct_1m ujemny) - dobry profil wejscia - kontynuacja bez zmian"
+      "catalyst": "Kontynuacja z poprzedniego biegu (nie re-sprawdzano): upgrade Wall Street Zen do Buy (21.09) - popyt foundry/memory/AI na sprzet produkcyjny. NIE rozgrzany - dobry profil wejscia"
     },
     {
       "ticker": "GIPR",
       "company": "Generation Income Properties",
       "price_usd": 0.67,
       "pct_1m": 150.0,
-      "catalyst": "Ekstremalny spike +167% w poniedzialek na wolumenie 296mln (srednia 23mln), ale BRAK swiezego potwierdzonego katalizatora biznesowego (ostatni insider buy z 11.2024), cofniecie -61% od szczytu sesji - czysty mechaniczny pump, do unikania - kontynuacja bez zmian"
+      "catalyst": "Kontynuacja z poprzedniego biegu (nie re-sprawdzano): ekstremalny spike bez swiezego katalizatora biznesowego, cofniecie -61% od szczytu - czysty mechaniczny pump, do unikania"
     },
     {
       "ticker": "TCRT",
       "company": "Alaunos Therapeutics Inc",
       "price_usd": 1.50,
       "pct_1m": 45.0,
-      "catalyst": "+40-45% w poniedzialek na niejasnym 'pozytywnym sentymencie biotechowym' bez konkretnego 8-K/wyniku, ekstremalna zmiennosc intraday, spekulacyjny szum nano-cap - do unikania - kontynuacja bez zmian"
+      "catalyst": "Kontynuacja z poprzedniego biegu (nie re-sprawdzano): niejasny sentyment biotechowy bez konkretnego 8-K, spekulacyjny szum nano-cap - do unikania"
     }
   ],
   "contract": [
     {
       "ticker": "AVEX",
       "company": "AEVEX Corp",
-      "price_usd": 16.50,
-      "pct_1m": -23.0,
-      "catalyst": "Trump/DoD kontrakt na bezzalogowce (one-way attack systems) - $41mln kontrakt 18-20.08.2026 + $20.5mln nowych zamowien - kontynuacja bez zmian"
+      "price_usd": 15.90,
+      "pct_1m": -25.0,
+      "catalyst": "Trump/DoD - $92.2mln wieloletni kontrakt Dept. of War + $20.5mln zamowien one-way attack systems, dodatkowo swiezy jet-powered platform 'Specter' i przejecie BlackSea Technologies - nierozgrzany"
     },
     {
       "ticker": "ELMT",
       "company": "The Elmet Group",
-      "price_usd": 19.88,
-      "pct_1m": 47.0,
-      "catalyst": "Trump/DoD - Defense Logistics Agency kontrakt na tungsten (National Defense Stockpile), pulap do $2mld + $450mln inwestycji Dept. of War - kontynuacja bez zmian",
+      "price_usd": 20.82,
+      "pct_1m": 40.0,
+      "catalyst": "Trump/DoD - Defense Logistics Agency kontrakt na tungsten (National Defense Stockpile) pulap do $2mld + $450mln inwestycji Dept. of War, plus akwizycja niemieckich operacji metalowych",
       "still_upside": true,
-      "upside_reason": "Pulap kontraktu (do $2mld) >3x kapitalizacji, wieloletnia widocznosc przychodow do 2031, realizacja dopiero sie zaczyna"
+      "upside_reason": "Pulap kontraktu (do $2mld) >3x kapitalizacji ($634mln), cel przychodow $1.5-1.7mld do 2031, realizacja dopiero sie zaczyna"
     }
   ],
   "insider": [
+    {
+      "ticker": "BFRG",
+      "company": "Bullfrog AI Holdings",
+      "buyers": 2,
+      "usd_total": 71500,
+      "days_ago": 1,
+      "price_usd": 0.60,
+      "pct_1m": 18.0,
+      "catalyst": "CEO Vininder Singh ($45K/75000 akcji) + CFO Joshua Blacher ($26.5K/50000 akcji) obaj kupili 22.09 - klastrowy zakup 2 top-executives tego samego dnia, rownolegle z wolumenem 10.5x normy"
+    },
     {
       "ticker": "GME",
       "company": "GameStop Corp",
       "buyers": 1,
       "usd_total": 20375900,
-      "days_ago": 12,
+      "days_ago": 13,
       "price_usd": 21.44,
       "pct_1m": 18.5
     },
@@ -89,7 +106,7 @@
       "company": "PVH Corp",
       "buyers": 2,
       "usd_total": 1248501,
-      "days_ago": 11,
+      "days_ago": 12,
       "price_usd": 72.01,
       "pct_1m": -16.9
     },
@@ -98,7 +115,7 @@
       "company": "Alphatec Holdings",
       "buyers": 1,
       "usd_total": 1013150,
-      "days_ago": 12,
+      "days_ago": 13,
       "price_usd": 9.68,
       "pct_1m": 12.0
     },
@@ -107,50 +124,60 @@
       "company": "Dominari Holdings",
       "buyers": 2,
       "usd_total": 418000,
-      "days_ago": 8,
+      "days_ago": 9,
       "price_usd": 4.31,
       "pct_1m": 6.0
     }
   ],
-  "fund13f": [],
+  "fund13f": [
+    {
+      "ticker": "RKLB",
+      "company": "Rocket Lab Corp",
+      "fund": "ARK Investment Management (Cathie Wood)",
+      "action": "kupno ~360000 akcji za $25.1mln, 22.09.2026",
+      "price_usd": 71.98,
+      "pct_1m": 12.0,
+      "catalyst": "Codzienne ujawnienie transakcji ARK ETF jako proxy smart-money (brak swiezego kwartalnego 13F w tej rundzie) - zbiega sie z seria kontraktow Pentagon/Space Force w tym tygodniu"
+    }
+  ],
   "congress": [],
   "policy": [
     {
       "ticker": "USAR",
       "company": "USA Rare Earth Inc",
-      "price_usd": 15.50,
-      "pct_1m": 29.0,
-      "catalyst": "Trump/critical minerals - partnerstwo z Pasqal+Riven Systems (17.09.2026, separacja ziem rzadkich metoda quantum ML) + swieza kapitalizacja $1.55mld rzadowo wspieranego SPV powiazanego z offtake Serra Verde - kontynuacja bez zmian",
+      "price_usd": 16.99,
+      "pct_1m": 38.0,
+      "catalyst": "Trump/critical minerals - merger z Serra Verde Group domkniety, poczatek budowy fabryki w Blacksburg (South Carolina) + partnerstwo Pasqal/Riven Systems (separacja ziem rzadkich quantum ML). 9 analitykow 'Strong Buy', cel $35.56 (+109%)",
       "still_upside": true,
-      "upside_reason": "Dwa niezalezne swieze katalizatory w tym samym tygodniu (partnerstwo technologiczne + rzadowo wspierane finansowanie SPV), pct_1m na granicy progu +25%, temat dopiero nabiera tempa"
+      "upside_reason": "Domkniecie duzego mergera + rozpoczecie budowy fabryki to poczatek nowego etapu (nie koniec katalizatora), silne wsparcie analitykow z duzym upside; pct_1m rosnie ale wciaz ponizej +50%"
     },
     {
       "ticker": "EMAT",
       "company": "Evolution Metals & Technologies Corp",
-      "price_usd": 3.99,
-      "pct_1m": 10.0,
-      "catalyst": "Trump/critical minerals - preliminary inclusion do Russell 2000/3000 (efektywne 21.09) + rozbudowa platformy magnesow ziem rzadkich (non-China feedstock). UWAGA: dane cenowe niespojne miedzy zrodlami - male zaufanie do ceny, male/ostrozne pozycjonowanie - kontynuacja bez zmian"
+      "price_usd": 3.72,
+      "pct_1m": 3.0,
+      "catalyst": "Trump/critical minerals - wlaczenie do Russell 2000/3000 efektywne 21.09 (zwieksza widocznosc dla $12.2bln kapitalu benchmarkowanego), platforma magnesow ziem rzadkich (non-China feedstock). Nierozgrzany - dobry punkt obserwacji, ale rozbiezne dane cenowe miedzy zrodlami (male zaufanie)"
     },
     {
       "ticker": "IE",
       "company": "Ivanhoe Electric",
       "price_usd": 11.19,
       "pct_1m": 0.0,
-      "catalyst": "Trump/DFC-EXIM - US EXIM Bank Preliminary Project Letter $1.1mld na Santa Cruz Copper Project - kontynuacja bez zmian"
+      "catalyst": "Trump/DFC-EXIM - US EXIM Bank Preliminary Project Letter $1.1mld na Santa Cruz Copper Project - kontynuacja bez zmian, nierozgrzany"
     },
     {
       "ticker": "RKLB",
       "company": "Rocket Lab Corp",
-      "price_usd": 71.47,
-      "pct_1m": 10.77,
-      "catalyst": "Pentagon/Space Force - dzisiejsze (22.09) ulozenie kilku swiezych kontraktow naraz: $190mln HASTE/MACH-TB 2.0 (20 lotow hipersonicznych), $266mln Space Force multi-launch, GEO satellite bus dla Viasat, umowa z Iridium. Golden Dome nadal w tle - kurs odbil w trakcie dzisiejszej sesji ($67.63 rano -> $71.47), pct_1m z ujemnego na dodatni"
+      "price_usd": 71.98,
+      "pct_1m": 12.0,
+      "catalyst": "Pentagon/Space Force - $190mln HASTE/MACH-TB 2.0 (20 lotow hipersonicznych) + $266mln Space Force multi-launch + GEO satellite bus Viasat + umowa Iridium (finansowanie akwizycji Iridium $1.94mld ATM). Dzis dodatkowo ARK kupilo $25.1mln akcji (patrz fund13f) - konfluencja polityka+smart money"
     },
     {
       "ticker": "RDW",
       "company": "Redwire Corp",
       "price_usd": 11.45,
       "pct_1m": -3.0,
-      "catalyst": "Pentagon/Space Force broni orbitalnych + Golden Dome, aktywne kontrakty Space Force - kontynuacja bez zmian"
+      "catalyst": "Pentagon/Space Force broni orbitalnych + Golden Dome, aktywne kontrakty Space Force - kontynuacja bez zmian, nierozgrzany"
     }
   ]
 }

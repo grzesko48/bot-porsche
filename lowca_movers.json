@@ -1,34 +1,18 @@
 [
   {
-    "ticker": "GRML",
-    "company": "Greenland Mines Ltd",
-    "pct": 206.5,
-    "day": "2026-09-21",
-    "presignal": "Realny presygnal istnial juz w piatek 18.09 wieczorem (po zamknieciu USA) - Trump oglosil przelomowy pakt bezpieczenstwa USA-Dania-Grenlandia (USA dostaje kontrole nad kim wolno inwestowac/wydobywac na Grenlandii). Rynek nie mogl zareagowac do poniedzialkowego otwarcia (weekend). Dodatkowo w poniedzialek rano spolka oglosila podwojenie ziemi w dystrykcie rzadkich ziem Sarfartoq - drugi, wzmacniajacy katalizator tego samego dnia.",
-    "lesson": "Po duzych geopolitycznych ogloszeniach w piatek wieczorem/weekend (zwlaszcza dot. surowcow krytycznych/bezpieczenstwa), w poniedzialek PRZED otwarciem przeskanuj tematycznie powiazane micro-capy (tu: 'Greenland-linked' male spolki) - czesto gapuja mocno na otwarciu, a temat bywa znany juz 2-3 dni wczesniej."
+    "ticker": "JAGX",
+    "company": "Jaguar Health Inc",
+    "pct": 1191.0,
+    "day": "2026-09-22",
+    "presignal": "1-for-15 reverse split wszedl w zycie niecały tydzień przed spike'iem (dla zgodności z wymogami listingowymi Nasdaq) - drastycznie zmniejszył free float. W dniu ruchu FDA ogłosiła zwolnienie z opłat FY2027 dla dwóch leków spółki (Mytesi - biegunka HIV, Canalevia-CA1 - lek weterynaryjny), co samo w sobie jest drobną, pozytywną, ale niewielką wiadomością (redukcja presji gotówkowej, nie nowy przychód). Kapitalizacja po splicie zaledwie $13.7mln - starczyło minimalnego popytu by wywołać ekstremalny ruch.",
+    "lesson": "Świeży (<10 dni) reverse split w micro-cap biotech = mikroskopijny post-split float, bardzo podatny na ekstremalny ruch na NAWET drobnym pozytywnym newsie (tu: zwolnienie z opłat FDA, nie nowy lek/kontrakt). Śledzić ogłoszenia reverse split w spółkach <$50mln kapitalizacji jako podwyższone ryzyko/szansę zmienności na kolejne 1-2 tygodnie po splicie - ale NIE gonić po fakcie (ruch >1000% to czysta parabola)."
   },
   {
-    "ticker": "GLND",
-    "company": "Greenland Energy Company",
-    "pct": 140.0,
-    "day": "2026-09-21",
-    "presignal": "Ten sam presygnal co GRML - pakt bezpieczenstwa USA-Dania-Grenlandia oglaszony w piatek 18.09 wieczorem, plus dodatkowy watek: propozycja fuzji all-share z 80 Mile Plc utrzymujaca zainteresowanie aktywami w Grenlandii.",
-    "lesson": "Potwierdza wzorzec z GRML - koszykowy ruch calego sektora 'Greenland-linked' na jednym katalizatorze politycznym. Warto przy takich ogloszeniach szukac calej grupy powiazanych tickerow, nie tylko jednego."
-  },
-  {
-    "ticker": "VEEE",
-    "company": "Twin Vee Powercats Co",
-    "pct": 68.4,
-    "day": "2026-09-21",
-    "presignal": "Ogloszenie umowy fuzji laczacej spolke publiczna z podmiotem zaleznym USFM Corporation - klasyczny 'merger pop' w low-float nazwie (spolka miala wczesniej spadek z $10+ do $8-9 w sierpniu, wiec ruch to odwrocenie trendu na newsie, nie kontynuacja momentum).",
-    "lesson": "Ogloszenia fuzji/przejec w bardzo malych, niskoplynnych spolkach (low-float) potrafia dac ekstremalny jednodniowy ruch - warto miec osobny sygnal 'merger/combination announcement' obok kontraktow i insider buys."
-  },
-  {
-    "ticker": "VRME",
-    "company": "VerifyMe Inc",
-    "pct": 78.6,
-    "day": "2026-09-21",
-    "presignal": "Brak jednoznacznego, potwierdzonego katalizatora z samego dnia w dostepnych zrodlach - jedynie kontekst przedluzonej (do 31.10.2026) umowy fuzji z Open World oraz rosnace zainteresowanie wyszukiwaniem spolki (+139% w 30 dni). Prawdopodobnie czysty low-float momentum/short squeeze bez twardego newsa.",
-    "lesson": "Nie kazdy duzy ruch ma czytelny presygnal - male, niskoplynne spolki z toczaca sie, przedluzana transakcja fuzji moga generowac powtarzajaca sie zmiennosc bez nowego newsa danego dnia. Traktowac jako szum, nie gonic bez konkretnego katalizatora."
+    "ticker": "VKTX",
+    "company": "Viking Therapeutics Inc",
+    "pct": 35.0,
+    "day": "2026-09-22",
+    "presignal": "Zaplanowane (znane z góry z kalendarza biotech) dane Fazy 2 dla VK2735 (dualny agonista GLP-1/GIP na otyłość) - pacjenci osiągnęli średnio 22% redukcji wagi w 33 tygodnie przy przejściu na dawkę podtrzymującą, profil bezpieczeństwa opisany jako 'najlepszy możliwy scenariusz' przez analityka Truist. Data odczytu wyników była znana z wyprzedzeniem (harmonogram badań klinicznych), ale konkretna treść wyniku - nie.",
+    "lesson": "Duże, dobrze skapitalizowane (nie micro-cap) biotechy z zaplanowanym odczytem danych Fazy 2/3 (znanym z kalendarza katalizatorów klinicznych) mogą dać >25-35% w jeden dzień na SAMYM wyniku - to nie do złapania z wyprzedzeniem bez insider info, ale warto prowadzić kalendarz nadchodzących odczytów danych (VK2735, podobne late-stage obesity/GLP-1 trialsy) żeby wiedzieć KIEDY ryzyko/szansa jednodniowego skoku jest podwyższone, nawet jeśli się nie wchodzi przed wynikiem."
   }
 ]
