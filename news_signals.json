@@ -1,46 +1,46 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-09-23",
   "signals": [
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wyniki FQ4 zaplanowane na 30 wrzesnia — brak swiezego katalizatora w oknie 7 dni",
-      "as_of": "2026-09-18",
+      "headline": "Wyniki FQ4 zaplanowane na 30 wrzesnia — zdarzenie przyszle, brak zrealizowanego katalizatora w oknie 7 dni; tylko komentarze analitykow (RBC Another Strong Quarter)",
+      "as_of": "2026-09-23",
       "confidence": 0.5,
       "source_count": 2,
       "sources": [
-        {"label": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/"},
-        {"label": "Motley Fool", "url": "https://www.fool.com/investing/2026/09/18/micron-is-poised-to-surge-after-its-fiscal-year-en/"}
+        {"label": "Motley Fool", "url": "https://www.fool.com/investing/2026/09/18/micron-is-poised-to-surge-after-its-fiscal-year-en/"},
+        {"label": "StockAnalysis", "url": "https://stockanalysis.com/stocks/mu/"}
       ]
     },
     {
       "ticker": "LITE",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Partnerstwo NVIDIA $2 mld ogloszone 2 marca 2026 — stare, poza oknem 7 dni",
-      "as_of": "2026-03-02",
-      "confidence": 0.6,
+      "has_catalyst": true,
+      "catalyst_type": "recommendation",
+      "direction": "bullish",
+      "headline": "Deutsche Bank inicjuje Buy z celem $1200 + wejscie do indeksu FTSE All-World; +9.4% 22 wrz na popycie na optyke AI",
+      "as_of": "2026-09-22",
+      "confidence": 0.55,
       "source_count": 2,
       "sources": [
-        {"label": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology"},
-        {"label": "Globe and Mail", "url": "https://www.theglobeandmail.com/investing/markets/stocks/LITE/pressreleases/545805/lumentum-raises-2-billion-deepens-nvidia-strategic-partnership/"}
+        {"label": "StocksToTrade", "url": "https://stockstotrade.com/news/lumentum-holdings-inc-lite-news-2026_09_16-3/"},
+        {"label": "CNN Markets", "url": "https://www.cnn.com/markets/stocks/LITE"}
       ]
     },
     {
       "ticker": "MRNA",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Aprobata FDA mFLUSIVA z ~19 sierpnia — poza oknem 7 dni; insiderzy netto sprzedaja",
-      "as_of": "2026-08-19",
-      "confidence": 0.5,
+      "has_catalyst": true,
+      "catalyst_type": "clinical",
+      "direction": "bullish",
+      "headline": "Pozytywne wyniki Fazy III szczepionki onkologicznej intismeran (czerniak) 17 wrz; +9-13% w tygodniu; Argus podnosi do Buy $180. UWAGA: bezpieczniki bota odrzucily jako parabola/gonienie gorki",
+      "as_of": "2026-09-17",
+      "confidence": 0.6,
       "source_count": 2,
       "sources": [
-        {"label": "PharmExec", "url": "https://www.pharmexec.com/view/fda-moderna-mrna-based-flu-vaccine"},
-        {"label": "Timothy Sykes", "url": "https://www.timothysykes.com/news/moderna-inc-mrna-news-2026_08_19-2/"}
+        {"label": "TimothySykes", "url": "https://www.timothysykes.com/news/moderna-inc-mrna-news-2026_09_17/"},
+        {"label": "StocksToTrade", "url": "https://stockstotrade.com/news/moderna-inc-mrna-news-2026_09_21/"}
       ]
     },
     {
@@ -48,27 +48,27 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Rekordowe zamowienia AI i podwyzka prognoz z poczatku wrzesnia — poza oknem 7 dni",
-      "as_of": "2026-09-11",
+      "headline": "Podniesienie prognoz i rekordowy backlog serwerow AI ($95 mld) raportowane 1 wrz — poza oknem 7 dni; ostatnie doniesienia to re-coverage tej samej historii, nie nowy katalizator",
+      "as_of": "2026-09-23",
       "confidence": 0.5,
       "source_count": 2,
       "sources": [
-        {"label": "StocksToTrade", "url": "https://stockstotrade.com/news/dell-technologies-inc-class-c-dell-news-2026_09_11/"},
-        {"label": "Vantage Markets", "url": "https://www.vantagemarkets.com/market-news/dell-ai-server-backlog-on-premise-september-9-2026/"}
+        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-01/dell-raises-annual-revenue-outlook-on-sustained-ai-server-sales"},
+        {"label": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/09/17/dells-ai-backlog-surge-positions-stock-for-600-as-server-revenue-doubles/"}
       ]
     },
     {
       "ticker": "MRVL",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Umowa custom silicon z Google (warrant 18 sierpnia) — poza oknem 7 dni",
-      "as_of": "2026-08-19",
-      "confidence": 0.5,
+      "has_catalyst": true,
+      "catalyst_type": "product",
+      "direction": "bullish",
+      "headline": "Pierwsze w branzy 2nm interkonekty optyczne na ECOC 2026; Morgan Stanley podnosi cel do $268 przed Investor Day 6 pazdziernika; +6% 22 wrz",
+      "as_of": "2026-09-22",
+      "confidence": 0.6,
       "source_count": 2,
       "sources": [
-        {"label": "CNBC", "url": "https://www.cnbc.com/2026/08/19/marvell-google-ai-chips.html"},
-        {"label": "SEC 8-K", "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526134462/d113606dex991.htm"}
+        {"label": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/09/22/marvell-stock-forecast-mrvl-2nm-optical-tech/"},
+        {"label": "MarketBeat", "url": "https://www.marketbeat.com/stocks/NASDAQ/MRVL/"}
       ]
     }
   ]

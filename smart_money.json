@@ -1,35 +1,27 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-09-23",
   "insiders": {
-    "MRNA": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "13 sprzedazy / 0 kupna 6m, ale rutynowe 10b5-1 (Hoge, Mock) — nie traktuje jak klaster"},
-    "MRVL": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "netto sprzedaz 3m, rutynowe transakcje opcyjne"},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "Silver Lake (sponsor PE) konwersja/sprzedaz 16 wrz — nie sygnal insidera"},
-    "LITE": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "13 sprzedazy dominuje, rutynowe"}
+    "MU": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "brak transakcji insiderow open-market w oknie; brak klastra kupna"},
+    "LITE": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "rutynowe sprzedaze (~1500 akcji @903 wg Form 4), brak klastra kupna"},
+    "MRNA": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "sprzedaze zdominowane przez rutynowe 10b5-1, brak sygnalu kupna"},
+    "DELL": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "Silver Lake (SL SPV-2), Egon Durban sprzedaz 3-9 wrz @496-551 — sponsor PE, NIE sygnal insidera"},
+    "MRVL": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "CEO Murphy sprzedaz w marcu (rutyna), brak klastra kupna w oknie"}
   },
   "funds": {
     "MU": [
-      {"manager": "Trivest Advisors", "pct_portfolio": 19.1, "action": "add"},
-      {"manager": "Lountzis Asset Management", "pct_portfolio": null, "action": "new"}
+      {"manager": "Trivest Advisors", "pct_portfolio": 19.1, "action": "add"}
     ],
     "LITE": [
-      {"manager": "WT Asset Management", "pct_portfolio": null, "action": "add"},
-      {"manager": "Sixth Street Partners", "pct_portfolio": null, "action": "add"}
+      {"manager": "WT Asset Management", "pct_portfolio": null, "action": "add"}
     ],
     "MRNA": [
-      {"manager": "Waverly Advisors", "pct_portfolio": null, "action": "new"},
-      {"manager": "Baillie Gifford", "pct_portfolio": null, "action": "trim"}
+      {"manager": "Waverly Advisors", "pct_portfolio": null, "action": "new"}
     ],
     "MRVL": [
       {"manager": "Congress Asset Management", "pct_portfolio": null, "action": "add"}
     ],
     "DELL": []
   },
-  "politicians": {
-    "LITE": [
-      {"name": "Josh Gottheimer", "days_to_disclose": null, "top_tier": false, "committee_match": false},
-      {"name": "Gilbert Ray Cisneros Jr", "days_to_disclose": null, "top_tier": false, "committee_match": false},
-      {"name": "Alan Armstrong", "days_to_disclose": null, "top_tier": false, "committee_match": false}
-    ]
-  },
+  "politicians": {},
   "sector_exits": []
 }
