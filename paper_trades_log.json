@@ -493,5 +493,27 @@
     "value_pln": 4358.04,
     "pnl_pln": 0.0,
     "reason": "wejście (core, score 7.7)"
+  },
+  {
+    "date": "2026-09-24",
+    "ticker": "ABT",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 11.0068,
+    "price_usd": 101.36,
+    "value_pln": 4284.09,
+    "pnl_pln": -119.82,
+    "reason": "stop trafiony (zwrot -2.7%)"
+  },
+  {
+    "date": "2026-09-24",
+    "ticker": "NVO",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 29.0458,
+    "price_usd": 38.41,
+    "value_pln": 4284.09,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.7)"
   }
 ]

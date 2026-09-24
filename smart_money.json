@@ -1,26 +1,18 @@
 {
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "insiders": {
     "MU": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "brak transakcji insiderow open-market w oknie; brak klastra kupna"},
-    "LITE": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "rutynowe sprzedaze (~1500 akcji @903 wg Form 4), brak klastra kupna"},
-    "MRNA": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "sprzedaze zdominowane przez rutynowe 10b5-1, brak sygnalu kupna"},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "Silver Lake (SL SPV-2), Egon Durban sprzedaz 3-9 wrz @496-551 — sponsor PE, NIE sygnal insidera"},
-    "MRVL": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "CEO Murphy sprzedaz w marcu (rutyna), brak klastra kupna w oknie"}
+    "MRNA": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "brak sygnalu kupna insiderow w oknie; sprzedaze rutynowe 10b5-1"},
+    "LITE": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "brak klastra kupna insiderow w oknie"},
+    "DELL": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "brak sygnalu kupna insiderow w oknie"},
+    "MRVL": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "CEO Matt Murphy sprzedal 7500 akcji 15 wrz (Form 4); sprzedaz insiderow dominuje 25:4 w skali roku. Brak klastra kupna — sygnal raczej negatywny/neutralny, nie kupno"}
   },
   "funds": {
-    "MU": [
-      {"manager": "Trivest Advisors", "pct_portfolio": 19.1, "action": "add"}
-    ],
-    "LITE": [
-      {"manager": "WT Asset Management", "pct_portfolio": null, "action": "add"}
-    ],
-    "MRNA": [
-      {"manager": "Waverly Advisors", "pct_portfolio": null, "action": "new"}
-    ],
-    "MRVL": [
-      {"manager": "Congress Asset Management", "pct_portfolio": null, "action": "add"}
-    ],
-    "DELL": []
+    "MU": [],
+    "MRNA": [],
+    "LITE": [],
+    "DELL": [],
+    "MRVL": []
   },
   "politicians": {},
   "sector_exits": []
