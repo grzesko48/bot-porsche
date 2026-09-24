@@ -1,26 +1,18 @@
 [
   {
-    "ticker": "JAGX",
-    "company": "Jaguar Health Inc",
-    "pct": 1191.0,
-    "day": "2026-09-22",
-    "presignal": "1-for-15 reverse split wszedl w zycie niecały tydzień przed spike'iem (dla zgodności z wymogami listingowymi Nasdaq) - drastycznie zmniejszył free float. W dniu ruchu FDA ogłosiła zwolnienie z opłat FY2027 dla dwóch leków spółki (Mytesi - biegunka HIV, Canalevia-CA1 - lek weterynaryjny), co samo w sobie jest drobną, pozytywną, ale niewielką wiadomością (redukcja presji gotówkowej, nie nowy przychód). Kapitalizacja po splicie zaledwie $13.7mln - starczyło minimalnego popytu by wywołać ekstremalny ruch.",
-    "lesson": "Świeży (<10 dni) reverse split w micro-cap biotech = mikroskopijny post-split float, bardzo podatny na ekstremalny ruch na NAWET drobnym pozytywnym newsie (tu: zwolnienie z opłat FDA, nie nowy lek/kontrakt). Śledzić ogłoszenia reverse split w spółkach <$50mln kapitalizacji jako podwyższone ryzyko/szansę zmienności na kolejne 1-2 tygodnie po splicie - ale NIE gonić po fakcie (ruch >1000% to czysta parabola)."
+    "ticker": "BENF",
+    "company": "Beneficient",
+    "pct": 290.0,
+    "day": "2026-09-23",
+    "presignal": "Brak realnego pre-sygnalu dzien wczesniej - plan usuniecia $130mln spornego dlugu i $850mln uprzywilejowanych udzialow powiazanych z bylym CEO Bradem Heppnerem (skazanym za oszustwo 07.05) ogloszony i zareagowany tego samego dnia. Kurs spikowal do $3.03, po czym odwrocil sie gwaltownie do $1.60 w tej samej sesji.",
+    "lesson": "Ogloszenia usuwania spornego dlugu/pasywow powiazanych ze skazanym za oszustwo byla kierownictwa wywoluja natychmiastowy, spekulacyjny pop prawny - ale sa wysoce podatne na rownie gwaltowne odwrocenie tego samego dnia (whipsaw). To sygnal do UNIKANIA pogoni w trakcie sesji, nie do wejscia - czekac na ustabilizowanie ceny po fakcie, nie na sam news restrukturyzacyjny."
   },
   {
-    "ticker": "VKTX",
-    "company": "Viking Therapeutics Inc",
-    "pct": 35.0,
-    "day": "2026-09-22",
-    "presignal": "Zaplanowane (znane z góry z kalendarza biotech) dane Fazy 2 dla VK2735 (dualny agonista GLP-1/GIP na otyłość) - pacjenci osiągnęli średnio 22% redukcji wagi w 33 tygodnie przy przejściu na dawkę podtrzymującą, profil bezpieczeństwa opisany jako 'najlepszy możliwy scenariusz' przez analityka Truist. Data odczytu wyników była znana z wyprzedzeniem (harmonogram badań klinicznych), ale konkretna treść wyniku - nie.",
-    "lesson": "Duże, dobrze skapitalizowane (nie micro-cap) biotechy z zaplanowanym odczytem danych Fazy 2/3 (znanym z kalendarza katalizatorów klinicznych) mogą dać >25-35% w jeden dzień na SAMYM wyniku - to nie do złapania z wyprzedzeniem bez insider info, ale warto prowadzić kalendarz nadchodzących odczytów danych (VK2735, podobne late-stage obesity/GLP-1 trialsy) żeby wiedzieć KIEDY ryzyko/szansa jednodniowego skoku jest podwyższone, nawet jeśli się nie wchodzi przed wynikiem."
-  },
-  {
-    "ticker": "VICR",
-    "company": "Vicor Corp",
-    "pct": 19.85,
-    "day": "2026-09-22",
-    "presignal": "Dzień wcześniej (16.09) spółka po cichu ujawniła royalty-bearing licencję Vertical Power Delivery (VPD) dla wiodącego AI OEM. 21.09 (dzień przed głównym ruchem) Vicor podniósł guidance wzrostu przychodów Q3 z ~10% do >20%, tłumacząc to właśnie tą licencją - jawny, publiczny presygnał jeden dzień przed +19.85% ruchem 22.09 (kontynuacja +20.57% w tygodniu, dziś 23.09 dalej wyżej do $277).",
-    "lesson": "Podniesienie guidance kwartalnego tłumaczone konkretną, świeżo ujawnioną umową licencyjną/royalty (nie ogólnikowe 'mocny popyt') to publiczny, możliwy do złapania presygnał na 1 dzień przed reakcją rynku - warto skanować 8-K/komunikaty o guidance raise w spółkach półprzewodnikowych/power-electronics z ekspozycją na AI supply chain jako watchlist na następną sesję. UWAGA: spółka była już wcześniej mocno rozgrzana (GF Value >220% przewartościowanie, YTD +179%) - to nie okazja do gonienia po fakcie, tylko wzorzec do rozpoznania szybciej następnym razem."
+    "ticker": "NNBR",
+    "company": "NN Inc",
+    "pct": 16.0,
+    "day": "2026-09-23",
+    "presignal": "Brak jawnego pre-sygnalu insider/wolumen dzien wczesniej - podniesienie FY2026 guidance (przychody i EBITDA) ogloszone tego samego dnia. Realny presygnal to trend: mocny Q2 (przychod +19.3% r/r, EPS $0.11 vs kons. $0.01 raportowany kilka tygodni wczesniej) sugerowal mozliwosc podniesienia guidance przy nastepnej okazji.",
+    "lesson": "Spolki przemyslowe/komponentowe po duzym Q-beat (przychod/EPS znaczaco powyzej konsensusu) czesto podnosza guidance na nastepnym katalizatorze (investor day, konferencja, aktualizacja) - warto prowadzic watchlist takich 'beat and raise' kandydatow miedzy kwartalami, zamiast czekac tylko na dzien wynikow."
   }
 ]
