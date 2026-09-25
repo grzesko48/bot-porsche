@@ -1,49 +1,21 @@
 {
-  "_date": "2026-09-24",
-  "_run": "bieg CZWARTEK 2026-09-24 14:30 CEST (przed otwarciem US). Jedna runda rownoleglych web_search na grupe. NOWE dzis: NNBR (podniesione FY2026 guidance po mocnym Q2, pct_1m UJEMNY mimo +16% w dniu - dobry, nierozgrzany punkt wejscia), IONQ (swiezy katalizator produktowy - quantum error decoder + Nvidia Superion 256 - pct_1m ujemny, nierozgrzany), PFSA/BENF/NCPL dodane jako AVOID (ekstremalne pumpy bez fundamentu lub z gwaltownym odwroceniem tego samego dnia - wzorzec z dziennika lekcji, zeby bot je odrzucil a nie pogonil), SPHL jako ostrozny watch (realny katalizator earnings, ale ekstremalna zmiennosc). Kontynuacja bez ponownej pelnej weryfikacji na zywo (ceny sprzed 1 dnia, tezy bez zmian): ELMT, AVEX (contract), BFRG/GME/PVH/ATEC/DOMH (insider), RKLB (fund13f+policy), USAR/EMAT/IE/RDW (policy) - w tej rundzie brak swiezych, jednoznacznych nowych danych ponad juz istniejace (Q3 2026 13F nadal niedostepne do 14.11.2026; congress - tylko zagregowane liczby tygodniowe bez konkretnego, datowanego zakupu pojedynczej spolki mozliwego do zweryfikowania).",
+  "_date": "2026-09-25",
+  "_run": "bieg PIATEK 2026-09-25 (przed otwarciem US / srodsesyjny wg harmonogramu). Jedna runda rownoleglych web_search na grupe. NOWE dzis: AVEX - potwierdzony swiezy $41M kontrakt rzadowy USA (Investing.com, ok. 24-25.09) - dodaje sie do istniejacego katalizatora DoD/AEVEX, wzmacnia teze still_upside. IONQ - kontynuacja z podbita cena (do $44.39, wczesniej $42.53), katalizator quantum decoder + Nvidia Superion 256 nadal swiezy, pct_1m nadal ujemny. NNBR - kontynuacja, cena stabilna ok. $3.68-3.73, pct_1m nadal ujemny mimo silnego guidance raise. Sprawdzono VYX (Ro Khanna, NCR Voyix) - ODRZUCONE: to seria ~7 zakupow rozlozonych w ciagu calego 2026, brak jednego swiezego datowanego zakupu w tym tygodniu - nie spelnia progu 'konkretny zakup'. Sprawdzono tez retro-liste wczorajszych gainerow (GES +26% go-private Authentic Brands, MSC +19.8%) - GES pominiete jako sygnal: to finalizacja transakcji ogloszonej ponad rok wczesniej (marzec 2025), spolka juz zdelistowana, brak realnej okazji do zlapania. Usunieto wczorajsze jednorazowe AVOID-pumpy (PFSA/BENF/NCPL/SPHL) z listy - juz nieaktualne (whipsash/odwrocenie), wbudowane reguly anti-chase (blokada >+25%, nigdy >+50%) i tak by je odrzucily bez potrzeby explicit AVOID. Bez nowych, jednoznacznych sygnalow insider/fund13f/congress ponad juz istniejace kontynuacje (Q3 2026 13F nadal niedostepne do 14.11.2026).",
   "ipo": [],
   "volume": [
     {
       "ticker": "NNBR",
       "company": "NN Inc",
-      "price_usd": 3.73,
-      "pct_1m": -4.7,
-      "catalyst": "Podniesione FY2026 guidance (przychody $470-490mln z $460-480mln, EBITDA $58-68mln z $55-65mln) po mocnym Q2 (przychod $128.7mln +19.3% r/r, EPS $0.11 vs kons. $0.01) - kurs +16% w sesji 23.09. pct_1m UJEMNY (-4.7%) mimo YTD +190% - swiezy fundamentalny katalizator, NIE rozgrzana pozycja, dobry punkt wejscia"
+      "price_usd": 3.68,
+      "pct_1m": -6.0,
+      "catalyst": "Kontynuacja: podniesione FY2026 guidance (przychody $470-490mln, EBITDA $58-68mln) po mocnym Q2 (przychod +19.3% r/r, EPS $0.11 vs kons. $0.01), kurs +16% w sesji 23.09, od tego czasu konsoliduje ok. $3.68-3.73. pct_1m nadal ujemny mimo YTD +190% - nierozgrzana pozycja, dobry punkt wejscia"
     },
     {
       "ticker": "IONQ",
       "company": "IonQ Inc",
-      "price_usd": 42.53,
-      "pct_1m": -5.0,
-      "catalyst": "Swiezy katalizator produktowy 23-24.09: pierwszy w branzy real-time quantum error correction decoder dzialajacy na standardowym CPU + planowany deployment Superion 256 w centrum badawczym Nvidia. Kurs spikowal do ok. $46 i osiadl w $42-43 (podwyzszony wolumen). pct_1m ujemny - NIE rozgrzana, dobry punkt wejscia"
-    },
-    {
-      "ticker": "SPHL",
-      "company": "Springview Holdings Ltd",
-      "price_usd": 3.00,
-      "pct_1m": 40.0,
-      "catalyst": "Wybicie z niskich $2.30 do niskich $3 (23-24.09) na mocnych wynikach i podniesionym forward guidance - realny katalizator fundamentalny, ALE ekstremalna dzienna zmiennosc (gwaltowne spiki i cofniecia, cienki obrot). Blisko progu anti-chase +25-40% - ostroznie, bez still_upside"
-    },
-    {
-      "ticker": "PFSA",
-      "company": "Profusa Inc",
-      "price_usd": 4.00,
-      "pct_1m": 80.0,
-      "catalyst": "UNIKAC: ekstremalna zmiennosc dzis (+99-105%, z ok. $2 spike do $4+) na STARYM newsie (Nasdaq compliance z 15.09, nie swiezy katalizator biznesowy). Spolka gleboko niewyplacalna (equity ok. -$27.1mln, aktywa $1.0mln vs zobowiazania $28.2mln) - czysty mechaniczny pump bez fundamentu, wzorzec z dziennika lekcji (gonic = ryzyko jak LEGN/BCDA)"
-    },
-    {
-      "ticker": "BENF",
-      "company": "Beneficient",
-      "price_usd": 1.60,
-      "pct_1m": 130.0,
-      "catalyst": "UNIKAC: spike +290-379% w premarket 23.09 na planie usuniecia $130mln spornego dlugu i $850mln uprzywilejowanych udzialow powiazanych z bylym CEO skazanym za oszustwo (Brad Heppner) - kurs odwrocil sie gwaltownie tego samego dnia (z $3.03 do $1.60 intraday), klasyczny whipsaw na newsie prawnym/restrukturyzacyjnym, nie fundamencie biznesowym"
-    },
-    {
-      "ticker": "NCPL",
-      "company": "Netcapital Inc",
-      "price_usd": 1.00,
-      "pct_1m": 138.0,
-      "catalyst": "UNIKAC: kontynuacja spekulacyjnego szalu juz opisanego w dzienniku lekcji (31.08) - dzis znow +17.33%, kurs z $0.42 do >$1.00 w tym miesiacu MIMO delinquency notice Nasdaq (brak zlozonego 10-K za FY zakonczony 30.04). Plynnosc slaba (current ratio 0.3, ujemny FCF) - ZDECYDOWANIE powyzej progu paraboli +50%"
+      "price_usd": 44.39,
+      "pct_1m": -1.0,
+      "catalyst": "Kontynuacja: pierwszy w branzy real-time quantum error correction decoder na standardowym CPU + planowany deployment Superion 256 w centrum badawczym Nvidia (23-24.09). Kurs utrzymuje sie w gorze zakresu $44-45 (wyzej niz osiadniecie $42-43 z poprzedniej sesji) - katalizator nadal swiezy, pct_1m wciaz ujemny/plaski"
     }
   ],
   "contract": [
@@ -52,7 +24,7 @@
       "company": "The Elmet Group",
       "price_usd": 20.49,
       "pct_1m": 38.0,
-      "catalyst": "Kontynuacja z poprzedniego biegu (nie re-weryfikowano na zywo): Trump/DoD - Defense Logistics Agency kontrakt na tungsten (National Defense Stockpile) pulap do $2mld + $450mln inwestycji Dept. of War, plus akwizycja niemieckich operacji metalowych",
+      "catalyst": "Kontynuacja (nie re-weryfikowano na zywo): Trump/DoD - Defense Logistics Agency kontrakt na tungsten (National Defense Stockpile) pulap do $2mld + $450mln inwestycji Dept. of War, plus akwizycja niemieckich operacji metalowych",
       "still_upside": true,
       "upside_reason": "Pulap kontraktu (do $2mld) >3x kapitalizacji ($626.55mln), cel przychodow $1.5-1.7mld do 2031, realizacja dopiero sie zaczyna"
     },
@@ -61,7 +33,9 @@
       "company": "AEVEX Corp",
       "price_usd": 16.58,
       "pct_1m": -22.0,
-      "catalyst": "Kontynuacja z poprzedniego biegu (nie re-weryfikowano na zywo): Trump/DoD - producent bezzalogowcow (one-way attack systems), $92.2mln wieloletni kontrakt z Dept. of War + $20.5mln zamowien, dodatkowo jet-powered platform 'Specter' i przejecie BlackSea Technologies. IPO 04.2026, kurs wciaz mocno ponizej szczytu $42.34 - nierozgrzany, dobry punkt wejscia"
+      "catalyst": "Trump/DoD - producent bezzalogowcow (one-way attack systems); ŚWIEŻE potwierdzenie 24-25.09: kolejny $41mln kontrakt rzadowy USA (Investing.com) dolaczajacy do wczesniejszego $92.2mln wieloletniego kontraktu z Dept. of War + $20.5mln zamowien, jet-powered platform 'Specter', przejecie BlackSea Technologies. Kurs wciaz mocno ponizej szczytu $42.34 - nierozgrzany",
+      "still_upside": true,
+      "upside_reason": "Seria narastajacych kontraktow rzadowych ($41mln + $92.2mln + $20.5mln) przy pct_1m ujemnym (-22%) - katalizator kontraktowy przyspiesza, nie zwalnia, cena wciaz daleko od szczytu"
     }
   ],
   "insider": [
@@ -70,7 +44,7 @@
       "company": "Bullfrog AI Holdings",
       "buyers": 2,
       "usd_total": 71500,
-      "days_ago": 3,
+      "days_ago": 4,
       "price_usd": 0.60,
       "pct_1m": 18.0,
       "catalyst": "Kontynuacja: CEO Vininder Singh ($45K) + CFO Joshua Blacher ($26.5K) obaj kupili 22.09 - klastrowy zakup 2 top-executives tego samego dnia, rownolegle z wolumenem 10.5x normy"
@@ -80,7 +54,7 @@
       "company": "GameStop Corp",
       "buyers": 1,
       "usd_total": 20375900,
-      "days_ago": 15,
+      "days_ago": 16,
       "price_usd": 21.44,
       "pct_1m": 18.5
     },
@@ -89,7 +63,7 @@
       "company": "PVH Corp",
       "buyers": 2,
       "usd_total": 1248501,
-      "days_ago": 14,
+      "days_ago": 15,
       "price_usd": 72.01,
       "pct_1m": -16.9
     },
@@ -98,7 +72,7 @@
       "company": "Alphatec Holdings",
       "buyers": 1,
       "usd_total": 1013150,
-      "days_ago": 15,
+      "days_ago": 16,
       "price_usd": 9.68,
       "pct_1m": 12.0
     },
@@ -107,7 +81,7 @@
       "company": "Dominari Holdings",
       "buyers": 2,
       "usd_total": 418000,
-      "days_ago": 11,
+      "days_ago": 12,
       "price_usd": 4.31,
       "pct_1m": 6.0
     }

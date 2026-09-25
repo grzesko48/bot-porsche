@@ -1,18 +1,10 @@
 [
   {
-    "ticker": "BENF",
-    "company": "Beneficient",
-    "pct": 290.0,
-    "day": "2026-09-23",
-    "presignal": "Brak realnego pre-sygnalu dzien wczesniej - plan usuniecia $130mln spornego dlugu i $850mln uprzywilejowanych udzialow powiazanych z bylym CEO Bradem Heppnerem (skazanym za oszustwo 07.05) ogloszony i zareagowany tego samego dnia. Kurs spikowal do $3.03, po czym odwrocil sie gwaltownie do $1.60 w tej samej sesji.",
-    "lesson": "Ogloszenia usuwania spornego dlugu/pasywow powiazanych ze skazanym za oszustwo byla kierownictwa wywoluja natychmiastowy, spekulacyjny pop prawny - ale sa wysoce podatne na rownie gwaltowne odwrocenie tego samego dnia (whipsaw). To sygnal do UNIKANIA pogoni w trakcie sesji, nie do wejscia - czekac na ustabilizowanie ceny po fakcie, nie na sam news restrukturyzacyjny."
-  },
-  {
-    "ticker": "NNBR",
-    "company": "NN Inc",
-    "pct": 16.0,
-    "day": "2026-09-23",
-    "presignal": "Brak jawnego pre-sygnalu insider/wolumen dzien wczesniej - podniesienie FY2026 guidance (przychody i EBITDA) ogloszone tego samego dnia. Realny presygnal to trend: mocny Q2 (przychod +19.3% r/r, EPS $0.11 vs kons. $0.01 raportowany kilka tygodni wczesniej) sugerowal mozliwosc podniesienia guidance przy nastepnej okazji.",
-    "lesson": "Spolki przemyslowe/komponentowe po duzym Q-beat (przychod/EPS znaczaco powyzej konsensusu) czesto podnosza guidance na nastepnym katalizatorze (investor day, konferencja, aktualizacja) - warto prowadzic watchlist takich 'beat and raise' kandydatow miedzy kwartalami, zamiast czekac tylko na dzien wynikow."
+    "ticker": "MSC",
+    "company": "Studio City International Holdings",
+    "pct": 19.8,
+    "day": "2026-09-24",
+    "presignal": "NIEZIDENTYFIKOWANY w tej sesji - Macau gaming/casino operator zyskal do $5.15 bez jasno udokumentowanego katalizatora dnia wczesniejszego w dostepnych zrodlach; wymaga dalszego zbadania (mozliwe: Macau GGR miesieczne dane lub sektor gaming rally)",
+    "lesson": "Sledz miesieczne dane Macau GGR (Gross Gaming Revenue, publikowane na poczatku miesiaca) jako mozliwy pre-sygnal dla operatorow kasyn (MSC, MLCO, LVS) - do zweryfikowania w kolejnych sesjach czy istnieje powtarzalny wzorzec"
   }
 ]
