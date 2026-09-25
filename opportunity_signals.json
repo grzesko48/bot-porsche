@@ -1,21 +1,21 @@
 {
   "_date": "2026-09-25",
-  "_run": "bieg PIATEK 2026-09-25 (przed otwarciem US / srodsesyjny wg harmonogramu). Jedna runda rownoleglych web_search na grupe. NOWE dzis: AVEX - potwierdzony swiezy $41M kontrakt rzadowy USA (Investing.com, ok. 24-25.09) - dodaje sie do istniejacego katalizatora DoD/AEVEX, wzmacnia teze still_upside. IONQ - kontynuacja z podbita cena (do $44.39, wczesniej $42.53), katalizator quantum decoder + Nvidia Superion 256 nadal swiezy, pct_1m nadal ujemny. NNBR - kontynuacja, cena stabilna ok. $3.68-3.73, pct_1m nadal ujemny mimo silnego guidance raise. Sprawdzono VYX (Ro Khanna, NCR Voyix) - ODRZUCONE: to seria ~7 zakupow rozlozonych w ciagu calego 2026, brak jednego swiezego datowanego zakupu w tym tygodniu - nie spelnia progu 'konkretny zakup'. Sprawdzono tez retro-liste wczorajszych gainerow (GES +26% go-private Authentic Brands, MSC +19.8%) - GES pominiete jako sygnal: to finalizacja transakcji ogloszonej ponad rok wczesniej (marzec 2025), spolka juz zdelistowana, brak realnej okazji do zlapania. Usunieto wczorajsze jednorazowe AVOID-pumpy (PFSA/BENF/NCPL/SPHL) z listy - juz nieaktualne (whipsash/odwrocenie), wbudowane reguly anti-chase (blokada >+25%, nigdy >+50%) i tak by je odrzucily bez potrzeby explicit AVOID. Bez nowych, jednoznacznych sygnalow insider/fund13f/congress ponad juz istniejace kontynuacje (Q3 2026 13F nadal niedostepne do 14.11.2026).",
+  "_run": "bieg PIATEK 2026-09-25 SRODSESYJNY 18:30 CEST. Jedna runda rownoleglych web_search na grupe. Odswiezenie cen wobec biegu 14:30: IONQ $44.39->$44.98 (dalsza kontynuacja w gorze zakresu, katalizator Nvidia Superion 256 nadal swiezy), NNBR $3.68->$3.73 (+5.78% w ciagu doby, konsolidacja po guidance raise nadal trzyma sie ponad $3.6), AVEX $16.58->$16.80 (NOWY dodatkowy katalizator: $50mln kontrakt USAF na rozszerzenie unmanned mission-support, dolacza do $92.2mln Dept. of War + $41mln + $20.5mln + niedawno domknieta akwizycja BlackSea Technologies $600mln - seria kontraktow rzadowych nadal przyspiesza). Reszta pozycji (ELMT, USAR, EMAT, IE, RKLB, RDW, insider PVH/ATEC/DOMH/BFRG/GME, fund13f RKLB) bez istotnych zmian cenowych wzgledem porannego biegu - kontynuacja. Sprawdzono unusual-volume watchlist (INLF +116%, AIFF +43%, SDEV +16%, CNET) - wszystkie odrzucone jako czyste micro-cap pumpy bez fundamentalnego katalizatora (whipsaw/profit-taking widoczny juz w danych intraday), zgodnie z lekcja o unikaniu takich paraboli. Sprawdzono VRME (VerifyMe/OpenWorld merger, S-4 effective, walne 24.09) - odrzucone: spike do $1.95 juz sie cofnal do $1.15-1.24, ruch juz sie wydarzyl i odwrocil (klasyczny wzorzec dnia 2 po pompie, nie wejscie). Brak nowych insider/13F/congress klastrow ponad juz istniejace pozycje w tej rundzie.",
   "ipo": [],
   "volume": [
     {
       "ticker": "NNBR",
       "company": "NN Inc",
-      "price_usd": 3.68,
-      "pct_1m": -6.0,
-      "catalyst": "Kontynuacja: podniesione FY2026 guidance (przychody $470-490mln, EBITDA $58-68mln) po mocnym Q2 (przychod +19.3% r/r, EPS $0.11 vs kons. $0.01), kurs +16% w sesji 23.09, od tego czasu konsoliduje ok. $3.68-3.73. pct_1m nadal ujemny mimo YTD +190% - nierozgrzana pozycja, dobry punkt wejscia"
+      "price_usd": 3.73,
+      "pct_1m": -5.0,
+      "catalyst": "Kontynuacja: podniesione FY2026 guidance (przychody $470-490mln, EBITDA $58-68mln) po mocnym Q2, kurs +5.78% w ciagu ostatniej doby do $3.73, trzyma sie ponad poziomem konsolidacji $3.68. pct_1m nadal ujemny mimo YTD +190% - nierozgrzana pozycja"
     },
     {
       "ticker": "IONQ",
       "company": "IonQ Inc",
-      "price_usd": 44.39,
+      "price_usd": 44.98,
       "pct_1m": -1.0,
-      "catalyst": "Kontynuacja: pierwszy w branzy real-time quantum error correction decoder na standardowym CPU + planowany deployment Superion 256 w centrum badawczym Nvidia (23-24.09). Kurs utrzymuje sie w gorze zakresu $44-45 (wyzej niz osiadniecie $42-43 z poprzedniej sesji) - katalizator nadal swiezy, pct_1m wciaz ujemny/plaski"
+      "catalyst": "Kontynuacja: real-time quantum error correction decoder + Nvidia Superion 256 deployment. Kurs dalej pnie sie w gorze zakresu ($44.13-$46.53 dzis) - katalizator swiezy, pct_1m wciaz plaski/ujemny"
     }
   ],
   "contract": [
@@ -24,18 +24,18 @@
       "company": "The Elmet Group",
       "price_usd": 20.49,
       "pct_1m": 38.0,
-      "catalyst": "Kontynuacja (nie re-weryfikowano na zywo): Trump/DoD - Defense Logistics Agency kontrakt na tungsten (National Defense Stockpile) pulap do $2mld + $450mln inwestycji Dept. of War, plus akwizycja niemieckich operacji metalowych",
+      "catalyst": "Kontynuacja: DLA kontrakt tungsten (National Defense Stockpile) pulap do $2mld + $450mln inwestycji Dept. of War, plus akwizycja niemieckich operacji metalowych",
       "still_upside": true,
       "upside_reason": "Pulap kontraktu (do $2mld) >3x kapitalizacji ($626.55mln), cel przychodow $1.5-1.7mld do 2031, realizacja dopiero sie zaczyna"
     },
     {
       "ticker": "AVEX",
       "company": "AEVEX Corp",
-      "price_usd": 16.58,
-      "pct_1m": -22.0,
-      "catalyst": "Trump/DoD - producent bezzalogowcow (one-way attack systems); ŚWIEŻE potwierdzenie 24-25.09: kolejny $41mln kontrakt rzadowy USA (Investing.com) dolaczajacy do wczesniejszego $92.2mln wieloletniego kontraktu z Dept. of War + $20.5mln zamowien, jet-powered platform 'Specter', przejecie BlackSea Technologies. Kurs wciaz mocno ponizej szczytu $42.34 - nierozgrzany",
+      "price_usd": 16.80,
+      "pct_1m": -21.0,
+      "catalyst": "Trump/DoD - producent bezzalogowcow; NOWY dzis: $50mln kontrakt USAF na rozszerzenie unmanned mission-support (spolka +11.8% na tym newsie), dolacza do wczesniejszego $92.2mln wieloletniego kontraktu Dept. of War + $41mln + $20.5mln, plus niedawno domknieta akwizycja BlackSea Technologies ($600mln, multi-domain autonomous systems). Kurs wciaz mocno ponizej szczytu $42.34",
       "still_upside": true,
-      "upside_reason": "Seria narastajacych kontraktow rzadowych ($41mln + $92.2mln + $20.5mln) przy pct_1m ujemnym (-22%) - katalizator kontraktowy przyspiesza, nie zwalnia, cena wciaz daleko od szczytu"
+      "upside_reason": "Czwarty z rzedu narastajacy kontrakt rzadowy w ciagu kilku tygodni ($50mln + $41mln + $92.2mln + $20.5mln) plus swieza akwizycja rozszerzajaca zdolnosci, przy pct_1m dalej ujemnym (-21%) - katalizator kontraktowy przyspiesza, cena wciaz daleko od szczytu"
     }
   ],
   "insider": [
@@ -47,7 +47,7 @@
       "days_ago": 4,
       "price_usd": 0.60,
       "pct_1m": 18.0,
-      "catalyst": "Kontynuacja: CEO Vininder Singh ($45K) + CFO Joshua Blacher ($26.5K) obaj kupili 22.09 - klastrowy zakup 2 top-executives tego samego dnia, rownolegle z wolumenem 10.5x normy"
+      "catalyst": "Kontynuacja: CEO Vininder Singh ($45K) + CFO Joshua Blacher ($26.5K) klastrowy zakup 22.09, rownolegle z wolumenem 10.5x normy"
     },
     {
       "ticker": "GME",
