@@ -515,5 +515,49 @@
     "value_pln": 4284.09,
     "pnl_pln": 0.0,
     "reason": "wejście (core, score 7.7)"
+  },
+  {
+    "date": "2026-09-25",
+    "ticker": "CAPR",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 110.8799,
+    "price_usd": 8.39,
+    "value_pln": 3570.15,
+    "pnl_pln": 206.5,
+    "reason": "stop trafiony (zwrot +6.1%)"
+  },
+  {
+    "date": "2026-09-25",
+    "ticker": "BTDR",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 75.319,
+    "price_usd": 11.51,
+    "value_pln": 3327.53,
+    "pnl_pln": 666.66,
+    "reason": "stop trafiony (zwrot +25.1%)"
+  },
+  {
+    "date": "2026-09-25",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 486.257,
+    "price_usd": 2.38,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-09-25",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 8.6466,
+    "price_usd": 73.9,
+    "value_pln": 2453.69,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.0)"
   }
 ]

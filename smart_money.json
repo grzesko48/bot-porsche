@@ -1,19 +1,8 @@
 {
-  "generated": "2026-09-24",
-  "insiders": {
-    "MU": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "brak transakcji insiderow open-market w oknie; brak klastra kupna"},
-    "MRNA": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "brak sygnalu kupna insiderow w oknie; sprzedaze rutynowe 10b5-1"},
-    "LITE": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "brak klastra kupna insiderow w oknie"},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "brak sygnalu kupna insiderow w oknie"},
-    "MRVL": {"n_insiders": 0, "n_directors": 0, "cluster_sell": false, "note": "CEO Matt Murphy sprzedal 7500 akcji 15 wrz (Form 4); sprzedaz insiderow dominuje 25:4 w skali roku. Brak klastra kupna — sygnal raczej negatywny/neutralny, nie kupno"}
-  },
-  "funds": {
-    "MU": [],
-    "MRNA": [],
-    "LITE": [],
-    "DELL": [],
-    "MRVL": []
-  },
+  "generated": "2026-09-25",
+  "insiders": {},
+  "funds": {},
   "politicians": {},
-  "sector_exits": []
+  "sector_exits": [],
+  "_note": "Brak potwierdzonego confluence smart money. Insiderzy: live scrape OpenInsider (engine) zwrocil NEUTRAL dla wszystkich; MRNA 14.09 i LITE 21.09 to rutynowe/drobne sprzedaze (nie cluster). Rzekomy klaster insider-buy MRVL 25.09 odrzucony: cena ~77 USD niespojna z rynkowa ~266 USD i zaprzeczony przez bezposredni scrape. Brak danych 13F/kongres w oknie."
 }
