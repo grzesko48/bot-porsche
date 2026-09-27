@@ -1,9 +1,28 @@
 {
-  "generated": "2026-09-26",
-  "insiders": {},
-  "funds": {},
+  "generated": "2026-09-27",
+  "insiders": {
+    "MRVL": {
+      "n_insiders": 1,
+      "n_directors": 0,
+      "total_usd": 265302,
+      "price_vs_52wh_pct": -5,
+      "cluster_sell": false,
+      "note": "CFO Willem Meintjes kupil 3400 akcji @ ~78,03 USD 25 IX 2026; insiderzy ~27,2 tys. akcji (~2,1 mln USD) w 90 dni"
+    }
+  },
+  "funds": {
+    "MRVL": [
+      {"manager": "Congress Asset Management", "pct_portfolio": 0.3, "action": "new"},
+      {"manager": "Accurate Wealth Management", "pct_portfolio": 0.2, "action": "new"},
+      {"manager": "LGT Fund Management", "pct_portfolio": 0.2, "action": "new"}
+    ]
+  },
   "politicians": {},
   "sector_exits": [],
-  "_note": "Sprawdzono OpenInsider / Dataroma-whalewisdom / congress (Quiver) dla MU, MRNA, LITE, DELL, MRVL. Brak KLASTRÓW zakupów insiderów i brak konkretnych świeżych dodań funduszy 13F lub transakcji kongresmenów wartych zalogowania. Widoczne wyłącznie rutynowe sprzedaże planowe 10b5-1 (MU: CEO Mehrotra; MRVL: CEO ~236 USD po rajdzie; LITE: GC/President GBU) oraz strukturalna wyprzedaż sponsora PE Silver Lake w DELL (~1 mld USD/90d przez SLTA IV/V GP) — to NIE jest bessowy klaster sprzedaży insiderów (cluster_sell=false), więc nie blokujemy longów ani nie logujemy negatywu. Warstwa insiderów liczona na żywo przez smart_money_engine; ta sekcja (fundusze+politycy) pusta = neutralna.",
-  "_checked_tickers": ["MU", "MRNA", "LITE", "DELL", "MRVL"]
+  "notes": {
+    "MU": "18 sprzedazy jednego dyrektora 1 VII (~43 mln USD) - poza oknem, rutyna, bez klastra kupna",
+    "MRNA": "sprzedaz prezesa 15 VII (glownie konwersje) - brak kupna insiderow",
+    "LITE": "0 kupna / 43 sprzedazy insiderow w 12 mies.; drobne sprzedaze 24-25 IX; guru: wiecej trimujacych",
+    "DELL": "CFO David Kennedy sprzedal 23 896 akcji @ ~585 USD 17 IX - rutyna, nie klaster"
+  }
 }

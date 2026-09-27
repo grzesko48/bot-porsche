@@ -1,48 +1,47 @@
 {
-  "generated": "2026-09-26",
-  "freshness_days": 7,
+  "generated": "2026-09-27",
   "signals": [
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak świeżego (<=7 dni) katalizatora. Kontrakty SCA (~$100 mld) i guidance z raportu Q3/początku września są starsze niż 7 dni; raport Q4 FY2026 dopiero 30.09 (przed publikacją).",
-      "as_of": "2026-09-26",
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora; wyniki FY Q4 dopiero 30 IX, ostatnie newsy to komentarz analitykow/momentum",
+      "as_of": "2026-09-23",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "24/7 Wall St. (07.09)", "url": "https://247wallst.com/investing/2026/09/07/micron-has-skyrocketed-256-in-2026-what-would-it-take-to-get-mu-stock-up-to-1250/"},
+        {"label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/09/23/up-275-this-year-micron-mu-is-still-a-no-brainer-buy-before-september-30/"},
         {"label": "SEC 8-K FY2026 Q3", "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000013/a2026q3ex991-pressrelease.htm"}
       ]
     },
     {
       "ticker": "MRNA",
       "has_catalyst": true,
-      "catalyst_type": "product",
+      "catalyst_type": "regulatory",
       "direction": "bullish",
-      "headline": "Pozytywne dane Fazy 3 spersonalizowanej szczepionki mRNA na czerniaka + świeże dopuszczenia FDA (Spikevax/mNEXSPIKE XFG, mFLUSIVA). Akcje na 52-tyg. maksimum ~187 USD.",
+      "headline": "Pozytywne wyniki fazy 3 spersonalizowanej szczepionki mRNA na czerniaka + zatwierdzenia FDA szczepionek 2026-2027; akcje na 52-tyg. szczycie",
       "as_of": "2026-09-23",
       "confidence": 0.7,
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
-        {"label": "FX Leaders (23.09)", "url": "https://www.fxleaders.com/news/2026/09/23/moderna-stock-forecast-melanoma-vaccine-rally/"},
-        {"label": "StocksToTrade (21.09)", "url": "https://stockstotrade.com/news/moderna-inc-mrna-news-2026_09_21/"}
+        {"label": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/09/23/moderna-stock-forecast-melanoma-vaccine-rally/"},
+        {"label": "StocksToTrade", "url": "https://stockstotrade.com/news/moderna-inc-mrna-news-2026_09_21/"},
+        {"label": "MarketBeat FDA events", "url": "https://www.marketbeat.com/stocks/NASDAQ/MRNA/fda-events/"}
       ]
     },
     {
       "ticker": "LITE",
-      "has_catalyst": true,
-      "catalyst_type": "product",
-      "direction": "bullish",
-      "headline": "Demonstracja gęstego optycznego łącza die-to-die (1060nm VCSEL) z Qualcomm i Corning dla AI scale-up na ECOC 2026. Realny kamień milowy technologiczny, choć to demo, nie kontrakt przychodowy (akcje +2,4% pre-market).",
-      "as_of": "2026-09-21",
-      "confidence": 0.55,
-      "source_count": 3,
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Partnerstwo z Nvidia (~2 mld USD) i podniesiona prognoza FY27 to material sprzed >7 dni (wyniki fiskalne Q4); brak swiezego twardego katalizatora w oknie",
+      "as_of": "2026-09-24",
+      "confidence": 0.4,
+      "source_count": 2,
       "sources": [
-        {"label": "Seeking Alpha (21.09)", "url": "https://seekingalpha.com/news/4644637-lumentum-qualcomm-corning-partner-on-ai-optical-tech-shares-rise"},
-        {"label": "Nasdaq press release", "url": "https://www.nasdaq.com/press-release/lumentum-qualcomm-and-corning-demonstrate-high-density-1060-nm-vcsel-optical-d2d"},
-        {"label": "Telecompaper", "url": "https://www.telecompaper.com/news/lumentum-joins-corning-qualcomm-for-ecoc-optical-interconnect-demo--1583302"}
+        {"label": "SEC 8-K FY2026 Q4", "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000162828026055726/lite_ex991xq4fy26.htm"},
+        {"label": "Simply Wall St", "url": "https://simplywall.st/stocks/us/tech/nasdaq-lite/lumentum-holdings/future"}
       ]
     },
     {
@@ -50,27 +49,27 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Rekordowy kwartał AI (zamówienia $60,9 mld, backlog $95 mld, podniesiony guidance) był z 02.09 — starszy niż 7 dni. Świeże artykuły to recap starego katalizatora, brak nowego wyzwalacza w oknie.",
+      "headline": "Rekordowe zamowienia AI (60,9 mld USD) i podniesiona prognoza FY27 pochodza z wynikow Q2 (>7 dni); wrzesniowe artykuly to kontynuacja momentum",
       "as_of": "2026-09-26",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "source_count": 2,
       "sources": [
-        {"label": "Motley Fool (02.09)", "url": "https://www.fool.com/coverage/stock-market-today/2026/09/02/stock-market-today-sept-2-dell-surges-16-on-soaring-ai-backlog/"},
-        {"label": "24/7 Wall St. (17.09)", "url": "https://247wallst.com/investing/2026/09/17/dells-ai-backlog-surge-positions-stock-for-600-as-server-revenue-doubles/"}
+        {"label": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/09/26/dell-stock-record-ai-server-orders/"},
+        {"label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/09/17/dells-ai-backlog-surge-positions-stock-for-600-as-server-revenue-doubles/"}
       ]
     },
     {
       "ticker": "MRVL",
-      "has_catalyst": true,
-      "catalyst_type": "product",
-      "direction": "bullish",
-      "headline": "Pierwsze w branży optyczne interkonekty 2nm na ECOC 2026; Morgan Stanley podniósł cenę docelową do $268 przed Investor Day 06.10. Rajd ~6% w sektorze półprzewodników.",
-      "as_of": "2026-09-22",
-      "confidence": 0.6,
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Swiezy news to rutynowa dywidenda 0,06 USD (25 IX); przejecia (Celestial/XConn) i podniesiona prognoza FY28 sprzed >7 dni",
+      "as_of": "2026-09-25",
+      "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "FX Leaders (22.09)", "url": "https://www.fxleaders.com/news/2026/09/22/marvell-stock-forecast-mrvl-2nm-optical-tech/"},
-        {"label": "Trefis (25.09)", "url": "https://www.trefis.com/stock/mrvl/articles/616581/how-much-track-is-left-for-mrvl-stock/2026-09-25"}
+        {"label": "SEC 8-K dywidenda", "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000162828026063592/a20260925dividendpressrele.htm"},
+        {"label": "Public.com forecast", "url": "https://public.com/stocks/mrvl/forecast-price-target"}
       ]
     }
   ]
