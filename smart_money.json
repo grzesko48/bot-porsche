@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-09-28",
   "insiders": {
     "MRVL": {
       "n_insiders": 1,
@@ -7,22 +7,58 @@
       "total_usd": 265302,
       "price_vs_52wh_pct": -5,
       "cluster_sell": false,
-      "note": "CFO Willem Meintjes kupil 3400 akcji @ ~78,03 USD 25 IX 2026; insiderzy ~27,2 tys. akcji (~2,1 mln USD) w 90 dni"
+      "note": "CFO Willem A. Meintjes kupil 3400 akcji (~265 tys. USD) 25 IX 2026 — pojedynczy zakup insidera (nie klaster). Reszta insiderow raczej sprzedaje."
+    },
+    "MU": {
+      "n_insiders": 0,
+      "n_directors": 0,
+      "total_usd": 0,
+      "price_vs_52wh_pct": -15,
+      "cluster_sell": false,
+      "note": "Brak zakupow insiderow w 12 mies.; silna sprzedaz: ~387 mln USD sprzedane vs 7,8 mln kupione (12 mies.); 397 tys. akcji (~82 mln USD) w ostatnim kwartale (CAO i CEO). Netto sprzedajacy — brak sygnalu kupna."
+    },
+    "MRNA": {
+      "n_insiders": 0,
+      "n_directors": 0,
+      "total_usd": 0,
+      "price_vs_52wh_pct": -3,
+      "cluster_sell": false,
+      "note": "Brak zakupow insiderow 12 mies.; insiderzy sprzedali ~64,6 mln USD (16,9 mln w 90 dni). Sygnal pozytywny wylacznie po stronie funduszy (13F), nie insiderow."
+    },
+    "DELL": {
+      "n_insiders": 0,
+      "n_directors": 0,
+      "total_usd": 0,
+      "price_vs_52wh_pct": -5,
+      "cluster_sell": false,
+      "note": "0 kupujacych insiderow / 11 sprzedajacych w 12 mies. (~2,33 mld USD sprzedazy). Wylacznie sprzedaz — brak sygnalu kupna."
+    },
+    "LITE": {
+      "n_insiders": 0,
+      "n_directors": 0,
+      "total_usd": 0,
+      "price_vs_52wh_pct": -3,
+      "cluster_sell": false,
+      "note": "Insider Yuen Wupen sprzedal 500 akcji @ ~946,56 USD 23 IX; insiderzy sprzedali ~68,6 tys. akcji (~59 mln USD) w 90 dni. Brak zakupow — sygnal neutralny/negatywny."
     }
   },
   "funds": {
+    "MRNA": [
+      {"manager": "BlackRock Inc.", "pct_portfolio": 0.1, "action": "new"},
+      {"manager": "Theleme Partners LLP", "pct_portfolio": 2.0, "action": "new"},
+      {"manager": "FMR LLC (Fidelity)", "pct_portfolio": 0.3, "action": "add"}
+    ],
     "MRVL": [
       {"manager": "Congress Asset Management", "pct_portfolio": 0.3, "action": "new"},
-      {"manager": "Accurate Wealth Management", "pct_portfolio": 0.2, "action": "new"},
       {"manager": "LGT Fund Management", "pct_portfolio": 0.2, "action": "new"}
     ]
   },
   "politicians": {},
   "sector_exits": [],
   "notes": {
-    "MU": "18 sprzedazy jednego dyrektora 1 VII (~43 mln USD) - poza oknem, rutyna, bez klastra kupna",
-    "MRNA": "sprzedaz prezesa 15 VII (glownie konwersje) - brak kupna insiderow",
-    "LITE": "0 kupna / 43 sprzedazy insiderow w 12 mies.; drobne sprzedaze 24-25 IX; guru: wiecej trimujacych",
-    "DELL": "CFO David Kennedy sprzedal 23 896 akcji @ ~585 USD 17 IX - rutyna, nie klaster"
+    "MRNA": "13F Q2: 381 instytucji dodalo vs 398 zmniejszylo (mieszane). Duze nowe pozycje: BlackRock ~2,14 mld USD, Theleme ~564 mln USD (fundusz skoncentrowany), FMR +13,5% (~433 mln USD). Baillie Gifford utnal -11,5%. Insiderzy jednak sprzedaja.",
+    "MU": "Sprzedaz insiderow uporczywa (CAO, CEO); brak klastra kupna. Live-check bota: NEUTRAL.",
+    "DELL": "CFO i inni sprzedaja rutynowo; brak sygnalu kupna.",
+    "LITE": "Same sprzedaze insiderow (drobne, wrzesien); brak akumulacji."
   }
 }
