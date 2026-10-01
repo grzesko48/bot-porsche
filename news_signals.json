@@ -1,33 +1,32 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-10-01",
   "signals": [
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) twardego katalizatora; wyniki FY Q4 dopiero 30 IX, ostatnie newsy to komentarz analitykow/momentum",
-      "as_of": "2026-09-23",
+      "headline": "Wyniki FY Q4 ~29-30 IX juz za nami; brak swiezego (<=7 dni) twardego katalizatora potwierdzonego 2 niezaleznymi zrodlami - obecne newsy to anticipacja/komentarz analitykow wokol cen HBM na 2027",
+      "as_of": "2026-10-01",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/09/23/up-275-this-year-micron-mu-is-still-a-no-brainer-buy-before-september-30/"},
-        {"label": "SEC 8-K FY2026 Q3", "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000013/a2026q3ex991-pressrelease.htm"}
+        {"label": "247wallst", "url": "https://247wallst.com/investing/2026/09/07/micron-has-skyrocketed-256-in-2026-what-would-it-take-to-get-mu-stock-up-to-1250/"},
+        {"label": "Parameter.io", "url": "https://parameter.io/micron-mu-stock-climbs-on-forecasted-50-dram-price-surge-this-quarter/"}
       ]
     },
     {
       "ticker": "MRNA",
-      "has_catalyst": true,
-      "catalyst_type": "regulatory",
-      "direction": "bullish",
-      "headline": "Pozytywne wyniki fazy 3 spersonalizowanej szczepionki mRNA na czerniaka + zatwierdzenia FDA szczepionek 2026-2027; akcje na 52-tyg. szczycie",
-      "as_of": "2026-09-23",
-      "confidence": 0.7,
-      "source_count": 3,
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Dane fazy 3 czerniaka z ~23 IX poza oknem 7 dni; zatwierdzenie FDA grypy 5 VIII stare; brak swiezego potwierdzonego katalizatora w ostatnich 7 dniach",
+      "as_of": "2026-10-01",
+      "confidence": 0.4,
+      "source_count": 2,
       "sources": [
-        {"label": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/09/23/moderna-stock-forecast-melanoma-vaccine-rally/"},
-        {"label": "StocksToTrade", "url": "https://stockstotrade.com/news/moderna-inc-mrna-news-2026_09_21/"},
-        {"label": "MarketBeat FDA events", "url": "https://www.marketbeat.com/stocks/NASDAQ/MRNA/fda-events/"}
+        {"label": "Invezz", "url": "https://invezz.com/news/2026/07/02/moderna-stock-jumps-as-pipeline-progress-and-flu-shot-data-lift-sentiment/"},
+        {"label": "Traders Union", "url": "https://tradersunion.com/news/stocks/show/2952837-moderna-stock-rebounds/"}
       ]
     },
     {
@@ -35,13 +34,13 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Partnerstwo z Nvidia (~2 mld USD) i podniesiona prognoza FY27 to material sprzed >7 dni (wyniki fiskalne Q4); brak swiezego twardego katalizatora w oknie",
-      "as_of": "2026-09-24",
+      "headline": "Glowny katalizator (kontrakt OCS wielomiliardowy z OFC) z marca 2026 - stary; brak swiezych wrzesniowych newsow o nowym kontrakcie w oknie 7 dni",
+      "as_of": "2026-10-01",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "SEC 8-K FY2026 Q4", "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000162828026055726/lite_ex991xq4fy26.htm"},
-        {"label": "Simply Wall St", "url": "https://simplywall.st/stocks/us/tech/nasdaq-lite/lumentum-holdings/future"}
+        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/2873822/lumentum-rises-99-in-a-month-are-the-shares-still-a-buy"},
+        {"label": "Webull", "url": "https://www.webull.com/news/15393147060691968"}
       ]
     },
     {
@@ -49,13 +48,13 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Rekordowe zamowienia AI (60,9 mld USD) i podniesiona prognoza FY27 pochodza z wynikow Q2 (>7 dni); wrzesniowe artykuly to kontynuacja momentum",
-      "as_of": "2026-09-26",
+      "headline": "Podniesienie prognozy AI-serwerow (~20 mld USD) i kontrakt rzadowy 9,7 mld USD ogloszone ~1 IX przy wynikach Q2 FY27 - poza oknem 7 dni; brak swiezego katalizatora",
+      "as_of": "2026-10-01",
       "confidence": 0.45,
       "source_count": 2,
       "sources": [
-        {"label": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/09/26/dell-stock-record-ai-server-orders/"},
-        {"label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/09/17/dells-ai-backlog-surge-positions-stock-for-600-as-server-revenue-doubles/"}
+        {"label": "Benzinga", "url": "https://benzinga.com/z/49082632"},
+        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/news/dell-stock-drops-soft-q3-105517707.html"}
       ]
     },
     {
@@ -63,13 +62,13 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Swiezy news to rutynowa dywidenda 0,06 USD (25 IX); przejecia (Celestial/XConn) i podniesiona prognoza FY28 sprzed >7 dni",
-      "as_of": "2026-09-25",
-      "confidence": 0.4,
+      "headline": "Kontrakt Google (~120 mld USD skumulowanie) z wyplata dopiero ~2029; reafirmacja prognoz - brak swiezego twardego katalizatora w oknie 7 dni (sygnal smart money osobno)",
+      "as_of": "2026-10-01",
+      "confidence": 0.45,
       "source_count": 2,
       "sources": [
-        {"label": "SEC 8-K dywidenda", "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000162828026063592/a20260925dividendpressrele.htm"},
-        {"label": "Public.com forecast", "url": "https://public.com/stocks/mrvl/forecast-price-target"}
+        {"label": "TIKR", "url": "https://www.tikr.com/blog/marvells-120-billion-google-deal-is-real-heres-why-the-payoff-waits-until-2029"},
+        {"label": "Kalkine", "url": "https://kalkine.com.au/news/stocks/marvell-technology-nasdaqgsmrvl-reaffirms-revenue-guidance-for-fiscal-2026"}
       ]
     }
   ]

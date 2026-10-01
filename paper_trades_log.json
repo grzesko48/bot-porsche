@@ -603,5 +603,49 @@
     "value_pln": 4369.31,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "ARM",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 12.4392,
+    "price_usd": 292.37,
+    "value_pln": 14111.02,
+    "pnl_pln": 2363.47,
+    "reason": "stop trafiony (zwrot +20.1%)"
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 486.257,
+    "price_usd": 2.15,
+    "value_pln": 4056.36,
+    "pnl_pln": -358.47,
+    "reason": "stop trafiony (zwrot -8.1%)"
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "ABT",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 35.7168,
+    "price_usd": 97.27,
+    "value_pln": 13479.8,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.4)"
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 532.7259,
+    "price_usd": 2.15,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
   }
 ]
