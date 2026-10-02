@@ -1,33 +1,32 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-10-02",
   "signals": [
     {
       "ticker": "MU",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) twardego katalizatora; wyniki FY Q4 dopiero 30 IX, ostatnie newsy to komentarz analitykow/momentum",
-      "as_of": "2026-09-23",
-      "confidence": 0.4,
+      "has_catalyst": true,
+      "catalyst_type": "guidance",
+      "direction": "bullish",
+      "headline": "Wyniki Q4 FY2026 (30 IX) i guidance na Q1 wyraznie powyzej oczekiwan (popyt przewyzsza podaz na pamieci AI); nacisk na Strategic Customer Agreements. Swiezy twardy katalizator w oknie.",
+      "as_of": "2026-09-30",
+      "confidence": 0.7,
       "source_count": 2,
       "sources": [
-        {"label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/09/23/up-275-this-year-micron-mu-is-still-a-no-brainer-buy-before-september-30/"},
-        {"label": "SEC 8-K FY2026 Q3", "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000013/a2026q3ex991-pressrelease.htm"}
+        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-30/micron-forecast-tops-estimates-after-demand-outstrips-supply"},
+        {"label": "CNBC", "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html"}
       ]
     },
     {
       "ticker": "MRNA",
-      "has_catalyst": true,
-      "catalyst_type": "regulatory",
-      "direction": "bullish",
-      "headline": "Pozytywne wyniki fazy 3 spersonalizowanej szczepionki mRNA na czerniaka + zatwierdzenia FDA szczepionek 2026-2027; akcje na 52-tyg. szczycie",
-      "as_of": "2026-09-23",
-      "confidence": 0.7,
-      "source_count": 3,
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Sierpniowe katalizatory (czerniak faza 3, FDA szczepionka mRNA grypy) poza oknem >7 dni. Swieze sygnaly znosza sie: downgrade Citi do Sell (waluacja, -6,9% premarket) kontra wejscie MRNA do Nasdaq-100. Netto neutralnie.",
+      "as_of": "2026-10-01",
+      "confidence": 0.4,
+      "source_count": 2,
       "sources": [
-        {"label": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/09/23/moderna-stock-forecast-melanoma-vaccine-rally/"},
-        {"label": "StocksToTrade", "url": "https://stockstotrade.com/news/moderna-inc-mrna-news-2026_09_21/"},
-        {"label": "MarketBeat FDA events", "url": "https://www.marketbeat.com/stocks/NASDAQ/MRNA/fda-events/"}
+        {"label": "TheStreet (Citi downgrade)", "url": "https://thestreet.com/investing/stocks/mrna-mordena-stock-citi-downgrades-to-sell-raises-price-target-after-703-run"},
+        {"label": "GuruFocus (Nasdaq-100)", "url": "https://gurufocus.com/news/9107220/moderna-mrna-to-join-nasdaq100-as-warner-bros-discovery-exits"}
       ]
     },
     {
@@ -35,13 +34,13 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Partnerstwo z Nvidia (~2 mld USD) i podniesiona prognoza FY27 to material sprzed >7 dni (wyniki fiskalne Q4); brak swiezego twardego katalizatora w oknie",
-      "as_of": "2026-09-24",
-      "confidence": 0.4,
+      "headline": "Twardy katalizator (inwestycja/umowa Nvidia ~2 mld USD, guidance Q1 FY27) pochodzi z wynikow fiskalnych sprzed >7 dni. Swieze w oknie to noty analitykow (Citi o boomie optyki AI, 29 IX) i cena przy 52-tyg. szczycie (~1049 USD, +8% 1 X) - momentum, nie nowy katalizator.",
+      "as_of": "2026-10-01",
+      "confidence": 0.45,
       "source_count": 2,
       "sources": [
-        {"label": "SEC 8-K FY2026 Q4", "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000162828026055726/lite_ex991xq4fy26.htm"},
-        {"label": "Simply Wall St", "url": "https://simplywall.st/stocks/us/tech/nasdaq-lite/lumentum-holdings/future"}
+        {"label": "GuruFocus (Nvidia CPO)", "url": "https://www.gurufocus.com/news/9101644/lumentum-lite-growth-set-to-accelerate-on-nvidias-copackaged-optics-rampup"},
+        {"label": "Timothy Sykes (Citi AI optics)", "url": "https://www.timothysykes.com/news/lumentum-holdings-inc-lite-news-2026_09_29-3/"}
       ]
     },
     {
@@ -49,27 +48,27 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Rekordowe zamowienia AI (60,9 mld USD) i podniesiona prognoza FY27 pochodza z wynikow Q2 (>7 dni); wrzesniowe artykuly to kontynuacja momentum",
-      "as_of": "2026-09-26",
+      "headline": "Twardy katalizator (wyniki Q2 FY27: rekord 60,9 mld USD zamowien AI, backlog 95 mld, podniesiona prognoza) z 1 IX - >7 dni. Swieze w oknie: podniesienie ceny docelowej przez TD Cowen (29 IX), nowe laptopy Pro Rugged (1 X) i kontynuacja momentum (+4% 2 X) - bez nowego twardego katalizatora.",
+      "as_of": "2026-10-02",
       "confidence": 0.45,
       "source_count": 2,
       "sources": [
-        {"label": "FX Leaders", "url": "https://www.fxleaders.com/news/2026/09/26/dell-stock-record-ai-server-orders/"},
-        {"label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/09/17/dells-ai-backlog-surge-positions-stock-for-600-as-server-revenue-doubles/"}
+        {"label": "24/7 Wall St. (2 X)", "url": "https://247wallst.com/investing/2026/10/02/dell-climbs-4-on-ai-server-backlog-hewlett-packard-enterprise-jumps-8/"},
+        {"label": "FX Leaders (28 IX)", "url": "https://www.fxleaders.com/news/2026/09/28/dell-stock-record-sales-ai-backlog-higher-guidance/"}
       ]
     },
     {
-      "ticker": "MRVL",
+      "ticker": "INTC",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Swiezy news to rutynowa dywidenda 0,06 USD (25 IX); przejecia (Celestial/XConn) i podniesiona prognoza FY28 sprzed >7 dni",
-      "as_of": "2026-09-25",
+      "headline": "Silny ruch (+11%, sektor pol-przewodnikow ~+13% w tydzien) na narracji agentowej AI obciazajacej CPU (Meta Muse) - momentum tematyczne sektora, nie spolkowy twardy katalizator. Wyniki Q3 dopiero ~22-26 X; PDK 14A 0.9 w X to katalizator na kolejne kwartaly.",
+      "as_of": "2026-10-02",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "SEC 8-K dywidenda", "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000162828026063592/a20260925dividendpressrele.htm"},
-        {"label": "Public.com forecast", "url": "https://public.com/stocks/mrvl/forecast-price-target"}
+        {"label": "StocksToTrade (2 X)", "url": "https://stockstotrade.com/news/intel-corporation-intc-news-2026_10_02/"},
+        {"label": "Timothy Sykes (2 X)", "url": "https://www.timothysykes.com/news/intel-corporation-intc-news-2026_10_02/"}
       ]
     }
   ]

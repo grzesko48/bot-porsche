@@ -1,28 +1,23 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-10-02",
   "insiders": {
-    "MRVL": {
+    "INTC": {
       "n_insiders": 1,
       "n_directors": 0,
-      "total_usd": 265302,
+      "total_usd": 10000000,
       "price_vs_52wh_pct": -5,
       "cluster_sell": false,
-      "note": "CFO Willem Meintjes kupil 3400 akcji @ ~78,03 USD 25 IX 2026; insiderzy ~27,2 tys. akcji (~2,1 mln USD) w 90 dni"
+      "note": "CEO Lip-Bu Tan kupil ~10 mln USD akcji @ ~95 USD w VIII 2026; netto kupno 12 mies. (~10,2 mln kup / ~7,5 mln sprzedaz). Jedyny kierunkowy sygnal kupna insiderow w koszyku."
     }
   },
-  "funds": {
-    "MRVL": [
-      {"manager": "Congress Asset Management", "pct_portfolio": 0.3, "action": "new"},
-      {"manager": "Accurate Wealth Management", "pct_portfolio": 0.2, "action": "new"},
-      {"manager": "LGT Fund Management", "pct_portfolio": 0.2, "action": "new"}
-    ]
-  },
+  "funds": {},
   "politicians": {},
   "sector_exits": [],
   "notes": {
-    "MU": "18 sprzedazy jednego dyrektora 1 VII (~43 mln USD) - poza oknem, rutyna, bez klastra kupna",
-    "MRNA": "sprzedaz prezesa 15 VII (glownie konwersje) - brak kupna insiderow",
-    "LITE": "0 kupna / 43 sprzedazy insiderow w 12 mies.; drobne sprzedaze 24-25 IX; guru: wiecej trimujacych",
-    "DELL": "CFO David Kennedy sprzedal 23 896 akcji @ ~585 USD 17 IX - rutyna, nie klaster"
+    "MU": "Insiderzy netto sprzedaja: 0 kupna, sprzedaz ~82-91 mln USD w kwartal (m.in. CEO Mehrotra, dyr. Beyer 25 IX). Brak klastra kupna.",
+    "MRNA": "Klaster sprzedazy: 0 kupna / 15 sprzedazy w 6 mies. (CEO Bancel ~28,7 mln USD, prezes Hoge ~20,6 mln USD, CFO Mock ~4,7 mln USD). Guru 4 dokladaja / 5 trimuje. Smart money negatywne.",
+    "LITE": "0 kupna / 44 sprzedazy insiderow w 12 mies.; prezes BU Yuen Wupen sprzedawal seryjnie 21-29 IX - opisywane jako rutynowa dywersyfikacja, nie zalamanie przekonania. Brak kupna.",
+    "DELL": "Przewaga sprzedazy: CFO Kennedy 23 896 akcji @ ~585 USD (17 IX), dyr. Durban i Radakovich po >1 mln USD (22-23 IX), Silver Lake netto sprzedaz po konwersji. Glownie rutyna/wyjscie sponsora PE, brak kupna.",
+    "INTC": "Pozytyw: CEO Tan kupil ~10 mln USD (VIII); 14 guru dokladaja / 11 trimuje (lekka akumulacja). Kongres handlowal INTC 6x/6 mies. (brak jednoznacznego kierunku)."
   }
 }
