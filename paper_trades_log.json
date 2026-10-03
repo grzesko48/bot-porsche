@@ -603,5 +603,27 @@
     "value_pln": 4369.31,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-10-03",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 486.257,
+    "price_usd": 2.24,
+    "value_pln": 4247.94,
+    "pnl_pln": -189.64,
+    "reason": "stop trafiony (zwrot -4.3%)"
+  },
+  {
+    "date": "2026-10-03",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 486.257,
+    "price_usd": 2.24,
+    "value_pln": 4247.94,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
   }
 ]

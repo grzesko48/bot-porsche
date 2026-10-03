@@ -1,23 +1,23 @@
 [
   {
-    "ticker": "ABBV",
-    "entry_usd": 264.34,
-    "stop_usd": 260.59,
-    "target_usd": 343.642,
+    "ticker": "ASML",
+    "entry_usd": 1867.31,
+    "stop_usd": 1810.92,
+    "target_usd": 2427.503,
     "score": 8.0
   },
   {
-    "ticker": "NVO",
-    "entry_usd": 38.8,
-    "stop_usd": 36.96,
-    "target_usd": 50.44,
+    "ticker": "TSM",
+    "entry_usd": 472.78,
+    "stop_usd": 461.66,
+    "target_usd": 614.614,
     "score": 7.7
   },
   {
-    "ticker": "ABT",
-    "entry_usd": 101.29,
-    "stop_usd": 99.38,
-    "target_usd": 131.677,
+    "ticker": "SAP",
+    "entry_usd": 208.57,
+    "stop_usd": 205.09,
+    "target_usd": 271.141,
     "score": 7.4
   }
 ]
