@@ -1,28 +1,14 @@
 {
-  "generated": "2026-09-27",
-  "insiders": {
-    "MRVL": {
-      "n_insiders": 1,
-      "n_directors": 0,
-      "total_usd": 265302,
-      "price_vs_52wh_pct": -5,
-      "cluster_sell": false,
-      "note": "CFO Willem Meintjes kupil 3400 akcji @ ~78,03 USD 25 IX 2026; insiderzy ~27,2 tys. akcji (~2,1 mln USD) w 90 dni"
-    }
-  },
-  "funds": {
-    "MRVL": [
-      {"manager": "Congress Asset Management", "pct_portfolio": 0.3, "action": "new"},
-      {"manager": "Accurate Wealth Management", "pct_portfolio": 0.2, "action": "new"},
-      {"manager": "LGT Fund Management", "pct_portfolio": 0.2, "action": "new"}
-    ]
-  },
+  "generated": "2026-10-05",
+  "insiders": {},
+  "funds": {},
   "politicians": {},
   "sector_exits": [],
   "notes": {
-    "MU": "18 sprzedazy jednego dyrektora 1 VII (~43 mln USD) - poza oknem, rutyna, bez klastra kupna",
-    "MRNA": "sprzedaz prezesa 15 VII (glownie konwersje) - brak kupna insiderow",
-    "LITE": "0 kupna / 43 sprzedazy insiderow w 12 mies.; drobne sprzedaze 24-25 IX; guru: wiecej trimujacych",
-    "DELL": "CFO David Kennedy sprzedal 23 896 akcji @ ~585 USD 17 IX - rutyna, nie klaster"
+    "MU": "Brak kupna insiderow w oknie. 3 mies.: 0 USD kupna / ~90,9 mln USD sprzedazy; CEO Sanjay Mehrotra sprzedal ~38,8 mln USD 21 VIII. Instytucje -14,7% udzialow kw/kw. Ostatnie kupno (dyr. Teyin M. Liu) 14 I — poza oknem. Sprzedaz to realizacja zyskow po rajdzie, nie klaster dystresowy -> neutralnie, zero confluence bycze.",
+    "MRNA": "Brak kupna insiderow w 30 dni. 90 dni: ~72 mln USD sprzedazy (CEO Bancel, prezes Hoge) po wystrzale kursu; prezes 15 VII glownie konwersje. Instytucje 75% (Vanguard 10,6%, Baillie Gifford 5,3%) — pasywne. Brak klastra kupna -> neutralnie.",
+    "LITE": "0 kupna / 44 sprzedazy insiderow w 12 mies. Yuen Wupen (prezes jedn. biznesowych) sprzedal 807 akcji @ ~947 USD 29 IX; lacznie 23 638 sprzedanych, 0 kupionych. Konsekwentne trimowanie po rajdzie -> neutralnie, zero confluence bycze.",
+    "DELL": "Brak kupna insiderow w oknie; CFO David Kennedy sprzedal ~23,9 tys. akcji @ ~585 USD 17 IX (rutyna). Brak klastra kupna -> neutralnie.",
+    "INTC": "Brak danych o kupnie insiderow / nowych pozycjach 13F w oknie. Rzad USA ma 10% udzialu (znane). Brak bycego confluence -> neutralnie."
   }
 }

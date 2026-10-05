@@ -625,5 +625,38 @@
     "value_pln": 4247.94,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-10-05",
+    "ticker": "TSM",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 2.2296,
+    "price_usd": 485.96,
+    "value_pln": 4236.46,
+    "pnl_pln": 763.58,
+    "reason": "take-profit +22% — realizuj 25%, stop->BE"
+  },
+  {
+    "date": "2026-10-05",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 486.257,
+    "price_usd": 2.18,
+    "value_pln": 4144.76,
+    "pnl_pln": -114.08,
+    "reason": "stop trafiony (zwrot -2.7%)"
+  },
+  {
+    "date": "2026-10-05",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 521.3637,
+    "price_usd": 2.18,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
   }
 ]
