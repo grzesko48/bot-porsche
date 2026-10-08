@@ -1,28 +1,14 @@
 {
-  "generated": "2026-09-27",
-  "insiders": {
-    "MRVL": {
-      "n_insiders": 1,
-      "n_directors": 0,
-      "total_usd": 265302,
-      "price_vs_52wh_pct": -5,
-      "cluster_sell": false,
-      "note": "CFO Willem Meintjes kupil 3400 akcji @ ~78,03 USD 25 IX 2026; insiderzy ~27,2 tys. akcji (~2,1 mln USD) w 90 dni"
-    }
-  },
-  "funds": {
-    "MRVL": [
-      {"manager": "Congress Asset Management", "pct_portfolio": 0.3, "action": "new"},
-      {"manager": "Accurate Wealth Management", "pct_portfolio": 0.2, "action": "new"},
-      {"manager": "LGT Fund Management", "pct_portfolio": 0.2, "action": "new"}
-    ]
-  },
+  "generated": "2026-10-08",
+  "insiders": {},
+  "funds": {},
   "politicians": {},
   "sector_exits": [],
   "notes": {
-    "MU": "18 sprzedazy jednego dyrektora 1 VII (~43 mln USD) - poza oknem, rutyna, bez klastra kupna",
-    "MRNA": "sprzedaz prezesa 15 VII (glownie konwersje) - brak kupna insiderow",
-    "LITE": "0 kupna / 43 sprzedazy insiderow w 12 mies.; drobne sprzedaze 24-25 IX; guru: wiecej trimujacych",
-    "DELL": "CFO David Kennedy sprzedal 23 896 akcji @ ~585 USD 17 IX - rutyna, nie klaster"
+    "MU": "Brak swiezego (<=7 dni) klastra kupna insiderow (OpenInsider: brak transakcji w oknie). 13F Q3 2026 dopiero ~polowa XI. Kontekst historyczny (nieswiezy): Appaloosa/Tepper +250% w MU (Q4'25), liczni kongresmeni trzymaja MU — brak nowego sygnalu w oknie",
+    "MRNA": "Brak swiezych transakcji insiderow w oknie (OpenInsider OK, 0 w oknie). Brak nowych 13F/kongresowych w oknie",
+    "LITE": "Brak swiezego klastra kupna insiderow (historycznie przewaga sprzedazy/trim). Brak nowych 13F/kongresowych w oknie",
+    "DELL": "Brak swiezego klastra kupna insiderow w oknie. 13F Q3 dopiero ~XI. Kontekst: sprzedaz CFO (rutyna) wczesniej — brak klastra kupna",
+    "INTC": "Brak swiezego klastra kupna insiderow w oknie. 13F Q3 dopiero ~XI. Kontekst historyczny (nieswiezy): Pelosi kupno 1-5 mln USD 29 V 2026, Tiger/Northern Trust nowe pozycje w Q1 — brak nowego sygnalu w oknie"
   }
 }
