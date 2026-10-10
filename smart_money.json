@@ -1,28 +1,14 @@
 {
-  "generated": "2026-09-27",
-  "insiders": {
-    "MRVL": {
-      "n_insiders": 1,
-      "n_directors": 0,
-      "total_usd": 265302,
-      "price_vs_52wh_pct": -5,
-      "cluster_sell": false,
-      "note": "CFO Willem Meintjes kupil 3400 akcji @ ~78,03 USD 25 IX 2026; insiderzy ~27,2 tys. akcji (~2,1 mln USD) w 90 dni"
-    }
-  },
-  "funds": {
-    "MRVL": [
-      {"manager": "Congress Asset Management", "pct_portfolio": 0.3, "action": "new"},
-      {"manager": "Accurate Wealth Management", "pct_portfolio": 0.2, "action": "new"},
-      {"manager": "LGT Fund Management", "pct_portfolio": 0.2, "action": "new"}
-    ]
-  },
+  "generated": "2026-10-10",
+  "insiders": {},
+  "funds": {},
   "politicians": {},
   "sector_exits": [],
   "notes": {
-    "MU": "18 sprzedazy jednego dyrektora 1 VII (~43 mln USD) - poza oknem, rutyna, bez klastra kupna",
-    "MRNA": "sprzedaz prezesa 15 VII (glownie konwersje) - brak kupna insiderow",
-    "LITE": "0 kupna / 43 sprzedazy insiderow w 12 mies.; drobne sprzedaze 24-25 IX; guru: wiecej trimujacych",
-    "DELL": "CFO David Kennedy sprzedal 23 896 akcji @ ~585 USD 17 IX - rutyna, nie klaster"
+    "MU": "Insiderzy mocno sprzedaja przez caly 2026 (CEO Mehrotra pod 10b5-1), ~0 kupna; brak klastra kupna w oknie -> sygnal bearish/neutral.",
+    "MRNA": "Dataroma: 0 kupna / 6 sprzedazy w 6 mies. (~12,1 mln USD); ostatnie kupno insiderow III 2025 (Bancel/Sagan). Brak swiezego sygnalu.",
+    "LITE": "Powtarzalne sprzedaze insiderow (Yuen Wupen) do poczatku IX pod planem 10b5-1; ~7 sprzedazy na ~30 mln USD w 90 dni. Bearish/neutral.",
+    "DELL": "Silver Lake i Egon Durban sprzedaja (ostatnio ~4 IX); dominuja sprzedaze instytucjonalne. Insider selling -> bearish tilt.",
+    "INTC": "Najciekawszy, ale NIE swiezy: CEO Lip-Bu Tan kupil ~105 tys. akcji @ ~95 USD 11 VIII; Pelosi kupila >750 tys. USD 24 VII @ 92,32. Oba poza oknem <=7 dni — nie licze jako swiezy sygnal."
   }
 }
