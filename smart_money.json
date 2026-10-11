@@ -1,28 +1,27 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-10-11",
   "insiders": {
-    "MRVL": {
+    "INTC": {
       "n_insiders": 1,
-      "n_directors": 0,
-      "total_usd": 265302,
-      "price_vs_52wh_pct": -5,
+      "n_directors": 1,
+      "total_usd": 10000000,
+      "price_vs_52wh_pct": -16,
       "cluster_sell": false,
-      "note": "CFO Willem Meintjes kupil 3400 akcji @ ~78,03 USD 25 IX 2026; insiderzy ~27,2 tys. akcji (~2,1 mln USD) w 90 dni"
+      "note": "Zakup open-market ~105 tys. akcji @ ~95 USD (~10 mln USD) 11 VIII 2026 (Form 4 director/CEO). Pojedynczy, nie klaster. Starsze (~2 mies.), ale jedyny realny sygnal kupna."
     }
   },
-  "funds": {
-    "MRVL": [
-      {"manager": "Congress Asset Management", "pct_portfolio": 0.3, "action": "new"},
-      {"manager": "Accurate Wealth Management", "pct_portfolio": 0.2, "action": "new"},
-      {"manager": "LGT Fund Management", "pct_portfolio": 0.2, "action": "new"}
+  "funds": {},
+  "politicians": {
+    "INTC": [
+      {"name": "Nancy Pelosi", "days_to_disclose": 38, "top_tier": true, "committee_match": false}
     ]
   },
-  "politicians": {},
   "sector_exits": [],
   "notes": {
-    "MU": "18 sprzedazy jednego dyrektora 1 VII (~43 mln USD) - poza oknem, rutyna, bez klastra kupna",
-    "MRNA": "sprzedaz prezesa 15 VII (glownie konwersje) - brak kupna insiderow",
-    "LITE": "0 kupna / 43 sprzedazy insiderow w 12 mies.; drobne sprzedaze 24-25 IX; guru: wiecej trimujacych",
-    "DELL": "CFO David Kennedy sprzedal 23 896 akcji @ ~585 USD 17 IX - rutyna, nie klaster"
+    "MU": "Brak kupna insiderow w oknie (2025 glownie sprzedaz C-suite). Kongres mieszany i stary: Fetterman kupil III 2026 (1-15 tys., konto rodzinne), Cleo Fields II 2026, Ro Khanna sprzedal VII 2026. Brak klastra.",
+    "MRNA": "0 kupna / 7 sprzedazy insiderow w 90 dni (stan 30 VIII), brak klastra kupna. Sprzedaze 10b5-1 (Klinger 4 VI, Afeyan 21 V) — rutyna. Brak sygnalu smart money.",
+    "LITE": "0 kupna insiderow w 2026; same sprzedaze (CEO Hurlston 27 VIII, SVP Kim, dyr. Lillie 11 V, Yuen Wupen wielokrotnie). Instytucje 94%. Brak klastra kupna, brak klastra sprzedazy w 14 dni.",
+    "DELL": "0 kupna insiderow, ~1247 sprzedazy w 90 dni (stan 29 VII) — rozproszone, brak zdefiniowanego klastra 3/14d. Najwiekszy holder BlackRock (24,7 mln akcji). Brak sygnalu kupna.",
+    "INTC": "Insider buy ~10 mln USD (11 VIII) + Pelosi buy >750 tys. USD @ 92,32 (24 VII, ujawnione ~31 VIII). Realny, ale ~2-mies. sygnal; nie klaster. Pozostali kongresmeni mieszani (Capito/Van Epps drobne sprzedaze)."
   }
 }
