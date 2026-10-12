@@ -1,28 +1,23 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-10-12",
   "insiders": {
-    "MRVL": {
+    "INTC": {
       "n_insiders": 1,
-      "n_directors": 0,
-      "total_usd": 265302,
-      "price_vs_52wh_pct": -5,
+      "n_directors": 1,
+      "total_usd": 10000000,
+      "price_vs_52wh_pct": -10,
       "cluster_sell": false,
-      "note": "CFO Willem Meintjes kupil 3400 akcji @ ~78,03 USD 25 IX 2026; insiderzy ~27,2 tys. akcji (~2,1 mln USD) w 90 dni"
+      "note": "CEO/Chairman Lip-Bu Tan kupil 105 263 akcji @ 95,00 USD (~10 mln USD) 11 VIII 2026 — zakup z wolnego rynku (kod P), potwierdzony 2 zrodlami (Benzinga, Agent402 SEC Form 4); poza oknem 7 dni, ale jedyny istotny byczy sygnal insiderski wsrod kandydatow"
     }
   },
-  "funds": {
-    "MRVL": [
-      {"manager": "Congress Asset Management", "pct_portfolio": 0.3, "action": "new"},
-      {"manager": "Accurate Wealth Management", "pct_portfolio": 0.2, "action": "new"},
-      {"manager": "LGT Fund Management", "pct_portfolio": 0.2, "action": "new"}
-    ]
-  },
+  "funds": {},
   "politicians": {},
   "sector_exits": [],
   "notes": {
-    "MU": "18 sprzedazy jednego dyrektora 1 VII (~43 mln USD) - poza oknem, rutyna, bez klastra kupna",
-    "MRNA": "sprzedaz prezesa 15 VII (glownie konwersje) - brak kupna insiderow",
-    "LITE": "0 kupna / 43 sprzedazy insiderow w 12 mies.; drobne sprzedaze 24-25 IX; guru: wiecej trimujacych",
-    "DELL": "CFO David Kennedy sprzedal 23 896 akcji @ ~585 USD 17 IX - rutyna, nie klaster"
+    "MU": "Insiderzy wylacznie sprzedaja: ~237 transakcji/0 kupna w 6 mies.; ostatnie kupno dyr. Teyin Liu I 2026; instytucje ~76,3% (BlackRock ~9,3%). Sprzedaz rutynowa przy akcji +272% r/r — nie klaster wyjscia",
+    "MRNA": "Mieszane: CEO Bancel sprzedal ~252 tys. akcji 5 VIII; kongres mieszany (Ro Khanna kupna+sprzedaze 1-15 tys. USD, Salazar 19 VIII). Brak swiezego klastra kupna insiderow",
+    "DELL": "Silny odplyw: podmioty Silver Lake sprzedaly (4 IX), 0 kupna insiderow /35 sprzedajacych w 12 mies.; to unwinding sponsora PE, nie klaster wyjscia operacyjnego",
+    "LITE": "CFO Wajid Ali sprzedal 24 542 akcji (swieze, X 2026); historycznie 0 kupna/43 sprzedaze; drobne sprzedaze insiderow wspolwina spadku 12 X",
+    "INTC": "Zakup CEO Lip-Bu Tan 11 VIII (~10 mln USD) to pozytyw; wczesniej drobne sprzedaze/rozliczenia opcji kadry (V-VII 2026); brak danych o transakcjach kongresmenow"
   }
 }
