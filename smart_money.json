@@ -1,28 +1,24 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-10-13",
   "insiders": {
-    "MRVL": {
-      "n_insiders": 1,
-      "n_directors": 0,
-      "total_usd": 265302,
-      "price_vs_52wh_pct": -5,
-      "cluster_sell": false,
-      "note": "CFO Willem Meintjes kupil 3400 akcji @ ~78,03 USD 25 IX 2026; insiderzy ~27,2 tys. akcji (~2,1 mln USD) w 90 dni"
-    }
+    "MU": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Netto sprzedaz insiderow (~374 mln USD/12m vs ~7,8 mln kupna), brak kupna w ostatnich 3 mies. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
+    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Netto sprzedaz insiderow (~4,77 mld USD/12m), brak kupna. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
+    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Sprzedaz insiderow ~90,5 mln USD/3 mies. Brak kupna. Nie oznaczono jako klaster wyjscia (narracja popytowa pozostaje silna)."},
+    "INTC": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak danych o kupnie insiderow w oknie."},
+    "MRNA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak transakcji insiderow w oknie."}
   },
-  "funds": {
-    "MRVL": [
-      {"manager": "Congress Asset Management", "pct_portfolio": 0.3, "action": "new"},
-      {"manager": "Accurate Wealth Management", "pct_portfolio": 0.2, "action": "new"},
-      {"manager": "LGT Fund Management", "pct_portfolio": 0.2, "action": "new"}
+  "funds": {},
+  "politicians": {
+    "MRNA": [
+      {"name": "Ro Khanna (malzonek)", "days_to_disclose": 35, "top_tier": false, "committee_match": false, "note": "Kupno MRNA, transakcja 4 IX, raport 9 X (InsiderFinance)."}
+    ],
+    "INTC": [
+      {"name": "Nancy Pelosi (malzonek, opcje call)", "days_to_disclose": 40, "top_tier": true, "committee_match": false, "note": "Call INTC z 24 VII 2026 — stare, poza oknem swiezosci."}
+    ],
+    "LITE": [
+      {"name": "G. Cisneros / J. Gottheimer", "days_to_disclose": 60, "top_tier": false, "committee_match": false, "note": "Kupna kwiecien/maj 2026 (<=15 tys. USD) — stare."}
     ]
   },
-  "politicians": {},
   "sector_exits": [],
-  "notes": {
-    "MU": "18 sprzedazy jednego dyrektora 1 VII (~43 mln USD) - poza oknem, rutyna, bez klastra kupna",
-    "MRNA": "sprzedaz prezesa 15 VII (glownie konwersje) - brak kupna insiderow",
-    "LITE": "0 kupna / 43 sprzedazy insiderow w 12 mies.; drobne sprzedaze 24-25 IX; guru: wiecej trimujacych",
-    "DELL": "CFO David Kennedy sprzedal 23 896 akcji @ ~585 USD 17 IX - rutyna, nie klaster"
-  }
+  "note": "Smart money NEUTRALNE dla wszystkich 5 kandydatow: netto sprzedaz insiderow przy MU/DELL/LITE (rutyna przy szczytach, bez klastra dystresu), brak swiezych kupna-klastrow, jedynie stare/drobne wpisy kongresmenow. Zadnego sygnalu konwergencji."
 }
