@@ -702,5 +702,60 @@
     "value_pln": 2490.1,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.0)"
+  },
+  {
+    "date": "2026-10-14",
+    "ticker": "MSTR",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 30.0517,
+    "price_usd": 142.97,
+    "value_pln": 16799.27,
+    "pnl_pln": 5754.08,
+    "reason": "stop trafiony (zwrot +52.1%)"
+  },
+  {
+    "date": "2026-10-14",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 549.6066,
+    "price_usd": 2.02,
+    "value_pln": 4330.16,
+    "pnl_pln": -102.51,
+    "reason": "stop trafiony (zwrot -2.3%)"
+  },
+  {
+    "date": "2026-10-14",
+    "ticker": "ACN",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 19.9218,
+    "price_usd": 213.1,
+    "value_pln": 16599.27,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.4)"
+  },
+  {
+    "date": "2026-10-14",
+    "ticker": "MSTR",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 0.1258,
+    "price_usd": 142.97,
+    "value_pln": 70.35,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.1)"
+  },
+  {
+    "date": "2026-10-14",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 564.056,
+    "price_usd": 2.02,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
   }
 ]
