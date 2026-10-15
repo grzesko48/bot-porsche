@@ -757,5 +757,49 @@
     "value_pln": 4444.0,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 9.92,
+    "price_usd": 54.93,
+    "value_pln": 2125.14,
+    "pnl_pln": -352.26,
+    "reason": "stop trafiony (zwrot -14.2%)"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 564.056,
+    "price_usd": 2.06,
+    "value_pln": 4531.63,
+    "pnl_pln": 98.99,
+    "reason": "stop trafiony (zwrot +2.2%)"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 553.1491,
+    "price_usd": 2.06,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-10-15",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 9.7029,
+    "price_usd": 54.93,
+    "value_pln": 2078.62,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.0)"
   }
 ]

@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-10-15",
   "insiders": {
-    "MU": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Netto sprzedaz insiderow (~301,5 mln USD / 20 sprzedazy vs ~7,8 mln kupna / 13 mies, ostatnie kupno dyrektora I 2026). Brak swiezego kupna. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "0 insiderow kupujacych / 35 sprzedajacych w 12 mies (dane do VII 2026). Brak kupna. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
-    "INTC": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Ostatnie kupno: CFO David Zinsner ~250 tys. USD @ 42,50 w I 2026 (stare, poza oknem). Brak swiezego kupna-klastra."},
-    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak danych o swiezym kupnie insiderow w oknie. Narracja popytowa, bez sygnalu smart money."},
-    "MRNA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak transakcji insiderow w oknie."}
+    "MU": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Netto ciezka sprzedaz insiderow w 12 mies (~171 mln USD sprzedazy vs ~7,8 mln kupna); ostatnie kupno dyrektora (Teyin Liu) I 2026. Brak swiezego kupna. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
+    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "0 insiderow kupujacych / 35 sprzedajacych w 12 mies (duze transze Silver Lake VI-VII 2026). Brak kupna. Rutyna przy szczytach, nie klaster dystresu."},
+    "INTC": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Dyrektor/CEO Lip-Bu Tan kupil ~105 tys. akcji @ 95 USD (~10 mln USD) 11 VIII 2026 — realny zakup, ale ~2 mies temu, poza swiezym oknem. Brak swiezego klastra kupna w oknie <=7 dni."},
+    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Tylko sprzedaze: CFO Ali Wajid ~24,5 tys. akcji @ ~1048 USD 1 X (plan 10b5-1), Prezes Wupen Yuen bloki IX, officer VIII. Brak kupna. Rutynowa sprzedaz przy szczytach, nie klaster dystresu."},
+    "MRNA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Prezes Stephen Hoge sprzedaz 14 IX (plan 10b5-1, rutyna). Ostatnie realne kupno (Bancel + dyrektor) III 2025 (stare). Brak swiezego kupna w oknie."}
   },
   "funds": {},
   "politicians": {
@@ -17,5 +17,5 @@
     ]
   },
   "sector_exits": [],
-  "note": "Smart money NEUTRALNE dla wszystkich 5 kandydatow (MRNA/MU/DELL/LITE/INTC): netto sprzedaz insiderow przy MU/DELL (rutyna przy szczytach, bez klastra dystresu), kupna insiderow tylko stare (INTC CFO I 2026, MU dyrektor I 2026), brak swiezych klastrow kupna, jedynie stare/drobne wpisy kongresmenow. Zadnego sygnalu konwergencji."
+  "note": "Smart money NEUTRALNE dla wszystkich 5 kandydatow (MRNA/MU/DELL/LITE/INTC). Insiderzy: netto sprzedaz przy MU/DELL/LITE (rutyna przy szczytach, plany 10b5-1, bez klastra dystresu), MRNA sprzedaz prezesa 10b5-1; jedyne realne kupno to Lip-Bu Tan (INTC) z VIII 2026 — poza swiezym oknem. Kongresmeni: tylko stare/drobne wpisy (Khanna MRNA, Pelosi INTC). Brak swiezego klastra kupna ani konwergencji sygnalow."
 }

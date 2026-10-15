@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-10-15",
   "signals": [
     {
       "ticker": "MRNA",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Jedyny swiezy (<=7 dni) item: powrot Juana Andresa na stanowisko COO od 5 X — zmiana organizacyjna, reakcja negatywna (akcje -7%). Zatwierdzenie FDA szczepionki grypowej mFLUSIVA bylo w sierpniu (poza oknem). Brak swiezego kontraktu/katalizatora bullish.",
-      "as_of": "2026-10-14",
+      "headline": "W oknie <=7 dni (od 8 X): wejscie MRNA do indeksu Nasdaq-100 od 9 X (zdarzenie indeksowe, nie biznesowy katalizator). Powrot Juana Andresa na COO byl 5 X (tuz poza oknem, reakcja negatywna). Wyniki Q3 dopiero 30 X (konsensus strata ~1,38 USD/akcja). Brak swiezego dyskretnego katalizatora bullish z 2 niezaleznymi zrodlami.",
+      "as_of": "2026-10-15",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "RTTNews (COO Juan Andres, 5 X, akcje -6,68%)", "url": "https://www.rttnews.com/story.aspx?Id=3695426"},
-        {"label": "Kavout (mFLUSIVA hype vs sceptycyzm Wall St.)", "url": "https://www.kavout.com/market-lens/moderna-s-flu-vaccine-surge-a-chasm-between-market-hype-and-wall-street-s-skepticism"}
+        {"label": "Barchart (MRNA +17%, kontekst Nasdaq-100 9 X)", "url": "https://www.barchart.com/story/news/37158916/moderna-pops-17-is-there-life-in-mrna-down-90-from-covid-high"},
+        {"label": "RTTNews (COO Juan Andres 5 X, akcje -6,7%)", "url": "https://www.rttnews.com/story.aspx?Id=3695426"}
       ]
     },
     {
@@ -20,41 +20,41 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wyniki Q4 FY26 i podniesione prognozy (rev 60-63 mld USD) byly 30 IX — poza oknem <=7 dni. W oknie tylko: podwyzki PT analitykow (DA Davidson 3000 USD, 7 X) i ciezka aktywnosc opcyjna. Ugoda patentowa Netlist 600 mln USD z 6 X (8 dni, tuz poza oknem). Brak swiezego twardego katalizatora.",
-      "as_of": "2026-10-14",
+      "headline": "W oknie: 12 X spadek na newsie o postepie chinskiego CXMT w pamieciach nowej generacji — to sentyment sektorowy (SK Hynix i Samsung tez w dol), nie twardy katalizator spolkowy. Ugoda patentowa Netlist 600 mln USD z 6 X (tuz poza oknem). Podwyzki PT analitykow (7 X). Brak czystego bullish katalizatora z 2 niezaleznymi zrodlami.",
+      "as_of": "2026-10-15",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "Benzinga (guidance Q1 FY27, 30 IX)", "url": "https://www.benzinga.com/quote/MU/earnings-forecasts"},
-        {"label": "StreetInsider (35K call opcje, SEMICON West, 8 X)", "url": "https://www.streetinsider.com/entities/Mark+Zuckerberg/MU"}
+        {"label": "Beinsure (CXMT 12 X, spadek pamieci)", "url": "https://beinsure.com/news/micron-stock-price-forecast/"},
+        {"label": "StreetInsider (aktywnosc opcyjna, SEMICON West 8 X)", "url": "https://www.streetinsider.com/entities/Mark+Zuckerberg/MU"}
       ]
     },
     {
       "ticker": "DELL",
       "has_catalyst": false,
-      "catalyst_type": "guidance",
-      "direction": "bullish",
-      "headline": "Podniesienie prognozy serwerow AI (do ~60 mld USD) i kontrakt rzadowy 9,7 mld USD byly przy raporcie Q1 FY27 (poza oknem <=7 dni); backlog AI ~95 mld USD. W oknie: 9 X akcje przy ~586 USD, blisko ATH (595,51 z 18 IX) — kontynuacja narracji AI, bez nowego dyskretnego kontraktu.",
-      "as_of": "2026-10-14",
-      "confidence": 0.45,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Brak newsow z okna <=7 dni. Ostatnie twarde dane to raport Q3 FY26 (XI 2025): podniesienie prognozy serwerow AI do ~25 mld USD, rekordowe zamowienia AI 12,3 mld USD, backlog 18,4 mld USD — stare. W oknie brak nowego dyskretnego kontraktu ani zmiany prognoz.",
+      "as_of": "2026-10-15",
+      "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "Beinsure (forecast, 9 X, 586 USD blisko ATH)", "url": "https://beinsure.com/news/dell-stock-price-forecast/"},
-        {"label": "Webull/Motley Fool (backlog AI 95 mld USD)", "url": "https://www.webull.com/news/15655893799797760"}
+        {"label": "Dell IR (wyniki Q3 FY26, prognoza AI)", "url": "https://investors.delltechnologies.com/node/19036"},
+        {"label": "Benzinga (pipeline serwerow AI, rating)", "url": "https://benzinga.com/analyst-ratings/price-target/25/03/44334607/dell-analyst-says-expanding-ai-server-pipeline-could-drive-double-digit-earnings-growth"}
       ]
     },
     {
       "ticker": "LITE",
       "has_catalyst": false,
       "catalyst_type": "none",
-      "direction": "bullish",
-      "headline": "Glowny kontrakt (wieloletni OCS multi-mld USD, cel 2 mld USD/kwartal) ogloszono w marcu 2026 na OFC — stare. W oknie: 1 X skok ceny +7,67% do 1045 USD (momentum/wolumen), YTD ~+184%. Earnings dopiero 5 XI. Narracja popytowa, bez swiezego dyskretnego katalizatora.",
-      "as_of": "2026-10-14",
+      "direction": "neutral",
+      "headline": "Brak swiezego katalizatora z okna <=7 dni. Wieloletni kontrakt OCS multi-mld USD oglosozno w III 2026 na OFC (stare); wyniki Q4 FY26 i prognoza Q1 FY27 (rev 1,225-1,275 mld USD) byly w VIII 2026 (stare). Earnings dopiero ~5 XI. Narracja popytowa, bez nowego dyskretnego katalizatora.",
+      "as_of": "2026-10-15",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "stockanalysis.com (LITE, earnings 5 XI, rating Buy)", "url": "https://stockanalysis.com/stocks/LITE"},
-        {"label": "10jqka (1 X wolumen +103,5%, cena 1045,78)", "url": "https://stock.10jqka.com.cn/20261002/c680431091.shtml"}
+        {"label": "Zacks (LITE +99%/mies, popyt na laser/OCS)", "url": "https://www.zacks.com/stock/news/2873822/lumentum-rises-99-in-a-month-are-the-shares-still-a-buy"},
+        {"label": "CMBI via dfcfw (4QFY26 +109% r/r, guidance 1QFY27)", "url": "https://pdf.dfcfw.com/pdf/H3_AP202608121827906600_1.pdf"}
       ]
     },
     {
@@ -62,13 +62,13 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak newsow z okna <=7 dni. Dostepne materialy (deal Amazon/AWS 18A, plan wydzielenia foundry, granty Pentagonu 3,5 mld USD, spekulacje Apple 2027) sa STARE (2024-2025). Narracja foundry i udzial rzadu USA to kontekst, nie swiezy dyskretny katalizator.",
-      "as_of": "2026-10-14",
+      "headline": "Brak newsow z okna <=7 dni. Dostepne materialy (deal AWS 18A, plan wydzielenia foundry, spekulacje JV z TSMC/wejscie AMD, wsparcie SoftBank/rzadu USA/NVIDIA) sa STARE (2024-2025). Narracja foundry to kontekst, nie swiezy dyskretny katalizator.",
+      "as_of": "2026-10-15",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "ATFX (foundry plan + deal Amazon — stare)", "url": "https://www.atfx.com/en/analysis/market-news/intel-rises-foundry-plan-amazon-deal"},
-        {"label": "Seeking Alpha (Foundry Connect partnerstwa — stare)", "url": "https://seekingalpha.com/news/4437112-intel-shows-off-new-partnerships-manufacturing-updates-at-foundry-connect-event"}
+        {"label": "Yahoo Finance (TSMC JV pitch — stare)", "url": "https://finance.yahoo.com/news/intel-stock-climbs-following-report-that-tsmc-has-pitched-nvidia-amd-on-venture-to-run-intels-foundry-business-164816105.html"},
+        {"label": "ATFX (plan foundry + deal Amazon — stare)", "url": "https://www.atfx.com/en/analysis/market-news/intel-rises-foundry-plan-amazon-deal"}
       ]
     }
   ]
