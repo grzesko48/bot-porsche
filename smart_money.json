@@ -1,21 +1,12 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-10-18",
   "insiders": {
-    "MU": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Netto sprzedaz insiderow (~301,5 mln USD / 20 sprzedazy vs ~7,8 mln kupna / 13 mies, ostatnie kupno dyrektora I 2026). Brak swiezego kupna. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "0 insiderow kupujacych / 35 sprzedajacych w 12 mies (dane do VII 2026). Brak kupna. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
-    "INTC": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Ostatnie kupno: CFO David Zinsner ~250 tys. USD @ 42,50 w I 2026 (stare, poza oknem). Brak swiezego kupna-klastra."},
-    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak danych o swiezym kupnie insiderow w oknie. Narracja popytowa, bez sygnalu smart money."},
-    "MRNA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak transakcji insiderow w oknie."}
+    "MRNA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak kupna open-market w 12 mies; ~64,6 mln USD sprzedazy / 14 txn. Prezydent Stephen Hoge sprzedal ~78 tys. akcji (~17 mln USD) 14-15 X pod planem 10b5-1. Rutynowa, zaplanowana sprzedaz — nie klaster kupna, nie sygnal smart money."},
+    "MU": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak kupna open-market. CLO Michael Ray sprzedal ~6 288 akcji 14 X (10b5-1, ~5,85 mln USD); CEO Mehrotra ~200 tys. akcji V-VIII. Sprzedaz zaplanowana przy wysokich poziomach, nie klaster dystresu, brak swiezego kupna."},
+    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak kupna insiderow (198 sprzedazy / 0 kupna / ~3,59 mld USD w 12 mies). Silver Lake (dyr. Egon Durban) sprzedal 6 i 9 X (~29 mln USD + ~48,6 tys. akcji). Dystrybucja funduszu PE, nie sygnal kupna; nie klaster dystresu."},
+    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak kupna open-market w 12 mies (~175,8 mln USD sprzedazy; 0 USD kupna / 3 mies wg MarketBeat). CFO Wajid Ali sprzedal 24 542 akcje 1 X (10b5-1), prezydent 807 akcji 29 IX. Brak swiezego sygnalu smart money."},
+    "INTC": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Doniesienia (MarketBeat/NAGA) o kupnie CEO Lip-Bu Tan ~105 263 akcji (~10 mln USD, +8,7% udzialu bezposredniego) — BRAK potwierdzonej daty transakcji, nie moge zakwalifikowac jako swieze (<=7 dni). Napływy 13F (Annex/Baugh/Milestone/Counterpoint 16-18 X) to rutynowe drobne zgloszenia funduszy, nie klaster smart money. NEUTRAL do czasu potwierdzenia daty Form 4."}
   },
   "funds": {},
-  "politicians": {
-    "MRNA": [
-      {"name": "Ro Khanna (malzonek)", "days_to_disclose": 40, "top_tier": false, "committee_match": false, "note": "Kupno MRNA, transakcja 4 IX, raport 9 X — drobne/stare, poza swiezym oknem."}
-    ],
-    "INTC": [
-      {"name": "Nancy Pelosi (malzonek, opcje call)", "days_to_disclose": 80, "top_tier": true, "committee_match": false, "note": "Call INTC z 24 VII 2026 — stare, poza oknem swiezosci."}
-    ]
-  },
-  "sector_exits": [],
-  "note": "Smart money NEUTRALNE dla wszystkich 5 kandydatow (MRNA/MU/DELL/LITE/INTC): netto sprzedaz insiderow przy MU/DELL (rutyna przy szczytach, bez klastra dystresu), kupna insiderow tylko stare (INTC CFO I 2026, MU dyrektor I 2026), brak swiezych klastrow kupna, jedynie stare/drobne wpisy kongresmenow. Zadnego sygnalu konwergencji."
+  "politicians": {}
 }

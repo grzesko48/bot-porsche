@@ -801,5 +801,104 @@
     "value_pln": 2078.62,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.0)"
+  },
+  {
+    "date": "2026-10-18",
+    "ticker": "TSM",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 8.9184,
+    "price_usd": 412.61,
+    "value_pln": 14277.66,
+    "pnl_pln": 492.75,
+    "reason": "stop trafiony (zwrot +3.6%)"
+  },
+  {
+    "date": "2026-10-18",
+    "ticker": "ASML",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 2.5734,
+    "price_usd": 1641.52,
+    "value_pln": 16390.13,
+    "pnl_pln": 490.6,
+    "reason": "stop trafiony (zwrot +3.1%)"
+  },
+  {
+    "date": "2026-10-18",
+    "ticker": "ARM",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 12.9176,
+    "price_usd": 227.8,
+    "value_pln": 11417.43,
+    "pnl_pln": -1310.15,
+    "reason": "stop trafiony (zwrot -10.3%)"
+  },
+  {
+    "date": "2026-10-18",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 553.1491,
+    "price_usd": 1.96,
+    "value_pln": 4206.59,
+    "pnl_pln": -214.62,
+    "reason": "stop trafiony (zwrot -4.9%)"
+  },
+  {
+    "date": "2026-10-18",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 9.7029,
+    "price_usd": 50.84,
+    "value_pln": 1913.98,
+    "pnl_pln": -153.98,
+    "reason": "stop trafiony (zwrot -7.4%)"
+  },
+  {
+    "date": "2026-10-18",
+    "ticker": "ASML",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 2.5869,
+    "price_usd": 1641.52,
+    "value_pln": 16475.98,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 8.0)"
+  },
+  {
+    "date": "2026-10-18",
+    "ticker": "TSM",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 10.2915,
+    "price_usd": 412.61,
+    "value_pln": 16475.98,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.7)"
+  },
+  {
+    "date": "2026-10-18",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 584.3678,
+    "price_usd": 1.96,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-10-18",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 10.4684,
+    "price_usd": 50.84,
+    "value_pln": 2064.99,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.0)"
   }
 ]

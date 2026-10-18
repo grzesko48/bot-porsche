@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-10-18",
   "signals": [
     {
       "ticker": "MRNA",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Jedyny swiezy (<=7 dni) item: powrot Juana Andresa na stanowisko COO od 5 X — zmiana organizacyjna, reakcja negatywna (akcje -7%). Zatwierdzenie FDA szczepionki grypowej mFLUSIVA bylo w sierpniu (poza oknem). Brak swiezego kontraktu/katalizatora bullish.",
-      "as_of": "2026-10-14",
-      "confidence": 0.4,
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora. W oknie: insider selling (prezydent Stephen Hoge sprzedal ~78 tys. akcji ~17 mln USD, 14-15 X, plan 10b5-1) i spadek kursu -7,8% (16 X) na obawach o wycene/dane z badan. Zatwierdzenia FDA (grypa VIII, COVID ~51 dni temu) i nominacja COO (5 X) poza oknem. Brak kontraktu/przejecia/guidance bullish.",
+      "as_of": "2026-10-18",
+      "confidence": 0.35,
       "source_count": 2,
       "sources": [
-        {"label": "RTTNews (COO Juan Andres, 5 X, akcje -6,68%)", "url": "https://www.rttnews.com/story.aspx?Id=3695426"},
-        {"label": "Kavout (mFLUSIVA hype vs sceptycyzm Wall St.)", "url": "https://www.kavout.com/market-lens/moderna-s-flu-vaccine-surge-a-chasm-between-market-hype-and-wall-street-s-skepticism"}
+        {"label": "MarketBeat (Hoge sprzedaz 10b5-1, 14-15 X; kurs -7,8%)", "url": "https://www.marketbeat.com/instant-alerts/price-moderna-nasdaq-mrna-stock-price-down-78-after-insider-selling-2026-10-16/"},
+        {"label": "GuruFocus (spadek ~8% na obawach o wycene)", "url": "https://www.gurufocus.com/news/9128281/moderna-mrna-shares-drop-nearly-8-amid-market-pullback-and-valuation-concerns"}
       ]
     },
     {
@@ -20,41 +20,41 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wyniki Q4 FY26 i podniesione prognozy (rev 60-63 mld USD) byly 30 IX — poza oknem <=7 dni. W oknie tylko: podwyzki PT analitykow (DA Davidson 3000 USD, 7 X) i ciezka aktywnosc opcyjna. Ugoda patentowa Netlist 600 mln USD z 6 X (8 dni, tuz poza oknem). Brak swiezego twardego katalizatora.",
-      "as_of": "2026-10-14",
-      "confidence": 0.4,
+      "headline": "Brak swiezego twardego katalizatora w oknie <=7 dni. Guidance Q1 FY27 (~61,5 mld USD rev) byl 30 IX — poza oknem. W oknie tylko: spadek -5,6% (16 X) na obawach o chinskie CXMT (DDR5/LPDDR5X) oraz rozne PT analitykow. To ruch rynkowy/szum, nie katalizator spolki. Insiderzy sprzedaja (CLO ~6,3 tys. akcji 14 X, 10b5-1).",
+      "as_of": "2026-10-18",
+      "confidence": 0.35,
       "source_count": 2,
       "sources": [
-        {"label": "Benzinga (guidance Q1 FY27, 30 IX)", "url": "https://www.benzinga.com/quote/MU/earnings-forecasts"},
-        {"label": "StreetInsider (35K call opcje, SEMICON West, 8 X)", "url": "https://www.streetinsider.com/entities/Mark+Zuckerberg/MU"}
+        {"label": "TheStockObserver (MU -5,6% 16 X, obawy CXMT)", "url": "https://www.thestockobserver.com/2026/10/16/micron-technology-nasdaqmu-stock-falls-5-6-heres-why.html"},
+        {"label": "Trefis (analiza upside/ryzyka, 16 X)", "url": "https://trefis.com/stock/mu/articles/619008/how-much-upside-is-left-in-micron-stock/2026-10-16"}
       ]
     },
     {
       "ticker": "DELL",
       "has_catalyst": false,
-      "catalyst_type": "guidance",
-      "direction": "bullish",
-      "headline": "Podniesienie prognozy serwerow AI (do ~60 mld USD) i kontrakt rzadowy 9,7 mld USD byly przy raporcie Q1 FY27 (poza oknem <=7 dni); backlog AI ~95 mld USD. W oknie: 9 X akcje przy ~586 USD, blisko ATH (595,51 z 18 IX) — kontynuacja narracji AI, bez nowego dyskretnego kontraktu.",
-      "as_of": "2026-10-14",
-      "confidence": 0.45,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Brak swiezego bullish katalizatora. W oknie negatyw: Barclays obnizyl do Equal Weight, PT 574 USD (14 X, jedno zrodlo) — rekomendacja, nie twardy kontrakt/guidance; kurs plunge do ~473 USD (15 X). Rekordowe zamowienia AI (Q2 FY27, 60,9 mld USD orders) byly wczesniej, poza oknem. Insiderzy tylko sprzedaja (Silver Lake 6 i 9 X). Ryzyko: ograniczenia dostaw pamieci (CEO: do 4 lat).",
+      "as_of": "2026-10-18",
+      "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "Beinsure (forecast, 9 X, 586 USD blisko ATH)", "url": "https://beinsure.com/news/dell-stock-price-forecast/"},
-        {"label": "Webull/Motley Fool (backlog AI 95 mld USD)", "url": "https://www.webull.com/news/15655893799797760"}
+        {"label": "GuruFocus (plunge po downgrade Barclays, zamkniecie 473,39)", "url": "https://www.gurufocus.com/news/9126373/dell-technologies-dell-shares-plunge-after-barclays-downgrade-closing-at-47339"},
+        {"label": "Futurum (Q2 FY27 AI orders/backlog — kontekst, poza oknem)", "url": "https://futurumgroup.com/insights/dell-technologies-q3-fy-2026-ai-orders-backlog-and-outlook-rise/"}
       ]
     },
     {
       "ticker": "LITE",
       "has_catalyst": false,
       "catalyst_type": "none",
-      "direction": "bullish",
-      "headline": "Glowny kontrakt (wieloletni OCS multi-mld USD, cel 2 mld USD/kwartal) ogloszono w marcu 2026 na OFC — stare. W oknie: 1 X skok ceny +7,67% do 1045 USD (momentum/wolumen), YTD ~+184%. Earnings dopiero 5 XI. Narracja popytowa, bez swiezego dyskretnego katalizatora.",
-      "as_of": "2026-10-14",
+      "direction": "neutral",
+      "headline": "Silna narracja popytowa (CEO Hurlston: moce fotoniczne wyprzedane do 2029, ~70% popytu niezaspokojone w 2027), ale rdzen zdarzenia to ~8-9 X — ok. 9 dni, TUZ poza oknem <=7 dni. W samym oknie tylko re-reporting i spadek -10795 USD/sesje na obawach o wysoka wycene. Guidance Q1 FY27 (1,225-1,275 mld USD) z VIII. Insiderzy tylko sprzedaja (CFO 1 X). Nie kwalifikuje jako swiezy twardy katalizator.",
+      "as_of": "2026-10-18",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "stockanalysis.com (LITE, earnings 5 XI, rating Buy)", "url": "https://stockanalysis.com/stocks/LITE"},
-        {"label": "10jqka (1 X wolumen +103,5%, cena 1045,78)", "url": "https://stock.10jqka.com.cn/20261002/c680431091.shtml"}
+        {"label": "GuruFocus (fully booked 2029, ~70% popytu niezaspokojone)", "url": "https://www.gurufocus.com/news/9118997/lumentum-lite-fully-booked-through-2029-signaling-strong-demand-for-semiconductor-suppliers"},
+        {"label": "GuruFocus (LITE plunge na obawach o wycene)", "url": "https://www.gurufocus.com/news/9119829/lumentum-holdings-lite-shares-plunge-10795-amid-elevated-valuation-concerns"}
       ]
     },
     {
@@ -62,13 +62,13 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak newsow z okna <=7 dni. Dostepne materialy (deal Amazon/AWS 18A, plan wydzielenia foundry, granty Pentagonu 3,5 mld USD, spekulacje Apple 2027) sa STARE (2024-2025). Narracja foundry i udzial rzadu USA to kontekst, nie swiezy dyskretny katalizator.",
-      "as_of": "2026-10-14",
-      "confidence": 0.4,
+      "headline": "Brak potwierdzonego swiezego twardego katalizatora. W oknie: kurs -2,8% do 95,37 USD (15 X) po smiertelnej eksplozji w fabryce Kiryat Gat (Izrael) + wyprzedaz chipow po goracej inflacji — zdarzenie operacyjne/rynkowe, negatywne, nie kontrakt/guidance. Doniesienia o klientach foundry (Broadcom/Google/Apple/AMD) to przecieki z social media (KeyBanc), niepotwierdzone. Brak oficjalnego guidance w oknie.",
+      "as_of": "2026-10-18",
+      "confidence": 0.35,
       "source_count": 2,
       "sources": [
-        {"label": "ATFX (foundry plan + deal Amazon — stare)", "url": "https://www.atfx.com/en/analysis/market-news/intel-rises-foundry-plan-amazon-deal"},
-        {"label": "Seeking Alpha (Foundry Connect partnerstwa — stare)", "url": "https://seekingalpha.com/news/4437112-intel-shows-off-new-partnerships-manufacturing-updates-at-foundry-connect-event"}
+        {"label": "HeyGoTrade (INTC -2,8% 15 X, eksplozja Kiryat Gat)", "url": "https://heygotrade.com/en/news/intel-intc-stock-news-october-16-2026"},
+        {"label": "eTeknix (doniesienia o deals foundry — niepotwierdzone)", "url": "https://eteknix.com/intel-foundry-gets-a-major-boost-after-securing-key-deals-with-tech-giants"}
       ]
     }
   ]
