@@ -1,74 +1,81 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-10-19",
   "signals": [
     {
       "ticker": "MRNA",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Jedyny swiezy (<=7 dni) item: powrot Juana Andresa na stanowisko COO od 5 X — zmiana organizacyjna, reakcja negatywna (akcje -7%). Zatwierdzenie FDA szczepionki grypowej mFLUSIVA bylo w sierpniu (poza oknem). Brak swiezego kontraktu/katalizatora bullish.",
-      "as_of": "2026-10-14",
-      "confidence": 0.4,
-      "source_count": 2,
+      "headline": "Brak swiezego twardego katalizatora w oknie <=7 dni. Akcje -8% w piatek 16.10 (realizacja zyskow po >50% wzroscie w miesiac) przed kluczowym odczytem danych szczepionki na czerniaka (intismeran z Merck) na ESMO 24.10. Analitycy podnosza PT ale trzymaja Neutral/Hold (Goldman 15.10 do 137 USD, BofA do 200 USD). Wyniki Q3 6.11.",
+      "as_of": "2026-10-19",
+      "confidence": 0.55,
+      "source_count": 4,
       "sources": [
-        {"label": "RTTNews (COO Juan Andres, 5 X, akcje -6,68%)", "url": "https://www.rttnews.com/story.aspx?Id=3695426"},
-        {"label": "Kavout (mFLUSIVA hype vs sceptycyzm Wall St.)", "url": "https://www.kavout.com/market-lens/moderna-s-flu-vaccine-surge-a-chasm-between-market-hype-and-wall-street-s-skepticism"}
+        {"label": "ad-hoc-news (Neutral PT, insider sales, melanoma readout 24.10)", "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/moderna-s-45-prozent-run-meets-its-reckoning-neutral-targets-insider-sales-and-a-melanoma-readout/70362400"},
+        {"label": "GuruFocus (Goldman utrzymuje Neutral, PT 137, 15.10)", "url": "https://www.gurufocus.com/news/9125327/mrna-maintains-neutral-rating-price-target-raised-to-137"},
+        {"label": "GuruFocus (MRNA -8% korekta/wycena)", "url": "https://gurufocus.com/news/9128281/moderna-mrna-shares-drop-nearly-8-amid-market-pullback-and-valuation-concerns"},
+        {"label": "247WallSt (buzz wokol szczepionki na raka, 15.10)", "url": "https://247wallst.com/investing/2026/10/15/moderna-stock-is-soaring-on-cancer-vaccine-buzz-is-it-too-late-to-get-in/"}
       ]
     },
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Wyniki Q4 FY26 i podniesione prognozy (rev 60-63 mld USD) byly 30 IX — poza oknem <=7 dni. W oknie tylko: podwyzki PT analitykow (DA Davidson 3000 USD, 7 X) i ciezka aktywnosc opcyjna. Ugoda patentowa Netlist 600 mln USD z 6 X (8 dni, tuz poza oknem). Brak swiezego twardego katalizatora.",
-      "as_of": "2026-10-14",
+      "direction": "bearish",
+      "headline": "Brak wlasnego katalizatora spolki w oknie. Obawy o chinska konkurencje (CXMT, przelom w DRAM) i ryzyka wokol Chin scielily akcje MU o ~10-11% w tygodniu. Buyback wstrzymany do 9 grudnia. Narracja sektorowa/ryzyko, nie dyskretny news spolki.",
+      "as_of": "2026-10-19",
       "confidence": 0.4,
-      "source_count": 2,
+      "source_count": 4,
       "sources": [
-        {"label": "Benzinga (guidance Q1 FY27, 30 IX)", "url": "https://www.benzinga.com/quote/MU/earnings-forecasts"},
-        {"label": "StreetInsider (35K call opcje, SEMICON West, 8 X)", "url": "https://www.streetinsider.com/entities/Mark+Zuckerberg/MU"}
+        {"label": "TipRanks (China fears rattle MU)", "url": "https://www.tipranks.com/news/weekend-updates/micron-stock-slumps-as-china-fears-rattle-ai-darling"},
+        {"label": "TradingView/GuruFocus (CXMT DRAM breakthrough)", "url": "https://www.tradingview.com/news/gurufocus:b167b8742094b:0-micron-takes-another-hit-as-china-chip-fears-flare/"},
+        {"label": "Benzinga (reality check: China, bearish bets)", "url": "https://www.benzinga.com/markets/tech/26/10/62316027/microns-monster-rally-faces-reality-check-china-bearish-bets-and-ai-jitters"},
+        {"label": "Timothy Sykes (legal and China DRAM threats, 14.10)", "url": "https://www.timothysykes.com/news/micron-technology-inc-mu-news-2026_10_14/"}
       ]
     },
     {
       "ticker": "DELL",
-      "has_catalyst": false,
-      "catalyst_type": "guidance",
-      "direction": "bullish",
-      "headline": "Podniesienie prognozy serwerow AI (do ~60 mld USD) i kontrakt rzadowy 9,7 mld USD byly przy raporcie Q1 FY27 (poza oknem <=7 dni); backlog AI ~95 mld USD. W oknie: 9 X akcje przy ~586 USD, blisko ATH (595,51 z 18 IX) — kontynuacja narracji AI, bez nowego dyskretnego kontraktu.",
-      "as_of": "2026-10-14",
-      "confidence": 0.45,
+      "has_catalyst": true,
+      "catalyst_type": "analyst",
+      "direction": "bearish",
+      "headline": "Swiezy katalizator negatywny: Barclays obniza rekomendacje DELL (do Hold/Neutral) na obawach o wycene; akcje ~-23% w tygodniu. Twardy, dyskretny sygnal w oknie <=7 dni, >=2 niezalezne zrodla.",
+      "as_of": "2026-10-18",
+      "confidence": 0.82,
       "source_count": 2,
       "sources": [
-        {"label": "Beinsure (forecast, 9 X, 586 USD blisko ATH)", "url": "https://beinsure.com/news/dell-stock-price-forecast/"},
-        {"label": "Webull/Motley Fool (backlog AI 95 mld USD)", "url": "https://www.webull.com/news/15655893799797760"}
+        {"label": "The Motley Fool (Why Dell Stock Took a Dive, 18.10)", "url": "https://fool.com/coverage/market-movers/2026/10/18/why-dell-technologies-stock-took-a-dive-last-week"},
+        {"label": "GuruFocus (Dell downgraded by Barclays, valuation concerns)", "url": "https://gurufocus.com/news/9129172/dell-technologies-dell-downgraded-by-barclays-amid-valuation-concerns"}
       ]
     },
     {
       "ticker": "LITE",
       "has_catalyst": false,
       "catalyst_type": "none",
-      "direction": "bullish",
-      "headline": "Glowny kontrakt (wieloletni OCS multi-mld USD, cel 2 mld USD/kwartal) ogloszono w marcu 2026 na OFC — stare. W oknie: 1 X skok ceny +7,67% do 1045 USD (momentum/wolumen), YTD ~+184%. Earnings dopiero 5 XI. Narracja popytowa, bez swiezego dyskretnego katalizatora.",
-      "as_of": "2026-10-14",
-      "confidence": 0.4,
-      "source_count": 2,
+      "direction": "neutral",
+      "headline": "Brak twardego dyskretnego katalizatora w oknie. Zacks sciecie ratingu do Hold 14.10, wyprzedaz sektora optyki AI, potem odbicie ~+4% w pon. 19.10. Earnings 5.11. Ruch sektorowy/momentum, nie news spolki.",
+      "as_of": "2026-10-19",
+      "confidence": 0.3,
+      "source_count": 3,
       "sources": [
-        {"label": "stockanalysis.com (LITE, earnings 5 XI, rating Buy)", "url": "https://stockanalysis.com/stocks/LITE"},
-        {"label": "10jqka (1 X wolumen +103,5%, cena 1045,78)", "url": "https://stock.10jqka.com.cn/20261002/c680431091.shtml"}
+        {"label": "MarketBeat (LITE news / Zacks downgrade to Hold, 14.10)", "url": "https://www.marketbeat.com/stocks/NASDAQ/LITE/news/"},
+        {"label": "Investing.com (AI optics selloff, LITE sliding)", "url": "https://www.investing.com/news/stock-market-news/why-is-lumentum-stock-sliding-today-93CH-4952099"},
+        {"label": "AOL (optics stocks rally, Lumentum +4%, 19.10)", "url": "https://www.aol.com/articles/optics-stocks-rally-ahead-earnings-170510000.html"}
       ]
     },
     {
       "ticker": "INTC",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak newsow z okna <=7 dni. Dostepne materialy (deal Amazon/AWS 18A, plan wydzielenia foundry, granty Pentagonu 3,5 mld USD, spekulacje Apple 2027) sa STARE (2024-2025). Narracja foundry i udzial rzadu USA to kontekst, nie swiezy dyskretny katalizator.",
-      "as_of": "2026-10-14",
-      "confidence": 0.4,
-      "source_count": 2,
+      "has_catalyst": true,
+      "catalyst_type": "analyst",
+      "direction": "bullish",
+      "headline": "Swiezy katalizator pozytywny: JPMorgan podnosi Intela z Underweight do Neutral; Mizuho ($114) i BNP ($125) mocno podnosza PT na fali popytu AI i projektu Terafab; akcje +5,66% 19.10. >=2 niezalezne zrodla w oknie <=7 dni.",
+      "as_of": "2026-10-19",
+      "confidence": 0.72,
+      "source_count": 4,
       "sources": [
-        {"label": "ATFX (foundry plan + deal Amazon — stare)", "url": "https://www.atfx.com/en/analysis/market-news/intel-rises-foundry-plan-amazon-deal"},
-        {"label": "Seeking Alpha (Foundry Connect partnerstwa — stare)", "url": "https://seekingalpha.com/news/4437112-intel-shows-off-new-partnerships-manufacturing-updates-at-foundry-connect-event"}
+        {"label": "GuruFocus (JPMorgan upgrades INTC to Neutral)", "url": "https://www.gurufocus.com/news/9129488/jpmorgan-upgrades-intel-intc-to-neutral-amid-ai-demand-and-execution-gains"},
+        {"label": "Timothy Sykes (Mizuho $114, BNP $125, Terafab, 19.10)", "url": "https://www.timothysykes.com/news/intel-corporation-intc-news-2026_10_19/"},
+        {"label": "HeyGoTrade (INTC stock news, 16.10)", "url": "https://www.heygotrade.com/en/news/intel-intc-stock-news-october-16-2026/"},
+        {"label": "TradingKey (INTC +5,66% 19.10)", "url": "https://tradingkey.com/news/market-movers/262223895-market-movers-intc-20261019"}
       ]
     }
   ]

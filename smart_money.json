@@ -1,21 +1,26 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-10-19",
   "insiders": {
-    "MU": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Netto sprzedaz insiderow (~301,5 mln USD / 20 sprzedazy vs ~7,8 mln kupna / 13 mies, ostatnie kupno dyrektora I 2026). Brak swiezego kupna. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "0 insiderow kupujacych / 35 sprzedajacych w 12 mies (dane do VII 2026). Brak kupna. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
-    "INTC": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Ostatnie kupno: CFO David Zinsner ~250 tys. USD @ 42,50 w I 2026 (stare, poza oknem). Brak swiezego kupna-klastra."},
-    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak danych o swiezym kupnie insiderow w oknie. Narracja popytowa, bez sygnalu smart money."},
-    "MRNA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak transakcji insiderow w oknie."}
+    "MRNA": {"n_insiders": 0, "n_directors": 0, "total_usd": -2739870, "price_vs_52wh_pct": -8, "cluster_sell": false, "note": "Brak zakupow insiderow. Sprzedaze rutynowe wg planow 10b5-1 / rozliczenia podatkowe: prezydent Stephen Hoge (~2,74 mln USD, ujawnione 16.10), dyrektor Noubar Afeyan (net seller), CFO James Mock, CLO Shannon Klinger. Nie klaster dystresu/konwersji opinii. OpenInsider 503, dane z agregatorow."},
+    "MU": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -5, "cluster_sell": false, "note": "OpenInsider niedostepny (503). Brak swiezych zakupow i brak klastra w oknie. Wczesniejsze (poza oknem) sprzedaze kadry w ramach 10b5-1 (CEO ~36 mln, EVP w lutym 2026). Buyback wstrzymany do 9.12."},
+    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": -733900000, "price_vs_52wh_pct": -25, "cluster_sell": false, "note": "Brak zakupow na otwartym rynku. ~166 transakcji sprzedazy (~733,9 mln USD w 6 mies.) to glownie Silver Lake — konwersje/sprzedaz akcji klasy C w ramach planow 10b5-1 (strukturalne wyjscie sponsora PE, 6.10). Sygnal rutynowy/strukturalny, nie klaster dystresu insiderow."},
+    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": -129408253, "price_vs_52wh_pct": -25, "cluster_sell": false, "note": "Brak zakupow. Wg Dataroma jednostronna sprzedaz ~129,4 mln USD / 113 transakcji w 6 mies.: CFO Ali Wajid (~3,7 mln), BYLY officer Vincent Retort (~26,6 mln — likwidacja po odejsciu, nie sygnal), dyrektor Ian Small (maj 2026). Rozlozone w 6 mies. + byly officer -> nie swiezy, skoncentrowany klaster konwikcyjny; odnotowane jako slabosc, ale nie tarcza wyjscia. Fundusze: Maverick -52,49%, Vontobel sprzedaje; kupna sladowe (Polen 243 akcje, BDF nowa ~4,2 mln) — netto redukcja."},
+    "INTC": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -25, "cluster_sell": false, "note": "Brak transakcji insiderow w oknie 7 dni. Ostatni istotny ruch to KUPNO: CEO/dyrektor Lip-Bu Tan 105 263 akcje za ~10 mln USD @ ~95 USD (11.08.2026, poza oknem) — pozytywny kontekst, nie swiezy. Brak klastra sprzedazy. Kurs ~25% ponizej 52-tyg. szczytu."}
   },
   "funds": {},
   "politicians": {
     "MRNA": [
-      {"name": "Ro Khanna (malzonek)", "days_to_disclose": 40, "top_tier": false, "committee_match": false, "note": "Kupno MRNA, transakcja 4 IX, raport 9 X — drobne/stare, poza swiezym oknem."}
+      {"name": "Ro Khanna", "days_to_disclose": 0, "top_tier": false, "committee_match": false, "note": "Najczesciej handlujacy MRNA w Kongresie, drobne transakcje 1-15 tys. USD (sty-sie 2026, brak swiezych w oknie <=7 dni), prawd. zarzadzane pasywnie."}
     ],
-    "INTC": [
-      {"name": "Nancy Pelosi (malzonek, opcje call)", "days_to_disclose": 80, "top_tier": true, "committee_match": false, "note": "Call INTC z 24 VII 2026 — stare, poza oknem swiezosci."}
+    "DELL": [
+      {"name": "Michael McCaul", "days_to_disclose": 17, "top_tier": false, "committee_match": false, "note": "Kupno DELL, transakcja 18.06, ujawnienie 5.07 — poza oknem 7 dni; komisja spraw zagranicznych, brak dopasowania do tech."},
+      {"name": "John McGuire", "days_to_disclose": 0, "top_tier": false, "committee_match": false, "note": "Sprzedaz DELL, transakcja 4.06 — stare, poza oknem."}
+    ],
+    "LITE": [
+      {"name": "Ro Khanna", "days_to_disclose": 19, "top_tier": false, "committee_match": false, "note": "Drobne transakcje (1-15 tys. USD) wg Quiver, daty do pol. 2026 — poza oknem 7 dni."},
+      {"name": "Josh Gottheimer", "days_to_disclose": 19, "top_tier": false, "committee_match": false, "note": "Drobne zakupy wg Quiver, poza oknem 7 dni."}
     ]
   },
   "sector_exits": [],
-  "note": "Smart money NEUTRALNE dla wszystkich 5 kandydatow (MRNA/MU/DELL/LITE/INTC): netto sprzedaz insiderow przy MU/DELL (rutyna przy szczytach, bez klastra dystresu), kupna insiderow tylko stare (INTC CFO I 2026, MU dyrektor I 2026), brak swiezych klastrow kupna, jedynie stare/drobne wpisy kongresmenow. Zadnego sygnalu konwergencji."
+  "note": "Smart money NEUTRALNE dla wszystkich 5 kandydatow (MRNA/MU/DELL/LITE/INTC). ZERO swiezych zakupow insiderow z konwikcja. Sprzedaze obecne, ale rutynowe: MRNA/MU plany 10b5-1 i podatki; DELL strukturalne wyjscie Silver Lake (klasa C, 10b5-1); LITE jednostronna sprzedaz rozlozona w 6 mies. z bylym officerem (slabosc odnotowana, ale nie klaster konwikcyjny -> bez tarczy wyjscia); INTC ostatni ruch to KUPNO CEO (sierpien, poza oknem). Wpisy kongresmenow drobne i poza oknem. Zadnego sygnalu konwergencji ani swiezej tarczy wyjscia."
 }
