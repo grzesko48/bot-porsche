@@ -853,5 +853,77 @@
     "reason": "trzymam (P/L +0.2%)",
     "fraction": 1.0,
     "new_stop_usd": null
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "MRVL",
+    "action": "SELL_ALL",
+    "rule": 2,
+    "reason": "cena 241.20 <= stop 270.60 (zablokowany zysk -5%) — wyjście",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "SAP",
+    "action": "SELL_ALL",
+    "rule": 4,
+    "reason": "wyniki za 1 dni — binarne ryzyko luki",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "ASML",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +1.3%), nowy szczyt 1631.38",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +0.7%), nowy szczyt 426.59",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "MRVL",
+    "action": "SELL_ALL",
+    "rule": 2,
+    "reason": "cena 241.20 <= stop 270.60 (zablokowany zysk -5%) — wyjście",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "SAP",
+    "action": "SELL_ALL",
+    "rule": 4,
+    "reason": "wyniki za 1 dni — binarne ryzyko luki",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "ASML",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +1.2%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "rule": 9,
+    "reason": "trzymam (P/L +0.6%)",
+    "fraction": 1.0,
+    "new_stop_usd": null
   }
 ]

@@ -1,21 +1,49 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-10-20",
   "insiders": {
-    "MU": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Netto sprzedaz insiderow (~301,5 mln USD / 20 sprzedazy vs ~7,8 mln kupna / 13 mies, ostatnie kupno dyrektora I 2026). Brak swiezego kupna. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "0 insiderow kupujacych / 35 sprzedajacych w 12 mies (dane do VII 2026). Brak kupna. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
-    "INTC": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Ostatnie kupno: CFO David Zinsner ~250 tys. USD @ 42,50 w I 2026 (stare, poza oknem). Brak swiezego kupna-klastra."},
-    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak danych o swiezym kupnie insiderow w oknie. Narracja popytowa, bez sygnalu smart money."},
-    "MRNA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak transakcji insiderow w oknie."}
+    "MRNA": {
+      "n_insiders": 0,
+      "n_directors": 0,
+      "total_usd": 0,
+      "price_vs_52wh_pct": 0,
+      "cluster_sell": false,
+      "note": "Brak swiezego kupna insiderow w oknie 7 dni. Historycznie przewaga sprzedazy. NEUTRAL."
+    },
+    "MU": {
+      "n_insiders": 0,
+      "n_directors": 0,
+      "total_usd": 0,
+      "price_vs_52wh_pct": 0,
+      "cluster_sell": false,
+      "note": "Dyrektor Teyin Liu kupil 23 200 akcji @ ~337 USD (7,8 mln) na pocz. 2026 — poza oknem. Brak swiezego kupna; Form 4 do VIII 2026 to sprzedaze. NEUTRAL."
+    },
+    "DELL": {
+      "n_insiders": 0,
+      "n_directors": 0,
+      "total_usd": 0,
+      "price_vs_52wh_pct": 0,
+      "cluster_sell": false,
+      "note": "Brak danych o swiezym kupnie insiderow; historycznie przewaga sprzedazy. NEUTRAL."
+    },
+    "LITE": {
+      "n_insiders": 0,
+      "n_directors": 0,
+      "total_usd": 0,
+      "price_vs_52wh_pct": 0,
+      "cluster_sell": false,
+      "note": "Brak danych o swiezym kupnie insiderow w oknie. Narracja popytowa, bez sygnalu smart money."
+    },
+    "AMD": {
+      "n_insiders": 0,
+      "n_directors": 0,
+      "total_usd": 0,
+      "price_vs_52wh_pct": 0,
+      "cluster_sell": false,
+      "note": "Brak swiezego kupna insiderow; historycznie sprzedaz (m.in. CTO Papermaster, open-market do VIII 2026). Nie klaster dystresu. NEUTRAL."
+    }
   },
   "funds": {},
-  "politicians": {
-    "MRNA": [
-      {"name": "Ro Khanna (malzonek)", "days_to_disclose": 40, "top_tier": false, "committee_match": false, "note": "Kupno MRNA, transakcja 4 IX, raport 9 X — drobne/stare, poza swiezym oknem."}
-    ],
-    "INTC": [
-      {"name": "Nancy Pelosi (malzonek, opcje call)", "days_to_disclose": 80, "top_tier": true, "committee_match": false, "note": "Call INTC z 24 VII 2026 — stare, poza oknem swiezosci."}
-    ]
-  },
+  "politicians": {},
   "sector_exits": [],
-  "note": "Smart money NEUTRALNE dla wszystkich 5 kandydatow (MRNA/MU/DELL/LITE/INTC): netto sprzedaz insiderow przy MU/DELL (rutyna przy szczytach, bez klastra dystresu), kupna insiderow tylko stare (INTC CFO I 2026, MU dyrektor I 2026), brak swiezych klastrow kupna, jedynie stare/drobne wpisy kongresmenow. Zadnego sygnalu konwergencji."
+  "note": "Okno swiezosci 7 dni (do 2026-10-20). Brak swiezego klastra kupna insiderow, brak swiezych zmian 13F, brak swiezych transakcji kongresmenow w oknie. Stare transakcje (MU/AMD kongres II-VIII 2026, MRNA Ro Khanna IX 2026) celowo NIE ujete — engine liczy punkty per wpis bez filtra swiezosci, wiec stare wpisy tworzylyby falszywy sygnal. Wszystkie tickery NEUTRAL."
 }

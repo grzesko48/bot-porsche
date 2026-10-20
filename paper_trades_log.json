@@ -801,5 +801,82 @@
     "value_pln": 2078.62,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.0)"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "ASML",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 2.5734,
+    "price_usd": 1629.99,
+    "value_pln": 16358.9,
+    "pnl_pln": 377.41,
+    "reason": "stop trafiony (zwrot +2.4%)"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "PVH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 4.1323,
+    "price_usd": 86.0,
+    "value_pln": 1386.05,
+    "pnl_pln": 233.68,
+    "reason": "take-profit +20% — realizuj 25%, stop->BE"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "ARM",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 12.9176,
+    "price_usd": 220.84,
+    "value_pln": 11125.65,
+    "pnl_pln": -1667.54,
+    "reason": "stop trafiony (zwrot -13.0%)"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 553.1491,
+    "price_usd": 1.89,
+    "value_pln": 4077.26,
+    "pnl_pln": -366.74,
+    "reason": "stop trafiony (zwrot -8.3%)"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 9.7029,
+    "price_usd": 51.1,
+    "value_pln": 1933.5,
+    "pnl_pln": -145.12,
+    "reason": "stop trafiony (zwrot -7.0%)"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 602.9033,
+    "price_usd": 1.89,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-10-20",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 17.0622,
+    "price_usd": 51.1,
+    "value_pln": 3400.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.0)"
   }
 ]
