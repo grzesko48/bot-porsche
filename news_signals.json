@@ -1,46 +1,18 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-10-22",
   "signals": [
-    {
-      "ticker": "MRNA",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Jedyny swiezy (<=7 dni) item: powrot Juana Andresa na stanowisko COO od 5 X — zmiana organizacyjna, reakcja negatywna (akcje -7%). Zatwierdzenie FDA szczepionki grypowej mFLUSIVA bylo w sierpniu (poza oknem). Brak swiezego kontraktu/katalizatora bullish.",
-      "as_of": "2026-10-14",
-      "confidence": 0.4,
-      "source_count": 2,
-      "sources": [
-        {"label": "RTTNews (COO Juan Andres, 5 X, akcje -6,68%)", "url": "https://www.rttnews.com/story.aspx?Id=3695426"},
-        {"label": "Kavout (mFLUSIVA hype vs sceptycyzm Wall St.)", "url": "https://www.kavout.com/market-lens/moderna-s-flu-vaccine-surge-a-chasm-between-market-hype-and-wall-street-s-skepticism"}
-      ]
-    },
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wyniki Q4 FY26 i podniesione prognozy (rev 60-63 mld USD) byly 30 IX — poza oknem <=7 dni. W oknie tylko: podwyzki PT analitykow (DA Davidson 3000 USD, 7 X) i ciezka aktywnosc opcyjna. Ugoda patentowa Netlist 600 mln USD z 6 X (8 dni, tuz poza oknem). Brak swiezego twardego katalizatora.",
-      "as_of": "2026-10-14",
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora. Wyniki i podniesione prognozy (rev ~61,5 mld USD next Q, 26 umow take-or-pay pokrywajacych >35% przychodu do 2030) byly na raporcie z przelomu IX/X — poza oknem. W oknie tylko podwyzki PT analitykow i aktywnosc opcyjna. Narracja HBM/AI, bez nowego dyskretnego kontraktu.",
+      "as_of": "2026-10-22",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "Benzinga (guidance Q1 FY27, 30 IX)", "url": "https://www.benzinga.com/quote/MU/earnings-forecasts"},
-        {"label": "StreetInsider (35K call opcje, SEMICON West, 8 X)", "url": "https://www.streetinsider.com/entities/Mark+Zuckerberg/MU"}
-      ]
-    },
-    {
-      "ticker": "DELL",
-      "has_catalyst": false,
-      "catalyst_type": "guidance",
-      "direction": "bullish",
-      "headline": "Podniesienie prognozy serwerow AI (do ~60 mld USD) i kontrakt rzadowy 9,7 mld USD byly przy raporcie Q1 FY27 (poza oknem <=7 dni); backlog AI ~95 mld USD. W oknie: 9 X akcje przy ~586 USD, blisko ATH (595,51 z 18 IX) — kontynuacja narracji AI, bez nowego dyskretnego kontraktu.",
-      "as_of": "2026-10-14",
-      "confidence": 0.45,
-      "source_count": 2,
-      "sources": [
-        {"label": "Beinsure (forecast, 9 X, 586 USD blisko ATH)", "url": "https://beinsure.com/news/dell-stock-price-forecast/"},
-        {"label": "Webull/Motley Fool (backlog AI 95 mld USD)", "url": "https://www.webull.com/news/15655893799797760"}
+        {"label": "TIKR (wyniki, 26 LTA take-or-pay, guidance 61,5 mld USD)", "url": "https://www.tikr.com/blog/micron-at-6-6x-earnings-bargain-or-bubble-warning"},
+        {"label": "Schwab Network (sales/capex po podniesieniu prognozy)", "url": "https://schwabnetwork.com/video/mu-sales-capex-under-microscope-after-raising-guidance"}
       ]
     },
     {
@@ -48,13 +20,27 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "bullish",
-      "headline": "Glowny kontrakt (wieloletni OCS multi-mld USD, cel 2 mld USD/kwartal) ogloszono w marcu 2026 na OFC — stare. W oknie: 1 X skok ceny +7,67% do 1045 USD (momentum/wolumen), YTD ~+184%. Earnings dopiero 5 XI. Narracja popytowa, bez swiezego dyskretnego katalizatora.",
-      "as_of": "2026-10-14",
+      "headline": "Najswiezsze itemy sa z 9-13 X (tuz poza/na krawedzi okna <=7 dni): 9 X +6% po slowach CEO, ze komponenty optyczne wyprzedane do 2029; 12 X -9,8% w sektorowej przecenie optyki po komentarzach CEO Broadcom. Glowny kontrakt OCS multi-mld USD ogloszono w III 2026 (stare). Earnings 5 XI. Narracja popytowa, brak swiezego dyskretnego katalizatora.",
+      "as_of": "2026-10-22",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "stockanalysis.com (LITE, earnings 5 XI, rating Buy)", "url": "https://stockanalysis.com/stocks/LITE"},
-        {"label": "10jqka (1 X wolumen +103,5%, cena 1045,78)", "url": "https://stock.10jqka.com.cn/20261002/c680431091.shtml"}
+        {"label": "TIKR (optyka -10% sektorowo, 12 X)", "url": "https://www.tikr.com/blog/lumentum-stock-falls-nearly-10-as-optics-stocks-slide-in-a-sector-wide-selloff-heres-where-the-stock-could-go-by-2032"},
+        {"label": "TIKR (komponenty AI wyprzedane do 2029)", "url": "https://www.tikr.com/blog/lumentum-stock-jumps-ai-optical-components-sold-out-2029"}
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "has_catalyst": false,
+      "catalyst_type": "guidance",
+      "direction": "bullish",
+      "headline": "Brak swiezego (<=7 dni) newsa. Podniesienie prognozy FY27 (rev 165-169 mld USD, serwery AI ~60 mld USD, backlog AI 51,3 mld USD) bylo na raporcie Q1 FY27 — poza oknem. Ograniczenie: pamiec glownym waskim gardlem; UBS ostrzega przed ekspansja mnoznika. Narracja AI, bez nowego dyskretnego kontraktu w oknie.",
+      "as_of": "2026-10-22",
+      "confidence": 0.45,
+      "source_count": 2,
+      "sources": [
+        {"label": "Yahoo Finance (Dell raises outlook, AI)", "url": "https://finance.yahoo.com/sectors/technology/articles/dell-raises-outlook-surging-ai-103440702.html"},
+        {"label": "TIKR (50 mld USD AI server guide, bull case)", "url": "https://www.tikr.com/blog/dell-stock-why-its-50b-ai-server-guide-supports-a-224-bull-case"}
       ]
     },
     {
@@ -62,13 +48,27 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak newsow z okna <=7 dni. Dostepne materialy (deal Amazon/AWS 18A, plan wydzielenia foundry, granty Pentagonu 3,5 mld USD, spekulacje Apple 2027) sa STARE (2024-2025). Narracja foundry i udzial rzadu USA to kontekst, nie swiezy dyskretny katalizator.",
-      "as_of": "2026-10-14",
+      "headline": "Brak potwierdzonego swiezego (<=7 dni) katalizatora. Doniesienia o foundry (Google TPU >3 mln szt., wstepna umowa z Apple, ewaluacja Nvidia) sa NIEPOTWIERDZONE i starsze (VII-VIII). Potwierdzony tylko mniejszy klient Fortinet (SP6 na Intel 4). Emisja akcji ~15-20 mld USD na capex foundry — stare. Citigroup downgrade do sell. Narracja, nie twardy katalizator.",
+      "as_of": "2026-10-22",
       "confidence": 0.4,
       "source_count": 2,
       "sources": [
-        {"label": "ATFX (foundry plan + deal Amazon — stare)", "url": "https://www.atfx.com/en/analysis/market-news/intel-rises-foundry-plan-amazon-deal"},
-        {"label": "Seeking Alpha (Foundry Connect partnerstwa — stare)", "url": "https://seekingalpha.com/news/4437112-intel-shows-off-new-partnerships-manufacturing-updates-at-foundry-connect-event"}
+        {"label": "Nasdaq (Intel Foundry lands new client)", "url": "https://nasdaq.com/articles/intel-foundry-lands-major-new-client-worth-watching"},
+        {"label": "Barchart (capex plans, foundry execution test)", "url": "https://barchart.com/story/news/3485425/intels-capex-plans-offer-a-quiet-positive-for-the-foundry-business-the-real-test-is-still-execution"}
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Brak swiezego kontraktu/guidance w oknie. Jedyny swiezy item: 14 X spadek -5,7% do ~570,82 USD w przecenie AI po wyprzedazy obligacji CoreWeave (obawy o wydatki AI) — negatywny, nie bullish. 13,3% ponizej 52-tyg. szczytu (658,52). Earnings dopiero koniec X. Brak twardego katalizatora.",
+      "as_of": "2026-10-22",
+      "confidence": 0.4,
+      "source_count": 2,
+      "sources": [
+        {"label": "HeyGoTrade (AMD -5,7% do 570,82, 14 X)", "url": "https://www.heygotrade.com/en/news/amd-amd-stock-news-october-15-2026/"},
+        {"label": "Barchart (AMD shares move, AI sentiment)", "url": "https://www.barchart.com/story/news/36862142/why-are-amd-amd-shares-soaring-today"}
       ]
     }
   ]

@@ -1,21 +1,22 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-10-22",
   "insiders": {
-    "MU": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Netto sprzedaz insiderow (~301,5 mln USD / 20 sprzedazy vs ~7,8 mln kupna / 13 mies, ostatnie kupno dyrektora I 2026). Brak swiezego kupna. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "0 insiderow kupujacych / 35 sprzedajacych w 12 mies (dane do VII 2026). Brak kupna. Rutynowa sprzedaz przy ATH, nie klaster dystresu."},
-    "INTC": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Ostatnie kupno: CFO David Zinsner ~250 tys. USD @ 42,50 w I 2026 (stare, poza oknem). Brak swiezego kupna-klastra."},
-    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak danych o swiezym kupnie insiderow w oknie. Narracja popytowa, bez sygnalu smart money."},
-    "MRNA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak transakcji insiderow w oknie."}
+    "MU": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak swiezego kupna insiderow w oknie <=7 dni. Jedyne kupno dyrektora z 14 I 2026 (stare, pojedyncze). Dominuje rutynowa sprzedaz przy szczytach, bez klastra dystresu."},
+    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak danych o swiezym kupnie insiderow w oknie. Narracja popytowa (optyka AI), bez sygnalu smart money."},
+    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak swiezego kupna insiderow w oknie. Historycznie netto sprzedaz przy szczytach (rutyna), bez klastra kupna."},
+    "INTC": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Ostatnie kupno: CFO David Zinsner ~250 tys. USD @ 42,50, kod P, I 2026 (stare, pojedyncze, poza oknem). Brak swiezego klastra kupna."},
+    "AMD": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak swiezego kupna-klastra insiderow w oknie. Agregatory pokazuja 0 kupujacych insiderow w 12 mies (snapshot). Brak sygnalu."}
   },
   "funds": {},
   "politicians": {
-    "MRNA": [
-      {"name": "Ro Khanna (malzonek)", "days_to_disclose": 40, "top_tier": false, "committee_match": false, "note": "Kupno MRNA, transakcja 4 IX, raport 9 X — drobne/stare, poza swiezym oknem."}
+    "MU": [
+      {"name": "John Fetterman", "days_to_disclose": 40, "top_tier": false, "committee_match": false, "note": "Kupno MU 1-15 tys. USD w III 2026 — drobne/stare, poza oknem swiezosci."},
+      {"name": "Tony Wied", "days_to_disclose": 40, "top_tier": false, "committee_match": false, "note": "Kupno MU 250-500 tys. USD w II 2026 — stare, poza oknem swiezosci."}
     ],
-    "INTC": [
-      {"name": "Nancy Pelosi (malzonek, opcje call)", "days_to_disclose": 80, "top_tier": true, "committee_match": false, "note": "Call INTC z 24 VII 2026 — stare, poza oknem swiezosci."}
+    "AMD": [
+      {"name": "Marjorie Taylor Greene", "days_to_disclose": 45, "top_tier": false, "committee_match": false, "note": "AMD na liscie zakupow kongresmenki wg trackerow — bez swiezej daty w oknie <=7 dni, niepotwierdzone wobec EFD/PTR."}
     ]
   },
   "sector_exits": [],
-  "note": "Smart money NEUTRALNE dla wszystkich 5 kandydatow (MRNA/MU/DELL/LITE/INTC): netto sprzedaz insiderow przy MU/DELL (rutyna przy szczytach, bez klastra dystresu), kupna insiderow tylko stare (INTC CFO I 2026, MU dyrektor I 2026), brak swiezych klastrow kupna, jedynie stare/drobne wpisy kongresmenow. Zadnego sygnalu konwergencji."
+  "note": "Smart money NEUTRALNE dla wszystkich 5 kandydatow (MU/LITE/DELL/INTC/AMD): brak swiezego (<=7 dni) klastra kupna insiderow, kupna insiderow tylko stare i pojedyncze (INTC CFO I 2026, MU dyrektor I 2026), wpisy kongresmenow stare/drobne (Fetterman, Wied, MTG). Zero konwergencji. Zgodne z silnikiem OpenInsider bota (NEUTRAL dla wszystkich tickerow)."
 }
