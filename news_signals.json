@@ -1,46 +1,32 @@
 {
-  "generated": "2026-10-22",
+  "generated": "2026-10-23",
   "signals": [
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) twardego katalizatora. Wyniki i podniesione prognozy (rev ~61,5 mld USD next Q, 26 umow take-or-pay pokrywajacych >35% przychodu do 2030) byly na raporcie z przelomu IX/X — poza oknem. W oknie tylko podwyzki PT analitykow i aktywnosc opcyjna. Narracja HBM/AI, bez nowego dyskretnego kontraktu.",
-      "as_of": "2026-10-22",
-      "confidence": 0.4,
+      "headline": "Brak swiezego (<=7 dni, okno 2026-10-16..10-23) twardego katalizatora. Ugoda patentowa Netlist/$600M i PT DA Davidson do $3000 to 6-7 X — poza oknem. W oknie tylko ruch ceny (odbicie ~930 USD) i obawy o konkurencje CXMT, bez nowego kontraktu/przejecia/zmiany prognoz. Prognoza Q1FY27 ($60-63 mld) byla 30 IX — poza oknem.",
+      "as_of": "2026-10-23",
+      "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "TIKR (wyniki, 26 LTA take-or-pay, guidance 61,5 mld USD)", "url": "https://www.tikr.com/blog/micron-at-6-6x-earnings-bargain-or-bubble-warning"},
-        {"label": "Schwab Network (sales/capex po podniesieniu prognozy)", "url": "https://schwabnetwork.com/video/mu-sales-capex-under-microscope-after-raising-guidance"}
+        {"label": "HeyGoTrade (16 X 2026)", "url": "https://www.heygotrade.com/en/news/micron-mu-stock-news-october-16-2026/"},
+        {"label": "StreetInsider MU", "url": "https://www.streetinsider.com/entities/Mark+Zuckerberg/MU"}
       ]
     },
     {
       "ticker": "LITE",
       "has_catalyst": false,
       "catalyst_type": "none",
-      "direction": "bullish",
-      "headline": "Najswiezsze itemy sa z 9-13 X (tuz poza/na krawedzi okna <=7 dni): 9 X +6% po slowach CEO, ze komponenty optyczne wyprzedane do 2029; 12 X -9,8% w sektorowej przecenie optyki po komentarzach CEO Broadcom. Glowny kontrakt OCS multi-mld USD ogloszono w III 2026 (stare). Earnings 5 XI. Narracja popytowa, brak swiezego dyskretnego katalizatora.",
-      "as_of": "2026-10-22",
-      "confidence": 0.4,
+      "direction": "neutral",
+      "headline": "Brak newsow z okna <=7 dni. Ostatnie konkretne dane z sierpnia 2026 (wyniki 11 VIII). Nastepne wyniki szacowane 10 XI (niepotwierdzone). Zero nowego kontraktu/przejecia/zmiany prognoz w oknie swiezosci.",
+      "as_of": "2026-10-23",
+      "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "TIKR (optyka -10% sektorowo, 12 X)", "url": "https://www.tikr.com/blog/lumentum-stock-falls-nearly-10-as-optics-stocks-slide-in-a-sector-wide-selloff-heres-where-the-stock-could-go-by-2032"},
-        {"label": "TIKR (komponenty AI wyprzedane do 2029)", "url": "https://www.tikr.com/blog/lumentum-stock-jumps-ai-optical-components-sold-out-2029"}
-      ]
-    },
-    {
-      "ticker": "DELL",
-      "has_catalyst": false,
-      "catalyst_type": "guidance",
-      "direction": "bullish",
-      "headline": "Brak swiezego (<=7 dni) newsa. Podniesienie prognozy FY27 (rev 165-169 mld USD, serwery AI ~60 mld USD, backlog AI 51,3 mld USD) bylo na raporcie Q1 FY27 — poza oknem. Ograniczenie: pamiec glownym waskim gardlem; UBS ostrzega przed ekspansja mnoznika. Narracja AI, bez nowego dyskretnego kontraktu w oknie.",
-      "as_of": "2026-10-22",
-      "confidence": 0.45,
-      "source_count": 2,
-      "sources": [
-        {"label": "Yahoo Finance (Dell raises outlook, AI)", "url": "https://finance.yahoo.com/sectors/technology/articles/dell-raises-outlook-surging-ai-103440702.html"},
-        {"label": "TIKR (50 mld USD AI server guide, bull case)", "url": "https://www.tikr.com/blog/dell-stock-why-its-50b-ai-server-guide-supports-a-224-bull-case"}
+        {"label": "iTiger (BofA note)", "url": "https://www.itiger.com/news/2559698817"},
+        {"label": "equibles LITE", "url": "https://equibles.com/stocks/LITE"}
       ]
     },
     {
@@ -48,13 +34,27 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak potwierdzonego swiezego (<=7 dni) katalizatora. Doniesienia o foundry (Google TPU >3 mln szt., wstepna umowa z Apple, ewaluacja Nvidia) sa NIEPOTWIERDZONE i starsze (VII-VIII). Potwierdzony tylko mniejszy klient Fortinet (SP6 na Intel 4). Emisja akcji ~15-20 mld USD na capex foundry — stare. Citigroup downgrade do sell. Narracja, nie twardy katalizator.",
-      "as_of": "2026-10-22",
-      "confidence": 0.4,
+      "headline": "Wyniki Q3 2026 JESZCZE NIE opublikowane (ostatnie realne to Q2 z 23 VII). Data raportu niepewna (szacunki 22 lub 29 X). Brak potwierdzonego swiezego (<=7 dni) katalizatora z kierunkiem i >=2 zrodlami. Earnings-proximity obsluguje osobno PEAD, nie news-lens.",
+      "as_of": "2026-10-23",
+      "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Nasdaq (Intel Foundry lands new client)", "url": "https://nasdaq.com/articles/intel-foundry-lands-major-new-client-worth-watching"},
-        {"label": "Barchart (capex plans, foundry execution test)", "url": "https://barchart.com/story/news/3485425/intels-capex-plans-offer-a-quiet-positive-for-the-foundry-business-the-real-test-is-still-execution"}
+        {"label": "Benzinga INTC earnings", "url": "https://www.benzinga.com/quote/INTC/earnings-forecasts"},
+        {"label": "EarningsWhispers INTC", "url": "https://www.earningswhispers.com/epsdetails/intc"}
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Brak datowanego kontraktu/ogloszenia z okna <=7 dni. Wyniki i podniesiona prognoza AI-serwerow (~$74 mld FY26) byly na raporcie z przelomu VIII/IX — poza oknem. W oknie tylko ruch ceny blisko szczytu (~586 USD 9 X). Zero swiezego twardego katalizatora.",
+      "as_of": "2026-10-23",
+      "confidence": 0.3,
+      "source_count": 2,
+      "sources": [
+        {"label": "Barchart (AI server)", "url": "https://www.barchart.com/story/news/35657697/this-strong-buy-tech-stock-is-riding-the-ai-server-boom-to-new-highs"},
+        {"label": "SiliconANGLE (1 IX 2026)", "url": "https://siliconangle.com/?p=840158"}
       ]
     },
     {
@@ -62,13 +62,13 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego kontraktu/guidance w oknie. Jedyny swiezy item: 14 X spadek -5,7% do ~570,82 USD w przecenie AI po wyprzedazy obligacji CoreWeave (obawy o wydatki AI) — negatywny, nie bullish. 13,3% ponizej 52-tyg. szczytu (658,52). Earnings dopiero koniec X. Brak twardego katalizatora.",
-      "as_of": "2026-10-22",
-      "confidence": 0.4,
+      "headline": "Przelomowe umowy GPU (OpenAI 6GW, Meta 6GW, Anthropic 2GW + inwestycja $5 mld) oraz podwyzki PT (TD Cowen $270 10 X, Mizuho 13 X) sa z 6-13 X — POZA scislym oknem <=7 dni (start 16 X). W oknie (16-23 X) tylko ruch ceny (~538 USD 19 X, ~18% pod szczytem) i reafirmacje analitykow, bez NOWEGO twardego katalizatora. Wyniki Q3 dopiero 3 XI. Stoicko: stare umowy to nie swiezy sygnal.",
+      "as_of": "2026-10-23",
+      "confidence": 0.35,
       "source_count": 2,
       "sources": [
-        {"label": "HeyGoTrade (AMD -5,7% do 570,82, 14 X)", "url": "https://www.heygotrade.com/en/news/amd-amd-stock-news-october-15-2026/"},
-        {"label": "Barchart (AMD shares move, AI sentiment)", "url": "https://www.barchart.com/story/news/36862142/why-are-amd-amd-shares-soaring-today"}
+        {"label": "HeyGoTrade AMD (20 X 2026)", "url": "https://www.heygotrade.com/en/news/amd-amd-stock-news-october-20-2026/"},
+        {"label": "TIKR (OpenAI gap)", "url": "https://www.tikr.com/blog/amd-stock-fell-6-in-three-sessions-after-its-record-close-heres-what-openais-20-billion-revenue-gap-means-for-the-stock"}
       ]
     }
   ]
