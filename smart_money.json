@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-10-25",
   "insiders": {
-    "MU": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak swiezego (<=7 dni) kupna insiderow. Jedyne kupno dyrektora (Teyin Liu) z I 2026 — stare, pojedyncze. Reszta wpisow to sprzedaz kadry z 2025. Brak klastra dystresu."},
-    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak swiezego kupna insiderow w oknie. Ostatnie wpisy (np. sprzedaz Penny Herscher) z II 2026 — poza oknem. Brak sygnalu smart money."},
-    "INTC": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak swiezego (<=7 dni) kupna. Ostatnie istotne kupno (CFO Zinsner ~$250k @ 42,50) z I 2026 — stare, pojedyncze. Brak klastra kupna."},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak swiezego kupna insiderow. Wpisy w agregatorach glownie z 2025 (sprzedaz funduszu powiazanego z dyrektorem). Zero sygnalu w oknie <=7 dni."},
+    "MU": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak swiezego (<=7 dni) kupna insiderow. Jedyne kupno dyrektora (Teyin Liu ~$7,8 mln) z I 2026 — stare, pojedyncze. Reszta wpisow to sprzedaz kadry z 2025. Brak klastra dystresu."},
+    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak swiezego kupna insiderow w oknie <=7 dni. Ostatnie wpisy poza oknem. Brak sygnalu smart money."},
+    "INTC": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak swiezego (<=7 dni) kupna. Ostatnie kupno CEO Lip-Bu Tan (105 263 akcji @ $95) z 11 VIII 2026 i CFO Zinsner z I 2026 — stare, pojedyncze. Brak klastra kupna w oknie."},
+    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak swiezego kupna insiderow. Wpisy w agregatorach glownie z 2025. Zero sygnalu w oknie <=7 dni."},
     "AMD": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false, "note": "Brak swiezego klastra kupna insiderow w oknie. Agregatory: sprzedaz insiderow (XI 2025). Zero swiezego sygnalu smart money."}
   },
   "funds": {},
@@ -14,9 +14,9 @@
       {"name": "Tony Wied", "days_to_disclose": 40, "top_tier": false, "committee_match": false, "note": "Kupno MU 250-500 tys. USD w II 2026 — stare, poza oknem swiezosci."}
     ],
     "AMD": [
-      {"name": "Marjorie Taylor Greene", "days_to_disclose": 45, "top_tier": false, "committee_match": false, "note": "AMD na listach trackerow kongresu, bez swiezej daty w oknie <=7 dni; w 90 dni zrodla sprzeczne (2 kupna/1 sprzedaz vs same kupna). Niepotwierdzone wobec EFD/PTR."}
+      {"name": "Marjorie Taylor Greene", "days_to_disclose": 45, "top_tier": false, "committee_match": false, "note": "AMD na listach trackerow kongresu, bez swiezej daty w oknie <=7 dni; zrodla w 90 dni sprzeczne. Niepotwierdzone wobec EFD/PTR."}
     ]
   },
   "sector_exits": [],
-  "note": "Smart money NEUTRALNE dla wszystkich 5 kandydatow (MU/LITE/INTC/DELL/AMD): zero swiezego (<=7 dni) klastra kupna insiderow; kupna insiderow tylko stare i pojedyncze (INTC CFO I 2026, MU dyrektor I 2026); wpisy kongresmenow stare/drobne/sprzeczne (Fetterman, Wied III/II 2026, MTG). Zero konwergencji. Zgodne z silnikiem OpenInsider bota (NEUTRAL dla wszystkich tickerow)."
+  "note": "Smart money NEUTRALNE dla wszystkich 5 kandydatow (MU/LITE/INTC/DELL/AMD): zero swiezego (<=7 dni, okno 2026-10-18..10-25) klastra kupna insiderow; kupna insiderow tylko stare i pojedyncze (INTC CEO VIII 2026 i CFO I 2026, MU dyrektor I 2026); wpisy kongresmenow stare/drobne/sprzeczne. Zero konwergencji. Zgodne z silnikiem OpenInsider bota (NEUTRAL dla wszystkich tickerow)."
 }
