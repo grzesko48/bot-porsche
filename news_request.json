@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T19:20",
+  "generated": "2026-10-26T19:35",
   "freshness_days": 7,
   "instruction": "Dla każdego tickera sprawdź przez web_search świeże (<=7 dni) newsy. Oceń czy jest ISTOTNY katalizator (kontrakt, przejęcie/fuzja, zmiana prognoz, premiera produktu, decyzja regulatora, ważna rekomendacja). Szum PR/marketing = has_catalyst:false. Wymagaj >=2 niezależnych źródeł dla has_catalyst:true. Świeżość ponad pamięć: TYLKO to, co znajdziesz teraz.",
   "schema_example": {
@@ -30,11 +30,6 @@
       "sector": ""
     },
     {
-      "ticker": "INTC",
-      "name": "INTC",
-      "sector": ""
-    },
-    {
       "ticker": "DELL",
       "name": "DELL",
       "sector": ""
@@ -42,6 +37,11 @@
     {
       "ticker": "AMD",
       "name": "AMD",
+      "sector": ""
+    },
+    {
+      "ticker": "INTC",
+      "name": "INTC",
       "sector": ""
     }
   ]

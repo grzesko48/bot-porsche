@@ -1,75 +1,60 @@
 {
-  "generated": "2026-10-25",
+  "as_of": "2026-10-26",
   "signals": [
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni, okno 2026-10-18..10-25) twardego katalizatora. Ugoda patentowa Netlist/$600M (6 X) i PT DA Davidson do $3000 (7 X) to POZA oknem. W oknie tylko ruch ceny i teza HBM-pricing, bez nowego kontraktu/przejecia/zmiany prognoz. Wyniki byly 29 IX — poza oknem.",
-      "as_of": "2026-10-25",
-      "confidence": 0.3,
-      "source_count": 2,
-      "sources": [
-        {"label": "Parameter.io MU", "url": "https://parameter.io/micron-mu-stock-dips-6-7-following-all-time-peak-analysts-recommend-buying/"},
-        {"label": "StreetInsider MU", "url": "https://www.streetinsider.com/entities/Mark+Zuckerberg/MU"}
-      ]
+      "headline": "Brak swiezego (<=7 dni) katalizatora potwierdzonego 2+ zrodlami; ruch cenowy srodek X, ugoda Netlist i earningsy czerwcowe poza oknem",
+      "as_of": "2026-10-26",
+      "confidence": 0.2,
+      "source_count": 0,
+      "sources": []
     },
     {
       "ticker": "LITE",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak newsow z okna <=7 dni. Ostatnie konkretne dane z sierpnia 2026 (wyniki 11 VIII). Zero nowego kontraktu/przejecia/zmiany prognoz w oknie swiezosci; w oknie tylko wysoki obrot/ruch ceny.",
-      "as_of": "2026-10-25",
-      "confidence": 0.3,
-      "source_count": 2,
-      "sources": [
-        {"label": "CMC Markets Opto LITE", "url": "https://www.cmcmarkets.com/en-au/opto/lite-stock-is-lumentums-q4-beat-enough-to-wow-investors"},
-        {"label": "TradingView/Zacks LITE", "url": "https://www.tradingview.com/news/zacks%3A0d94cecd4094b%3A0-lite-stock-jumps-219-in-a-year-will-the-momentum-continue-in-fy26"}
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Wyniki Q3 2026 JESZCZE NIE opublikowane (data szacowana ~29 X, niepotwierdzona). Ostatnia prognoza z lipca (Q3 rev $15,8-16,8 mld). Brak potwierdzonego swiezego (<=7 dni) katalizatora z kierunkiem i >=2 zrodlami. Earnings-proximity obsluguje PEAD, nie news-lens.",
-      "as_of": "2026-10-25",
-      "confidence": 0.3,
-      "source_count": 2,
-      "sources": [
-        {"label": "HeyGoTrade INTC outlook", "url": "https://www.heygotrade.com/en/market-outlook/intel-stock-forecast/"},
-        {"label": "Benzinga INTC earnings", "url": "https://www.benzinga.com/quote/INTC/earnings-forecasts"}
-      ]
+      "headline": "Brak newsow z pazdziernika 2026; najnowsze dane sierpniowe, earningsy ~10.11; brak potwierdzonego kontraktu/guidance w oknie",
+      "as_of": "2026-10-26",
+      "confidence": 0.2,
+      "source_count": 0,
+      "sources": []
     },
     {
       "ticker": "DELL",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak datowanego kontraktu/ogloszenia z okna <=7 dni. Podniesiona prognoza AI-serwerow (~$192 mld FY27) i rekordowe zamowienia byly poza oknem. W oknie tylko ruch ceny blisko szczytu (~586 USD 9 X). Zero swiezego twardego katalizatora.",
-      "as_of": "2026-10-25",
-      "confidence": 0.3,
-      "source_count": 2,
-      "sources": [
-        {"label": "beinsure DELL (12 X 2026)", "url": "https://beinsure.com/news/dell-stock-price-forecast/"},
-        {"label": "Barchart DELL (AI orders)", "url": "https://www.barchart.com/story/news/36439220/dell-just-hit-a-record-in-ai-orders-but-the-real-test-starts-now"}
-      ]
+      "headline": "Przy szczytach na popycie AI, ale brak swiezego (<=7 dni) twardego kontraktu/guidance z 2+ zrodel; figury AI-server z 2025",
+      "as_of": "2026-10-26",
+      "confidence": 0.2,
+      "source_count": 0,
+      "sources": []
     },
     {
       "ticker": "AMD",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Przelomowe umowy GPU (OpenAI/Meta/Anthropic) i podwyzki PT z 6-13 X sa POZA scislym oknem <=7 dni (start 18 X). W oknie (18-25 X) tylko ruch ceny (~538 USD 19-20 X, ~18% pod szczytem) i reafirmacja TD Cowen, bez NOWEGO twardego katalizatora. Wyniki Q3 dopiero 3 XI. Stoicko: stare umowy to nie swiezy sygnal.",
-      "as_of": "2026-10-25",
-      "confidence": 0.35,
-      "source_count": 2,
-      "sources": [
-        {"label": "HeyGoTrade AMD (20 X 2026)", "url": "https://www.heygotrade.com/en/news/amd-amd-stock-news-october-20-2026/"},
-        {"label": "Nasdaq AMD 2026 predictions", "url": "https://www.nasdaq.com/articles/3-predictions-advanced-micro-devices-2026"}
-      ]
+      "headline": "Deale OpenAI/Oracle z 2025; pojedyncza reafirmacja TD Cowen 20.10; earningsy 03.11 przed nami; brak swiezego kontraktu z 2+ zrodel",
+      "as_of": "2026-10-26",
+      "confidence": 0.2,
+      "source_count": 0,
+      "sources": []
+    },
+    {
+      "ticker": "INTC",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Google TPU / Apple foundry to doniesienia niepotwierdzone jako swieze; earningsy 29.10 przed nami; brak dated kontraktu w oknie 7 dni",
+      "as_of": "2026-10-26",
+      "confidence": 0.2,
+      "source_count": 0,
+      "sources": []
     }
   ]
 }
