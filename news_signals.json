@@ -1,13 +1,24 @@
 {
-  "as_of": "2026-10-26",
+  "as_of": "2026-10-27",
   "signals": [
+    {
+      "ticker": "MRNA",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Nominacja COO (Juan Andres) z 5.10 poza oknem 7 dni; Q3 earningsy dopiero 6.11; brak swiezego kontraktu/guidance potwierdzonego 2+ zrodlami",
+      "as_of": "2026-10-27",
+      "confidence": 0.2,
+      "source_count": 0,
+      "sources": []
+    },
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) katalizatora potwierdzonego 2+ zrodlami; ruch cenowy srodek X, ugoda Netlist i earningsy czerwcowe poza oknem",
-      "as_of": "2026-10-26",
+      "headline": "Rajd po guidance FY1Q27 z 19.10 (8 dni temu, poza oknem); SCA z 8.10; w oknie <=7 dni brak nowego twardego katalizatora z 2+ zrodel",
+      "as_of": "2026-10-27",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -17,8 +28,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak newsow z pazdziernika 2026; najnowsze dane sierpniowe, earningsy ~10.11; brak potwierdzonego kontraktu/guidance w oknie",
-      "as_of": "2026-10-26",
+      "headline": "Tylko dane obrotu z poczatku pazdziernika; kontrakt OCS z marca 2026; earningsy ~listopad; brak swiezego guidance/kontraktu w oknie 7 dni",
+      "as_of": "2026-10-27",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -28,8 +39,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Przy szczytach na popycie AI, ale brak swiezego (<=7 dni) twardego kontraktu/guidance z 2+ zrodel; figury AI-server z 2025",
-      "as_of": "2026-10-26",
+      "headline": "Najswiezsze twarde dane to wyniki/guidance AI-server sprzed ~roku (XI 2025); brak newsa z pazdziernika 2026 potwierdzonego 2+ zrodlami",
+      "as_of": "2026-10-27",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -39,19 +50,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Deale OpenAI/Oracle z 2025; pojedyncza reafirmacja TD Cowen 20.10; earningsy 03.11 przed nami; brak swiezego kontraktu z 2+ zrodel",
-      "as_of": "2026-10-26",
-      "confidence": 0.2,
-      "source_count": 0,
-      "sources": []
-    },
-    {
-      "ticker": "INTC",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Google TPU / Apple foundry to doniesienia niepotwierdzone jako swieze; earningsy 29.10 przed nami; brak dated kontraktu w oknie 7 dni",
-      "as_of": "2026-10-26",
+      "headline": "Earningsy Q3 dopiero 3.11; ostatni guidance z 4.08; w oknie <=7 dni brak nowego dated kontraktu/guidance z 2+ niezaleznych zrodel",
+      "as_of": "2026-10-27",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
