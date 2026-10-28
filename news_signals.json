@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-10-26",
+  "as_of": "2026-10-28",
   "signals": [
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) katalizatora potwierdzonego 2+ zrodlami; ruch cenowy srodek X, ugoda Netlist i earningsy czerwcowe poza oknem",
-      "as_of": "2026-10-26",
+      "headline": "Brak swiezego (<=7 dni) katalizatora z 2+ zrodel; earningsy FQ4 30.09, kontrakty dlugoterminowe z 02.10, dywidenda platna 29.10 (rutyna) — wszystko poza oknem 7 dni",
+      "as_of": "2026-10-28",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -17,8 +17,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak newsow z pazdziernika 2026; najnowsze dane sierpniowe, earningsy ~10.11; brak potwierdzonego kontraktu/guidance w oknie",
-      "as_of": "2026-10-26",
+      "headline": "Brak newsow z ostatnich 7 dni; ostatni guidance 11.08 (Q1'27), ruch cenowy z 06.10; kontrakt OCS z marca 2026 poza oknem",
+      "as_of": "2026-10-28",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -28,8 +28,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Przy szczytach na popycie AI, ale brak swiezego (<=7 dni) twardego kontraktu/guidance z 2+ zrodel; figury AI-server z 2025",
-      "as_of": "2026-10-26",
+      "headline": "Brak swiezych danych z pazdziernika 2026; dostepne figury AI-server/backlog z Q3 FY26 (listopad 2025); brak dated kontraktu/guidance w oknie 7 dni",
+      "as_of": "2026-10-28",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -39,19 +39,19 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Deale OpenAI/Oracle z 2025; pojedyncza reafirmacja TD Cowen 20.10; earningsy 03.11 przed nami; brak swiezego kontraktu z 2+ zrodel",
-      "as_of": "2026-10-26",
+      "headline": "Deal OpenAI 6GW to pazdziernik 2025 (rok temu), nie swieze; brak nowego kontraktu/guidance z 2+ zrodel w ostatnich 7 dniach; earningsy 03.11 przed nami",
+      "as_of": "2026-10-28",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
     },
     {
-      "ticker": "INTC",
+      "ticker": "MRVL",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Google TPU / Apple foundry to doniesienia niepotwierdzone jako swieze; earningsy 29.10 przed nami; brak dated kontraktu w oknie 7 dni",
-      "as_of": "2026-10-26",
+      "headline": "Investor Day 06.10 (>7 dni poza oknem), deal Google TPU z 29.07; brak swiezego (<=7 dni) twardego katalizatora z 2+ zrodel",
+      "as_of": "2026-10-28",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []

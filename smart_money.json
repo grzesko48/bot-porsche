@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-10-26",
-  "note": "Brak potwierdzonych biezacych klastrow insiderow (code P) ani swiezych 13F/kongresowych dla MU/LITE/DELL/AMD/INTC w oknie. MU: pojedynczy zakup dyrektora ze stycznia 2026 (nie klaster). AMD: dane lipcowe = netto sprzedaz. Zgodnie z zasada swiezosci — warstwy funduszy/politykow neutralne.",
+  "as_of": "2026-10-28",
+  "note": "Brak potwierdzonych swiezych klastrow insiderow (code P) ani biezacych 13F/kongresowych dla MU/LITE/DELL/AMD/MRVL w oknie. MU: zakupy kongresu z lutego/czerwca 2026 + pojedynczy zakup dyrektora (nie klaster, nie swieze). AMD: 0 insiderow kupujacych / 6 sprzedajacych 12M, kongres netto sprzedaz. MRVL: klaster insiderow z 25.09.2025 (ponad rok temu). DELL/LITE: brak danych. Zgodnie z zasada swiezosci — warstwy funduszy/politykow neutralne.",
   "insiders": {},
   "funds": {},
   "politicians": {},
