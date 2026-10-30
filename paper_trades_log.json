@@ -1087,5 +1087,82 @@
     "value_pln": 4444.0,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "ATEC",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 18.3455,
+    "price_usd": 6.95,
+    "value_pln": 501.44,
+    "pnl_pln": -239.36,
+    "reason": "stop trafiony (zwrot -32.3%)"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "ACN",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 4.9805,
+    "price_usd": 258.52,
+    "value_pln": 5060.06,
+    "pnl_pln": 889.01,
+    "reason": "take-profit +21% — realizuj 25%, stop->BE"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "MSTR",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 0.1258,
+    "price_usd": 129.92,
+    "value_pln": 64.26,
+    "pnl_pln": -6.45,
+    "reason": "stop trafiony (zwrot -9.1%)"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 15.9585,
+    "price_usd": 54.19,
+    "value_pln": 3398.33,
+    "pnl_pln": -10.35,
+    "reason": "stop trafiony (zwrot -0.3%)"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 642.8933,
+    "price_usd": 1.65,
+    "value_pln": 4168.84,
+    "pnl_pln": -252.66,
+    "reason": "stop trafiony (zwrot -5.7%)"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 685.3266,
+    "price_usd": 1.65,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 15.9664,
+    "price_usd": 54.19,
+    "value_pln": 3400.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.0)"
   }
 ]

@@ -1,30 +1,23 @@
 [
   {
-    "ticker": "AMAT",
-    "entry_usd": 420.45,
-    "stop_usd": 393.04,
-    "target_usd": 546.585,
+    "ticker": "ASML",
+    "entry_usd": 1555.13,
+    "stop_usd": 1477.29,
+    "target_usd": 2021.669,
     "score": 8.0
   },
   {
-    "ticker": "ARM",
-    "entry_usd": 226.67,
-    "stop_usd": 210.01,
-    "target_usd": 294.671,
+    "ticker": "TSM",
+    "entry_usd": 403.66,
+    "stop_usd": 384.36,
+    "target_usd": 524.758,
     "score": 7.7
   },
   {
-    "ticker": "GLW",
-    "entry_usd": 128.68,
-    "stop_usd": 120.79,
-    "target_usd": 167.284,
+    "ticker": "SAP",
+    "entry_usd": 235.04,
+    "stop_usd": 230.08,
+    "target_usd": 305.552,
     "score": 7.4
-  },
-  {
-    "ticker": "AKAM",
-    "entry_usd": 98.12,
-    "stop_usd": 93.16,
-    "target_usd": 127.556,
-    "score": 7.1
   }
 ]
