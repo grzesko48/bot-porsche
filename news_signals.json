@@ -1,35 +1,48 @@
 {
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-01",
   "signals": [
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z 2+ zrodel; buyback $35mld z 08.10 i ugoda zwiazkowa z 21.10 poza oknem, earningsy ~23.12; pullback to szeroka korekta AI/chipow, nie news spolki",
-      "as_of": "2026-10-31",
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora spolki z 2+ zrodel. W oknie jedynie reiteracje rekomendacji (Citi Buy $1300 z 29.10, BofA $1550 z 25.10) — nie katalizator. Buyback $35mld (08.10), guidance FQ1'27 $60-63mld (30.09) poza oknem. Przecena to szeroka korekta pamieci/AI + obawy o konkurencje CXMT, nie news spolki",
+      "as_of": "2026-11-01",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
     },
     {
       "ticker": "LITE",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Silny momentum (YTD +200%), ale brak ogloszenia spolki w oknie 7 dni z 2+ zrodel; kontrakt OCS z marca, earningsy ~10.11 przed nami",
-      "as_of": "2026-10-31",
-      "confidence": 0.2,
-      "source_count": 0,
-      "sources": []
+      "has_catalyst": true,
+      "catalyst_type": "merger_acquisition",
+      "direction": "bullish",
+      "headline": "Bloomberg (28.10) donosi, ze Marvell jest w zaawansowanych rozmowach o przejeciu Lumentum (transakcja prawdopodobnie all-stock, mozliwe ogloszenie w ciagu tygodnia). LITE +~9% po raporcie. UWAGA: rozmowy NIEPOTWIERDZONE przez spolki, brak podpisanego dealu i oficjalnych warunkow, wg zrodla moga zakonczyc sie bez transakcji; wg CNBC premia dla LITE nieduza. Katalizator realny ale spekulacyjny",
+      "as_of": "2026-10-28",
+      "confidence": 0.55,
+      "source_count": 3,
+      "sources": [
+        {
+          "label": "Bloomberg (Marvell near deal for Lumentum)",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal"
+        },
+        {
+          "label": "Yahoo Finance (Marvell advanced talks to buy Lumentum)",
+          "url": "https://finance.yahoo.com/news/marvell-advanced-talks-buy-nvidia-111202630.html"
+        },
+        {
+          "label": "CryptoBriefing (all-stock AI deal talks)",
+          "url": "https://cryptobriefing.com/marvell-technology-lumentum-acquisition-talks/"
+        }
+      ]
     },
     {
       "ticker": "DELL",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Backlog AI ~$95mld znany z raportu Q2 FY27 (sierpien); downgrade Barclays 14.10 i MoU JERA 01.10 poza oknem 7 dni; brak swiezego katalizatora z 2+ zrodel, Q3 ~grudzien",
-      "as_of": "2026-10-31",
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z 2+ zrodel. Premiera AI Factory z NVIDIA na GTC Berlin (21.10), downgrade Barclays (~14.10), read-through SMCI (21.10) poza oknem 7 dni. Backlog AI ~$95mld znany z Q2 FY27 (wrzesien). Q3 ~grudzien",
+      "as_of": "2026-11-01",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -39,8 +52,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Earningsy 03-04.11 dopiero przed nami; deal OpenAI z 2025; brak swiezego (<=7 dni) kontraktu/guidance z 2+ zrodel",
-      "as_of": "2026-10-31",
+      "headline": "Earningsy Q3 dopiero 03.11 (jeszcze przed nami). Spadek ~-10% w pt 30.10 to ruch sympatii po ostrzezeniu Intela o PC, nie katalizator AMD. Brak swiezego (<=7 dni) potwierdzonego kontraktu/guidance spolki z 2+ zrodel",
+      "as_of": "2026-11-01",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -50,22 +63,26 @@
       "has_catalyst": true,
       "catalyst_type": "earnings_guidance",
       "direction": "bearish",
-      "headline": "Earningsy Q3 29.10: EPS non-GAAP $0.52 > kons. $0.41 i najmocniejszy wzrost data center od 15 lat, ALE slabe guidance Q4 (przychod $15-16mld, EPS $0.25) rozczarowalo -> akcja pod presja. Katalizator realny, wymowa per saldo bearish (guidance + reakcja kursu)",
+      "headline": "Earningsy Q3 29.10: przychod $16.5mld (+21% r/r), EPS non-GAAP $0.52 > kons. ~$0.41, najmocniejszy wzrost data center od 15 lat. ALE slabe guidance Q4 (przychod $15-16mld vs oczek. $17.1mld, EPS $0.25 vs oczek. $0.43), CFO: spowolnienie PC co najmniej do H1'27, problem fabryki w Izraelu -$300M. Kurs -21% po raporcie. Per saldo bearish (guidance + reakcja)",
       "as_of": "2026-10-29",
-      "confidence": 0.6,
-      "source_count": 3,
+      "confidence": 0.7,
+      "source_count": 4,
       "sources": [
         {
           "label": "SEC 8-K Intel Q3 2026 earnings release",
           "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm"
         },
         {
-          "label": "GuruFocus",
-          "url": "https://www.gurufocus.com/news/9152587/intel-reports-q3-2026-earnings-eps-of-060-exceeds-estimates-revenue-at-165-billion-misses-expectations"
+          "label": "CNBC (Intel Q3 earnings, stock -21%)",
+          "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html"
         },
         {
-          "label": "Shacknews",
-          "url": "https://www.shacknews.com/article/151202/intel-intc-q3-2026-earnings-results"
+          "label": "MarketBeat (INTC Q3 2026 results)",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/"
+        },
+        {
+          "label": "Motley Fool (INTC Q3 2026 call transcript)",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/30/intel-intc-q3-2026-earnings-call-transcript/"
         }
       ]
     }

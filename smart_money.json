@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-10-31",
-  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra insiderow (code P) ani swiezych 13F/kongresowych dla MU/LITE/DELL/AMD/INTC. INTC: pojedynczy zakup insidera ~$10M w ciagu 90 dni (nie klaster, 1 zrodlo). DELL i AMD: per saldo dominuje sprzedaz insiderow (12 mies.). Dane kongresowe sprzeczne miedzy agregatorami. Zgodnie z zasada swiezosci i wymogiem 2+ zrodel — wszystkie warstwy neutralne.",
+  "as_of": "2026-11-01",
+  "note": "Brak potwierdzonego swiezego (<=7 dni, okno 25.10-01.11) klastra insiderow (code P) ani swiezych 13F/kongresowych z 2+ zrodel dla MU/LITE/DELL/AMD/INTC. INTC: zakupy insiderow (CEO/CFO) raportowane ~16.10 — POZA oknem 7 dni. AMD: w 2026 dominuja sprzedaze (plany 10b5-1), brak kupna. DELL: Form 4 podmiotow Silver Lake z 15.10 — poza oknem. LITE/DELL: brak swiezych danych. Sobota 01.11 — brak nowych zgloszen. Zgodnie z zasada swiezosci i wymogiem 2+ zrodel — wszystkie warstwy neutralne.",
   "insiders": {},
   "funds": {},
   "politicians": {},
