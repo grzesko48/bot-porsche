@@ -334,5 +334,12 @@
     "spy_price_usd": 755.72,
     "fx_rate": 3.93,
     "note": ""
+  },
+  {
+    "date": "2026-11-06",
+    "equity_pln": 1595.38,
+    "spy_price_usd": 738.22,
+    "fx_rate": 3.93,
+    "note": ""
   }
 ]

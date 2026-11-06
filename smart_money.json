@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-10-31",
-  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra insiderow (code P) ani swiezych 13F/kongresowych dla MU/LITE/DELL/AMD/INTC. INTC: pojedynczy zakup insidera ~$10M w ciagu 90 dni (nie klaster, 1 zrodlo). DELL i AMD: per saldo dominuje sprzedaz insiderow (12 mies.). Dane kongresowe sprzeczne miedzy agregatorami. Zgodnie z zasada swiezosci i wymogiem 2+ zrodel — wszystkie warstwy neutralne.",
+  "as_of": "2026-11-06",
+  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra insiderow (code P) z 2+ zrodel dla LITE/MU/DELL/HPE/OKTA. Per saldo: MU — insiderzy dominuja SPRZEDAZ (~$45M kw., zakupy ~$1.1M); DELL — mix, agregatorzy sprzeczni, brak swiezego klastra kupna; OKTA — pojedynczy zakup dyrektora w Q2 (nieaktualny), ostatnio sprzedaz (wrzesien); HPE — aktywnosc cienka, przewaga sprzedazy. Kongres/13F: zakupy MU przez kongresmenow sa z lutego/marca 2026 (poza oknem, opoznienie raportowania do 45 dni); brak swiezych danych 13F/Dataroma z klastrem kupna. Zgodnie z zasada swiezosci i wymogiem 2+ zrodel — wszystkie warstwy NEUTRALNE.",
   "insiders": {},
   "funds": {},
   "politicians": {},
