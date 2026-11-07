@@ -1,24 +1,37 @@
 {
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-07",
   "signals": [
+    {
+      "ticker": "LITE",
+      "has_catalyst": true,
+      "catalyst_type": "merger",
+      "direction": "bullish",
+      "headline": "Marvell oglosil przejecie Lumentum all-stock ~$115mld (4.5 akcji MRVL za 1 LITE), w toku zgoda regulatora; jednoczesnie wyniki Q1 FY27 (02.11) bily: EPS $4.57 vs $4.22 kons., przychod $1.26mld +136% r/r, guidance Q2 $1.575-1.625mld, marza oper. 45-46%. Kurs -11% na ryzyku fuzji (MRVL -12.7%), potem odbicie +5.7%; B.Riley downgrade do Neutral (PT 770). Katalizator realny (M&A + beat), strukturalnie bullish",
+      "as_of": "2026-11-02",
+      "confidence": 0.6,
+      "source_count": 3,
+      "sources": [
+        {
+          "label": "GuruFocus",
+          "url": "https://www.gurufocus.com/news/9162522/lumentum-stocks-drop-11-with-merger-risk-overshadowing-its-16-billion-revenue-outlook"
+        },
+        {
+          "label": "MarketBeat (Q1 FY27 report)",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-11-2-lumentum-holdings-inc-stock/"
+        },
+        {
+          "label": "Benzinga (MRVL -12.7% deal pushback)",
+          "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62935903/nvidia-micron-ai-stocks-200-day-moving-average-break"
+        }
+      ]
+    },
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z 2+ zrodel; buyback $35mld z 08.10 i ugoda zwiazkowa z 21.10 poza oknem, earningsy ~23.12; pullback to szeroka korekta AI/chipow, nie news spolki",
-      "as_of": "2026-10-31",
-      "confidence": 0.2,
-      "source_count": 0,
-      "sources": []
-    },
-    {
-      "ticker": "LITE",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Silny momentum (YTD +200%), ale brak ogloszenia spolki w oknie 7 dni z 2+ zrodel; kontrakt OCS z marca, earningsy ~10.11 przed nami",
-      "as_of": "2026-10-31",
+      "headline": "Brak swiezego (<=7 dni) katalizatora spolki z 2+ zrodel. Guidance $61.5mld i HBM4E/NVIDIA to historia z poprzednich raportow; przecena ~5-7% z 04-05.11 to szeroka korekta AI/pamieci (wybory midterm, backlash data-center, slaby outlook Kioxia) - makro/szum, nie news spolki",
+      "as_of": "2026-11-07",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -28,46 +41,33 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Backlog AI ~$95mld znany z raportu Q2 FY27 (sierpien); downgrade Barclays 14.10 i MoU JERA 01.10 poza oknem 7 dni; brak swiezego katalizatora z 2+ zrodel, Q3 ~grudzien",
-      "as_of": "2026-10-31",
+      "headline": "Brak swiezego twardego kontraktu/guidance z 2+ zrodel w oknie 7 dni. Spadek -14.9% 05.11 i odbicie 06.11 = makro-przecena serwerow AI (obawy o finansowanie data-center, wybory), nie news spolki. Integracja z CrowdStrike 02.11 = PR/produkt. Backlog $95mld znany z Q2 (sierpien). Wyniki Q3 FY27: 24.11",
+      "as_of": "2026-11-07",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
     },
     {
-      "ticker": "AMD",
+      "ticker": "HPE",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Earningsy 03-04.11 dopiero przed nami; deal OpenAI z 2025; brak swiezego (<=7 dni) kontraktu/guidance z 2+ zrodel",
-      "as_of": "2026-10-31",
+      "headline": "Brak swiezego katalizatora w oknie 7 dni. Podwyzka guidance 26/27 i rozszerzenie umowy sieciowej z Oracle sa z raportu z poczatku wrzesnia (poza oknem); BofA: HPE pewnie nie da guidance przez trwajace przejecie Juniper. Slaba akcja kursu 03-04.11 = szum. Earningsy Q4 FY26: 23.11",
+      "as_of": "2026-11-07",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
     },
     {
-      "ticker": "INTC",
-      "has_catalyst": true,
-      "catalyst_type": "earnings_guidance",
-      "direction": "bearish",
-      "headline": "Earningsy Q3 29.10: EPS non-GAAP $0.52 > kons. $0.41 i najmocniejszy wzrost data center od 15 lat, ALE slabe guidance Q4 (przychod $15-16mld, EPS $0.25) rozczarowalo -> akcja pod presja. Katalizator realny, wymowa per saldo bearish (guidance + reakcja kursu)",
-      "as_of": "2026-10-29",
-      "confidence": 0.6,
-      "source_count": 3,
-      "sources": [
-        {
-          "label": "SEC 8-K Intel Q3 2026 earnings release",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm"
-        },
-        {
-          "label": "GuruFocus",
-          "url": "https://www.gurufocus.com/news/9152587/intel-reports-q3-2026-earnings-eps-of-060-exceeds-estimates-revenue-at-165-billion-misses-expectations"
-        },
-        {
-          "label": "Shacknews",
-          "url": "https://www.shacknews.com/article/151202/intel-intc-q3-2026-earnings-results"
-        }
-      ]
+      "ticker": "OKTA",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Brak fundamentalnego katalizatora z taksonomii (kontrakt/M&A/guidance/regulator) w oknie 7 dni. Wejscie do S&P 500 od 04.11 (zastapilo Kenvue) to zdarzenie techniczne/przeplywy ETF, nie news spolki - kurs -11% na odplywach z rebalancingu. Earningsy Q3 FY27: 01.12. Wzmianka o incydencie DHS niepotwierdzona (1 zrodlo)",
+      "as_of": "2026-11-07",
+      "confidence": 0.2,
+      "source_count": 0,
+      "sources": []
     }
   ]
 }

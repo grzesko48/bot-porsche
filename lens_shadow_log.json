@@ -102202,5 +102202,1249 @@
       "INTC",
       "MRVL"
     ]
+  },
+  {
+    "date": "2026-11-07",
+    "timestamp_utc": "2026-11-07T19:15:58+00:00",
+    "mode": "shadow",
+    "candidates": [
+      {
+        "ticker": "TSM",
+        "mom_score": 37.6442,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 37.6442,
+        "score_lens": 37.6442
+      },
+      {
+        "ticker": "ASML",
+        "mom_score": 45.3654,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 45.3654,
+        "score_lens": 45.3654
+      },
+      {
+        "ticker": "SAP",
+        "mom_score": 5.7777,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 5.7777,
+        "score_lens": 5.7777
+      },
+      {
+        "ticker": "MSTR",
+        "mom_score": -9.6646,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -9.6646,
+        "score_lens": -9.6646
+      },
+      {
+        "ticker": "ARM",
+        "mom_score": 58.5404,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 58.5404,
+        "score_lens": 58.5404
+      },
+      {
+        "ticker": "ACN",
+        "mom_score": 7.1432,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 7.1432,
+        "score_lens": 7.1432
+      },
+      {
+        "ticker": "ADBE",
+        "mom_score": -12.3907,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -12.3907,
+        "score_lens": -12.3907
+      },
+      {
+        "ticker": "AMD",
+        "mom_score": 147.6635,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 147.6635,
+        "score_lens": 147.6635
+      },
+      {
+        "ticker": "AKAM",
+        "mom_score": 9.4695,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 9.4695,
+        "score_lens": 9.4695
+      },
+      {
+        "ticker": "APH",
+        "mom_score": 27.7771,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 27.7771,
+        "score_lens": 27.7771
+      },
+      {
+        "ticker": "ADI",
+        "mom_score": 43.3582,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 43.3582,
+        "score_lens": 43.3582
+      },
+      {
+        "ticker": "AAPL",
+        "mom_score": 27.495,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 27.495,
+        "score_lens": 27.495
+      },
+      {
+        "ticker": "AMAT",
+        "mom_score": 76.548,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 76.548,
+        "score_lens": 76.548
+      },
+      {
+        "ticker": "ANET",
+        "mom_score": 38.5067,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 38.5067,
+        "score_lens": 38.5067
+      },
+      {
+        "ticker": "ADSK",
+        "mom_score": -9.2833,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -9.2833,
+        "score_lens": -9.2833
+      },
+      {
+        "ticker": "AVGO",
+        "mom_score": 2.5119,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 2.5119,
+        "score_lens": 2.5119
+      },
+      {
+        "ticker": "CDNS",
+        "mom_score": 5.8884,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 5.8884,
+        "score_lens": 5.8884
+      },
+      {
+        "ticker": "CDW",
+        "mom_score": -1.1018,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -1.1018,
+        "score_lens": -1.1018
+      },
+      {
+        "ticker": "CIEN",
+        "mom_score": 85.2968,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 85.2968,
+        "score_lens": 85.2968
+      },
+      {
+        "ticker": "CSCO",
+        "mom_score": 45.5801,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 45.5801,
+        "score_lens": 45.5801
+      },
+      {
+        "ticker": "CTSH",
+        "mom_score": 4.3239,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 4.3239,
+        "score_lens": 4.3239
+      },
+      {
+        "ticker": "COHR",
+        "mom_score": 83.6776,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 83.6776,
+        "score_lens": 83.6776
+      },
+      {
+        "ticker": "GLW",
+        "mom_score": 33.7566,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 33.7566,
+        "score_lens": 33.7566
+      },
+      {
+        "ticker": "CRWD",
+        "mom_score": 116.6117,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 116.6117,
+        "score_lens": 116.6117
+      },
+      {
+        "ticker": "DDOG",
+        "mom_score": 85.2313,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 85.2313,
+        "score_lens": 85.2313
+      },
+      {
+        "ticker": "DELL",
+        "mom_score": 214.7395,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 214.7395,
+        "score_lens": 214.7395
+      },
+      {
+        "ticker": "P",
+        "mom_score": 98.6562,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 98.6562,
+        "score_lens": 98.6562
+      },
+      {
+        "ticker": "FFIV",
+        "mom_score": 38.2547,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 38.2547,
+        "score_lens": 38.2547
+      },
+      {
+        "ticker": "FICO",
+        "mom_score": -50.0791,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -50.0791,
+        "score_lens": -50.0791
+      },
+      {
+        "ticker": "FSLR",
+        "mom_score": -17.8578,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -17.8578,
+        "score_lens": -17.8578
+      },
+      {
+        "ticker": "FLEX",
+        "mom_score": 62.9979,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 62.9979,
+        "score_lens": 62.9979
+      },
+      {
+        "ticker": "FTNT",
+        "mom_score": 105.6835,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 105.6835,
+        "score_lens": 105.6835
+      },
+      {
+        "ticker": "IT",
+        "mom_score": 8.7725,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 8.7725,
+        "score_lens": 8.7725
+      },
+      {
+        "ticker": "GEN",
+        "mom_score": -2.347,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -2.347,
+        "score_lens": -2.347
+      },
+      {
+        "ticker": "GDDY",
+        "mom_score": -0.4013,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -0.4013,
+        "score_lens": -0.4013
+      },
+      {
+        "ticker": "HPE",
+        "mom_score": 160.663,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 160.663,
+        "score_lens": 160.663
+      },
+      {
+        "ticker": "HPQ",
+        "mom_score": 45.3682,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 45.3682,
+        "score_lens": 45.3682
+      },
+      {
+        "ticker": "IBM",
+        "mom_score": -15.4864,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -15.4864,
+        "score_lens": -15.4864
+      },
+      {
+        "ticker": "INTC",
+        "mom_score": 115.5863,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 115.5863,
+        "score_lens": 115.5863
+      },
+      {
+        "ticker": "INTU",
+        "mom_score": -28.8987,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -28.8987,
+        "score_lens": -28.8987
+      },
+      {
+        "ticker": "JBL",
+        "mom_score": 22.6691,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 22.6691,
+        "score_lens": 22.6691
+      },
+      {
+        "ticker": "KEYS",
+        "mom_score": 68.2251,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 68.2251,
+        "score_lens": 68.2251
+      },
+      {
+        "ticker": "KLAC",
+        "mom_score": 42.4279,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 42.4279,
+        "score_lens": 42.4279
+      },
+      {
+        "ticker": "LRCX",
+        "mom_score": 70.2942,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 70.2942,
+        "score_lens": 70.2942
+      },
+      {
+        "ticker": "LITE",
+        "mom_score": 294.9624,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 294.9624,
+        "score_lens": 294.9624
+      },
+      {
+        "ticker": "MRVL",
+        "mom_score": 150.2929,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 150.2929,
+        "score_lens": 150.2929
+      },
+      {
+        "ticker": "MCHP",
+        "mom_score": 8.9658,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 8.9658,
+        "score_lens": 8.9658
+      },
+      {
+        "ticker": "MU",
+        "mom_score": 274.0789,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 274.0789,
+        "score_lens": 274.0789
+      },
+      {
+        "ticker": "MSFT",
+        "mom_score": 19.6676,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 19.6676,
+        "score_lens": 19.6676
+      },
+      {
+        "ticker": "MPWR",
+        "mom_score": 24.0997,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 24.0997,
+        "score_lens": 24.0997
+      },
+      {
+        "ticker": "MSI",
+        "mom_score": 1.0086,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 1.0086,
+        "score_lens": 1.0086
+      },
+      {
+        "ticker": "NTAP",
+        "mom_score": 99.2294,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 99.2294,
+        "score_lens": 99.2294
+      },
+      {
+        "ticker": "NVDA",
+        "mom_score": 21.9853,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 21.9853,
+        "score_lens": 21.9853
+      },
+      {
+        "ticker": "NXPI",
+        "mom_score": 3.401,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 3.401,
+        "score_lens": 3.401
+      },
+      {
+        "ticker": "OKTA",
+        "mom_score": 150.406,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 150.406,
+        "score_lens": 150.406
+      },
+      {
+        "ticker": "ON",
+        "mom_score": 33.7607,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 33.7607,
+        "score_lens": 33.7607
+      },
+      {
+        "ticker": "ORCL",
+        "mom_score": -26.9325,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -26.9325,
+        "score_lens": -26.9325
+      },
+      {
+        "ticker": "PLTR",
+        "mom_score": 31.6148,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 31.6148,
+        "score_lens": 31.6148
+      },
+      {
+        "ticker": "PANW",
+        "mom_score": 90.4591,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 90.4591,
+        "score_lens": 90.4591
+      },
+      {
+        "ticker": "PTC",
+        "mom_score": 20.7079,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 20.7079,
+        "score_lens": 20.7079
+      }
+    ],
+    "baseline_top": [
+      "LITE",
+      "MU",
+      "DELL",
+      "HPE",
+      "OKTA"
+    ],
+    "lens_top": [
+      "LITE",
+      "MU",
+      "DELL",
+      "HPE",
+      "OKTA"
+    ],
+    "divergence": []
+  },
+  {
+    "date": "2026-11-07",
+    "timestamp_utc": "2026-11-07T19:21:57+00:00",
+    "mode": "shadow",
+    "candidates": [
+      {
+        "ticker": "TSM",
+        "mom_score": 37.6442,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 37.6442,
+        "score_lens": 37.6442
+      },
+      {
+        "ticker": "ASML",
+        "mom_score": 45.3654,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 45.3654,
+        "score_lens": 45.3654
+      },
+      {
+        "ticker": "SAP",
+        "mom_score": 5.7777,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 5.7777,
+        "score_lens": 5.7777
+      },
+      {
+        "ticker": "MSTR",
+        "mom_score": -9.6646,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -9.6646,
+        "score_lens": -9.6646
+      },
+      {
+        "ticker": "ARM",
+        "mom_score": 58.5404,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 58.5404,
+        "score_lens": 58.5404
+      },
+      {
+        "ticker": "ACN",
+        "mom_score": 7.1432,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 7.1432,
+        "score_lens": 7.1432
+      },
+      {
+        "ticker": "ADBE",
+        "mom_score": -12.3907,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -12.3907,
+        "score_lens": -12.3907
+      },
+      {
+        "ticker": "AMD",
+        "mom_score": 147.6635,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 147.6635,
+        "score_lens": 147.6635
+      },
+      {
+        "ticker": "AKAM",
+        "mom_score": 9.4695,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 9.4695,
+        "score_lens": 9.4695
+      },
+      {
+        "ticker": "APH",
+        "mom_score": 27.7771,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 27.7771,
+        "score_lens": 27.7771
+      },
+      {
+        "ticker": "ADI",
+        "mom_score": 43.3582,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 43.3582,
+        "score_lens": 43.3582
+      },
+      {
+        "ticker": "AAPL",
+        "mom_score": 27.495,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 27.495,
+        "score_lens": 27.495
+      },
+      {
+        "ticker": "AMAT",
+        "mom_score": 76.548,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 76.548,
+        "score_lens": 76.548
+      },
+      {
+        "ticker": "ANET",
+        "mom_score": 38.5067,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 38.5067,
+        "score_lens": 38.5067
+      },
+      {
+        "ticker": "ADSK",
+        "mom_score": -9.2833,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -9.2833,
+        "score_lens": -9.2833
+      },
+      {
+        "ticker": "AVGO",
+        "mom_score": 2.5119,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 2.5119,
+        "score_lens": 2.5119
+      },
+      {
+        "ticker": "CDNS",
+        "mom_score": 5.8884,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 5.8884,
+        "score_lens": 5.8884
+      },
+      {
+        "ticker": "CDW",
+        "mom_score": -1.1018,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -1.1018,
+        "score_lens": -1.1018
+      },
+      {
+        "ticker": "CIEN",
+        "mom_score": 85.2968,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 85.2968,
+        "score_lens": 85.2968
+      },
+      {
+        "ticker": "CSCO",
+        "mom_score": 45.5801,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 45.5801,
+        "score_lens": 45.5801
+      },
+      {
+        "ticker": "CTSH",
+        "mom_score": 4.3239,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 4.3239,
+        "score_lens": 4.3239
+      },
+      {
+        "ticker": "COHR",
+        "mom_score": 83.6776,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 83.6776,
+        "score_lens": 83.6776
+      },
+      {
+        "ticker": "GLW",
+        "mom_score": 33.7566,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 33.7566,
+        "score_lens": 33.7566
+      },
+      {
+        "ticker": "CRWD",
+        "mom_score": 116.6117,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 116.6117,
+        "score_lens": 116.6117
+      },
+      {
+        "ticker": "DDOG",
+        "mom_score": 85.2313,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 85.2313,
+        "score_lens": 85.2313
+      },
+      {
+        "ticker": "DELL",
+        "mom_score": 214.7395,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 214.7395,
+        "score_lens": 214.7395
+      },
+      {
+        "ticker": "P",
+        "mom_score": 98.6562,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 98.6562,
+        "score_lens": 98.6562
+      },
+      {
+        "ticker": "FFIV",
+        "mom_score": 38.2547,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 38.2547,
+        "score_lens": 38.2547
+      },
+      {
+        "ticker": "FICO",
+        "mom_score": -50.0791,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -50.0791,
+        "score_lens": -50.0791
+      },
+      {
+        "ticker": "FSLR",
+        "mom_score": -17.8578,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -17.8578,
+        "score_lens": -17.8578
+      },
+      {
+        "ticker": "FLEX",
+        "mom_score": 62.9979,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 62.9979,
+        "score_lens": 62.9979
+      },
+      {
+        "ticker": "FTNT",
+        "mom_score": 105.6835,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 105.6835,
+        "score_lens": 105.6835
+      },
+      {
+        "ticker": "IT",
+        "mom_score": 8.7725,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 8.7725,
+        "score_lens": 8.7725
+      },
+      {
+        "ticker": "GEN",
+        "mom_score": -2.347,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -2.347,
+        "score_lens": -2.347
+      },
+      {
+        "ticker": "GDDY",
+        "mom_score": -0.4013,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -0.4013,
+        "score_lens": -0.4013
+      },
+      {
+        "ticker": "HPE",
+        "mom_score": 160.663,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 160.663,
+        "score_lens": 160.663
+      },
+      {
+        "ticker": "HPQ",
+        "mom_score": 45.3682,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 45.3682,
+        "score_lens": 45.3682
+      },
+      {
+        "ticker": "IBM",
+        "mom_score": -15.4864,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -15.4864,
+        "score_lens": -15.4864
+      },
+      {
+        "ticker": "INTC",
+        "mom_score": 115.5863,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 115.5863,
+        "score_lens": 115.5863
+      },
+      {
+        "ticker": "INTU",
+        "mom_score": -28.8987,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -28.8987,
+        "score_lens": -28.8987
+      },
+      {
+        "ticker": "JBL",
+        "mom_score": 22.6691,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 22.6691,
+        "score_lens": 22.6691
+      },
+      {
+        "ticker": "KEYS",
+        "mom_score": 68.2251,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 68.2251,
+        "score_lens": 68.2251
+      },
+      {
+        "ticker": "KLAC",
+        "mom_score": 42.4279,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 42.4279,
+        "score_lens": 42.4279
+      },
+      {
+        "ticker": "LRCX",
+        "mom_score": 70.2942,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 70.2942,
+        "score_lens": 70.2942
+      },
+      {
+        "ticker": "LITE",
+        "mom_score": 294.9624,
+        "news_scalar": 1.09,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.09,
+        "score_baseline": 294.9624,
+        "score_lens": 321.509
+      },
+      {
+        "ticker": "MRVL",
+        "mom_score": 150.2929,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 150.2929,
+        "score_lens": 150.2929
+      },
+      {
+        "ticker": "MCHP",
+        "mom_score": 8.9658,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 8.9658,
+        "score_lens": 8.9658
+      },
+      {
+        "ticker": "MU",
+        "mom_score": 274.0789,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 274.0789,
+        "score_lens": 274.0789
+      },
+      {
+        "ticker": "MSFT",
+        "mom_score": 19.6676,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 19.6676,
+        "score_lens": 19.6676
+      },
+      {
+        "ticker": "MPWR",
+        "mom_score": 24.0997,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 24.0997,
+        "score_lens": 24.0997
+      },
+      {
+        "ticker": "MSI",
+        "mom_score": 1.0086,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 1.0086,
+        "score_lens": 1.0086
+      },
+      {
+        "ticker": "NTAP",
+        "mom_score": 99.2294,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 99.2294,
+        "score_lens": 99.2294
+      },
+      {
+        "ticker": "NVDA",
+        "mom_score": 21.9853,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 21.9853,
+        "score_lens": 21.9853
+      },
+      {
+        "ticker": "NXPI",
+        "mom_score": 3.401,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 3.401,
+        "score_lens": 3.401
+      },
+      {
+        "ticker": "OKTA",
+        "mom_score": 150.406,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 150.406,
+        "score_lens": 150.406
+      },
+      {
+        "ticker": "ON",
+        "mom_score": 33.7607,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 33.7607,
+        "score_lens": 33.7607
+      },
+      {
+        "ticker": "ORCL",
+        "mom_score": -26.9324,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": -26.9324,
+        "score_lens": -26.9324
+      },
+      {
+        "ticker": "PLTR",
+        "mom_score": 31.6148,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 31.6148,
+        "score_lens": 31.6148
+      },
+      {
+        "ticker": "PANW",
+        "mom_score": 90.4591,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 90.4591,
+        "score_lens": 90.4591
+      },
+      {
+        "ticker": "PTC",
+        "mom_score": 20.7079,
+        "news_scalar": 1.0,
+        "pead_scalar": 1.0,
+        "sm_scalar": 1.0,
+        "combined_scalar": 1.0,
+        "score_baseline": 20.7079,
+        "score_lens": 20.7079
+      }
+    ],
+    "baseline_top": [
+      "LITE",
+      "MU",
+      "DELL",
+      "HPE",
+      "OKTA"
+    ],
+    "lens_top": [
+      "LITE",
+      "MU",
+      "DELL",
+      "HPE",
+      "OKTA"
+    ],
+    "divergence": []
   }
 ]
