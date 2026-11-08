@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-08",
   "signals": [
-    {
-      "ticker": "MU",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z 2+ zrodel; buyback $35mld z 08.10 i ugoda zwiazkowa z 21.10 poza oknem, earningsy ~23.12; pullback to szeroka korekta AI/chipow, nie news spolki",
-      "as_of": "2026-10-31",
-      "confidence": 0.2,
-      "source_count": 0,
-      "sources": []
-    },
     {
       "ticker": "LITE",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Silny momentum (YTD +200%), ale brak ogloszenia spolki w oknie 7 dni z 2+ zrodel; kontrakt OCS z marca, earningsy ~10.11 przed nami",
-      "as_of": "2026-10-31",
+      "headline": "Earningsy fiskalne ~5.11 w oknie, ale NIE udalo sie potwierdzic faktycznych wynikow/guidance z 2+ niezaleznych zrodel (wyszukiwanie zwraca material z 2025 i sierpnia 2026); brak twardego, zweryfikowanego katalizatora",
+      "as_of": "2026-11-08",
+      "confidence": 0.2,
+      "source_count": 0,
+      "sources": []
+    },
+    {
+      "ticker": "MU",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Wyprzedana podaz HBM 2026 i podniesione guidance to material z Q1 FY26 (grudzien 2025) poza oknem 7 dni; brak swiezego (<=7 dni) katalizatora spolki z 2+ zrodel, earningsy Q1 FY27 ~23.12",
+      "as_of": "2026-11-08",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -28,46 +28,33 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Backlog AI ~$95mld znany z raportu Q2 FY27 (sierpien); downgrade Barclays 14.10 i MoU JERA 01.10 poza oknem 7 dni; brak swiezego katalizatora z 2+ zrodel, Q3 ~grudzien",
-      "as_of": "2026-10-31",
+      "headline": "Backlog i guidance AI-serwerow znane z Q3 FY26 (listopad 2025) oraz FY27 (sierpien), poza oknem; brak swiezego (<=7 dni) kontraktu/guidance z 2+ zrodel, Q3 FY27 ~koniec listopada",
+      "as_of": "2026-11-08",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
     },
     {
-      "ticker": "AMD",
+      "ticker": "HPE",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Earningsy 03-04.11 dopiero przed nami; deal OpenAI z 2025; brak swiezego (<=7 dni) kontraktu/guidance z 2+ zrodel",
-      "as_of": "2026-10-31",
+      "headline": "Integracja Juniper, umowa z Oracle i guidance FY26 to material z pazdziernika 2025; brak swiezego (<=7 dni) twardego katalizatora z 2+ niezaleznych zrodel",
+      "as_of": "2026-11-08",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
     },
     {
-      "ticker": "INTC",
-      "has_catalyst": true,
-      "catalyst_type": "earnings_guidance",
-      "direction": "bearish",
-      "headline": "Earningsy Q3 29.10: EPS non-GAAP $0.52 > kons. $0.41 i najmocniejszy wzrost data center od 15 lat, ALE slabe guidance Q4 (przychod $15-16mld, EPS $0.25) rozczarowalo -> akcja pod presja. Katalizator realny, wymowa per saldo bearish (guidance + reakcja kursu)",
-      "as_of": "2026-10-29",
-      "confidence": 0.6,
-      "source_count": 3,
-      "sources": [
-        {
-          "label": "SEC 8-K Intel Q3 2026 earnings release",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm"
-        },
-        {
-          "label": "GuruFocus",
-          "url": "https://www.gurufocus.com/news/9152587/intel-reports-q3-2026-earnings-eps-of-060-exceeds-estimates-revenue-at-165-billion-misses-expectations"
-        },
-        {
-          "label": "Shacknews",
-          "url": "https://www.shacknews.com/article/151202/intel-intc-q3-2026-earnings-results"
-        }
-      ]
+      "ticker": "OKTA",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Guidance i wyniki z Q3/Q4 FY26 (marzec 2026) poza oknem; earningsy ~25.11 dopiero przed nami; brak swiezego (<=7 dni) kontraktu/guidance z 2+ zrodel",
+      "as_of": "2026-11-08",
+      "confidence": 0.2,
+      "source_count": 0,
+      "sources": []
     }
   ]
 }
