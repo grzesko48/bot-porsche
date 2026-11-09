@@ -1,24 +1,30 @@
 {
-  "as_of": "2026-11-08",
+  "as_of": "2026-11-09",
   "signals": [
     {
       "ticker": "LITE",
-      "has_catalyst": false,
-      "catalyst_type": "none",
+      "has_catalyst": true,
+      "catalyst_type": "MnA",
       "direction": "neutral",
-      "headline": "Earningsy fiskalne ~5.11 w oknie, ale NIE udalo sie potwierdzic faktycznych wynikow/guidance z 2+ niezaleznych zrodel (wyszukiwanie zwraca material z 2025 i sierpnia 2026); brak twardego, zweryfikowanego katalizatora",
-      "as_of": "2026-11-08",
-      "confidence": 0.2,
-      "source_count": 0,
-      "sources": []
+      "headline": "Marvell przejmuje Lumentum w transakcji all-stock o EV ~$115 mld (ogł. 2026-11-02): 4,5 akcji MRVL za 1 LITE, premia ~24% vs zamkniecie 28.10, zamkniecie oczekiwane H1 2028. KATALIZATOR POTWIERDZONY wieloma zrodlami, ale kierunek dla NOWEGO wejscia NEUTRALNY: deal all-stock => LITE to teraz proxy na Marvella, premia juz zdyskontowana (LITE spadl ~54% w 30 dni na rozwodnieniu/spadku MRVL), ryzyko regulacyjne i czasowe do 2028. Nie jest to czyste momentum do kupna.",
+      "as_of": "2026-11-09",
+      "confidence": 0.9,
+      "source_count": 5,
+      "sources": [
+        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-02/marvell-reaches-115-billion-deal-for-lumentum-holdings"},
+        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-acquire-lumentum-115-billion-134153803.html"},
+        {"label": "Investing.com", "url": "https://www.investing.com/news/company-news/marvell-to-acquire-lumentum-for-115-billion-in-allstock-deal-93CH-4991177"},
+        {"label": "Marvell IR", "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"},
+        {"label": "SEC Form 425", "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442760/d163169d425.htm"}
+      ]
     },
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wyprzedana podaz HBM 2026 i podniesione guidance to material z Q1 FY26 (grudzien 2025) poza oknem 7 dni; brak swiezego (<=7 dni) katalizatora spolki z 2+ zrodel, earningsy Q1 FY27 ~23.12",
-      "as_of": "2026-11-08",
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z 2+ niezaleznych zrodel. Teza sold-out HBM 2026/HBM4 ramp to material z konca 2025 / polowy 2026, poza oknem. Earningsy Q1 FY27 dopiero ~koniec grudnia.",
+      "as_of": "2026-11-09",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -28,19 +34,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Backlog i guidance AI-serwerow znane z Q3 FY26 (listopad 2025) oraz FY27 (sierpien), poza oknem; brak swiezego (<=7 dni) kontraktu/guidance z 2+ zrodel, Q3 FY27 ~koniec listopada",
-      "as_of": "2026-11-08",
-      "confidence": 0.2,
-      "source_count": 0,
-      "sources": []
-    },
-    {
-      "ticker": "HPE",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Integracja Juniper, umowa z Oracle i guidance FY26 to material z pazdziernika 2025; brak swiezego (<=7 dni) twardego katalizatora z 2+ niezaleznych zrodel",
-      "as_of": "2026-11-08",
+      "headline": "Brak swiezego (<=7 dni) kontraktu/guidance z 2+ zrodel. Backlog i guidance AI-serwerow znane z Q3 FY26 (lis 2025) i Q1 FY27 (marzec 2026), poza oknem. Earningsy Q3 FY27 dopiero ~koniec listopada.",
+      "as_of": "2026-11-09",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -50,8 +45,19 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Guidance i wyniki z Q3/Q4 FY26 (marzec 2026) poza oknem; earningsy ~25.11 dopiero przed nami; brak swiezego (<=7 dni) kontraktu/guidance z 2+ zrodel",
-      "as_of": "2026-11-08",
+      "headline": "Wejscie do S&P 500 (efektywne 4.11.2026) to zdarzenie TECHNICZNE/indeksowe, juz za nami i zdyskontowane — nie fundamentalny katalizator spolki. Brak swiezego (<=7 dni) kontraktu/guidance. Earningsy ~25.11 dopiero przed nami.",
+      "as_of": "2026-11-09",
+      "confidence": 0.2,
+      "source_count": 0,
+      "sources": []
+    },
+    {
+      "ticker": "HPE",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z 2+ zrodel. Podniesione guidance FY26/FY27, rozszerzenie umowy z Oracle, deal Vultr $1.2B i integracja Juniper to material z 2025 / wczesniejszego 2026, poza oknem.",
+      "as_of": "2026-11-09",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
