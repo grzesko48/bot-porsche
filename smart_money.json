@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-11-08",
-  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra zakupow insiderow (code P) ani swiezych 13F/kongresowych dla LITE/MU/DELL/HPE/OKTA. LITE: 0 zakupow / 105 sprzedazy (6 mies.), per saldo silna sprzedaz. MU: net insider -95.8K akcji w 90 dni, 0 zakupow / 71 sprzedazy; pojedynczy stary zakup dyrektora ze stycznia poza oknem. DELL: 0 insiderow kupujacych (12 mies.) vs 35 sprzedajacych (Silver Lake). HPE: mieszane, jeden agregator pokazuje ~$21.6M zakupow w 180 dni, ale brak swiezego klastra. OKTA: 1 zakup (10b5-1, kwiecien) vs 6 sprzedajacych $49.7M. Dane kongresowe sprzeczne/niewiarygodne miedzy agregatorami. Zgodnie z zasada swiezosci i wymogiem 2+ zrodel oraz brakiem klastra P — wszystkie warstwy neutralne.",
+  "as_of": "2026-11-09",
+  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra zakupow insiderow (code P, 3+ osob), ani swiezych sygnalow 13F/kongresowych dla LITE/MU/DELL/OKTA/HPE z 2+ niezaleznych zrodel. Przeglad OpenInsider/Form4/trackerow kongresowych na 9.11.2026 nie pokazal tych tickerow wsrod swiezych cluster-buy (biezace klastry dotycza innych spolek: BBD, IMSR, HEI, RAPP itd.). LITE: okna insiderskie zwykle zablokowane w trakcie ogloszonej fuzji z Marvellem — brak sygnalu. Pozostale zgodne z wczorajszym obrazem (per saldo neutralnie/sprzedaz). Zasada swiezosci + wymog 2+ zrodel + brak klastra P => wszystkie warstwy NEUTRALNE (fail-closed, nie zmyslamy byka).",
   "insiders": {},
   "funds": {},
   "politicians": {},
