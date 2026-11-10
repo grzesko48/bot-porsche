@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-11-09",
-  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra zakupow insiderow (code P, 3+ osob), ani swiezych sygnalow 13F/kongresowych dla LITE/MU/DELL/OKTA/HPE z 2+ niezaleznych zrodel. Przeglad OpenInsider/Form4/trackerow kongresowych na 9.11.2026 nie pokazal tych tickerow wsrod swiezych cluster-buy (biezace klastry dotycza innych spolek: BBD, IMSR, HEI, RAPP itd.). LITE: okna insiderskie zwykle zablokowane w trakcie ogloszonej fuzji z Marvellem — brak sygnalu. Pozostale zgodne z wczorajszym obrazem (per saldo neutralnie/sprzedaz). Zasada swiezosci + wymog 2+ zrodel + brak klastra P => wszystkie warstwy NEUTRALNE (fail-closed, nie zmyslamy byka).",
+  "as_of": "2026-11-10",
+  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra zakupow insiderow (code P, 3+ osob) ani swiezych sygnalow 13F/kongresowych dla LITE/MU/DELL/OKTA/HPE z 2+ niezaleznych zrodel. OpenInsider 'Latest Cluster Buys' na 10.11.2026 nie wymienia tych tickerow — biezace klastry dotycza innych spolek (BBD, IMSR, HEI). Trackery kongresowe (disclosedcapitol, equibles) pokazuja dla MU/DELL/OKTA/HPE wylacznie stare filingi (kwiecien-lipiec 2026, per saldo sprzedaz), dla LITE brak. LITE: okna insiderskie zwykle zablokowane w trakcie ogloszonej fuzji z Marvellem. Bot (main_pipeline, modul smartmoney) rownolegle odpytal OpenInsider na zywo i zalogowal NEUTRAL dla wszystkich tickerow. Zasada swiezosci + wymog 2+ zrodel + brak klastra P => wszystkie warstwy NEUTRALNE (fail-closed, nie zmyslamy byka).",
   "insiders": {},
   "funds": {},
   "politicians": {},

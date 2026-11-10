@@ -1,21 +1,19 @@
 {
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "signals": [
     {
       "ticker": "LITE",
       "has_catalyst": true,
       "catalyst_type": "MnA",
       "direction": "neutral",
-      "headline": "Marvell przejmuje Lumentum w transakcji all-stock o EV ~$115 mld (ogł. 2026-11-02): 4,5 akcji MRVL za 1 LITE, premia ~24% vs zamkniecie 28.10, zamkniecie oczekiwane H1 2028. KATALIZATOR POTWIERDZONY wieloma zrodlami, ale kierunek dla NOWEGO wejscia NEUTRALNY: deal all-stock => LITE to teraz proxy na Marvella, premia juz zdyskontowana (LITE spadl ~54% w 30 dni na rozwodnieniu/spadku MRVL), ryzyko regulacyjne i czasowe do 2028. Nie jest to czyste momentum do kupna.",
-      "as_of": "2026-11-09",
-      "confidence": 0.9,
-      "source_count": 5,
+      "headline": "Przejecie Lumentum przez Marvell (all-stock, EV ~$115 mld, ogl. 2026-11-02: 4,5 akcji MRVL za 1 LITE, premia ~24% vs 28.10, zamkniecie H1 2028) POZOSTAJE jedynym twardym katalizatorem, ale samo ogloszenie ma juz 8 dni (poza oknem <=7d) i jest w pelni zdyskontowane. LITE to teraz proxy na MRVL. Earningsy LITE spodziewane dzis (10.11) po sesji — brak wynikow w chwili skanu (19:22 UTC). Kierunek dla NOWEGO wejscia NEUTRALNY: premia wyczerpana, ryzyko regulacyjne/czasowe do 2028, brak czystego momentum.",
+      "as_of": "2026-11-10",
+      "confidence": 0.85,
+      "source_count": 3,
       "sources": [
-        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-02/marvell-reaches-115-billion-deal-for-lumentum-holdings"},
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-acquire-lumentum-115-billion-134153803.html"},
-        {"label": "Investing.com", "url": "https://www.investing.com/news/company-news/marvell-to-acquire-lumentum-for-115-billion-in-allstock-deal-93CH-4991177"},
-        {"label": "Marvell IR", "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"},
-        {"label": "SEC Form 425", "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442760/d163169d425.htm"}
+        {"label": "Marvell IR (deal)", "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"},
+        {"label": "Zacks (LITE run-up)", "url": "https://www.zacks.com/stock/news/2873822/lumentum-rises-99-in-a-month-are-the-shares-still-a-buy"},
+        {"label": "EarningsWhispers (LITE earnings 10.11)", "url": "https://beta.earningswhispers.com/go/w/LITE"}
       ]
     },
     {
@@ -23,8 +21,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z 2+ niezaleznych zrodel. Teza sold-out HBM 2026/HBM4 ramp to material z konca 2025 / polowy 2026, poza oknem. Earningsy Q1 FY27 dopiero ~koniec grudnia.",
-      "as_of": "2026-11-09",
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z 2+ niezaleznych zrodel. Teza sold-out HBM 2026 / HBM4 ramp dla Nvidia Vera Rubin to material z konca 2025 / srodka 2026 (poza oknem). Earningsy Q1 FY27 dopiero ~koniec grudnia. Skan 10.11 nie ujawnil nowego kontraktu/guidance.",
+      "as_of": "2026-11-10",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -34,8 +32,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) kontraktu/guidance z 2+ zrodel. Backlog i guidance AI-serwerow znane z Q3 FY26 (lis 2025) i Q1 FY27 (marzec 2026), poza oknem. Earningsy Q3 FY27 dopiero ~koniec listopada.",
-      "as_of": "2026-11-09",
+      "headline": "Brak swiezego (<=7 dni) kontraktu/guidance z 2+ zrodel. Backlog AI-serwerow (~$43 mld na wejsciu w FY27) i guidance znane z Q3 FY26 (lis 2025) oraz Q4 FY26 (marzec 2026), poza oknem. Earningsy Q3 FY27 spodziewane ~koniec listopada — jeszcze przed nami.",
+      "as_of": "2026-11-10",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -45,8 +43,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wejscie do S&P 500 (efektywne 4.11.2026) to zdarzenie TECHNICZNE/indeksowe, juz za nami i zdyskontowane — nie fundamentalny katalizator spolki. Brak swiezego (<=7 dni) kontraktu/guidance. Earningsy ~25.11 dopiero przed nami.",
-      "as_of": "2026-11-09",
+      "headline": "Wejscie do S&P 500 (efektywne 4.11.2026, zastapilo Kenvue) to zdarzenie TECHNICZNE/indeksowe, juz za nami i zdyskontowane — nie fundamentalny katalizator spolki. Przejecie Permiso (~$200 mln) z 30.07 poza oknem. Brak swiezego (<=7 dni) kontraktu/guidance. Earningsy ~25.11 jeszcze przed nami.",
+      "as_of": "2026-11-10",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
@@ -56,8 +54,8 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z 2+ zrodel. Podniesione guidance FY26/FY27, rozszerzenie umowy z Oracle, deal Vultr $1.2B i integracja Juniper to material z 2025 / wczesniejszego 2026, poza oknem.",
-      "as_of": "2026-11-09",
+      "headline": "Brak swiezego (<=7 dni) twardego katalizatora z 2+ zrodel. Podniesione guidance FY26/FY27, rozszerzenie umowy z Oracle (Juniper) i kontrakt DISA $931 mln to material z wrzesnia 2026 / listopada 2025, poza oknem. Skan 10.11 nie ujawnil nowego zdarzenia.",
+      "as_of": "2026-11-10",
       "confidence": 0.2,
       "source_count": 0,
       "sources": []
