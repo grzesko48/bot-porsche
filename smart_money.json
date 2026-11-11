@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-10-31",
-  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra insiderow (code P) ani swiezych 13F/kongresowych dla MU/LITE/DELL/AMD/INTC. INTC: pojedynczy zakup insidera ~$10M w ciagu 90 dni (nie klaster, 1 zrodlo). DELL i AMD: per saldo dominuje sprzedaz insiderow (12 mies.). Dane kongresowe sprzeczne miedzy agregatorami. Zgodnie z zasada swiezosci i wymogiem 2+ zrodel — wszystkie warstwy neutralne.",
+  "as_of": "2026-11-11",
+  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra zakupow insiderow (code P, 3+ osob) ani swiezych sygnalow 13F/kongresowych dla LITE/MU/DELL/OKTA/HPE z 2+ niezaleznych zrodel. Przeglad OpenInsider/Form4/trackerow na 11.11.2026: biezace klastry dotycza innych spolek (Citizens & Northern, LRN, Ryan Specialty, Charter itd.), nie tych tickerow. MU: MarketBeat pokazuje 0 kupujacych/12 mcy, insiderzy per saldo sprzedaja. OKTA: w Q2 sprzedaz przewazala nad zakupami. LITE: okna insiderskie zwykle zablokowane w trakcie ogloszonej fuzji z Marvellem. Zasada swiezosci + wymog 2+ zrodel + brak klastra P => wszystkie warstwy NEUTRALNE (fail-closed, nie zmyslamy byka).",
   "insiders": {},
   "funds": {},
   "politicians": {},
