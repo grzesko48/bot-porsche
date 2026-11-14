@@ -1,5 +1,5 @@
 {
-  "cash_pln": 2852.9133634822483,
+  "cash_pln": 2541.903253174278,
   "start_capital_pln": 100000.0,
   "start_date": "2026-06-16",
   "positions": [
@@ -12,7 +12,7 @@
       "peak_usd": 242.07000732421875,
       "stop_usd": 213.0216,
       "target_usd": 194.246,
-      "days_held": 47.0,
+      "days_held": 48.0,
       "kind": "CORE",
       "score": 7.4,
       "tp_taken": true
@@ -23,10 +23,10 @@
       "shares": 12.396842,
       "entry_usd": 71.505,
       "entry_date": "2026-09-16",
-      "peak_usd": 92.30000305175781,
-      "stop_usd": 81.224,
+      "peak_usd": 93.33000183105469,
+      "stop_usd": 82.1304,
       "target_usd": 100.81,
-      "days_held": 24.0,
+      "days_held": 25.0,
       "kind": "INSIDER",
       "score": 6.9,
       "tp_taken": true
@@ -37,10 +37,10 @@
       "shares": 10.946977,
       "entry_usd": 264.49,
       "entry_date": "2026-09-18",
-      "peak_usd": 294.8900146484375,
-      "stop_usd": 259.5032,
+      "peak_usd": 295.0299987792969,
+      "stop_usd": 259.6264,
       "target_usd": 343.98,
-      "days_held": 22.0,
+      "days_held": 23.0,
       "kind": "CORE",
       "score": 8.0
     },
@@ -50,10 +50,10 @@
       "shares": 29.045773,
       "entry_usd": 38.41,
       "entry_date": "2026-09-24",
-      "peak_usd": 41.41999816894531,
-      "stop_usd": 36.4496,
+      "peak_usd": 41.630001068115234,
+      "stop_usd": 36.6344,
       "target_usd": 49.829,
-      "days_held": 17.0,
+      "days_held": 18.0,
       "kind": "CORE",
       "score": 7.7
     },
@@ -66,7 +66,7 @@
       "peak_usd": 260.5,
       "stop_usd": 229.24,
       "target_usd": 277.134,
-      "days_held": 11.0,
+      "days_held": 12.0,
       "kind": "CORE",
       "score": 7.4,
       "tp_taken": true
@@ -80,7 +80,7 @@
       "peak_usd": 204.5850067138672,
       "stop_usd": 180.0348,
       "target_usd": 227.006,
-      "days_held": 2.0,
+      "days_held": 3.0,
       "kind": "CORE",
       "score": 8.0
     },
@@ -93,7 +93,7 @@
       "peak_usd": 1548.760009765625,
       "stop_usd": 1362.9088,
       "target_usd": 1852.175,
-      "days_held": 2.0,
+      "days_held": 3.0,
       "kind": "CORE",
       "score": 7.7
     },
@@ -106,7 +106,7 @@
       "peak_usd": 413.6700134277344,
       "stop_usd": 364.0296,
       "target_usd": 488.072,
-      "days_held": 2.0,
+      "days_held": 3.0,
       "kind": "CORE",
       "score": 7.4
     },
@@ -119,7 +119,7 @@
       "peak_usd": 66.18180084228516,
       "stop_usd": 58.24,
       "target_usd": 100.77,
-      "days_held": 2.0,
+      "days_held": 3.0,
       "kind": "FUND13F",
       "score": 6.0,
       "tp_taken": true
@@ -127,10 +127,10 @@
     {
       "ticker": "DOMH",
       "tag": "sleeve",
-      "shares": 1327.996286,
-      "entry_usd": 0.8515,
-      "entry_date": "2026-11-11",
-      "peak_usd": 0.8515,
+      "shares": 1427.928849,
+      "entry_usd": 0.78,
+      "entry_date": "2026-11-14",
+      "peak_usd": 0.78,
       "stop_usd": 3.53,
       "target_usd": 6.03,
       "days_held": 0,
@@ -138,5 +138,5 @@
       "score": 6.6
     }
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-14"
 }
