@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-11-16",
-  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra zakupow insiderow (code P, 3+ osob) ani swiezych sygnalow 13F/kongresowych dla LITE/MU/DELL/MPC/VLO z 2+ niezaleznych zrodel. Przeglad OpenInsider/Form4/Dataroma/trackerow na 2026-11-16: brak klastrow kupna dla tych tickerow w oknie. MU: ostatni istotny zakup to dyrektor Teyin Liu w styczniu 2026 (~$3,9 mln) — 10 mcy temu, poza oknem; per saldo insiderzy MU raczej sprzedaja. LITE: okna insiderskie zwykle zablokowane w trakcie ogloszonej fuzji z Marvellem. Brak sygnalow kongresowych w oknie. Zasada swiezosci + wymog 2+ zrodel + brak klastra P => wszystkie warstwy NEUTRALNE (fail-closed, nie zmyslamy byka).",
+  "as_of": "2026-11-17",
+  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra zakupow insiderow (code P, 3+ osob) ani swiezych sygnalow 13F/kongresowych dla LITE/MU/DELL/MPC/VLO z 2+ niezaleznych zrodel. Przeglad OpenInsider/Form4/Dataroma/trackerow na 2026-11-17: zaden z tickerow nie ma klastra kupna w oknie. LITE: insiderzy net sellers (CFO, dyrektorzy). MU: 0 zakupow / 5 sprzedazy w 90 dni. DELL: sprzedaz (Silver Lake). MPC: 0 zakupow / 7 sprzedazy. VLO: 0 zakupow / 2 sprzedaze. Brak sygnalow kongresowych w oknie. Zasada swiezosci + wymog 2+ zrodel + brak klastra P => wszystkie warstwy NEUTRALNE (fail-closed, nie zmyslamy byka).",
   "insiders": {},
   "funds": {},
   "politicians": {},

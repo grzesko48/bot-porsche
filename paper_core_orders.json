@@ -1,30 +1,37 @@
 [
   {
     "ticker": "APA",
-    "entry_usd": 47.55,
-    "stop_usd": 45.07,
-    "target_usd": 61.815,
+    "entry_usd": 47.04,
+    "stop_usd": 44.53,
+    "target_usd": 61.152,
     "score": 8.0
   },
   {
     "ticker": "COP",
-    "entry_usd": 140.55,
-    "stop_usd": 135.29,
-    "target_usd": 182.715,
+    "entry_usd": 140.65,
+    "stop_usd": 135.69,
+    "target_usd": 182.845,
     "score": 7.7
   },
   {
-    "ticker": "CVX",
-    "entry_usd": 217.2,
-    "stop_usd": 210.94,
-    "target_usd": 282.36,
+    "ticker": "DVN",
+    "entry_usd": 44.03,
+    "stop_usd": 41.47,
+    "target_usd": 57.239,
     "score": 7.4
   },
   {
-    "ticker": "BKR",
-    "entry_usd": 47.81,
-    "stop_usd": 44.77,
-    "target_usd": 62.153,
+    "ticker": "CVX",
+    "entry_usd": 215.77,
+    "stop_usd": 209.44,
+    "target_usd": 280.501,
     "score": 7.1
+  },
+  {
+    "ticker": "BKR",
+    "entry_usd": 47.74,
+    "stop_usd": 45.3,
+    "target_usd": 62.062,
+    "score": 6.8
   }
 ]

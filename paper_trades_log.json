@@ -1461,5 +1461,93 @@
     "value_pln": 3400.0,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.0)"
+  },
+  {
+    "date": "2026-11-17",
+    "ticker": "ASML",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 2.8504,
+    "price_usd": 1361.35,
+    "value_pln": 15521.32,
+    "pnl_pln": -722.85,
+    "reason": "stop trafiony (zwrot -4.4%)"
+  },
+  {
+    "date": "2026-11-17",
+    "ticker": "TSM",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 5.3938,
+    "price_usd": 359.89,
+    "value_pln": 7764.75,
+    "pnl_pln": -335.38,
+    "reason": "stop trafiony (zwrot -4.1%)"
+  },
+  {
+    "date": "2026-11-17",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 1744.113,
+    "price_usd": 0.72,
+    "value_pln": 5023.05,
+    "pnl_pln": 579.05,
+    "reason": "stop trafiony (zwrot +13.0%)"
+  },
+  {
+    "date": "2026-11-17",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 14.6868,
+    "price_usd": 55.1,
+    "value_pln": 3236.98,
+    "pnl_pln": -163.02,
+    "reason": "stop trafiony (zwrot -4.8%)"
+  },
+  {
+    "date": "2026-11-17",
+    "ticker": "COP",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 27.5287,
+    "price_usd": 140.72,
+    "value_pln": 15495.18,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.7)"
+  },
+  {
+    "date": "2026-11-17",
+    "ticker": "DVN",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 48.2975,
+    "price_usd": 44.04,
+    "value_pln": 8507.15,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.4)"
+  },
+  {
+    "date": "2026-11-17",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 1543.0555,
+    "price_usd": 0.72,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-11-17",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 15.4265,
+    "price_usd": 55.1,
+    "value_pln": 3400.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.0)"
   }
 ]
