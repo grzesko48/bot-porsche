@@ -1,8 +1,15 @@
 {
-  "as_of": "2026-11-17",
-  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra zakupow insiderow (code P, 3+ osob) ani swiezych sygnalow 13F/kongresowych dla LITE/MU/DELL/MPC/VLO z 2+ niezaleznych zrodel. Przeglad OpenInsider/Form4/Dataroma/trackerow na 2026-11-17: zaden z tickerow nie ma klastra kupna w oknie. LITE: insiderzy net sellers (CFO, dyrektorzy). MU: 0 zakupow / 5 sprzedazy w 90 dni. DELL: sprzedaz (Silver Lake). MPC: 0 zakupow / 7 sprzedazy. VLO: 0 zakupow / 2 sprzedaze. Brak sygnalow kongresowych w oknie. Zasada swiezosci + wymog 2+ zrodel + brak klastra P => wszystkie warstwy NEUTRALNE (fail-closed, nie zmyslamy byka).",
+  "generated": "2026-11-20",
+  "note": "Agent research 2026-11-20 (OpenInsider/Form 4, Dataroma/13F, Congress). Zaden kandydat (MU, LITE, DELL, VLO, OKTA) nie wykazuje AKTYWOWALNEGO sygnalu smart money: brak klastra otwartorynkowych zakupow insiderow (dominuje rutynowa, preplanowana sprzedaz 10b5-1 = szum), brak istotnych dodan 13F, brak zakupow kongresmenow z dopasowaniem komisji w oknie. Rutynowa sprzedaz NIE jest kodowana jako cluster_sell (to szum, nie exit-sygnal). Wszystko neutralne (0 pkt).",
   "insiders": {},
   "funds": {},
   "politicians": {},
-  "sector_exits": []
+  "sector_exits": [],
+  "research_detail": {
+    "MU": "Net selling 3 mies., gl. preplanowane; brak otwartorynkowego klastra zakupow. Kongres 8 buy/3 sell ale ostatni ~1 pazdz. NEUTRAL.",
+    "LITE": "Sprzedaz preplanowana (10b5-1), brak zakupow otwartorynkowych; ostatnie Form 4 ~maj 2026. NEUTRAL.",
+    "DELL": "Sprzedaz (CMO, podmioty Silver Lake), 0 kupujacych/90 dni, 8 sprzedajacych; brak swiezych zakupow. NEUTRAL.",
+    "VLO": "Brak danych z listopada; Form 4 gl. maj-wrzesien 2026. NEUTRAL.",
+    "OKTA": "7 insiderow sprzedalo ~58,2 mln USD/12 mies., 1 maly zakup dyrektora; sprzedaz preplanowana. NEUTRAL."
+  }
 }

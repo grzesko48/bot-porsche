@@ -1,74 +1,76 @@
 {
-  "as_of": "2026-11-17",
+  "generated": "2026-11-20",
+  "freshness_days": 7,
+  "note": "Agent research 2026-11-20. Zaden kandydat nie ma SWIEZEGO (<=7 dni) istotnego katalizatora z >=2 niezaleznymi zrodlami. Newsy MU/VLO z pazdziernika, LITE z 2 listopada (~18 dni), DELL/OKTA to zapowiedzi nadchodzacych wynikow. Wszystkie has_catalyst:false. Swiezosc ponad pamiec.",
   "signals": [
-    {
-      "ticker": "LITE",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni, okno od 2026-11-10) twardego katalizatora. Fuzja Marvell/Lumentum (all-stock, 4.5 akcji MRVL za 1 LITE, ogl. 2026-11-02) oraz raport FQ1 (EPS 1.10 vs 1.03) z ~2026-11-05 sa poza oknem 7 dni. Szanse domkniecia deala ~50/50 (ryzyko regulacyjne) to niepewnosc, nie byczy katalizator. Insiderzy per saldo sprzedaja. Fail-closed.",
-      "as_of": "2026-11-17",
-      "confidence": 0.2,
-      "source_count": 2,
-      "sources": [
-        {"label": "RTTNews", "url": "https://www.rttnews.com/3707237/lumentum-q1-earnings-surges-shares-fall-on-acquisition-news.aspx"},
-        {"label": "Benzinga", "url": "https://www.benzinga.com/quote/LITE/charts"}
-      ]
-    },
     {
       "ticker": "MU",
       "has_catalyst": false,
-      "catalyst_type": "none",
+      "catalyst_type": "earnings_guidance",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) katalizatora z 2+ zrodel. Rekordowy raport FQ i teza sold-out HBM to koniec wrzesnia, kontrakty take-or-pay (16 umow) ogloszone w sierpniu — poza oknem. Nastepne earningsy FQ1 dopiero ~koniec grudnia. Insiderzy: 0 zakupow / 5 sprzedazy w 90 dni (net selling). Fail-closed.",
-      "as_of": "2026-11-17",
-      "confidence": 0.2,
+      "headline": "Silne wytyczne z FQ4'26 (rev ~60-63 mld USD na FQ1'27, long-term take-or-pay deals), ale news z ok. 1 pazdziernika - poza oknem 7 dni",
+      "as_of": "2026-10-01",
+      "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Trefis", "url": "https://www.trefis.com/stock/mu/articles-v3/613347/micron-spent-the-memory-shortage-signing-multiyear-contracts/2026-08-27"},
-        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/2972601/can-microns-take-or-pay-deals-improve-revenue-growth-visibility"}
+        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/2988200/micron-bets-on-long-term-sca-deals-can-it-lower-earnings-cyclicality"},
+        {"label": "Benzinga", "url": "https://www.benzinga.com/markets/earnings/26/10/62098162"}
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "has_catalyst": false,
+      "catalyst_type": "contract",
+      "direction": "neutral",
+      "headline": "Drugi duzy kontrakt NPO/CPO >5 mld USD zobowiazan (8-K, wyniki FQ1'27 z 2 listopada), ale akcja spadla ~36%; news ~18 dni temu - poza oknem 7 dni",
+      "as_of": "2026-11-02",
+      "confidence": 0.35,
+      "source_count": 2,
+      "sources": [
+        {"label": "Business News Today", "url": "https://business-news-today.com/lumentum-nasdaq-lite-wins-over-5bn-in-optical-commitments-as-ai-networking-revenue-surges-137/"},
+        {"label": "RTTNews", "url": "https://www.rttnews.com/3707237/lumentum-q1-earnings-surges-shares-fall-on-acquisition-news.aspx"}
       ]
     },
     {
       "ticker": "DELL",
       "has_catalyst": false,
-      "catalyst_type": "none",
+      "catalyst_type": "earnings_guidance",
       "direction": "neutral",
-      "headline": "Brak czystego swiezego (<=7 dni) katalizatora SPOLKI z 2+ zrodel. Raport FQ3 dopiero ~24-25 listopada — PRZED nami, nie za nami (to ryzyko earnings, nie katalizator wejscia). Spadki z poczatku listopada (-11% 05.11) to tech sell-off / risk-off po midterm, nie news Della. Backlog AI (~$95 mld) znany wczesniej. Insiderzy: sprzedaz (Silver Lake). Fail-closed.",
-      "as_of": "2026-11-17",
-      "confidence": 0.2,
+      "headline": "Wyniki FQ3'27 dopiero nadchodza (zapowiedz z 16 listopada); akcja -25% w 3 mies.; brak konkretnego kontraktu w oknie 7 dni. Uwaga: earnings imminent",
+      "as_of": "2026-11-16",
+      "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Barchart", "url": "https://www.barchart.com/story/news/35728832/earnings-preview-what-to-expect-from-dell-technologies-report"},
-        {"label": "Tikr", "url": "https://www.tikr.com/es/blog/dell-sinks-another-11-as-post-midterm-tech-sell-off-deepens"}
-      ]
-    },
-    {
-      "ticker": "MPC",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) katalizatora. Raport Q3 (EPS 26.59), dywidenda +10%, dywestycja rafinerii MN/ND (~$4,2 mld) i +$5 mld buyback ogloszone 2026-11-03 — poza oknem 7 dni. Ruch +3,4% z 11.11 bez wyjasnienia w zrodlach (price action). Insiderzy: 0 zakupow / 7 sprzedazy w 90 dni. Fail-closed.",
-      "as_of": "2026-11-17",
-      "confidence": 0.2,
-      "source_count": 2,
-      "sources": [
-        {"label": "Finviz/MPC Q3", "url": "https://finviz.com/news/414014/marathon-petroleum-corp-reports-third-quarter-2026-results"},
-        {"label": "Panabee", "url": "https://www.panabee.com/news/marathon-petroleum-earnings-q3-2026-report"}
+        {"label": "Finviz/Earnings Whispers", "url": "https://finviz.com/news/423394/dell-must-prove-its-95-billion-ai-backlog-can-convert-despite-memory-constraints"},
+        {"label": "ConstellationR", "url": "https://www.constellationr.com/insights/news/dell-technologies-ups-ai-server-shipment-outlook-amid-strong-q3"}
       ]
     },
     {
       "ticker": "VLO",
       "has_catalyst": false,
-      "catalyst_type": "none",
+      "catalyst_type": "earnings_guidance",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) katalizatora z 2+ zrodel. Raport Q3 (EPS adj. 23.90, 22.10) i +$10 mld do buybacku poza oknem. Zakup terenu po rafinerii od LyondellBasell ($320,5 mln) z 30.10 poza oknem. Rewizje cen docelowych analitykow (early Nov) to opinie, nie twardy news spolki. Insiderzy: 0 zakupow / 2 sprzedaze. Fail-closed.",
-      "as_of": "2026-11-17",
-      "confidence": 0.2,
+      "headline": "Wyniki Q3'26 (22 pazdz.) + zakup terenu rafinerii Houston za 320,5 mln USD (30 pazdz.) - wszystko poza oknem 7 dni",
+      "as_of": "2026-10-30",
+      "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/3013255/valero-energy-q3-earnings-top-estimates-on-refining-strength"},
+        {"label": "FinancialContent/BusinessWire", "url": "https://www.financialcontent.com/article/bizwire-2026-10-22-valero-energy-reports-third-quarter-2026-results"},
         {"label": "Panabee", "url": "https://www.panabee.com/news/valero-energy-earnings-q3-2026-report"}
+      ]
+    },
+    {
+      "ticker": "OKTA",
+      "has_catalyst": false,
+      "catalyst_type": "earnings_guidance",
+      "direction": "neutral",
+      "headline": "Wyniki FQ3'27 dopiero 1 grudnia 2026; brak nowych kontraktow/katalizatora w oknie 7 dni",
+      "as_of": "2026-11-02",
+      "confidence": 0.3,
+      "source_count": 2,
+      "sources": [
+        {"label": "Okta Newsroom", "url": "https://okta.com/newsroom/press-releases/okta-announces-third-quarter-fiscal-year-2026-financial-results"},
+        {"label": "Finviz", "url": "https://finviz.com/news/413169/okta-to-announce-third-quarter-fiscal-year-2027-financial-results-on-december-1-2026"}
       ]
     }
   ]

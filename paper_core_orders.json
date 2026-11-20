@@ -1,37 +1,37 @@
 [
   {
-    "ticker": "APA",
-    "entry_usd": 47.04,
-    "stop_usd": 44.53,
-    "target_usd": 61.152,
+    "ticker": "KEYS",
+    "entry_usd": 266.72,
+    "stop_usd": 246.96,
+    "target_usd": 346.736,
     "score": 8.0
   },
   {
-    "ticker": "COP",
-    "entry_usd": 140.65,
-    "stop_usd": 135.69,
-    "target_usd": 182.845,
+    "ticker": "MSFT",
+    "entry_usd": 489.31,
+    "stop_usd": 467.5,
+    "target_usd": 636.103,
     "score": 7.7
   },
   {
-    "ticker": "DVN",
-    "entry_usd": 44.03,
-    "stop_usd": 41.47,
-    "target_usd": 57.239,
+    "ticker": "JBL",
+    "entry_usd": 228.64,
+    "stop_usd": 213.13,
+    "target_usd": 297.232,
     "score": 7.4
   },
   {
-    "ticker": "CVX",
-    "entry_usd": 215.77,
-    "stop_usd": 209.44,
-    "target_usd": 280.501,
+    "ticker": "KLAC",
+    "entry_usd": 128.71,
+    "stop_usd": 118.41,
+    "target_usd": 167.323,
     "score": 7.1
   },
   {
-    "ticker": "BKR",
-    "entry_usd": 47.74,
-    "stop_usd": 45.3,
-    "target_usd": 62.062,
+    "ticker": "MCHP",
+    "entry_usd": 56.28,
+    "stop_usd": 51.78,
+    "target_usd": 73.164,
     "score": 6.8
   }
 ]
