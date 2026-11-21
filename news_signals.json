@@ -1,32 +1,30 @@
 {
-  "as_of": "2026-11-17",
+  "generated": "2026-11-21",
   "signals": [
-    {
-      "ticker": "LITE",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni, okno od 2026-11-10) twardego katalizatora. Fuzja Marvell/Lumentum (all-stock, 4.5 akcji MRVL za 1 LITE, ogl. 2026-11-02) oraz raport FQ1 (EPS 1.10 vs 1.03) z ~2026-11-05 sa poza oknem 7 dni. Szanse domkniecia deala ~50/50 (ryzyko regulacyjne) to niepewnosc, nie byczy katalizator. Insiderzy per saldo sprzedaja. Fail-closed.",
-      "as_of": "2026-11-17",
-      "confidence": 0.2,
-      "source_count": 2,
-      "sources": [
-        {"label": "RTTNews", "url": "https://www.rttnews.com/3707237/lumentum-q1-earnings-surges-shares-fall-on-acquisition-news.aspx"},
-        {"label": "Benzinga", "url": "https://www.benzinga.com/quote/LITE/charts"}
-      ]
-    },
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) katalizatora z 2+ zrodel. Rekordowy raport FQ i teza sold-out HBM to koniec wrzesnia, kontrakty take-or-pay (16 umow) ogloszone w sierpniu — poza oknem. Nastepne earningsy FQ1 dopiero ~koniec grudnia. Insiderzy: 0 zakupow / 5 sprzedazy w 90 dni (net selling). Fail-closed.",
-      "as_of": "2026-11-17",
-      "confidence": 0.2,
-      "source_count": 2,
+      "headline": "Ruch +3.5% po wynikach NVDA 18 XI to momentum sektora; brak dyskretnego swiezego katalizatora potwierdzonego 2 zrodlami, kontrakty supply z pol. 2026 juz stare",
+      "as_of": "2026-11-18",
+      "confidence": 0.3,
+      "source_count": 1,
       "sources": [
-        {"label": "Trefis", "url": "https://www.trefis.com/stock/mu/articles-v3/613347/micron-spent-the-memory-shortage-signing-multiyear-contracts/2026-08-27"},
-        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/2972601/can-microns-take-or-pay-deals-improve-revenue-growth-visibility"}
+        {"label": "Finviz", "url": "https://finviz.com/news/424511/why-is-micron-technology-stock-rising-today"}
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "has_catalyst": false,
+      "catalyst_type": "MnA",
+      "direction": "neutral",
+      "headline": "Przejecie all-stock przez Marvell (4.5 akcji MRVL za LITE) ogloszone 2 XI — POZA oknem 7 dni, juz zdyskontowane, szanse domkniecia ~50/50, zrodla sprzeczne",
+      "as_of": "2026-11-02",
+      "confidence": 0.4,
+      "source_count": 1,
+      "sources": [
+        {"label": "Trefis", "url": "https://www.trefis.com/data/companies/LITE"}
       ]
     },
     {
@@ -34,27 +32,12 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak czystego swiezego (<=7 dni) katalizatora SPOLKI z 2+ zrodel. Raport FQ3 dopiero ~24-25 listopada — PRZED nami, nie za nami (to ryzyko earnings, nie katalizator wejscia). Spadki z poczatku listopada (-11% 05.11) to tech sell-off / risk-off po midterm, nie news Della. Backlog AI (~$95 mld) znany wczesniej. Insiderzy: sprzedaz (Silver Lake). Fail-closed.",
-      "as_of": "2026-11-17",
-      "confidence": 0.2,
-      "source_count": 2,
+      "headline": "Wyniki dopiero 24 XI (po NVDA 17 XI); spadek ~7% 16 XI wraz z presja na sprzet AI — brak dyskretnego swiezego newsa, czekaj na raport",
+      "as_of": "2026-11-16",
+      "confidence": 0.3,
+      "source_count": 1,
       "sources": [
-        {"label": "Barchart", "url": "https://www.barchart.com/story/news/35728832/earnings-preview-what-to-expect-from-dell-technologies-report"},
-        {"label": "Tikr", "url": "https://www.tikr.com/es/blog/dell-sinks-another-11-as-post-midterm-tech-sell-off-deepens"}
-      ]
-    },
-    {
-      "ticker": "MPC",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) katalizatora. Raport Q3 (EPS 26.59), dywidenda +10%, dywestycja rafinerii MN/ND (~$4,2 mld) i +$5 mld buyback ogloszone 2026-11-03 — poza oknem 7 dni. Ruch +3,4% z 11.11 bez wyjasnienia w zrodlach (price action). Insiderzy: 0 zakupow / 7 sprzedazy w 90 dni. Fail-closed.",
-      "as_of": "2026-11-17",
-      "confidence": 0.2,
-      "source_count": 2,
-      "sources": [
-        {"label": "Finviz/MPC Q3", "url": "https://finviz.com/news/414014/marathon-petroleum-corp-reports-third-quarter-2026-results"},
-        {"label": "Panabee", "url": "https://www.panabee.com/news/marathon-petroleum-earnings-q3-2026-report"}
+        {"label": "boerse-express", "url": "https://www.boerse-express.com/news/articles/dell-quartalszahlen-am-24-november-963689"}
       ]
     },
     {
@@ -62,13 +45,25 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7 dni) katalizatora z 2+ zrodel. Raport Q3 (EPS adj. 23.90, 22.10) i +$10 mld do buybacku poza oknem. Zakup terenu po rafinerii od LyondellBasell ($320,5 mln) z 30.10 poza oknem. Rewizje cen docelowych analitykow (early Nov) to opinie, nie twardy news spolki. Insiderzy: 0 zakupow / 2 sprzedaze. Fail-closed.",
-      "as_of": "2026-11-17",
+      "headline": "Q3 z 22 X i zakup terenu rafinerii Houston za 320.5M z X — wszystko stare; ryzyko sporow po pozarze Port Arthur; brak swiezego katalizatora",
+      "as_of": "2026-10-22",
       "confidence": 0.2,
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
-        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/3013255/valero-energy-q3-earnings-top-estimates-on-refining-strength"},
-        {"label": "Panabee", "url": "https://www.panabee.com/news/valero-energy-earnings-q3-2026-report"}
+        {"label": "FinancialContent", "url": "https://www.financialcontent.com/article/bizwire-2026-10-22-valero-energy-reports-third-quarter-2026-results"}
+      ]
+    },
+    {
+      "ticker": "OKTA",
+      "has_catalyst": false,
+      "catalyst_type": "analyst",
+      "direction": "neutral",
+      "headline": "Tylko stare wyniki FY2026 Q3 (XII 2025); cel Cantor $250 z 17 XI to rekomendacja, nie katalizator; raport FY2027 Q3 dopiero przelom XI/XII",
+      "as_of": "2026-11-17",
+      "confidence": 0.3,
+      "source_count": 1,
+      "sources": [
+        {"label": "QuiverQuant", "url": "https://www.quiverquant.com/news/New+Analyst+Forecast%3A+%24OKTA+Given+%24250+Price+Target"}
       ]
     }
   ]

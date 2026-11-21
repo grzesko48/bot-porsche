@@ -1,8 +1,26 @@
 {
-  "as_of": "2026-11-17",
-  "note": "Brak potwierdzonego swiezego (<=7 dni) klastra zakupow insiderow (code P, 3+ osob) ani swiezych sygnalow 13F/kongresowych dla LITE/MU/DELL/MPC/VLO z 2+ niezaleznych zrodel. Przeglad OpenInsider/Form4/Dataroma/trackerow na 2026-11-17: zaden z tickerow nie ma klastra kupna w oknie. LITE: insiderzy net sellers (CFO, dyrektorzy). MU: 0 zakupow / 5 sprzedazy w 90 dni. DELL: sprzedaz (Silver Lake). MPC: 0 zakupow / 7 sprzedazy. VLO: 0 zakupow / 2 sprzedaze. Brak sygnalow kongresowych w oknie. Zasada swiezosci + wymog 2+ zrodel + brak klastra P => wszystkie warstwy NEUTRALNE (fail-closed, nie zmyslamy byka).",
-  "insiders": {},
-  "funds": {},
-  "politicians": {},
+  "generated": "2026-11-21",
+  "note": "Sprawdzono OpenInsider/Dataroma/QuiverQuant/DisclosedCapitol. Zaden ticker nie ma swiezego klastra kupna insiderow. Insiderzy w wiekszosci sprzedaja, ale rutynowo (jednokierunkowe sprzedaze rozlozone w czasie, nie skoordynowany swiezy exit) -> cluster_sell=false, by nie wywolac falszywego HARD_BLOCK. Dane 13F/kongres stare (Q1-Q3 2026) i sprzeczne. Wynik: NEUTRAL dla wszystkich.",
+  "insiders": {
+    "MU":   {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -23, "cluster_sell": false},
+    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false},
+    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false},
+    "VLO":  {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false},
+    "OKTA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false}
+  },
+  "funds": {
+    "MU": [],
+    "LITE": [],
+    "DELL": [],
+    "VLO": [],
+    "OKTA": []
+  },
+  "politicians": {
+    "MU": [],
+    "LITE": [],
+    "DELL": [],
+    "VLO": [],
+    "OKTA": []
+  },
   "sector_exits": []
 }
