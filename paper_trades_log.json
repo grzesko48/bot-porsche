@@ -1549,5 +1549,93 @@
     "value_pln": 3400.0,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.0)"
+  },
+  {
+    "date": "2026-11-21",
+    "ticker": "SAP",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 19.762,
+    "price_usd": 198.93,
+    "value_pln": 15960.89,
+    "pnl_pln": 3976.38,
+    "reason": "stop trafiony (zwrot +33.2%)"
+  },
+  {
+    "date": "2026-11-21",
+    "ticker": "NVO",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 29.0458,
+    "price_usd": 37.82,
+    "value_pln": 4459.96,
+    "pnl_pln": -69.58,
+    "reason": "time-stop 15d, zysk <3% (-1.5%)"
+  },
+  {
+    "date": "2026-11-21",
+    "ticker": "ACN",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 14.9414,
+    "price_usd": 221.17,
+    "value_pln": 13416.59,
+    "pnl_pln": 489.54,
+    "reason": "stop trafiony (zwrot +3.8%)"
+  },
+  {
+    "date": "2026-11-21",
+    "ticker": "APA",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 74.939,
+    "price_usd": 45.03,
+    "value_pln": 13700.48,
+    "pnl_pln": -757.59,
+    "reason": "stop trafiony (zwrot -5.2%)"
+  },
+  {
+    "date": "2026-11-21",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 1543.0555,
+    "price_usd": 0.81,
+    "value_pln": 5074.49,
+    "pnl_pln": 563.83,
+    "reason": "stop trafiony (zwrot +12.5%)"
+  },
+  {
+    "date": "2026-11-21",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 15.4265,
+    "price_usd": 45.42,
+    "value_pln": 2844.73,
+    "pnl_pln": -606.27,
+    "reason": "stop trafiony (zwrot -17.6%)"
+  },
+  {
+    "date": "2026-11-21",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 1351.3349,
+    "price_usd": 0.81,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-11-21",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 18.4377,
+    "price_usd": 45.42,
+    "value_pln": 3400.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.0)"
   }
 ]
