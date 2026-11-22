@@ -1,17 +1,18 @@
 {
-  "generated": "2026-11-21",
+  "generated": "2026-11-22",
   "signals": [
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Ruch +3.5% po wynikach NVDA 18 XI to momentum sektora; brak dyskretnego swiezego katalizatora potwierdzonego 2 zrodlami, kontrakty supply z pol. 2026 juz stare",
-      "as_of": "2026-11-18",
+      "headline": "Brak swiezego (<=7d) dyskretnego katalizatora; HBM sold-out to stare, wyniki Q1 FY27 dopiero 16 XII; ruchy to momentum sektora pamieci",
+      "as_of": "2026-11-22",
       "confidence": 0.3,
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        {"label": "Finviz", "url": "https://finviz.com/news/424511/why-is-micron-technology-stock-rising-today"}
+        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/2968840/micron-slips-9-in-a-month-is-this-the-right-time-to-buy-mu-stock"},
+        {"label": "Motley Fool", "url": "https://www.fool.com/investing/2026/10/28/why-micron-technology-stock-rallied-today/"}
       ]
     },
     {
@@ -19,11 +20,12 @@
       "has_catalyst": false,
       "catalyst_type": "MnA",
       "direction": "neutral",
-      "headline": "Przejecie all-stock przez Marvell (4.5 akcji MRVL za LITE) ogloszone 2 XI — POZA oknem 7 dni, juz zdyskontowane, szanse domkniecia ~50/50, zrodla sprzeczne",
+      "headline": "Przejecie all-stock przez Marvell (4.5 MRVL za LITE) z 2 XI — POZA oknem 7 dni, premia skurczona po spadku MRVL, szanse domkniecia ~50/50, juz zdyskontowane",
       "as_of": "2026-11-02",
       "confidence": 0.4,
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
+        {"label": "Benzinga", "url": "https://www.benzinga.com/quote/LITE/charts"},
         {"label": "Trefis", "url": "https://www.trefis.com/data/companies/LITE"}
       ]
     },
@@ -32,12 +34,13 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wyniki dopiero 24 XI (po NVDA 17 XI); spadek ~7% 16 XI wraz z presja na sprzet AI — brak dyskretnego swiezego newsa, czekaj na raport",
-      "as_of": "2026-11-16",
+      "headline": "Wyniki Q3 FY27 dopiero 24 XI (ryzyko earnings, nie zrealizowany katalizator); zmiennosc to sentyment do sprzetu AI, brak dyskretnego swiezego newsa",
+      "as_of": "2026-11-22",
       "confidence": 0.3,
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        {"label": "boerse-express", "url": "https://www.boerse-express.com/news/articles/dell-quartalszahlen-am-24-november-963689"}
+        {"label": "boerse-express", "url": "https://www.boerse-express.com/news/articles/dell-quartalszahlen-am-24-november-963689"},
+        {"label": "Trefis", "url": "https://www.trefis.com/articles/625267/why-is-dell-stock-falling-again/2026-11-16"}
       ]
     },
     {
@@ -45,25 +48,27 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Q3 z 22 X i zakup terenu rafinerii Houston za 320.5M z X — wszystko stare; ryzyko sporow po pozarze Port Arthur; brak swiezego katalizatora",
+      "headline": "Wyniki Q3 z 22 X i projekt FCC St. Charles — wszystko >7 dni; brak swiezego katalizatora listopadowego; ryzyka sporow po incydencie Port Arthur",
       "as_of": "2026-10-22",
       "confidence": 0.2,
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
+        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/3013255/valero-energy-q3-earnings-top-estimates-on-refining-strength"},
         {"label": "FinancialContent", "url": "https://www.financialcontent.com/article/bizwire-2026-10-22-valero-energy-reports-third-quarter-2026-results"}
       ]
     },
     {
       "ticker": "OKTA",
       "has_catalyst": false,
-      "catalyst_type": "analyst",
+      "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Tylko stare wyniki FY2026 Q3 (XII 2025); cel Cantor $250 z 17 XI to rekomendacja, nie katalizator; raport FY2027 Q3 dopiero przelom XI/XII",
-      "as_of": "2026-11-17",
+      "headline": "Skok +12% 18 XI WPROST opisany jako 'brak wlasnych newsow' — sympatia sektora (wyniki PANW, obawy cyber); wlaczenie do S&P500 z 4 XI stare; raport dopiero 1 XII",
+      "as_of": "2026-11-18",
       "confidence": 0.3,
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        {"label": "QuiverQuant", "url": "https://www.quiverquant.com/news/New+Analyst+Forecast%3A+%24OKTA+Given+%24250+Price+Target"}
+        {"label": "Parameter.io", "url": "https://parameter.io/okta-stock-jumps-as-cyber-fears-and-palo-alto-results-lift-security-names/"},
+        {"label": "Trefis", "url": "https://www.trefis.com/stock/okta/articles/626897/why-is-okta-stock-going-up/2026-11-19"}
       ]
     }
   ]
