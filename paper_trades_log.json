@@ -1681,5 +1681,126 @@
     "value_pln": 3400.0,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.0)"
+  },
+  {
+    "date": "2026-11-23",
+    "ticker": "COP",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 27.5287,
+    "price_usd": 132.89,
+    "value_pln": 14852.65,
+    "pnl_pln": -874.95,
+    "reason": "stop trafiony (zwrot -5.6%)"
+  },
+  {
+    "date": "2026-11-23",
+    "ticker": "DVN",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 48.2975,
+    "price_usd": 41.03,
+    "value_pln": 8045.49,
+    "pnl_pln": -589.26,
+    "reason": "stop trafiony (zwrot -6.8%)"
+  },
+  {
+    "date": "2026-11-23",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 1351.3349,
+    "price_usd": 0.83,
+    "value_pln": 4553.18,
+    "pnl_pln": 109.18,
+    "reason": "stop trafiony (zwrot +2.5%)"
+  },
+  {
+    "date": "2026-11-23",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 18.4377,
+    "price_usd": 49.57,
+    "value_pln": 3710.66,
+    "pnl_pln": 310.66,
+    "reason": "stop trafiony (zwrot +9.1%)"
+  },
+  {
+    "date": "2026-11-23",
+    "ticker": "APA",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 83.7832,
+    "price_usd": 43.9,
+    "value_pln": 14931.32,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 8.0)"
+  },
+  {
+    "date": "2026-11-23",
+    "ticker": "COP",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 27.6745,
+    "price_usd": 132.89,
+    "value_pln": 14931.32,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.7)"
+  },
+  {
+    "date": "2026-11-23",
+    "ticker": "CVX",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 17.7648,
+    "price_usd": 207.02,
+    "value_pln": 14931.32,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.4)"
+  },
+  {
+    "date": "2026-11-23",
+    "ticker": "DVN",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 89.6336,
+    "price_usd": 41.03,
+    "value_pln": 14931.32,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.1)"
+  },
+  {
+    "date": "2026-11-23",
+    "ticker": "BKR",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 64.1739,
+    "price_usd": 46.17,
+    "value_pln": 12028.11,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 6.8)"
+  },
+  {
+    "date": "2026-11-23",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 1318.9315,
+    "price_usd": 0.83,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-11-23",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 16.8941,
+    "price_usd": 49.57,
+    "value_pln": 3400.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.0)"
   }
 ]

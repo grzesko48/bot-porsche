@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "ticker": "APA",
+    "entry_usd": 43.91,
+    "stop_usd": 41.8,
+    "target_usd": 57.083,
+    "score": 8.0
+  },
+  {
+    "ticker": "COP",
+    "entry_usd": 132.87,
+    "stop_usd": 128.41,
+    "target_usd": 172.731,
+    "score": 7.7
+  },
+  {
+    "ticker": "CVX",
+    "entry_usd": 207.01,
+    "stop_usd": 201.38,
+    "target_usd": 269.113,
+    "score": 7.4
+  },
+  {
+    "ticker": "DVN",
+    "entry_usd": 41.05,
+    "stop_usd": 38.84,
+    "target_usd": 53.365,
+    "score": 7.1
+  },
+  {
+    "ticker": "BKR",
+    "entry_usd": 46.17,
+    "stop_usd": 43.6,
+    "target_usd": 60.021,
+    "score": 6.8
+  }
+]

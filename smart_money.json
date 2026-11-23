@@ -1,26 +1,26 @@
 {
-  "generated": "2026-11-22",
-  "note": "Sprawdzono insiderow/kongres/13F (TipRanks, InsiderTrades, QuiverQuant, DisclosedCapitol, Kadoa). Zaden ticker nie ma SWIEZEGO (<=7d) klastra KUPNA insiderow. Dominuje sprzedaz, ale rutynowa/10b5-1 i w wiekszosci >7 dni (np. LITE sierpien, OKTA lipiec) -> cluster_sell=false, by nie wywolac falszywego HARD_BLOCK. Dane 13F/kongres stare (Q1-Q3 2026) i sprzeczne. Wynik: NEUTRAL dla wszystkich 5.",
+  "generated": "2026-11-23",
+  "note": "Sprawdzono insiderow (TipRanks, InsiderTrades, EarningsWhispers, StockTitan), kongres (EarningsWhispers/QuiverQuant) i 13F (Fintel) dla MU, LITE, DELL, OKTA, MPC. ZADEN ticker nie ma SWIEZEGO (<=7d) klastra KUPNA insiderow. Dominuje sprzedaz, ale rutynowa/10b5-1 i w wiekszosci >7 dni (MU open-market ostatnio VII 2026; DELL Silver Lake 6 X; OKTA IX/X; LITE VIII 2026). MPC: pojedynczy Form 4 (EVP Henschen, sprzedaz 2285 szt. 13 XI, 63% planned) — JEDEN insider, to NIE klaster -> cluster_sell=false, by nie wywolac falszywego HARD_BLOCK. Kongres: tylko drobne kupna MU (McGuire, 1-15k USD, 1 XI, >7d). Dane 13F stare (Q1 2026). Wynik: NEUTRAL dla wszystkich 5.",
   "insiders": {
-    "MU":   {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -12, "cluster_sell": false},
+    "MU":   {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -20, "cluster_sell": false},
     "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -13, "cluster_sell": false},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -41, "cluster_sell": false},
-    "VLO":  {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false},
-    "OKTA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -12, "cluster_sell": false}
+    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -42, "cluster_sell": false},
+    "OKTA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -15, "cluster_sell": false},
+    "MPC":  {"n_insiders": 1, "n_directors": 0, "total_usd": 938000, "price_vs_52wh_pct": -5, "cluster_sell": false}
   },
   "funds": {
     "MU": [],
     "LITE": [],
     "DELL": [],
-    "VLO": [],
-    "OKTA": []
+    "OKTA": [],
+    "MPC": []
   },
   "politicians": {
     "MU": [],
     "LITE": [],
     "DELL": [],
-    "VLO": [],
-    "OKTA": []
+    "OKTA": [],
+    "MPC": []
   },
   "sector_exits": []
 }
