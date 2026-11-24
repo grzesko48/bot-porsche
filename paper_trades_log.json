@@ -1681,5 +1681,93 @@
     "value_pln": 3400.0,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.0)"
+  },
+  {
+    "date": "2026-11-24",
+    "ticker": "COP",
+    "tag": "core",
+    "side": "SELL",
+    "shares": 27.5287,
+    "price_usd": 135.41,
+    "value_pln": 15209.42,
+    "pnl_pln": -595.66,
+    "reason": "stop trafiony (zwrot -3.8%)"
+  },
+  {
+    "date": "2026-11-24",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 1351.3349,
+    "price_usd": 0.85,
+    "value_pln": 4662.72,
+    "pnl_pln": 196.83,
+    "reason": "stop trafiony (zwrot +4.4%)"
+  },
+  {
+    "date": "2026-11-24",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 18.4377,
+    "price_usd": 46.92,
+    "value_pln": 3529.21,
+    "pnl_pln": 112.46,
+    "reason": "stop trafiony (zwrot +3.3%)"
+  },
+  {
+    "date": "2026-11-24",
+    "ticker": "OKTA",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 18.225,
+    "price_usd": 202.92,
+    "value_pln": 15088.7,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 8.0)"
+  },
+  {
+    "date": "2026-11-24",
+    "ticker": "CRWD",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 17.4255,
+    "price_usd": 212.23,
+    "value_pln": 15088.7,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.7)"
+  },
+  {
+    "date": "2026-11-24",
+    "ticker": "NTAP",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 22.7645,
+    "price_usd": 162.46,
+    "value_pln": 15088.7,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.4)"
+  },
+  {
+    "date": "2026-11-24",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 1287.9457,
+    "price_usd": 0.85,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-11-24",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 17.7626,
+    "price_usd": 46.92,
+    "value_pln": 3400.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.0)"
   }
 ]

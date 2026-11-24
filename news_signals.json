@@ -1,60 +1,46 @@
 {
-  "generated": "2026-11-22",
+  "generated": "2026-11-24",
   "signals": [
-    {
-      "ticker": "MU",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak swiezego (<=7d) dyskretnego katalizatora; HBM sold-out to stare, wyniki Q1 FY27 dopiero 16 XII; ruchy to momentum sektora pamieci",
-      "as_of": "2026-11-22",
-      "confidence": 0.3,
-      "source_count": 2,
-      "sources": [
-        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/2968840/micron-slips-9-in-a-month-is-this-the-right-time-to-buy-mu-stock"},
-        {"label": "Motley Fool", "url": "https://www.fool.com/investing/2026/10/28/why-micron-technology-stock-rallied-today/"}
-      ]
-    },
-    {
-      "ticker": "LITE",
-      "has_catalyst": false,
-      "catalyst_type": "MnA",
-      "direction": "neutral",
-      "headline": "Przejecie all-stock przez Marvell (4.5 MRVL za LITE) z 2 XI — POZA oknem 7 dni, premia skurczona po spadku MRVL, szanse domkniecia ~50/50, juz zdyskontowane",
-      "as_of": "2026-11-02",
-      "confidence": 0.4,
-      "source_count": 2,
-      "sources": [
-        {"label": "Benzinga", "url": "https://www.benzinga.com/quote/LITE/charts"},
-        {"label": "Trefis", "url": "https://www.trefis.com/data/companies/LITE"}
-      ]
-    },
     {
       "ticker": "DELL",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wyniki Q3 FY27 dopiero 24 XI (ryzyko earnings, nie zrealizowany katalizator); zmiennosc to sentyment do sprzetu AI, brak dyskretnego swiezego newsa",
-      "as_of": "2026-11-22",
+      "headline": "Wyniki Q3 FY27 dopiero DZIS (24 XI po sesji) — okno RYZYKA earnings, nie zrealizowany katalizator; backlog AI $95B to stary Q2",
+      "as_of": "2026-11-24",
       "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "boerse-express", "url": "https://www.boerse-express.com/news/articles/dell-quartalszahlen-am-24-november-963689"},
-        {"label": "Trefis", "url": "https://www.trefis.com/articles/625267/why-is-dell-stock-falling-again/2026-11-16"}
+        {"label": "Admiral Markets", "url": "https://admiralmarkets.com/analytics/traders-blog/dell-earnings-preview-q3-fiscal-2027"},
+        {"label": "BigGo Finance", "url": "https://finance.biggo.com/news/6282fa0f-40e3-415b-9a5a-7ab36ef69de0"}
       ]
     },
     {
-      "ticker": "VLO",
+      "ticker": "HPE",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wyniki Q3 z 22 X i projekt FCC St. Charles — wszystko >7 dni; brak swiezego katalizatora listopadowego; ryzyka sporow po incydencie Port Arthur",
-      "as_of": "2026-10-22",
-      "confidence": 0.2,
+      "headline": "Zlecenie Vultr $1.2B (AMD Helios) + podniesiona prognoza sieci — z 30 IX, POZA oknem 7 dni, zdyskontowane; wyniki Q4 FY26 dopiero w listopadzie",
+      "as_of": "2026-09-30",
+      "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/3013255/valero-energy-q3-earnings-top-estimates-on-refining-strength"},
-        {"label": "FinancialContent", "url": "https://www.financialcontent.com/article/bizwire-2026-10-22-valero-energy-reports-third-quarter-2026-results"}
+        {"label": "Techzine", "url": "https://www.techzine.eu/news/infrastructure/144695/hpe-secures-first-amd-helios-order-1-2-billion-from-vultr/"},
+        {"label": "Fierce Network", "url": "https://www.fierce-network.com/broadband/hpe-lands-first-amd-helios-order-12b-vultr-deal"}
+      ]
+    },
+    {
+      "ticker": "MU",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Brak swiezego (<=7d) dyskretnego katalizatora; HBM sold-out / kontrakty $32B to stare (Q4 call 30 IX), wyniki Q1 FY27 ok. 16 XII",
+      "as_of": "2026-10-01",
+      "confidence": 0.3,
+      "source_count": 2,
+      "sources": [
+        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/2942553/micron-q3-earnings-call-highlights-supply-crunch-and-scas"},
+        {"label": "TrendForce", "url": "https://www.trendforce.com/news/2026-10-01/news-micron-fy2026-revenue-surges-256-to-133-2b-locks-in-35-of-revenue-through-2030/"}
       ]
     },
     {
@@ -62,13 +48,27 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Skok +12% 18 XI WPROST opisany jako 'brak wlasnych newsow' — sympatia sektora (wyniki PANW, obawy cyber); wlaczenie do S&P500 z 4 XI stare; raport dopiero 1 XII",
-      "as_of": "2026-11-18",
+      "headline": "Brak swiezego (<=7d) newsa; wyszukiwanie zwraca wyniki sprzed roku (FY26), raport Q3 FY27 dopiero ok. poczatku grudnia; ruch to sentyment sektora",
+      "as_of": "2026-11-24",
       "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Parameter.io", "url": "https://parameter.io/okta-stock-jumps-as-cyber-fears-and-palo-alto-results-lift-security-names/"},
-        {"label": "Trefis", "url": "https://www.trefis.com/stock/okta/articles/626897/why-is-okta-stock-going-up/2026-11-19"}
+        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/news/why-okta-okta-6-9-220911623.html"},
+        {"label": "Barchart", "url": "https://www.barchart.com/story/news/36462278/okta-excuses-to-sell-vs-reasons-to-buy"}
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "has_catalyst": false,
+      "catalyst_type": "MnA",
+      "direction": "neutral",
+      "headline": "Przejecie all-stock przez Marvell (4.5 MRVL/LITE, ~$115B) z 2 XI — POZA oknem 7 dni, zamkniecie dopiero H1 2028, juz zdyskontowane",
+      "as_of": "2026-11-02",
+      "confidence": 0.4,
+      "source_count": 2,
+      "sources": [
+        {"label": "Light Reading", "url": "https://lightreading.com/ai-machine-learning/marvell-strikes-115b-deal-for-lumentum"},
+        {"label": "Marvell IR", "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/"}
       ]
     }
   ]

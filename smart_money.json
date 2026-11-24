@@ -1,26 +1,26 @@
 {
-  "generated": "2026-11-22",
-  "note": "Sprawdzono insiderow/kongres/13F (TipRanks, InsiderTrades, QuiverQuant, DisclosedCapitol, Kadoa). Zaden ticker nie ma SWIEZEGO (<=7d) klastra KUPNA insiderow. Dominuje sprzedaz, ale rutynowa/10b5-1 i w wiekszosci >7 dni (np. LITE sierpien, OKTA lipiec) -> cluster_sell=false, by nie wywolac falszywego HARD_BLOCK. Dane 13F/kongres stare (Q1-Q3 2026) i sprzeczne. Wynik: NEUTRAL dla wszystkich 5.",
+  "generated": "2026-11-24",
+  "note": "Sprawdzono insiderow/kongres/13F (OpenInsider, QuiverQuant, DisclosedCapitol, Benzinga, Dataroma). ZADEN z 5 tickerow (DELL/HPE/MU/OKTA/LITE) nie ma SWIEZEGO (<=7d) klastra KUPNA insiderow. Transakcje kongresu dla DELL/MU istnieja, ale z polowy 2026 (stare, mieszane buy/sell), 13F Q3 niepotwierdzone. Brak swiezej sprzedazy klastrowej -> cluster_sell=false dla wszystkich, by nie wywolac falszywego HARD_BLOCK. Wynik: NEUTRAL dla wszystkich 5.",
   "insiders": {
+    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -10, "cluster_sell": false},
+    "HPE":  {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -8,  "cluster_sell": false},
     "MU":   {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -12, "cluster_sell": false},
-    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -13, "cluster_sell": false},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -41, "cluster_sell": false},
-    "VLO":  {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": 0, "cluster_sell": false},
-    "OKTA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -12, "cluster_sell": false}
+    "OKTA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -12, "cluster_sell": false},
+    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -13, "cluster_sell": false}
   },
   "funds": {
-    "MU": [],
-    "LITE": [],
     "DELL": [],
-    "VLO": [],
-    "OKTA": []
+    "HPE": [],
+    "MU": [],
+    "OKTA": [],
+    "LITE": []
   },
   "politicians": {
-    "MU": [],
-    "LITE": [],
     "DELL": [],
-    "VLO": [],
-    "OKTA": []
+    "HPE": [],
+    "MU": [],
+    "OKTA": [],
+    "LITE": []
   },
   "sector_exits": []
 }

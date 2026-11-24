@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "ticker": "ACN",
+    "entry_usd": 232.61,
+    "stop_usd": 222.49,
+    "target_usd": 302.393,
+    "score": 8.0
+  },
+  {
+    "ticker": "AKAM",
+    "entry_usd": 90.51,
+    "stop_usd": 84.14,
+    "target_usd": 117.663,
+    "score": 7.7
+  },
+  {
+    "ticker": "SAP",
+    "entry_usd": 208.38,
+    "stop_usd": 198.69,
+    "target_usd": 270.894,
+    "score": 7.4
+  },
+  {
+    "ticker": "APH",
+    "entry_usd": 73.56,
+    "stop_usd": 67.68,
+    "target_usd": 95.628,
+    "score": 7.1
+  },
+  {
+    "ticker": "ADBE",
+    "entry_usd": 232.64,
+    "stop_usd": 223.45,
+    "target_usd": 302.432,
+    "score": 6.8
+  }
+]
