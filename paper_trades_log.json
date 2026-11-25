@@ -1769,5 +1769,71 @@
     "value_pln": 3400.0,
     "pnl_pln": 0.0,
     "reason": "wejście (sleeve, score 6.0)"
+  },
+  {
+    "date": "2026-11-25",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 1287.9457,
+    "price_usd": 0.85,
+    "value_pln": 4506.44,
+    "pnl_pln": 40.66,
+    "reason": "stop trafiony (zwrot +0.9%)"
+  },
+  {
+    "date": "2026-11-25",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "SELL",
+    "shares": 17.7626,
+    "price_usd": 47.56,
+    "value_pln": 3463.64,
+    "pnl_pln": 46.97,
+    "reason": "stop trafiony (zwrot +1.4%)"
+  },
+  {
+    "date": "2026-11-25",
+    "ticker": "ASML",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 2.8267,
+    "price_usd": 1302.33,
+    "value_pln": 15093.58,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 8.0)"
+  },
+  {
+    "date": "2026-11-25",
+    "ticker": "TSM",
+    "tag": "core",
+    "side": "BUY",
+    "shares": 2.6629,
+    "price_usd": 341.27,
+    "value_pln": 3725.94,
+    "pnl_pln": 0.0,
+    "reason": "wejście (core, score 7.7)"
+  },
+  {
+    "date": "2026-11-25",
+    "ticker": "DOMH",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 1270.099,
+    "price_usd": 0.85,
+    "value_pln": 4444.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.6)"
+  },
+  {
+    "date": "2026-11-25",
+    "ticker": "RKLB",
+    "tag": "sleeve",
+    "side": "BUY",
+    "shares": 17.4363,
+    "price_usd": 47.56,
+    "value_pln": 3400.0,
+    "pnl_pln": 0.0,
+    "reason": "wejście (sleeve, score 6.0)"
   }
 ]

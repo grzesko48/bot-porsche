@@ -1,32 +1,34 @@
 {
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "signals": [
+    {
+      "ticker": "HPE",
+      "has_catalyst": true,
+      "catalyst_type": "earnings_guidance",
+      "direction": "bullish",
+      "headline": "Q4 FY26 (23 XI): EPS 1.43 > prognoza 1.20-1.30, przychody +50% do 14.5B, zamowienia +88%, PODNIESIONA prognoza FY27 (wzrost 27-35%, EPS 5.05-5.35). Po sesji -7% (sell-the-news po +17% na sesji).",
+      "as_of": "2026-11-23",
+      "confidence": 0.6,
+      "source_count": 4,
+      "sources": [
+        {"label": "SEC 8-K (11/23/2026)", "url": "https://www.sec.gov/Archives/edgar/data/0001645590/000164559026000097/ex-991x11232026x8k.htm"},
+        {"label": "SiliconANGLE", "url": "https://siliconangle.com/2026/11/24/key-insights-from-hpes-q4-earnings-report/"},
+        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-q4-earnings-beat-estimates-130300467.html"},
+        {"label": "Motley Fool transcript", "url": "https://www.fool.com/earnings/call-transcripts/2026/11/24/hp-enterprise-hpe-q4-2026-earnings-call-transcript/"}
+      ]
+    },
     {
       "ticker": "DELL",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Wyniki Q3 FY27 dopiero DZIS (24 XI po sesji) — okno RYZYKA earnings, nie zrealizowany katalizator; backlog AI $95B to stary Q2",
-      "as_of": "2026-11-24",
+      "headline": "Q3 FY27 wlasnie opublikowany (~24-25 XI) — okno RYZYKA earnings; kierunek/reakcja rynku niepotwierdzona >=2 zrodlami. Nie traktuje jako zrealizowany katalizator.",
+      "as_of": "2026-11-25",
       "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Admiral Markets", "url": "https://admiralmarkets.com/analytics/traders-blog/dell-earnings-preview-q3-fiscal-2027"},
-        {"label": "BigGo Finance", "url": "https://finance.biggo.com/news/6282fa0f-40e3-415b-9a5a-7ab36ef69de0"}
-      ]
-    },
-    {
-      "ticker": "HPE",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Zlecenie Vultr $1.2B (AMD Helios) + podniesiona prognoza sieci — z 30 IX, POZA oknem 7 dni, zdyskontowane; wyniki Q4 FY26 dopiero w listopadzie",
-      "as_of": "2026-09-30",
-      "confidence": 0.3,
-      "source_count": 2,
-      "sources": [
-        {"label": "Techzine", "url": "https://www.techzine.eu/news/infrastructure/144695/hpe-secures-first-amd-helios-order-1-2-billion-from-vultr/"},
-        {"label": "Fierce Network", "url": "https://www.fierce-network.com/broadband/hpe-lands-first-amd-helios-order-12b-vultr-deal"}
+        {"label": "SEC 8-K Q3 FY27", "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm"},
+        {"label": "Barchart preview", "url": "https://www.barchart.com/story/news/35728832/earnings-preview-what-to-expect-from-dell-technologies-report"}
       ]
     },
     {
@@ -34,13 +36,13 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7d) dyskretnego katalizatora; HBM sold-out / kontrakty $32B to stare (Q4 call 30 IX), wyniki Q1 FY27 ok. 16 XII",
-      "as_of": "2026-10-01",
+      "headline": "Supercykl HBM silny (2027 juz zakontraktowany), ostatni kwartal beat-and-raise, ale BRAK swiezego (<=7d) dyskretnego katalizatora; nast. wyniki ~polowa XII.",
+      "as_of": "2026-11-25",
       "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/2942553/micron-q3-earnings-call-highlights-supply-crunch-and-scas"},
-        {"label": "TrendForce", "url": "https://www.trendforce.com/news/2026-10-01/news-micron-fy2026-revenue-surges-256-to-133-2b-locks-in-35-of-revenue-through-2030/"}
+        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/micron-68-ytd-hbm-demand-185356956.html"},
+        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/2942553/micron-q3-earnings-call-highlights-supply-crunch-and-scas"}
       ]
     },
     {
@@ -48,27 +50,27 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego (<=7d) newsa; wyszukiwanie zwraca wyniki sprzed roku (FY26), raport Q3 FY27 dopiero ok. poczatku grudnia; ruch to sentyment sektora",
-      "as_of": "2026-11-24",
+      "headline": "Brak swiezego katalizatora; wyniki Q3 FY27 dopiero ~pocz. XII (okno ryzyka), kurs -21% w miesiac. Trakcja AI-identity to stara narracja.",
+      "as_of": "2026-11-25",
       "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/news/why-okta-okta-6-9-220911623.html"},
-        {"label": "Barchart", "url": "https://www.barchart.com/story/news/36462278/okta-excuses-to-sell-vs-reasons-to-buy"}
+        {"label": "Fox Business", "url": "https://www.foxbusiness.com/quote?stockTicker=OKTA"},
+        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/news/why-okta-okta-6-9-220911623.html"}
       ]
     },
     {
       "ticker": "LITE",
       "has_catalyst": false,
-      "catalyst_type": "MnA",
+      "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Przejecie all-stock przez Marvell (4.5 MRVL/LITE, ~$115B) z 2 XI — POZA oknem 7 dni, zamkniecie dopiero H1 2028, juz zdyskontowane",
+      "headline": "Pending przejecie przez Marvell (all-stock 4.5 akcji MRVL za 1 LITE, ogl. ~2 XI = >7d, STALE; szanse zamkniecia ~50/50). Teraz sytuacja merger-arb powiazana z kursem MRVL, nie czysty momentum — ostroznie.",
       "as_of": "2026-11-02",
-      "confidence": 0.4,
+      "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Light Reading", "url": "https://lightreading.com/ai-machine-learning/marvell-strikes-115b-deal-for-lumentum"},
-        {"label": "Marvell IR", "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/"}
+        {"label": "Trefis", "url": "https://www.trefis.com/data/companies/LITE?from=section_ticker"},
+        {"label": "Benzinga", "url": "https://www.benzinga.com/quote/LITE"}
       ]
     }
   ]
