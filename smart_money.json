@@ -1,26 +1,9 @@
 {
-  "generated": "2026-11-25",
-  "note": "Sprawdzono insiderow/kongres/13F (OpenInsider, QuiverQuant, Benzinga, Kadoa, StockCircle) dla 5 tickerow (HPE/DELL/MU/OKTA/LITE). ZADEN nie ma SWIEZEGO (<=7d) klastra KUPNA insiderow: OKTA i MU per saldo sprzedajacy, DELL 0 zakupow / 6 sprzedazy w 90d (stan ~23 IX), HPE tylko stare Form 4 z 2025, LITE brak. Transakcje kongresu dla MU/DELL istnieja, ale z polowy 2026 (stare, mieszane). 13F Q3 niepotwierdzone. Brak swiezej sprzedazy klastrowej -> cluster_sell=false dla wszystkich, by nie wywolac falszywego HARD_BLOCK. Wynik: NEUTRAL dla wszystkich 5.",
-  "insiders": {
-    "HPE":  {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -34, "cluster_sell": false},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -10, "cluster_sell": false},
-    "MU":   {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -5,  "cluster_sell": false},
-    "OKTA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -24, "cluster_sell": false},
-    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -13, "cluster_sell": false}
-  },
-  "funds": {
-    "HPE": [],
-    "DELL": [],
-    "MU": [],
-    "OKTA": [],
-    "LITE": []
-  },
-  "politicians": {
-    "HPE": [],
-    "DELL": [],
-    "MU": [],
-    "OKTA": [],
-    "LITE": []
-  },
+  "generated_by": "agent-routine",
+  "as_of_run": "2026-11-26",
+  "note": "Insiderzy (OpenInsider), fundusze 13F (Dataroma/Quiver) i kongresmeni. Dyscyplina: tylko potwierdzona, swieza i materialna konfluencja. Brak takiej = puste (zmierzone, bez sygnalu). Znalezione: MU insider buy ze stycznia 2026 (stare), DELL director buys z wrzesnia 2026 bez ujawnionej ceny (stare), LITE nowe pozycje 13F za okres Q2 2026 bez % portfela (laggowane), dane kongresowe sprzeczne/stare - nic nie przechodzi progu materialnosci.",
+  "insiders": {},
+  "funds": {},
+  "politicians": {},
   "sector_exits": []
 }

@@ -1,34 +1,19 @@
 {
-  "generated": "2026-11-25",
+  "generated_by": "agent-routine",
+  "as_of_run": "2026-11-26",
+  "note": "Weryfikacja swiezych (<=7 dni) katalizatorow. Wymog: >=2 niezalezne zrodla dla has_catalyst:true. Dyscyplina: tylko to, co potwierdzone teraz; brak potwierdzenia = false (szum != sygnal).",
   "signals": [
     {
-      "ticker": "HPE",
-      "has_catalyst": true,
-      "catalyst_type": "earnings_guidance",
-      "direction": "bullish",
-      "headline": "Q4 FY26 (23 XI): EPS 1.43 > prognoza 1.20-1.30, przychody +50% do 14.5B, zamowienia +88%, PODNIESIONA prognoza FY27 (wzrost 27-35%, EPS 5.05-5.35). Po sesji -7% (sell-the-news po +17% na sesji).",
-      "as_of": "2026-11-23",
-      "confidence": 0.6,
-      "source_count": 4,
-      "sources": [
-        {"label": "SEC 8-K (11/23/2026)", "url": "https://www.sec.gov/Archives/edgar/data/0001645590/000164559026000097/ex-991x11232026x8k.htm"},
-        {"label": "SiliconANGLE", "url": "https://siliconangle.com/2026/11/24/key-insights-from-hpes-q4-earnings-report/"},
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-q4-earnings-beat-estimates-130300467.html"},
-        {"label": "Motley Fool transcript", "url": "https://www.fool.com/earnings/call-transcripts/2026/11/24/hp-enterprise-hpe-q4-2026-earnings-call-transcript/"}
-      ]
-    },
-    {
-      "ticker": "DELL",
+      "ticker": "LITE",
       "has_catalyst": false,
-      "catalyst_type": "none",
+      "catalyst_type": "contract",
       "direction": "neutral",
-      "headline": "Q3 FY27 wlasnie opublikowany (~24-25 XI) — okno RYZYKA earnings; kierunek/reakcja rynku niepotwierdzona >=2 zrodlami. Nie traktuje jako zrealizowany katalizator.",
-      "as_of": "2026-11-25",
-      "confidence": 0.3,
-      "source_count": 2,
+      "headline": "Druga duza wygrana NPO/CPO (>5 mld USD zobowiazan) ujawniona w 8-K z 2 lis 2026 - poza oknem 7 dni; brak swiezego katalizatora",
+      "as_of": "2026-11-02",
+      "confidence": 0.4,
+      "source_count": 1,
       "sources": [
-        {"label": "SEC 8-K Q3 FY27", "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm"},
-        {"label": "Barchart preview", "url": "https://www.barchart.com/story/news/35728832/earnings-preview-what-to-expect-from-dell-technologies-report"}
+        {"label": "Autobound 8-K", "url": "https://www.autobound.ai/companies/lumentum/8-k/lumentum-secures-second-major-npo-cpo-win-with-purchase-0be3108f"}
       ]
     },
     {
@@ -36,41 +21,45 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Supercykl HBM silny (2027 juz zakontraktowany), ostatni kwartal beat-and-raise, ale BRAK swiezego (<=7d) dyskretnego katalizatora; nast. wyniki ~polowa XII.",
-      "as_of": "2026-11-25",
+      "headline": "Silny popyt na HBM i kontrakty na 2027 to tlo strukturalne, nie swiezy katalizator <=7 dni; brak potwierdzonego newsa z tego tygodnia",
+      "as_of": "2026-11-26",
       "confidence": 0.3,
-      "source_count": 2,
-      "sources": [
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/micron-68-ytd-hbm-demand-185356956.html"},
-        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/2942553/micron-q3-earnings-call-highlights-supply-crunch-and-scas"}
-      ]
+      "source_count": 0,
+      "sources": []
+    },
+    {
+      "ticker": "DELL",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Wyszukiwanie zwraca wylacznie dane sprzed roku (Q3 FY2026, lis 2025); brak potwierdzonego swiezego katalizatora z listopada 2026",
+      "as_of": "2026-11-26",
+      "confidence": 0.3,
+      "source_count": 0,
+      "sources": []
     },
     {
       "ticker": "OKTA",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Brak swiezego katalizatora; wyniki Q3 FY27 dopiero ~pocz. XII (okno ryzyka), kurs -21% w miesiac. Trakcja AI-identity to stara narracja.",
-      "as_of": "2026-11-25",
+      "headline": "Dostepne tylko wyniki Q3 FY2026 (raport z grudnia 2025); nastepny raport dopiero przed nami, brak swiezego katalizatora",
+      "as_of": "2026-11-26",
       "confidence": 0.3,
-      "source_count": 2,
-      "sources": [
-        {"label": "Fox Business", "url": "https://www.foxbusiness.com/quote?stockTicker=OKTA"},
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/news/why-okta-okta-6-9-220911623.html"}
-      ]
+      "source_count": 0,
+      "sources": []
     },
     {
-      "ticker": "LITE",
+      "ticker": "HPE",
       "has_catalyst": false,
-      "catalyst_type": "none",
+      "catalyst_type": "earnings_guidance",
       "direction": "neutral",
-      "headline": "Pending przejecie przez Marvell (all-stock 4.5 akcji MRVL za 1 LITE, ogl. ~2 XI = >7d, STALE; szanse zamkniecia ~50/50). Teraz sytuacja merger-arb powiazana z kursem MRVL, nie czysty momentum — ostroznie.",
-      "as_of": "2026-11-02",
-      "confidence": 0.3,
-      "source_count": 2,
+      "headline": "Call Q4 FY2026 odbyl sie 23 lis 2026 (w oknie 7 dni), ale faktycznych wynikow nie dalo sie potwierdzic w 2 niezaleznych zrodlach (coverage zwracal dane sprzed roku); kierunek niepotwierdzony",
+      "as_of": "2026-11-23",
+      "confidence": 0.4,
+      "source_count": 1,
       "sources": [
-        {"label": "Trefis", "url": "https://www.trefis.com/data/companies/LITE?from=section_ticker"},
-        {"label": "Benzinga", "url": "https://www.benzinga.com/quote/LITE"}
+        {"label": "HPE Investor Relations", "url": "https://investors.hpe.com/"}
       ]
     }
   ]
