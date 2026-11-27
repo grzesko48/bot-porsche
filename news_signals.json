@@ -1,62 +1,18 @@
 {
-  "generated": "2026-11-25",
+  "generated": "2026-11-27",
   "signals": [
-    {
-      "ticker": "HPE",
-      "has_catalyst": true,
-      "catalyst_type": "earnings_guidance",
-      "direction": "bullish",
-      "headline": "Q4 FY26 (23 XI): EPS 1.43 > prognoza 1.20-1.30, przychody +50% do 14.5B, zamowienia +88%, PODNIESIONA prognoza FY27 (wzrost 27-35%, EPS 5.05-5.35). Po sesji -7% (sell-the-news po +17% na sesji).",
-      "as_of": "2026-11-23",
-      "confidence": 0.6,
-      "source_count": 4,
-      "sources": [
-        {"label": "SEC 8-K (11/23/2026)", "url": "https://www.sec.gov/Archives/edgar/data/0001645590/000164559026000097/ex-991x11232026x8k.htm"},
-        {"label": "SiliconANGLE", "url": "https://siliconangle.com/2026/11/24/key-insights-from-hpes-q4-earnings-report/"},
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-q4-earnings-beat-estimates-130300467.html"},
-        {"label": "Motley Fool transcript", "url": "https://www.fool.com/earnings/call-transcripts/2026/11/24/hp-enterprise-hpe-q4-2026-earnings-call-transcript/"}
-      ]
-    },
-    {
-      "ticker": "DELL",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Q3 FY27 wlasnie opublikowany (~24-25 XI) — okno RYZYKA earnings; kierunek/reakcja rynku niepotwierdzona >=2 zrodlami. Nie traktuje jako zrealizowany katalizator.",
-      "as_of": "2026-11-25",
-      "confidence": 0.3,
-      "source_count": 2,
-      "sources": [
-        {"label": "SEC 8-K Q3 FY27", "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm"},
-        {"label": "Barchart preview", "url": "https://www.barchart.com/story/news/35728832/earnings-preview-what-to-expect-from-dell-technologies-report"}
-      ]
-    },
     {
       "ticker": "MU",
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Supercykl HBM silny (2027 juz zakontraktowany), ostatni kwartal beat-and-raise, ale BRAK swiezego (<=7d) dyskretnego katalizatora; nast. wyniki ~polowa XII.",
-      "as_of": "2026-11-25",
+      "headline": "Brak swiezego (<=7d) katalizatora. Ostatnie newsy: dymisja czlonka zarzadu (5 XI), udzial w eventach inwestorskich (12 XI) - szum. Wyniki Q1'27 dopiero 16 XII.",
+      "as_of": "2026-11-12",
       "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/micron-68-ytd-hbm-demand-185356956.html"},
-        {"label": "Zacks", "url": "https://www.zacks.com/stock/news/2942553/micron-q3-earnings-call-highlights-supply-crunch-and-scas"}
-      ]
-    },
-    {
-      "ticker": "OKTA",
-      "has_catalyst": false,
-      "catalyst_type": "none",
-      "direction": "neutral",
-      "headline": "Brak swiezego katalizatora; wyniki Q3 FY27 dopiero ~pocz. XII (okno ryzyka), kurs -21% w miesiac. Trakcja AI-identity to stara narracja.",
-      "as_of": "2026-11-25",
-      "confidence": 0.3,
-      "source_count": 2,
-      "sources": [
-        {"label": "Fox Business", "url": "https://www.foxbusiness.com/quote?stockTicker=OKTA"},
-        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/news/why-okta-okta-6-9-220911623.html"}
+        {"label": "Barchart (nowi dyrektorzy)", "url": "https://www.barchart.com/story/news/4131470/mu-stock-alert-what-to-know-as-micron-appoints-new-executives"},
+        {"label": "Finviz (udzial w eventach)", "url": "https://finviz.com/news/422062/micron-announces-participation-in-investor-events"}
       ]
     },
     {
@@ -64,13 +20,55 @@
       "has_catalyst": false,
       "catalyst_type": "none",
       "direction": "neutral",
-      "headline": "Pending przejecie przez Marvell (all-stock 4.5 akcji MRVL za 1 LITE, ogl. ~2 XI = >7d, STALE; szanse zamkniecia ~50/50). Teraz sytuacja merger-arb powiazana z kursem MRVL, nie czysty momentum — ostroznie.",
+      "headline": "Kontrakt OCS/optyka AI >$5B i wyniki Q1'27 ogloszone 2 XI - POZA oknem 7 dni (dzis 27 XI). Brak nowego katalizatora w oknie.",
       "as_of": "2026-11-02",
       "confidence": 0.3,
       "source_count": 2,
       "sources": [
-        {"label": "Trefis", "url": "https://www.trefis.com/data/companies/LITE?from=section_ticker"},
-        {"label": "Benzinga", "url": "https://www.benzinga.com/quote/LITE"}
+        {"label": "SimplyWallSt (OCS deal)", "url": "https://simplywall.st/stocks/us/tech/nasdaq-lite/lumentum-holdings/news/will-multibillion-ocs-deal-and-soldout-capacity-through-2027"},
+        {"label": "RTTNews (Q1 wyniki 2 XI)", "url": "https://www.rttnews.com/3707237/lumentum-q1-earnings-surges-shares-fall-on-acquisition-news.aspx"}
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Raport Q3 FY27 oczekiwany ~24-25 XI, ale NIE potwierdzony 2 niezaleznymi zrodlami dla tegorocznej sesji (wyniki w wyszukiwarce myla sie z raportem sprzed roku). Brak twardego katalizatora w oknie.",
+      "as_of": "2026-11-17",
+      "confidence": 0.3,
+      "source_count": 2,
+      "sources": [
+        {"label": "Trefis (spadek -28.9% m/m)", "url": "https://www.trefis.com/stock/dell/articles/625654/what-needs-to-be-true-to-buy-dell-stock/2026-11-17"},
+        {"label": "Benzinga (kurs 17 XI)", "url": "https://kr.benzinga.com/quote/DELL/charts"}
+      ]
+    },
+    {
+      "ticker": "OKTA",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Brak newsow z listopada 2026. Najblizszy raport kwartalny prawdopodobnie na poczatku grudnia. Nic swiezego w oknie 7 dni.",
+      "as_of": "2026-11-27",
+      "confidence": 0.3,
+      "source_count": 2,
+      "sources": [
+        {"label": "Okta IR (ostatni raport Q3 FY26)", "url": "https://www.okta.com/newsroom/press-releases/okta-announces-third-quarter-fiscal-year-2026-financial-results/"},
+        {"label": "Barchart (analiza)", "url": "https://www.barchart.com/story/news/36462278/okta-excuses-to-sell-vs-reasons-to-buy"}
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "has_catalyst": false,
+      "catalyst_type": "none",
+      "direction": "neutral",
+      "headline": "Brak newsow z listopada 2026 w oknie. Przejecie Celestial AI (~$3.25B) to starsza wiadomosc. Raport kwartalny dopiero na poczatku grudnia.",
+      "as_of": "2026-11-12",
+      "confidence": 0.3,
+      "source_count": 2,
+      "sources": [
+        {"label": "Marvell IR (Q3 FY26)", "url": "https://investor.marvell.com/news-events/press-releases/detail/999/marvell-technology-inc-reports-third-quarter-of-fiscal-year-2026-financial-results"},
+        {"label": "Webull (partnerstwa AI/Celestial)", "url": "https://www.webull.com/news/15801600064344065"}
       ]
     }
   ]

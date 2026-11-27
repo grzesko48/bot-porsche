@@ -1,37 +1,37 @@
 [
   {
     "ticker": "ASML",
-    "entry_usd": 1300.4,
-    "stop_usd": 1202.97,
-    "target_usd": 1690.52,
+    "entry_usd": 1325.82,
+    "stop_usd": 1235.25,
+    "target_usd": 1723.566,
     "score": 8.0
   },
   {
     "ticker": "TSM",
-    "entry_usd": 340.45,
-    "stop_usd": 313.21,
-    "target_usd": 442.585,
+    "entry_usd": 353.34,
+    "stop_usd": 325.07,
+    "target_usd": 459.342,
     "score": 7.7
   },
   {
-    "ticker": "ACN",
-    "entry_usd": 243.77,
-    "stop_usd": 232.18,
-    "target_usd": 316.901,
+    "ticker": "ARM",
+    "entry_usd": 171.55,
+    "stop_usd": 157.83,
+    "target_usd": 223.015,
     "score": 7.4
   },
   {
     "ticker": "SAP",
-    "entry_usd": 210.99,
-    "stop_usd": 201.42,
-    "target_usd": 274.287,
+    "entry_usd": 213.65,
+    "stop_usd": 205.14,
+    "target_usd": 277.745,
     "score": 7.1
   },
   {
-    "ticker": "ADBE",
-    "entry_usd": 234.86,
-    "stop_usd": 225.65,
-    "target_usd": 305.318,
+    "ticker": "MSTR",
+    "entry_usd": 81.62,
+    "stop_usd": 75.09,
+    "target_usd": 106.106,
     "score": 6.8
   }
 ]

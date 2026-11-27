@@ -1,26 +1,26 @@
 {
-  "generated": "2026-11-25",
-  "note": "Sprawdzono insiderow/kongres/13F (OpenInsider, QuiverQuant, Benzinga, Kadoa, StockCircle) dla 5 tickerow (HPE/DELL/MU/OKTA/LITE). ZADEN nie ma SWIEZEGO (<=7d) klastra KUPNA insiderow: OKTA i MU per saldo sprzedajacy, DELL 0 zakupow / 6 sprzedazy w 90d (stan ~23 IX), HPE tylko stare Form 4 z 2025, LITE brak. Transakcje kongresu dla MU/DELL istnieja, ale z polowy 2026 (stare, mieszane). 13F Q3 niepotwierdzone. Brak swiezej sprzedazy klastrowej -> cluster_sell=false dla wszystkich, by nie wywolac falszywego HARD_BLOCK. Wynik: NEUTRAL dla wszystkich 5.",
+  "generated": "2026-11-27",
+  "note": "Sprawdzono insiderow/kongres/13F (OpenInsider, TipRanks, QuiverQuant, Benzinga, AltIndex) dla 5 tickerow (MU/LITE/DELL/OKTA/MRVL). ZADEN nie ma SWIEZEGO (<=7d) klastra KUPNA insiderow: MU per saldo insiderzy sprzedaja (zakupy z I-II kw.), MRVL zrodla sprzeczne/bez swiezych buyow, OKTA jeden zakup dyrektora w Q2 przewazony sprzedazami, DELL i LITE brak danych. Transakcje kongresu dla MU/MRVL z polowy 2026 (stare, mieszane - Fetterman III, Khanna/Whitehouse poł. roku). 13F Q3 niepotwierdzone. Brak swiezej sprzedazy klastrowej -> cluster_sell=false dla wszystkich, by nie wywolac falszywego HARD_BLOCK. Wynik: NEUTRAL dla wszystkich 5.",
   "insiders": {
-    "HPE":  {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -34, "cluster_sell": false},
-    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -10, "cluster_sell": false},
-    "MU":   {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -5,  "cluster_sell": false},
+    "MU":   {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -12, "cluster_sell": false},
+    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -13, "cluster_sell": false},
+    "DELL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -29, "cluster_sell": false},
     "OKTA": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -24, "cluster_sell": false},
-    "LITE": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -13, "cluster_sell": false}
+    "MRVL": {"n_insiders": 0, "n_directors": 0, "total_usd": 0, "price_vs_52wh_pct": -20, "cluster_sell": false}
   },
   "funds": {
-    "HPE": [],
-    "DELL": [],
     "MU": [],
+    "LITE": [],
+    "DELL": [],
     "OKTA": [],
-    "LITE": []
+    "MRVL": []
   },
   "politicians": {
-    "HPE": [],
-    "DELL": [],
     "MU": [],
+    "LITE": [],
+    "DELL": [],
     "OKTA": [],
-    "LITE": []
+    "MRVL": []
   },
   "sector_exits": []
 }
